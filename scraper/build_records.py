@@ -8,6 +8,7 @@ INDEX_FILE = Path("player_index.json")
 HISTORY_FILE = Path("legislative_history.json")
 BILLS_FILE = Path("bills.json")
 OUT_FILE = Path("voting_records.json")
+SCORECARD_FILE = Path("conservative_scorecard.json")
 
 
 def load_json(path, default):
@@ -61,6 +62,8 @@ def main():
     history = load_json(HISTORY_FILE, [])
     bills = load_json(BILLS_FILE, [])
     players = load_json(PLAYERS_FILE, [])
+    scorecard = load_json(SCORECARD_FILE, {})
+    scorecard_by_player = {str(p.get("player_id")): p for p in scorecard.get("players", [])}
 
     if not index:
         raise RuntimeError("player_index.json is missing; run build_history.py first.")
@@ -155,6 +158,19 @@ def main():
         player_records.append(
             {
                 "player_id": player_id,
+                "conservative_scorecard": scorecard_by_player.get(
+                    str(player_id),
+                    {
+                        "scores": {
+                            "social": None,
+                            "economic": None,
+                            "foreign": None,
+                            "overall": None,
+                            "tier": "N/A",
+                        },
+                        "sample_size": {"social": 0, "economic": 0, "foreign": 0},
+                    },
+                ),
                 "discord": display_discord,
                 "discord_current": bool(current),
                 "discord_aliases": aliases,
