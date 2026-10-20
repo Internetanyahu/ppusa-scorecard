@@ -14376,8 +14376,8 @@
         "social": null,
         "economic": null,
         "foreign": null,
-        "overall": 66.67,
-        "tier": "C"
+        "overall": null,
+        "tier": "N/A"
       },
       "sample_size": {
         "social": 1,
@@ -14433,7 +14433,7 @@
           "chamber": "Senate"
         }
       ],
-      "eligible_for_grade": true
+      "eligible_for_grade": false
     },
     {
       "user_id": "p1007",
@@ -23243,8 +23243,8 @@
         "social": null,
         "economic": null,
         "foreign": null,
-        "overall": 33.33,
-        "tier": "F"
+        "overall": null,
+        "tier": "N/A"
       },
       "sample_size": {
         "social": 1,
@@ -23300,7 +23300,7 @@
           "chamber": "Senate"
         }
       ],
-      "eligible_for_grade": true
+      "eligible_for_grade": false
     },
     {
       "user_id": "p1107",
@@ -37923,8 +37923,8 @@
         "social": null,
         "economic": null,
         "foreign": null,
-        "overall": 0.0,
-        "tier": "F"
+        "overall": null,
+        "tier": "N/A"
       },
       "sample_size": {
         "social": 1,
@@ -37980,7 +37980,7 @@
           "chamber": "Senate"
         }
       ],
-      "eligible_for_grade": true
+      "eligible_for_grade": false
     },
     {
       "user_id": "p1131",
@@ -38328,8 +38328,8 @@
         "social": null,
         "economic": null,
         "foreign": null,
-        "overall": 0.0,
-        "tier": "F"
+        "overall": null,
+        "tier": "N/A"
       },
       "sample_size": {
         "social": 1,
@@ -38385,7 +38385,7 @@
           "chamber": "Senate"
         }
       ],
-      "eligible_for_grade": true
+      "eligible_for_grade": false
     },
     {
       "user_id": "p1006",
@@ -38684,10 +38684,10 @@
       ],
       "scores": {
         "social": null,
-        "economic": null,
+        "economic": 0.0,
         "foreign": null,
-        "overall": null,
-        "tier": "N/A"
+        "overall": 0.0,
+        "tier": "F"
       },
       "sample_size": {
         "social": 0,
@@ -38743,7 +38743,7 @@
           "chamber": "House"
         }
       ],
-      "eligible_for_grade": false
+      "eligible_for_grade": true
     },
     {
       "user_id": "p1124",
@@ -39090,10 +39090,10 @@
       ],
       "scores": {
         "social": null,
-        "economic": null,
+        "economic": 0.0,
         "foreign": null,
-        "overall": null,
-        "tier": "N/A"
+        "overall": 25.0,
+        "tier": "F"
       },
       "sample_size": {
         "social": 1,
@@ -39162,7 +39162,7 @@
           "chamber": "House"
         }
       ],
-      "eligible_for_grade": false
+      "eligible_for_grade": true
     },
     {
       "user_id": "p1104",
