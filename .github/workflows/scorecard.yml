@@ -109,6 +109,13 @@ jobs:
                               f"{provision!r}"
                           )
 
+                  elif scorable is False:
+                      if direction != 0:
+                          raise SystemExit(
+                              "Neutral provision must have direction 0: "
+                              f"{provision!r}"
+                          )
+
                   elif direction not in (-1, 1):
                       raise SystemExit(
                           "Invalid provision direction for "
