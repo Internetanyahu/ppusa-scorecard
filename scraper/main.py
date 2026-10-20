@@ -89,6 +89,16 @@ with sync_playwright() as p:
 
     browser.close()
 
+print("TOTAL PROFILE LINKS:", len(profile_links))
+
+print("FIRST 10 PROFILE IDS:")
+for profile_id in list(players.keys())[:10]:
+    print(profile_id)
+
+print("LAST 10 PROFILE IDS:")
+for profile_id in list(players.keys())[-10:]:
+    print(profile_id)
+
 players_list = list(players.values())
 
 output = Path("players.json")
