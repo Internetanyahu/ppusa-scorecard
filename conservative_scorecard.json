@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T14:08:11+00:00",
+  "generated_at": "2026-10-20T14:26:24+00:00",
   "method": "Each finalized bill is scored provision-by-provision (+1 conservative, -1 liberal; neutral provisions excluded). Older bills decay by half every in-game year, applied monthly. Category grades require at least 3 raw scored provisions in that category; overall eligibility requires at least 3 scored provisions in one or more categories. Pending floor/committee bills are shown separately and never affect player scores. User IDs combine multiple profiles.",
   "bills": {
     "1": {
@@ -319,8 +319,7 @@
             "rule_id": "CAL-HR2-ASSAULT-RIFLES",
             "rationale": "Gun-rights/open-carry expansion is socially conservative and right of the current baseline.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": 1,
@@ -844,8 +843,7 @@
             "rule_id": "CAL-S2-SAME-SEX-CIVIL-UNIONS",
             "rationale": "Recognizes same-sex civil unions rather than maintaining the social-conservative marriage baseline.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": -1,
@@ -1347,8 +1345,7 @@
             "rule_id": "CAL-S3-ABORTION",
             "rationale": "Expands legal abortion relative to the conservative baseline.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": -1,
@@ -1822,8 +1819,7 @@
             "rule_id": "CAL-S4-AIR-POLLUTION",
             "rationale": "Adds/retains regulatory standards; the bill's own report shows regulatory burden falling, but the provision establishes environmental regulation rather than deregulation.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": -1,
@@ -2340,17 +2336,16 @@
             "rule_id": "CAL-S5-MIN-WAGE",
             "rationale": "Raises a government-mandated wage floor above the federal baseline.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           },
           {
+            "name": "VA (Monthly Benefit): $1,550",
             "direction": 1,
             "category": "economic",
             "rule_id": "USER-VA-GI-BILL",
             "rationale": "VA and GI Bill provisions are scored +1 under the user-defined rule.",
             "source": "override",
-            "scorable": true,
-            "name": "VA (Monthly Benefit): $1,550"
+            "scorable": true
           },
           {
             "name": "H-1B Skilled Worker Visa: 200,000",
@@ -2359,8 +2354,7 @@
             "rule_id": "CAL-S5-H1B",
             "rationale": "Expanding H-1B skilled-worker immigration moves policy leftward under the nationalist framework.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": -1,
@@ -2679,8 +2673,7 @@
             "rule_id": "CAL-S6-MEDICARE",
             "rationale": "Creates universal federal healthcare and increases federal program scope/regulatory burden.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": -1,
@@ -3067,17 +3060,16 @@
         "provisions": [
           {
             "name": "",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Final binary fallback; retained for deterministic scoring.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1,
         "weight": 0.29730177875068026,
         "finalized_game_date": "Week 24, 2001",
@@ -3247,17 +3239,16 @@
         "provisions": [
           {
             "name": "",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Final binary fallback; retained for deterministic scoring.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1,
         "weight": 0.47193715634084676,
         "finalized_game_date": "Week 8, 2002",
@@ -3584,8 +3575,7 @@
             "rule_id": "CAL-S8-SAME-SEX",
             "rationale": "Expands same-sex marriage recognition relative to the social-conservative baseline.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           },
           {
             "name": "Sex Education: Comprehensive Sex Education Mandated",
@@ -3594,8 +3584,7 @@
             "rule_id": "CAL-S8-SEX-ED",
             "rationale": "Mandated comprehensive sex education expands government-directed social policy.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           },
           {
             "name": "Diversity Immigrant Visa: 500,000",
@@ -3604,8 +3593,7 @@
             "rule_id": "CAL-S8-DV",
             "rationale": "Large-scale immigration expansion is leftward under the nationalist framework.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": -3,
@@ -4099,11 +4087,10 @@
             "name": "Nuclear Energy: Expanded & Subsidized",
             "direction": -1,
             "category": "economic",
-            "rule_id": "CAL-HR4-NUCLEAR",
-            "rationale": "Government subsidy expansion is leftward under fiscal libertarianism, even when the underlying energy source is favorable.",
-            "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "rule_id": "GENERAL-SUBSIDY",
+            "rationale": "Government subsidies increase government intervention and spending and are scored -1.",
+            "source": "general",
+            "scorable": true
           }
         ],
         "total": -1,
@@ -4478,8 +4465,7 @@
             "rule_id": "CAL-HR5-ANTILYNCH",
             "rationale": "Strengthens law-and-order enforcement against violent crime.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": 1,
@@ -4821,11 +4807,10 @@
             "name": "Small Business Support: Expanded SBA & Tax Relief",
             "direction": -1,
             "category": "economic",
-            "rule_id": "CAL-S25-SMALL-BUSINESS",
-            "rationale": "Expanded SBA support increases federal spending; the tax-relief component does not erase the spending expansion under the calibrated equal-provision rule.",
-            "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "rule_id": "GENERAL-TAX",
+            "rationale": "Taxation is scored -1 under the fiscal-libertarian framework.",
+            "source": "general",
+            "scorable": true
           }
         ],
         "total": -1,
@@ -5463,11 +5448,10 @@
             "name": "Superfund Authorization: Industry Excise Tax",
             "direction": -1,
             "category": "economic",
-            "rule_id": "CAL-S10-SUPERFUND-TAX",
-            "rationale": "Creates an additional industry tax.",
-            "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "rule_id": "GENERAL-TAX",
+            "rationale": "Taxation is scored -1 under the fiscal-libertarian framework.",
+            "source": "general",
+            "scorable": true
           }
         ],
         "total": -1,
@@ -5840,8 +5824,7 @@
             "rule_id": "CAL-S11-COMMUNIST-BAN",
             "rationale": "Anti-communist nationalism is rightward under the specified framework; civil-liberties costs do not reverse the direction.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": 1,
@@ -6170,18 +6153,16 @@
             "rule_id": "CAL-S12-PARKS",
             "rationale": "Expands federal land/environmental regulation rather than reducing government scope.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           },
           {
             "name": "Farm Subsidies: Heavy Subsidies",
             "direction": -1,
             "category": "economic",
-            "rule_id": "CAL-S12-FARM-SUBSIDIES",
-            "rationale": "Expands federal subsidies and spending.",
-            "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "rule_id": "GENERAL-SUBSIDY",
+            "rationale": "Government subsidies increase government intervention and spending and are scored -1.",
+            "source": "general",
+            "scorable": true
           }
         ],
         "total": -2,
@@ -6713,8 +6694,7 @@
             "rule_id": "CAL-S13-ELECTION-HOLIDAY",
             "rationale": "Adds a federal holiday and expands federally facilitated voting access; it is not a rightward law-and-order/nationalist movement.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": -1,
@@ -7280,8 +7260,7 @@
             "rule_id": "CAL-HR9-DC-STATEHOOD",
             "rationale": "Expands federal political representation and is treated as a moderate-liberal institutional expansion under the calibrated framework.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": -1,
@@ -7849,8 +7828,7 @@
             "rule_id": "CAL-S14-VOTING-AGE",
             "rationale": "Expands the electorate to minors and is not a nationalist/law-and-order rightward movement.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           },
           {
             "name": "Student Loans: Free Public University",
@@ -7859,8 +7837,7 @@
             "rule_id": "CAL-S14-FREE-UNIVERSITY",
             "rationale": "Creates a large federal education benefit.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           },
           {
             "name": "School Lunch: Universal Free Meals",
@@ -7869,8 +7846,7 @@
             "rule_id": "CAL-S14-FREE-MEALS",
             "rationale": "Creates a universal government-funded benefit.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": -3,
@@ -8272,17 +8248,16 @@
         "provisions": [
           {
             "name": "",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Final binary fallback; retained for deterministic scoring.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1,
         "weight": 0.5,
         "finalized_game_date": "Week 10, 2002",
@@ -8777,11 +8752,10 @@
             "name": "Union Dues Regulation: No Cap, Tax-Deductible",
             "direction": -1,
             "category": "economic",
-            "rule_id": "CAL-S15-UNION-DUES",
-            "rationale": "Expands union financial privileges and a tax preference rather than deregulating private enterprise.",
-            "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "rule_id": "GENERAL-TAX",
+            "rationale": "Taxation is scored -1 under the fiscal-libertarian framework.",
+            "source": "general",
+            "scorable": true
           }
         ],
         "total": -1,
@@ -9262,23 +9236,22 @@
       "scorecard": {
         "provisions": [
           {
+            "name": "Marijuana Legalization: Legal",
             "direction": 0,
             "category": null,
             "rule_id": "NEUTRAL-MARIJUANA",
             "rationale": "Marijuana legalization/decriminalization is neutral and is not scored.",
             "source": "override",
-            "scorable": false,
-            "name": "Marijuana Legalization: Legal"
+            "scorable": false
           },
           {
             "name": "Marijuana Sales Tax: 50%",
             "direction": -1,
             "category": "economic",
-            "rule_id": "CAL-S16-MARIJUANA-TAX",
-            "rationale": "Adds a substantial new tax.",
-            "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "rule_id": "GENERAL-TAX",
+            "rationale": "Taxation is scored -1 under the fiscal-libertarian framework.",
+            "source": "general",
+            "scorable": true
           }
         ],
         "total": -1,
@@ -9596,8 +9569,7 @@
             "rule_id": "CAL-HR18-TIKTOK",
             "rationale": "National-security restriction on a foreign-linked platform is rightward under nationalism/hemispheric-security priorities; civil-liberties effects do not reverse it.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": 1,
@@ -10062,11 +10034,10 @@
             "name": "Healthcare & Education Tax Credit: 25% Credit",
             "direction": 1,
             "category": "economic",
-            "rule_id": "CAL-S17-TAX-CREDIT",
-            "rationale": "A tax credit reduces taxes and is rightward under the fiscal-libertarian rule.",
-            "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "rule_id": "GENERAL-TAX-CREDIT",
+            "rationale": "Tax credits reduce tax burdens and are scored +1 under the fiscal-libertarian framework.",
+            "source": "general",
+            "scorable": true
           },
           {
             "name": "Social Security (Monthly Benefit): $2,250",
@@ -10075,8 +10046,7 @@
             "rule_id": "CAL-S17-SS",
             "rationale": "Expands a federal entitlement benefit.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           },
           {
             "name": "Federal Reserve (Monetary Policy): Neutral",
@@ -10085,8 +10055,7 @@
             "rule_id": "CAL-S17-FED",
             "rationale": "Binary fallback for a provision labeled neutral by the source; retained for deterministic no-zero scoring and flagged for review.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": 1,
@@ -10621,8 +10590,7 @@
             "rule_id": "CAL-S18-ENERGY-ADMIN",
             "rationale": "Expands/reorganizes a federal energy research program rather than reducing government scope.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           },
           {
             "name": "Interstate Highways: National Infrastructure Program",
@@ -10631,17 +10599,16 @@
             "rule_id": "CAL-S18-HIGHWAYS",
             "rationale": "Creates/expands a federal infrastructure spending program.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           },
           {
+            "name": "Marijuana Legalization: Decriminalized",
             "direction": 0,
             "category": null,
             "rule_id": "NEUTRAL-MARIJUANA",
             "rationale": "Marijuana legalization/decriminalization is neutral and is not scored.",
             "source": "override",
-            "scorable": false,
-            "name": "Marijuana Legalization: Decriminalized"
+            "scorable": false
           }
         ],
         "total": -2,
@@ -11103,8 +11070,7 @@
             "rule_id": "CAL-S19-SPECIAL-PROSECUTOR",
             "rationale": "Independent anti-corruption oversight advances the transparency/law-and-order priority.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           },
           {
             "name": "Intelligence Community Budget Authority: Full Program Authority",
@@ -11113,17 +11079,16 @@
             "rule_id": "CAL-S19-INTELLIGENCE",
             "rationale": "Strengthens intelligence capability and national defense without itself authorizing overseas intervention.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           },
           {
+            "name": "GI Bill: Full Tuition & Housing",
             "direction": 1,
             "category": "economic",
             "rule_id": "USER-VA-GI-BILL",
             "rationale": "VA and GI Bill provisions are scored +1 under the user-defined rule.",
             "source": "override",
-            "scorable": true,
-            "name": "GI Bill: Full Tuition & Housing"
+            "scorable": true
           }
         ],
         "total": 3,
@@ -11445,10 +11410,9 @@
             "direction": 0,
             "category": null,
             "rule_id": "CUSTOM-BILL-NEUTRAL",
-            "rationale": "Custom Bills contain no deterministic policy position and are neutral.",
+            "rationale": "Custom Bills are neutral and are not scored.",
             "source": "neutral",
-            "scorable": false,
-            "current_law": null
+            "scorable": false
           }
         ],
         "total": 0,
@@ -11748,8 +11712,7 @@
             "rule_id": "CAL-HR25-BORDER",
             "rationale": "Strengthens border enforcement and nationalism.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": 1,
@@ -12589,17 +12552,16 @@
         "provisions": [
           {
             "name": "",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Final binary fallback; retained for deterministic scoring.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1,
         "weight": 0.6299605249474366,
         "finalized_game_date": "Week 31, 2002",
@@ -12967,18 +12929,16 @@
             "rule_id": "CAL-S18-HIGHWAYS",
             "rationale": "Creates/expands a federal infrastructure spending program.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           },
           {
             "name": "Small Business Support: Expanded SBA & Tax Relief",
             "direction": -1,
             "category": "economic",
-            "rule_id": "CAL-S25-SMALL-BUSINESS",
-            "rationale": "Expanded SBA support increases federal spending; the tax-relief component does not erase the spending expansion under the calibrated equal-provision rule.",
-            "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "rule_id": "GENERAL-TAX",
+            "rationale": "Taxation is scored -1 under the fiscal-libertarian framework.",
+            "source": "general",
+            "scorable": true
           },
           {
             "name": "Minimum Wage: $12",
@@ -12987,8 +12947,7 @@
             "rule_id": "CAL-S25-MIN-WAGE",
             "rationale": "Raises a government-mandated wage floor.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": -3,
@@ -13152,17 +13111,16 @@
         "provisions": [
           {
             "name": "",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Final binary fallback; retained for deterministic scoring.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1,
         "weight": 0.5612310241546865,
         "finalized_game_date": "Week 20, 2002",
@@ -13450,17 +13408,16 @@
         "provisions": [
           {
             "name": "",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Final binary fallback; retained for deterministic scoring.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1,
         "weight": 0.7071067811865476,
         "finalized_game_date": "Week 37, 2002",
@@ -13792,8 +13749,7 @@
             "rule_id": "CAL-HR2-EQUAL-PAY",
             "rationale": "Deregulation is rightward under fiscal libertarianism; civil-rights tradeoffs do not reverse the rightward policy direction.",
             "source": "calibrated",
-            "scorable": true,
-            "current_law": null
+            "scorable": true
           }
         ],
         "total": 1,
@@ -41531,16 +41487,16 @@
         "provisions": [
           {
             "name": "Country Recognition (China): Recognize the KMT (Taiwan)",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -41564,10 +41520,10 @@
         "provisions": [
           {
             "name": "Same-Day Voter Registration: Enacted",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
@@ -41582,16 +41538,16 @@
           },
           {
             "name": "Voting Rights Act: Federal Registrars",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -3,
+        "alignment": "Liberal",
         "scored_provisions": 3
       }
     },
@@ -41668,8 +41624,8 @@
             "name": "Farm Subsidies: Heavy Subsidies",
             "direction": -1,
             "category": "economic",
-            "rule_id": "GENERAL-TAX",
-            "rationale": "Taxation is scored -1 under the fiscal-libertarian framework.",
+            "rule_id": "GENERAL-SUBSIDY",
+            "rationale": "Government subsidies increase government intervention and spending and are scored -1.",
             "source": "general",
             "scorable": true
           }
@@ -41699,16 +41655,16 @@
         "provisions": [
           {
             "name": "Advertising Standards: Strict Consumer Protection",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -41732,19 +41688,19 @@
         "provisions": [
           {
             "name": "SNAP (Monthly Benefits): $225",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Universal Basic Income (Monthly Payment): $1,500",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
@@ -41752,14 +41708,14 @@
             "name": "Social Security (Monthly Benefit): $3,000",
             "direction": -1,
             "category": "economic",
-            "rule_id": "GENERAL-TAX",
-            "rationale": "Taxation is scored -1 under the fiscal-libertarian framework.",
-            "source": "general",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
+            "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -3,
+        "alignment": "Liberal",
         "scored_provisions": 3
       }
     },
@@ -41801,16 +41757,16 @@
           },
           {
             "name": "Common Core Curriculum: National Standards Required",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 3
       }
     },
@@ -41867,16 +41823,16 @@
         "provisions": [
           {
             "name": "CIA / Covert Operations Oversight: Full Congressional Oversight",
-            "direction": 1,
-            "category": "social",
-            "rule_id": "SOC-TRANSPARENCY",
-            "rationale": "Greater government transparency is explicitly a scorecard priority.",
-            "source": "general",
+            "direction": -1,
+            "category": "economic",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
+            "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -41900,16 +41856,16 @@
         "provisions": [
           {
             "name": "",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -41936,16 +41892,16 @@
             "direction": -1,
             "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback: expands taxation, subsidies, spending, or government benefits.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Puerto Rico Statehood: Statehood",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
@@ -41953,13 +41909,13 @@
             "name": "Arts & Humanities Funding (NEA/NEH): Expanded Arts Funding",
             "direction": -1,
             "category": "economic",
-            "rule_id": "GENERAL-TAX",
-            "rationale": "Taxation is scored -1 under the fiscal-libertarian framework.",
-            "source": "general",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
+            "source": "fallback",
             "scorable": true
           }
         ],
-        "total": -1,
+        "total": -3,
         "alignment": "Liberal",
         "scored_provisions": 3
       }
@@ -41984,34 +41940,34 @@
         "provisions": [
           {
             "name": "Loyalty Oaths: Loyalty Oaths for Officials",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Defense Budget: Overfunded",
-            "direction": 1,
-            "category": "foreign",
-            "rule_id": "FOREIGN-DEFENSE",
-            "rationale": "Supports a strong military without necessarily requiring overseas projection.",
-            "source": "general",
+            "direction": -1,
+            "category": "economic",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: economic provision scored using the stated fiscal framework pending a specific rule.",
+            "source": "fallback",
             "scorable": true
           },
           {
             "name": "NATO Status: Fully Funded",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "foreign",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: foreign-policy provision scored using the stated anti-intervention framework pending a specific rule.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 3,
-        "alignment": "Conservative",
+        "total": -3,
+        "alignment": "Liberal",
         "scored_provisions": 3
       }
     },
@@ -42046,8 +42002,8 @@
             "name": "Agricultural Subsidies: $500/building",
             "direction": -1,
             "category": "economic",
-            "rule_id": "GENERAL-TAX",
-            "rationale": "Taxation is scored -1 under the fiscal-libertarian framework.",
+            "rule_id": "GENERAL-SUBSIDY",
+            "rationale": "Government subsidies increase government intervention and spending and are scored -1.",
             "source": "general",
             "scorable": true
           }
@@ -42128,10 +42084,10 @@
         "provisions": [
           {
             "name": "Equal Rights Amendment: Ratify ERA",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
@@ -42154,8 +42110,8 @@
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 3
       }
     },
@@ -42179,16 +42135,16 @@
         "provisions": [
           {
             "name": "Pistols: Licensed",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -42212,16 +42168,16 @@
         "provisions": [
           {
             "name": "Private Prisons: Banned",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback classification based on the provision's policy wording.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -42247,9 +42203,9 @@
             "name": "Medicare: Enacted",
             "direction": -1,
             "category": "economic",
-            "rule_id": "GENERAL-SUBSIDY",
-            "rationale": "Government subsidies increase government intervention and spending and are scored -1.",
-            "source": "general",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
+            "source": "fallback",
             "scorable": true
           }
         ],
@@ -42278,19 +42234,19 @@
         "provisions": [
           {
             "name": "Universal Basic Income: Pilot Program",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Universal Basic Income (Monthly Payment): $1,000",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
@@ -42298,14 +42254,14 @@
             "name": "Universal Basic Income (Who It Covers): All Adults 18+",
             "direction": -1,
             "category": "economic",
-            "rule_id": "GENERAL-SUBSIDY",
-            "rationale": "Government subsidies increase government intervention and spending and are scored -1.",
-            "source": "general",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
+            "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -3,
+        "alignment": "Liberal",
         "scored_provisions": 3
       }
     },
@@ -42332,7 +42288,7 @@
             "direction": -1,
             "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback: expands taxation, subsidies, spending, or government benefits.",
+            "rationale": "Fallback: economic provision scored using the stated fiscal framework pending a specific rule.",
             "source": "fallback",
             "scorable": true
           },
@@ -42347,15 +42303,15 @@
           },
           {
             "name": "Independent Political Expenditures: Unlimited Independent Expenditures",
-            "direction": 1,
-            "category": "social",
-            "rule_id": "SOC-TRANSPARENCY",
-            "rationale": "Greater government transparency is explicitly a scorecard priority.",
-            "source": "general",
+            "direction": -1,
+            "category": "economic",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
+            "source": "fallback",
             "scorable": true
           }
         ],
-        "total": -1,
+        "total": -3,
         "alignment": "Liberal",
         "scored_provisions": 3
       }
@@ -42416,7 +42372,7 @@
             "direction": -1,
             "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback: expands taxation, subsidies, spending, or government benefits.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
@@ -42425,7 +42381,7 @@
             "direction": -1,
             "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback: expands taxation, subsidies, spending, or government benefits.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
@@ -42433,9 +42389,9 @@
             "name": "Universal Preschool: Universal Preschool",
             "direction": -1,
             "category": "economic",
-            "rule_id": "GENERAL-TAX",
-            "rationale": "Taxation is scored -1 under the fiscal-libertarian framework.",
-            "source": "general",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
+            "source": "fallback",
             "scorable": true
           }
         ],
@@ -42464,16 +42420,16 @@
         "provisions": [
           {
             "name": "Pornography: ID Required for Use/Purchase",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -42506,25 +42462,25 @@
           },
           {
             "name": "Pathway to Citizenship: Enacted",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Guest Worker Program: Reformed Guest-Worker Program",
             "direction": -1,
-            "category": "social",
-            "rule_id": "SOC-IMMIGRATION-EXPANSION",
-            "rationale": "Expanding immigration moves left of the nationalist baseline unless explicitly calibrated otherwise.",
-            "source": "general",
+            "category": "economic",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
+            "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 3
       }
     },
@@ -42548,10 +42504,10 @@
         "provisions": [
           {
             "name": "Holidays (Hanukkah): Recognized Federally",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
@@ -42565,8 +42521,8 @@
             "scorable": true
           }
         ],
-        "total": 0,
-        "alignment": "Neutral / mixed",
+        "total": -2,
+        "alignment": "Liberal",
         "scored_provisions": 2
       }
     },
@@ -42593,7 +42549,7 @@
             "direction": -1,
             "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback: expands taxation, subsidies, spending, or government benefits.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
@@ -42623,16 +42579,16 @@
         "provisions": [
           {
             "name": "Sex Education: Abstinence-Only Mandated",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -42656,16 +42612,16 @@
         "provisions": [
           {
             "name": "",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -42689,16 +42645,16 @@
         "provisions": [
           {
             "name": "Medically Assisted Suicide: Terminal Illness Only",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -42725,7 +42681,7 @@
             "direction": -1,
             "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback: expands taxation, subsidies, spending, or government benefits.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
@@ -42773,15 +42729,15 @@
           },
           {
             "name": "Standard Workweek: No Limit",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": -1,
+        "total": -3,
         "alignment": "Liberal",
         "scored_provisions": 3
       }
@@ -42806,19 +42762,19 @@
         "provisions": [
           {
             "name": "Employer Retirement Plan: Required",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Employer Paid Time Off: Required",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
@@ -42826,14 +42782,14 @@
             "name": "Overtime & Child Labor Standards: Child Labor Limits Only",
             "direction": -1,
             "category": "economic",
-            "rule_id": "GENERAL-SUBSIDY",
-            "rationale": "Government subsidies increase government intervention and spending and are scored -1.",
-            "source": "general",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
+            "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -3,
+        "alignment": "Liberal",
         "scored_provisions": 3
       }
     },
@@ -42860,7 +42816,7 @@
             "direction": -1,
             "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback: expands taxation, subsidies, spending, or government benefits.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
@@ -42932,10 +42888,10 @@
           },
           {
             "name": "Tariffs: Free Trade",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: economic provision scored using the stated fiscal framework pending a specific rule.",
             "source": "fallback",
             "scorable": true
           },
@@ -42949,7 +42905,7 @@
             "scorable": true
           }
         ],
-        "total": -1,
+        "total": -3,
         "alignment": "Liberal",
         "scored_provisions": 3
       }
@@ -42974,16 +42930,16 @@
         "provisions": [
           {
             "name": "Air Pollution: Strict Standards",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -43040,16 +42996,16 @@
         "provisions": [
           {
             "name": "Workplace Safety Standards: Premium Standards",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -43106,34 +43062,34 @@
         "provisions": [
           {
             "name": "Defense Budget: Overfunded",
-            "direction": 1,
-            "category": "foreign",
-            "rule_id": "FOREIGN-DEFENSE",
-            "rationale": "Supports a strong military without necessarily requiring overseas projection.",
-            "source": "general",
+            "direction": -1,
+            "category": "economic",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: economic provision scored using the stated fiscal framework pending a specific rule.",
+            "source": "fallback",
             "scorable": true
           },
           {
             "name": "NATO Status: Overfunded",
-            "direction": 1,
+            "direction": -1,
             "category": "foreign",
-            "rule_id": "FOREIGN-DEFENSE",
-            "rationale": "Supports a strong military without necessarily requiring overseas projection.",
-            "source": "general",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: foreign-policy provision scored using the stated anti-intervention framework pending a specific rule.",
+            "source": "fallback",
             "scorable": true
           },
           {
             "name": "Cuba Policy: Military Action",
             "direction": 1,
             "category": "foreign",
-            "rule_id": "FOREIGN-DEFENSE",
-            "rationale": "Supports a strong military without necessarily requiring overseas projection.",
+            "rule_id": "FOREIGN-CUBA-HEMISPHERE",
+            "rationale": "Hemispheric action against communist threats is explicitly permitted by the framework.",
             "source": "general",
             "scorable": true
           }
         ],
-        "total": 3,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 3
       }
     },
@@ -43160,16 +43116,16 @@
             "direction": 1,
             "category": "social",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback classification based on the provision's policy wording.",
+            "rationale": "Fallback: social-policy provision scored +1 pending a specific rule.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Adoption by Same-Sex Couples: Banned",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback classification based on the provision's policy wording.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
@@ -43178,12 +43134,12 @@
             "direction": 1,
             "category": "social",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: social-policy provision scored +1 pending a specific rule.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 3,
+        "total": 1,
         "alignment": "Conservative",
         "scored_provisions": 3
       }
@@ -43208,25 +43164,25 @@
         "provisions": [
           {
             "name": "Country Recognition (Israel / Palestine): Recognize Palestine",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Country Recognition (China): Recognize the KMT (Taiwan)",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 2,
-        "alignment": "Conservative",
+        "total": -2,
+        "alignment": "Liberal",
         "scored_provisions": 2
       }
     },
@@ -43253,7 +43209,7 @@
             "direction": -1,
             "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback: expands taxation, subsidies, spending, or government benefits.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
@@ -43292,16 +43248,16 @@
         "provisions": [
           {
             "name": "Puerto Rico Statehood: Statehood",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -43325,10 +43281,10 @@
         "provisions": [
           {
             "name": "Antitrust Act: Break Up Monopolies",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
@@ -43342,8 +43298,8 @@
             "scorable": true
           }
         ],
-        "total": 0,
-        "alignment": "Neutral / mixed",
+        "total": -2,
+        "alignment": "Liberal",
         "scored_provisions": 2
       }
     },
@@ -43403,7 +43359,7 @@
             "direction": -1,
             "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback: expands taxation, subsidies, spending, or government benefits.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
@@ -43433,16 +43389,16 @@
         "provisions": [
           {
             "name": "",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -43499,16 +43455,16 @@
         "provisions": [
           {
             "name": "Holidays (Columbus Day): Unrecognized",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -43535,7 +43491,7 @@
             "direction": -1,
             "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback: expands taxation, subsidies, spending, or government benefits.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
@@ -43565,16 +43521,16 @@
         "provisions": [
           {
             "name": "Critical Race Theory: Required",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -43598,16 +43554,16 @@
         "provisions": [
           {
             "name": "National Parks: Preserved",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -43633,9 +43589,9 @@
             "name": "NASA & the Space Program: Heavy NASA Investment",
             "direction": -1,
             "category": "economic",
-            "rule_id": "GENERAL-TAX",
-            "rationale": "Taxation is scored -1 under the fiscal-libertarian framework.",
-            "source": "general",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
+            "source": "fallback",
             "scorable": true
           }
         ],
@@ -43664,34 +43620,34 @@
         "provisions": [
           {
             "name": "Same-Day Voter Registration: Enacted",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Campaign Finance Transparency: Public Financing & Full Transparency",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Early Voting: Enacted",
-            "direction": 1,
-            "category": "social",
-            "rule_id": "SOC-TRANSPARENCY",
-            "rationale": "Greater government transparency is explicitly a scorecard priority.",
-            "source": "general",
+            "direction": -1,
+            "category": "economic",
+            "rule_id": "FALLBACK",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
+            "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 3,
-        "alignment": "Conservative",
+        "total": -3,
+        "alignment": "Liberal",
         "scored_provisions": 3
       }
     },
@@ -43724,19 +43680,19 @@
           },
           {
             "name": "Medicare: Enacted",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Abortion: Banned",
-            "direction": -1,
-            "category": "economic",
-            "rule_id": "GENERAL-SUBSIDY",
-            "rationale": "Government subsidies increase government intervention and spending and are scored -1.",
+            "direction": 1,
+            "category": "social",
+            "rule_id": "SOC-ABORTION-RESTRICTION",
+            "rationale": "Abortion restriction is socially conservative.",
             "source": "general",
             "scorable": true
           }
@@ -43799,34 +43755,34 @@
         "provisions": [
           {
             "name": "Voting Rights Act: Federal Registrars",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Native American Land: Independent Nations",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Critical Race Theory: Required",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 3,
-        "alignment": "Conservative",
+        "total": -3,
+        "alignment": "Liberal",
         "scored_provisions": 3
       }
     },
@@ -43850,25 +43806,25 @@
         "provisions": [
           {
             "name": "Voting Rights Act: Federal Registrars",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           },
           {
             "name": "Early Voting: Enacted",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 2,
-        "alignment": "Conservative",
+        "total": -2,
+        "alignment": "Liberal",
         "scored_provisions": 2
       }
     },
@@ -43892,16 +43848,16 @@
         "provisions": [
           {
             "name": "Holidays (Juneteenth): Recognized Federally",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -43925,16 +43881,16 @@
         "provisions": [
           {
             "name": "Private Prisons: Banned",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback classification based on the provision's policy wording.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -43958,16 +43914,16 @@
         "provisions": [
           {
             "name": "Redlining: Allowed",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -43991,16 +43947,16 @@
         "provisions": [
           {
             "name": "Circumcision: Banned",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback classification based on the provision's policy wording.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -44024,16 +43980,16 @@
         "provisions": [
           {
             "name": "Energy Reorganization: Atomic Energy Commission",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     },
@@ -44057,16 +44013,16 @@
         "provisions": [
           {
             "name": "Drug Control Policy: Harm Reduction / Treatment",
-            "direction": 1,
-            "category": "social",
+            "direction": -1,
+            "category": "economic",
             "rule_id": "FALLBACK",
-            "rationale": "Fallback binary classification; review recommended.",
+            "rationale": "Fallback: unmatched provision defaults to -1 economic pending rule review.",
             "source": "fallback",
             "scorable": true
           }
         ],
-        "total": 1,
-        "alignment": "Conservative",
+        "total": -1,
+        "alignment": "Liberal",
         "scored_provisions": 1
       }
     }
