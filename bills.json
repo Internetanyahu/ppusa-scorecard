@@ -21,6 +21,16 @@
       "role": null
     },
     "cosponsors": [],
+    "provisions": [
+      {
+        "name": "Assault Rifles: Allowed",
+        "effects": [],
+        "notes": {
+          "Social": "Conservative",
+          "Gun Control": "Unrestricted Carry"
+        }
+      }
+    ],
     "votes": {
       "senate": {
         "aye": [
@@ -290,7 +300,7 @@
       "house aye: page says 98, parsed 7",
       "house nay: page says 146, parsed 14"
     ],
-    "scraped_at": "2026-10-20T07:44:19+00:00"
+    "scraped_at": "2026-10-20T08:30:09+00:00"
   },
   {
     "resolution_id": 2,
@@ -345,6 +355,20 @@
         "state": null,
         "seats": null,
         "role": null
+      }
+    ],
+    "provisions": [
+      {
+        "name": "Same-Sex Marriage: Civil Unions",
+        "effects": [
+          {
+            "metric": "Civil Liberties+2Gender Equality+1Social Cohesion Index",
+            "change": 1.0
+          }
+        ],
+        "notes": {
+          "A Year Later": "The report on what this law did is due in week 24 of 2003, a year after it took effect."
+        }
       }
     ],
     "votes": {
@@ -784,6 +808,6 @@
       "house aye: page says 202, parsed 15",
       "house nay: page says 102, parsed 11"
     ],
-    "scraped_at": "2026-10-20T07:44:20+00:00"
+    "scraped_at": "2026-10-20T08:30:10+00:00"
   }
 ]
