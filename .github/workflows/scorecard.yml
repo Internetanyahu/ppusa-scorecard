@@ -39,6 +39,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
+      - name: Diagnose Power Play with the real scraper request pattern
+        run: python scraper/diagnose_ppusa_pattern.py
       - name: Refresh current Power Play player roster
         run: python scraper/main.py
       - name: Scrape Power Play in-game clock
