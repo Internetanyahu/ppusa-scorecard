@@ -62,6 +62,28 @@ const partyLabel = v => ({
   cst: 'Constitutional'
 })[String(v || '').toLowerCase()] || String(v || 'Other');
 
+const initials = v =>
+  String(v || '?')
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map(x => x[0])
+    .join('')
+    .toUpperCase();
+
+function avatar(p) {
+  return p.avatar
+    ? `<img class="avatar" src="${esc(p.avatar)}" alt="">`
+    : `<div class="avatar-fallback">${esc(initials(p.name))}</div>`;
+}
+
+function billTotal(b) {
+  return (b.scorecard?.provisions || []).reduce(
+    (sum, p) => sum + (p.scorable === false ? 0 : (p.direction || 0)),
+    0
+  );
+}
+
 function siteUrl(path = '') {
   return new URL(path, window.location.href).href;
 }
@@ -120,28 +142,6 @@ function alignmentClass(alignment) {
       : 'neutral';
 }
 
-const initials = v =>
-  String(v || '?')
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map(x => x[0])
-    .join('')
-    .toUpperCase();
-
-function avatar(p) {
-  return p.avatar
-    ? `<img class="avatar" src="${esc(p.avatar)}" alt="">`
-    : `<div class="avatar-fallback">${esc(initials(p.name))}</div>`;
-}
-
-function billTotal(b) {
-  return (b.scorecard?.provisions || []).reduce(
-    (sum, p) => sum + (p.scorable === false ? 0 : (p.direction || 0)),
-    0
-  );
-}
-
 async function loadData() {
   const [scorecardResponse, rulesResponse] = await Promise.all([
     fetch('data/conservative_scorecard.json'),
@@ -174,12 +174,9 @@ async function loadData() {
     }
   }
 
-  applyAdminPolicy(false);
+  applyAdminPolicy(true);
 }
 
-
-// SHA-256 of the private admin secret file. The secret itself is never
-// stored in the site; the administrator must upload the matching file.
 const ADMIN_SECRET_HASH =
   '4fed7d100abaeae41e5f614b747bf78f9047b5cc055e521eec3de0cadbe4cc0d';
 
@@ -234,9 +231,8 @@ function provisionAssignment(name) {
     (b.scorecard?.provisions || []).some(p => p.name === name)
   );
 
-  const provision = bill?.scorecard?.provisions?.find(
-    p => p.name === name
-  );
+  const provision =
+    bill?.scorecard?.provisions?.find(p => p.name === name);
 
   return normalizeAdminOverride(
     name,
@@ -311,17 +307,15 @@ function recalculatePlayer(player, bills) {
   const counts = {};
 
   ['social', 'economic', 'foreign'].forEach(cat => {
-    counts[cat] = scored.filter(
-      x => x.category === cat
-    ).length;
+    counts[cat] =
+      scored.filter(x => x.category === cat).length;
   });
 
   const categoryScores = {};
 
   ['social', 'economic', 'foreign'].forEach(cat => {
-    const rows = scored.filter(
-      x => x.category === cat
-    );
+    const rows =
+      scored.filter(x => x.category === cat);
 
     if (rows.length < 3) {
       categoryScores[cat] = null;
@@ -340,13 +334,14 @@ function recalculatePlayer(player, bills) {
         0
       );
 
-    categoryScores[cat] = denominator
-      ? 100 * aligned / denominator
-      : null;
+    categoryScores[cat] =
+      denominator
+        ? 100 * aligned / denominator
+        : null;
   });
 
-  const eligible = Object.values(counts)
-    .some(n => n >= 3);
+  const eligible =
+    Object.values(counts).some(n => n >= 3);
 
   const denominator = scored.reduce(
     (sum, x) => sum + Number(x.weight ?? 1),
@@ -367,14 +362,10 @@ function recalculatePlayer(player, bills) {
 
   return {
     ...player,
-
     bill_details: details,
-
     scores: {
       ...categoryScores,
-
       overall,
-
       tier:
         overall === null
           ? 'N/A'
@@ -390,20 +381,15 @@ function recalculatePlayer(player, bills) {
                     ? 'D'
                     : 'F'
     },
-
     sample_size: {
       ...counts,
       overall: scored.length
     },
-
     provisions_scored: scored.length,
-
     aligned_provisions:
       scored.filter(x => x.aligned).length,
-
     aligned_votes:
       scored.filter(x => x.aligned).length,
-
     eligible_for_grade: eligible
   };
 }
@@ -425,18 +411,21 @@ function applyAdminPolicy(render = true) {
 
       if (!assignment) return;
 
-      const direction = Number(
-        assignment.direction
-      );
+      const direction =
+        Number(assignment.direction);
 
       provision.direction = direction;
       provision.category =
         assignment.category ?? null;
+
       provision.scorable =
         direction !== 0;
+
       provision.source = 'admin';
+
       provision.rule_id =
         `ADMIN-${assignment.group || 'EXACT'}`;
+
       provision.rationale =
         assignment.rationale ||
         'Assigned by the site policy editor.';
@@ -449,7 +438,8 @@ function applyAdminPolicy(render = true) {
     );
 
     const total = scored.reduce(
-      (sum, p) => sum + Number(p.direction),
+      (sum, p) =>
+        sum + Number(p.direction),
       0
     );
 
@@ -465,24 +455,28 @@ function applyAdminPolicy(render = true) {
           : 'Neutral / mixed';
   });
 
-  data.players = (data.players || []).map(
-    player => recalculatePlayer(
-      player,
-      data.bills
-    )
-  );
+  data.players =
+    (data.players || []).map(
+      player =>
+        recalculatePlayer(
+          player,
+          data.bills
+        )
+    );
 
   state.data = data;
   state.players = data.players || [];
 
-  state.bills = Object.values(data.bills || {})
-    .sort(
-      (a, b) =>
-        Number(a.resolution_id) -
-        Number(b.resolution_id)
-    );
+  state.bills =
+    Object.values(data.bills || {})
+      .sort(
+        (a, b) =>
+          Number(a.resolution_id) -
+          Number(b.resolution_id)
+      );
 
-  state.pending = data.pending_bills || [];
+  state.pending =
+    data.pending_bills || [];
 
   if (render) {
     renderSummary();
@@ -507,8 +501,7 @@ function persistAdminPolicy() {
 
 function setAdminAssignment(name, direction) {
   const base =
-    state.rules.admin_policy
-      .provision_overrides[name];
+    state.rules.admin_policy.provision_overrides[name];
 
   if (!base) return;
 
@@ -557,7 +550,10 @@ function setAdminAssignmentWithoutRender(
   state.adminOverrides[name] =
     normalizeAdminOverride(
       name,
-      { ...base, direction },
+      {
+        ...base,
+        direction
+      },
       base
     );
 }
@@ -586,8 +582,11 @@ function downloadAdminRules() {
 
   const blob = new Blob(
     [
-      JSON.stringify(rules, null, 2) +
-      '\n'
+      JSON.stringify(
+        rules,
+        null,
+        2
+      ) + '\n'
     ],
     {
       type: 'application/json'
@@ -607,7 +606,8 @@ function downloadAdminRules() {
   link.click();
 
   setTimeout(
-    () => URL.revokeObjectURL(url),
+    () =>
+      URL.revokeObjectURL(url),
     1000
   );
 }
@@ -636,16 +636,70 @@ async function unlockAdmin() {
     return;
   }
 
+  const choice = window.confirm(
+    'Admin access requires the secret key.\n\n' +
+    'OK = paste the key\n' +
+    'Cancel = upload a .txt file containing the key'
+  );
+
+  if (choice) {
+    const secret =
+      window.prompt(
+        'Paste the admin secret key:'
+      );
+
+    if (secret === null) {
+      return;
+    }
+
+    const trimmed =
+      secret.trim();
+
+    if (!trimmed) {
+      window.alert(
+        'Admin secret cannot be empty.'
+      );
+      return;
+    }
+
+    try {
+      if (
+        (await sha256(trimmed)) !==
+        ADMIN_SECRET_HASH
+      ) {
+        window.alert(
+          'Invalid admin secret.'
+        );
+        return;
+      }
+
+      state.adminUnlocked = true;
+
+      renderAdminPanel();
+
+      $('adminDialog').showModal();
+    } catch (_) {
+      window.alert(
+        'Could not verify the admin secret.'
+      );
+    }
+
+    return;
+  }
+
   const input =
     document.createElement('input');
 
   input.type = 'file';
-  input.accept = '.txt,text/plain';
-  input.style.display = 'none';
+  input.accept =
+    '.txt,text/plain';
+  input.style.display =
+    'none';
 
   document.body.appendChild(input);
 
-  const cleanup = () => input.remove();
+  const cleanup = () =>
+    input.remove();
 
   input.addEventListener(
     'change',
@@ -696,7 +750,8 @@ async function unlockAdmin() {
 }
 
 function renderAdminPanel() {
-  const root = $('adminPanel');
+  const root =
+    $('adminPanel');
 
   if (
     !root ||
@@ -717,39 +772,40 @@ function renderAdminPanel() {
   const groupRows =
     groups.map(group => {
       const assigned =
-        group.provisions.map(
-          name =>
-            provisionAssignment(
-              name
-            ).direction
-        );
+        group.provisions
+          .map(
+            name =>
+              provisionAssignment(
+                name
+              ).direction
+          );
 
       const mixed =
         new Set(assigned).size > 1;
 
       return `
-      <div class="admin-group">
-        <div>
-          <strong>${esc(group.label)}</strong>
-          <span>
-            ${group.provisions.length}
-            provision${group.provisions.length === 1 ? '' : 's'}
-          </span>
-          <small>
-            ${
-              mixed
-                ? 'Current assignments are mixed.'
-                : `Current: ${directionLabel(assigned[0])}`
-            }
-          </small>
-        </div>
+        <div class="admin-group">
+          <div>
+            <strong>${esc(group.label)}</strong>
+            <span>
+              ${group.provisions.length}
+              provision${group.provisions.length === 1 ? '' : 's'}
+            </span>
+            <small>
+              ${
+                mixed
+                  ? 'Current assignments are mixed.'
+                  : `Current: ${directionLabel(assigned[0])}`
+              }
+            </small>
+          </div>
 
-        <select data-admin-group="${esc(group.id)}">
-          <option value="">Bulk assign…</option>
-          ${ADMIN_DIRECTION_OPTIONS}
-        </select>
-      </div>
-    `;
+          <select data-admin-group="${esc(group.id)}">
+            <option value="">Bulk assign…</option>
+            ${ADMIN_DIRECTION_OPTIONS}
+          </select>
+        </div>
+      `;
     }).join('');
 
   const options =
@@ -758,10 +814,10 @@ function renderAdminPanel() {
         provisionAssignment(name);
 
       return `
-      <option value="${esc(name)}">
-        ${esc(name)} — ${directionLabel(a.direction)}
-      </option>
-    `;
+        <option value="${esc(name)}">
+          ${esc(name)} — ${directionLabel(a.direction)}
+        </option>
+      `;
     }).join('');
 
   root.innerHTML = `
@@ -775,29 +831,34 @@ function renderAdminPanel() {
       </h2>
 
       <p class="detail-sub">
-        Group controls apply to every provision
-        in the group. Advanced controls let you
-        change one provision at a time. Changes
-        are saved only in this browser until you
-        export the rules file.
+        Group controls apply to every provision in
+        the group. Advanced controls let you change
+        one provision at a time. Changes are saved
+        only in this browser until you export the
+        rules file.
       </p>
     </div>
 
     <div class="admin-warning">
-      Upload your private admin secret file to
-      unlock this editor. The secret itself is
-      never stored on the site; only its SHA-256
-      hash is embedded. This is still client-side
-      protection on GitHub Pages, not server-side
-      authentication.
+      This is a static GitHub Pages site. The secret
+      hides the editor, but it is not server-side
+      authentication. For real access control, the
+      admin UI would need a server-side identity
+      provider.
     </div>
 
     <div class="admin-actions">
-      <button class="toggle" id="exportRules">
+      <button
+        class="toggle"
+        id="exportRules"
+      >
         Export updated rules
       </button>
 
-      <button class="toggle" id="resetRules">
+      <button
+        class="toggle"
+        id="resetRules"
+      >
         Reset local assignments
       </button>
     </div>
@@ -823,6 +884,7 @@ function renderAdminPanel() {
         <option value="">
           Select a provision…
         </option>
+
         ${options}
       </select>
 
@@ -830,28 +892,36 @@ function renderAdminPanel() {
         Assignment
       </label>
 
-      <select id="adminDirection" disabled>
+      <select
+        id="adminDirection"
+        disabled
+      >
         <option value="">
           Select a provision first…
         </option>
+
         ${ADMIN_DIRECTION_OPTIONS}
       </select>
     </div>
 
     <div class="admin-coverage">
       ${names.length}
-      named provisions currently have
-      explicit assignments.
+      named provisions currently have explicit
+      assignments.
     </div>
   `;
 
   root
-    .querySelectorAll('[data-admin-group]')
+    .querySelectorAll(
+      '[data-admin-group]'
+    )
     .forEach(select => {
       select.addEventListener(
         'change',
         e => {
-          if (e.target.value === '') {
+          if (
+            e.target.value === ''
+          ) {
             return;
           }
 
@@ -877,14 +947,18 @@ function renderAdminPanel() {
       const name =
         provisionSelect.value;
 
-      directionSelect.disabled = !name;
+      directionSelect.disabled =
+        !name;
 
-      if (!name) return;
+      if (!name) {
+        return;
+      }
 
       directionSelect.value =
         String(
-          provisionAssignment(name)
-            .direction
+          provisionAssignment(
+            name
+          ).direction
         );
     }
   );
@@ -932,7 +1006,8 @@ function renderSummary() {
         (b.scorecard?.provisions || [])
           .filter(
             p => p.scorable !== false
-          ).length,
+          )
+          .length,
       0
     );
 
@@ -942,7 +1017,8 @@ function renderSummary() {
   $('billCount').textContent =
     state.bills.length;
 
-  $('provisionCount').textContent = n;
+  $('provisionCount').textContent =
+    n;
 
   $('generatedAt').textContent =
     `Data generated ${
@@ -968,7 +1044,8 @@ function applyFilters() {
     $('sort').value;
 
   const dir =
-    $('direction').value === 'asc'
+    $('direction').value ===
+    'asc'
       ? 1
       : -1;
 
@@ -1002,11 +1079,16 @@ function applyFilters() {
           );
 
         return (
-          (!q || hay.includes(q)) &&
-          (party === 'all' ||
-            parties.includes(party)) &&
-          (chamber === 'all' ||
-            chambers.includes(chamber))
+          (!q ||
+            hay.includes(q)) &&
+          (
+            party === 'all' ||
+            parties.includes(party)
+          ) &&
+          (
+            chamber === 'all' ||
+            chambers.includes(chamber)
+          )
         );
       })
       .sort((a, b) => {
@@ -1014,13 +1096,15 @@ function applyFilters() {
         let bv;
 
         if (sort === 'score') {
-          av = num(
-            a.scores?.overall
-          );
+          av =
+            num(
+              a.scores?.overall
+            );
 
-          bv = num(
-            b.scores?.overall
-          );
+          bv =
+            num(
+              b.scores?.overall
+            );
         } else if (
           [
             'social',
@@ -1028,40 +1112,54 @@ function applyFilters() {
             'foreign'
           ].includes(sort)
         ) {
-          av = num(
-            a.scores?.[sort]
-          );
-
-          bv = num(
-            b.scores?.[sort]
-          );
-        } else if (sort === 'state') {
           av =
-            (a.state || '')
-              .toLowerCase();
+            num(
+              a.scores?.[sort]
+            );
 
           bv =
-            (b.state || '')
-              .toLowerCase();
-        } else if (sort === 'profile') {
+            num(
+              b.scores?.[sort]
+            );
+        } else if (
+          sort === 'state'
+        ) {
           av =
-            (a.discord || '')
-              .toLowerCase();
+            (
+              a.state || ''
+            ).toLowerCase();
 
           bv =
-            (b.discord || '')
-              .toLowerCase();
+            (
+              b.state || ''
+            ).toLowerCase();
+        } else if (
+          sort === 'profile'
+        ) {
+          av =
+            (
+              a.discord || ''
+            ).toLowerCase();
+
+          bv =
+            (
+              b.discord || ''
+            ).toLowerCase();
         } else {
           av =
-            (a.name || '')
-              .toLowerCase();
+            (
+              a.name || ''
+            ).toLowerCase();
 
           bv =
-            (b.name || '')
-              .toLowerCase();
+            (
+              b.name || ''
+            ).toLowerCase();
         }
 
-        if (av === bv) return 0;
+        if (av === bv) {
+          return 0;
+        }
 
         if (
           av === null ||
@@ -1080,8 +1178,9 @@ function applyFilters() {
         }
 
         return (
-          av > bv ? 1 : -1
-        ) * dir;
+          (av > bv ? 1 : -1) *
+          dir
+        );
       });
 
   renderPlayers();
@@ -1102,210 +1201,238 @@ function renderPlayers() {
   if (!state.filtered.length) {
     root.innerHTML =
       '<div class="empty">No scorecards match the current filters.</div>';
-
     return;
   }
 
   root.innerHTML =
-    state.filtered.map((p, i) => {
-      const s =
-        p.scores || {};
+    state.filtered
+      .map((p, i) => {
+        const s =
+          p.scores || {};
 
-      const profiles =
-        p.profiles || [];
+        const profiles =
+          p.profiles || [];
 
-      return `
-      <article
-        class="scorecard"
-        tabindex="0"
-        role="button"
-        data-player-index="${i}"
-      >
-        <div class="card-main">
+        const playerId =
+          p.user_id ||
+          p.player_id;
 
-          <div class="identity">
-            ${avatar({
-              name: p.name,
-              avatar: p.avatar
-            })}
+        const mainProfileId =
+          p.profile_id ||
+          profiles[0]?.profile_id ||
+          profiles[0]?.id;
 
-            <div>
-              <h3>
-                <a
-                  class="profile-link main-profile-link"
-                  href="${esc(
-                    profileUrl(
-                      profiles.find(
-                        x => x.is_main
-                      )?.profile_id ||
-                      profiles[0]
-                        ?.profile_id
-                    ) || '#'
-                  )}"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  ${esc(p.name)}
-                </a>
-              </h3>
+        const playerLink =
+          profileUrl(
+            mainProfileId
+          );
 
-              <div class="handle">
-                ${esc(
-                  p.discord ||
-                  'No Discord handle'
-                )}
+        return `
+          <article
+            class="scorecard"
+            tabindex="0"
+            role="button"
+            data-player-index="${i}"
+          >
+            <div class="card-main">
+              <div class="identity">
+                ${avatar({
+                  name: p.name,
+                  avatar: p.avatar
+                })}
+
+                <div>
+                  <h3>
+                    ${
+                      playerLink
+                        ? `
+                          <a
+                            class="main-profile-link"
+                            href="${esc(playerLink)}"
+                            target="_blank"
+                            rel="noopener"
+                          >
+                            ${esc(p.name)}
+                          </a>
+                        `
+                        : esc(p.name)
+                    }
+                  </h3>
+
+                  <div class="handle">
+                    ${esc(
+                      p.discord ||
+                      'No Discord handle'
+                    )}
+                  </div>
+
+                  <div class="chips">
+                    <span class="party-chip">
+                      ${esc(
+                        partyLabel(p.party)
+                      )}
+                    </span>
+
+                    ${(p.chambers || [])
+                      .map(c =>
+                        `<span class="chamber-chip">${esc(c)}</span>`
+                      )
+                      .join('')}
+                  </div>
+                </div>
               </div>
 
-              <div class="chips">
-                <span class="party-chip">
-                  ${esc(
-                    partyLabel(p.party)
-                  )}
-                </span>
+              <div class="score-row">
+                <div class="score-main">
+                  <strong>
+                    ${fmt(s.overall)}
+                  </strong>
 
-                ${(p.chambers || [])
-                  .map(
-                    c =>
-                      `<span class="chamber-chip">${esc(c)}</span>`
-                  )
+                  <span>
+                    / 100
+                  </span>
+                </div>
+
+                <div
+                  class="tier tier-${esc(
+                    s.tier || 'N/A'
+                  )}"
+                >
+                  ${esc(
+                    s.tier || 'N/A'
+                  )}
+                </div>
+              </div>
+
+              <div class="mini-bars">
+                ${[
+                  'social',
+                  'economic',
+                  'foreign'
+                ].map(cat => {
+                  const v =
+                    num(s[cat]);
+
+                  const w =
+                    v === null
+                      ? 0
+                      : Math.max(
+                          0,
+                          Math.min(
+                            100,
+                            v
+                          )
+                        );
+
+                  return `
+                    <div class="mini-row">
+                      <span>
+                        ${label(cat)}
+                      </span>
+
+                      <div class="bar">
+                        <span
+                          style="width:${w}%"
+                        ></span>
+                      </div>
+
+                      <span class="mini-value">
+                        ${fmt(v)}
+                      </span>
+
+                      ${
+                        ideology(
+                          cat,
+                          v
+                        )
+                          ? `
+                            <span class="mini-tag">
+                              ${esc(
+                                ideology(
+                                  cat,
+                                  v
+                                )
+                              )}
+                            </span>
+                          `
+                          : ''
+                      }
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+
+            <div class="profile-strip">
+              <strong>
+                ${profiles.length}
+                office${
+                  profiles.length === 1
+                    ? ''
+                    : 's'
+                }
+                on this user
+              </strong>
+
+              <div class="profile-list">
+                ${profiles
+                  .map(x => {
+                    const url =
+                      profileUrl(
+                        x.profile_id ||
+                        x.id
+                      );
+
+                    const text =
+                      `${x.name} · ${x.chamber} · ${x.state}`;
+
+                    return url
+                      ? `
+                        <a
+                          class="profile-chip profile-link"
+                          href="${esc(url)}"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          ${esc(text)}
+                        </a>
+                      `
+                      : `
+                        <span class="profile-chip">
+                          ${esc(text)}
+                        </span>
+                      `;
+                  })
                   .join('')}
               </div>
             </div>
-          </div>
-
-          <div class="score-row">
-            <div class="score-main">
-              <strong>
-                ${fmt(s.overall)}
-              </strong>
-
-              <span>
-                / 100
-              </span>
-            </div>
-
-            <div
-              class="tier tier-${esc(
-                s.tier || 'N/A'
-              )}"
-            >
-              ${esc(
-                s.tier || 'N/A'
-              )}
-            </div>
-          </div>
-
-          <div class="mini-bars">
-            ${[
-              'social',
-              'economic',
-              'foreign'
-            ].map(cat => {
-              const v =
-                num(s[cat]);
-
-              const w =
-                v === null
-                  ? 0
-                  : Math.max(
-                      0,
-                      Math.min(
-                        100,
-                        v
-                      )
-                    );
-
-              return `
-                <div class="mini-row">
-                  <span>
-                    ${label(cat)}
-                  </span>
-
-                  <div class="bar">
-                    <span
-                      style="width:${w}%"
-                    ></span>
-                  </div>
-
-                  <span class="mini-value">
-                    ${fmt(v)}
-                  </span>
-
-                  ${
-                    ideology(cat, v)
-                      ? `<span class="mini-tag">${esc(
-                          ideology(cat, v)
-                        )}</span>`
-                      : ''
-                  }
-                </div>
-              `;
-            }).join('')}
-          </div>
-        </div>
-
-        <div class="profile-strip">
-          <strong>
-            ${profiles.length}
-            office${
-              profiles.length === 1
-                ? ''
-                : 's'
-            }
-            on this user
-          </strong>
-
-          <div class="profile-list">
-            ${profiles.map(x => `
-              <a
-                class="profile-chip profile-link"
-                href="${esc(
-                  profileUrl(
-                    x.profile_id
-                  ) || '#'
-                )}"
-                target="_blank"
-                rel="noopener"
-              >
-                ${esc(x.name)}
-                ·
-                ${esc(x.chamber)}
-                ·
-                ${esc(x.state)}
-              </a>
-            `).join('')}
-          </div>
-        </div>
-      </article>
-    `;
-    }).join('');
+          </article>
+        `;
+      })
+      .join('');
 
   root
     .querySelectorAll(
       '[data-player-index]'
     )
     .forEach(card => {
-      const open = () =>
-        openPlayer(
-          state.filtered[
-            Number(
-              card.dataset.playerIndex
-            )
-          ]
-        );
-
       card.addEventListener(
         'click',
         e => {
           if (
-            e.target.closest(
-              'a,button'
-            )
+            e.target.closest('a')
           ) {
             return;
           }
 
-          open();
+          openPlayer(
+            state.filtered[
+              Number(
+                card.dataset
+                  .playerIndex
+              )
+            ]
+          );
         }
       );
 
@@ -1317,7 +1444,15 @@ function renderPlayers() {
             e.key === ' '
           ) {
             e.preventDefault();
-            open();
+
+            openPlayer(
+              state.filtered[
+                Number(
+                  card.dataset
+                    .playerIndex
+                )
+              ]
+            );
           }
         }
       );
@@ -1329,82 +1464,87 @@ function renderBills() {
     $('bills');
 
   root.innerHTML =
-    state.bills.map((b, i) => {
-      const ps =
-        (b.scorecard?.provisions || [])
-          .filter(
-            p => p.scorable !== false
+    state.bills
+      .map((b, i) => {
+        const ps =
+          (
+            b.scorecard?.provisions ||
+            []
+          )
+            .filter(
+              p => p.scorable !== false
+            );
+
+        const t =
+          b.scorecard?.total ??
+          billTotal(b);
+
+        const weight =
+          num(
+            b.scorecard?.weight
           );
 
-      const t =
-        b.scorecard?.total ??
-        billTotal(b);
-
-      const weight =
-        num(
-          b.scorecard?.weight
-        );
-
-      return `
-      <button
-        class="bill-card"
-        data-bill-index="${i}"
-      >
-        <div class="bill-meta">
-          <span>
-            ${esc(b.number)}
-          </span>
-
-          <span>
-            ${ps.length}
-            scored provision${
-              ps.length === 1
-                ? ''
-                : 's'
-            }
-          </span>
-        </div>
-
-        <h3>
-          ${esc(b.title)}
-        </h3>
-
-        <div class="bill-meta">
-          <span>
-            ${esc(b.status)}
-          </span>
-
-          <span
-            class="bill-score ${
-              t >= 0
-                ? 'positive'
-                : 'negative'
-            }"
+        return `
+          <button
+            class="bill-card"
+            data-bill-index="${i}"
           >
-            ${t > 0 ? '+' : ''}${t}
-          </span>
-        </div>
+            <div class="bill-meta">
+              <span>
+                ${esc(b.number)}
+              </span>
 
-        <div class="bill-meta">
-          <span>
-            ${esc(
-              b.scorecard
-                ?.finalized_game_date ||
-              'Date unknown'
-            )}
-          </span>
+              <span>
+                ${ps.length}
+                scored provision${
+                  ps.length === 1
+                    ? ''
+                    : 's'
+                }
+              </span>
+            </div>
 
-          <span>
-            Weight ${
-              weight === null
-                ? '—'
-                : weight.toFixed(2)
-            }
-          </span>
-        </div>
-      </button>
-    `;
-    }).join('');
+            <h3>
+              ${esc(b.title)}
+            </h3>
+
+            <div class="bill-meta">
+              <span>
+                ${esc(b.status)}
+              </span>
+
+              <span
+                class="bill-score ${
+                  t >= 0
+                    ? 'positive'
+                    : 'negative'
+                }"
+              >
+                ${t > 0 ? '+' : ''}${t}
+              </span>
+            </div>
+
+            <div class="bill-meta">
+              <span>
+                ${esc(
+                  b.scorecard
+                    ?.finalized_game_date ||
+                  'Date unknown'
+                )}
+              </span>
+
+              <span>
+                Weight ${
+                  weight === null
+                    ? '—'
+                    : weight.toFixed(2)
+                }
+              </span>
+            </div>
+          </button>
+        `;
+      })
+      .join('');
 
   root
     .querySelectorAll(
@@ -1417,7 +1557,8 @@ function renderBills() {
           openBill(
             state.bills[
               Number(
-                b.dataset.billIndex
+                b.dataset
+                  .billIndex
               )
             ]
           )
@@ -1428,78 +1569,87 @@ function renderBills() {
 function renderPending() {
   const floors =
     state.pending.filter(
-      b => b.status !== 'In Committee'
+      b =>
+        b.status !==
+        'In Committee'
     );
 
   const committees =
     state.pending.filter(
-      b => b.status === 'In Committee'
+      b =>
+        b.status ===
+        'In Committee'
     );
 
-  const card = (b, i) => {
-    const t =
-      b.scorecard?.total ??
-      billTotal(b);
+  const card =
+    (b, i) => {
+      const t =
+        b.scorecard?.total ??
+        billTotal(b);
 
-    const ps =
-      (b.scorecard?.provisions || [])
-        .filter(
-          p => p.scorable !== false
+      const ps =
+        (
+          b.scorecard?.provisions ||
+          []
+        ).filter(
+          p =>
+            p.scorable !== false
         );
 
-    return `
-      <button
-        class="bill-card pending-bill"
-        data-pending-index="${i}"
-      >
-        <div class="bill-meta">
-          <span>
+      return `
+        <button
+          class="bill-card pending-bill"
+          data-pending-index="${i}"
+        >
+          <div class="bill-meta">
+            <span>
+              ${esc(
+                b.number ||
+                'Bill'
+              )}
+            </span>
+
+            <span>
+              ${ps.length}
+              scored provision${
+                ps.length === 1
+                  ? ''
+                  : 's'
+              }
+            </span>
+          </div>
+
+          <h3>
             ${esc(
-              b.number || 'Bill'
+              b.title ||
+              'Untitled bill'
             )}
-          </span>
+          </h3>
 
-          <span>
-            ${ps.length}
-            scored provision${
-              ps.length === 1
-                ? ''
-                : 's'
-            }
-          </span>
-        </div>
+          <div class="bill-meta">
+            <span>
+              ${esc(b.status)}
+            </span>
 
-        <h3>
-          ${esc(
-            b.title ||
-            'Untitled bill'
-          )}
-        </h3>
-
-        <div class="bill-meta">
-          <span>
-            ${esc(b.status)}
-          </span>
-
-          <span
-            class="bill-score ${
-              t >= 0
-                ? 'positive'
-                : 'negative'
-            }"
-          >
-            ${t > 0 ? '+' : ''}${t}
-            ·
-            ${esc(
-              b.scorecard
-                ?.alignment ||
-              'Neutral / mixed'
-            )}
-          </span>
-        </div>
-      </button>
-    `;
-  };
+            <span
+              class="bill-score ${
+                t >= 0
+                  ? 'positive'
+                  : 'negative'
+              }"
+            >
+              ${t > 0 ? '+' : ''}${t}
+              ·
+              ${esc(
+                b.scorecard
+                  ?.alignment ||
+                'Neutral / mixed'
+              )}
+            </span>
+          </div>
+        </button>
+      `;
+    };
 
   const floorRoot =
     $('floorBills');
@@ -1510,8 +1660,15 @@ function renderPending() {
   if (floorRoot) {
     floorRoot.innerHTML =
       floors.length
-        ? floors.map(card).join('')
-        : '<div class="empty">No bills currently on the floor or awaiting a leadership call.</div>';
+        ? floors
+            .map(card)
+            .join('')
+        : `
+          <div class="empty">
+            No bills currently on the floor
+            or awaiting a leadership call.
+          </div>
+        `;
 
     floorRoot
       .querySelectorAll(
@@ -1539,7 +1696,11 @@ function renderPending() {
         ? committees
             .map(card)
             .join('')
-        : '<div class="empty">No bills currently in committee.</div>';
+        : `
+          <div class="empty">
+            No bills currently in committee.
+          </div>
+        `;
 
     committeeRoot
       .querySelectorAll(
@@ -1563,7 +1724,8 @@ function renderPending() {
 }
 
 function openPlayer(p) {
-  state.problemsOnly = false;
+  state.problemsOnly =
+    false;
 
   const s =
     p.scores || {};
@@ -1580,13 +1742,13 @@ function openPlayer(p) {
     p.profiles || [];
 
   $('scorecardDetail').innerHTML = `
-    <div class="detail-header">
-      <p class="eyebrow">
-        LEGISLATOR SCORECARD
-      </p>
+    <div class="detail-title-row">
+      <div>
+        <div class="detail-header">
+          <p class="eyebrow">
+            LEGISLATOR SCORECARD
+          </p>
 
-      <div class="detail-title-row">
-        <div>
           <h2>
             ${esc(p.name)}
           </h2>
@@ -1601,66 +1763,83 @@ function openPlayer(p) {
               partyLabel(p.party)
             )}
             ·
-            ${esc(
-              p.state || ''
-            )}
+            ${esc(p.state || '')}
             ·
             ${d.length}
             provisions scored
           </p>
         </div>
-
-        <button
-          class="share-scorecard"
-          id="copyScorecardLink"
-          type="button"
-        >
-          Copy Discord link
-        </button>
       </div>
+
+      <button
+        class="share-scorecard"
+        id="copyScorecardLink"
+        type="button"
+      >
+        Copy Discord link
+      </button>
     </div>
 
     <div class="account-grid">
-      ${profiles.map(x => `
-        <div class="account">
-          ${
-            x.avatar
-              ? `<img class="avatar" src="${esc(
-                  x.avatar
-                )}" alt="">`
-              : ''
-          }
+      ${profiles
+        .map(x => {
+          const url =
+            profileUrl(
+              x.profile_id ||
+              x.id
+            );
 
-          <strong>
-            <a
-              class="profile-link"
-              href="${esc(
-                profileUrl(
-                  x.profile_id
-                ) || '#'
-              )}"
-              target="_blank"
-              rel="noopener"
-            >
-              ${esc(x.name)}
-            </a>
-          </strong>
+          return `
+            <div class="account">
+              ${
+                x.avatar
+                  ? `
+                    <img
+                      class="avatar"
+                      src="${esc(x.avatar)}"
+                      alt=""
+                    >
+                  `
+                  : ''
+              }
 
-          <span>
-            ${esc(x.chamber)}
-            ·
-            ${esc(x.state)}
-            ·
-            ${esc(
-              partyLabel(x.party)
-            )}
-          </span>
-        </div>
-      `).join('')}
+              ${
+                url
+                  ? `
+                    <a
+                      class="profile-link"
+                      href="${esc(url)}"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <strong>
+                        ${esc(x.name)}
+                      </strong>
+                    </a>
+                  `
+                  : `
+                    <strong>
+                      ${esc(x.name)}
+                    </strong>
+                  `
+              }
+
+              <span>
+                ${esc(x.chamber)}
+                ·
+                ${esc(x.state)}
+                ·
+                ${esc(
+                  partyLabel(x.party)
+                )}
+              </span>
+            </div>
+          `;
+        })
+        .join('')}
     </div>
 
     <div class="detail-score">
-
       <div class="detail-stat">
         <span>
           Overall
@@ -1689,12 +1868,16 @@ function openPlayer(p) {
             'social',
             s.social
           )
-            ? `<div class="stat-tag">${esc(
-                ideology(
-                  'social',
-                  s.social
-                )
-              )}</div>`
+            ? `
+              <div class="stat-tag">
+                ${esc(
+                  ideology(
+                    'social',
+                    s.social
+                  )
+                )}
+              </div>
+            `
             : ''
         }
       </div>
@@ -1713,12 +1896,16 @@ function openPlayer(p) {
             'economic',
             s.economic
           )
-            ? `<div class="stat-tag">${esc(
-                ideology(
-                  'economic',
-                  s.economic
-                )
-              )}</div>`
+            ? `
+              <div class="stat-tag">
+                ${esc(
+                  ideology(
+                    'economic',
+                    s.economic
+                  )
+                )}
+              </div>
+            `
             : ''
         }
       </div>
@@ -1737,12 +1924,16 @@ function openPlayer(p) {
             'foreign',
             s.foreign
           )
-            ? `<div class="stat-tag">${esc(
-                ideology(
-                  'foreign',
-                  s.foreign
-                )
-              )}</div>`
+            ? `
+              <div class="stat-tag">
+                ${esc(
+                  ideology(
+                    'foreign',
+                    s.foreign
+                  )
+                )}
+              </div>
+            `
             : ''
         }
       </div>
@@ -1798,9 +1989,9 @@ function openPlayer(p) {
 
         $('problemsToggle')
           .textContent =
-          state.problemsOnly
-            ? 'Show all votes'
-            : 'Show problems only';
+            state.problemsOnly
+              ? 'Show all votes'
+              : 'Show problems only';
 
         renderPlayerVotes(p);
       }
@@ -1858,7 +2049,6 @@ function renderPlayerVotes(p) {
   if (!d.length) {
     root.innerHTML =
       '<div class="empty">No problems found in the current view.</div>';
-
     return;
   }
 
@@ -1867,94 +2057,103 @@ function renderPlayerVotes(p) {
       const weight =
         num(x.weight);
 
+      const bill =
+        state.data?.bills?.[
+          String(
+            x.resolution_id
+          )
+        ];
+
+      const url =
+        billUrl(
+          x.resolution_id
+        );
+
       return `
-      <div class="provision">
-        <div>
-          <div class="provision-name">
-            <a
-              class="bill-provision-link"
-              href="${esc(
-                billUrl(
-                  x.resolution_id
-                )
-              )}"
-              target="_blank"
-              rel="noopener"
-            >
+        <div class="provision">
+          <div>
+            <div class="provision-name">
+              <a
+                class="bill-provision-link"
+                href="${esc(url)}"
+                target="_blank"
+                rel="noopener"
+              >
+                ${esc(
+                  x.provision ||
+                  'Provision'
+                )}
+              </a>
+            </div>
+
+            <div class="provision-note">
               ${esc(
-                x.provision ||
-                'Provision'
+                x.number || ''
               )}
-            </a>
+              ·
+              ${esc(
+                x.bill_title ||
+                ''
+              )}
+              ·
+              ${esc(
+                label(x.category)
+              )}
+              ·
+              ${esc(
+                x.vote || ''
+              )}
+              ·
+              ${esc(
+                x.profile_name ||
+                x.profile_id ||
+                ''
+              )}
+              ·
+              ${esc(
+                x.chamber ||
+                'Other'
+              )}
+              ·
+              weight
+              ${
+                weight === null
+                  ? '—'
+                  : weight.toFixed(2)
+              }
+            </div>
+
+            <span class="position-pill">
+              Conservative position:
+              ${
+                x.direction > 0
+                  ? '+1'
+                  : '−1'
+              }
+            </span>
           </div>
 
-          <div class="provision-note">
-            ${esc(
-              x.number || ''
-            )}
-            ·
-            ${esc(
-              x.bill_title || ''
-            )}
-            ·
-            ${esc(
-              label(x.category)
-            )}
-            ·
-            ${esc(
-              x.vote || ''
-            )}
-            ·
-            ${esc(
-              x.profile_name ||
-              x.profile_id ||
-              ''
-            )}
-            ·
-            ${esc(
-              x.chamber ||
-              'Other'
-            )}
-            ·
-            weight
+          <span
+            class="result-pill ${
+              x.aligned
+                ? 'aligned'
+                : 'not-aligned'
+            }"
+          >
             ${
-              weight === null
-                ? '—'
-                : weight.toFixed(2)
-            }
-          </div>
-
-          <span class="position-pill">
-            Conservative position:
-            ${
-              x.direction > 0
+              x.aligned
                 ? '+1'
                 : '−1'
             }
+
+            ${
+              x.aligned
+                ? 'Aligned'
+                : 'Not aligned'
+            }
           </span>
         </div>
-
-        <span
-          class="result-pill ${
-            x.aligned
-              ? 'aligned'
-              : 'not-aligned'
-          }"
-        >
-          ${
-            x.aligned
-              ? '+1'
-              : '−1'
-          }
-
-          ${
-            x.aligned
-              ? 'Aligned'
-              : 'Not aligned'
-          }
-        </span>
-      </div>
-    `;
+      `;
     }).join('');
 }
 
@@ -1968,16 +2167,15 @@ function openBill(b) {
       b.scorecard?.weight
     );
 
+  const totals =
+    voteTotals(b);
+
   const billAlignment =
     b.scorecard?.alignment ||
     'Neutral / mixed';
 
-  const totals =
-    voteTotals(b);
-
   $('billDetail').innerHTML = `
     <div class="detail-header">
-
       <p class="eyebrow">
         ${
           b.finalized === false
@@ -1997,22 +2195,25 @@ function openBill(b) {
         ·
         Introduced
         ${esc(
-          b.introduced || '—'
+          b.introduced ||
+          '—'
         )}
         ·
         Passed
         ${esc(
-          b.passed || '—'
+          b.passed ||
+          '—'
         )}
       </p>
     </div>
 
     <div class="detail-score">
-
       <div
-        class="detail-stat alignment-stat ${alignmentClass(
-          billAlignment
-        )}"
+        class="detail-stat alignment-stat ${
+          alignmentClass(
+            billAlignment
+          )
+        }"
       >
         <span>
           Alignment
@@ -2046,7 +2247,8 @@ function openBill(b) {
           }
 
           ${
-            b.scorecard?.age_months ===
+            b.scorecard
+              ?.age_months ===
             undefined
               ? ''
               : ` · ${b.scorecard.age_months} months old`
@@ -2077,7 +2279,8 @@ function openBill(b) {
         <strong>
           ${
             ps.filter(
-              p => p.direction > 0
+              p =>
+                p.direction > 0
             ).length
           }
         </strong>
@@ -2091,7 +2294,8 @@ function openBill(b) {
         <strong>
           ${
             ps.filter(
-              p => p.direction < 0
+              p =>
+                p.direction < 0
             ).length
           }
         </strong>
@@ -2122,34 +2326,37 @@ function openBill(b) {
         <div class="provision">
           <div>
             <div class="provision-name">
-              ${esc(x.name)}
+              ${esc(
+                x.name
+              )}
             </div>
 
             <div class="provision-note">
               ${esc(
-                label(
-                  x.category
-                ) || 'Neutral'
+                label(x.category) ||
+                'Neutral'
               )}
               ·
               ${esc(
                 x.rationale ||
                 'No rationale listed.'
               )}
-            </div>
 
-            ${
-              x.current_law
-                ? `<div class="provision-note">
-                     Current-law reference:
-                     ${esc(
-                       JSON.stringify(
-                         x.current_law
-                       )
-                     )}
-                   </div>`
-                : ''
-            }
+              ${
+                x.current_law
+                  ? `
+                    <div class="provision-note">
+                      Current-law reference:
+                      ${esc(
+                        JSON.stringify(
+                          x.current_law
+                        )
+                      )}
+                    </div>
+                  `
+                  : ''
+              }
+            </div>
           </div>
 
           <span
@@ -2172,6 +2379,18 @@ function openBill(b) {
         </div>
       `).join('')}
     </div>
+
+    ${
+      b.scorecard?.method
+        ? `
+          <p class="provision-note">
+            ${esc(
+              b.scorecard.method
+            )}
+          </p>
+        `
+        : ''
+    }
   `;
 
   $('billDialog')
@@ -2188,10 +2407,14 @@ document.addEventListener(
       'sort',
       'direction'
     ].forEach(id => {
-      $(id).addEventListener(
-        'input',
-        applyFilters
-      );
+      const element = $(id);
+
+      if (element) {
+        element.addEventListener(
+          'input',
+          applyFilters
+        );
+      }
     });
 
     document
@@ -2209,12 +2432,16 @@ document.addEventListener(
       });
 
     document
-      .querySelectorAll('dialog')
+      .querySelectorAll(
+        'dialog'
+      )
       .forEach(d => {
         d.addEventListener(
           'click',
           e => {
-            if (e.target === d) {
+            if (
+              e.target === d
+            ) {
               d.close();
             }
           }
@@ -2253,9 +2480,7 @@ document.addEventListener(
           );
 
         const playerId =
-          params.get('player');
-
-        const profileId =
+          params.get('player') ||
           params.get('profile');
 
         const billId =
@@ -2275,26 +2500,9 @@ document.addEventListener(
           if (player) {
             openPlayer(player);
           }
-        } else if (profileId) {
-          const player =
-            state.players.find(
-              p =>
-                (p.profiles || [])
-                  .some(
-                    x =>
-                      String(
-                        x.profile_id
-                      ) ===
-                      String(
-                        profileId
-                      )
-                  )
-            );
+        }
 
-          if (player) {
-            openPlayer(player);
-          }
-        } else if (billId) {
+        if (billId) {
           const bill =
             state.data?.bills?.[
               String(billId)
@@ -2308,8 +2516,13 @@ document.addEventListener(
       .catch(e => {
         console.error(e);
 
-        $('scorecards').innerHTML =
-          '<div class="empty">Unable to load scorecard data. Check that public/data is present.</div>';
+        const root =
+          $('scorecards');
+
+        if (root) {
+          root.innerHTML =
+            '<div class="empty">Unable to load scorecard data. Check that public/data is present.</div>';
+        }
       });
   }
 );
