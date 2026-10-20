@@ -1,3 +1,122 @@
+"""
+One-off / repeatable patch for conservative_scorecard.json.
+
+Applies these rule decisions to already-compiled data without a full rebuild:
+  * Marijuana legalization / decriminalization -> neutral (0, not scored).
+  * Veterans affairs (VA, GI Bill, anything veterans-related) -> +1,
+    except defunding/cuts -> neutral (0, not scored).
+Then recomputes every player's scores from their remaining bill_details.
+
+Scoring (verified against the existing data):
+  category score = aligned provisions / scored provisions * 100
+  overall        = all aligned / all scored * 100
+  Players with fewer than 3 finalized bills get no scores (N/A).
+
+Usage: python scraper/apply_rule_changes.py
+"""
+import json
+import re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+SCORECARD = ROOT / "conservative_scorecard.json"
+RULES = ROOT / "scorecard_rules.json"
+MIN_BILLS = 3
+CATEGORIES = ("social", "economic", "foreign")
+
+MARIJUANA = re.compile(
+    r"marijuana\s+(legalization|decriminalization):\s*(legal|decriminalized)", re.I
+)
+
+
+def tier(score):
+    if score is None:
+        return "N/A"
+    for cutoff, name in ((90, "S"), (80, "A"), (70, "B"), (60, "C"), (50, "D")):
+        if score >= cutoff:
+            return name
+    return "F"
+
+
+def override(name, va_rules):
+    """Return a dict of changes for this provision name, or None."""
+    if MARIJUANA.fullmatch(name.strip()):
+        return {
+            "direction": 0, "category": None, "scorable": False,
+            "rule_id": "NEUTRAL-MARIJUANA",
+            "rationale": "Marijuana legalization/decriminalization is neutral and is not scored.",
+            "source": "neutral",
+        }
+    for rule in va_rules:
+        if re.search(rule["pattern"], name.lower()):
+            if rule.get("scorable") is False:
+                return {
+                    "direction": 0, "category": None, "scorable": False,
+                    "rule_id": rule["id"], "rationale": rule["rationale"],
+                    "source": "calibrated",
+                }
+            return {
+                "direction": int(rule["direction"]),
+                "category": rule["category"].lower(), "scorable": True,
+                "rule_id": rule["id"], "rationale": rule["rationale"],
+                "source": "calibrated",
+            }
+    return None
+
+
+def main():
+    data = json.loads(SCORECARD.read_text())
+    rules = json.loads(RULES.read_text())["calibrated_rules"]
+    va_rules = [r for r in rules if r["id"].startswith(("CAL-VA-", "CAL-S5-VA", "CAL-S19-GI-BILL"))]
+
+    changed = {}  # (resolution_id, provision name) -> new provision values
+    for bill in data["bills"].values():
+        for prov in bill["scorecard"]["provisions"]:
+            new = override(prov["name"], va_rules)
+            if new:
+                prov.update(new)
+                changed[(int(bill["resolution_id"]), prov["name"])] = new
+
+    removed = flipped = 0
+    for player in data["players"]:
+        kept = []
+        for d in player["bill_details"]:
+            new = changed.get((int(d["resolution_id"]), d["provision"]))
+            if new is None:
+                kept.append(d)
+            elif new["scorable"] is False:
+                removed += 1
+            else:
+                d["direction"] = new["direction"]
+                d["category"] = new["category"]
+                d["aligned"] = (d["vote"] == "aye") == (new["direction"] > 0)
+                flipped += 1
+                kept.append(d)
+        player["bill_details"] = kept
+
+        sample = {c: sum(1 for d in kept if d["category"] == c) for c in CATEGORIES}
+        aligned = {c: sum(1 for d in kept if d["category"] == c and d["aligned"]) for c in CATEGORIES}
+        bills_voted = len({d["resolution_id"] for d in kept})
+        eligible = bills_voted >= MIN_BILLS
+        total, total_aligned = sum(sample.values()), sum(aligned.values())
+
+        scores = {c: (round(100 * aligned[c] / sample[c], 2) if eligible and sample[c] else None)
+                  for c in CATEGORIES}
+        scores["overall"] = round(100 * total_aligned / total, 2) if eligible and total else None
+        scores["tier"] = tier(scores["overall"])
+
+        player.update(
+            scores=scores, sample_size=sample, aligned_votes=aligned,
+            provisions_scored=total, aligned_provisions=total_aligned,
+            finalized_bills_voted=bills_voted, eligible_for_grade=eligible,
+        )
+
+    SCORECARD.write_text(json.dumps(data, indent=2) + "\n")
+    print(f"provisions changed: {len(changed)}; vote rows removed: {removed}; vote rows re-scored: {flipped}")
+
+
+if __name__ == "__main__":
+    main()
 {
   "generated_at": "2026-10-20T12:20:48+00:00",
   "method": {
