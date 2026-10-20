@@ -154,7 +154,8 @@ jobs:
             conservative_scorecard.json \
             scorecard_rules.json \
             identity_review.json \
-            scorecard_review.json
+            scorecard_review.json \
+            public/data
 
           git diff --cached --quiet || git commit -m "Update conservative scorecard"
 
