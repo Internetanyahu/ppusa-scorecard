@@ -35,8 +35,6 @@ jobs:
         run: |
           pip install playwright
           python -m playwright install --with-deps chromium
-      - name: Diagnose PPUSA access and whitelist location
-        run: python scraper/diagnose_ppusa.py
       - name: Install ImageMagick
         run: |
           sudo apt-get update
@@ -89,7 +87,7 @@ jobs:
           share_images = list(share_root.glob("*/scorecard.png"))
           expected_players = [p for p in scorecard.get("players", []) if p.get("user_id") is not None or p.get("player_id") is not None]
           if len(share_pages) != len(expected_players): raise SystemExit(f"Expected {len(expected_players)} share pages, found {len(share_pages)}")
-          if len(share_images) != len(expected_players): raise SystemExit(f"Expected {len(expected_players)} share images, found {len(expected_players)}")
+          if len(share_images) != len(expected_players): raise SystemExit(f"Expected {len(expected_players)} share images, found {len(share_images)}")
           print(f"Validated {len(expected_players)} player scorecards and Discord previews.")
           for bill in scorecard.get("bills", {}).values():
               for provision in bill.get("scorecard", {}).get("provisions", []):
@@ -99,11 +97,11 @@ jobs:
                   elif scorable is not False and direction not in (-1, 1): raise SystemExit("Invalid provision direction")
           print("All scorecard outputs validated, including neutral Custom Bills.")
           '
-      - name: Commit compiled data, diagnostics, and player previews
+      - name: Commit compiled data and player previews
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add players.json player_index.json legislative_history.json voting_records.json conservative_scorecard.json scorecard_rules.json identity_review.json scorecard_review.json game_time.json ppusa_diagnostic.txt public/data public/share
+          git add players.json player_index.json legislative_history.json voting_records.json conservative_scorecard.json scorecard_rules.json identity_review.json scorecard_review.json game_time.json public/data public/share
           git diff --cached --quiet || git commit -m "Update conservative scorecard"
           git pull --rebase
           git push
