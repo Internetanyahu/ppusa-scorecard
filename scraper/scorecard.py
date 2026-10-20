@@ -1,96 +1,164 @@
-"""
-Deterministic conservative legislative scorecard.
+name: Compile Conservative Scorecard
 
-Rules:
-- Score ONLY finalized bills.
-- Score EACH provision independently; every scored provision has equal weight.
-- +1 = conservative/rightward.
-- -1 = liberal/leftward.
-- 0 = neutral and excluded from scoring.
-- Custom Bills are neutral.
-- Marijuana legalization/decriminalization is neutral.
-- Nuclear energy itself is neutral.
-- Taxes are -1.
-- All subsidies are -1.
-- All tax credits are +1 except tax credits for non-nuclear green energy,
-  which are -1.
-- Aye supports +1; Nay supports -1.
-- Categories: Social, Economic, Foreign.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
 
-The classifier is deterministic and auditable.
-"""
-import json
-import math
-import re
-from pathlib import Path
-from datetime import datetime, timezone
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
-def provision_text(provision):
-    """Build searchable text from the fields commonly present on a provision."""
-    parts = []
-    for key in ("name", "title", "description", "summary", "text", "details"):
-        value = provision.get(key)
-        if value is not None:
-            parts.append(str(value))
-    return " ".join(parts)
+jobs:
+  scorecard:
+    name: Compile user scorecards
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-def fallback_classification(provision):
-    """Conservative, deterministic fallback for provisions without a rule match."""
-    text = provision_text(provision).lower()
-    name = str(provision.get("name", "")).lower()
-    # Infer a category from common provision wording. The fallback direction is
-    # explicit and logged, so unmatched items remain auditable.
-    if re.search(r"\b(abortion|parental|school prayer|religion|gun|firearm|immigration|border|crime|police|sentenc|marriage|gender|election integrity)\b", text):
-        return 1, "social", "Fallback: social-policy provision scored +1 pending a specific rule."
-    if re.search(r"\b(tax|spending|budget|debt|subsid|welfare|minimum wage|union|regulation|business|trade|tariff|veteran|va|gi bill)\b", text):
-        return (1 if re.search(r"\b(tax cut|reduce tax|deregulat|tariff|protection|veteran|va|gi bill)\b", text) else -1), "economic", "Fallback: economic provision scored using the stated fiscal framework pending a specific rule."
-    if re.search(r"\b(military|defense|foreign|war|troop|sanction|treaty|nato|overseas|invasion|aid to)\b", text):
-        return (1 if re.search(r"\b(defense|military readiness|anti-communist|hemispheric)\b", text) else -1), "foreign", "Fallback: foreign-policy provision scored using the stated anti-intervention framework pending a specific rule."
-    # Keep the historical fallback deterministic rather than silently neutral.
-    return -1, "economic", "Fallback: unmatched provision defaults to -1 economic pending rule review."
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
+      - name: Rebuild user identity history
+        run: python scraper/build_history.py
 
-def classify_provision(bill, provision, rules, bills):
-    name = provision.get("name", "").strip()
-    text = provision_text(provision)
+      - name: Compile conservative scorecard, pending bills, and decay
+        run: python scraper/scorecard.py
 
-    # Exact admin assignments are authoritative. This lets the site's policy
-    # editor change a provision without rewriting the classifier itself.
-    admin = rules.get("admin_policy", {})
-    exact = admin.get("provision_overrides", {}).get(name)
-    if exact:
-        direction = int(exact.get("direction", 0))
-        category = exact.get("category")
-        if direction not in (-1, 0, 1):
-            raise ValueError(f"Invalid admin direction for provision {name!r}: {direction}")
-        return {
-            "direction": direction,
-            "category": category,
-            "rule_id": f"ADMIN-{exact.get('group') or 'EXACT'}",
-            "rationale": exact.get("rationale") or "Assigned by the scorecard policy editor.",
-            "source": "admin",
-            "scorable": direction != 0,
-        }
+      - name: Build combined voting records
+        run: python scraper/build_records.py
 
-    # ---------------------------------------------------------
-    # NEUTRAL PROVISIONS
-    # ---------------------------------------------------------
+      - name: Build website data
+        run: |
+          mkdir -p public/data
+          cp bills.json public/data/bills.json
+          cp conservative_scorecard.json public/data/conservative_scorecard.json
+          cp legislative_history.json public/data/legislative_history.json
+          cp players.json public/data/players.json
+          cp scorecard_rules.json public/data/scorecard_rules.json
+          cp voting_records.json public/data/voting_records.json
 
-    # Marijuana legalization itself is neutral.
-    if re.fullmatch(
-        r"marijuana\s+(legalization|decriminalization):\s*(legal|decriminalized)",
-        name,
-        re.I,
-    ):
-        return {
-            "direction": 0,
-            "category": None,
-            "rule_id": "NEUTRAL-MARIJUANA",
-            "rationale": "Marijuana legalization/decriminalization is neutral and is not scored.",
-            "source": "neutral",
-            "scorable": False,
-        }
+      - name: Validate outputs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
 
-    # Nuclear energy itself is neutral.
+          required_files = [
+              "bills.json",
+              "players.json",
+              "player_index.json",
+              "legislative_history.json",
+              "voting_records.json",
+              "conservative_scorecard.json",
+              "scorecard_review.json",
+          ]
+
+          for filename in required_files:
+              path = Path(filename)
+              if not path.exists():
+                  raise SystemExit(f"Missing required file: {filename}")
+              json.loads(path.read_text(encoding="utf-8"))
+
+          public_scorecard = Path(
+              "public/data/conservative_scorecard.json"
+          )
+
+          if not public_scorecard.exists():
+              raise SystemExit(
+                  "Missing public/data/conservative_scorecard.json"
+              )
+
+          json.loads(public_scorecard.read_text(encoding="utf-8"))
+
+          scorecard = json.loads(
+              Path("conservative_scorecard.json").read_text(
+                  encoding="utf-8"
+              )
+          )
+
+          bills = scorecard.get("bills", {})
+
+          for bill in bills.values():
+              scorecard_data = bill.get("scorecard", {})
+              provisions = scorecard_data.get("provisions", [])
+
+              for provision in provisions:
+                  name = str(
+                      provision.get("name", "")
+                  ).strip().lower()
+
+                  direction = provision.get("direction")
+                  scorable = provision.get("scorable", True)
+
+                  if name == "custom bill":
+                      if direction != 0 or scorable is not False:
+                          raise SystemExit(
+                              "Custom Bill must be neutral "
+                              "(direction 0, scorable false): "
+                              f"{provision!r}"
+                          )
+                      continue
+
+                  if scorable is False:
+                      if direction != 0:
+                          raise SystemExit(
+                              "Neutral provision must have direction 0: "
+                              f"{provision!r}"
+                          )
+                      continue
+
+                  if direction not in (-1, 1):
+                      resolution_id = bill.get("resolution_id")
+                      raise SystemExit(
+                          "Invalid provision direction for "
+                          f"resolution {resolution_id}: "
+                          f"{provision!r}"
+                      )
+
+          print(
+              "All scorecard outputs validated, "
+              "including neutral Custom Bills."
+          )
+          PY
+
+      - name: Commit compiled data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            players.json \
+            player_index.json \
+            legislative_history.json \
+            voting_records.json \
+            conservative_scorecard.json \
+            scorecard_rules.json \
+            identity_review.json \
+            scorecard_review.json
+
+          git diff --cached --quiet || \
+            git commit -m "Update conservative scorecard"
+
+          git pull --rebase
+          git push
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4
