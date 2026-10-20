@@ -487,11 +487,151 @@
   ],
   "provision_rules": [
     {
+      "id": "EXP-13th-amendment-slavery-ban-in-force-d059d0",
+      "name": "13th Amendment (Slavery Ban): In Force",
+      "direction": 0,
+      "category": null,
+      "rationale": "Not a left-right question.",
+      "neutral": true
+    },
+    {
+      "id": "EXP-14th-amendment-birthright-citizenship-protected-1087ef",
+      "name": "14th Amendment (Birthright Citizenship): Protected",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Birthright citizenship."
+    },
+    {
+      "id": "EXP-15th-amendment-black-suffrage-protected-bf0b97",
+      "name": "15th Amendment (Black Suffrage): Protected",
+      "direction": 0,
+      "category": null,
+      "rationale": "Not a left-right question.",
+      "neutral": true
+    },
+    {
+      "id": "EXP-16th-amendment-income-tax-permitted-d77596",
+      "name": "16th Amendment (Income Tax): Permitted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Permits a federal income tax."
+    },
+    {
+      "id": "EXP-17th-amendment-senate-election-direct-election-dce380",
+      "name": "17th Amendment (Senate Election): Direct Election",
+      "direction": 0,
+      "category": null,
+      "rationale": "No clear left-right direction.",
+      "neutral": true
+    },
+    {
+      "id": "EXP-18th-amendment-prohibition-repealed-8e8251",
+      "name": "18th Amendment (Prohibition): Repealed",
+      "direction": 0,
+      "category": null,
+      "rationale": "No clear left-right direction.",
+      "neutral": true
+    },
+    {
+      "id": "EXP-19th-amendment-women-s-suffrage-protected-86df50",
+      "name": "19th Amendment (Women's Suffrage): Protected",
+      "direction": 0,
+      "category": null,
+      "rationale": "Not a left-right question.",
+      "neutral": true
+    },
+    {
+      "id": "EXP-22nd-amendment-presidential-term-limits-2-terms-08043c",
+      "name": "22nd Amendment (Presidential Term Limits): 2 Terms",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Presidential term limit."
+    },
+    {
+      "id": "EXP-23rd-amendment-dc-votes-granted-7d5d33",
+      "name": "23rd Amendment (DC Votes): Granted",
+      "direction": -1,
+      "category": "social",
+      "rationale": "DC electoral votes."
+    },
+    {
+      "id": "EXP-24th-amendment-poll-tax-banned-b316c5",
+      "name": "24th Amendment (Poll Tax): Banned",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Voting-access protection."
+    },
+    {
+      "id": "EXP-25th-amendment-succession-in-force-2800b5",
+      "name": "25th Amendment (Succession): In Force",
+      "direction": 0,
+      "category": null,
+      "rationale": "Not a left-right question.",
+      "neutral": true
+    },
+    {
+      "id": "EXP-26th-amendment-voting-age-age-18-abb8e0",
+      "name": "26th Amendment (Voting Age): Age 18",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Voting age 18."
+    },
+    {
+      "id": "EXP-2nd-amendment-gun-rights-protected-1e18f7",
+      "name": "2nd Amendment (Gun Rights): Protected",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Protects gun rights."
+    },
+    {
+      "id": "EXP-abortion-week-cutoff-20-weeks-ab7789",
+      "name": "Abortion Week Cutoff: 20 Weeks",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Gestational limit on abortion."
+    },
+    {
       "id": "EXP-abortion-allowed-1411f3",
       "name": "Abortion: Allowed",
       "direction": -1,
       "category": "social",
       "rationale": "Expands legal abortion relative to the conservative baseline."
+    },
+    {
+      "id": "EXP-abortion-left-to-states-7ee068",
+      "name": "Abortion: Left to States",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Leaves abortion to the states."
+    },
+    {
+      "id": "EXP-adoption-by-same-sex-couples-permitted-134b68",
+      "name": "Adoption by Same-Sex Couples: Permitted",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Permits same-sex adoption."
+    },
+    {
+      "id": "EXP-advertising-standards-truth-in-advertising-standards-0b4bd6",
+      "name": "Advertising Standards: Truth-in-Advertising Standards",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Advertising regulation."
+    },
+    {
+      "id": "EXP-agricultural-subsidies-none-1b597a",
+      "name": "Agricultural Subsidies: None",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No subsidies; spending restraint."
+    },
+    {
+      "id": "EXP-agricultural-tax-credit-no-credit-175f63",
+      "name": "Agricultural Tax Credit: No Credit",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "No tax credit leaves taxes higher than a credit would.",
+      "confidence": "low"
     },
     {
       "id": "EXP-air-pollution-basic-standards-7fec14",
@@ -501,11 +641,54 @@
       "rationale": "Adds/retains regulatory standards; the bill's own report shows regulatory burden falling, but the provision establishes environmental regulation rather than deregulation."
     },
     {
+      "id": "EXP-air-pollution-emissions-controls-974232",
+      "name": "Air Pollution: Emissions Controls",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Emissions regulation."
+    },
+    {
+      "id": "EXP-alcohol-tax-rate-5-5226cd",
+      "name": "Alcohol Tax Rate: 5%",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Low excise rate.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-alcohol-tax-enacted-4bf83b",
+      "name": "Alcohol Tax: Enacted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Creates a federal alcohol excise tax."
+    },
+    {
       "id": "EXP-anti-lynching-law-federal-anti-lynching-act-5c5617",
       "name": "Anti-Lynching Law: Federal Anti-Lynching Act",
       "direction": 1,
       "category": "social",
       "rationale": "Strengthens law-and-order enforcement against violent crime."
+    },
+    {
+      "id": "EXP-anti-lynching-law-no-federal-law-b14028",
+      "name": "Anti-Lynching Law: No Federal Law",
+      "direction": -1,
+      "category": "social",
+      "rationale": "No federal anti-lynching law (the opposite option is already rightward)."
+    },
+    {
+      "id": "EXP-antitrust-act-sherman-act-enforcement-530b1e",
+      "name": "Antitrust Act: Sherman Act Enforcement",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Antitrust enforcement."
+    },
+    {
+      "id": "EXP-arts-humanities-funding-nea-neh-modest-endowment-nea-neh-7b8db2",
+      "name": "Arts & Humanities Funding (NEA/NEH): Modest Endowment (NEA/NEH)",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal arts spending."
     },
     {
       "id": "EXP-assault-rifles-allowed-2533f7",
@@ -515,11 +698,144 @@
       "rationale": "Gun-rights/open-carry expansion is socially conservative and right of the current baseline."
     },
     {
+      "id": "EXP-assault-rifles-banned-0c41f2",
+      "name": "Assault Rifles: Banned",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Gun restriction."
+    },
+    {
+      "id": "EXP-balanced-budget-amendment-not-required-91765e",
+      "name": "Balanced Budget Amendment: Not Required",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "No balanced-budget requirement."
+    },
+    {
+      "id": "EXP-balanced-budget-not-enacted-6914b4",
+      "name": "Balanced Budget: Not Enacted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "No balanced-budget requirement."
+    },
+    {
+      "id": "EXP-birth-control-permitted-59d945",
+      "name": "Birth Control: Permitted",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Contraception access.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-border-enforcement-posture-expanded-enforcement-3ea899",
+      "name": "Border Enforcement Posture: Expanded Enforcement",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Stronger border enforcement."
+    },
+    {
       "id": "EXP-border-enforcement-posture-militarized-border-3384c7",
       "name": "Border Enforcement Posture: Militarized Border",
       "direction": 1,
       "category": "social",
       "rationale": "Strengthens border enforcement and nationalism."
+    },
+    {
+      "id": "EXP-broadcast-fairness-doctrine-repealed-889080",
+      "name": "Broadcast Fairness Doctrine: Repealed",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Deregulates broadcasting."
+    },
+    {
+      "id": "EXP-cabinet-funding-gutted-9ee883",
+      "name": "Cabinet Funding: Gutted",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Cuts federal agencies."
+    },
+    {
+      "id": "EXP-campaign-finance-transparency-disclosure-contribution-limits-04ec9d",
+      "name": "Campaign Finance Transparency: Disclosure + Contribution Limits",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Campaign-finance regulation."
+    },
+    {
+      "id": "EXP-capital-gains-tax-20-691b79",
+      "name": "Capital Gains Tax: 20%",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Rate is at or below the modern top federal capital-gains rate.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-carbon-tax-not-enacted-34e9ae",
+      "name": "Carbon Tax: Not Enacted",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No carbon tax."
+    },
+    {
+      "id": "EXP-cia-covert-operations-oversight-congressional-notification-e44ae5",
+      "name": "CIA / Covert Operations Oversight: Congressional Notification",
+      "direction": -1,
+      "category": "foreign",
+      "rationale": "Oversight constrains intelligence capability.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-cigarettes-restricted-8c48cd",
+      "name": "Cigarettes: Restricted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal restrictions on a legal product.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-circumcision-unregulated-83d582",
+      "name": "Circumcision: Unregulated",
+      "direction": 0,
+      "category": null,
+      "rationale": "No clear left-right direction.",
+      "neutral": true,
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-coal-allowed-2bff6f",
+      "name": "Coal: Allowed",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Allows coal."
+    },
+    {
+      "id": "EXP-commerce-financial-tax-credit-no-credit-3d6f6f",
+      "name": "Commerce & Financial Tax Credit: No Credit",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "No tax credit leaves taxes higher than a credit would.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-commerce-services-subsidies-none-368a7e",
+      "name": "Commerce & Services Subsidies: None",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No subsidies; spending restraint."
+    },
+    {
+      "id": "EXP-common-core-curriculum-up-to-states-60625c",
+      "name": "Common Core Curriculum: Up to States",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Leaves curriculum to the states."
+    },
+    {
+      "id": "EXP-communist-party-ban-legal-500371",
+      "name": "Communist Party Ban: Legal",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Keeps the Communist Party legal (the opposite option is already rightward)."
     },
     {
       "id": "EXP-communist-party-ban-outlawed-1432f2",
@@ -529,11 +845,151 @@
       "rationale": "Anti-communist nationalism is rightward under the specified framework; civil-liberties costs do not reverse the direction."
     },
     {
+      "id": "EXP-confederate-flag-usage-restricted-to-military-historical-use-ad9669",
+      "name": "Confederate Flag Usage: Restricted to Military/Historical Use",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Restricts display.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-congressional-stock-trading-allowed-11923e",
+      "name": "Congressional Stock Trading: Allowed",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Permits trading by members of Congress.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-congressional-term-limits-no-limit-3521c7",
+      "name": "Congressional Term Limits: No Limit",
+      "direction": -1,
+      "category": "social",
+      "rationale": "No congressional term limits."
+    },
+    {
+      "id": "EXP-congressional-term-limits-no-term-limits-5826cc",
+      "name": "Congressional Term Limits: No Term Limits",
+      "direction": -1,
+      "category": "social",
+      "rationale": "No term limits.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-conscripted-age-groups-18-26-04f8d6",
+      "name": "Conscripted Age Groups: 18-26",
+      "direction": 0,
+      "category": null,
+      "rationale": "Parameter of a mechanism with no clear left-right direction.",
+      "neutral": true,
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-conscription-volunteer-only-9531e8",
+      "name": "Conscription: Volunteer Only",
+      "direction": 1,
+      "category": "foreign",
+      "rationale": "Volunteer force; libertarian on service.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-corporate-market-share-restrictions-no-restrictions-3ae3dd",
+      "name": "Corporate Market Share Restrictions: No Restrictions",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No market-share limits."
+    },
+    {
+      "id": "EXP-corporate-pac-contributions-strict-contribution-limits-08468a",
+      "name": "Corporate PAC Contributions: Strict Contribution Limits",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Limits on political speech."
+    },
+    {
+      "id": "EXP-corporate-tax-rate-35-1461a5",
+      "name": "Corporate Tax Rate: 35%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Rate is above the modern 21% federal rate."
+    },
+    {
+      "id": "EXP-corporate-tax-enacted-8cf98d",
+      "name": "Corporate Tax: Enacted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Creates a federal corporate tax."
+    },
+    {
+      "id": "EXP-country-recognition-china-recognize-the-prc-22fdc9",
+      "name": "Country Recognition (China): Recognize the PRC",
+      "direction": -1,
+      "category": "foreign",
+      "rationale": "Recognizes a communist government."
+    },
+    {
+      "id": "EXP-country-recognition-israel-palestine-recognize-israel-3ece1b",
+      "name": "Country Recognition (Israel / Palestine): Recognize Israel",
+      "direction": 1,
+      "category": "foreign",
+      "rationale": "Pro-Israel recognition."
+    },
+    {
+      "id": "EXP-critical-race-theory-up-to-states-58d1fd",
+      "name": "Critical Race Theory: Up to States",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Leaves the question to the states.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-cryptocurrency-unregulated-c02f31",
+      "name": "Cryptocurrency: Unregulated",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No crypto regulation."
+    },
+    {
+      "id": "EXP-cuba-policy-trade-embargo-500907",
+      "name": "Cuba Policy: Trade Embargo",
+      "direction": 1,
+      "category": "foreign",
+      "rationale": "Anti-communist embargo."
+    },
+    {
       "id": "EXP-custom-bill-4eccaf",
       "name": "Custom Bill",
       "direction": 0,
       "category": null,
       "rationale": "Custom bills contain no deterministic policy position and are neutral."
+    },
+    {
+      "id": "EXP-death-penalty-legal-2d6f5a",
+      "name": "Death Penalty: Legal",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Capital punishment."
+    },
+    {
+      "id": "EXP-defense-budget-fully-funded-ebcbde",
+      "name": "Defense Budget: Fully Funded",
+      "direction": 1,
+      "category": "foreign",
+      "rationale": "Strong defense funding."
+    },
+    {
+      "id": "EXP-department-of-education-abolished-04ae38",
+      "name": "Department of Education: Abolished",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Abolishes a federal department."
+    },
+    {
+      "id": "EXP-district-of-columbia-home-rule-09376b",
+      "name": "District of Columbia: Home Rule",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Keeps DC as a district (the opposite option, Statehood, is already leftward)."
     },
     {
       "id": "EXP-district-of-columbia-statehood-851018",
@@ -543,11 +999,112 @@
       "rationale": "Expands federal political representation and is treated as a moderate-liberal institutional expansion under the calibrated framework."
     },
     {
+      "id": "EXP-diversity-immigrant-visa-100-000-121652",
+      "name": "Diversity Immigrant Visa: 100,000",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Visa numbers above the real-world cap; nationalist immigration framework."
+    },
+    {
       "id": "EXP-diversity-immigrant-visa-500-000-eaa0ea",
       "name": "Diversity Immigrant Visa: 500,000",
       "direction": -1,
       "category": "social",
       "rationale": "Large-scale immigration expansion is leftward under the nationalist framework."
+    },
+    {
+      "id": "EXP-divorce-no-fault-divorce-e3c56c",
+      "name": "Divorce: No-Fault Divorce",
+      "direction": -1,
+      "category": "social",
+      "rationale": "No-fault divorce."
+    },
+    {
+      "id": "EXP-drinking-age-federal-funding-requirements-21-3250aa",
+      "name": "Drinking Age (Federal Funding Requirements): 21",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Federal age restriction.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-drug-control-policy-harm-reduction-treatment-cbcce8",
+      "name": "Drug Control Policy: Harm Reduction / Treatment",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Treatment-based drug policy."
+    },
+    {
+      "id": "EXP-drug-control-policy-war-on-drugs-309bc6",
+      "name": "Drug Control Policy: War on Drugs",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Law-and-order drug policy."
+    },
+    {
+      "id": "EXP-early-voting-not-enacted-89f92d",
+      "name": "Early Voting: Not Enacted",
+      "direction": 1,
+      "category": "social",
+      "rationale": "No federal early voting."
+    },
+    {
+      "id": "EXP-electoral-college-method-winner-take-all-cd0d11",
+      "name": "Electoral College Method: Winner Take All",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Keeps the traditional Electoral College method."
+    },
+    {
+      "id": "EXP-employer-health-insurance-not-required-72931a",
+      "name": "Employer Health Insurance: Not Required",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No employer mandate."
+    },
+    {
+      "id": "EXP-employer-paid-time-off-not-required-6a5665",
+      "name": "Employer Paid Time Off: Not Required",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No employer mandate."
+    },
+    {
+      "id": "EXP-employer-retirement-plan-not-required-9f883e",
+      "name": "Employer Retirement Plan: Not Required",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No employer mandate."
+    },
+    {
+      "id": "EXP-employment-discrimination-gender-banned-b81c62",
+      "name": "Employment Discrimination (Gender): Banned",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Federal anti-discrimination mandate.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-employment-discrimination-race-banned-99093f",
+      "name": "Employment Discrimination (Race): Banned",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Federal anti-discrimination mandate.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-energy-mining-subsidies-none-4e775e",
+      "name": "Energy & Mining Subsidies: None",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No subsidies; spending restraint."
+    },
+    {
+      "id": "EXP-energy-reorganization-department-of-energy-eed8ad",
+      "name": "Energy Reorganization: Department of Energy",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal energy agency."
     },
     {
       "id": "EXP-energy-reorganization-energy-research-developmen-f5f000",
@@ -557,11 +1114,153 @@
       "rationale": "Expands/reorganizes a federal energy research program rather than reducing government scope."
     },
     {
+      "id": "EXP-energy-tax-credit-no-credit-0a8bd4",
+      "name": "Energy Tax Credit: No Credit",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "No tax credit leaves taxes higher than a credit would.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-equal-pay-gender-equal-e10242",
+      "name": "Equal Pay (Gender): Equal",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal equal-pay mandate (the opposite option, Unregulated, is already rightward)."
+    },
+    {
       "id": "EXP-equal-pay-gender-unregulated-6db0e8",
       "name": "Equal Pay (Gender): Unregulated",
       "direction": 1,
       "category": "economic",
       "rationale": "Deregulation is rightward under fiscal libertarianism; civil-rights tradeoffs do not reverse the rightward policy direction."
+    },
+    {
+      "id": "EXP-equal-rights-amendment-not-ratified-515025",
+      "name": "Equal Rights Amendment: Not Ratified",
+      "direction": 1,
+      "category": "social",
+      "rationale": "ERA not ratified."
+    },
+    {
+      "id": "EXP-equal-rights-amendment-oppose-era-d95f5c",
+      "name": "Equal Rights Amendment: Oppose ERA",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Opposes the ERA."
+    },
+    {
+      "id": "EXP-estate-tax-0-10-000-18-c834ad",
+      "name": "Estate Tax ($0-$10,000): 18%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Positive estate-tax bracket rate; estate taxation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "EXP-estate-tax-1-000-000-55-facca6",
+      "name": "Estate Tax ($1,000,000+): 55%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Positive estate-tax bracket rate; estate taxation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "EXP-estate-tax-10-000-20-000-20-d7607b",
+      "name": "Estate Tax ($10,000-$20,000): 20%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Positive estate-tax bracket rate; estate taxation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "EXP-estate-tax-100-000-150-000-30-9e2119",
+      "name": "Estate Tax ($100,000-$150,000): 30%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Positive estate-tax bracket rate; estate taxation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "EXP-estate-tax-150-000-250-000-32-7c2c07",
+      "name": "Estate Tax ($150,000-$250,000): 32%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Positive estate-tax bracket rate; estate taxation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "EXP-estate-tax-20-000-40-000-22-c2cc45",
+      "name": "Estate Tax ($20,000-$40,000): 22%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Positive estate-tax bracket rate; estate taxation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "EXP-estate-tax-250-000-500-000-34-8ca9b2",
+      "name": "Estate Tax ($250,000-$500,000): 34%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Positive estate-tax bracket rate; estate taxation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "EXP-estate-tax-40-000-60-000-24-f4972f",
+      "name": "Estate Tax ($40,000-$60,000): 24%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Positive estate-tax bracket rate; estate taxation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "EXP-estate-tax-500-000-750-000-37-eb6bf9",
+      "name": "Estate Tax ($500,000-$750,000): 37%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Positive estate-tax bracket rate; estate taxation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "EXP-estate-tax-60-000-80-000-26-eb4781",
+      "name": "Estate Tax ($60,000-$80,000): 26%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Positive estate-tax bracket rate; estate taxation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "EXP-estate-tax-750-000-1-000-000-39-8d6608",
+      "name": "Estate Tax ($750,000-$1,000,000): 39%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Positive estate-tax bracket rate; estate taxation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "EXP-estate-tax-80-000-100-000-28-d8deb5",
+      "name": "Estate Tax ($80,000-$100,000): 28%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Positive estate-tax bracket rate; estate taxation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "EXP-estate-tax-enacted-526e4b",
+      "name": "Estate Tax: Enacted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Creates a federal estate tax."
+    },
+    {
+      "id": "EXP-fair-housing-fair-housing-act-85d005",
+      "name": "Fair Housing: Fair Housing Act",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Federal fair-housing mandate.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-family-reunification-visa-1-000-000-1aa44f",
+      "name": "Family Reunification Visa: 1,000,000",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Large family-based visa numbers."
+    },
+    {
+      "id": "EXP-family-reunification-visa-500-000-ada51f",
+      "name": "Family Reunification Visa: 500,000",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Large family-based visa numbers."
     },
     {
       "id": "EXP-farm-subsidies-heavy-subsidies-3a8e18",
@@ -571,11 +1270,159 @@
       "rationale": "Expands federal subsidies and spending."
     },
     {
+      "id": "EXP-farm-subsidies-moderate-price-supports-5749b6",
+      "name": "Farm Subsidies: Moderate Price Supports",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Farm price supports."
+    },
+    {
+      "id": "EXP-fda-approval-standard-safety-and-efficacy-ecc64c",
+      "name": "FDA Approval Standard: Safety and Efficacy",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Efficacy requirement adds regulation beyond safety-only review.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-federal-corporate-fine-ceiling-10-million-9cad50",
+      "name": "Federal Corporate Fine Ceiling: $10 Million",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Caps corporate fines.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-federal-education-funding-expanded-federal-funding-ac08f1",
+      "name": "Federal Education Funding: Expanded Federal Funding",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal education spending."
+    },
+    {
+      "id": "EXP-federal-education-funding-title-i-aid-833337",
+      "name": "Federal Education Funding: Title I Aid",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal education spending."
+    },
+    {
+      "id": "EXP-federal-police-funding-federal-grant-program-0e0c6e",
+      "name": "Federal Police Funding: Federal Grant Program",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Law-and-order funding.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-federal-research-funding-expanded-research-funding-c29555",
+      "name": "Federal Research Funding: Expanded Research Funding",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal research spending."
+    },
+    {
       "id": "EXP-federal-reserve-monetary-policy-neutral-252d68",
       "name": "Federal Reserve (Monetary Policy): Neutral",
       "direction": 0,
       "category": null,
       "rationale": "Binary fallback for a provision labeled neutral by the source; retained for deterministic no-zero scoring and flagged for review."
+    },
+    {
+      "id": "EXP-federal-reserve-monetary-policy-tightening-ceb866",
+      "name": "Federal Reserve (Monetary Policy): Tightening",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Tight money / sound-money stance.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-federal-sentencing-mandatory-minimums-308834",
+      "name": "Federal Sentencing: Mandatory Minimums",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Tough sentencing."
+    },
+    {
+      "id": "EXP-federal-workforce-desegregation-equal-opportunity-order-5d6fb8",
+      "name": "Federal Workforce Desegregation: Equal Opportunity Order",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Federal equal-opportunity mandate.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-financial-regulation-repeal-glass-steagall-3663c1",
+      "name": "Financial Regulation: Repeal Glass-Steagall",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Financial deregulation."
+    },
+    {
+      "id": "EXP-fireworks-ban-not-enacted-900751",
+      "name": "Fireworks Ban: Not Enacted",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No ban.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-flag-desecration-ban-protected-f17db8",
+      "name": "Flag Desecration Ban: Protected",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Flag desecration protected."
+    },
+    {
+      "id": "EXP-foreign-aid-establish-usaid-934295",
+      "name": "Foreign Aid: Establish USAID",
+      "direction": -1,
+      "category": "foreign",
+      "rationale": "Foreign-aid spending."
+    },
+    {
+      "id": "EXP-fracking-allowed-c21fce",
+      "name": "Fracking: Allowed",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Allows fracking."
+    },
+    {
+      "id": "EXP-gain-of-function-research-legality-legal-heavily-regulated-a62bc7",
+      "name": "Gain-Of-Function Research Legality: Legal, Heavily Regulated",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Heavily regulated research; biosecurity restriction.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-gasoline-tax-rate-4-cents-gal-5d02df",
+      "name": "Gasoline Tax Rate: 4 cents/gal",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Rate is below the modern real-world federal fuel tax."
+    },
+    {
+      "id": "EXP-gasoline-tax-enacted-8ca316",
+      "name": "Gasoline Tax: Enacted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Creates a federal fuel excise tax."
+    },
+    {
+      "id": "EXP-gender-transition-recognized-217fb9",
+      "name": "Gender Transition: Recognized",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Legal recognition of gender transition."
+    },
+    {
+      "id": "EXP-genders-conscripted-males-only-c254aa",
+      "name": "Genders Conscripted: Males Only",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Traditional male-only draft.",
+      "confidence": "low"
     },
     {
       "id": "EXP-gi-bill-full-tuition-housing-31ca77",
@@ -585,11 +1432,48 @@
       "rationale": "Substantially expands a federal benefit and education spending commitment."
     },
     {
+      "id": "EXP-gi-bill-tuition-assistance-stipend-d45154",
+      "name": "GI Bill: Tuition Assistance & Stipend",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal education benefit (note: the existing rule for Full Tuition & Housing is +1, which differs from the written calibration).",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-guest-worker-program-program-ended-f3a11b",
+      "name": "Guest Worker Program: Program Ended",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Ends guest-worker admissions."
+    },
+    {
+      "id": "EXP-gun-background-checks-licensed-dealer-checks-1f1ffa",
+      "name": "Gun Background Checks: Licensed Dealer Checks",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Background-check requirement.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-h-1b-skilled-worker-visa-100-000-800c93",
+      "name": "H-1B Skilled Worker Visa: 100,000",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Visa numbers above the real-world cap; nationalist immigration framework."
+    },
+    {
       "id": "EXP-h-1b-skilled-worker-visa-200-000-d19665",
       "name": "H-1B Skilled Worker Visa: 200,000",
       "direction": -1,
       "category": "social",
       "rationale": "Expanding H-1B skilled-worker immigration moves policy leftward under the nationalist framework."
+    },
+    {
+      "id": "EXP-healthcare-education-subsidies-none-a19bd2",
+      "name": "Healthcare & Education Subsidies: None",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No subsidies; spending restraint."
     },
     {
       "id": "EXP-healthcare-education-tax-credit-25-credit-d5e4f8",
@@ -599,11 +1483,170 @@
       "rationale": "A tax credit reduces taxes and is rightward under the fiscal-libertarian rule."
     },
     {
+      "id": "EXP-healthcare-education-tax-credit-no-credit-324ac0",
+      "name": "Healthcare & Education Tax Credit: No Credit",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "No tax credit leaves taxes higher than a credit would.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-holidays-christmas-recognized-federally-39dd80",
+      "name": "Holidays (Christmas): Recognized Federally",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Traditional federal holiday.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-holidays-columbus-day-recognized-federally-e54faa",
+      "name": "Holidays (Columbus Day): Recognized Federally",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Traditional federal holiday.",
+      "confidence": "low"
+    },
+    {
       "id": "EXP-holidays-election-day-recognized-federally-88e001",
       "name": "Holidays (Election Day): Recognized Federally",
       "direction": -1,
       "category": "social",
       "rationale": "Adds a federal holiday and expands federally facilitated voting access; it is not a rightward law-and-order/nationalist movement."
+    },
+    {
+      "id": "EXP-holidays-election-day-unrecognized-4499ca",
+      "name": "Holidays (Election Day): Unrecognized",
+      "direction": 1,
+      "category": "social",
+      "rationale": "No federal Election Day holiday (the opposite option is already leftward)."
+    },
+    {
+      "id": "EXP-holidays-hanukkah-unrecognized-9a9584",
+      "name": "Holidays (Hanukkah): Unrecognized",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Federal holiday not created.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-holidays-juneteenth-unrecognized-588ddf",
+      "name": "Holidays (Juneteenth): Unrecognized",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Federal holiday not created.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-holidays-labor-day-recognized-federally-fd3463",
+      "name": "Holidays (Labor Day): Recognized Federally",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Traditional federal holiday.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-holidays-memorial-day-recognized-federally-404e5f",
+      "name": "Holidays (Memorial Day): Recognized Federally",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Traditional federal holiday.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-holidays-presidents-day-recognized-federally-74027e",
+      "name": "Holidays (Presidents' Day): Recognized Federally",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Traditional federal holiday.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-house-cloture-threshold-three-fifths-of-the-chamber-6ca176",
+      "name": "House Cloture Threshold: Three-Fifths of the Chamber",
+      "direction": 0,
+      "category": null,
+      "rationale": "Procedural rule with no clear left-right direction.",
+      "neutral": true,
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-house-filibuster-disabled-5dc664",
+      "name": "House Filibuster: Disabled",
+      "direction": 0,
+      "category": null,
+      "rationale": "Procedural rule with no clear left-right direction.",
+      "neutral": true,
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-immigration-quota-system-hart-celler-preference-system-53a21f",
+      "name": "Immigration Quota System: Hart-Celler Preference System",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Liberalized quota system."
+    },
+    {
+      "id": "EXP-income-tax-0-11-600-15-67d171",
+      "name": "Income Tax ($0-$11,600): 15%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Bracket rate sits above the modern real-world rate for this bracket; higher taxes are leftward."
+    },
+    {
+      "id": "EXP-income-tax-100-526-191-950-36-d8dbeb",
+      "name": "Income Tax ($100,526-$191,950): 36%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Bracket rate sits above the modern real-world rate for this bracket; higher taxes are leftward."
+    },
+    {
+      "id": "EXP-income-tax-11-601-47-150-15-fc8d2c",
+      "name": "Income Tax ($11,601-$47,150): 15%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Bracket rate sits above the modern real-world rate for this bracket; higher taxes are leftward."
+    },
+    {
+      "id": "EXP-income-tax-191-951-243-725-36-1eb250",
+      "name": "Income Tax ($191,951-$243,725): 36%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Bracket rate sits above the modern real-world rate for this bracket; higher taxes are leftward."
+    },
+    {
+      "id": "EXP-income-tax-243-726-609-350-39-6-4e7a3d",
+      "name": "Income Tax ($243,726-$609,350): 39.6%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Bracket rate sits above the modern real-world rate for this bracket; higher taxes are leftward."
+    },
+    {
+      "id": "EXP-income-tax-47-151-100-525-28-5e326f",
+      "name": "Income Tax ($47,151-$100,525): 28%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Bracket rate sits above the modern real-world rate for this bracket; higher taxes are leftward."
+    },
+    {
+      "id": "EXP-income-tax-609-351-39-6-10861c",
+      "name": "Income Tax ($609,351+): 39.6%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Bracket rate sits above the modern real-world rate for this bracket; higher taxes are leftward."
+    },
+    {
+      "id": "EXP-income-tax-enacted-937957",
+      "name": "Income Tax: Enacted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Creates a broad federal income tax."
+    },
+    {
+      "id": "EXP-independent-political-expenditures-contribution-expenditure--fc9f66",
+      "name": "Independent Political Expenditures: Contribution & Expenditure Limits",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Limits on political speech."
     },
     {
       "id": "EXP-intelligence-community-budget-authority-full-pro-d63b8f",
@@ -613,11 +1656,71 @@
       "rationale": "Strengthens intelligence capability and national defense without itself authorizing overseas intervention."
     },
     {
+      "id": "EXP-interracial-marriage-legal-nationwide-4c5433",
+      "name": "Interracial Marriage: Legal Nationwide",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Nationwide marriage recognition.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-interstate-highways-moderate-funding-fd6fb7",
+      "name": "Interstate Highways: Moderate Funding",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal infrastructure spending.",
+      "confidence": "low"
+    },
+    {
       "id": "EXP-interstate-highways-national-infrastructure-prog-1bb528",
       "name": "Interstate Highways: National Infrastructure Program",
       "direction": -1,
       "category": "economic",
       "rationale": "Creates/expands a federal infrastructure spending program."
+    },
+    {
+      "id": "EXP-language-proficiency-for-immigration-not-required-c6d43d",
+      "name": "Language Proficiency for Immigration: Not Required",
+      "direction": -1,
+      "category": "social",
+      "rationale": "No language requirement for immigrants."
+    },
+    {
+      "id": "EXP-literacy-tests-banned-35d8cc",
+      "name": "Literacy Tests: Banned",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Voting-access protection."
+    },
+    {
+      "id": "EXP-lobbying-regulation-disclosure-requirements-102947",
+      "name": "Lobbying Regulation: Disclosure Requirements",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Lobbying regulation.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-loyalty-oaths-no-loyalty-oaths-5d6549",
+      "name": "Loyalty Oaths: No Loyalty Oaths",
+      "direction": -1,
+      "category": "social",
+      "rationale": "No loyalty oaths."
+    },
+    {
+      "id": "EXP-manufacturing-infrastructure-subsidies-none-8c808c",
+      "name": "Manufacturing & Infrastructure Subsidies: None",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No subsidies; spending restraint."
+    },
+    {
+      "id": "EXP-manufacturing-tax-credit-no-credit-b6dcca",
+      "name": "Manufacturing Tax Credit: No Credit",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "No tax credit leaves taxes higher than a credit would.",
+      "confidence": "low"
     },
     {
       "id": "EXP-marijuana-legalization-decriminalized-8448b7",
@@ -627,11 +1730,26 @@
       "rationale": "Decriminalization of marijuana moves away from the law-and-order/social-conservative baseline."
     },
     {
+      "id": "EXP-marijuana-legalization-illegal-93eae0",
+      "name": "Marijuana Legalization: Illegal",
+      "direction": 0,
+      "category": null,
+      "rationale": "Marijuana policy is neutral under this scorecard.",
+      "neutral": true
+    },
+    {
       "id": "EXP-marijuana-legalization-legal-a2006c",
       "name": "Marijuana Legalization: Legal",
       "direction": 0,
       "category": null,
       "rationale": "Drug legalization is socially liberal under the law-and-order framework."
+    },
+    {
+      "id": "EXP-marijuana-sales-tax-0-b55f68",
+      "name": "Marijuana Sales Tax: 0%",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No new tax on marijuana sales."
     },
     {
       "id": "EXP-marijuana-sales-tax-50-ed175b",
@@ -641,11 +1759,99 @@
       "rationale": "Adds a substantial new tax."
     },
     {
+      "id": "EXP-medicaid-coverage-low-income-27a93c",
+      "name": "Medicaid (Coverage): Low-Income",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Coverage limited to low-income recipients (means-tested).",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-medicaid-eligibility-unverified-699974",
+      "name": "Medicaid (Eligibility): Unverified",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Unverified eligibility loosens program controls.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-medicaid-expanded-coverage-not-enacted-cb433b",
+      "name": "Medicaid (Expanded Coverage): Not Enacted",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No Medicaid expansion."
+    },
+    {
+      "id": "EXP-medicaid-monthly-benefit-730-10f65e",
+      "name": "Medicaid (Monthly Benefit): $730",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Entitlement benefit level."
+    },
+    {
+      "id": "EXP-medicaid-enacted-624ee7",
+      "name": "Medicaid: Enacted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Creates a federal health entitlement."
+    },
+    {
+      "id": "EXP-medically-assisted-suicide-banned-76c010",
+      "name": "Medically Assisted Suicide: Banned",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Bans assisted suicide."
+    },
+    {
+      "id": "EXP-medicare-eligibility-age-65-years-old-8452a2",
+      "name": "Medicare (Eligibility Age): 65 Years Old",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Eligibility age at or above 65 limits spending.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-medicare-payroll-tax-1-50-341103",
+      "name": "Medicare (Payroll Tax): 1.50%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Payroll tax funding an entitlement."
+    },
+    {
+      "id": "EXP-medicare-yearly-benefit-16-500-9da140",
+      "name": "Medicare (Yearly Benefit): $16,500",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Entitlement benefit level."
+    },
+    {
+      "id": "EXP-medicare-not-enacted-a468cb",
+      "name": "Medicare: Not Enacted",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No federal Medicare program."
+    },
+    {
       "id": "EXP-medicare-universal-medicare-for-all-3215ea",
       "name": "Medicare: Universal (Medicare for All)",
       "direction": -1,
       "category": "economic",
       "rationale": "Creates universal federal healthcare and increases federal program scope/regulatory burden."
+    },
+    {
+      "id": "EXP-mental-health-parity-enacted-32abdb",
+      "name": "Mental Health Parity: Enacted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Insurance coverage mandate."
+    },
+    {
+      "id": "EXP-military-operated-prisons-allowed-215a29",
+      "name": "Military-Operated Prisons: Allowed",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Law-and-order posture.",
+      "confidence": "low"
     },
     {
       "id": "EXP-minimum-wage-12-5c0f70",
@@ -662,11 +1868,66 @@
       "rationale": "Raises a government-mandated wage floor above the federal baseline."
     },
     {
+      "id": "EXP-minimum-wage-5-15-aa7421",
+      "name": "Minimum Wage: $5.15",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Very low federal wage floor."
+    },
+    {
+      "id": "EXP-nasa-the-space-program-modest-nasa-budget-739132",
+      "name": "NASA & the Space Program: Modest NASA Budget",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Modest spending.",
+      "confidence": "low"
+    },
+    {
       "id": "EXP-national-parks-expanded-protection-13fd86",
       "name": "National Parks: Expanded Protection",
       "direction": -1,
       "category": "economic",
       "rationale": "Expands federal land/environmental regulation rather than reducing government scope."
+    },
+    {
+      "id": "EXP-national-parks-preserved-b639d1",
+      "name": "National Parks: Preserved",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal land preservation.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-national-service-program-voluntary-service-corps-301af8",
+      "name": "National Service Program: Voluntary Service Corps",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal service-program spending.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-native-american-land-reservations-08f02f",
+      "name": "Native American Land: Reservations",
+      "direction": 0,
+      "category": null,
+      "rationale": "No clear left-right direction.",
+      "neutral": true,
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-nato-status-underfunded-f75e45",
+      "name": "NATO Status: Underfunded",
+      "direction": 1,
+      "category": "foreign",
+      "rationale": "Reduced overseas commitment under an anti-intervention framework.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-nuclear-arms-posture-arms-control-treaties-5528a3",
+      "name": "Nuclear Arms Posture: Arms Control Treaties",
+      "direction": -1,
+      "category": "foreign",
+      "rationale": "Arms control constrains defense capability."
     },
     {
       "id": "EXP-nuclear-energy-expanded-subsidized-5f3af3",
@@ -676,11 +1937,245 @@
       "rationale": "Government subsidy expansion is leftward under fiscal libertarianism, even when the underlying energy source is favorable."
     },
     {
+      "id": "EXP-nuclear-energy-regulated-development-82d843",
+      "name": "Nuclear Energy: Regulated Development",
+      "direction": 0,
+      "category": null,
+      "rationale": "Nuclear energy itself is neutral under this scorecard.",
+      "neutral": true
+    },
+    {
+      "id": "EXP-occupational-licensing-broad-licensing-5dc6a4",
+      "name": "Occupational Licensing: Broad Licensing",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Broad licensing regimes restrict entry and add regulation."
+    },
+    {
+      "id": "EXP-official-national-language-no-official-language-1d4af0",
+      "name": "Official National Language: No Official Language",
+      "direction": -1,
+      "category": "social",
+      "rationale": "No official language."
+    },
+    {
+      "id": "EXP-overtime-child-labor-standards-overtime-strict-child-labor-cb340c",
+      "name": "Overtime & Child Labor Standards: Overtime + Strict Child Labor",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Labor-market regulation."
+    },
+    {
+      "id": "EXP-party-soft-money-soft-money-prohibited-8eaa2a",
+      "name": "Party Soft Money: Soft Money Prohibited",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Campaign-finance regulation."
+    },
+    {
+      "id": "EXP-pathway-to-citizenship-military-service-5-years-f45ea3",
+      "name": "Pathway to Citizenship - Military Service: 5 Years",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Service requirement for citizenship.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-pathway-to-citizenship-residency-requirement-5-years-c890c1",
+      "name": "Pathway to Citizenship - Residency Requirement: 5 Years",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Residency requirement before naturalization.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-pathway-to-citizenship-not-enacted-4d9aee",
+      "name": "Pathway to Citizenship: Not Enacted",
+      "direction": 1,
+      "category": "social",
+      "rationale": "No amnesty pathway."
+    },
+    {
+      "id": "EXP-penal-legion-service-capital-criminals-3-years-67803d",
+      "name": "Penal Legion Service (Capital Criminals): 3 Years",
+      "direction": 0,
+      "category": null,
+      "rationale": "Parameter of a mechanism with no clear left-right direction.",
+      "neutral": true,
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-penal-legion-service-non-violent-offenders-3-years-7d1247",
+      "name": "Penal Legion Service (Non-Violent Offenders): 3 Years",
+      "direction": 0,
+      "category": null,
+      "rationale": "Parameter of a mechanism with no clear left-right direction.",
+      "neutral": true,
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-penal-legion-service-violent-offenders-3-years-b6d92d",
+      "name": "Penal Legion Service (Violent Offenders): 3 Years",
+      "direction": 0,
+      "category": null,
+      "rationale": "Parameter of a mechanism with no clear left-right direction.",
+      "neutral": true,
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-penal-legions-banned-d5a70e",
+      "name": "Penal Legions: Banned",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Bans a harsh penal option.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-pistols-allowed-4c335f",
+      "name": "Pistols: Allowed",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Gun rights."
+    },
+    {
+      "id": "EXP-poll-tax-banned-148835",
+      "name": "Poll Tax: Banned",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Voting-access protection."
+    },
+    {
+      "id": "EXP-pornography-allowed-84d825",
+      "name": "Pornography: Allowed",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Pornography permitted."
+    },
+    {
+      "id": "EXP-presidential-term-length-4-years-0ecf7e",
+      "name": "Presidential Term Length: 4 Years",
+      "direction": 0,
+      "category": null,
+      "rationale": "No clear left-right direction.",
+      "neutral": true
+    },
+    {
+      "id": "EXP-privacy-rights-surveillance-data-warrant-required-7b392d",
+      "name": "Privacy Rights (Surveillance & Data): Warrant Required",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Warrant requirement limits law enforcement.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-private-prisons-allowed-847aad",
+      "name": "Private Prisons: Allowed",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Private-sector corrections."
+    },
+    {
+      "id": "EXP-public-accommodations-desegregate-public-spaces-4e79cf",
+      "name": "Public Accommodations: Desegregate Public Spaces",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Federal public-accommodations mandate.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-public-health-insurance-option-no-public-option-1b1077",
+      "name": "Public Health Insurance Option: No Public Option",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No public insurance option."
+    },
+    {
+      "id": "EXP-public-power-tva-public-utilities-2a4cb3",
+      "name": "Public Power (TVA): Public Utilities",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Publicly owned utilities."
+    },
+    {
+      "id": "EXP-puerto-rico-statehood-commonwealth-c2e8f6",
+      "name": "Puerto Rico Statehood: Commonwealth",
+      "direction": 1,
+      "category": "social",
+      "rationale": "No Puerto Rico statehood.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-r-d-tax-credit-no-credit-b1d288",
+      "name": "R&D Tax Credit: No Credit",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "No tax credit leaves taxes higher than a credit would.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-redlining-banned-a3b273",
+      "name": "Redlining: Banned",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Federal lending-discrimination ban.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-refugee-admissions-ceiling-100-000-b888c6",
+      "name": "Refugee Admissions Ceiling: 100,000",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Large refugee ceiling under a nationalist framework.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-refugee-admissions-framework-refugee-act-of-1980-6b35c0",
+      "name": "Refugee Admissions Framework: Refugee Act of 1980",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Statutory refugee admissions framework."
+    },
+    {
+      "id": "EXP-renewable-portfolio-standard-no-standard-3c284f",
+      "name": "Renewable Portfolio Standard: No Standard",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No renewable mandate."
+    },
+    {
+      "id": "EXP-sales-tax-rate-0-b504a3",
+      "name": "Sales Tax Rate: 0%",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No sales tax."
+    },
+    {
+      "id": "EXP-sales-tax-not-enacted-d3f07d",
+      "name": "Sales Tax: Not Enacted",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No federal sales tax."
+    },
+    {
+      "id": "EXP-same-day-voter-registration-not-enacted-24b106",
+      "name": "Same-Day Voter Registration: Not Enacted",
+      "direction": 1,
+      "category": "social",
+      "rationale": "No same-day registration."
+    },
+    {
       "id": "EXP-same-sex-marriage-allowed-12fe62",
       "name": "Same-Sex Marriage: Allowed",
       "direction": -1,
       "category": "social",
       "rationale": "Expands same-sex marriage recognition relative to the social-conservative baseline."
+    },
+    {
+      "id": "EXP-same-sex-marriage-banned-65919a",
+      "name": "Same-Sex Marriage: Banned",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Bans same-sex marriage."
     },
     {
       "id": "EXP-same-sex-marriage-civil-unions-195be8",
@@ -690,11 +2185,83 @@
       "rationale": "Recognizes same-sex civil unions rather than maintaining the social-conservative marriage baseline."
     },
     {
+      "id": "EXP-school-desegregation-federal-desegregation-67ac2c",
+      "name": "School Desegregation: Federal Desegregation",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Federal desegregation mandate.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-school-libraries-uncensored-3b6291",
+      "name": "School Libraries: Uncensored",
+      "direction": -1,
+      "category": "social",
+      "rationale": "No curriculum/library restrictions."
+    },
+    {
+      "id": "EXP-school-lunch-free-for-low-income-c3a6b7",
+      "name": "School Lunch: Free for Low-Income",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal nutrition spending."
+    },
+    {
       "id": "EXP-school-lunch-universal-free-meals-e5326f",
       "name": "School Lunch: Universal Free Meals",
       "direction": -1,
       "category": "economic",
       "rationale": "Creates a universal government-funded benefit."
+    },
+    {
+      "id": "EXP-school-prayer-ban-school-prayer-ad9288",
+      "name": "School Prayer: Ban School Prayer",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Bans school prayer."
+    },
+    {
+      "id": "EXP-selective-service-registration-male-registration-required-38639c",
+      "name": "Selective Service Registration: Male Registration Required",
+      "direction": 1,
+      "category": "foreign",
+      "rationale": "Registration supports readiness.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-senate-cloture-threshold-three-fifths-of-the-chamber-2c26e9",
+      "name": "Senate Cloture Threshold: Three-Fifths of the Chamber",
+      "direction": 0,
+      "category": null,
+      "rationale": "Procedural rule with no clear left-right direction.",
+      "neutral": true,
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-senate-filibuster-enabled-30a91a",
+      "name": "Senate Filibuster: Enabled",
+      "direction": 0,
+      "category": null,
+      "rationale": "Procedural rule with no clear left-right direction.",
+      "neutral": true,
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-senate-term-length-6-years-cc8f73",
+      "name": "Senate Term Length: 6 Years",
+      "direction": 0,
+      "category": null,
+      "rationale": "No clear left-right direction.",
+      "neutral": true
+    },
+    {
+      "id": "EXP-service-duration-1-year-a4cf00",
+      "name": "Service Duration: 1 Year",
+      "direction": 0,
+      "category": null,
+      "rationale": "Parameter of a mechanism with no clear left-right direction.",
+      "neutral": true,
+      "confidence": "low"
     },
     {
       "id": "EXP-sex-education-comprehensive-sex-education-mandat-c9f7be",
@@ -704,11 +2271,68 @@
       "rationale": "Mandated comprehensive sex education expands government-directed social policy."
     },
     {
+      "id": "EXP-sex-education-up-to-states-3fcb71",
+      "name": "Sex Education: Up to States",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Leaves the question to the states."
+    },
+    {
+      "id": "EXP-slavery-reparations-not-enacted-c86649",
+      "name": "Slavery Reparations: Not Enacted",
+      "direction": 1,
+      "category": "social",
+      "rationale": "No reparations."
+    },
+    {
       "id": "EXP-small-business-support-expanded-sba-tax-relief-7fbb38",
       "name": "Small Business Support: Expanded SBA & Tax Relief",
       "direction": -1,
       "category": "economic",
       "rationale": "Expanded SBA support increases federal spending; the tax-relief component does not erase the spending expansion under the calibrated equal-provision rule."
+    },
+    {
+      "id": "EXP-small-business-support-sba-loans-counseling-c204a9",
+      "name": "Small Business Support: SBA Loans & Counseling",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal small-business spending."
+    },
+    {
+      "id": "EXP-snap-eligibility-rate-100-753d2c",
+      "name": "SNAP (Eligibility Rate): 100%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Full eligibility expands welfare."
+    },
+    {
+      "id": "EXP-snap-monthly-benefits-180-3901bb",
+      "name": "SNAP (Monthly Benefits): $180",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Welfare benefit level."
+    },
+    {
+      "id": "EXP-snap-work-requirements-0a255e",
+      "name": "SNAP: Work Requirements",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Work requirements restrain welfare."
+    },
+    {
+      "id": "EXP-social-media-identification-unregulated-5f1576",
+      "name": "Social Media Identification: Unregulated",
+      "direction": -1,
+      "category": "social",
+      "rationale": "No identification requirement for social media.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-social-security-monthly-benefit-1-750-1a4036",
+      "name": "Social Security (Monthly Benefit): $1,750",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Entitlement benefit level."
     },
     {
       "id": "EXP-social-security-monthly-benefit-2-250-6db477",
@@ -718,11 +2342,60 @@
       "rationale": "Expands a federal entitlement benefit."
     },
     {
+      "id": "EXP-social-security-payroll-tax-8-b6d599",
+      "name": "Social Security (Payroll Tax): 8%",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Payroll tax funding an entitlement."
+    },
+    {
+      "id": "EXP-social-security-retirement-age-67-26c73e",
+      "name": "Social Security (Retirement Age): 67",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Higher retirement age is fiscal restraint."
+    },
+    {
+      "id": "EXP-social-security-enacted-297df7",
+      "name": "Social Security: Enacted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Creates an entitlement program."
+    },
+    {
+      "id": "EXP-special-prosecutor-at-ag-discretion-5b62d5",
+      "name": "Special Prosecutor: At AG Discretion",
+      "direction": -1,
+      "category": "social",
+      "rationale": "No independent special prosecutor (the opposite option is already rightward)."
+    },
+    {
       "id": "EXP-special-prosecutor-independent-office-e96b96",
       "name": "Special Prosecutor: Independent Office",
       "direction": 1,
       "category": "social",
       "rationale": "Independent anti-corruption oversight advances the transparency/law-and-order priority."
+    },
+    {
+      "id": "EXP-standard-workweek-40-hours-ac30c5",
+      "name": "Standard Workweek: 40 Hours",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federally mandated workweek."
+    },
+    {
+      "id": "EXP-strike-regulations-cooling-off-period-c38658",
+      "name": "Strike Regulations: Cooling-Off Period",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Restricts strike activity."
+    },
+    {
+      "id": "EXP-student-loans-federally-subsidized-loans-8aa138",
+      "name": "Student Loans: Federally Subsidized Loans",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal student-aid spending."
     },
     {
       "id": "EXP-student-loans-free-public-university-b8b646",
@@ -739,11 +2412,91 @@
       "rationale": "Creates an additional industry tax."
     },
     {
+      "id": "EXP-superfund-authorization-unfunded-8e86b9",
+      "name": "Superfund Authorization: Unfunded",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No new industry tax or program funding."
+    },
+    {
+      "id": "EXP-supreme-court-size-nine-justices-dcccc2",
+      "name": "Supreme Court Size: Nine Justices",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Keeps the Court at nine."
+    },
+    {
+      "id": "EXP-tariffs-low-tariffs-70eba1",
+      "name": "Tariffs: Low Tariffs",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Low tariffs; this scorecard scores protectionism rightward, so free-trade levels are leftward."
+    },
+    {
+      "id": "EXP-technology-innovation-subsidies-none-8ebc56",
+      "name": "Technology & Innovation Subsidies: None",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No subsidies; spending restraint."
+    },
+    {
+      "id": "EXP-tiktok-status-allowed-a73a61",
+      "name": "TikTok Status: Allowed",
+      "direction": -1,
+      "category": "foreign",
+      "rationale": "TikTok allowed (the opposite option, Banned, is already rightward)."
+    },
+    {
       "id": "EXP-tiktok-status-banned-35b423",
       "name": "TikTok Status: Banned",
       "direction": 1,
       "category": "foreign",
       "rationale": "National-security restriction on a foreign-linked platform is rightward under nationalism/hemispheric-security priorities; civil-liberties effects do not reverse it."
+    },
+    {
+      "id": "EXP-tobacco-tax-rate-5-749d30",
+      "name": "Tobacco Tax Rate: 5%",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Low excise rate.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-tobacco-tax-enacted-11eb02",
+      "name": "Tobacco Tax: Enacted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Creates a federal tobacco excise tax."
+    },
+    {
+      "id": "EXP-trade-promotion-authority-none-1add47",
+      "name": "Trade Promotion Authority: None",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No fast-track trade authority; protectionism is scored rightward.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-transgender-athletes-allowed-to-participate-770ad6",
+      "name": "Transgender Athletes: Allowed to Participate",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Allows transgender athletes to compete by gender identity."
+    },
+    {
+      "id": "EXP-transgender-soldiers-banned-from-joining-the-army-f7d4b9",
+      "name": "Transgender Soldiers: Banned From Joining the Army",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Bans transgender enlistment."
+    },
+    {
+      "id": "EXP-union-dues-regulation-no-cap-9f31f7",
+      "name": "Union Dues Regulation: No Cap",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "No cap on union dues.",
+      "confidence": "low"
     },
     {
       "id": "EXP-union-dues-regulation-no-cap-tax-deductible-204c4e",
@@ -753,6 +2506,65 @@
       "rationale": "Expands union financial privileges and a tax preference rather than deregulating private enterprise."
     },
     {
+      "id": "EXP-union-pac-contributions-strict-contribution-limits-6ff8bf",
+      "name": "Union PAC Contributions: Strict Contribution Limits",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Limits on political speech.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-union-security-union-shop-840c16",
+      "name": "Union Security: Union Shop",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Union shop compels membership/dues; right-to-work is rightward."
+    },
+    {
+      "id": "EXP-united-nations-children-s-fund-status-fully-funded-a3fe10",
+      "name": "United Nations Children's Fund Status: Fully Funded",
+      "direction": -1,
+      "category": "foreign",
+      "rationale": "Full funding of an international body."
+    },
+    {
+      "id": "EXP-united-nations-status-partially-funded-30de1e",
+      "name": "United Nations Status: Partially Funded",
+      "direction": 1,
+      "category": "foreign",
+      "rationale": "Limited funding for an international body.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-universal-basic-income-not-enacted-ae60b0",
+      "name": "Universal Basic Income: Not Enacted",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No universal basic income."
+    },
+    {
+      "id": "EXP-universal-preschool-not-enacted-e15990",
+      "name": "Universal Preschool: Not Enacted",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No universal preschool."
+    },
+    {
+      "id": "EXP-va-eligibility-rate-served-full-time-418bc4",
+      "name": "VA (Eligibility Rate): Served Full Time",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Narrow eligibility (full-time service only).",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-va-monthly-benefit-1-450-9aa71d",
+      "name": "VA (Monthly Benefit): $1,450",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Benefit level (higher VA benefits are scored leftward)."
+    },
+    {
       "id": "EXP-va-monthly-benefit-1-550-2d97b3",
       "name": "VA (Monthly Benefit): $1,550",
       "direction": -1,
@@ -760,11 +2572,100 @@
       "rationale": "Expands a federal benefit/payment commitment and therefore moves away from fiscal libertarianism."
     },
     {
+      "id": "EXP-value-added-tax-rate-0-5d4670",
+      "name": "Value Added Tax Rate: 0%",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No value-added tax."
+    },
+    {
+      "id": "EXP-value-added-tax-not-enacted-329cdb",
+      "name": "Value Added Tax: Not Enacted",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "No value-added tax."
+    },
+    {
+      "id": "EXP-vapes-allowed-b4557b",
+      "name": "Vapes: Allowed",
+      "direction": 1,
+      "category": "economic",
+      "rationale": "Unrestricted legal product.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-veterans-healthcare-va-enacted-1bb068",
+      "name": "Veterans' Healthcare (VA): Enacted",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Creates a federal health program.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-voter-id-no-id-requirement-37303b",
+      "name": "Voter ID: No ID Requirement",
+      "direction": -1,
+      "category": "social",
+      "rationale": "No voter ID requirement."
+    },
+    {
       "id": "EXP-voting-age-26th-amendment-16-432928",
       "name": "Voting Age (26th Amendment): 16",
       "direction": -1,
       "category": "social",
       "rationale": "Expands the electorate to minors and is not a nationalist/law-and-order rightward movement."
+    },
+    {
+      "id": "EXP-voting-age-26th-amendment-18-7c7b61",
+      "name": "Voting Age (26th Amendment): 18",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Voting age 18 (the opposite option, 16, is already leftward)."
+    },
+    {
+      "id": "EXP-voting-rights-act-voting-rights-act-ee52c5",
+      "name": "Voting Rights Act: Voting Rights Act",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Federal voting-rights enforcement."
+    },
+    {
+      "id": "EXP-wildlife-hunting-licensed-b28932",
+      "name": "Wildlife Hunting: Licensed",
+      "direction": 1,
+      "category": "social",
+      "rationale": "Preserves hunting.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-women-on-juries-equal-jury-service-5499cc",
+      "name": "Women on Juries: Equal Jury Service",
+      "direction": -1,
+      "category": "social",
+      "rationale": "Federal jury-service mandate.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-women-s-credit-rights-equal-credit-access-6ebd51",
+      "name": "Women's Credit Rights: Equal Credit Access",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal credit-access mandate.",
+      "confidence": "low"
+    },
+    {
+      "id": "EXP-workplace-safety-standards-moderate-standards-98d38e",
+      "name": "Workplace Safety Standards: Moderate Standards",
+      "direction": -1,
+      "category": "economic",
+      "rationale": "Federal workplace regulation."
+    },
+    {
+      "id": "EXP-world-health-organization-status-fully-funded-4770b4",
+      "name": "World Health Organization Status: Fully Funded",
+      "direction": -1,
+      "category": "foreign",
+      "rationale": "Full funding of an international body."
     }
   ]
 }
