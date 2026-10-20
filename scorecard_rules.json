@@ -27,6 +27,14 @@
   },
   "calibrated_rules": [
     {
+      "id": "CAL-VA-DEFUND-NEUTRAL",
+      "pattern": "^(va|veterans?( affairs)?|gi bill)\\b.*\\b(cut|cuts|reduced|reduction|eliminated|abolished|defunded|defund|privatized|none|\\$0)\\b",
+      "category": "economic",
+      "direction": 0,
+      "scorable": false,
+      "rationale": "Defunding/cutting veterans affairs is neutral (0) by user decision and is not scored."
+    },
+    {
       "id": "CAL-HR2-ASSAULT-RIFLES",
       "pattern": "^assault rifles: allowed$",
       "category": "social",
@@ -58,8 +66,8 @@
       "id": "CAL-S5-VA",
       "pattern": "^va \\(monthly benefit\\): \\$1,550$",
       "category": "economic",
-      "direction": -1,
-      "rationale": "Expands a federal benefit/payment commitment and therefore moves away from fiscal libertarianism."
+      "direction": 1,
+      "rationale": "Veterans affairs funding/benefits are scored +1 (aligned) by user decision, as a national-defense and veterans commitment."
     },
     {
       "id": "CAL-S5-H1B",
@@ -136,8 +144,8 @@
       "id": "CAL-S19-GI-BILL",
       "pattern": "^gi bill: full tuition & housing$",
       "category": "economic",
-      "direction": -1,
-      "rationale": "Substantially expands a federal benefit and education spending commitment."
+      "direction": 1,
+      "rationale": "GI Bill/veterans benefits are scored +1 (aligned) by user decision."
     },
     {
       "id": "CAL-S23-AUMF",
@@ -299,6 +307,13 @@
       "category": "social",
       "direction": 1,
       "rationale": "Binary fallback for an unknown provision; retained for deterministic no-zero scoring and flagged for review."
+    },
+    {
+      "id": "CAL-VA-GENERAL",
+      "pattern": "\\b(veterans?|va|gi bill)\\b",
+      "category": "economic",
+      "direction": 1,
+      "rationale": "Anything related to veterans affairs is scored +1 (aligned) by user decision."
     }
   ],
   "general_rules": [
