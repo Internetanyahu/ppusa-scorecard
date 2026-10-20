@@ -1,4 +1,4 @@
-name: Compile conservative scorecard
+name: Scrape Politician Data
 
 # The bill scraper is intentionally separate. This workflow consumes the
 # checked-in bills.json and never discovers or adds new provision options.
