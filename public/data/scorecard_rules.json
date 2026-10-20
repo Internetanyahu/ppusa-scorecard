@@ -489,10 +489,9 @@
     {
       "id": "EXP-13th-amendment-slavery-ban-in-force-d059d0",
       "name": "13th Amendment (Slavery Ban): In Force",
-      "direction": 0,
-      "category": null,
-      "rationale": "Not a left-right question.",
-      "neutral": true
+      "direction": 1,
+      "category": "social",
+      "rationale": "Not a left-right question."
     },
     {
       "id": "EXP-14th-amendment-birthright-citizenship-protected-1087ef",
@@ -506,8 +505,7 @@
       "name": "15th Amendment (Black Suffrage): Protected",
       "direction": 0,
       "category": null,
-      "rationale": "Not a left-right question.",
-      "neutral": true
+      "rationale": "Not a left-right question."
     },
     {
       "id": "EXP-16th-amendment-income-tax-permitted-d77596",
@@ -519,31 +517,28 @@
     {
       "id": "EXP-17th-amendment-senate-election-direct-election-dce380",
       "name": "17th Amendment (Senate Election): Direct Election",
-      "direction": 0,
-      "category": null,
-      "rationale": "No clear left-right direction.",
-      "neutral": true
+      "direction": -1,
+      "category": "social",
+      "rationale": "No clear left-right direction."
     },
     {
       "id": "EXP-18th-amendment-prohibition-repealed-8e8251",
       "name": "18th Amendment (Prohibition): Repealed",
       "direction": 0,
       "category": null,
-      "rationale": "No clear left-right direction.",
-      "neutral": true
+      "rationale": "No clear left-right direction."
     },
     {
       "id": "EXP-19th-amendment-women-s-suffrage-protected-86df50",
       "name": "19th Amendment (Women's Suffrage): Protected",
-      "direction": 0,
-      "category": null,
-      "rationale": "Not a left-right question.",
-      "neutral": true
+      "direction": -1,
+      "category": "social",
+      "rationale": "Not a left-right question."
     },
     {
       "id": "EXP-22nd-amendment-presidential-term-limits-2-terms-08043c",
       "name": "22nd Amendment (Presidential Term Limits): 2 Terms",
-      "direction": 1,
+      "direction": -1,
       "category": "social",
       "rationale": "Presidential term limit."
     },
@@ -566,8 +561,7 @@
       "name": "25th Amendment (Succession): In Force",
       "direction": 0,
       "category": null,
-      "rationale": "Not a left-right question.",
-      "neutral": true
+      "rationale": "Not a left-right question."
     },
     {
       "id": "EXP-26th-amendment-voting-age-age-18-abb8e0",
@@ -586,7 +580,7 @@
     {
       "id": "EXP-abortion-week-cutoff-20-weeks-ab7789",
       "name": "Abortion Week Cutoff: 20 Weeks",
-      "direction": 1,
+      "direction": -1,
       "category": "social",
       "rationale": "Gestational limit on abortion."
     },
@@ -614,7 +608,7 @@
     {
       "id": "EXP-advertising-standards-truth-in-advertising-standards-0b4bd6",
       "name": "Advertising Standards: Truth-in-Advertising Standards",
-      "direction": -1,
+      "direction": 1,
       "category": "economic",
       "rationale": "Advertising regulation."
     },
@@ -795,10 +789,9 @@
     {
       "id": "EXP-circumcision-unregulated-83d582",
       "name": "Circumcision: Unregulated",
-      "direction": 0,
-      "category": null,
+      "direction": -1,
+      "category": "social",
       "rationale": "No clear left-right direction.",
-      "neutral": true,
       "confidence": "low"
     },
     {
@@ -855,7 +848,7 @@
     {
       "id": "EXP-congressional-stock-trading-allowed-11923e",
       "name": "Congressional Stock Trading: Allowed",
-      "direction": -1,
+      "direction": 1,
       "category": "social",
       "rationale": "Permits trading by members of Congress.",
       "confidence": "low"
@@ -863,14 +856,14 @@
     {
       "id": "EXP-congressional-term-limits-no-limit-3521c7",
       "name": "Congressional Term Limits: No Limit",
-      "direction": -1,
+      "direction": 1,
       "category": "social",
       "rationale": "No congressional term limits."
     },
     {
       "id": "EXP-congressional-term-limits-no-term-limits-5826cc",
       "name": "Congressional Term Limits: No Term Limits",
-      "direction": -1,
+      "direction": 1,
       "category": "social",
       "rationale": "No term limits.",
       "confidence": "low"
@@ -881,14 +874,13 @@
       "direction": 0,
       "category": null,
       "rationale": "Parameter of a mechanism with no clear left-right direction.",
-      "neutral": true,
       "confidence": "low"
     },
     {
       "id": "EXP-conscription-volunteer-only-9531e8",
       "name": "Conscription: Volunteer Only",
-      "direction": 1,
-      "category": "foreign",
+      "direction": -1,
+      "category": "social",
       "rationale": "Volunteer force; libertarian on service.",
       "confidence": "low"
     },
@@ -930,8 +922,8 @@
     {
       "id": "EXP-country-recognition-israel-palestine-recognize-israel-3ece1b",
       "name": "Country Recognition (Israel / Palestine): Recognize Israel",
-      "direction": 1,
-      "category": "foreign",
+      "direction": 0,
+      "category": null,
       "rationale": "Pro-Israel recognition."
     },
     {
@@ -1566,7 +1558,6 @@
       "direction": 0,
       "category": null,
       "rationale": "Procedural rule with no clear left-right direction.",
-      "neutral": true,
       "confidence": "low"
     },
     {
@@ -1575,7 +1566,6 @@
       "direction": 0,
       "category": null,
       "rationale": "Procedural rule with no clear left-right direction.",
-      "neutral": true,
       "confidence": "low"
     },
     {
@@ -1734,8 +1724,7 @@
       "name": "Marijuana Legalization: Illegal",
       "direction": 0,
       "category": null,
-      "rationale": "Marijuana policy is neutral under this scorecard.",
-      "neutral": true
+      "rationale": "Marijuana policy is neutral under this scorecard."
     },
     {
       "id": "EXP-marijuana-legalization-legal-a2006c",
@@ -1911,7 +1900,6 @@
       "direction": 0,
       "category": null,
       "rationale": "No clear left-right direction.",
-      "neutral": true,
       "confidence": "low"
     },
     {
@@ -1941,8 +1929,7 @@
       "name": "Nuclear Energy: Regulated Development",
       "direction": 0,
       "category": null,
-      "rationale": "Nuclear energy itself is neutral under this scorecard.",
-      "neutral": true
+      "rationale": "Nuclear energy itself is neutral under this scorecard."
     },
     {
       "id": "EXP-occupational-licensing-broad-licensing-5dc6a4",
@@ -2001,7 +1988,6 @@
       "direction": 0,
       "category": null,
       "rationale": "Parameter of a mechanism with no clear left-right direction.",
-      "neutral": true,
       "confidence": "low"
     },
     {
@@ -2010,7 +1996,6 @@
       "direction": 0,
       "category": null,
       "rationale": "Parameter of a mechanism with no clear left-right direction.",
-      "neutral": true,
       "confidence": "low"
     },
     {
@@ -2019,7 +2004,6 @@
       "direction": 0,
       "category": null,
       "rationale": "Parameter of a mechanism with no clear left-right direction.",
-      "neutral": true,
       "confidence": "low"
     },
     {
@@ -2056,8 +2040,7 @@
       "name": "Presidential Term Length: 4 Years",
       "direction": 0,
       "category": null,
-      "rationale": "No clear left-right direction.",
-      "neutral": true
+      "rationale": "No clear left-right direction."
     },
     {
       "id": "EXP-privacy-rights-surveillance-data-warrant-required-7b392d",
@@ -2234,7 +2217,6 @@
       "direction": 0,
       "category": null,
       "rationale": "Procedural rule with no clear left-right direction.",
-      "neutral": true,
       "confidence": "low"
     },
     {
@@ -2243,7 +2225,6 @@
       "direction": 0,
       "category": null,
       "rationale": "Procedural rule with no clear left-right direction.",
-      "neutral": true,
       "confidence": "low"
     },
     {
@@ -2251,8 +2232,7 @@
       "name": "Senate Term Length: 6 Years",
       "direction": 0,
       "category": null,
-      "rationale": "No clear left-right direction.",
-      "neutral": true
+      "rationale": "No clear left-right direction."
     },
     {
       "id": "EXP-service-duration-1-year-a4cf00",
@@ -2260,7 +2240,6 @@
       "direction": 0,
       "category": null,
       "rationale": "Parameter of a mechanism with no clear left-right direction.",
-      "neutral": true,
       "confidence": "low"
     },
     {
