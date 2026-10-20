@@ -1,1 +1,1595 @@
-[]
+[
+  {
+    "player_id": "1099",
+    "name": "Josh Harder",
+    "discord": "",
+    "profiles": [
+      "1099"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1099",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "_deviloftherhine",
+    "name": "Emma Degurechaff",
+    "discord": "_deviloftherhine",
+    "profiles": [
+      "1039",
+      "1054"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1039",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "nay",
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1039",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1054",
+        "sponsored": false,
+        "cosponsored": true,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 3
+  },
+  {
+    "player_id": "_mandoge",
+    "name": "Mark McGwire",
+    "discord": "_mandoge",
+    "profiles": [
+      "1073",
+      "1076"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1073",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1073",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1076",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 3
+  },
+  {
+    "player_id": "bigggumper",
+    "name": "Gracie Shelby",
+    "discord": "bigggumper",
+    "profiles": [
+      "1024"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1024",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "chase043976",
+    "name": "Antonio Russo",
+    "discord": "chase043976",
+    "profiles": [
+      "1098"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1098",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "nay",
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1098",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 2
+  },
+  {
+    "player_id": "classicalmerrin",
+    "name": "Elias Sorel",
+    "discord": "classicalmerrin",
+    "profiles": [
+      "1016"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1016",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "coletrain.2026",
+    "name": "Paul Ryan",
+    "discord": "coletrain.2026",
+    "profiles": [
+      "1084",
+      "1085"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1084",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "nay",
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1085",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1084",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1085",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 4
+  },
+  {
+    "player_id": "collins035",
+    "name": "Queen",
+    "discord": "collins035",
+    "profiles": [
+      "1152"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1152",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "cw872",
+    "name": "Caleb Walton",
+    "discord": "cw872",
+    "profiles": [
+      "1035",
+      "1019"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1035",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1019",
+        "sponsored": false,
+        "cosponsored": true,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1035",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 3
+  },
+  {
+    "player_id": "d.burgess",
+    "name": "D. Peiper",
+    "discord": "d.burgess",
+    "profiles": [
+      "1122"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1122",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "nay",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "defaultyboii911",
+    "name": "PARIS HILTON",
+    "discord": "defaultyboii911",
+    "profiles": [
+      "1208"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1208",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "founderofurp2.0",
+    "name": "Eric Trump",
+    "discord": "founderofurp2.0",
+    "profiles": [
+      "1065",
+      "1059"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1065",
+        "sponsored": true,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1059",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1065",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 3
+  },
+  {
+    "player_id": "fufulabu",
+    "name": "Green Homer",
+    "discord": "fufulabu",
+    "profiles": [
+      "1047",
+      "1036"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1036",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1047",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1036",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1047",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 4
+  },
+  {
+    "player_id": "goodvibejay",
+    "name": "Julian Assange",
+    "discord": "goodvibejay",
+    "profiles": [
+      "1279"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1279",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "grandgeist56",
+    "name": "Beffrey Jeston Prezos",
+    "discord": "grandgeist56",
+    "profiles": [
+      "1041",
+      "1178"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1041",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1041",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1178",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 3
+  },
+  {
+    "player_id": "hawaji17",
+    "name": "Negar Mortazavi",
+    "discord": "hawaji17",
+    "profiles": [
+      "1030"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1030",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "idkboy67",
+    "name": "John Ashcroft",
+    "discord": "idkboy67",
+    "profiles": [
+      "1091"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1091",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "present",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "insane686",
+    "name": "Guy Fawkes",
+    "discord": "insane686",
+    "profiles": [
+      "1095",
+      "1096"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1095",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1096",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "present",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1095",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1096",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 4
+  },
+  {
+    "player_id": "internetanyahu",
+    "name": "Kanye West",
+    "discord": "internetanyahu",
+    "profiles": [
+      "1304"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1304",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "joebee2002",
+    "name": "Joseph Brosnahan",
+    "discord": "joebee2002",
+    "profiles": [
+      "1093"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1093",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1093",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 2
+  },
+  {
+    "player_id": "jorgwachingmachine",
+    "name": "Bob Mendez",
+    "discord": "jorgwachingmachine",
+    "profiles": [
+      "1173"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1173",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "kawiorek.",
+    "name": "Celestia Kaviori",
+    "discord": "kawiorek.",
+    "profiles": [
+      "1074"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1074",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "nay",
+        "house_vote": null,
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1074",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 2
+  },
+  {
+    "player_id": "kden_24",
+    "name": "Blanche Lincoln",
+    "discord": "kden_24",
+    "profiles": [
+      "1012"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1012",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "kmfan91_35425",
+    "name": "Stephanie McMahon",
+    "discord": "kmfan91_35425",
+    "profiles": [
+      "1090"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1090",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "kym47",
+    "name": "Wony Ashford",
+    "discord": "kym47",
+    "profiles": [
+      "1281"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1281",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "lil_mama92",
+    "name": "George Clooney",
+    "discord": "lil_mama92",
+    "profiles": [
+      "1165"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1165",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "mcal4876",
+    "name": "Olivia Dean",
+    "discord": "mcal4876",
+    "profiles": [
+      "1061"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1061",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1061",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 2
+  },
+  {
+    "player_id": "nevonomical",
+    "name": "Paul Wellstone",
+    "discord": "nevonomical",
+    "profiles": [
+      "1028"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1028",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "nolapadola",
+    "name": "Elvis Presley",
+    "discord": "nolapadola",
+    "profiles": [
+      "1139"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1139",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "orangejuice789",
+    "name": "Nagasaki",
+    "discord": "orangejuice789",
+    "profiles": [
+      "1155"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1155",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1155",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 2
+  },
+  {
+    "player_id": "parzival.121",
+    "name": "Abigail Spanberger",
+    "discord": "parzival.121",
+    "profiles": [
+      "1022",
+      "1007"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1022",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1007",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "nay",
+        "house_vote": null,
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1022",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 3
+  },
+  {
+    "player_id": "roginality",
+    "name": "Cleveland Green",
+    "discord": "roginality",
+    "profiles": [
+      "1070"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1070",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "nay",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "saturnaliacivilis",
+    "name": "John Kerry",
+    "discord": "saturnaliacivilis",
+    "profiles": [
+      "1185"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1185",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "therealmakaveli",
+    "name": "Ashley Sharpton",
+    "discord": "therealmakaveli",
+    "profiles": [
+      "1217"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1217",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "trumpquest",
+    "name": "Donald Trump",
+    "discord": "trumpquest",
+    "profiles": [
+      "1025",
+      "1033"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1025",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1025",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1033",
+        "sponsored": false,
+        "cosponsored": true,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 3
+  },
+  {
+    "player_id": "trustfundfinance",
+    "name": "LANDO NORRIS",
+    "discord": "trustfundfinance",
+    "profiles": [
+      "1105",
+      "1108"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1105",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1108",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1105",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1108",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 4
+  },
+  {
+    "player_id": "tweamonster_",
+    "name": "tweamonster",
+    "discord": "tweamonster_",
+    "profiles": [
+      "1107",
+      "1228"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1107",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1107",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "aye",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1228",
+        "sponsored": false,
+        "cosponsored": true,
+        "senate_vote": null,
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 3
+  },
+  {
+    "player_id": "veshex",
+    "name": "Barbara Mikulski",
+    "discord": "veshex",
+    "profiles": [
+      "1141"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1141",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  },
+  {
+    "player_id": "vincenzo",
+    "name": "Vincent Rein",
+    "discord": "vincenzo",
+    "profiles": [
+      "1160",
+      "1159"
+    ],
+    "bills": [
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1159",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 1,
+        "number": "H.R. 2",
+        "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+        "status": "Defeated in House",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "",
+        "profile_id": "1160",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1159",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      },
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1160",
+        "sponsored": false,
+        "cosponsored": false,
+        "senate_vote": null,
+        "house_vote": "nay",
+        "house_seats": null
+      }
+    ],
+    "bill_count": 4
+  },
+  {
+    "player_id": "wout_3",
+    "name": "Gary Locke",
+    "discord": "wout_3",
+    "profiles": [
+      "1172"
+    ],
+    "bills": [
+      {
+        "resolution_id": 2,
+        "number": "S. 2",
+        "title": "Same-Sex Marriage Act",
+        "status": "Enacted without Signature",
+        "finalized": true,
+        "introduced": "Week 1, 2001",
+        "passed": "Week 24, 2002",
+        "profile_id": "1172",
+        "sponsored": true,
+        "cosponsored": false,
+        "senate_vote": "aye",
+        "house_vote": null,
+        "house_seats": null
+      }
+    ],
+    "bill_count": 1
+  }
+]

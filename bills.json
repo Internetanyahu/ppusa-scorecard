@@ -1,1 +1,789 @@
-[]
+[
+  {
+    "resolution_id": 1,
+    "url": "https://powerplayusa.net/resolutions/1",
+    "number": "H.R. 2",
+    "title": "MAKE ASSAULT RIFLES GREAT AGAIN",
+    "status": "Defeated in House",
+    "time_left": "Finalized",
+    "finalized": true,
+    "type": "Legislation",
+    "to_pass": "Simple Majority",
+    "committee": "Judiciary",
+    "introduced": "Week 1, 2001",
+    "passed": "",
+    "sponsor": {
+      "profile_id": "1065",
+      "name": "Eric Trump",
+      "party": null,
+      "state": null,
+      "seats": null,
+      "role": null
+    },
+    "cosponsors": [],
+    "votes": {
+      "senate": {
+        "aye": [
+          {
+            "profile_id": "1025",
+            "name": "Donald Trump",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1073",
+            "name": "Mark McGwire",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1065",
+            "name": "Eric Trump",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1061",
+            "name": "Olivia Dean",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1095",
+            "name": "Guy Fawkes",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          }
+        ],
+        "nay": [
+          {
+            "profile_id": "1039",
+            "name": "Emma Degurechaff",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1098",
+            "name": "Antonio Russo",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1084",
+            "name": "Jed Bartlet",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1074",
+            "name": "Celestia Kaviori",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          }
+        ],
+        "present": []
+      },
+      "house": {
+        "aye": [
+          {
+            "profile_id": "1022",
+            "name": "Abigail Spanberger",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1073",
+            "name": "Mark McGwire",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1107",
+            "name": "tweamonster",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1025",
+            "name": "Donald Trump",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1098",
+            "name": "Antonio Russo",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1093",
+            "name": "Joseph Brosnahan",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1065",
+            "name": "Eric Trump",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          }
+        ],
+        "nay": [
+          {
+            "profile_id": "1039",
+            "name": "Emma Degurechaff",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1035",
+            "name": "Caleb Walton",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1160",
+            "name": "Theodore Rein",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1159",
+            "name": "Vincent Rein",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1041",
+            "name": "Beffrey Jeston Prezos",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1085",
+            "name": "Paul Ryan",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1084",
+            "name": "Jed Bartlet",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1061",
+            "name": "Olivia Dean",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1155",
+            "name": "Nagasaki",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1105",
+            "name": "LANDO NORRIS",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1108",
+            "name": "GEORGE RUSSELL",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1095",
+            "name": "Guy Fawkes",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1047",
+            "name": "Rick Santorum",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1036",
+            "name": "Green Homer",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          }
+        ],
+        "present": [
+          {
+            "profile_id": "1096",
+            "name": "James Ernest",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          }
+        ]
+      }
+    },
+    "warnings": [
+      "house aye: page says 98, parsed 7",
+      "house nay: page says 146, parsed 14"
+    ],
+    "scraped_at": "2026-10-20T07:44:19+00:00"
+  },
+  {
+    "resolution_id": 2,
+    "url": "https://powerplayusa.net/resolutions/2",
+    "number": "S. 2",
+    "title": "Same-Sex Marriage Act",
+    "status": "Enacted without Signature",
+    "time_left": "Finalized",
+    "finalized": true,
+    "type": "Legislation",
+    "to_pass": "Simple Majority",
+    "committee": "Judiciary",
+    "introduced": "Week 1, 2001",
+    "passed": "Week 24, 2002",
+    "sponsor": {
+      "profile_id": "1172",
+      "name": "Gary Locke",
+      "party": null,
+      "state": null,
+      "seats": null,
+      "role": null
+    },
+    "cosponsors": [
+      {
+        "profile_id": "1033",
+        "name": "Marco Rubio",
+        "party": null,
+        "state": null,
+        "seats": null,
+        "role": null
+      },
+      {
+        "profile_id": "1019",
+        "name": "Willis Blackshear",
+        "party": null,
+        "state": null,
+        "seats": null,
+        "role": null
+      },
+      {
+        "profile_id": "1054",
+        "name": "Jenna Degurechaff",
+        "party": null,
+        "state": null,
+        "seats": null,
+        "role": null
+      },
+      {
+        "profile_id": "1228",
+        "name": "Jeff Buckley",
+        "party": null,
+        "state": null,
+        "seats": null,
+        "role": null
+      }
+    ],
+    "votes": {
+      "senate": {
+        "aye": [
+          {
+            "profile_id": "1016",
+            "name": "Elias Sorel",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1028",
+            "name": "Paul Wellstone",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1141",
+            "name": "Barbara Mikulski",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1173",
+            "name": "Bob Mendez",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1012",
+            "name": "Blanche Lincoln",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1019",
+            "name": "Willis Blackshear",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1054",
+            "name": "Jenna Degurechaff",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1279",
+            "name": "Julian Assange",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1281",
+            "name": "Wony Ashford",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1172",
+            "name": "Gary Locke",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1076",
+            "name": "Rafael Palmeiro",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1024",
+            "name": "Gracie Shelby",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1090",
+            "name": "Stephanie McMahon",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1030",
+            "name": "Negar Mortazavi",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1139",
+            "name": "Elvis Presley",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1217",
+            "name": "Ashley Sharpton",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1033",
+            "name": "Marco Rubio",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1059",
+            "name": "Tulsi Gabbard",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1099",
+            "name": "Josh Harder",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1304",
+            "name": "Kanye West",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1208",
+            "name": "PARIS HILTON",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1178",
+            "name": "Gustavo Fring",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          }
+        ],
+        "nay": [
+          {
+            "profile_id": "1070",
+            "name": "Cleveland Green",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1007",
+            "name": "Glen Youngkin",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1122",
+            "name": "D. Peiper",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          }
+        ],
+        "present": [
+          {
+            "profile_id": "1091",
+            "name": "John Ashcroft",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          }
+        ]
+      },
+      "house": {
+        "aye": [
+          {
+            "profile_id": "1039",
+            "name": "Emma Degurechaff",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1022",
+            "name": "Abigail Spanberger",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1041",
+            "name": "Beffrey Jeston Prezos",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1108",
+            "name": "GEORGE RUSSELL",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1105",
+            "name": "LANDO NORRIS",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1035",
+            "name": "Caleb Walton",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1073",
+            "name": "Mark McGwire",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1061",
+            "name": "Olivia Dean",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1107",
+            "name": "tweamonster",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1025",
+            "name": "Donald Trump",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1065",
+            "name": "Eric Trump",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1047",
+            "name": "Rick Santorum",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1036",
+            "name": "Green Homer",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1096",
+            "name": "James Ernest",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1152",
+            "name": "Queen",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          }
+        ],
+        "nay": [
+          {
+            "profile_id": "1093",
+            "name": "Joseph Brosnahan",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1098",
+            "name": "Antonio Russo",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1084",
+            "name": "Jed Bartlet",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1160",
+            "name": "Theodore Rein",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1165",
+            "name": "George Clooney",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1159",
+            "name": "Vincent Rein",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1185",
+            "name": "John Kerry",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1074",
+            "name": "Celestia Kaviori",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1155",
+            "name": "Nagasaki",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1085",
+            "name": "Paul Ryan",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          },
+          {
+            "profile_id": "1095",
+            "name": "Guy Fawkes",
+            "party": null,
+            "state": null,
+            "seats": null,
+            "role": null
+          }
+        ],
+        "present": []
+      }
+    },
+    "warnings": [
+      "house aye: page says 202, parsed 15",
+      "house nay: page says 102, parsed 11"
+    ],
+    "scraped_at": "2026-10-20T07:44:20+00:00"
+  }
+]
