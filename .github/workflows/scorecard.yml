@@ -182,7 +182,8 @@ jobs:
             scorecard_rules.json \
             identity_review.json \
             scorecard_review.json \
-            public/data
+            public/data \
+            public/share
 
           git diff --cached --quiet || git commit -m "Update conservative scorecard"
 
