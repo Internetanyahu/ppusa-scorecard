@@ -18,27 +18,18 @@ with sync_playwright() as p:
     )
 
     print("Opening Power Play...")
-
-    page.goto(
-        URL,
-        wait_until="domcontentloaded",
-        timeout=60000,
-    )
+    page.goto(URL, wait_until="domcontentloaded", timeout=60000)
 
     page.wait_for_timeout(10000)
 
-    print("Page title:", page.title())
-
     players = {}
 
-    while True:
-        html = page.content()
-        soup = BeautifulSoup(html, "html.parser")
+    def collect_players():
+        soup = BeautifulSoup(page.content(), "html.parser")
 
         table = soup.find("table", id="politiciansTable")
 
         if table is None:
-            browser.close()
             raise RuntimeError("Could not find politiciansTable")
 
         headers = [
@@ -46,7 +37,7 @@ with sync_playwright() as p:
             for cell in table.find("thead").find_all(["th", "td"])
         ]
 
-        rows_found = 0
+        before = len(players)
 
         for row in table.find("tbody").find_all("tr"):
             cells = row.find_all("td")
@@ -78,28 +69,56 @@ with sync_playwright() as p:
             player["powerplay_profile_id"] = profile_id
 
             players[profile_id] = player
-            rows_found += 1
 
-        print(f"Collected {rows_found} players on current page")
-        print(f"Total unique players: {len(players)}")
+        added = len(players) - before
 
-        next_button = page.locator(
-            "#politiciansTable_next"
+        print(
+            f"Collected {added} new players. "
+            f"Total: {len(players)}"
         )
 
-        if not next_button.count():
+
+    # Collect page 1.
+    collect_players()
+
+    # Find pagination buttons.
+    pagination = page.locator(
+        "#politiciansTable_paginate"
+    )
+
+    if pagination.count() == 0:
+        browser.close()
+        raise RuntimeError(
+            "Could not find politicians pagination controls"
+        )
+
+    # Click numbered pages one at a time.
+    page_number = 2
+
+    while True:
+        button = page.locator(
+            f"#politiciansTable_paginate "
+            f"span a:has-text('{page_number}')"
+        )
+
+        if button.count() == 0:
             break
 
-        classes = next_button.get_attribute("class") or ""
-
-        if "disabled" in classes:
+        if not button.is_visible():
             break
 
-        next_button.click()
+        print(f"Opening page {page_number}...")
+
+        button.click()
 
         page.wait_for_timeout(1000)
 
+        collect_players()
+
+        page_number += 1
+
     browser.close()
+
 
 players_list = list(players.values())
 
@@ -114,5 +133,6 @@ output.write_text(
     encoding="utf-8",
 )
 
+print()
 print(f"FINAL PLAYER COUNT: {len(players_list)}")
 print(f"Saved players to {output}")
