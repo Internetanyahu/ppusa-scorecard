@@ -1,0 +1,121 @@
+name: Compile conservative scorecard
+
+# The bill scraper is intentionally separate. This workflow consumes the
+# checked-in bills.json and never discovers or adds new provision options.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+concurrency:
+  group: scorecard-compile
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scorecard:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Refresh player data
+        run: python scraper/main.py
+
+      - name: Rebuild legislative history
+        run: python scraper/build_history.py
+
+      - name: Compile deterministic scorecard
+        run: python scraper/scorecard.py
+
+      - name: Rebuild combined voting records
+        run: python scraper/build_records.py
+
+      - name: Validate finalized provisions and JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path('.')
+          files = [
+              'bills.json',
+              'players.json',
+              'player_index.json',
+              'legislative_history.json',
+              'voting_records.json',
+              'conservative_scorecard.json',
+              'scorecard_review.json',
+              'identity_review.json',
+              'scorecard_rules.json',
+          ]
+          for name in files:
+              json.loads((root / name).read_text(encoding='utf-8'))
+
+          bills = json.loads((root / 'bills.json').read_text(encoding='utf-8'))
+          scorecard = json.loads((root / 'conservative_scorecard.json').read_text(encoding='utf-8'))
+          scored_bills = scorecard['bills']
+
+          finalized = [b for b in bills if b.get('finalized')]
+          if not finalized:
+              raise SystemExit('No finalized bills found; refusing to publish an empty scorecard.')
+
+          for bill in finalized:
+              rid = str(bill['resolution_id'])
+              if rid not in scored_bills:
+                  raise SystemExit(f'Missing scored bill: {rid}')
+              source = bill.get('provisions', [])
+              scored = scored_bills[rid].get('scorecard', {}).get('provisions', [])
+              if len(source) != len(scored):
+                  raise SystemExit(f'Provision count mismatch for resolution {rid}')
+              for p in scored:
+                  if p.get('direction') not in (-1, 1):
+                      raise SystemExit(
+                          f"Invalid provision direction for resolution {rid}: {p.get('name')!r}"
+                      )
+                  if p.get('category') not in {'social', 'economic', 'foreign'}:
+                      raise SystemExit(
+                          f"Invalid provision category for resolution {rid}: {p.get('name')!r}"
+                      )
+
+          print(f'Validated {len(finalized)} finalized bills and all finalized provisions.')
+          PY
+
+      - name: Build website-ready data
+        run: |
+          mkdir -p public/data
+          cp bills.json public/data/bills.json
+          cp conservative_scorecard.json public/data/conservative_scorecard.json
+          cp players.json public/data/players.json
+          cp voting_records.json public/data/voting_records.json
+          cp legislative_history.json public/data/legislative_history.json
+          cp scorecard_rules.json public/data/scorecard_rules.json
+
+      - name: Upload website-ready data artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ppusa-scorecard-data
+          path: public/data/
+          if-no-files-found: error
+
+      - name: Commit compiled data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add players.json player_index.json legislative_history.json voting_records.json conservative_scorecard.json scorecard_review.json identity_review.json public/data/ scorecard_rules.json
+          git diff --cached --quiet || git commit -m "Update conservative scorecard"
+          git pull --rebase
+          git push
