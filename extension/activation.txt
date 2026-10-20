@@ -1,0 +1,1 @@
+Pagination is intentionally opt-in from the extension popup. Opening a bill page itself does not start full pagination.
