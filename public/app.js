@@ -627,14 +627,61 @@ async function sha256(value) {
       x.toString(16).padStart(2, '0')
     )
     .join('');
-}
-
 async function unlockAdmin() {
   if (state.adminUnlocked) {
     renderAdminPanel();
     $('adminDialog').showModal();
     return;
   }
+
+  // Wait until the scorecard/rules data are loaded.
+  if (!state.rules || !state.baseData) {
+    window.alert('Please wait for the scorecard to finish loading, then try again.');
+    return;
+  }
+
+  const secret = window.prompt(
+    'Paste the PPUSA admin secret key below.\n\n' +
+    'Press OK after pasting it.'
+  );
+
+  if (secret === null) return;
+
+  const trimmed = secret.trim();
+
+  if (!trimmed) {
+    window.alert('Admin secret cannot be empty.');
+    return;
+  }
+
+  try {
+    const hash = await sha256(trimmed);
+
+    if (hash !== ADMIN_SECRET_HASH) {
+      window.alert(
+        'Invalid admin secret.\n\n' +
+        'Make sure you pasted the complete key with no extra characters.'
+      );
+      return;
+    }
+
+    state.adminUnlocked = true;
+
+    renderAdminPanel();
+
+    const dialog = $('adminDialog');
+
+    if (dialog && typeof dialog.showModal === 'function') {
+      dialog.showModal();
+    }
+  } catch (error) {
+    console.error('Admin unlock error:', error);
+    window.alert(
+      'Could not verify the admin secret. ' +
+      'Please reload the page and try again.'
+    );
+  }
+}
 
   const choice = window.confirm(
     'Admin access requires the secret key.\n\n' +
