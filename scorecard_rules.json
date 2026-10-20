@@ -224,13 +224,6 @@
       "rationale": "Creates a universal government-funded benefit."
     },
     {
-      "id": "CAL-S16-MARIJUANA",
-      "pattern": "^marijuana legalization: legal$",
-      "category": "social",
-      "direction": -1,
-      "rationale": "Drug legalization is socially liberal under the law-and-order framework."
-    },
-    {
       "id": "CAL-S16-MARIJUANA-TAX",
       "pattern": "^marijuana sales tax: 50%$",
       "category": "economic",
@@ -271,13 +264,6 @@
       "category": "economic",
       "direction": -1,
       "rationale": "Creates/expands a federal infrastructure spending program."
-    },
-    {
-      "id": "CAL-S18-MARIJUANA",
-      "pattern": "^marijuana legalization: decriminalized$",
-      "category": "social",
-      "direction": -1,
-      "rationale": "Decriminalization of marijuana moves away from the law-and-order/social-conservative baseline."
     },
     {
       "id": "CAL-HR25-BORDER",
