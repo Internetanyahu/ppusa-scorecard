@@ -1,6 +1,7 @@
 import json
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -10,7 +11,8 @@ BASE_URL = "https://powerplayusa.net"
 BILLS_FILE = Path("bills.json")
 
 START_ID = 1
-MAX_MISSES = 3        # stop after this many consecutive login/missing pages
+MAX_MISSES = 40       # stop after this many consecutive login/missing pages
+DELAY = 1.0           # seconds between requests (avoids being bounced to login)
 HARD_CAP = 5000       # safety net so a bug can never loop forever
 SAVE_EVERY = 25
 
@@ -32,7 +34,11 @@ EXTRACT_JS = r"""
 
   const isBill = [...document.querySelectorAll('h4')]
     .some(h => /about this bill/i.test(h.textContent));
-  if (!isBill) return { found: false };
+  if (!isBill) return {
+    found: false,
+    h4s: [...document.querySelectorAll('h4')].map(h => clean(h.textContent)).slice(0, 8),
+    snippet: clean(document.body ? document.body.innerText : '').slice(0, 160),
+  };
 
   const userLinks = root => [...root.querySelectorAll('a[href*="/users/"]')]
     .map(a => userFromAnchor(a));
@@ -142,7 +148,7 @@ def about_text(about, label):
     return (about.get(label) or {}).get("text", "")
 
 
-EFFECT_RE = re.compile(r"(.+?)\s*([+\-\u2212]\d+(?:\.\d+)?)(?=\s|$)")
+EFFECT_RE = re.compile(r"(.+?)\s*([+\-\u2212]\d+(?:\.\d+)?)(?=[\s,;]|$)")
 
 
 def parse_effects(text):
@@ -151,7 +157,7 @@ def parse_effects(text):
     for metric, change in EFFECT_RE.findall(text):
         effects.append(
             {
-                "metric": metric.strip(),
+                "metric": metric.strip(" ,;"),
                 "change": float(change.replace("\u2212", "-")),
             }
         )
@@ -208,7 +214,7 @@ def build_bill(raw, resolution_id):
 
     time_left = about_text(about, "time left")
     sponsor = (about.get("sponsor") or {}).get("users", [])
-    cosponsors = (about.get("cosponsors") or {}).get("users", [])
+    cosponsors = (about.get("cosponsors") or about.get("cosponsor") or {}).get("users", [])
 
     votes = {
         "senate": {"aye": [], "nay": [], "present": []},
@@ -219,7 +225,14 @@ def build_bill(raw, resolution_id):
     for group in raw["groups"]:
         voters = [person(v) for v in group["voters"] if v.get("profile_id")]
         votes[group["chamber"]][group["vote"]] = voters
-        if len(voters) != group["expected"]:
+        if group["chamber"] == "house":
+            seats = sum(v["seats"] or 0 for v in voters)
+            if seats != group["expected"]:
+                warnings.append(
+                    f"house {group['vote']}: page says {group['expected']} seats, "
+                    f"parsed {seats} seats from {len(voters)} members"
+                )
+        elif len(voters) != group["expected"]:
             warnings.append(
                 f"{group['chamber']} {group['vote']}: page says "
                 f"{group['expected']}, parsed {len(voters)}"
@@ -258,7 +271,11 @@ def scrape_bill(page, resolution_id):
         timeout=60000,
     )
     try:
-        page.wait_for_selector("h4", timeout=8000)
+        page.wait_for_function(
+            "() => [...document.querySelectorAll('h4')]"
+            ".some(h => /about this bill/i.test(h.textContent))",
+            timeout=15000,
+        )
     except Exception:
         pass
 
@@ -268,6 +285,8 @@ def scrape_bill(page, resolution_id):
 
     if not raw or not raw.get("found"):
         print(f"  (url={page.url!r} title={page.title()!r})")
+        if raw:
+            print(f"  h4s={raw.get('h4s')} text={raw.get('snippet')!r}")
         return None
 
     return build_bill(raw, resolution_id)
@@ -300,9 +319,13 @@ def main():
 
                 try:
                     bill = scrape_bill(page, resolution_id)
+                    if bill is None:  # one retry: a rate-limit bounce looks like a miss
+                        time.sleep(3)
+                        bill = scrape_bill(page, resolution_id)
                 except Exception as error:
                     print(f"  ERROR on {resolution_id}: {error}")
                     continue  # network errors are not "end of bills"
+                time.sleep(DELAY)
 
                 if bill is None:
                     misses += 1
