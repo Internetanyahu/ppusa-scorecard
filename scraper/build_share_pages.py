@@ -1,7 +1,6 @@
 import base64
 import html
 import json
-import re
 import shutil
 import subprocess
 import tempfile
@@ -101,8 +100,7 @@ def svg_for_player(player):
 <text x="{x + 26}" y="446" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" fill="#374151">/ 100</text>'''
         )
 
-    avatar = avatar_data(player.get("avatar"))
-    avatar_svg = ""
+    avatar = avatar_data(player.get("avatar") or player.get("discord_avatar"))
     if avatar:
         avatar_svg = f'<image href="data:image/png;base64,{avatar}" x="1018" y="34" width="128" height="128" preserveAspectRatio="xMidYMid slice"/>'
     else:
