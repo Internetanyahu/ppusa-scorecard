@@ -19,14 +19,23 @@ response = requests.get(
             "q=0.9,image/avif,image/webp,*/*;q=0.8"
         ),
         "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://powerplayusa.net/",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-User": "?1",
     },
     timeout=30,
 )
 
 print("HTTP status:", response.status_code)
 print("Content type:", response.headers.get("content-type"))
-print("First 500 characters:")
-print(response.text[:500])
+
+if response.status_code == 403:
+    raise RuntimeError(
+        "Power Play is blocking GitHub Actions with Cloudflare. "
+        "A normal requests scraper cannot access the page."
+    )
 
 response.raise_for_status()
 
@@ -60,7 +69,10 @@ for row in table.find("tbody").find_all("tr"):
 
     player = dict(zip(headers, values))
 
-    profile_link = row.find("a", href=lambda href: href and "/users/" in href)
+    profile_link = row.find(
+        "a",
+        href=lambda href: href and "/users/" in href
+    )
 
     if profile_link:
         href = profile_link.get("href", "")
