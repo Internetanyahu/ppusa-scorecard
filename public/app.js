@@ -1,26 +1,614 @@
-const state={data:null,players:[],bills:[],filtered:[],problemsOnly:false};
-const $=id=>document.getElementById(id);
-const esc=v=>String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
-const num=v=>(v===null||v===undefined||v===''||!Number.isFinite(Number(v)))?null:Number(v);
-const fmt=v=>num(v)===null?'N/A':Number(v).toFixed(Number(v)%1?2:0);
-const label=v=>v?v.charAt(0).toUpperCase()+v.slice(1):'Unknown';
-const IDEOLOGY={
-  social:['Mega Woke','Woke','Wokelite','Left-Leaning','Moderate','Right-Leaning','Chudlite','Chud','Giga Chud'],
-  economic:['Communist','Socialist','Progressive','Social Democrat','Mixed-Market','Center-Right','Conservative','Lite-Libertarian','True Libertarian'],
-  foreign:['Warhawk','Neocon','Lite Neocon','Interventionist','Moderate','Hemispherist','Contra','Patriot','Gigapatriot']
+const state = {
+  data: null,
+  players: [],
+  bills: [],
+  pending: [],
+  filtered: [],
+  problemsOnly: false
 };
-// Bands: below 20 = first label, then one label per 10 points, 90-100 = last label.
-function ideology(cat,v){const n=num(v);if(n===null)return 'N/A';if(!IDEOLOGY[cat])return '';return IDEOLOGY[cat][Math.max(0,Math.min(8,Math.floor(n/10)-1))]}
-const partyLabel=v=>({gop:'GOP',dem:'Dem',grn:'Green',cst:'Constitutional'})[String(v||'').toLowerCase()]||String(v||'Other');
-const initials=v=>String(v||'?').split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join('').toUpperCase();
-function avatar(p){return p.avatar?`<img class="avatar" src="${esc(p.avatar)}" alt="">`:`<div class="avatar-fallback">${esc(initials(p.name))}</div>`}
-function billTotal(b){return (b.scorecard?.provisions||[]).reduce((s,p)=>s+(p.scorable===false?0:(p.direction||0)),0)}
-function loadData(){return fetch('data/conservative_scorecard.json').then(r=>r.json()).then(d=>{state.data=d;state.players=d.players||[];state.bills=Object.values(d.bills||{}).sort((a,b)=>Number(a.resolution_id)-Number(b.resolution_id));renderSummary();applyFilters()})}
-function renderSummary(){const n=state.bills.reduce((s,b)=>s+(b.scorecard?.provisions||[]).filter(p=>p.scorable!==false).length,0);$('playerCount').textContent=state.players.length;$('billCount').textContent=state.bills.length;$('provisionCount').textContent=n;$('generatedAt').textContent=`Data generated ${new Date(state.data.generated_at).toLocaleString()}`}
-function applyFilters(){const q=$('search').value.trim().toLowerCase(),party=$('party').value,chamber=$('chamber').value,sort=$('sort').value,dir=$('direction').value==='asc'?1:-1;state.filtered=state.players.filter(p=>{const profiles=p.profiles||[];const hay=[p.name,p.discord,...profiles.map(x=>x.name),...profiles.map(x=>x.state)].join(' ').toLowerCase();const parties=profiles.map(x=>x.party);const chambers=profiles.map(x=>x.chamber);return(!q||hay.includes(q))&&(party==='all'||parties.includes(party))&&(chamber==='all'||chambers.includes(chamber))}).sort((a,b)=>{let av,bv;if(sort==='score'){av=num(a.scores?.overall);bv=num(b.scores?.overall)}else if(['social','economic','foreign'].includes(sort)){av=num(a.scores?.[sort]);bv=num(b.scores?.[sort])}else if(sort==='state'){av=(a.state||'').toLowerCase();bv=(b.state||'').toLowerCase()}else if(sort==='profile'){av=(a.discord||'').toLowerCase();bv=(b.discord||'').toLowerCase()}else{av=(a.name||'').toLowerCase();bv=(b.name||'').toLowerCase()}if(av===bv)return 0;if(av===null||av===undefined||av==='')return 1;if(bv===null||bv===undefined||bv==='')return -1;return(av>bv?1:-1)*dir});renderPlayers();renderBills()}
-function renderPlayers(){ $('resultCount').textContent=`${state.filtered.length} scorecard${state.filtered.length===1?'':'s'}`;const root=$('scorecards');if(!state.filtered.length){root.innerHTML='<div class="empty">No scorecards match the current filters.</div>';return}root.innerHTML=state.filtered.map((p,i)=>{const s=p.scores||{},profiles=p.profiles||[];return `<button class="scorecard" data-player-index="${i}"><div class="card-main"><div class="identity">${avatar({name:p.name,avatar:p.avatar})}<div><h3>${esc(p.name)}</h3><div class="handle">${esc(p.discord||'No Discord handle')}</div><div class="chips"><span class="party-chip">${esc(partyLabel(p.party))}</span>${(p.chambers||[]).map(c=>`<span class="chamber-chip">${esc(c)}</span>`).join('')}</div></div></div><div class="score-row"><div class="score-main"><strong>${fmt(s.overall)}</strong><span>/ 100</span></div><div class="tier tier-${esc(s.tier||'N/A')}">${esc(s.tier||'N/A')}</div></div><div class="mini-bars">${['social','economic','foreign'].map(cat=>{const v=num(s[cat]),w=v===null?0:Math.max(0,Math.min(100,v));return `<div class="mini-row"><span>${label(cat)}</span><div class="bar"><span style="width:${w}%"></span></div><span class="mini-value">${fmt(v)}</span>${ideology(cat,v)?`<span class="mini-tag">${esc(ideology(cat,v))}</span>`:''}</div>`}).join('')}</div></div><div class="profile-strip"><strong>${profiles.length} office${profiles.length===1?'':'s'} on this user</strong><div class="profile-list">${profiles.map(x=>`<span class="profile-chip">${esc(x.name)} · ${esc(x.chamber)} · ${esc(x.state)}</span>`).join('')}</div></div></button>`}).join('');root.querySelectorAll('[data-player-index]').forEach(b=>b.addEventListener('click',()=>openPlayer(state.filtered[Number(b.dataset.playerIndex)])))}
-function renderBills(){const root=$('bills');root.innerHTML=state.bills.map((b,i)=>{const ps=(b.scorecard?.provisions||[]).filter(p=>p.scorable!==false),t=billTotal(b);return `<button class="bill-card" data-bill-index="${i}"><div class="bill-meta"><span>${esc(b.number)}</span><span>${ps.length} scored provision${ps.length===1?'':'s'}</span></div><h3>${esc(b.title)}</h3><div class="bill-meta"><span>${esc(b.status)}</span><span class="bill-score ${t>=0?'positive':'negative'}">${t>0?'+':''}${t}</span></div></button>`}).join('');root.querySelectorAll('[data-bill-index]').forEach(b=>b.addEventListener('click',()=>openBill(state.bills[Number(b.dataset.billIndex)])))}
-function openPlayer(p){state.problemsOnly=false;const s=p.scores||{},d=p.bill_details||[],aligned=d.filter(x=>x.aligned).length;const profiles=p.profiles||[];$('scorecardDetail').innerHTML=`<div class="detail-header"><p class="eyebrow">LEGISLATOR SCORECARD</p><h2>${esc(p.name)}</h2><p class="detail-sub">${esc(p.discord||'No Discord handle')} · ${esc(partyLabel(p.party))} · ${esc(p.state||'')} · ${d.length} provisions scored</p></div><div class="account-grid">${profiles.map(x=>`<div class="account">${x.avatar?`<img class="avatar" src="${esc(x.avatar)}" alt="">`:''}<strong>${esc(x.name)}</strong><span>${esc(x.chamber)} · ${esc(x.state)} · ${esc(partyLabel(x.party))}</span></div>`).join('')}</div><div class="detail-score"><div class="detail-stat"><span>Overall</span><strong>${fmt(s.overall)} · ${esc(s.tier||'N/A')}</strong></div><div class="detail-stat"><span>Social</span><strong>${fmt(s.social)}</strong>${ideology('social',s.social)?`<div class="stat-tag">${esc(ideology('social',s.social))}</div>`:''}</div><div class="detail-stat"><span>Economic</span><strong>${fmt(s.economic)}</strong>${ideology('economic',s.economic)?`<div class="stat-tag">${esc(ideology('economic',s.economic))}</div>`:''}</div><div class="detail-stat"><span>Foreign</span><strong>${fmt(s.foreign)}</strong>${ideology('foreign',s.foreign)?`<div class="stat-tag">${esc(ideology('foreign',s.foreign))}</div>`:''}</div></div><div class="vote-row"><span><strong>${aligned}</strong> of <strong>${d.length}</strong> scored provisions aligned with the conservative position.</span></div><div class="detail-controls"><p class="eyebrow">VOTING RECORD</p><button class="toggle" id="problemsToggle">Show problems only</button></div><div id="playerVotes" class="provision-list"></div>`;renderPlayerVotes(p);$('problemsToggle').addEventListener('click',()=>{state.problemsOnly=!state.problemsOnly;$('problemsToggle').classList.toggle('active',state.problemsOnly);$('problemsToggle').textContent=state.problemsOnly?'Show all votes':'Show problems only';renderPlayerVotes(p)});$('scorecardDialog').showModal()}
-function renderPlayerVotes(p){const root=$('playerVotes'),d=(p.bill_details||[]).filter(x=>!state.problemsOnly||!x.aligned);if(!d.length){root.innerHTML='<div class="empty">No problems found in the current view.</div>';return}root.innerHTML=d.map(x=>`<div class="provision"><div><div class="provision-name">${esc(x.provision||'Provision')}</div><div class="provision-note">${esc(x.number||'')} · ${esc(x.bill_title||'')} · ${esc(label(x.category))} · ${esc(x.vote||'')} · ${esc(x.profile_name||x.profile_id||'')} · ${esc(x.chamber||'Other')}</div><span class="position-pill">Conservative position: ${x.direction>0?'+1':'−1'}</span></div><span class="result-pill ${x.aligned?'aligned':'not-aligned'}">${x.aligned?'+1':'−1'} ${x.aligned?'Aligned':'Not aligned'}</span></div>`).join('')}
-function openBill(b){const ps=b.scorecard?.provisions||[];$('billDetail').innerHTML=`<div class="detail-header"><p class="eyebrow">FINALIZED BILL</p><h2>${esc(b.number)} — ${esc(b.title)}</h2><p class="detail-sub">${esc(b.status)} · Introduced ${esc(b.introduced||'—')} · Passed ${esc(b.passed||'—')}</p></div><div class="detail-score"><div class="detail-stat"><span>Scored provisions</span><strong>${ps.filter(p=>p.scorable!==false).length}</strong></div><div class="detail-stat"><span>Rightward</span><strong>${ps.filter(p=>p.direction>0).length}</strong></div><div class="detail-stat"><span>Leftward</span><strong>${ps.filter(p=>p.direction<0).length}</strong></div><div class="detail-stat"><span>Custom/neutral</span><strong>${ps.filter(p=>p.scorable===false).length}</strong></div></div><p class="eyebrow">PROVISIONS</p><div class="provision-list">${ps.map(x=>`<div class="provision"><div><div class="provision-name">${esc(x.name)}</div><div class="provision-note">${esc(label(x.category)||'Neutral')} · ${esc(x.rationale||'No rationale listed.')}</div>${x.current_law?`<div class="provision-note">Current-law reference: ${esc(JSON.stringify(x.current_law))}</div>`:''}</div><span class="result-pill ${x.scorable===false?'neutral':x.direction>0?'aligned':'not-aligned'}">${x.scorable===false?'Neutral':x.direction>0?'+1':'−1'}</span></div>`).join('')}</div>`;$('billDialog').showModal()}
-document.addEventListener('DOMContentLoaded',()=>{['search','party','chamber','sort','direction'].forEach(id=>$(id).addEventListener('input',applyFilters));document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>b.closest('dialog').close()));document.querySelectorAll('dialog').forEach(d=>d.addEventListener('click',e=>{if(e.target===d)d.close()}));loadData().catch(e=>{console.error(e);$('scorecards').innerHTML='<div class="empty">Unable to load scorecard data. Check that public/data is present.</div>'})});
+
+const $ = id => document.getElementById(id);
+
+const esc = v => String(v ?? '').replace(/[&<>'"]/g, c => ({
+  '&': '&amp;',
+  '<': '&lt;',
+  '>': '&gt;',
+  "'": '&#39;',
+  '"': '&quot;'
+}[c]));
+
+const num = v =>
+  v === null || v === undefined || v === '' || !Number.isFinite(Number(v))
+    ? null
+    : Number(v);
+
+const fmt = v =>
+  num(v) === null ? 'N/A' : Number(v).toFixed(Number(v) % 1 ? 2 : 0);
+
+const label = v =>
+  v ? v.charAt(0).toUpperCase() + v.slice(1) : 'Unknown';
+
+const IDEOLOGY = {
+  social: [
+    'Mega Woke', 'Woke', 'Wokelite', 'Left-Leaning', 'Moderate',
+    'Right-Leaning', 'Chudlite', 'Chud', 'Giga Chud'
+  ],
+  economic: [
+    'Communist', 'Socialist', 'Progressive', 'Social Democrat',
+    'Mixed-Market', 'Center-Right', 'Conservative',
+    'Lite-Libertarian', 'True Libertarian'
+  ],
+  foreign: [
+    'Warhawk', 'Neocon', 'Lite Neocon', 'Interventionist',
+    'Moderate', 'Hemispherist', 'Contra', 'Patriot', 'Gigapatriot'
+  ]
+};
+
+function ideology(cat, v) {
+  const n = num(v);
+  if (n === null) return 'N/A';
+  if (!IDEOLOGY[cat]) return '';
+  return IDEOLOGY[cat][Math.max(0, Math.min(8, Math.floor(n / 10) - 1))];
+}
+
+const partyLabel = v => ({
+  gop: 'GOP',
+  dem: 'Dem',
+  grn: 'Green',
+  cst: 'Constitutional'
+})[String(v || '').toLowerCase()] || String(v || 'Other');
+
+const initials = v =>
+  String(v || '?')
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map(x => x[0])
+    .join('')
+    .toUpperCase();
+
+function avatar(p) {
+  return p.avatar
+    ? `<img class="avatar" src="${esc(p.avatar)}" alt="">`
+    : `<div class="avatar-fallback">${esc(initials(p.name))}</div>`;
+}
+
+function billTotal(b) {
+  return (b.scorecard?.provisions || []).reduce(
+    (sum, p) => sum + (p.scorable === false ? 0 : (p.direction || 0)),
+    0
+  );
+}
+
+function loadData() {
+  return fetch('data/conservative_scorecard.json')
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    })
+    .then(d => {
+      state.data = d;
+      state.players = d.players || [];
+      state.bills = Object.values(d.bills || {})
+        .sort((a, b) => Number(a.resolution_id) - Number(b.resolution_id));
+      state.pending = d.pending_bills || [];
+
+      renderSummary();
+      renderPending();
+
+      const explanation = $('decayExplanation');
+      if (explanation) {
+        explanation.textContent = d.decay
+          ? `Decay: ${d.decay.rule} Current in-game date: ${d.decay.current_game_date || 'unknown'}.`
+          : d.method || '';
+      }
+
+      applyFilters();
+    });
+}
+
+function renderSummary() {
+  const n = state.bills.reduce(
+    (sum, b) => sum + (b.scorecard?.provisions || [])
+      .filter(p => p.scorable !== false).length,
+    0
+  );
+
+  $('playerCount').textContent = state.players.length;
+  $('billCount').textContent = state.bills.length;
+  $('provisionCount').textContent = n;
+  $('generatedAt').textContent =
+    `Data generated ${new Date(state.data.generated_at).toLocaleString()}`;
+}
+
+function applyFilters() {
+  const q = $('search').value.trim().toLowerCase();
+  const party = $('party').value;
+  const chamber = $('chamber').value;
+  const sort = $('sort').value;
+  const dir = $('direction').value === 'asc' ? 1 : -1;
+
+  state.filtered = state.players
+    .filter(p => {
+      const profiles = p.profiles || [];
+      const hay = [
+        p.name,
+        p.discord,
+        ...profiles.map(x => x.name),
+        ...profiles.map(x => x.state)
+      ].join(' ').toLowerCase();
+
+      const parties = profiles.map(x => x.party);
+      const chambers = profiles.map(x => x.chamber);
+
+      return (!q || hay.includes(q)) &&
+        (party === 'all' || parties.includes(party)) &&
+        (chamber === 'all' || chambers.includes(chamber));
+    })
+    .sort((a, b) => {
+      let av, bv;
+
+      if (sort === 'score') {
+        av = num(a.scores?.overall);
+        bv = num(b.scores?.overall);
+      } else if (['social', 'economic', 'foreign'].includes(sort)) {
+        av = num(a.scores?.[sort]);
+        bv = num(b.scores?.[sort]);
+      } else if (sort === 'state') {
+        av = (a.state || '').toLowerCase();
+        bv = (b.state || '').toLowerCase();
+      } else if (sort === 'profile') {
+        av = (a.discord || '').toLowerCase();
+        bv = (b.discord || '').toLowerCase();
+      } else {
+        av = (a.name || '').toLowerCase();
+        bv = (b.name || '').toLowerCase();
+      }
+
+      if (av === bv) return 0;
+      if (av === null || av === undefined || av === '') return 1;
+      if (bv === null || bv === undefined || bv === '') return -1;
+
+      return (av > bv ? 1 : -1) * dir;
+    });
+
+  renderPlayers();
+  renderBills();
+}
+
+function renderPlayers() {
+  $('resultCount').textContent =
+    `${state.filtered.length} scorecard${state.filtered.length === 1 ? '' : 's'}`;
+
+  const root = $('scorecards');
+
+  if (!state.filtered.length) {
+    root.innerHTML =
+      '<div class="empty">No scorecards match the current filters.</div>';
+    return;
+  }
+
+  root.innerHTML = state.filtered.map((p, i) => {
+    const s = p.scores || {};
+    const profiles = p.profiles || [];
+
+    return `
+      <button class="scorecard" data-player-index="${i}">
+        <div class="card-main">
+          <div class="identity">
+            ${avatar({ name: p.name, avatar: p.avatar })}
+            <div>
+              <h3>${esc(p.name)}</h3>
+              <div class="handle">${esc(p.discord || 'No Discord handle')}</div>
+              <div class="chips">
+                <span class="party-chip">${esc(partyLabel(p.party))}</span>
+                ${(p.chambers || []).map(c =>
+                  `<span class="chamber-chip">${esc(c)}</span>`
+                ).join('')}
+              </div>
+            </div>
+          </div>
+
+          <div class="score-row">
+            <div class="score-main">
+              <strong>${fmt(s.overall)}</strong>
+              <span>/ 100</span>
+            </div>
+            <div class="tier tier-${esc(s.tier || 'N/A')}">
+              ${esc(s.tier || 'N/A')}
+            </div>
+          </div>
+
+          <div class="mini-bars">
+            ${['social', 'economic', 'foreign'].map(cat => {
+              const v = num(s[cat]);
+              const w = v === null ? 0 : Math.max(0, Math.min(100, v));
+
+              return `
+                <div class="mini-row">
+                  <span>${label(cat)}</span>
+                  <div class="bar"><span style="width:${w}%"></span></div>
+                  <span class="mini-value">${fmt(v)}</span>
+                  ${ideology(cat, v)
+                    ? `<span class="mini-tag">${esc(ideology(cat, v))}</span>`
+                    : ''}
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+
+        <div class="profile-strip">
+          <strong>${profiles.length} office${profiles.length === 1 ? '' : 's'} on this user</strong>
+          <div class="profile-list">
+            ${profiles.map(x => `
+              <span class="profile-chip">
+                ${esc(x.name)} · ${esc(x.chamber)} · ${esc(x.state)}
+              </span>
+            `).join('')}
+          </div>
+        </div>
+      </button>
+    `;
+  }).join('');
+
+  root.querySelectorAll('[data-player-index]').forEach(b => {
+    b.addEventListener('click', () =>
+      openPlayer(state.filtered[Number(b.dataset.playerIndex)])
+    );
+  });
+}
+
+function renderBills() {
+  const root = $('bills');
+
+  root.innerHTML = state.bills.map((b, i) => {
+    const ps = (b.scorecard?.provisions || [])
+      .filter(p => p.scorable !== false);
+
+    const t = b.scorecard?.total ?? billTotal(b);
+    const weight = num(b.scorecard?.weight);
+
+    return `
+      <button class="bill-card" data-bill-index="${i}">
+        <div class="bill-meta">
+          <span>${esc(b.number)}</span>
+          <span>${ps.length} scored provision${ps.length === 1 ? '' : 's'}</span>
+        </div>
+
+        <h3>${esc(b.title)}</h3>
+
+        <div class="bill-meta">
+          <span>${esc(b.status)}</span>
+          <span class="bill-score ${t >= 0 ? 'positive' : 'negative'}">
+            ${t > 0 ? '+' : ''}${t}
+          </span>
+        </div>
+
+        <div class="bill-meta">
+          <span>${esc(b.scorecard?.finalized_game_date || 'Date unknown')}</span>
+          <span>Weight ${weight === null ? '—' : weight.toFixed(2)}</span>
+        </div>
+      </button>
+    `;
+  }).join('');
+
+  root.querySelectorAll('[data-bill-index]').forEach(b => {
+    b.addEventListener('click', () =>
+      openBill(state.bills[Number(b.dataset.billIndex)])
+    );
+  });
+}
+
+function renderPending() {
+  const floors = state.pending.filter(b => b.status !== 'In Committee');
+  const committees = state.pending.filter(b => b.status === 'In Committee');
+
+  const card = (b, i) => {
+    const t = b.scorecard?.total ?? billTotal(b);
+    const ps = (b.scorecard?.provisions || [])
+      .filter(p => p.scorable !== false);
+
+    return `
+      <button class="bill-card pending-bill" data-pending-index="${i}">
+        <div class="bill-meta">
+          <span>${esc(b.number || 'Bill')}</span>
+          <span>${ps.length} scored provision${ps.length === 1 ? '' : 's'}</span>
+        </div>
+
+        <h3>${esc(b.title || 'Untitled bill')}</h3>
+
+        <div class="bill-meta">
+          <span>${esc(b.status)}</span>
+          <span class="bill-score ${t >= 0 ? 'positive' : 'negative'}">
+            ${t > 0 ? '+' : ''}${t} · ${esc(b.scorecard?.alignment || 'Neutral / mixed')}
+          </span>
+        </div>
+      </button>
+    `;
+  };
+
+  const floorRoot = $('floorBills');
+  const committeeRoot = $('committeeBills');
+
+  if (floorRoot) {
+    floorRoot.innerHTML = floors.length
+      ? floors.map(card).join('')
+      : '<div class="empty">No bills currently on the floor or awaiting a leadership call.</div>';
+
+    floorRoot.querySelectorAll('[data-pending-index]').forEach(btn => {
+      btn.addEventListener('click', () =>
+        openBill(floors[Number(btn.dataset.pendingIndex)])
+      );
+    });
+  }
+
+  if (committeeRoot) {
+    committeeRoot.innerHTML = committees.length
+      ? committees.map(card).join('')
+      : '<div class="empty">No bills currently in committee.</div>';
+
+    committeeRoot.querySelectorAll('[data-pending-index]').forEach(btn => {
+      btn.addEventListener('click', () =>
+        openBill(committees[Number(btn.dataset.pendingIndex)])
+      );
+    });
+  }
+}
+
+function openPlayer(p) {
+  state.problemsOnly = false;
+
+  const s = p.scores || {};
+  const d = p.bill_details || [];
+  const aligned = d.filter(x => x.aligned).length;
+  const profiles = p.profiles || [];
+
+  $('scorecardDetail').innerHTML = `
+    <div class="detail-header">
+      <p class="eyebrow">LEGISLATOR SCORECARD</p>
+      <h2>${esc(p.name)}</h2>
+      <p class="detail-sub">
+        ${esc(p.discord || 'No Discord handle')} ·
+        ${esc(partyLabel(p.party))} ·
+        ${esc(p.state || '')} ·
+        ${d.length} provisions scored
+      </p>
+    </div>
+
+    <div class="account-grid">
+      ${profiles.map(x => `
+        <div class="account">
+          ${x.avatar ? `<img class="avatar" src="${esc(x.avatar)}" alt="">` : ''}
+          <strong>${esc(x.name)}</strong>
+          <span>${esc(x.chamber)} · ${esc(x.state)} · ${esc(partyLabel(x.party))}</span>
+        </div>
+      `).join('')}
+    </div>
+
+    <div class="detail-score">
+      <div class="detail-stat">
+        <span>Overall</span>
+        <strong>${fmt(s.overall)} · ${esc(s.tier || 'N/A')}</strong>
+      </div>
+
+      <div class="detail-stat">
+        <span>Social</span>
+        <strong>${fmt(s.social)}</strong>
+        ${ideology('social', s.social)
+          ? `<div class="stat-tag">${esc(ideology('social', s.social))}</div>`
+          : ''}
+      </div>
+
+      <div class="detail-stat">
+        <span>Economic</span>
+        <strong>${fmt(s.economic)}</strong>
+        ${ideology('economic', s.economic)
+          ? `<div class="stat-tag">${esc(ideology('economic', s.economic))}</div>`
+          : ''}
+      </div>
+
+      <div class="detail-stat">
+        <span>Foreign</span>
+        <strong>${fmt(s.foreign)}</strong>
+        ${ideology('foreign', s.foreign)
+          ? `<div class="stat-tag">${esc(ideology('foreign', s.foreign))}</div>`
+          : ''}
+      </div>
+    </div>
+
+    <div class="vote-row">
+      <span>
+        <strong>${aligned}</strong> of <strong>${d.length}</strong>
+        scored provisions aligned with the conservative position.
+      </span>
+    </div>
+
+    <div class="detail-controls">
+      <p class="eyebrow">VOTING RECORD</p>
+      <button class="toggle" id="problemsToggle">Show problems only</button>
+    </div>
+
+    <div id="playerVotes" class="provision-list"></div>
+  `;
+
+  renderPlayerVotes(p);
+
+  $('problemsToggle').addEventListener('click', () => {
+    state.problemsOnly = !state.problemsOnly;
+
+    $('problemsToggle').classList.toggle('active', state.problemsOnly);
+    $('problemsToggle').textContent = state.problemsOnly
+      ? 'Show all votes'
+      : 'Show problems only';
+
+    renderPlayerVotes(p);
+  });
+
+  $('scorecardDialog').showModal();
+}
+
+function renderPlayerVotes(p) {
+  const root = $('playerVotes');
+
+  const d = (p.bill_details || [])
+    .filter(x => !state.problemsOnly || !x.aligned);
+
+  if (!d.length) {
+    root.innerHTML =
+      '<div class="empty">No problems found in the current view.</div>';
+    return;
+  }
+
+  root.innerHTML = d.map(x => {
+    const weight = num(x.weight);
+
+    return `
+      <div class="provision">
+        <div>
+          <div class="provision-name">${esc(x.provision || 'Provision')}</div>
+
+          <div class="provision-note">
+            ${esc(x.number || '')} ·
+            ${esc(x.bill_title || '')} ·
+            ${esc(label(x.category))} ·
+            ${esc(x.vote || '')} ·
+            ${esc(x.profile_name || x.profile_id || '')} ·
+            ${esc(x.chamber || 'Other')} ·
+            weight ${weight === null ? '—' : weight.toFixed(2)}
+          </div>
+
+          <span class="position-pill">
+            Conservative position: ${x.direction > 0 ? '+1' : '−1'}
+          </span>
+        </div>
+
+        <span class="result-pill ${x.aligned ? 'aligned' : 'not-aligned'}">
+          ${x.aligned ? '+1' : '−1'}
+          ${x.aligned ? 'Aligned' : 'Not aligned'}
+        </span>
+      </div>
+    `;
+  }).join('');
+}
+
+function openBill(b) {
+  const ps = b.scorecard?.provisions || [];
+  const weight = num(b.scorecard?.weight);
+
+  $('billDetail').innerHTML = `
+    <div class="detail-header">
+      <p class="eyebrow">
+        ${b.finalized === false ? 'PENDING BILL' : 'BILL DETAILS'}
+      </p>
+
+      <h2>${esc(b.number)} — ${esc(b.title)}</h2>
+
+      <p class="detail-sub">
+        ${esc(b.status)} ·
+        Introduced ${esc(b.introduced || '—')} ·
+        Passed ${esc(b.passed || '—')}
+      </p>
+    </div>
+
+    <div class="detail-score">
+      <div class="detail-stat">
+        <span>Alignment</span>
+        <strong>${esc(b.scorecard?.alignment || 'Neutral / mixed')}</strong>
+      </div>
+
+      <div class="detail-stat">
+        <span>Weight / age</span>
+        <strong>
+          ${weight === null ? 'Pending' : weight.toFixed(2)}
+          ${b.scorecard?.age_months === undefined
+            ? ''
+            : ` · ${b.scorecard.age_months} months old`}
+        </strong>
+      </div>
+
+      <div class="detail-stat">
+        <span>Scored provisions</span>
+        <strong>${ps.filter(p => p.scorable !== false).length}</strong>
+      </div>
+
+      <div class="detail-stat">
+        <span>Rightward</span>
+        <strong>${ps.filter(p => p.direction > 0).length}</strong>
+      </div>
+
+      <div class="detail-stat">
+        <span>Leftward</span>
+        <strong>${ps.filter(p => p.direction < 0).length}</strong>
+      </div>
+
+      <div class="detail-stat">
+        <span>Custom/neutral</span>
+        <strong>${ps.filter(p => p.scorable === false).length}</strong>
+      </div>
+    </div>
+
+    <p class="eyebrow">PROVISIONS</p>
+
+    <div class="provision-list">
+      ${ps.map(x => `
+        <div class="provision">
+          <div>
+            <div class="provision-name">${esc(x.name)}</div>
+
+            <div class="provision-note">
+              ${esc(label(x.category) || 'Neutral')} ·
+              ${esc(x.rationale || 'No rationale listed.')}
+            </div>
+
+            ${x.current_law
+              ? `<div class="provision-note">
+                   Current-law reference: ${esc(JSON.stringify(x.current_law))}
+                 </div>`
+              : ''}
+          </div>
+
+          <span class="result-pill ${
+            x.scorable === false
+              ? 'neutral'
+              : x.direction > 0
+                ? 'aligned'
+                : 'not-aligned'
+          }">
+            ${
+              x.scorable === false
+                ? 'Neutral'
+                : x.direction > 0
+                  ? '+1'
+                  : '−1'
+            }
+          </span>
+        </div>
+      `).join('')}
+    </div>
+  `;
+
+  $('billDialog').showModal();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  ['search', 'party', 'chamber', 'sort', 'direction'].forEach(id => {
+    $(id).addEventListener('input', applyFilters);
+  });
+
+  document.querySelectorAll('[data-close]').forEach(b => {
+    b.addEventListener('click', () => b.closest('dialog').close());
+  });
+
+  document.querySelectorAll('dialog').forEach(d => {
+    d.addEventListener('click', e => {
+      if (e.target === d) d.close();
+    });
+  });
+
+  loadData().catch(e => {
+    console.error(e);
+    $('scorecards').innerHTML =
+      '<div class="empty">Unable to load scorecard data. Check that public/data is present.</div>';
+  });
+});
