@@ -13,7 +13,7 @@
       <div>
         <p class="eyebrow">POWER PLAY USA</p>
         <h1>Conservative Scorecard</h1>
-        <p class="subtitle">Deterministic legislative voting scores based on finalized provisions.</p>
+        <p class="subtitle">One scorecard per Power Play user. Multiple offices are combined under the persistent user ID, not the Discord name.</p>
       </div>
       <div class="header-stat" id="generatedAt">Loading data…</div>
     </div>
@@ -21,72 +21,33 @@
 
   <main class="shell">
     <section class="hero-grid" aria-label="Scorecard summary">
-      <div class="hero-card">
-        <span class="hero-label">Scored legislators</span>
-        <strong id="playerCount">—</strong>
-      </div>
-      <div class="hero-card">
-        <span class="hero-label">Finalized bills</span>
-        <strong id="billCount">—</strong>
-      </div>
-      <div class="hero-card">
-        <span class="hero-label">Scored provisions</span>
-        <strong id="provisionCount">—</strong>
-      </div>
-      <div class="hero-card">
-        <span class="hero-label">Method</span>
-        <strong>+1 / −1</strong>
-        <small>No neutral provisions</small>
-      </div>
+      <div class="hero-card"><span class="hero-label">Users</span><strong id="playerCount">—</strong></div>
+      <div class="hero-card"><span class="hero-label">Finalized bills</span><strong id="billCount">—</strong></div>
+      <div class="hero-card"><span class="hero-label">Scored provisions</span><strong id="provisionCount">—</strong></div>
+      <div class="hero-card"><span class="hero-label">Scoring</span><strong>+1 / −1</strong><small>Custom bills neutral</small></div>
     </section>
 
     <section class="toolbar panel">
       <div class="search-wrap">
-        <label for="search">Search legislators</label>
-        <input id="search" type="search" placeholder="Name or Discord handle…" autocomplete="off">
+        <label for="search">Search</label>
+        <input id="search" type="search" placeholder="Name, profile, Discord…" autocomplete="off">
       </div>
-      <div>
-        <label for="tier">Tier</label>
-        <select id="tier">
-          <option value="all">All tiers</option>
-          <option value="S">S — 90–100</option>
-          <option value="A">A — 80–89.99</option>
-          <option value="B">B — 70–79.99</option>
-          <option value="C">C — 60–69.99</option>
-          <option value="D">D — 50–59.99</option>
-          <option value="F">F — below 50</option>
-        </select>
-      </div>
-      <div>
-        <label for="category">Primary category</label>
-        <select id="category">
-          <option value="all">All categories</option>
-          <option value="social">Social</option>
-          <option value="economic">Economic</option>
-          <option value="foreign">Foreign</option>
-        </select>
-      </div>
+      <div><label for="party">Party</label><select id="party"><option value="all">All parties</option><option value="gop">GOP</option><option value="dem">Dem</option><option value="grn">Green</option><option value="cst">Constitutional</option></select></div>
+      <div><label for="chamber">Chamber</label><select id="chamber"><option value="all">All chambers</option><option value="Senate">Senate</option><option value="House">House</option><option value="Other">Other</option></select></div>
+      <div><label for="sort">Sort by</label><select id="sort"><option value="score">Score</option><option value="state">State</option><option value="profile">Profile name</option><option value="name">Name (A–Z)</option><option value="social">Social</option><option value="economic">Economic</option><option value="foreign">Foreign</option></select></div>
+      <div><label for="direction">Order</label><select id="direction"><option value="desc">High → low / Z → A</option><option value="asc">Low → high / A → Z</option></select></div>
     </section>
 
     <section>
       <div class="section-heading">
-        <div>
-          <p class="eyebrow">LEGISLATORS</p>
-          <h2>Scorecards</h2>
-        </div>
+        <div><p class="eyebrow">LEGISLATORS</p><h2>Scorecards</h2></div>
         <span id="resultCount" class="muted">—</span>
       </div>
       <div id="scorecards" class="scorecard-grid" aria-live="polite"></div>
     </section>
 
     <section class="bills-section">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">LEGISLATION</p>
-          <h2>Finalized bills</h2>
-        </div>
-        <span class="muted">Click a bill to inspect its provisions.</span>
-      </div>
+      <div class="section-heading"><div><p class="eyebrow">LEGISLATION</p><h2>Finalized bills</h2></div><span class="muted">Click a bill to inspect its provisions.</span></div>
       <div id="bills" class="bill-grid"></div>
     </section>
   </main>
@@ -95,19 +56,12 @@
     <button class="dialog-close" data-close aria-label="Close">×</button>
     <div id="scorecardDetail"></div>
   </dialog>
-
   <dialog id="billDialog" class="dialog">
     <button class="dialog-close" data-close aria-label="Close">×</button>
     <div id="billDetail"></div>
   </dialog>
 
-  <footer class="site-footer">
-    <div class="shell footer-inner">
-      <span>Power Play USA Conservative Scorecard</span>
-      <span>Finalized bills only · Equal provision weighting · No neutral provisions</span>
-    </div>
-  </footer>
-
+  <footer class="site-footer"><div class="shell footer-inner"><span>Power Play USA Conservative Scorecard</span><span>Finalized bills only · Equal provision weighting · User ID composites</span></div></footer>
   <script src="app.js" defer></script>
 </body>
 </html>
