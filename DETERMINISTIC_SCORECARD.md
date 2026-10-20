@@ -8,7 +8,7 @@ Every provision receives the same weight and exactly one binary direction:
 
 - **+1** = conservative/rightward.
 - **-1** = liberal/leftward.
-- **0 is never a valid provision score.**
+- **0** is used only for neutral, non-scorable provisions (Custom Bills, marijuana legalization/decriminalization, nuclear energy itself). They are excluded from scoring.
 
 A comparable prior enacted bill is recorded as the **current-law reference** when one exists. When no comparable prior law exists, the configured ideological rule/fallback determines the direction. Every provision remains auditable in `conservative_scorecard.json`.
 
@@ -61,7 +61,7 @@ The calibrated rules in `scorecard_rules.json` include the prior manual decision
 - GI Bill full tuition/housing expansion: **-1 Economic**.
 - Afghanistan/al-Qaida AUMF: **-1 Foreign** because it represents overseas military projection.
 
-No finalized provision is assigned zero, even where the source describes the option as neutral or status quo. Such cases use the configured binary rule and can be manually recalibrated later.
+Marijuana legalization and decriminalization are scored **0** (neutral, excluded). Marijuana sales taxes remain -1.
 
 ## Website-ready output
 
@@ -82,5 +82,7 @@ GitHub Actions also uploads this directory as the `ppusa-scorecard-data` artifac
 - **A:** 80–89.99
 - **B:** 70–79.99
 - **C:** 60–69.99
+- **D:** 50–59.99
+- **F:** 0–49.99
 - **D:** 50–59.99
 - **F:** 0–49.99
