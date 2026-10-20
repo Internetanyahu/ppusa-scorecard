@@ -1,7 +1,7 @@
 const state={data:null,players:[],bills:[],filtered:[],problemsOnly:false};
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
-const num=v=>Number.isFinite(Number(v))?Number(v):null;
+const num=v=>(v===null||v===undefined||v===''||!Number.isFinite(Number(v)))?null:Number(v);
 const fmt=v=>num(v)===null?'N/A':Number(v).toFixed(Number(v)%1?2:0);
 const label=v=>v?v.charAt(0).toUpperCase()+v.slice(1):'Unknown';
 const IDEOLOGY={
@@ -10,7 +10,7 @@ const IDEOLOGY={
   foreign:['Warhawk','Neocon','Lite Neocon','Interventionist','Moderate','Hemispherist','Contra','Patriot','Gigapatriot']
 };
 // Bands: below 20 = first label, then one label per 10 points, 90-100 = last label.
-function ideology(cat,v){if(v===null||v===undefined||v==='')return '';const n=num(v);if(n===null||!IDEOLOGY[cat])return '';return IDEOLOGY[cat][Math.max(0,Math.min(8,Math.floor(n/10)-1))]}
+function ideology(cat,v){const n=num(v);if(n===null)return 'N/A';if(!IDEOLOGY[cat])return '';return IDEOLOGY[cat][Math.max(0,Math.min(8,Math.floor(n/10)-1))]}
 const partyLabel=v=>({gop:'GOP',dem:'Dem',grn:'Green',cst:'Constitutional'})[String(v||'').toLowerCase()]||String(v||'Other');
 const initials=v=>String(v||'?').split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join('').toUpperCase();
 function avatar(p){return p.avatar?`<img class="avatar" src="${esc(p.avatar)}" alt="">`:`<div class="avatar-fallback">${esc(initials(p.name))}</div>`}
