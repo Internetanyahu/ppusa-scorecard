@@ -9,6 +9,19 @@ BASE_URL = "https://powerplayusa.net"
 PLAYERS_FILE = Path("players.json")
 VOTES_FILE = Path("votes.json")
 
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/154.0.0.0 Safari/537.36"
+)
+
+EXPECTED_HEADERS = ["when", "part", "what happened", "at the time", "now"]
+
+# Print the "no records" diagnostic for at most this many players,
+# so the log stays readable.
+MAX_DIAGNOSTICS = 5
+_diagnostics_printed = 0
+
 
 def clean_text(text):
     return re.sub(r"\s+", " ", text or "").strip()
@@ -26,9 +39,11 @@ def load_json(path, default):
 
 
 def save_json(path, data):
-    with path.open("w", encoding="utf-8") as f:
+    tmp = path.with_suffix(".tmp")
+    with tmp.open("w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
         f.write("\n")
+    tmp.replace(path)
 
 
 def parse_action(text):
@@ -72,21 +87,23 @@ def parse_bill_name(text):
     )
 
     # Remove floor/committee wording.
-    text = re.sub(
-        r"\s+on the floor\s*$",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
-
-    text = re.sub(
-        r"\s+in committee\s*$",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
+    text = re.sub(r"\s+on the floor\s*$", "", text, flags=re.IGNORECASE)
+    text = re.sub(r"\s+in committee\s*$", "", text, flags=re.IGNORECASE)
 
     return clean_text(text)
+
+
+def parse_stage(text):
+    """'committee' or 'floor' when the row says so, otherwise None."""
+    text = clean_text(text)
+
+    if re.search(r"\bin committee\s*$", text, re.IGNORECASE):
+        return "committee"
+
+    if re.search(r"\bon the floor\s*$", text, re.IGNORECASE):
+        return "floor"
+
+    return None
 
 
 def parse_number(text):
@@ -98,7 +115,19 @@ def parse_number(text):
         return None
 
 
+def table_headers(table):
+    """Header texts for a table, from <thead> or else the first row."""
+    cells = table.locator("thead th")
+
+    if cells.count() == 0:
+        cells = table.locator("tr").first.locator("th, td")
+
+    return [clean_text(cells.nth(i).inner_text()) for i in range(cells.count())]
+
+
 def scrape_player(page, player):
+    global _diagnostics_printed
+
     profile_id = player.get("powerplay_profile_id") or player.get("user_id")
 
     if not profile_id:
@@ -108,35 +137,27 @@ def scrape_player(page, player):
 
     print(f"Scraping votes: {player.get('name', 'Unknown')} ({profile_id})")
 
-    page.goto(
-        url,
-        wait_until="domcontentloaded",
-        timeout=60000,
-    )
+    page.goto(url, wait_until="domcontentloaded", timeout=60000)
 
-    page.wait_for_timeout(500)
+    # Wait for a table to exist instead of guessing with a fixed delay.
+    try:
+        page.wait_for_selector("table", timeout=8000)
+    except Exception:
+        pass
 
-    # Find the table whose header is:
-    # When | Part | What happened | At the time | Now
     tables = page.locator("table")
-
     records = []
+    seen_headers = []
 
     for table_index in range(tables.count()):
         table = tables.nth(table_index)
 
-        headers = [
-            clean_text(table.locator("thead th").nth(i).inner_text())
-            for i in range(table.locator("thead th").count())
-        ]
+        headers = table_headers(table)
+        seen_headers.append(headers)
 
-        if headers[:5] != [
-            "When",
-            "Part",
-            "What happened",
-            "At the time",
-            "Now",
-        ]:
+        normalized = [h.lower() for h in headers[:5]]
+
+        if normalized != EXPECTED_HEADERS:
             continue
 
         rows = table.locator("tbody tr")
@@ -150,13 +171,11 @@ def scrape_player(page, player):
             when = clean_text(cells.nth(0).inner_text())
             part = clean_text(cells.nth(1).inner_text())
             what_happened = clean_text(cells.nth(2).inner_text())
+
             at_the_time = parse_number(cells.nth(3).inner_text())
             now = parse_number(cells.nth(4).inner_text())
 
-            match = re.match(
-                r"^Week\s+(\d+),\s+(\d{4})$",
-                when,
-            )
+            match = re.match(r"^Week\s+(\d+),\s+(\d{4})$", when)
 
             if not match:
                 continue
@@ -166,18 +185,18 @@ def scrape_player(page, player):
 
             records.append(
                 {
-                    "player_id": player.get("discord")
-                    or str(profile_id),
+                    "player_id": player.get("discord") or str(profile_id),
                     "powerplay_profile_id": profile_id,
                     "player_name": player.get("name"),
                     "discord": player.get("discord"),
-                    "state": player.get("stateName"),
+                    "state": player.get("state"),
                     "term": "current",
                     "week": week,
                     "year": year,
                     "when": when,
                     "part": part,
                     "action": parse_action(what_happened),
+                    "stage": parse_stage(what_happened),
                     "bill_name": parse_bill_name(what_happened),
                     "what_happened": what_happened,
                     "at_the_time": at_the_time,
@@ -188,6 +207,13 @@ def scrape_player(page, player):
 
         # We found the record table. Stop looking at other tables.
         break
+
+    if not records and _diagnostics_printed < MAX_DIAGNOSTICS:
+        _diagnostics_printed += 1
+        print(
+            f"  no record table: url={page.url!r} title={page.title()!r} "
+            f"tables={tables.count()} headers={seen_headers}"
+        )
 
     return records
 
@@ -232,9 +258,7 @@ def main():
     players = load_json(PLAYERS_FILE, [])
 
     if not players:
-        raise RuntimeError(
-            "players.json is empty or missing."
-        )
+        raise RuntimeError("players.json is empty or missing.")
 
     existing_votes = load_json(VOTES_FILE, [])
 
@@ -245,13 +269,7 @@ def main():
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page(
-    user_agent=(
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/154.0.0.0 Safari/537.36"
-    )
-)
+        page = browser.new_page(user_agent=USER_AGENT)
 
         try:
             for player in players:
@@ -259,9 +277,7 @@ def main():
                     records = scrape_player(page, player)
                     new_records.extend(records)
 
-                    print(
-                        f"  Found {len(records)} record entries"
-                    )
+                    print(f"  Found {len(records)} record entries")
 
                 except Exception as error:
                     print(
@@ -274,10 +290,12 @@ def main():
         finally:
             browser.close()
 
-    merged = merge_records(
-        existing_votes,
-        new_records,
-    )
+    # Most players may have no record yet, so an empty result is normal.
+    # merge_records keeps everything already stored, so this never wipes data.
+    if not new_records:
+        print("Note: no vote records found for any player this run.")
+
+    merged = merge_records(existing_votes, new_records)
 
     save_json(VOTES_FILE, merged)
 
