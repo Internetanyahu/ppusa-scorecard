@@ -1,5 +1,4 @@
 import re
-import sys
 from urllib.parse import urlparse
 
 from playwright.sync_api import sync_playwright
@@ -22,26 +21,20 @@ CHALLENGE_MARKERS = (
     "verify you are human",
     "enable javascript and cookies",
 )
-
-
-def clean_header(name, value):
-    if name.lower() in SENSITIVE_HEADERS:
-        return "<redacted>"
-    return value
+API_PATTERNS = (
+    r"(?:https?:)?//[^\"'\\s<>]+",
+    r"/(?:api|ajax|graphql|trpc|json|data|backend)[^\"'\\s<>]*",
+    r"/(?:resolutions?|bills?)[^\"'\\s<>]*(?:json|api|ajax)[^\"'\\s<>]*",
+)
 
 
 def response_line(response):
     headers = response.all_headers()
-    server = headers.get("server", "")
-    cf_ray = headers.get("cf-ray", "")
-    cf_mitigated = headers.get("cf-mitigated", "")
     extras = []
-    if server:
-        extras.append(f"server={server}")
-    if cf_ray:
-        extras.append(f"cf-ray={cf_ray}")
-    if cf_mitigated:
-        extras.append(f"cf-mitigated={cf_mitigated}")
+    for key in ("server", "cf-ray", "cf-mitigated"):
+        value = headers.get(key, "")
+        if value:
+            extras.append(f"{key}={value}")
     suffix = " " + " ".join(extras) if extras else ""
     return f"HTTP {response.status} {response.url}{suffix}"
 
@@ -54,7 +47,46 @@ def page_markers(page):
     return [marker for marker in CHALLENGE_MARKERS if marker in text]
 
 
-def check_page(page, url, label):
+def inspect_app_sources(page):
+    print("\nAPP SOURCE / API CANDIDATE SCAN")
+    script_urls = page.locator("script[src]").evaluate_all(
+        "els => els.map(e => e.src).filter(Boolean)"
+    )
+    print(f"SCRIPT_URLS: {len(script_urls)}")
+    candidates = set()
+
+    inline_scripts = page.locator("script:not([src])").evaluate_all(
+        "els => els.map(e => e.textContent || '')"
+    )
+    for text in inline_scripts:
+        for pattern in API_PATTERNS:
+            for match in re.findall(pattern, text, flags=re.I):
+                candidates.add(match[:500])
+
+    for src in script_urls[:40]:
+        try:
+            response = page.request.get(src, timeout=15000)
+            if response.status != 200:
+                continue
+            text = response.text()
+            for pattern in API_PATTERNS:
+                for match in re.findall(pattern, text, flags=re.I):
+                    candidates.add(match[:500])
+        except Exception as exc:
+            print(f"SCRIPT_READ_ERROR: {src} {type(exc).__name__}")
+
+    useful = sorted(
+        c for c in candidates
+        if any(word in c.lower() for word in ("api", "ajax", "graphql", "resolution", "bill", "data", "json"))
+    )
+    if useful:
+        for candidate in useful[:200]:
+            print(f"API_CANDIDATE: {candidate}")
+    else:
+        print("API_CANDIDATE: none found in accessible HTML/JS")
+
+
+def check_page(page, url, label, inspect_sources=False):
     print(f"\n[{label}] {url}")
     seen = []
 
@@ -73,23 +105,30 @@ def check_page(page, url, label):
             print(f"NAVIGATION: {response_line(response)}")
         markers = page_markers(page)
         print(f"CLOUDFLARE_CHALLENGE_MARKERS: {markers or 'none'}")
-        for line in seen[-20:]:
+        for line in seen[-30:]:
             print(f"RESPONSE: {line}")
+        if inspect_sources and not markers:
+            inspect_app_sources(page)
         return markers
     finally:
         page.remove_listener("response", on_response)
 
 
 def main():
-    print("PPUSA safe scraper-pattern diagnostic")
-    print("This does not bypass challenges or increase request volume.")
+    print("PPUSA safe scraper-pattern/API diagnostic")
+    print("This does not bypass challenges or increase bill request volume.")
     failures = 0
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page(user_agent=USER_AGENT)
         try:
-            markers = check_page(page, ROSTER_URL, "ROSTER - same URL as scraper/main.py")
+            markers = check_page(
+                page,
+                ROSTER_URL,
+                "ROSTER - same URL as scraper/main.py",
+                inspect_sources=True,
+            )
             if markers:
                 failures += 1
 
@@ -119,4 +158,3 @@ if __name__ == "__main__":
         main()
     except Exception as exc:
         print(f"DIAGNOSTIC_ERROR: {type(exc).__name__}: {exc}")
-        sys.exit(1)
