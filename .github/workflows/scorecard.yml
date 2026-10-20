@@ -39,13 +39,46 @@ jobs:
 
       - name: Build website data
         run: |
+          set -e
+
           mkdir -p public/data
+
           cp bills.json public/data/bills.json
           cp conservative_scorecard.json public/data/conservative_scorecard.json
           cp legislative_history.json public/data/legislative_history.json
           cp players.json public/data/players.json
           cp scorecard_rules.json public/data/scorecard_rules.json
           cp voting_records.json public/data/voting_records.json
+
+          echo "Website data files:"
+          ls -lh public/data
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          required = [
+              "bills.json",
+              "conservative_scorecard.json",
+              "legislative_history.json",
+              "players.json",
+              "scorecard_rules.json",
+              "voting_records.json",
+          ]
+
+          for name in required:
+              path = Path("public/data") / name
+
+              if not path.exists():
+                  raise SystemExit(f"Missing website data file: {path}")
+
+              if path.stat().st_size == 0:
+                  raise SystemExit(f"Empty website data file: {path}")
+
+              json.loads(path.read_text())
+
+              print(f"OK: {path} ({path.stat().st_size} bytes)")
+          PY
 
       - name: Validate outputs
         run: |
@@ -108,8 +141,19 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add players.json player_index.json legislative_history.json voting_records.json conservative_scorecard.json scorecard_rules.json identity_review.json scorecard_review.json
+
+          git add \
+            players.json \
+            player_index.json \
+            legislative_history.json \
+            voting_records.json \
+            conservative_scorecard.json \
+            scorecard_rules.json \
+            identity_review.json \
+            scorecard_review.json
+
           git diff --cached --quiet || git commit -m "Update conservative scorecard"
+
           git pull --rebase
           git push
 
