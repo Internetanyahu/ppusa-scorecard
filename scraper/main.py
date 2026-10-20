@@ -1,84 +1,90 @@
 import json
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
 URL = "https://powerplayusa.net/national/politicians"
 
-response = requests.get(
-    URL,
-    headers={
-        "User-Agent": (
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=True)
+
+    page = browser.new_page(
+        user_agent=(
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 (KHTML, like Gecko) "
             "Chrome/154.0.0.0 Safari/537.36"
-        ),
-        "Accept": (
-            "text/html,application/xhtml+xml,application/xml;"
-            "q=0.9,image/avif,image/webp,*/*;q=0.8"
-        ),
-        "Accept-Language": "en-US,en;q=0.9",
-        "Referer": "https://powerplayusa.net/",
-        "Sec-Fetch-Dest": "document",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-Site": "same-origin",
-        "Sec-Fetch-User": "?1",
-    },
-    timeout=30,
-)
-
-print("HTTP status:", response.status_code)
-print("Content type:", response.headers.get("content-type"))
-
-if response.status_code == 403:
-    raise RuntimeError(
-        "Power Play is blocking GitHub Actions with Cloudflare. "
-        "A normal requests scraper cannot access the page."
+        )
     )
 
-response.raise_for_status()
+    print("Opening Power Play...")
 
-soup = BeautifulSoup(response.text, "html.parser")
+    response = page.goto(
+        URL,
+        wait_until="domcontentloaded",
+        timeout=60000,
+    )
 
-table = soup.find("table", id="politiciansTable")
+    print("HTTP status:", response.status if response else "unknown")
+    print("Page title:", page.title())
 
-if table is None:
-    raise RuntimeError("Could not find politiciansTable")
+    page.wait_for_timeout(10000)
 
-headers = [
-    cell.get_text(" ", strip=True)
-    for cell in table.find("thead").find_all(["th", "td"])
-]
+    html = page.content()
 
-players = []
+    print("HTML length:", len(html))
 
-for row in table.find("tbody").find_all("tr"):
-    cells = row.find_all("td")
+    if "Just a moment" in html:
+        browser.close()
+        raise RuntimeError(
+            "Cloudflare challenge was not passed."
+        )
 
-    if not cells:
-        continue
+    soup = BeautifulSoup(html, "html.parser")
 
-    values = [
+    table = soup.find("table", id="politiciansTable")
+
+    if table is None:
+        browser.close()
+        raise RuntimeError("Could not find politiciansTable")
+
+    headers = [
         cell.get_text(" ", strip=True)
-        for cell in cells
+        for cell in table.find("thead").find_all(["th", "td"])
     ]
 
-    if len(values) != len(headers):
-        continue
+    players = []
 
-    player = dict(zip(headers, values))
+    for row in table.find("tbody").find_all("tr"):
+        cells = row.find_all("td")
 
-    profile_link = row.find(
-        "a",
-        href=lambda href: href and "/users/" in href
-    )
+        if not cells:
+            continue
 
-    if profile_link:
-        href = profile_link.get("href", "")
-        player["powerplay_profile_id"] = href.rstrip("/").split("/")[-1]
+        values = [
+            cell.get_text(" ", strip=True)
+            for cell in cells
+        ]
 
-    players.append(player)
+        if len(values) != len(headers):
+            continue
+
+        player = dict(zip(headers, values))
+
+        profile_link = row.find(
+            "a",
+            href=lambda href: href and "/users/" in href
+        )
+
+        if profile_link:
+            href = profile_link.get("href", "")
+            player["powerplay_profile_id"] = (
+                href.rstrip("/").split("/")[-1]
+            )
+
+        players.append(player)
+
+    browser.close()
 
 output = Path("players.json")
 
