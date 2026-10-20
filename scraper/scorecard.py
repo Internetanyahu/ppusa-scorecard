@@ -328,10 +328,21 @@ def main():
     rules = {"calibrated_rules": compile_rules(raw_rules.get("calibrated_rules", [])), "general_rules": compile_rules(raw_rules.get("general_rules", [])), "provision_rules": build_provision_rules(raw_rules)}
 
     bill_meta = {}
+    pending_bills = []
     review = []
     all_names, explicit_names = set(), set()
     for bill in bills:
         if not bill.get("finalized"):
+            # Pending bills (committee / floor) are informational only: they are
+            # classified for display but never counted toward player scores.
+            pending_provisions = []
+            for p in bill.get("provisions", []):
+                result = classify_provision(bill, p, rules, bills)
+                result["current_law"] = prior_law_reference(bill, p, bills)
+                pending_provisions.append({"name": p.get("name", ""), **result})
+            pending_copy = dict(bill)
+            pending_copy["scorecard"] = {"provisions": pending_provisions}
+            pending_bills.append(pending_copy)
             continue
         scored_provisions = []
         for p in bill.get("provisions", []):
@@ -387,10 +398,12 @@ def main():
             "tiers": {"S": "90-100", "A": "80-89.99", "B": "70-79.99", "C": "60-69.99", "D": "50-59.99", "F": "0-49.99"},
         },
         "bills": bill_meta,
+        "pending_bills": sorted(pending_bills, key=lambda b: int(b.get("resolution_id") or 0)),
         "players": out_players,
     })
     save_json(REVIEW_FILE, review)
     print(f"Finalized bills: {len(bill_meta)}")
+    print(f"Pending bills (informational): {len(pending_bills)}")
     print(f"User scorecards: {len(out_players)}")
     print(f"Fallback provisions for review: {len(review)}")
     print(f"Provisions with an explicit rule: {len(explicit_names)} of {len(all_names)}")

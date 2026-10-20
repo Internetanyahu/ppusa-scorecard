@@ -7,7 +7,7 @@
    take effect if you also hold a GitHub token with write access to the repo.
 --------------------------------------------------------------------------- */
 const VERIFIER = {"salt":"f26d0b470221240e7dff7de5e56c581e","iterations":600000,"hash":"095031433fe8fbf8096a1ca8d815a4ede7d05dab03723278e8610b86a27f4505"};
-const REPO = {owner:'samueladdams', repo:'ppusa_conservative_scorecard', path:'scorecard_rules.json'};
+const REPO = {owner:'SK64HD', repo:'ppusa_conservative_scorecard', path:'scorecard_rules.json'};
 const CATS = ['social','economic','foreign'];
 
 const $ = id => document.getElementById(id);
