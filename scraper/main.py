@@ -18,107 +18,76 @@ with sync_playwright() as p:
     )
 
     print("Opening Power Play...")
-    page.goto(URL, wait_until="domcontentloaded", timeout=60000)
+
+    page.goto(
+        URL,
+        wait_until="domcontentloaded",
+        timeout=60000,
+    )
 
     page.wait_for_timeout(10000)
 
+    html = page.content()
+
+    print("HTML length:", len(html))
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    table = soup.find("table", id="politiciansTable")
+
+    if table is None:
+        browser.close()
+        raise RuntimeError("Could not find politiciansTable")
+
+    headers = [
+        cell.get_text(" ", strip=True)
+        for cell in table.find("thead").find_all(["th", "td"])
+    ]
+
+    print("Columns found:", headers)
+
     players = {}
 
-    def collect_players():
-        soup = BeautifulSoup(page.content(), "html.parser")
-
-        table = soup.find("table", id="politiciansTable")
-
-        if table is None:
-            raise RuntimeError("Could not find politiciansTable")
-
-        headers = [
-            cell.get_text(" ", strip=True)
-            for cell in table.find("thead").find_all(["th", "td"])
-        ]
-
-        before = len(players)
-
-        for row in table.find("tbody").find_all("tr"):
-            cells = row.find_all("td")
-
-            if not cells:
-                continue
-
-            values = [
-                cell.get_text(" ", strip=True)
-                for cell in cells
-            ]
-
-            if len(values) != len(headers):
-                continue
-
-            player = dict(zip(headers, values))
-
-            profile_link = row.find(
-                "a",
-                href=lambda href: href and "/users/" in href
-            )
-
-            if not profile_link:
-                continue
-
-            href = profile_link.get("href", "")
-            profile_id = href.rstrip("/").split("/")[-1]
-
-            player["powerplay_profile_id"] = profile_id
-
-            players[profile_id] = player
-
-        added = len(players) - before
-
-        print(
-            f"Collected {added} new players. "
-            f"Total: {len(players)}"
-        )
-
-
-    # Collect page 1.
-    collect_players()
-
-    # Find pagination buttons.
-    pagination = page.locator(
-        "#politiciansTable_paginate"
+    # Find every player link in the entire page.
+    profile_links = soup.find_all(
+        "a",
+        href=lambda href: href and "/users/" in href
     )
 
-    if pagination.count() == 0:
-        browser.close()
-        raise RuntimeError(
-            "Could not find politicians pagination controls"
-        )
+    print("Player profile links found:", len(profile_links))
 
-    # Click numbered pages one at a time.
-    page_number = 2
+    for profile_link in profile_links:
+        href = profile_link.get("href", "")
+        profile_id = href.rstrip("/").split("/")[-1]
 
-    while True:
-        button = page.locator(
-            f"#politiciansTable_paginate "
-            f"span a:has-text('{page_number}')"
-        )
+        if not profile_id.isdigit():
+            continue
 
-        if button.count() == 0:
-            break
+        row = profile_link.find_parent("tr")
 
-        if not button.is_visible():
-            break
+        if row is None:
+            continue
 
-        print(f"Opening page {page_number}...")
+        cells = row.find_all("td")
 
-        button.click()
+        if not cells:
+            continue
 
-        page.wait_for_timeout(1000)
+        values = [
+            cell.get_text(" ", strip=True)
+            for cell in cells
+        ]
 
-        collect_players()
+        if len(values) != len(headers):
+            continue
 
-        page_number += 1
+        player = dict(zip(headers, values))
+
+        player["powerplay_profile_id"] = profile_id
+
+        players[profile_id] = player
 
     browser.close()
-
 
 players_list = list(players.values())
 
