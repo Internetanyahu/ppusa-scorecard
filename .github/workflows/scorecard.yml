@@ -134,7 +134,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add players.json player_index.json legislative_history.json voting_records.json conservative_scorecard.json scorecard_review.json identity_review.json scorecard_rules.json public/data
+          git add players.json player_index.json legislative_history.json voting_records.json conservative_scorecard.json scorecard_rules.json identity_review.json scorecard_review.json scorecard_rules.json public/data
           git diff --cached --quiet || git commit -m "Update conservative scorecard"
           git pull --rebase
           git push
