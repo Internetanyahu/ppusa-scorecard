@@ -782,3 +782,21 @@ select option{
     margin-bottom:5px
   }
 }
+
+
+/* Force light text on scorecard and bill cards (buttons do not inherit color) */
+.scorecard,
+.scorecard *,
+.bill-card,
+.bill-card *{
+  color:#fff
+}
+.scorecard .handle,
+.scorecard .mini-value,
+.scorecard .score-main span,
+.bill-card .bill-meta,
+.bill-card .bill-meta span{
+  color:#c9d3df
+}
+.scorecard .tier-S,.scorecard .tier-A,.bill-card .positive{color:var(--positive)}
+.scorecard .tier-F,.bill-card .negative{color:var(--negative)}
