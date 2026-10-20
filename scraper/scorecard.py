@@ -1,3 +1,24 @@
+"""
+Deterministic conservative legislative scorecard.
+
+Rules:
+- Score ONLY finalized bills.
+- Score EACH provision independently; every scored provision has equal weight.
+- +1 = conservative/rightward.
+- -1 = liberal/leftward.
+- 0 = neutral and excluded from scoring.
+- Custom Bills are neutral.
+- Marijuana legalization/decriminalization is neutral.
+- Nuclear energy itself is neutral.
+- Taxes are -1.
+- All subsidies are -1.
+- All tax credits are +1 except tax credits for non-nuclear green energy,
+  which are -1.
+- Aye supports +1; Nay supports -1.
+- Categories: Social, Economic, Foreign.
+
+The classifier is deterministic and auditable.
+"""
 def classify_provision(bill, provision, rules, bills):
     name = provision.get("name", "").strip()
     text = provision_text(provision)
