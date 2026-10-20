@@ -21,7 +21,7 @@ jobs:
           pip install playwright beautifulsoup4
           playwright install --with-deps chromium
 
-      - name: Run player scraper
+      - name: Run player and voting scrapers
         run: python scraper/main.py
 
       - name: Save player data
