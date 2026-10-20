@@ -55,7 +55,7 @@ const S = {data:null, base:null, rules:null, baseCanon:'', provisions:[], ex:new
 function canon(rules) { const r = clone(rules); r.provision_rules = (r.provision_rules || []).slice().sort((a,b)=>norm(a.name)<norm(b.name)?-1:1); return JSON.stringify(r); }
 function serialize() {
   const r = clone(S.rules);
-  r.provision_rules = [...S.ex.values()].sort((a,b)=>norm(a.name)<norm(b.name)?-1:1).map(x => ({id:x.id, name:x.name, direction:x.direction, category:x.direction===0?null:x.category, rationale:x.rationale||''}));
+  r.provision_rules = [...S.ex.values()].sort((a,b)=>norm(a.name)<norm(b.name)?-1:1).map(x => ({id:x.id, name:x.name, direction:x.direction, category:x.direction===0?null:x.category, rationale:x.rationale||'', ...(x.confidence ? {confidence:x.confidence} : {})}));
   return JSON.stringify(r, null, 2) + '\n';
 }
 function mapFrom(rules) { const m = new Map(); (rules.provision_rules || []).forEach(r => m.set(norm(r.name), {...r})); return m; }
@@ -87,6 +87,12 @@ function buildProvisions() {
       e.sigs.add(`${p.scorable === false ? 0 : p.direction}|${p.category}`);
       if (!e.notes && raw[i] && raw[i].name === p.name) e.notes = {notes:raw[i].notes, effects:raw[i].effects};
     });
+  });
+  (S.rules.provision_rules || []).forEach(r => {
+    const key = norm(r.name); if (!key || map.has(key)) return;
+    const dir = Number(r.direction);
+    map.set(key, {key, name:r.name, bills:[], conf:r.confidence || '', sigs:new Set(), notes:null,
+      eff:{direction:dir, category:r.category, rationale:r.rationale || '', rule_id:r.id, source:'explicit', scorable:dir !== 0}});
   });
   S.provisions = [...map.values()].sort((a,b) => a.key < b.key ? -1 : 1);
   S.provisions.forEach((e, i) => e.idx = i);
@@ -125,7 +131,7 @@ function rowHTML(e) {
   const ctx = e.notes ? JSON.stringify(e.notes, null, 2) : '';
   return `<div class="prow ${v.state === 'explicit' ? '' : 'inherited'} ${changed ? 'pending' : ''}" data-i="${e.idx}">
     <div class="prow-top"><div><div class="prow-name">${esc(e.name)}</div>
-      <div class="prow-meta">${esc(e.bills.map(b => b.number).join(', '))}${e.sigs.size > 1 ? ' · <span class="err">classified differently across bills</span>' : ''}${changed ? ' · <strong>unsaved change</strong>' : ''}</div></div>${badge}</div>
+      <div class="prow-meta">${e.bills.length ? esc(e.bills.map(b => b.number).join(', ')) : 'Law on the books · no finalized bill uses this yet'}${e.conf === 'low' ? ' · <span class="err">low confidence — review</span>' : ''}${e.sigs.size > 1 ? ' · <span class="err">classified differently across bills</span>' : ''}${changed ? ' · <strong>unsaved change</strong>' : ''}</div></div>${badge}</div>
     <div class="prow-controls">
       <div><label>Conservative position</label><div class="seg" role="group">
         <button type="button" data-act="dir" data-v="1" class="${d === 1 ? 'on pos' : ''}">+1 · Aye</button>
@@ -198,7 +204,7 @@ function updateChrome() {
 function renderShell() {
   $('app').innerHTML = `
   <header class="adm-head"><div class="shell"><p class="eyebrow">ADMIN</p><h1>Scorecard rules</h1>
-    <p>Every provision on every finalized law is listed below with its own rule. An explicit rule always overrides pattern rules and fallbacks. Changes are saved to <code>${esc(REPO.path)}</code> and the scorecard rebuilds automatically.</p></div></header>
+    <p>Every provision on a finalized bill, plus every law and amendment in the game's code, is listed below with its own rule. An explicit rule always overrides pattern rules and fallbacks. Changes are saved to <code>${esc(REPO.path)}</code> and the scorecard rebuilds automatically.</p></div></header>
   <main class="shell">
     <section class="adm-stats">
       <div class="hero-card"><span class="hero-label">Provisions</span><strong id="stTotal">—</strong></div>
