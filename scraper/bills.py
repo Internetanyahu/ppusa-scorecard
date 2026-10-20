@@ -75,8 +75,32 @@ EXTRACT_JS = r"""
     if (current) current.voters.push(userFromAnchor(el));
   }
 
+  // "Provisions" table: label/text rows in page order
+  const provisionRows = [];
+  const ph = [...document.querySelectorAll('h4')]
+    .find(h => /^provisions$/i.test(clean(h.textContent)));
+  if (ph) {
+    let el = ph.nextElementSibling;
+    while (el && el.tagName !== 'H4' &&
+           !(el.matches('table') || el.querySelector('table'))) {
+      el = el.nextElementSibling;
+    }
+    const table = (el && el.tagName !== 'H4')
+      ? (el.matches('table') ? el : el.querySelector('table')) : null;
+    if (table) {
+      for (const row of table.querySelectorAll('tr')) {
+        const cells = row.children;
+        if (cells.length >= 2) {
+          provisionRows.push({ label: clean(cells[0].textContent),
+                               text: clean(cells[1].textContent) });
+        }
+      }
+    }
+  }
+
   return {
     found: true,
+    provisionRows,
     og_title: meta('og:title'),
     og_description: meta('og:description'),
     about,
@@ -116,6 +140,45 @@ def save_json(path, data):
 
 def about_text(about, label):
     return (about.get(label) or {}).get("text", "")
+
+
+EFFECT_RE = re.compile(r"(.+?)\s*([+\-\u2212]\d+(?:\.\d+)?)(?=\s|$)")
+
+
+def parse_effects(text):
+    """'Civil Liberties+2 Gender Equality+1' -> [{'metric':..., 'change':2.0}, ...]"""
+    effects = []
+    for metric, change in EFFECT_RE.findall(text):
+        effects.append(
+            {
+                "metric": metric.strip(),
+                "change": float(change.replace("\u2212", "-")),
+            }
+        )
+    return effects
+
+
+def parse_provisions(rows):
+    """Group Provisions-table rows: each 'Provision' row starts a new provision."""
+    provisions = []
+
+    for row in rows:
+        label = row["label"].strip()
+        text = row["text"]
+
+        if label.lower() == "provision":
+            provisions.append({"name": text, "effects": [], "notes": {}})
+            continue
+
+        if not provisions:
+            provisions.append({"name": "", "effects": [], "notes": {}})
+
+        if label.lower() == "effects":
+            provisions[-1]["effects"].extend(parse_effects(text))
+        else:
+            provisions[-1]["notes"][label] = text
+
+    return provisions
 
 
 def person(raw):
@@ -180,6 +243,7 @@ def build_bill(raw, resolution_id):
         "passed": about_text(about, "passed"),
         "sponsor": person(sponsor[0]) if sponsor else None,
         "cosponsors": [person(c) for c in cosponsors],
+        "provisions": parse_provisions(raw.get("provisionRows", [])),
         "votes": votes,
         "warnings": warnings,
         "scraped_at": now_iso(),
@@ -228,8 +292,8 @@ def main():
             for resolution_id in ids:
                 existing = bills.get(resolution_id)
 
-                # Law or failed: archived, never rescraped.
-                if existing and existing.get("finalized"):
+                # Law or failed: archived, never rescraped (once provisions are stored).
+                if existing and existing.get("finalized") and "provisions" in existing:
                     skipped += 1
                     misses = 0
                     continue
