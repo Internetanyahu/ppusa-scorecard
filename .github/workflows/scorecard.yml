@@ -49,7 +49,7 @@ jobs:
 
       - name: Validate outputs
         run: |
-          python - <<'PY'
+          python -c '
           import json
           from pathlib import Path
 
@@ -69,28 +69,57 @@ jobs:
           )
 
           json.loads(
-              Path(
-                  "public/data/conservative_scorecard.json"
-              ).read_text()
+              Path("public/data/conservative_scorecard.json").read_text()
           )
 
-          # Normal provisions must have direction +1/-1.
-          #
-          # Custom Bill provisions are intentionally neutral:
-          # direction 0, scorable false.
-          #
-          # Custom Bills must never affect a user's score.
           for bill in scorecard.get("bills", {}).values():
-              for provision in bill.get(
-                  "scorecard", {}
-              ).get("provisions", []):
+              for provision in bill.get("scorecard", {}).get("provisions", []):
+                  name = str(provision.get("name", "")).strip().lower()
+                  direction = provision.get("direction")
+                  scorable = provision.get("scorable", True)
 
-                  name = str(
-                      provision.get("name", "")
-                  ).strip().lower()
+                  if name == "custom bill":
+                      if direction != 0 or scorable is not False:
+                          raise SystemExit(
+                              "Custom Bill must be neutral "
+                              "(direction 0, scorable false): "
+                              + repr(provision)
+                          )
 
-                  direction = provision.get(
-                      "direction"
-                  )
+                  elif scorable is False:
+                      if direction != 0:
+                          raise SystemExit(
+                              "Neutral provision must have direction 0: "
+                              + repr(provision)
+                          )
 
-                  scorable = provision.get(
+                  elif direction not in (-1, 1):
+                      raise SystemExit(
+                          "Invalid provision direction for resolution "
+                          + str(bill.get("resolution_id"))
+                          + ": "
+                          + repr(direction)
+                      )
+
+          print("All scorecard outputs validated, including neutral Custom Bills.")
+          '
+
+      - name: Commit compiled data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add players.json player_index.json legislative_history.json voting_records.json conservative_scorecard.json scorecard_rules.json identity_review.json scorecard_review.json
+          git diff --cached --quiet || git commit -m "Update conservative scorecard"
+          git pull --rebase
+          git push
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4
