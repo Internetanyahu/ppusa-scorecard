@@ -2495,19 +2495,18 @@ document.addEventListener(
         );
       });
 
-    document.addEventListener(
-      'keydown',
-      e => {
-        if (
-          e.ctrlKey &&
-          e.shiftKey &&
-          e.key.toLowerCase() === 'a'
-        ) {
-          e.preventDefault();
-          unlockAdmin();
-        }
+    document.addEventListener('keydown', e => {
+      if (
+        e.ctrlKey &&
+        e.altKey &&
+        e.shiftKey &&
+        e.key.toLowerCase() === 'a'
+      ) {
+        e.preventDefault();
+        e.stopPropagation();
+        unlockAdmin();
       }
-    );
+    });
 
     if (
       window.location.hash ===
