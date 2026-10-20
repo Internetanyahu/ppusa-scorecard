@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T21:10:48+00:00",
+  "generated_at": "2026-10-20T21:22:40+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -38773,7 +38773,7 @@
           "state": "West Virginia",
           "chamber": "Senate",
           "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-          "is_main": true,
+          "is_main": false,
           "on_site": true
         }
       ],
@@ -39092,7 +39092,7 @@
           "party": "grn",
           "state": "Nevada",
           "chamber": "Senate",
-          "avatar": "https://cdn.discordapp.com/avatars/1390846237288169652/54ae99a07c17e29b7dab470c621c785a.webp",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": false,
           "on_site": true
         },
@@ -39101,6 +39101,16 @@
           "name": "David Allan Coe",
           "party": "grn",
           "state": "Kentucky",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/1390846237288169652/54ae99a07c17e29b7dab470c621c785a.webp",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1351",
+          "name": "Cleveland Green Jr.",
+          "party": "grn",
+          "state": "Nevada",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1390846237288169652/54ae99a07c17e29b7dab470c621c785a.webp",
           "is_main": false,
@@ -39535,7 +39545,7 @@
         },
         {
           "profile_id": "1096",
-          "name": "James Ernest",
+          "name": "John Patsalos",
           "party": "cst",
           "state": "New York",
           "chamber": "House",
@@ -39545,7 +39555,7 @@
         },
         {
           "profile_id": "1221",
-          "name": "Joe Rogan",
+          "name": "Wade Waters",
           "party": "cst",
           "state": "Texas",
           "chamber": "House",
@@ -39611,7 +39621,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39637,7 +39647,7 @@
           "vote": "nay",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39663,7 +39673,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39715,7 +39725,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39728,7 +39738,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39741,7 +39751,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39767,7 +39777,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39793,7 +39803,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39845,7 +39855,7 @@
           "vote": "nay",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39858,7 +39868,7 @@
           "vote": "nay",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39871,7 +39881,7 @@
           "vote": "nay",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39897,7 +39907,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39923,7 +39933,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39949,7 +39959,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -39988,7 +39998,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40001,7 +40011,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40027,7 +40037,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40053,7 +40063,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40105,7 +40115,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40118,7 +40128,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40131,7 +40141,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40157,7 +40167,7 @@
           "vote": "nay",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40183,7 +40193,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40209,7 +40219,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40235,7 +40245,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "Senate"
         },
         {
@@ -40274,7 +40284,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40287,7 +40297,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40339,7 +40349,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40352,7 +40362,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40365,7 +40375,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40391,7 +40401,7 @@
           "vote": "nay",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "Senate"
         },
         {
@@ -40417,7 +40427,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40469,7 +40479,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40482,7 +40492,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40495,7 +40505,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40508,7 +40518,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "Senate"
         },
         {
@@ -40534,7 +40544,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "House"
         },
         {
@@ -40560,7 +40570,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1096",
-          "profile_name": "James Ernest",
+          "profile_name": "John Patsalos",
           "chamber": "Senate"
         }
       ],
@@ -55293,6 +55303,7 @@
       "party": "grn",
       "state": "Vermont",
       "chambers": [
+        "Other",
         "Senate"
       ],
       "avatar": "https://cdn.discordapp.com/avatars/734084874251665518/8b97e058862712bca615ec8794ea12c5.webp",
@@ -55313,6 +55324,16 @@
           "party": "grn",
           "state": "Rhode Island",
           "chamber": "Senate",
+          "avatar": "https://cdn.discordapp.com/avatars/734084874251665518/8b97e058862712bca615ec8794ea12c5.webp",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1352",
+          "name": "Peter Griffin",
+          "party": "grn",
+          "state": "Rhode Island",
+          "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/734084874251665518/8b97e058862712bca615ec8794ea12c5.webp",
           "is_main": false,
           "on_site": true
@@ -56654,7 +56675,7 @@
         },
         {
           "profile_id": "1013",
-          "name": "RIHANNA",
+          "name": "DARIALIZA AVILA CHEVAL",
           "party": "grn",
           "state": "Virginia",
           "chamber": "Other",
@@ -56666,7 +56687,7 @@
           "profile_id": "1245",
           "name": "ALEXANDRIA OCASIO-CORTEZ",
           "party": "grn",
-          "state": "Arizona",
+          "state": "New Jersey",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
           "is_main": false,
@@ -59152,7 +59173,7 @@
           "profile_id": "1120",
           "name": "Benito Antonio Martínez O",
           "party": "dem",
-          "state": "Pennsylvania",
+          "state": "Puerto Rico",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/398403582606442497/525cc5e180b22a994d0fac6c90be56b5.webp",
           "is_main": false,
@@ -60266,7 +60287,7 @@
           "profile_id": "1254",
           "name": "Peter Russo",
           "party": "dem",
-          "state": "South Carolina",
+          "state": "Puerto Rico",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
           "is_main": false,
@@ -60379,7 +60400,7 @@
     {
       "user_id": "p1137",
       "player_id": "p1137",
-      "name": "Darializa Avila Chevalier",
+      "name": "Darializa Chevalier",
       "discord": "",
       "discord_ids": [],
       "party": "grn",
@@ -60391,7 +60412,7 @@
       "profiles": [
         {
           "profile_id": "1137",
-          "name": "Darializa Avila Chevalier",
+          "name": "Darializa Chevalier",
           "party": "grn",
           "state": "New York",
           "chamber": "Other",
@@ -61001,6 +61022,67 @@
       "eligible_for_grade": false
     },
     {
+      "user_id": "p1089",
+      "player_id": "p1089",
+      "name": "Herman Cain",
+      "discord": "cylke",
+      "discord_ids": [
+        "965001907741556813"
+      ],
+      "party": "grn",
+      "state": "Georgia",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/965001907741556813/d3bf1b76b3c13659849253b78b5735f3.webp",
+      "profiles": [
+        {
+          "profile_id": "1089",
+          "name": "Herman Cain",
+          "party": "grn",
+          "state": "Georgia",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/965001907741556813/d3bf1b76b3c13659849253b78b5735f3.webp",
+          "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1092",
+          "name": "Don Blankenship",
+          "party": "grn",
+          "state": "West Virginia",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/965001907741556813/d3bf1b76b3c13659849253b78b5735f3.webp",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1224",
+          "name": "Sam Brownback",
+          "party": "grn",
+          "state": "Kansas",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/965001907741556813/d3bf1b76b3c13659849253b78b5735f3.webp",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {},
+      "aligned_votes": {},
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false
+    },
+    {
       "user_id": "p1144",
       "player_id": "p1144",
       "name": "Howie Hawkins",
@@ -61162,6 +61244,45 @@
       "eligible_for_grade": false
     },
     {
+      "user_id": "p1353",
+      "player_id": "p1353",
+      "name": "Jack Guy",
+      "discord": "",
+      "discord_ids": [],
+      "party": "dem",
+      "state": "Massachusetts",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "profiles": [
+        {
+          "profile_id": "1353",
+          "name": "Jack Guy",
+          "party": "dem",
+          "state": "Massachusetts",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {},
+      "aligned_votes": {},
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false
+    },
+    {
       "user_id": "p1064",
       "player_id": "p1064",
       "name": "James Talarico",
@@ -61181,7 +61302,7 @@
           "state": "Delaware",
           "chamber": "Other",
           "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-          "is_main": true,
+          "is_main": false,
           "on_site": true
         }
       ],
@@ -62615,67 +62736,6 @@
       "eligible_for_grade": false
     },
     {
-      "user_id": "p1089",
-      "player_id": "p1089",
-      "name": "Newt Gingrich",
-      "discord": "cylke",
-      "discord_ids": [
-        "965001907741556813"
-      ],
-      "party": "grn",
-      "state": "Georgia",
-      "chambers": [
-        "Other"
-      ],
-      "avatar": "https://cdn.discordapp.com/avatars/965001907741556813/d3bf1b76b3c13659849253b78b5735f3.webp",
-      "profiles": [
-        {
-          "profile_id": "1089",
-          "name": "Newt Gingrich",
-          "party": "grn",
-          "state": "Georgia",
-          "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/965001907741556813/d3bf1b76b3c13659849253b78b5735f3.webp",
-          "is_main": true,
-          "on_site": true
-        },
-        {
-          "profile_id": "1092",
-          "name": "Richard Ojeda",
-          "party": "grn",
-          "state": "West Virginia",
-          "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/965001907741556813/d3bf1b76b3c13659849253b78b5735f3.webp",
-          "is_main": false,
-          "on_site": true
-        },
-        {
-          "profile_id": "1224",
-          "name": "Pat Roberts",
-          "party": "grn",
-          "state": "Kansas",
-          "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/965001907741556813/d3bf1b76b3c13659849253b78b5735f3.webp",
-          "is_main": false,
-          "on_site": true
-        }
-      ],
-      "scores": {
-        "social": null,
-        "economic": null,
-        "foreign": null,
-        "overall": null,
-        "tier": "N/A"
-      },
-      "sample_size": {},
-      "aligned_votes": {},
-      "provisions_scored": 0,
-      "aligned_provisions": 0,
-      "finalized_bills_voted": 0,
-      "bill_details": [],
-      "eligible_for_grade": false
-    },
-    {
       "user_id": "p1240",
       "player_id": "p1240",
       "name": "notsurensja",
@@ -63391,7 +63451,7 @@
           "profile_id": "1252",
           "name": "Susana Martinez",
           "party": "gop",
-          "state": "New Mexico",
+          "state": "Colorado",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/887481623203950693/4ee38cb757401bccea5b556fa7765d7a.webp",
           "is_main": false,
@@ -63514,7 +63574,7 @@
           "profile_id": "1312",
           "name": "Willie Nelson",
           "party": "grn",
-          "state": "Colorado",
+          "state": "Tennessee",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1505609162426683542/f2a78d1b58c63d690cbc26dc17a1820e.webp",
           "is_main": false,
@@ -63632,6 +63692,45 @@
           "name": "Uncle America",
           "party": "ind",
           "state": "Georgia",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {},
+      "aligned_votes": {},
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false
+    },
+    {
+      "user_id": "p1354",
+      "player_id": "p1354",
+      "name": "WalterWhiteNotSellingCrac",
+      "discord": "",
+      "discord_ids": [],
+      "party": "dem",
+      "state": "Vermont",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "profiles": [
+        {
+          "profile_id": "1354",
+          "name": "WalterWhiteNotSellingCrac",
+          "party": "dem",
+          "state": "Vermont",
           "chamber": "Other",
           "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": true,

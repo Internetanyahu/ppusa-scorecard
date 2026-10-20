@@ -317,7 +317,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1013",
     "player_id": "p1004",
-    "name": "RIHANNA",
+    "name": "DARIALIZA AVILA CHEVAL",
     "discord": "kewtslimnury",
     "party": "grn",
     "state": "Virginia",
@@ -1632,12 +1632,12 @@
     "profile_id": "1070",
     "player_id": "p1018",
     "name": "Cleveland Green",
-    "discord": "roginality",
+    "discord": "",
     "party": "grn",
     "state": "Nevada",
     "last_seen": "2026-10-20",
     "on_site": true,
-    "discord_id": "1390846237288169652",
+    "discord_id": "",
     "discord_history": [
       {
         "discord": "roginality",
@@ -1647,6 +1647,11 @@
       {
         "discord": "roginality",
         "discord_id": "1390846237288169652",
+        "first_seen": "2026-10-20"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
         "first_seen": "2026-10-20"
       }
     ]
@@ -2076,7 +2081,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1089",
     "player_id": "p1089",
-    "name": "Newt Gingrich",
+    "name": "Herman Cain",
     "discord": "cylke",
     "party": "grn",
     "state": "Georgia",
@@ -2148,7 +2153,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1092",
     "player_id": "p1089",
-    "name": "Richard Ojeda",
+    "name": "Don Blankenship",
     "discord": "cylke",
     "party": "grn",
     "state": "West Virginia",
@@ -2244,7 +2249,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1096",
     "player_id": "p1095",
-    "name": "James Ernest",
+    "name": "John Patsalos",
     "discord": "insane686",
     "party": "cst",
     "state": "New York",
@@ -2801,7 +2806,7 @@
     "name": "Benito Antonio Martínez O",
     "discord": "galaxydoge420",
     "party": "dem",
-    "state": "Pennsylvania",
+    "state": "Puerto Rico",
     "last_seen": "2026-10-20",
     "on_site": true,
     "discord_id": "398403582606442497",
@@ -3185,7 +3190,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1137",
     "player_id": "p1137",
-    "name": "Darializa Avila Chevalier",
+    "name": "Darializa Chevalier",
     "discord": "",
     "party": "grn",
     "state": "New York",
@@ -5147,7 +5152,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1221",
     "player_id": "p1095",
-    "name": "Joe Rogan",
+    "name": "Wade Waters",
     "discord": "insane686",
     "party": "cst",
     "state": "Texas",
@@ -5219,7 +5224,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1224",
     "player_id": "p1089",
-    "name": "Pat Roberts",
+    "name": "Sam Brownback",
     "discord": "cylke",
     "party": "grn",
     "state": "Kansas",
@@ -5710,7 +5715,7 @@
     "name": "ALEXANDRIA OCASIO-CORTEZ",
     "discord": "kewtslimnury",
     "party": "grn",
-    "state": "Arizona",
+    "state": "New Jersey",
     "last_seen": "2026-10-20",
     "on_site": true,
     "discord_id": "1460058777125654644",
@@ -5873,7 +5878,7 @@
     "name": "Susana Martinez",
     "discord": "brandonhh02",
     "party": "gop",
-    "state": "New Mexico",
+    "state": "Colorado",
     "last_seen": "2026-10-20",
     "on_site": true,
     "discord_id": "887481623203950693",
@@ -5921,7 +5926,7 @@
     "name": "Peter Russo",
     "discord": "pzdz20",
     "party": "dem",
-    "state": "South Carolina",
+    "state": "Puerto Rico",
     "last_seen": "2026-10-20",
     "on_site": true,
     "discord_id": "1303893674417193052",
@@ -7238,7 +7243,7 @@
     "name": "Willie Nelson",
     "discord": "mr.snail67",
     "party": "grn",
-    "state": "Colorado",
+    "state": "Tennessee",
     "last_seen": "2026-10-20",
     "on_site": true,
     "discord_id": "1505609162426683542",
@@ -8089,5 +8094,69 @@
         "first_seen": "2026-10-20"
       }
     ]
+  },
+  "1351": {
+    "profile_id": "1351",
+    "player_id": "p1018",
+    "first_seen": "2026-10-20",
+    "discord_history": [
+      {
+        "discord": "roginality",
+        "discord_id": "1390846237288169652",
+        "first_seen": "2026-10-20"
+      }
+    ],
+    "name": "Cleveland Green Jr.",
+    "discord": "roginality",
+    "discord_id": "1390846237288169652",
+    "party": "grn",
+    "state": "Nevada",
+    "last_seen": "2026-10-20",
+    "on_site": true
+  },
+  "1352": {
+    "profile_id": "1352",
+    "player_id": "p1024",
+    "first_seen": "2026-10-20",
+    "discord_history": [
+      {
+        "discord": "bigggumper",
+        "discord_id": "734084874251665518",
+        "first_seen": "2026-10-20"
+      }
+    ],
+    "name": "Peter Griffin",
+    "discord": "bigggumper",
+    "discord_id": "734084874251665518",
+    "party": "grn",
+    "state": "Rhode Island",
+    "last_seen": "2026-10-20",
+    "on_site": true
+  },
+  "1353": {
+    "profile_id": "1353",
+    "player_id": "p1353",
+    "first_seen": "2026-10-20",
+    "discord_history": [],
+    "name": "Jack Guy",
+    "discord": "",
+    "discord_id": "",
+    "party": "dem",
+    "state": "Massachusetts",
+    "last_seen": "2026-10-20",
+    "on_site": true
+  },
+  "1354": {
+    "profile_id": "1354",
+    "player_id": "p1354",
+    "first_seen": "2026-10-20",
+    "discord_history": [],
+    "name": "WalterWhiteNotSellingCrac",
+    "discord": "",
+    "discord_id": "",
+    "party": "dem",
+    "state": "Vermont",
+    "last_seen": "2026-10-20",
+    "on_site": true
   }
 }

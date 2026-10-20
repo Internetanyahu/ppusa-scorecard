@@ -5381,12 +5381,13 @@
   },
   {
     "player_id": "p1018",
-    "name": "David Allan Coe",
+    "name": "Cleveland Green Jr.",
     "discord": "roginality",
     "profiles": [
       "1070",
       "1018",
-      "1267"
+      "1267",
+      "1351"
     ],
     "bills": [
       {
@@ -8148,11 +8149,12 @@
   },
   {
     "player_id": "p1024",
-    "name": "Lois Griffin",
+    "name": "Peter Griffin",
     "discord": "bigggumper",
     "profiles": [
       "1024",
-      "1031"
+      "1031",
+      "1352"
     ],
     "bills": [
       {
@@ -26267,7 +26269,7 @@
   },
   {
     "player_id": "p1089",
-    "name": "Pat Roberts",
+    "name": "Sam Brownback",
     "discord": "cylke",
     "profiles": [
       "1089",
@@ -27084,7 +27086,7 @@
   },
   {
     "player_id": "p1095",
-    "name": "Joe Rogan",
+    "name": "Wade Waters",
     "discord": "insane686",
     "profiles": [
       "1096",
@@ -36320,7 +36322,7 @@
   },
   {
     "player_id": "p1137",
-    "name": "Darializa Avila Chevalier",
+    "name": "Darializa Chevalier",
     "discord": "",
     "profiles": [
       "1137"
@@ -45517,6 +45519,26 @@
     "discord": "",
     "profiles": [
       "1347"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1353",
+    "name": "Jack Guy",
+    "discord": "",
+    "profiles": [
+      "1353"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1354",
+    "name": "WalterWhiteNotSellingCrac",
+    "discord": "",
+    "profiles": [
+      "1354"
     ],
     "bills": [],
     "bill_count": 0
