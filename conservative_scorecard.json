@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T17:18:50+00:00",
+  "generated_at": "2026-10-20T17:24:04+00:00",
   "method": "Every named provision currently present in bills.json has an explicit policy assignment of +1 Conservative, 0 Neutral, or -1 Liberal. Neutral provisions do not affect scores. Finalized bills only affect scores. Older finalized bills decay monthly by a half-life of 12 in-game months. Category grades require at least 3 raw scored provisions in that category; overall eligibility requires at least 3 scored provisions in at least one category. Pending floor and committee bills are displayed separately and never affect player scores.",
   "bills": {
     "1": {
