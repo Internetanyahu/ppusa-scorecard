@@ -19,78 +19,100 @@ with sync_playwright() as p:
 
     print("Opening Power Play...")
 
-    response = page.goto(
+    page.goto(
         URL,
         wait_until="domcontentloaded",
         timeout=60000,
     )
 
-    print("HTTP status:", response.status if response else "unknown")
-    print("Page title:", page.title())
-
     page.wait_for_timeout(10000)
 
-    html = page.content()
+    print("Page title:", page.title())
 
-    print("HTML length:", len(html))
+    players = {}
 
-    if "Just a moment" in html:
-        browser.close()
-        raise RuntimeError(
-            "Cloudflare challenge was not passed."
-        )
+    while True:
+        html = page.content()
+        soup = BeautifulSoup(html, "html.parser")
 
-    soup = BeautifulSoup(html, "html.parser")
+        table = soup.find("table", id="politiciansTable")
 
-    table = soup.find("table", id="politiciansTable")
+        if table is None:
+            browser.close()
+            raise RuntimeError("Could not find politiciansTable")
 
-    if table is None:
-        browser.close()
-        raise RuntimeError("Could not find politiciansTable")
-
-    headers = [
-        cell.get_text(" ", strip=True)
-        for cell in table.find("thead").find_all(["th", "td"])
-    ]
-
-    players = []
-
-    for row in table.find("tbody").find_all("tr"):
-        cells = row.find_all("td")
-
-        if not cells:
-            continue
-
-        values = [
+        headers = [
             cell.get_text(" ", strip=True)
-            for cell in cells
+            for cell in table.find("thead").find_all(["th", "td"])
         ]
 
-        if len(values) != len(headers):
-            continue
+        rows_found = 0
 
-        player = dict(zip(headers, values))
+        for row in table.find("tbody").find_all("tr"):
+            cells = row.find_all("td")
 
-        profile_link = row.find(
-            "a",
-            href=lambda href: href and "/users/" in href
-        )
+            if not cells:
+                continue
 
-        if profile_link:
-            href = profile_link.get("href", "")
-            player["powerplay_profile_id"] = (
-                href.rstrip("/").split("/")[-1]
+            values = [
+                cell.get_text(" ", strip=True)
+                for cell in cells
+            ]
+
+            if len(values) != len(headers):
+                continue
+
+            player = dict(zip(headers, values))
+
+            profile_link = row.find(
+                "a",
+                href=lambda href: href and "/users/" in href
             )
 
-        players.append(player)
+            if not profile_link:
+                continue
+
+            href = profile_link.get("href", "")
+            profile_id = href.rstrip("/").split("/")[-1]
+
+            player["powerplay_profile_id"] = profile_id
+
+            players[profile_id] = player
+            rows_found += 1
+
+        print(f"Collected {rows_found} players on current page")
+        print(f"Total unique players: {len(players)}")
+
+        next_button = page.locator(
+            "#politiciansTable_next"
+        )
+
+        if not next_button.count():
+            break
+
+        classes = next_button.get_attribute("class") or ""
+
+        if "disabled" in classes:
+            break
+
+        next_button.click()
+
+        page.wait_for_timeout(1000)
 
     browser.close()
+
+players_list = list(players.values())
 
 output = Path("players.json")
 
 output.write_text(
-    json.dumps(players, indent=2, ensure_ascii=False),
+    json.dumps(
+        players_list,
+        indent=2,
+        ensure_ascii=False,
+    ),
     encoding="utf-8",
 )
 
-print(f"Saved {len(players)} players to {output}")
+print(f"FINAL PLAYER COUNT: {len(players_list)}")
+print(f"Saved players to {output}")
