@@ -13,6 +13,8 @@ concurrency:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   scorecard:
@@ -110,6 +112,18 @@ jobs:
           name: ppusa-scorecard-data
           path: public/data/
           if-no-files-found: error
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
 
       - name: Commit compiled data
         run: |
