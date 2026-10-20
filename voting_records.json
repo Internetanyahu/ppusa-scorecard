@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:39:37+00:00",
+  "generated_at": "2026-10-20T13:51:16+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -14685,8 +14685,8 @@
           "social": null,
           "economic": null,
           "foreign": null,
-          "overall": 66.67,
-          "tier": "C"
+          "overall": null,
+          "tier": "N/A"
         },
         "sample_size": {
           "social": 1,
@@ -14742,7 +14742,7 @@
             "chamber": "Senate"
           }
         ],
-        "eligible_for_grade": true
+        "eligible_for_grade": false
       },
       "discord": "austin.vicknair",
       "discord_current": true,
@@ -30311,10 +30311,10 @@
         ],
         "scores": {
           "social": null,
-          "economic": null,
+          "economic": 0.0,
           "foreign": null,
-          "overall": null,
-          "tier": "N/A"
+          "overall": 0.0,
+          "tier": "F"
         },
         "sample_size": {
           "social": 0,
@@ -30370,7 +30370,7 @@
             "chamber": "House"
           }
         ],
-        "eligible_for_grade": false
+        "eligible_for_grade": true
       },
       "discord": "drone1935",
       "discord_current": true,
@@ -33109,8 +33109,8 @@
           "social": null,
           "economic": null,
           "foreign": null,
-          "overall": 0.0,
-          "tier": "F"
+          "overall": null,
+          "tier": "N/A"
         },
         "sample_size": {
           "social": 1,
@@ -33166,7 +33166,7 @@
             "chamber": "Senate"
           }
         ],
-        "eligible_for_grade": true
+        "eligible_for_grade": false
       },
       "discord": "fruity.patootie",
       "discord_current": true,
@@ -47586,10 +47586,10 @@
         ],
         "scores": {
           "social": null,
-          "economic": null,
+          "economic": 0.0,
           "foreign": null,
-          "overall": null,
-          "tier": "N/A"
+          "overall": 25.0,
+          "tier": "F"
         },
         "sample_size": {
           "social": 1,
@@ -47658,7 +47658,7 @@
             "chamber": "House"
           }
         ],
-        "eligible_for_grade": false
+        "eligible_for_grade": true
       },
       "discord": "jackhammerjt",
       "discord_current": true,
@@ -66932,8 +66932,8 @@
           "social": null,
           "economic": null,
           "foreign": null,
-          "overall": 33.33,
-          "tier": "F"
+          "overall": null,
+          "tier": "N/A"
         },
         "sample_size": {
           "social": 1,
@@ -66989,7 +66989,7 @@
             "chamber": "Senate"
           }
         ],
-        "eligible_for_grade": true
+        "eligible_for_grade": false
       },
       "discord": "phoenixflamesong",
       "discord_current": true,
@@ -70001,8 +70001,8 @@
           "social": null,
           "economic": null,
           "foreign": null,
-          "overall": 0.0,
-          "tier": "F"
+          "overall": null,
+          "tier": "N/A"
         },
         "sample_size": {
           "social": 1,
@@ -70058,7 +70058,7 @@
             "chamber": "Senate"
           }
         ],
-        "eligible_for_grade": true
+        "eligible_for_grade": false
       },
       "discord": "shadowmocker",
       "discord_current": true,
