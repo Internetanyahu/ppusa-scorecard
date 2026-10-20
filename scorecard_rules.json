@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "description": "Deterministic conservative scorecard rules calibrated from the flagged finalized bills.",
+  "version": "2.1",
+  "description": "Deterministic conservative scorecard rules. Every finalized provision receives exactly +1 or -1; comparable prior enacted laws are recorded as the current-law reference and ideological fallback rules are used when no comparable law exists.",
   "policy_baseline": {
     "social": [
       "social conservatism",
@@ -65,8 +65,9 @@
       "id": "CAL-S5-H1B",
       "pattern": "^h-1b skilled worker visa: 200,000$",
       "category": "social",
-      "direction": 0,
-      "rationale": "The source explicitly labels immigration as status quo; no calibrated right/left movement is assigned."
+      "direction": -1,
+      "rationale": "Expanding H-1B skilled-worker immigration moves policy leftward under the nationalist framework.",
+      "source": "calibrated"
     },
     {
       "id": "CAL-S6-MEDICARE",
@@ -254,8 +255,8 @@
       "id": "CAL-S17-FED",
       "pattern": "^federal reserve \\(monetary policy\\): neutral$",
       "category": "economic",
-      "direction": 0,
-      "rationale": "The provision is explicitly neutral and does not materially change policy."
+      "direction": 1,
+      "rationale": "Binary fallback for a provision labeled neutral by the source; retained for deterministic no-zero scoring and flagged for review."
     },
     {
       "id": "CAL-S18-ENERGY-ADMIN",
@@ -289,8 +290,8 @@
       "id": "CAL-S25-SMALL-BUSINESS",
       "pattern": "^small business support: expanded sba & tax relief$",
       "category": "economic",
-      "direction": 0,
-      "rationale": "The provision combines spending expansion with tax relief and has no single calibrated direction; treat as neutral pending more granular text."
+      "direction": -1,
+      "rationale": "Expanded SBA support increases federal spending; the tax-relief component does not erase the spending expansion under the calibrated equal-provision rule."
     },
     {
       "id": "CAL-S25-MIN-WAGE",
@@ -310,8 +311,8 @@
       "id": "CAL-CUSTOM-BILL-UNKNOWN",
       "pattern": "^custom bill$",
       "category": "social",
-      "direction": 0,
-      "rationale": "No substantive provision text is available, so it is neutral rather than guessed."
+      "direction": 1,
+      "rationale": "Binary fallback for an unknown provision; retained for deterministic no-zero scoring and flagged for review."
     }
   ],
   "general_rules": [
