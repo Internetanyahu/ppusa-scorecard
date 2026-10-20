@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 */6 * * *"
 
 concurrency:
   group: data-commit
@@ -35,10 +35,18 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install browser dependencies
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
       - name: Install ImageMagick
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
+
+      - name: Refresh current Power Play player roster
+        run: python scraper/main.py
 
       - name: Rebuild user identity history
         run: python scraper/build_history.py
@@ -80,19 +88,15 @@ jobs:
 
           for name in required:
               path = Path("public/data") / name
-
               if not path.exists():
                   raise SystemExit(f"Missing website data file: {path}")
-
               if path.stat().st_size == 0:
                   raise SystemExit(f"Empty website data file: {path}")
-
               json.loads(path.read_text())
-
               print(f"OK: {path} ({path.stat().st_size} bytes)")
           PY
 
-      - name: Build Discord share pages
+      - name: Build Discord share pages for every player
         run: python scraper/build_share_pages.py
 
       - name: Validate outputs
@@ -112,13 +116,8 @@ jobs:
           ]:
               json.loads(Path(f).read_text())
 
-          scorecard = json.loads(
-              Path("conservative_scorecard.json").read_text()
-          )
-
-          json.loads(
-              Path("public/data/conservative_scorecard.json").read_text()
-          )
+          scorecard = json.loads(Path("conservative_scorecard.json").read_text())
+          json.loads(Path("public/data/conservative_scorecard.json").read_text())
 
           share_root = Path("public/share")
           if not share_root.exists():
@@ -132,48 +131,30 @@ jobs:
           ]
 
           if len(share_pages) != len(expected_players):
-              raise SystemExit(
-                  f"Expected {len(expected_players)} share pages, found {len(share_pages)}"
-              )
-
+              raise SystemExit(f"Expected {len(expected_players)} share pages, found {len(share_pages)}")
           if len(share_images) != len(expected_players):
-              raise SystemExit(
-                  f"Expected {len(expected_players)} share images, found {len(share_images)}"
-              )
+              raise SystemExit(f"Expected {len(expected_players)} share images, found {len(share_images)}")
+
+          print(f"Validated {len(expected_players)} player scorecards and Discord previews.")
 
           for bill in scorecard.get("bills", {}).values():
               for provision in bill.get("scorecard", {}).get("provisions", []):
                   name = str(provision.get("name", "")).strip().lower()
                   direction = provision.get("direction")
                   scorable = provision.get("scorable", True)
-
                   if name == "custom bill":
                       if direction != 0 or scorable is not False:
-                          raise SystemExit(
-                              "Custom Bill must be neutral "
-                              "(direction 0, scorable false): "
-                              + repr(provision)
-                          )
-
+                          raise SystemExit("Custom Bill must be neutral")
                   elif scorable is False:
                       if direction != 0:
-                          raise SystemExit(
-                              "Neutral provision must have direction 0: "
-                              + repr(provision)
-                          )
-
+                          raise SystemExit("Neutral provision must have direction 0")
                   elif direction not in (-1, 1):
-                      raise SystemExit(
-                          "Invalid provision direction for resolution "
-                          + str(bill.get("resolution_id"))
-                          + ": "
-                          + repr(direction)
-                      )
+                      raise SystemExit("Invalid provision direction for resolution " + str(bill.get("resolution_id")))
 
           print("All scorecard outputs validated, including neutral Custom Bills.")
           '
 
-      - name: Commit compiled data
+      - name: Commit compiled data and player previews
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
