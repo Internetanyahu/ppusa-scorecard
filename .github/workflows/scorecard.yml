@@ -31,7 +31,7 @@ jobs:
       - name: Rebuild user identity history
         run: python scraper/build_history.py
 
-      - name: Apply deterministic conservative scorecard
+      - name: Compile conservative scorecard, pending bills, and decay
         run: python scraper/scorecard.py
 
       - name: Build combined voting records
