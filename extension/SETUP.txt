@@ -1,0 +1,1 @@
+Open the extension popup to configure GitHub access and optional pagination. Bill pages are scraped automatically. Pagination is opt-in.
