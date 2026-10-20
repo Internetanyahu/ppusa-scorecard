@@ -1,7 +1,7 @@
 import json
+import re
 from pathlib import Path
 
-from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 URL = "https://powerplayusa.net/national/politicians"
@@ -25,93 +25,57 @@ with sync_playwright() as p:
         timeout=60000,
     )
 
-    page.wait_for_timeout(10000)
+    page.wait_for_timeout(5000)
 
-    html = page.content()
+    print("Page title:", page.title())
 
-    print("HTML length:", len(html))
-
-    soup = BeautifulSoup(html, "html.parser")
-
-    table = soup.find("table", id="politiciansTable")
-
-    if table is None:
-        browser.close()
-        raise RuntimeError("Could not find politiciansTable")
-
-    headers = [
-        cell.get_text(" ", strip=True)
-        for cell in table.find("thead").find_all(["th", "td"])
-    ]
-
-    print("Columns found:", headers)
-
-    players = {}
-
-    # Find every player link in the entire page.
-    profile_links = soup.find_all(
-        "a",
-        href=lambda href: href and "/users/" in href
+    # Read the complete dataset embedded in the page.
+    politicians = page.evaluate(
+        "() => window.politiciansData"
     )
-
-    print("Player profile links found:", len(profile_links))
-
-    for profile_link in profile_links:
-        href = profile_link.get("href", "")
-        profile_id = href.rstrip("/").split("/")[-1]
-
-        if not profile_id.isdigit():
-            continue
-
-        row = profile_link.find_parent("tr")
-
-        if row is None:
-            continue
-
-        cells = row.find_all("td")
-
-        if not cells:
-            continue
-
-        values = [
-            cell.get_text(" ", strip=True)
-            for cell in cells
-        ]
-
-        if len(values) != len(headers):
-            continue
-
-        player = dict(zip(headers, values))
-
-        player["powerplay_profile_id"] = profile_id
-
-        players[profile_id] = player
 
     browser.close()
 
-print("TOTAL PROFILE LINKS:", len(profile_links))
+if not politicians:
+    raise RuntimeError(
+        "Could not find window.politiciansData"
+    )
 
-print("FIRST 10 PROFILE IDS:")
-for profile_id in list(players.keys())[:10]:
-    print(profile_id)
+print(f"Players found: {len(politicians)}")
 
-print("LAST 10 PROFILE IDS:")
-for profile_id in list(players.keys())[-10:]:
-    print(profile_id)
+players = []
 
-players_list = list(players.values())
+for politician in politicians:
+    player = {
+        "powerplay_profile_id": str(politician["user_id"]),
+        "name": politician.get("name", ""),
+        "party": politician.get("partyAbbreviation2", ""),
+        "caucus": politician.get("caucus", 0),
+        "state": politician.get("stateName", ""),
+        "money": politician.get("money", 0),
+        "liquid_capital": politician.get("liquid_capital", 0),
+        "stamina": politician.get("stamina", 0),
+        "legacy_points": politician.get("legacy_points", 0),
+        "created_at": politician.get("createdAt", ""),
+        "has_discord": politician.get("has_discord", 0),
+        "discord": politician.get("discord_user", ""),
+        "discord_avatar": politician.get("discord_avatar", ""),
+        "is_main": politician.get("is_main", 0),
+        "union_role": politician.get("union_role", ""),
+    }
+
+    players.append(player)
 
 output = Path("players.json")
 
 output.write_text(
     json.dumps(
-        players_list,
+        players,
         indent=2,
         ensure_ascii=False,
     ),
     encoding="utf-8",
 )
 
-print()
-print(f"FINAL PLAYER COUNT: {len(players_list)}")
+print(f"FINAL PLAYER COUNT: {len(players)}")
 print(f"Saved players to {output}")
