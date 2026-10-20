@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:31:49+00:00",
+  "generated_at": "2026-10-20T13:39:37+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -8142,9 +8142,9 @@
           }
         ],
         "scores": {
-          "social": 100.0,
+          "social": null,
           "economic": 25.0,
-          "foreign": 0.0,
+          "foreign": null,
           "overall": 33.33,
           "tier": "F"
         },
@@ -11549,7 +11549,7 @@
         "scores": {
           "social": 76.92,
           "economic": 37.5,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 55.93,
           "tier": "D"
         },
@@ -14682,9 +14682,9 @@
           }
         ],
         "scores": {
-          "social": 0.0,
-          "economic": 100.0,
-          "foreign": 100.0,
+          "social": null,
+          "economic": null,
+          "foreign": null,
           "overall": 66.67,
           "tier": "C"
         },
@@ -15975,7 +15975,7 @@
         "scores": {
           "social": 22.22,
           "economic": 23.53,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 25.93,
           "tier": "F"
         },
@@ -17415,7 +17415,7 @@
           }
         ],
         "scores": {
-          "social": 0.0,
+          "social": null,
           "economic": 0.0,
           "foreign": null,
           "overall": 0.0,
@@ -20482,7 +20482,7 @@
         "scores": {
           "social": 33.33,
           "economic": 18.18,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 31.82,
           "tier": "F"
         },
@@ -28319,7 +28319,7 @@
         "scores": {
           "social": 11.11,
           "economic": 41.18,
-          "foreign": 50.0,
+          "foreign": null,
           "overall": 32.14,
           "tier": "F"
         },
@@ -29627,9 +29627,9 @@
           }
         ],
         "scores": {
-          "social": 0.0,
+          "social": null,
           "economic": 75.0,
-          "foreign": 0.0,
+          "foreign": null,
           "overall": 50.0,
           "tier": "D"
         },
@@ -30769,7 +30769,7 @@
         "scores": {
           "social": 56.0,
           "economic": 22.22,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 38.1,
           "tier": "F"
         },
@@ -33106,9 +33106,9 @@
           }
         ],
         "scores": {
-          "social": 0.0,
-          "economic": 0.0,
-          "foreign": 0.0,
+          "social": null,
+          "economic": null,
+          "foreign": null,
           "overall": 0.0,
           "tier": "F"
         },
@@ -36911,7 +36911,7 @@
         "scores": {
           "social": 16.67,
           "economic": 30.0,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 29.41,
           "tier": "F"
         },
@@ -38647,7 +38647,7 @@
         "scores": {
           "social": 32.0,
           "economic": 25.71,
-          "foreign": 50.0,
+          "foreign": null,
           "overall": 29.03,
           "tier": "F"
         },
@@ -41041,7 +41041,7 @@
         "scores": {
           "social": 22.22,
           "economic": 28.57,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 29.17,
           "tier": "F"
         },
@@ -46673,7 +46673,7 @@
         "scores": {
           "social": 80.0,
           "economic": 40.0,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 61.9,
           "tier": "C"
         },
@@ -48215,7 +48215,7 @@
         "scores": {
           "social": 66.67,
           "economic": 31.82,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 47.37,
           "tier": "F"
         },
@@ -49716,7 +49716,7 @@
         "scores": {
           "social": 30.0,
           "economic": 15.38,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 25.0,
           "tier": "F"
         },
@@ -51902,7 +51902,7 @@
         "scores": {
           "social": 16.67,
           "economic": 33.33,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 31.25,
           "tier": "F"
         },
@@ -53147,7 +53147,7 @@
         "scores": {
           "social": 30.77,
           "economic": 26.67,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 31.03,
           "tier": "F"
         },
@@ -54328,7 +54328,7 @@
         "scores": {
           "social": 16.67,
           "economic": 23.08,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 25.0,
           "tier": "F"
         },
@@ -58754,7 +58754,7 @@
         "scores": {
           "social": 41.18,
           "economic": 36.36,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 40.0,
           "tier": "F"
         },
@@ -61002,7 +61002,7 @@
         "scores": {
           "social": 35.71,
           "economic": 22.22,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 30.3,
           "tier": "F"
         },
@@ -62199,7 +62199,7 @@
         "scores": {
           "social": 30.0,
           "economic": 28.57,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 32.0,
           "tier": "F"
         },
@@ -63220,7 +63220,7 @@
         "scores": {
           "social": 31.25,
           "economic": 21.05,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 27.78,
           "tier": "F"
         },
@@ -66929,9 +66929,9 @@
           }
         ],
         "scores": {
-          "social": 0.0,
-          "economic": 0.0,
-          "foreign": 100.0,
+          "social": null,
+          "economic": null,
+          "foreign": null,
           "overall": 33.33,
           "tier": "F"
         },
@@ -67850,7 +67850,7 @@
         "scores": {
           "social": 50.0,
           "economic": 26.67,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 40.0,
           "tier": "F"
         },
@@ -68875,7 +68875,7 @@
         "scores": {
           "social": 25.0,
           "economic": 33.33,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 35.71,
           "tier": "F"
         },
@@ -69568,7 +69568,7 @@
         ],
         "scores": {
           "social": 75.0,
-          "economic": 0.0,
+          "economic": null,
           "foreign": null,
           "overall": 60.0,
           "tier": "C"
@@ -69998,9 +69998,9 @@
           }
         ],
         "scores": {
-          "social": 0.0,
-          "economic": 0.0,
-          "foreign": 0.0,
+          "social": null,
+          "economic": null,
+          "foreign": null,
           "overall": 0.0,
           "tier": "F"
         },
@@ -70884,7 +70884,7 @@
         "scores": {
           "social": 33.33,
           "economic": 20.0,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 33.33,
           "tier": "F"
         },
@@ -72001,7 +72001,7 @@
         "scores": {
           "social": 12.5,
           "economic": 30.77,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 27.27,
           "tier": "F"
         },
@@ -83059,7 +83059,7 @@
         "scores": {
           "social": 22.22,
           "economic": 22.22,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 25.0,
           "tier": "F"
         },
@@ -85094,7 +85094,7 @@
         "scores": {
           "social": 16.67,
           "economic": 33.33,
-          "foreign": 100.0,
+          "foreign": null,
           "overall": 31.25,
           "tier": "F"
         },
