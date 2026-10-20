@@ -14,6 +14,12 @@ MAX_MISSES = 3        # stop after this many consecutive login/missing pages
 HARD_CAP = 5000       # safety net so a bug can never loop forever
 SAVE_EVERY = 25
 
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/154.0.0.0 Safari/537.36"
+)
+
 # Runs inside the page. Returns raw data; Python does the cleanup.
 EXTRACT_JS = r"""
 () => {
@@ -187,13 +193,17 @@ def scrape_bill(page, resolution_id):
         wait_until="domcontentloaded",
         timeout=60000,
     )
-    page.wait_for_timeout(300)
+    try:
+        page.wait_for_selector("h4", timeout=8000)
+    except Exception:
+        pass
 
-    if "/login" in page.url:
-        return None
+    raw = None
+    if "/login" not in page.url:
+        raw = page.evaluate(EXTRACT_JS)
 
-    raw = page.evaluate(EXTRACT_JS)
-    if not raw.get("found"):
+    if not raw or not raw.get("found"):
+        print(f"  (url={page.url!r} title={page.title()!r})")
         return None
 
     return build_bill(raw, resolution_id)
@@ -210,7 +220,7 @@ def main():
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+        page = browser.new_page(user_agent=USER_AGENT)
 
         try:
             ids = only or range(START_ID, HARD_CAP)
@@ -256,6 +266,13 @@ def main():
                     save_json(BILLS_FILE, [bills[k] for k in sorted(bills)])
         finally:
             browser.close()
+
+    if not bills:
+        print()
+        print("ERROR: no bills were found, so bills.json was NOT written.")
+        print("Check the (url=..., title=...) lines above: a login or")
+        print("block page means the site is rejecting the scraper.")
+        sys.exit(1)
 
     save_json(BILLS_FILE, [bills[k] for k in sorted(bills)])
 
