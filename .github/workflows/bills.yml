@@ -1,0 +1,40 @@
+name: Scrape bills
+
+# Only scrapes bills into bills.json. Run "Update players and records"
+# afterwards to rebuild the voting records from it.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
+
+jobs:
+  bills:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Run bill scraper
+        run: python scraper/bills.py
+
+      - name: Save bills
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bills.json
+          git diff --cached --quiet || git commit -m "Update bills"
+          git pull --rebase
+          git push
