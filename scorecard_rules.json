@@ -1,0 +1,487 @@
+{
+  "version": 2,
+  "description": "Deterministic conservative scorecard rules calibrated from the flagged finalized bills.",
+  "policy_baseline": {
+    "social": [
+      "social conservatism",
+      "nationalism",
+      "law and order",
+      "gun rights/open carry",
+      "religious freedom",
+      "parental rights"
+    ],
+    "economic": [
+      "fiscal libertarianism",
+      "deregulation",
+      "lower taxes",
+      "spending restraint",
+      "protectionism exception",
+      "national economic preference"
+    ],
+    "foreign": [
+      "strong defense without projection",
+      "anti-communism",
+      "hemispheric defense",
+      "generally anti-intervention"
+    ]
+  },
+  "calibrated_rules": [
+    {
+      "id": "CAL-HR2-ASSAULT-RIFLES",
+      "pattern": "^assault rifles: allowed$",
+      "category": "social",
+      "direction": 1,
+      "rationale": "Gun-rights/open-carry expansion is socially conservative and right of the current baseline."
+    },
+    {
+      "id": "CAL-S3-ABORTION",
+      "pattern": "^abortion: allowed$",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Expands legal abortion relative to the conservative baseline."
+    },
+    {
+      "id": "CAL-S4-AIR-POLLUTION",
+      "pattern": "^air pollution: basic standards$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Adds/retains regulatory standards; the bill's own report shows regulatory burden falling, but the provision establishes environmental regulation rather than deregulation."
+    },
+    {
+      "id": "CAL-S5-MIN-WAGE",
+      "pattern": "^minimum wage: \\$15$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Raises a government-mandated wage floor above the federal baseline."
+    },
+    {
+      "id": "CAL-S5-VA",
+      "pattern": "^va \\(monthly benefit\\): \\$1,550$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Expands a federal benefit/payment commitment and therefore moves away from fiscal libertarianism."
+    },
+    {
+      "id": "CAL-S5-H1B",
+      "pattern": "^h-1b skilled worker visa: 200,000$",
+      "category": "social",
+      "direction": 0,
+      "rationale": "The source explicitly labels immigration as status quo; no calibrated right/left movement is assigned."
+    },
+    {
+      "id": "CAL-S6-MEDICARE",
+      "pattern": "^medicare: universal \\(medicare for all\\)$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Creates universal federal healthcare and increases federal program scope/regulatory burden."
+    },
+    {
+      "id": "CAL-S10-SUPERFUND-TAX",
+      "pattern": "^superfund authorization: industry excise tax$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Creates an additional industry tax."
+    },
+    {
+      "id": "CAL-S11-COMMUNIST-BAN",
+      "pattern": "^communist party ban: outlawed$",
+      "category": "social",
+      "direction": 1,
+      "rationale": "Anti-communist nationalism is rightward under the specified framework; civil-liberties costs do not reverse the direction."
+    },
+    {
+      "id": "CAL-S13-ELECTION-HOLIDAY",
+      "pattern": "^holidays \\(election day\\): recognized federally$",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Adds a federal holiday and expands federally facilitated voting access; it is not a rightward law-and-order/nationalist movement."
+    },
+    {
+      "id": "CAL-HR9-DC-STATEHOOD",
+      "pattern": "^district of columbia: statehood$",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Expands federal political representation and is treated as a moderate-liberal institutional expansion under the calibrated framework."
+    },
+    {
+      "id": "CAL-S15-UNION-DUES",
+      "pattern": "^union dues regulation: no cap, tax-deductible$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Expands union financial privileges and a tax preference rather than deregulating private enterprise."
+    },
+    {
+      "id": "CAL-HR18-TIKTOK",
+      "pattern": "^tiktok status: banned$",
+      "category": "foreign",
+      "direction": 1,
+      "rationale": "National-security restriction on a foreign-linked platform is rightward under nationalism/hemispheric-security priorities; civil-liberties effects do not reverse it."
+    },
+    {
+      "id": "CAL-S19-SPECIAL-PROSECUTOR",
+      "pattern": "^special prosecutor: independent office$",
+      "category": "social",
+      "direction": 1,
+      "rationale": "Independent anti-corruption oversight advances the transparency/law-and-order priority."
+    },
+    {
+      "id": "CAL-S19-INTELLIGENCE",
+      "pattern": "^intelligence community budget authority: full program authority$",
+      "category": "foreign",
+      "direction": 1,
+      "rationale": "Strengthens intelligence capability and national defense without itself authorizing overseas intervention."
+    },
+    {
+      "id": "CAL-S19-GI-BILL",
+      "pattern": "^gi bill: full tuition & housing$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Substantially expands a federal benefit and education spending commitment."
+    },
+    {
+      "id": "CAL-S23-AUMF",
+      "pattern": "^authorization for use of military force: afghanistan & al-qa$",
+      "category": "foreign",
+      "direction": -1,
+      "rationale": "Authorizes overseas military action; the framework is generally anti-intervention and distinguishes defense readiness from military projection."
+    },
+    {
+      "id": "CAL-S2-SAME-SEX-CIVIL-UNIONS",
+      "pattern": "^same-sex marriage: civil unions$",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Recognizes same-sex civil unions rather than maintaining the social-conservative marriage baseline."
+    },
+    {
+      "id": "CAL-S8-SAME-SEX",
+      "pattern": "^same-sex marriage: allowed$",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Expands same-sex marriage recognition relative to the social-conservative baseline."
+    },
+    {
+      "id": "CAL-S8-SEX-ED",
+      "pattern": "^sex education: comprehensive sex education mandated$",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Mandated comprehensive sex education expands government-directed social policy."
+    },
+    {
+      "id": "CAL-S8-DV",
+      "pattern": "^diversity immigrant visa: 500,000$",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Large-scale immigration expansion is leftward under the nationalist framework."
+    },
+    {
+      "id": "CAL-HR4-NUCLEAR",
+      "pattern": "^nuclear energy: expanded & subsidized$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Government subsidy expansion is leftward under fiscal libertarianism, even when the underlying energy source is favorable."
+    },
+    {
+      "id": "CAL-HR5-ANTILYNCH",
+      "pattern": "^anti-lynching law: federal anti-lynching act$",
+      "category": "social",
+      "direction": 1,
+      "rationale": "Strengthens law-and-order enforcement against violent crime."
+    },
+    {
+      "id": "CAL-S12-PARKS",
+      "pattern": "^national parks: expanded protection$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Expands federal land/environmental regulation rather than reducing government scope."
+    },
+    {
+      "id": "CAL-S12-FARM-SUBSIDIES",
+      "pattern": "^farm subsidies: heavy subsidies$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Expands federal subsidies and spending."
+    },
+    {
+      "id": "CAL-S14-VOTING-AGE",
+      "pattern": "^voting age \\(26th amendment\\): 16$",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Expands the electorate to minors and is not a nationalist/law-and-order rightward movement."
+    },
+    {
+      "id": "CAL-S14-FREE-UNIVERSITY",
+      "pattern": "^student loans: free public university$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Creates a large federal education benefit."
+    },
+    {
+      "id": "CAL-S14-FREE-MEALS",
+      "pattern": "^school lunch: universal free meals$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Creates a universal government-funded benefit."
+    },
+    {
+      "id": "CAL-S16-MARIJUANA",
+      "pattern": "^marijuana legalization: legal$",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Drug legalization is socially liberal under the law-and-order framework."
+    },
+    {
+      "id": "CAL-S16-MARIJUANA-TAX",
+      "pattern": "^marijuana sales tax: 50%$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Adds a substantial new tax."
+    },
+    {
+      "id": "CAL-S17-TAX-CREDIT",
+      "pattern": "^healthcare & education tax credit: 25% credit$",
+      "category": "economic",
+      "direction": 1,
+      "rationale": "A tax credit reduces taxes and is rightward under the fiscal-libertarian rule."
+    },
+    {
+      "id": "CAL-S17-SS",
+      "pattern": "^social security \\(monthly benefit\\): \\$2,250$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Expands a federal entitlement benefit."
+    },
+    {
+      "id": "CAL-S17-FED",
+      "pattern": "^federal reserve \\(monetary policy\\): neutral$",
+      "category": "economic",
+      "direction": 0,
+      "rationale": "The provision is explicitly neutral and does not materially change policy."
+    },
+    {
+      "id": "CAL-S18-ENERGY-ADMIN",
+      "pattern": "^energy reorganization: energy research & development administration$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Expands/reorganizes a federal energy research program rather than reducing government scope."
+    },
+    {
+      "id": "CAL-S18-HIGHWAYS",
+      "pattern": "^interstate highways: national infrastructure program$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Creates/expands a federal infrastructure spending program."
+    },
+    {
+      "id": "CAL-S18-MARIJUANA",
+      "pattern": "^marijuana legalization: decriminalized$",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Decriminalization of marijuana moves away from the law-and-order/social-conservative baseline."
+    },
+    {
+      "id": "CAL-HR25-BORDER",
+      "pattern": "^border enforcement posture: militarized border$",
+      "category": "social",
+      "direction": 1,
+      "rationale": "Strengthens border enforcement and nationalism."
+    },
+    {
+      "id": "CAL-S25-SMALL-BUSINESS",
+      "pattern": "^small business support: expanded sba & tax relief$",
+      "category": "economic",
+      "direction": 0,
+      "rationale": "The provision combines spending expansion with tax relief and has no single calibrated direction; treat as neutral pending more granular text."
+    },
+    {
+      "id": "CAL-S25-MIN-WAGE",
+      "pattern": "^minimum wage: \\$12$",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Raises a government-mandated wage floor."
+    },
+    {
+      "id": "CAL-HR2-EQUAL-PAY",
+      "pattern": "^equal pay \\(gender\\): unregulated$",
+      "category": "economic",
+      "direction": 1,
+      "rationale": "Deregulation is rightward under fiscal libertarianism; civil-rights tradeoffs do not reverse the rightward policy direction."
+    },
+    {
+      "id": "CAL-CUSTOM-BILL-UNKNOWN",
+      "pattern": "^custom bill$",
+      "category": "social",
+      "direction": 0,
+      "rationale": "No substantive provision text is available, so it is neutral rather than guessed."
+    }
+  ],
+  "general_rules": [
+    {
+      "id": "SOC-GUN-RIGHTS",
+      "pattern": "\\b(assault rifles?|firearms?|pistols?|open carry|concealed carry|gun rights|second amendment).*(allowed|legal|permitless|unrestricted)|\\b(open carry|gun rights|firearm rights)\\b",
+      "category": "social",
+      "direction": 1,
+      "rationale": "Gun-rights expansion is socially conservative."
+    },
+    {
+      "id": "SOC-GUN-CONTROL",
+      "pattern": "\\b(assault weapons? ban|gun control|firearms? ban|pistols?: banned|universal background checks|magazine ban)\\b",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Gun restrictions move left of the conservative baseline."
+    },
+    {
+      "id": "SOC-ABORTION-RESTRICTION",
+      "pattern": "\\b(abortion|unborn|fetal)\\b.*\\b(ban|banned|restrict|restricted|prohibit|prohibited)\\b",
+      "category": "social",
+      "direction": 1,
+      "rationale": "Abortion restriction is socially conservative."
+    },
+    {
+      "id": "SOC-ABORTION-EXPANSION",
+      "pattern": "\\b(abortion|unborn|fetal)\\b.*\\b(allowed|legal|access|fund)\\b",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Expanding abortion access is socially liberal."
+    },
+    {
+      "id": "SOC-LAW-ORDER",
+      "pattern": "\\b(death penalty|capital punishment|mandatory minimum|violent offender|sex offender|police funding|law and order)\\b",
+      "category": "social",
+      "direction": 1,
+      "rationale": "Strengthens law-and-order policy."
+    },
+    {
+      "id": "SOC-IMMIGRATION-RESTRICTION",
+      "pattern": "\\b(illegal immigration|deportation|border enforcement|immigration restriction|visa cap|immigration cap|amnesty ban)\\b",
+      "category": "social",
+      "direction": 1,
+      "rationale": "Restrictive immigration policy is nationalist/rightward."
+    },
+    {
+      "id": "SOC-IMMIGRATION-EXPANSION",
+      "pattern": "\\b(amnesty|expanded legal immigration|visa expansion|visa increase|open borders)\\b",
+      "category": "social",
+      "direction": -1,
+      "rationale": "Expanding immigration moves left of the nationalist baseline unless explicitly calibrated otherwise."
+    },
+    {
+      "id": "SOC-RELIGIOUS-FREEDOM",
+      "pattern": "\\b(religious freedom|free exercise|conscience protection)\\b",
+      "category": "social",
+      "direction": 1,
+      "rationale": "Protects religious liberty under the social-conservative framework."
+    },
+    {
+      "id": "ECON-TAX-INCREASE",
+      "pattern": "\\b(new tax|tax increase|raise.*tax|excise tax|wealth tax|corporate tax increase)\\b",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Tax increases move away from fiscal libertarianism."
+    },
+    {
+      "id": "ECON-TAX-CUT",
+      "pattern": "\\b(tax cut|reduce.*tax|lower.*tax|tax relief)\\b",
+      "category": "economic",
+      "direction": 1,
+      "rationale": "Tax reduction is fiscally libertarian."
+    },
+    {
+      "id": "ECON-SPENDING-CUT",
+      "pattern": "\\b(spending cut|budget cut|reduce.*spending|fiscal restraint|debt reduction|deficit reduction)\\b",
+      "category": "economic",
+      "direction": 1,
+      "rationale": "Spending restraint and deficit reduction are fiscally libertarian."
+    },
+    {
+      "id": "ECON-SPENDING-EXPANSION",
+      "pattern": "\\b(new federal program|government spending|public spending|appropriation increase|subsidy|government grant|universal benefit|federal benefit)\\b",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Expanding federal spending moves away from fiscal libertarianism."
+    },
+    {
+      "id": "ECON-DEREGULATION",
+      "pattern": "\\b(deregulat|regulatory relief|regulatory burden.*(reduc|lower)|regulation repeal)\\b",
+      "category": "economic",
+      "direction": 1,
+      "rationale": "Deregulation is rightward under fiscal libertarianism."
+    },
+    {
+      "id": "ECON-REGULATION",
+      "pattern": "\\b(regulation|regulatory standard|regulatory mandate|environmental standard|emissions standard)\\b",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Additional federal regulation is leftward under fiscal libertarianism."
+    },
+    {
+      "id": "ECON-MIN-WAGE",
+      "pattern": "\\bminimum wage|wage mandate\\b",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Government-mandated wage floors are leftward."
+    },
+    {
+      "id": "ECON-PROTECTIONISM",
+      "pattern": "\\b(tariff|import quota|protect domestic|protectionist|buy american|domestic content)\\b",
+      "category": "economic",
+      "direction": 1,
+      "rationale": "Protectionism is an explicit exception to the otherwise libertarian economic framework."
+    },
+    {
+      "id": "ECON-UNION-EXPANSION",
+      "pattern": "\\b(union rights|collective bargaining|union dues|union privilege)\\b",
+      "category": "economic",
+      "direction": -1,
+      "rationale": "Expanding union privileges is leftward under the economic framework."
+    },
+    {
+      "id": "FOREIGN-DEFENSE",
+      "pattern": "\\b(defense spending|military readiness|armed forces|defense authorization|military modernization|intelligence capability|homeland defense)\\b",
+      "category": "foreign",
+      "direction": 1,
+      "rationale": "Supports a strong military without necessarily requiring overseas projection."
+    },
+    {
+      "id": "FOREIGN-ANTICOMMUNISM",
+      "pattern": "\\b(anti-communist|communist party ban|communist regime|communist government|sanction.*communist|sanction.*cuba)\\b",
+      "category": "foreign",
+      "direction": 1,
+      "rationale": "Anti-communism is explicitly rightward in the foreign-policy framework."
+    },
+    {
+      "id": "FOREIGN-CUBA-HEMISPHERE",
+      "pattern": "\\b(cuba|cuban regime|castro|western hemisphere|hemispheric defense|monroe doctrine)\\b",
+      "category": "foreign",
+      "direction": 1,
+      "rationale": "Hemispheric action against communist threats is explicitly permitted by the framework."
+    },
+    {
+      "id": "FOREIGN-INTERVENTION",
+      "pattern": "\\b(military intervention|foreign intervention|invasion|occupation|regime change|overseas military action|authorization for use of military force)\\b",
+      "category": "foreign",
+      "direction": -1,
+      "rationale": "The framework is generally anti-intervention and distinguishes military strength from projection."
+    },
+    {
+      "id": "FOREIGN-FOREIGN-AID",
+      "pattern": "\\b(foreign aid|military aid)\\b",
+      "category": "foreign",
+      "direction": -1,
+      "rationale": "Foreign assistance is generally disfavored under the anti-intervention framework unless specifically anti-communist/hemispheric and calibrated otherwise."
+    },
+    {
+      "id": "FOREIGN-DISARMAMENT",
+      "pattern": "\\b(disarmament|military reduction|withdraw troops|troop withdrawal|defense cut)\\b",
+      "category": "foreign",
+      "direction": -1,
+      "rationale": "Weakening military capability is leftward under the strong-defense framework."
+    },
+    {
+      "id": "SOC-TRANSPARENCY",
+      "pattern": "\\b(government transparency|public records|open records|independent oversight|anti-corruption|ethics disclosure)\\b",
+      "category": "social",
+      "direction": 1,
+      "rationale": "Greater government transparency is explicitly a scorecard priority."
+    }
+  ]
+}
