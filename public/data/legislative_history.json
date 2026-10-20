@@ -5,7 +5,8 @@
     "discord": "doctorsus",
     "profiles": [
       "1001",
-      "1215"
+      "1215",
+      "1000"
     ],
     "bills": [
       {
@@ -507,12 +508,25 @@
     "bill_count": 33
   },
   {
+    "player_id": "p1002",
+    "name": "Eddie Vedder",
+    "discord": "lucky_courgette_36607",
+    "profiles": [
+      "1002",
+      "1097",
+      "1226"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1003",
-    "name": "LUCI BAINES JOHNSON",
+    "name": "PARIS HILTON",
     "discord": "defaultyboii911",
     "profiles": [
       "1208",
-      "1008"
+      "1008",
+      "1003"
     ],
     "bills": [
       {
@@ -1345,10 +1359,12 @@
   },
   {
     "player_id": "p1004",
-    "name": "HILLARY CLINTON",
+    "name": "ALEXANDRIA OCASIO-CORTEZ",
     "discord": "kewtslimnury",
     "profiles": [
-      "1004"
+      "1004",
+      "1013",
+      "1245"
     ],
     "bills": [
       {
@@ -1810,7 +1826,8 @@
     "discord": "classicalmerrin",
     "profiles": [
       "1016",
-      "1247"
+      "1247",
+      "1005"
     ],
     "bills": [
       {
@@ -2658,11 +2675,12 @@
   },
   {
     "player_id": "p1006",
-    "name": "Shalissa Mcgoven",
+    "name": "Greta Thumberg",
     "discord": "bosnia1399",
     "profiles": [
       "1250",
-      "1015"
+      "1015",
+      "1006"
     ],
     "bills": [
       {
@@ -3150,11 +3168,12 @@
   },
   {
     "player_id": "p1007",
-    "name": "Abigail Spanberger",
+    "name": "Joshua McKoon",
     "discord": "parzival.121",
     "profiles": [
       "1022",
-      "1007"
+      "1007",
+      "1205"
     ],
     "bills": [
       {
@@ -4676,11 +4695,47 @@
     "bill_count": 101
   },
   {
+    "player_id": "p1009",
+    "name": "Nikki",
+    "discord": "venus.444",
+    "profiles": [
+      "1009",
+      "1027",
+      "1212"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1010",
+    "name": "Daniel mercer",
+    "discord": "",
+    "profiles": [
+      "1010"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1011",
+    "name": "Chris Gallant",
+    "discord": "berlinsucks",
+    "profiles": [
+      "1011",
+      "1023",
+      "1200"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1012",
-    "name": "Blanche Lincoln",
+    "name": "Mary Landrieu",
     "discord": "kden_24",
     "profiles": [
-      "1012"
+      "1012",
+      "1042",
+      "1266"
     ],
     "bills": [
       {
@@ -5257,11 +5312,23 @@
     "bill_count": 38
   },
   {
+    "player_id": "p1014",
+    "name": "amber duper",
+    "discord": "",
+    "profiles": [
+      "1014"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1017",
     "name": "Drank",
     "discord": "drone1935",
     "profiles": [
-      "1322"
+      "1322",
+      "1017",
+      "1034"
     ],
     "bills": [
       {
@@ -5314,10 +5381,12 @@
   },
   {
     "player_id": "p1018",
-    "name": "Cleveland Green",
+    "name": "David Allan Coe",
     "discord": "roginality",
     "profiles": [
-      "1070"
+      "1070",
+      "1018",
+      "1267"
     ],
     "bills": [
       {
@@ -5850,11 +5919,12 @@
   },
   {
     "player_id": "p1019",
-    "name": "Caleb Walton",
+    "name": "Hakeem Jeffries",
     "discord": "cw872",
     "profiles": [
       "1035",
-      "1019"
+      "1019",
+      "1258"
     ],
     "bills": [
       {
@@ -7287,11 +7357,12 @@
   },
   {
     "player_id": "p1020",
-    "name": "Nancy Pelosi",
+    "name": "Sarah Palin",
     "discord": "beyoncies",
     "profiles": [
       "1037",
-      "1020"
+      "1020",
+      "1278"
     ],
     "bills": [
       {
@@ -7528,7 +7599,8 @@
     "discord": "hawaji17",
     "profiles": [
       "1030",
-      "1218"
+      "1218",
+      "1021"
     ],
     "bills": [
       {
@@ -8076,7 +8148,7 @@
   },
   {
     "player_id": "p1024",
-    "name": "Gracie Shelby",
+    "name": "Lois Griffin",
     "discord": "bigggumper",
     "profiles": [
       "1024",
@@ -8853,7 +8925,7 @@
   },
   {
     "player_id": "p1025",
-    "name": "Marco Rubio",
+    "name": "Pete Hegseth",
     "discord": "trumpquest",
     "profiles": [
       "1025",
@@ -10245,12 +10317,25 @@
     "bill_count": 92
   },
   {
+    "player_id": "p1026",
+    "name": "Kurt Cobain",
+    "discord": "marcsexual",
+    "profiles": [
+      "1026",
+      "1071",
+      "1236"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1028",
-    "name": "Paul Wellstone",
+    "name": "Chuck Hassebrook",
     "discord": "nevonomical",
     "profiles": [
       "1028",
-      "1280"
+      "1280",
+      "1048"
     ],
     "bills": [
       {
@@ -10842,11 +10927,25 @@
     "bill_count": 39
   },
   {
+    "player_id": "p1029",
+    "name": "Huey Long",
+    "discord": "fw.swisher",
+    "profiles": [
+      "1029",
+      "1045",
+      "1268"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1032",
-    "name": "Rochelle Rackham",
+    "name": "Twinks Burnett",
     "discord": "smapiaverageninja",
     "profiles": [
-      "1038"
+      "1038",
+      "1032",
+      "1248"
     ],
     "bills": [
       {
@@ -10959,11 +11058,12 @@
   },
   {
     "player_id": "p1036",
-    "name": "Rick Santorum",
+    "name": "Christine O'Donnell",
     "discord": "fufulabu",
     "profiles": [
       "1047",
-      "1036"
+      "1036",
+      "1213"
     ],
     "bills": [
       {
@@ -12681,7 +12781,7 @@
   },
   {
     "player_id": "p1039",
-    "name": "Emma Degurechaff",
+    "name": "Allen Degurechaff",
     "discord": "_deviloftherhine",
     "profiles": [
       "1039",
@@ -14269,7 +14369,7 @@
   },
   {
     "player_id": "p1040",
-    "name": "Celestia Kaviori",
+    "name": "Emily Shin",
     "discord": "kawiorek.",
     "profiles": [
       "1074",
@@ -14612,11 +14712,12 @@
   },
   {
     "player_id": "p1041",
-    "name": "Beffrey Jeston Prezos",
+    "name": "Pou",
     "discord": "grandgeist56",
     "profiles": [
       "1041",
-      "1178"
+      "1178",
+      "1204"
     ],
     "bills": [
       {
@@ -17427,7 +17528,7 @@
   },
   {
     "player_id": "p1044",
-    "name": "Olivia Dean",
+    "name": "Marie Gluesenkamp Perez",
     "discord": "mcal4876",
     "profiles": [
       "1061",
@@ -18553,7 +18654,9 @@
     "name": "Lisa",
     "discord": "yoitzdan",
     "profiles": [
-      "1269"
+      "1269",
+      "1046",
+      "1051"
     ],
     "bills": [
       {
@@ -18906,10 +19009,12 @@
   },
   {
     "player_id": "p1049",
-    "name": "Benjamin Netanyahu",
+    "name": "Ron Desantis",
     "discord": "simariusv",
     "profiles": [
-      "1056"
+      "1056",
+      "1049",
+      "1211"
     ],
     "bills": [
       {
@@ -19206,7 +19311,8 @@
     "discord": "sobieski9882",
     "profiles": [
       "1210",
-      "1050"
+      "1050",
+      "1052"
     ],
     "bills": [
       {
@@ -19367,7 +19473,9 @@
     "name": "Tucker Carlson",
     "discord": "austin.vicknair",
     "profiles": [
-      "1201"
+      "1201",
+      "1053",
+      "1060"
     ],
     "bills": [
       {
@@ -19779,12 +19887,49 @@
     "bill_count": 27
   },
   {
+    "player_id": "p1055",
+    "name": "Ruth Buffalo",
+    "discord": "mdmrn",
+    "profiles": [
+      "1055",
+      "1168",
+      "1251"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1057",
+    "name": "Alex Lux",
+    "discord": "kadencegok",
+    "profiles": [
+      "1057",
+      "1069",
+      "1310"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1058",
+    "name": "Kristi Noem",
+    "discord": "jethronie",
+    "profiles": [
+      "1058",
+      "1072",
+      "1237"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1059",
-    "name": "Eric Trump",
+    "name": "Greg Abbott",
     "discord": "founderofurp2.0",
     "profiles": [
       "1065",
-      "1059"
+      "1059",
+      "1196"
     ],
     "bills": [
       {
@@ -21202,10 +21347,12 @@
   },
   {
     "player_id": "p1062",
-    "name": "Joseph Washington",
+    "name": "Donald Trump Jr.",
     "discord": "jackhammerjt",
     "profiles": [
-      "1062"
+      "1062",
+      "1080",
+      "1220"
     ],
     "bills": [
       {
@@ -21396,7 +21543,9 @@
     "name": "White Lily Cookie",
     "discord": "phoenixflamesong",
     "profiles": [
-      "1263"
+      "1263",
+      "1063",
+      "1145"
     ],
     "bills": [
       {
@@ -21778,11 +21927,43 @@
     "bill_count": 25
   },
   {
+    "player_id": "p1064",
+    "name": "James Talarico",
+    "discord": "",
+    "profiles": [
+      "1064"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1066",
+    "name": "Kevin Kiley",
+    "discord": "",
+    "profiles": [
+      "1066"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1067",
+    "name": "Caleb Tor",
+    "discord": "",
+    "profiles": [
+      "1067"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1068",
-    "name": "Willy Wonka",
+    "name": "Zach Lahn",
     "discord": "worst_nightmare_of_j.d._scholten",
     "profiles": [
-      "1068"
+      "1068",
+      "1075",
+      "1225"
     ],
     "bills": [
       {
@@ -21805,7 +21986,7 @@
   },
   {
     "player_id": "p1073",
-    "name": "Mark McGwire",
+    "name": "Jose Canseco",
     "discord": "_mandoge",
     "profiles": [
       "1073",
@@ -23302,11 +23483,46 @@
     "bill_count": 99
   },
   {
+    "player_id": "p1077",
+    "name": "Joseph R. Biden Jr.",
+    "discord": "geneva88",
+    "profiles": [
+      "1077",
+      "1081",
+      "1219"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1078",
+    "name": "Corvus Smith",
+    "discord": "falcon5518",
+    "profiles": [
+      "1078",
+      "1083"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1079",
+    "name": "Uncle America",
+    "discord": "",
+    "profiles": [
+      "1079"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1082",
     "name": "James Uthmeier",
     "discord": "bobs3674",
     "profiles": [
-      "1277"
+      "1277",
+      "1082",
+      "1086"
     ],
     "bills": [
       {
@@ -23419,7 +23635,7 @@
   },
   {
     "player_id": "p1084",
-    "name": "Jed Bartlet",
+    "name": "Dick Gephardt",
     "discord": "coletrain.2026",
     "profiles": [
       "1085",
@@ -25100,7 +25316,8 @@
     "name": "John Ashcroft",
     "discord": "idkboy67",
     "profiles": [
-      "1091"
+      "1091",
+      "1087"
     ],
     "bills": [
       {
@@ -25546,7 +25763,8 @@
     "name": "Stephanie McMahon",
     "discord": "kmfan91_35425",
     "profiles": [
-      "1090"
+      "1090",
+      "1088"
     ],
     "bills": [
       {
@@ -26048,12 +26266,25 @@
     "bill_count": 33
   },
   {
+    "player_id": "p1089",
+    "name": "Pat Roberts",
+    "discord": "cylke",
+    "profiles": [
+      "1089",
+      "1092",
+      "1224"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1093",
-    "name": "Joseph Brosnahan",
+    "name": "Loretta Lynn",
     "discord": "joebee2002",
     "profiles": [
       "1093",
-      "1195"
+      "1195",
+      "1197"
     ],
     "bills": [
       {
@@ -26840,8 +27071,20 @@
     "bill_count": 52
   },
   {
+    "player_id": "p1094",
+    "name": "Ashley Hinson",
+    "discord": "musicman130897",
+    "profiles": [
+      "1094",
+      "1154",
+      "1202"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1095",
-    "name": "Guy Fawkes",
+    "name": "Joe Rogan",
     "discord": "insane686",
     "profiles": [
       "1096",
@@ -29235,10 +29478,12 @@
   },
   {
     "player_id": "p1100",
-    "name": "Matthew Stafford",
+    "name": "Aaron Rodgers",
     "discord": "sevenfoldavenged",
     "profiles": [
-      "1101"
+      "1101",
+      "1100",
+      "1257"
     ],
     "bills": [
       {
@@ -29290,12 +29535,23 @@
     "bill_count": 3
   },
   {
+    "player_id": "p1102",
+    "name": "Tom Patti",
+    "discord": "",
+    "profiles": [
+      "1102"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1103",
     "name": "Julian Assange",
     "discord": "goodvibejay",
     "profiles": [
       "1279",
-      "1170"
+      "1170",
+      "1103"
     ],
     "bills": [
       {
@@ -29888,11 +30144,12 @@
   },
   {
     "player_id": "p1104",
-    "name": "KIMI ANTONELLI",
+    "name": "OLLIE BEARMAN",
     "discord": "wow.grape",
     "profiles": [
       "1104",
-      "1106"
+      "1106",
+      "1232"
     ],
     "bills": [
       {
@@ -30275,7 +30532,7 @@
   },
   {
     "player_id": "p1105",
-    "name": "LANDO NORRIS",
+    "name": "AMBERLYNN REID",
     "discord": "trustfundfinance",
     "profiles": [
       "1105",
@@ -32223,11 +32480,12 @@
   },
   {
     "player_id": "p1107",
-    "name": "tweamonster",
+    "name": "Jeff Buckley",
     "discord": "tweamonster_",
     "profiles": [
       "1107",
-      "1228"
+      "1228",
+      "1109"
     ],
     "bills": [
       {
@@ -32779,7 +33037,8 @@
     "discord": "therealmakaveli",
     "profiles": [
       "1217",
-      "1110"
+      "1110",
+      "1111"
     ],
     "bills": [
       {
@@ -33405,7 +33664,9 @@
     "name": "Mark Pocan",
     "discord": "fruity.patootie",
     "profiles": [
-      "1287"
+      "1287",
+      "1112",
+      "1114"
     ],
     "bills": [
       {
@@ -33742,11 +34003,48 @@
     "bill_count": 22
   },
   {
+    "player_id": "p1113",
+    "name": "Ramu Shah",
+    "discord": "ag54",
+    "profiles": [
+      "1113",
+      "1116",
+      "1285"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1115",
+    "name": "Adrian Jack",
+    "discord": "ydg0226",
+    "profiles": [
+      "1115",
+      "1246"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1117",
+    "name": "Charles Percy",
+    "discord": "povryan",
+    "profiles": [
+      "1117",
+      "1119",
+      "1286"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1118",
-    "name": "Alexander Morales",
+    "name": "Adrian Vicente Martinez",
     "discord": "galaxydoge420",
     "profiles": [
-      "1118"
+      "1118",
+      "1120",
+      "1216"
     ],
     "bills": [
       {
@@ -33903,11 +34201,24 @@
     "bill_count": 10
   },
   {
+    "player_id": "p1121",
+    "name": "Walter White",
+    "discord": ".1776.",
+    "profiles": [
+      "1121",
+      "1123"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1122",
-    "name": "D. Peiper",
+    "name": "Jared Kushner",
     "discord": "d.burgess",
     "profiles": [
-      "1122"
+      "1122",
+      "1302",
+      "1317"
     ],
     "bills": [
       {
@@ -34331,7 +34642,7 @@
   },
   {
     "player_id": "p1125",
-    "name": "Steph Hodgins-May",
+    "name": "Larissa Waters",
     "discord": "lazarbanagain",
     "profiles": [
       "1231",
@@ -34734,10 +35045,12 @@
   },
   {
     "player_id": "p1126",
-    "name": "Ella E. Espeon",
+    "name": "Valeria V. Vaporeon",
     "discord": "laycanrock",
     "profiles": [
-      "1132"
+      "1132",
+      "1126",
+      "1227"
     ],
     "bills": [
       {
@@ -34794,7 +35107,8 @@
     "discord": "gion915",
     "profiles": [
       "1130",
-      "1206"
+      "1206",
+      "1128"
     ],
     "bills": [
       {
@@ -35191,12 +35505,23 @@
     "bill_count": 26
   },
   {
+    "player_id": "p1129",
+    "name": "Sam Forstag",
+    "discord": "",
+    "profiles": [
+      "1129"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1131",
-    "name": "Charles Barnes",
+    "name": "John Smith",
     "discord": "yondame.",
     "profiles": [
       "1131",
-      "1233"
+      "1233",
+      "1133"
     ],
     "bills": [
       {
@@ -35294,10 +35619,12 @@
   },
   {
     "player_id": "p1134",
-    "name": "Shrek Green",
+    "name": "Grinch Green",
     "discord": "berrystrong",
     "profiles": [
-      "1134"
+      "1134",
+      "1135",
+      "1296"
     ],
     "bills": [
       {
@@ -35455,10 +35782,12 @@
   },
   {
     "player_id": "p1136",
-    "name": "Elvis Presley",
+    "name": "Tina Turner",
     "discord": "nolapadola",
     "profiles": [
-      "1139"
+      "1139",
+      "1136",
+      "1229"
     ],
     "bills": [
       {
@@ -35990,12 +36319,23 @@
     "bill_count": 35
   },
   {
+    "player_id": "p1137",
+    "name": "Darializa Avila Chevalier",
+    "discord": "",
+    "profiles": [
+      "1137"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1138",
-    "name": "Amelia Swift",
+    "name": "King bob",
     "discord": "jorgwachingmachine",
     "profiles": [
       "1173",
-      "1138"
+      "1138",
+      "1235"
     ],
     "bills": [
       {
@@ -36677,12 +37017,25 @@
     "bill_count": 45
   },
   {
+    "player_id": "p1140",
+    "name": "Oscar Andrew",
+    "discord": "kevinmwas_57000",
+    "profiles": [
+      "1140",
+      "1143",
+      "1222"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1141",
-    "name": "Barbara Mikulski",
+    "name": "Martin O'Malley",
     "discord": "veshex",
     "profiles": [
       "1141",
-      "1142"
+      "1142",
+      "1223"
     ],
     "bills": [
       {
@@ -37454,11 +37807,48 @@
     "bill_count": 51
   },
   {
+    "player_id": "p1144",
+    "name": "Theodore Roosevelt",
+    "discord": "myungbak",
+    "profiles": [
+      "1144",
+      "1243",
+      "1244"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1146",
+    "name": "Rose Tyler",
+    "discord": ".dr.doge",
+    "profiles": [
+      "1146",
+      "1148",
+      "1239"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1147",
+    "name": "Rosé Wellington",
+    "discord": "linagrey11",
+    "profiles": [
+      "1147",
+      "1149",
+      "1238"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1150",
-    "name": "Kamiru Todoroki",
+    "name": "Green Goblin",
     "discord": "karmablaster",
     "profiles": [
-      "1150"
+      "1150",
+      "1151"
     ],
     "bills": [
       {
@@ -38052,7 +38442,8 @@
     "discord": "orangejuice789",
     "profiles": [
       "1155",
-      "1289"
+      "1289",
+      "1158"
     ],
     "bills": [
       {
@@ -38510,10 +38901,12 @@
   },
   {
     "player_id": "p1156",
-    "name": "Tom Jones",
+    "name": "Willie Nelson",
     "discord": "mr.snail67",
     "profiles": [
-      "1156"
+      "1156",
+      "1157",
+      "1312"
     ],
     "bills": [
       {
@@ -38566,7 +38959,7 @@
   },
   {
     "player_id": "p1159",
-    "name": "Vincent Rein",
+    "name": "Theodore Rein",
     "discord": "vincenzo",
     "profiles": [
       "1160",
@@ -39882,11 +40275,25 @@
     "bill_count": 87
   },
   {
+    "player_id": "p1161",
+    "name": "Thomas Meer",
+    "discord": "fimconte",
+    "profiles": [
+      "1161",
+      "1162",
+      "1264"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1163",
-    "name": "Bernie Sanders",
+    "name": "Jon Ossoff",
     "discord": "ron210p",
     "profiles": [
-      "1163"
+      "1163",
+      "1164",
+      "1339"
     ],
     "bills": [
       {
@@ -40194,11 +40601,12 @@
   },
   {
     "player_id": "p1165",
-    "name": "George Clooney",
+    "name": "Jewish George Clooney",
     "discord": "lil_mama92",
     "profiles": [
       "1165",
-      "1166"
+      "1166",
+      "1294"
     ],
     "bills": [
       {
@@ -40580,12 +40988,23 @@
     "bill_count": 25
   },
   {
+    "player_id": "p1167",
+    "name": "Kamala D. Harris",
+    "discord": "",
+    "profiles": [
+      "1167"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1169",
     "name": "Wony Ashford",
     "discord": "kym47",
     "profiles": [
       "1281",
-      "1179"
+      "1179",
+      "1169"
     ],
     "bills": [
       {
@@ -41959,7 +42378,8 @@
     "name": "Edelgard von Hresvelg",
     "discord": "ariane_ye0ng",
     "profiles": [
-      "1175"
+      "1175",
+      "1174"
     ],
     "bills": [
       {
@@ -42090,7 +42510,8 @@
     "name": "Thomas Morli",
     "discord": "ennardenvy",
     "profiles": [
-      "1177"
+      "1177",
+      "1176"
     ],
     "bills": [
       {
@@ -42113,10 +42534,12 @@
   },
   {
     "player_id": "p1180",
-    "name": "Susan Collins",
+    "name": "Susana Martinez",
     "discord": "brandonhh02",
     "profiles": [
-      "1180"
+      "1180",
+      "1181",
+      "1252"
     ],
     "bills": [
       {
@@ -42138,11 +42561,23 @@
     "bill_count": 1
   },
   {
+    "player_id": "p1182",
+    "name": "White Camdyn",
+    "discord": "jxckuk",
+    "profiles": [
+      "1182",
+      "1183"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1184",
     "name": "John Kerry",
     "discord": "saturnaliacivilis",
     "profiles": [
-      "1185"
+      "1185",
+      "1184"
     ],
     "bills": [
       {
@@ -42239,8 +42674,20 @@
     "bill_count": 6
   },
   {
+    "player_id": "p1186",
+    "name": "Nate Morris",
+    "discord": "teutonicfootsoldier",
+    "profiles": [
+      "1186",
+      "1194",
+      "1199"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1187",
-    "name": "Taylor Rehfeldt",
+    "name": "Mike Rounds",
     "discord": "shadowmocker",
     "profiles": [
       "1323",
@@ -42987,11 +43434,25 @@
     "bill_count": 49
   },
   {
+    "player_id": "p1188",
+    "name": "Francis J Underwood",
+    "discord": "pzdz20",
+    "profiles": [
+      "1188",
+      "1254",
+      "1255"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1189",
-    "name": "Mark Lamb",
+    "name": "Christine Drazan",
     "discord": ".vielle",
     "profiles": [
-      "1256"
+      "1256",
+      "1189",
+      "1259"
     ],
     "bills": [
       {
@@ -43149,10 +43610,12 @@
   },
   {
     "player_id": "p1190",
-    "name": "Osman Khan",
+    "name": "Imran Khan",
     "discord": "alikhan.55",
     "profiles": [
-      "1190"
+      "1190",
+      "1191",
+      "1230"
     ],
     "bills": [
       {
@@ -43174,12 +43637,155 @@
     "bill_count": 1
   },
   {
+    "player_id": "p1192",
+    "name": "Joseph Gorski Warszawski",
+    "discord": "",
+    "profiles": [
+      "1192"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1193",
+    "name": "Chris P. Bacon",
+    "discord": "johnphilips0911",
+    "profiles": [
+      "1193"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1207",
+    "name": "Tom Steyer",
+    "discord": "",
+    "profiles": [
+      "1207"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1234",
+    "name": "Andre Washington",
+    "discord": "uspsowner2234",
+    "profiles": [
+      "1234"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1240",
+    "name": "notsurensja",
+    "discord": "",
+    "profiles": [
+      "1240"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1241",
+    "name": "Viktoriya Serebryakov",
+    "discord": "kobayashi_junto",
+    "profiles": [
+      "1241",
+      "1242",
+      "1253"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1260",
+    "name": "Chanel no 2",
+    "discord": "maomaothepoisonenjoyer",
+    "profiles": [
+      "1260",
+      "1261",
+      "1262"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1265",
+    "name": "Alexi Giannoulias",
+    "discord": "",
+    "profiles": [
+      "1265"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1270",
+    "name": "Mira",
+    "discord": "myotheraccountisatier3sub",
+    "profiles": [
+      "1270",
+      "1271",
+      "1272"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1273",
+    "name": "Daniel \"Dan\" Taylor",
+    "discord": "iamonfirepleasehelp",
+    "profiles": [
+      "1273",
+      "1274",
+      "1275"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1282",
+    "name": "charlie charlie kirki",
+    "discord": "brycen.naquin",
+    "profiles": [
+      "1282",
+      "1283",
+      "1284"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1288",
+    "name": "Larry Fink",
+    "discord": "",
+    "profiles": [
+      "1288"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1291",
+    "name": "Narendra Modi",
+    "discord": "jx._._._.",
+    "profiles": [
+      "1291",
+      "1292",
+      "1293"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1295",
-    "name": "Abraham B. J. Freeman",
+    "name": "Dr. Ivo Robotnik",
     "discord": "heybumbumbumgotanygrapes",
     "profiles": [
       "1301",
-      "1295"
+      "1295",
+      "1297"
     ],
     "bills": [
       {
@@ -43606,11 +44212,25 @@
     "bill_count": 28
   },
   {
+    "player_id": "p1298",
+    "name": "Jerry Shekelstein",
+    "discord": "dale1776",
+    "profiles": [
+      "1298",
+      "1299",
+      "1300"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1304",
-    "name": "Kanye West",
+    "name": "Marcus Rubius",
     "discord": "internetanyahu",
     "profiles": [
-      "1304"
+      "1304",
+      "1307",
+      "1308"
     ],
     "bills": [
       {
@@ -44097,6 +44717,16 @@
     "bill_count": 32
   },
   {
+    "player_id": "p1305",
+    "name": "Jack brown",
+    "discord": "",
+    "profiles": [
+      "1305"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1306",
     "name": "Joe Folddon",
     "discord": "",
@@ -44123,12 +44753,35 @@
     "bill_count": 1
   },
   {
+    "player_id": "p1309",
+    "name": "Oscar",
+    "discord": "",
+    "profiles": [
+      "1309"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1311",
+    "name": "Paul Roberts",
+    "discord": "pablovg8",
+    "profiles": [
+      "1311",
+      "1314",
+      "1316"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1313",
     "name": "Conrad Wrzesinski",
     "discord": "realpalpatine",
     "profiles": [
       "1315",
-      "1328"
+      "1328",
+      "1313"
     ],
     "bills": [
       {
@@ -44165,11 +44818,87 @@
     "bill_count": 2
   },
   {
+    "player_id": "p1318",
+    "name": "barry mickockiner",
+    "discord": "",
+    "profiles": [
+      "1318"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1319",
+    "name": "rubbin magroin",
+    "discord": "",
+    "profiles": [
+      "1319"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1320",
+    "name": "mike hunt",
+    "discord": "",
+    "profiles": [
+      "1320"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1321",
+    "name": "Legend Campbell",
+    "discord": "toonorthern",
+    "profiles": [
+      "1321"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1325",
+    "name": "George Papadopoulosss",
+    "discord": "noble_pony_17489",
+    "profiles": [
+      "1325",
+      "1326",
+      "1327"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1329",
+    "name": "John G. Roberts, Jr.",
+    "discord": "",
+    "profiles": [
+      "1329"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1330",
+    "name": "Beetee432(3)",
+    "discord": "jwcorp_84739",
+    "profiles": [
+      "1330",
+      "1341",
+      "1342"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1331",
-    "name": "Obapy Armstrong",
+    "name": "Big Floppa",
     "discord": "1gman4evr",
     "profiles": [
-      "1331"
+      "1331",
+      "1348",
+      "1349"
     ],
     "bills": [
       {
@@ -44596,12 +45325,23 @@
     "bill_count": 28
   },
   {
+    "player_id": "p1332",
+    "name": "Alice Fuller",
+    "discord": "certifiedyapper2026",
+    "profiles": [
+      "1332"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p1333",
-    "name": "Elisworth Ashford",
+    "name": "Laurant Wythe",
     "discord": "americantraditionalist",
     "profiles": [
       "1333",
-      "1335"
+      "1335",
+      "1334"
     ],
     "bills": [
       {
@@ -44726,6 +45466,60 @@
       }
     ],
     "bill_count": 8
+  },
+  {
+    "player_id": "p1336",
+    "name": "Lionel Mussolini",
+    "discord": "kylianmbappe0697",
+    "profiles": [
+      "1336",
+      "1337",
+      "1338"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1340",
+    "name": "Lee Asberry",
+    "discord": "",
+    "profiles": [
+      "1340"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1344",
+    "name": "Fjjd",
+    "discord": "greekleftist",
+    "profiles": [
+      "1344",
+      "1345",
+      "1350"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1346",
+    "name": "Joe Cocker Jr.",
+    "discord": "",
+    "profiles": [
+      "1346"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1347",
+    "name": "Crashnation Fan Cody",
+    "discord": "",
+    "profiles": [
+      "1347"
+    ],
+    "bills": [],
+    "bill_count": 0
   },
   {
     "player_id": "p77",
