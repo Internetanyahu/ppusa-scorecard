@@ -6,25 +6,12 @@ from pathlib import Path
 
 PLAYERS_FILE = Path("players.json")
 BILLS_FILE = Path("bills.json")
-INDEX_FILE = Path("player_index.json")            # append-only identity memory
-HISTORY_FILE = Path("legislative_history.json")   # derived: rebuilt every run
-OVERRIDES_FILE = Path("identity_overrides.json")  # optional, edited by hand
-REVIEW_FILE = Path("identity_review.json")        # conflicts needing a human look
+INDEX_FILE = Path("player_index.json")
+HISTORY_FILE = Path("legislative_history.json")
+OVERRIDES_FILE = Path("identity_overrides.json")
+REVIEW_FILE = Path("identity_review.json")
 
 AVATAR_ID_RE = re.compile(r"/avatars/(\d+)/")
-
-# Identity rules
-# ---------------
-# * A profile ID never changes, so votes are always keyed by profile ID.
-# * Each profile is assigned a permanent player_id ("p<profile id of the first
-#   profile in the group>") the first time it is seen. After that it NEVER
-#   moves automatically, so changing or removing a Discord association cannot
-#   split, merge or lose a player.
-# * Discord is only used (a) to group NEW profiles with an existing player and
-#   (b) as display data. Every change is recorded in discord_history.
-# * If a profile switches to a Discord that belongs to a different player, it
-#   stays where it is and the conflict is written to identity_review.json.
-#   To move it, add {"<profile_id>": "<player_id>"} to identity_overrides.json.
 
 
 def load_json(path, default):
@@ -46,47 +33,35 @@ def save_json(path, data):
 
 
 def discord_id_of(player):
-    """Discord's permanent numeric user ID, read from the avatar URL."""
     match = AVATAR_ID_RE.search(player.get("discord_avatar") or "")
     return match.group(1) if match else ""
 
 
 def migrate(index):
-    """Upgrade an index written by the older version (player_id = Discord name)."""
     legacy = [e for e in index.values() if "discord_history" not in e]
     groups = defaultdict(list)
-
     for entry in legacy:
         groups[entry["player_id"]].append(int(entry["profile_id"]))
-
     for entry in legacy:
         entry["player_id"] = "p" + str(min(groups[entry["player_id"]]))
         discord = entry.get("discord", "")
         entry["discord_id"] = ""
         entry["discord_history"] = (
-            [{"discord": discord, "discord_id": "",
-              "first_seen": entry.get("first_seen", "")}]
+            [{"discord": discord, "discord_id": "", "first_seen": entry.get("first_seen", "")}]
             if discord else []
         )
-
     return index
 
 
 def owner_of(index, discord, discord_id, exclude_pid=None):
-    """Which player already owns this Discord? (None if nobody)."""
     for pid, entry in sorted(index.items(), key=lambda kv: int(kv[0])):
         if pid == exclude_pid:
             continue
-
         if discord_id:
-            # Numeric IDs are unique forever, so any past use counts.
-            if any(h.get("discord_id") == discord_id
-                   for h in entry.get("discord_history", [])):
+            if any(h.get("discord_id") == discord_id for h in entry.get("discord_history", [])):
                 return entry["player_id"]
         elif discord and entry.get("discord", "").lower() == discord.lower():
-            # No numeric ID: only a current, same-named Discord counts.
             return entry["player_id"]
-
     return None
 
 
@@ -95,9 +70,7 @@ def update_index(index, players, bills, today, overrides, review):
         pid = str(player["powerplay_profile_id"])
         discord = player.get("discord") or ""
         discord_id = discord_id_of(player) if discord else ""
-
         entry = index.get(pid)
-
         if entry is None:
             owner = owner_of(index, discord, discord_id) if discord else None
             entry = {
@@ -107,19 +80,12 @@ def update_index(index, players, bills, today, overrides, review):
                 "discord_history": [],
             }
             index[pid] = entry
-
         history = entry["discord_history"]
         previous = history[-1] if history else None
-
         if (discord or previous) and (
-            previous is None
-            or (previous["discord"], previous["discord_id"]) != (discord, discord_id)
+            previous is None or (previous["discord"], previous["discord_id"]) != (discord, discord_id)
         ):
-            history.append(
-                {"discord": discord, "discord_id": discord_id, "first_seen": today}
-            )
-
-            # A real switch to a different Discord that someone else owns?
+            history.append({"discord": discord, "discord_id": discord_id, "first_seen": today})
             if previous and discord and previous["discord"] != discord:
                 other = owner_of(index, discord, discord_id, exclude_pid=pid)
                 if other and other != entry["player_id"]:
@@ -130,33 +96,25 @@ def update_index(index, players, bills, today, overrides, review):
                         "new_discord": discord,
                         "matches_player": other,
                         "first_seen": today,
-                        "fix": (f'To move it, add "{pid}": "{other}" '
-                               f"to identity_overrides.json"),
+                        "fix": f'To move it, add "{pid}": "{other}" to identity_overrides.json',
                     }
-                    if not any(
-                        r["profile_id"] == pid and r["new_discord"] == discord
-                        for r in review
-                    ):
+                    if not any(r["profile_id"] == pid and r["new_discord"] == discord for r in review):
                         review.append(note)
-
-        entry.update(
-            {
-                "name": player.get("name") or entry.get("name", ""),
-                "discord": discord,
-                "discord_id": discord_id,
-                "party": player.get("party") or entry.get("party", ""),
-                "state": player.get("state") or entry.get("state", ""),
-                "last_seen": today,
-                "on_site": True,
-            }
-        )
+        entry.update({
+            "name": player.get("name") or entry.get("name", ""),
+            "discord": discord,
+            "discord_id": discord_id,
+            "party": player.get("party") or entry.get("party", ""),
+            "state": player.get("state") or entry.get("state", ""),
+            "last_seen": today,
+            "on_site": True,
+        })
 
     current_ids = {str(p["powerplay_profile_id"]) for p in players}
     for pid, entry in index.items():
         if pid not in current_ids:
             entry["on_site"] = False
 
-    # Anyone in a bill who was never in players.json (left before indexing).
     for bill in bills:
         people = []
         if bill.get("sponsor"):
@@ -165,7 +123,6 @@ def update_index(index, players, bills, today, overrides, review):
         for chamber in bill["votes"].values():
             for group in chamber.values():
                 people.extend(group)
-
         for person in people:
             pid = str(person["profile_id"])
             if pid in index:
@@ -184,36 +141,34 @@ def update_index(index, players, bills, today, overrides, review):
                 "on_site": False,
             }
 
-    # Manual fixes always win.
     for pid, target in overrides.items():
         if str(pid) in index:
             index[str(pid)]["player_id"] = target
-
     return index
 
 
 def build_history(index, bills):
     history = {}
 
-    def entry_for(profile_id, bill):
+    def ensure_person(profile_id):
         info = index[str(profile_id)]
         pid = info["player_id"]
+        return history.setdefault(pid, {
+            "player_id": pid,
+            "name": info.get("name", ""),
+            "discord": info.get("discord", ""),
+            "profiles": [],
+            "bills": {},
+        })
 
-        person = history.setdefault(
-            pid,
-            {
-                "player_id": pid,
-                "name": info.get("name", ""),
-                "discord": info.get("discord", ""),
-                "profiles": [],
-                "bills": {},
-            },
-        )
+    def entry_for(profile_id, bill):
+        person = ensure_person(profile_id)
         if str(profile_id) not in person["profiles"]:
             person["profiles"].append(str(profile_id))
+        info = index[str(profile_id)]
         if info.get("on_site"):
             person["name"] = info.get("name", person["name"])
-
+            person["discord"] = info.get("discord", person["discord"])
         key = (bill["resolution_id"], str(profile_id))
         if key not in person["bills"]:
             person["bills"][key] = {
@@ -236,10 +191,8 @@ def build_history(index, bills):
     for bill in bills:
         if bill.get("sponsor"):
             entry_for(bill["sponsor"]["profile_id"], bill)["sponsored"] = True
-
         for cosponsor in bill.get("cosponsors", []):
             entry_for(cosponsor["profile_id"], bill)["cosponsored"] = True
-
         for chamber, groups in bill["votes"].items():
             for vote, voters in groups.items():
                 for voter in voters:
@@ -248,15 +201,22 @@ def build_history(index, bills):
                     if chamber == "house":
                         entry["house_seats"] = voter.get("seats")
 
+    # Include every profile ever indexed, including current players with no vote
+    # yet and former players who have left the active roster. These players remain
+    # visible on the site and receive N/A until they have enough finalized votes.
+    for profile_id, info in index.items():
+        person = ensure_person(profile_id)
+        if str(profile_id) not in person["profiles"]:
+            person["profiles"].append(str(profile_id))
+        if info.get("on_site"):
+            person["name"] = info.get("name", person["name"])
+            person["discord"] = info.get("discord", person["discord"])
+
     result = []
     for person in history.values():
-        person["bills"] = sorted(
-            person["bills"].values(),
-            key=lambda b: (b["resolution_id"], b["profile_id"]),
-        )
+        person["bills"] = sorted(person["bills"].values(), key=lambda b: (b["resolution_id"], b["profile_id"]))
         person["bill_count"] = len(person["bills"])
         result.append(person)
-
     result.sort(key=lambda p: p["player_id"].lower())
     return result
 
@@ -267,28 +227,22 @@ def main():
     index = load_json(INDEX_FILE, {})
     overrides = load_json(OVERRIDES_FILE, {})
     review = load_json(REVIEW_FILE, [])
-
     if not isinstance(index, dict):
         index = {}
     if not isinstance(overrides, dict):
         overrides = {}
     if not isinstance(review, list):
         review = []
-
     index = migrate(index)
-    index = update_index(
-        index, players, bills, date.today().isoformat(), overrides, review
-    )
+    index = update_index(index, players, bills, date.today().isoformat(), overrides, review)
     history = build_history(index, bills)
-
     save_json(INDEX_FILE, dict(sorted(index.items(), key=lambda kv: int(kv[0]))))
     save_json(HISTORY_FILE, history)
     save_json(REVIEW_FILE, review)
-
     departed = sum(1 for e in index.values() if not e.get("on_site"))
     print(f"Profiles indexed: {len(index)} ({departed} no longer on site)")
     print(f"Bills read: {len(bills)}")
-    print(f"Players with legislative history: {len(history)}")
+    print(f"Players in scorecard history: {len(history)}")
     print(f"Identity conflicts awaiting review: {len(review)}")
     print(f"Saved: {INDEX_FILE}, {HISTORY_FILE}, {REVIEW_FILE}")
 
