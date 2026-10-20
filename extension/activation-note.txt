@@ -1,0 +1,1 @@
+Pagination starts only when enabled from the extension popup.
