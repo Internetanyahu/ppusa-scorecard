@@ -8,9 +8,26 @@ URL = "https://powerplayusa.net/national/politicians"
 
 response = requests.get(
     URL,
-    headers={"User-Agent": "Mozilla/5.0"},
+    headers={
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/154.0.0.0 Safari/537.36"
+        ),
+        "Accept": (
+            "text/html,application/xhtml+xml,application/xml;"
+            "q=0.9,image/avif,image/webp,*/*;q=0.8"
+        ),
+        "Accept-Language": "en-US,en;q=0.9",
+    },
     timeout=30,
 )
+
+print("HTTP status:", response.status_code)
+print("Content type:", response.headers.get("content-type"))
+print("First 500 characters:")
+print(response.text[:500])
+
 response.raise_for_status()
 
 soup = BeautifulSoup(response.text, "html.parser")
