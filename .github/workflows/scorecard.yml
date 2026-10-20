@@ -84,6 +84,9 @@ jobs:
               print(f"OK: {path} ({path.stat().st_size} bytes)")
           PY
 
+      - name: Build Discord share pages
+        run: python scraper/build_share_pages.py
+
       - name: Validate outputs
         run: |
           python -c '
@@ -108,6 +111,27 @@ jobs:
           json.loads(
               Path("public/data/conservative_scorecard.json").read_text()
           )
+
+          share_root = Path("public/share")
+          if not share_root.exists():
+              raise SystemExit("Missing generated Discord share pages")
+
+          share_pages = list(share_root.glob("*/index.html"))
+          share_images = list(share_root.glob("*/scorecard.png"))
+          expected_players = [
+              p for p in scorecard.get("players", [])
+              if p.get("user_id") is not None or p.get("player_id") is not None
+          ]
+
+          if len(share_pages) != len(expected_players):
+              raise SystemExit(
+                  f"Expected {len(expected_players)} share pages, found {len(share_pages)}"
+              )
+
+          if len(share_images) != len(expected_players):
+              raise SystemExit(
+                  f"Expected {len(expected_players)} share images, found {len(share_images)}"
+              )
 
           for bill in scorecard.get("bills", {}).values():
               for provision in bill.get("scorecard", {}).get("provisions", []):
