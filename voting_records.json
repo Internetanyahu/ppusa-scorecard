@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T12:57:49+00:00",
+  "generated_at": "2026-10-20T13:31:49+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -7889,8 +7889,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -8141,18 +8149,18 @@
           "tier": "F"
         },
         "sample_size": {
-          "foreign": 1,
           "social": 1,
-          "economic": 4
+          "economic": 4,
+          "foreign": 1
         },
         "aligned_votes": {
-          "foreign": 0,
           "social": 1,
-          "economic": 1
+          "economic": 1,
+          "foreign": 0
         },
         "provisions_scored": 6,
         "aligned_provisions": 2,
-        "finalized_bills_voted": 5,
+        "finalized_bills_voted": 4,
         "bill_details": [
           {
             "resolution_id": 32,
@@ -8748,11 +8756,19 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
-        "finalized_bills_voted": 1,
+        "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false
       },
@@ -8876,25 +8892,25 @@
           }
         ],
         "scores": {
-          "social": 21.21,
-          "economic": 17.07,
+          "social": 24.14,
+          "economic": 26.83,
           "foreign": 66.67,
-          "overall": 20.78,
+          "overall": 27.4,
           "tier": "F"
         },
         "sample_size": {
-          "social": 33,
+          "social": 29,
           "economic": 41,
           "foreign": 3
         },
         "aligned_votes": {
           "social": 7,
-          "economic": 7,
+          "economic": 11,
           "foreign": 2
         },
-        "provisions_scored": 77,
-        "aligned_provisions": 16,
-        "finalized_bills_voted": 34,
+        "provisions_scored": 73,
+        "aligned_provisions": 20,
+        "finalized_bills_voted": 30,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -9006,9 +9022,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1039",
             "profile_name": "Emma Degurechaff",
             "chamber": "House"
@@ -9045,9 +9061,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1054",
             "profile_name": "Jenna Degurechaff",
             "chamber": "Senate"
@@ -9446,19 +9462,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1039",
-            "profile_name": "Emma Degurechaff",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -9467,19 +9470,6 @@
             "profile_id": "1039",
             "profile_name": "Emma Degurechaff",
             "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1054",
-            "profile_name": "Jenna Degurechaff",
-            "chamber": "Senate"
           },
           {
             "resolution_id": 26,
@@ -9615,19 +9605,6 @@
             "resolution_id": 36,
             "number": "S. 18",
             "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1039",
-            "profile_name": "Emma Degurechaff",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
             "provision": "Energy Reorganization: Energy Research & Development Administration",
             "category": "economic",
             "direction": -1,
@@ -9651,19 +9628,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1054",
-            "profile_name": "Jenna Degurechaff",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -9695,9 +9659,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1039",
             "profile_name": "Emma Degurechaff",
             "chamber": "House"
@@ -9734,9 +9698,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1054",
             "profile_name": "Jenna Degurechaff",
             "chamber": "Senate"
@@ -11583,25 +11547,25 @@
           }
         ],
         "scores": {
-          "social": 72.41,
-          "economic": 40.62,
+          "social": 76.92,
+          "economic": 37.5,
           "foreign": 100.0,
-          "overall": 56.45,
+          "overall": 55.93,
           "tier": "D"
         },
         "sample_size": {
-          "social": 29,
+          "social": 26,
           "economic": 32,
           "foreign": 1
         },
         "aligned_votes": {
-          "social": 21,
-          "economic": 13,
+          "social": 20,
+          "economic": 12,
           "foreign": 1
         },
-        "provisions_scored": 62,
-        "aligned_provisions": 35,
-        "finalized_bills_voted": 30,
+        "provisions_scored": 59,
+        "aligned_provisions": 33,
+        "finalized_bills_voted": 27,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -11713,9 +11677,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1073",
             "profile_name": "Mark McGwire",
             "chamber": "House"
@@ -11752,9 +11716,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1076",
             "profile_name": "Rafael Palmeiro",
             "chamber": "Senate"
@@ -12153,19 +12117,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "nay",
-            "aligned": true,
-            "profile_id": "1073",
-            "profile_name": "Mark McGwire",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -12244,19 +12195,6 @@
             "resolution_id": 36,
             "number": "S. 18",
             "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1073",
-            "profile_name": "Mark McGwire",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
             "provision": "Energy Reorganization: Energy Research & Development Administration",
             "category": "economic",
             "direction": -1,
@@ -12272,19 +12210,6 @@
             "bill_title": "So many green effects!",
             "provision": "Interstate Highways: National Infrastructure Program",
             "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1076",
-            "profile_name": "Rafael Palmeiro",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
             "direction": -1,
             "vote": "aye",
             "aligned": false,
@@ -12324,9 +12249,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1073",
             "profile_name": "Mark McGwire",
             "chamber": "House"
@@ -14114,8 +14039,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -14293,10 +14226,14 @@
           "tier": "N/A"
         },
         "sample_size": {
-          "social": 1
+          "social": 1,
+          "economic": 0,
+          "foreign": 0
         },
         "aligned_votes": {
-          "social": 1
+          "social": 1,
+          "economic": 0,
+          "foreign": 0
         },
         "provisions_scored": 1,
         "aligned_provisions": 1,
@@ -14531,8 +14468,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -14744,14 +14689,14 @@
           "tier": "C"
         },
         "sample_size": {
-          "foreign": 1,
           "social": 1,
-          "economic": 1
+          "economic": 1,
+          "foreign": 1
         },
         "aligned_votes": {
-          "foreign": 1,
           "social": 0,
-          "economic": 1
+          "economic": 1,
+          "foreign": 1
         },
         "provisions_scored": 3,
         "aligned_provisions": 2,
@@ -15421,8 +15366,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -15682,8 +15635,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -16012,25 +15973,25 @@
           }
         ],
         "scores": {
-          "social": 18.18,
-          "economic": 11.76,
+          "social": 22.22,
+          "economic": 23.53,
           "foreign": 100.0,
-          "overall": 17.24,
+          "overall": 25.93,
           "tier": "F"
         },
         "sample_size": {
-          "social": 11,
+          "social": 9,
           "economic": 17,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 2,
-          "economic": 2,
+          "economic": 4,
           "foreign": 1
         },
-        "provisions_scored": 29,
-        "aligned_provisions": 5,
-        "finalized_bills_voted": 19,
+        "provisions_scored": 27,
+        "aligned_provisions": 7,
+        "finalized_bills_voted": 17,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -16077,9 +16038,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1024",
             "profile_name": "Gracie Shelby",
             "chamber": "Senate"
@@ -16270,19 +16231,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1024",
-            "profile_name": "Gracie Shelby",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -16358,19 +16306,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1024",
-            "profile_name": "Gracie Shelby",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -16402,9 +16337,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1024",
             "profile_name": "Gracie Shelby",
             "chamber": "Senate"
@@ -17261,8 +17196,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -17485,11 +17428,12 @@
         },
         "aligned_votes": {
           "social": 0,
-          "economic": 0
+          "economic": 0,
+          "foreign": 0
         },
         "provisions_scored": 5,
         "aligned_provisions": 0,
-        "finalized_bills_voted": 4,
+        "finalized_bills_voted": 3,
         "bill_details": [
           {
             "resolution_id": 44,
@@ -18132,8 +18076,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -18440,14 +18392,14 @@
           }
         ],
         "scores": {
-          "social": 75.0,
+          "social": 85.71,
           "economic": 29.63,
           "foreign": 33.33,
-          "overall": 45.65,
+          "overall": 47.73,
           "tier": "F"
         },
         "sample_size": {
-          "social": 16,
+          "social": 14,
           "economic": 27,
           "foreign": 3
         },
@@ -18456,9 +18408,9 @@
           "economic": 8,
           "foreign": 1
         },
-        "provisions_scored": 46,
+        "provisions_scored": 44,
         "aligned_provisions": 21,
-        "finalized_bills_voted": 29,
+        "finalized_bills_voted": 26,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -18531,9 +18483,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1098",
             "profile_name": "Antonio Russo",
             "chamber": "House"
@@ -18737,19 +18689,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1098",
-            "profile_name": "Antonio Russo",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -18851,19 +18790,6 @@
             "chamber": "House"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1098",
-            "profile_name": "Antonio Russo",
-            "chamber": "House"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -18895,9 +18821,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1098",
             "profile_name": "Antonio Russo",
             "chamber": "House"
@@ -20554,14 +20480,14 @@
           }
         ],
         "scores": {
-          "social": 30.0,
+          "social": 33.33,
           "economic": 18.18,
           "foreign": 100.0,
-          "overall": 30.43,
+          "overall": 31.82,
           "tier": "F"
         },
         "sample_size": {
-          "social": 10,
+          "social": 9,
           "economic": 11,
           "foreign": 2
         },
@@ -20570,9 +20496,9 @@
           "economic": 2,
           "foreign": 2
         },
-        "provisions_scored": 23,
+        "provisions_scored": 22,
         "aligned_provisions": 7,
-        "finalized_bills_voted": 18,
+        "finalized_bills_voted": 15,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -20632,9 +20558,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1016",
             "profile_name": "Elias Sorel",
             "chamber": "Senate"
@@ -20744,19 +20670,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1016",
-            "profile_name": "Elias Sorel",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -20788,9 +20701,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1016",
             "profile_name": "Elias Sorel",
             "chamber": "Senate"
@@ -21824,25 +21737,25 @@
           }
         ],
         "scores": {
-          "social": 50.0,
-          "economic": 13.89,
+          "social": 58.33,
+          "economic": 22.22,
           "foreign": 100.0,
-          "overall": 34.78,
+          "overall": 41.54,
           "tier": "F"
         },
         "sample_size": {
-          "social": 28,
+          "social": 24,
           "economic": 36,
           "foreign": 5
         },
         "aligned_votes": {
           "social": 14,
-          "economic": 5,
+          "economic": 8,
           "foreign": 5
         },
-        "provisions_scored": 69,
-        "aligned_provisions": 24,
-        "finalized_bills_voted": 26,
+        "provisions_scored": 65,
+        "aligned_provisions": 27,
+        "finalized_bills_voted": 22,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -22264,19 +22177,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1084",
-            "profile_name": "Jed Bartlet",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -22284,19 +22184,6 @@
             "aligned": false,
             "profile_id": "1084",
             "profile_name": "Jed Bartlet",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1085",
-            "profile_name": "Paul Ryan",
             "chamber": "House"
           },
           {
@@ -22446,19 +22333,6 @@
             "resolution_id": 36,
             "number": "S. 18",
             "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1084",
-            "profile_name": "Jed Bartlet",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
             "provision": "Energy Reorganization: Energy Research & Development Administration",
             "category": "economic",
             "direction": -1,
@@ -22482,19 +22356,6 @@
             "chamber": "House"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1085",
-            "profile_name": "Paul Ryan",
-            "chamber": "House"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -22526,9 +22387,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1084",
             "profile_name": "Jed Bartlet",
             "chamber": "House"
@@ -22565,9 +22426,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1085",
             "profile_name": "Paul Ryan",
             "chamber": "House"
@@ -22604,9 +22465,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1343",
             "profile_name": "Dick Gephardt",
             "chamber": "Senate"
@@ -24508,9 +24369,9 @@
         ],
         "scores": {
           "social": 33.33,
-          "economic": 0.0,
+          "economic": 12.5,
           "foreign": null,
-          "overall": 14.29,
+          "overall": 21.43,
           "tier": "F"
         },
         "sample_size": {
@@ -24520,10 +24381,11 @@
         },
         "aligned_votes": {
           "social": 2,
-          "economic": 0
+          "economic": 1,
+          "foreign": 0
         },
         "provisions_scored": 14,
-        "aligned_provisions": 2,
+        "aligned_provisions": 3,
         "finalized_bills_voted": 9,
         "bill_details": [
           {
@@ -24571,9 +24433,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1152",
             "profile_name": "Queen",
             "chamber": "House"
@@ -25074,25 +24936,25 @@
           }
         ],
         "scores": {
-          "social": 21.88,
-          "economic": 18.92,
+          "social": 24.14,
+          "economic": 29.73,
           "foreign": 66.67,
-          "overall": 22.22,
+          "overall": 28.99,
           "tier": "F"
         },
         "sample_size": {
-          "social": 32,
+          "social": 29,
           "economic": 37,
           "foreign": 3
         },
         "aligned_votes": {
           "social": 7,
-          "economic": 7,
+          "economic": 11,
           "foreign": 2
         },
-        "provisions_scored": 72,
-        "aligned_provisions": 16,
-        "finalized_bills_voted": 33,
+        "provisions_scored": 69,
+        "aligned_provisions": 20,
+        "finalized_bills_voted": 29,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -25204,9 +25066,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1019",
             "profile_name": "Willis Blackshear",
             "chamber": "Senate"
@@ -25243,9 +25105,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1035",
             "profile_name": "Caleb Walton",
             "chamber": "House"
@@ -25670,19 +25532,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1035",
-            "profile_name": "Caleb Walton",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -25813,19 +25662,6 @@
             "resolution_id": 36,
             "number": "S. 18",
             "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1019",
-            "profile_name": "Willis Blackshear",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
             "provision": "Energy Reorganization: Energy Research & Development Administration",
             "category": "economic",
             "direction": -1,
@@ -25849,19 +25685,6 @@
             "chamber": "House"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1035",
-            "profile_name": "Caleb Walton",
-            "chamber": "House"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -25893,9 +25716,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1019",
             "profile_name": "Willis Blackshear",
             "chamber": "Senate"
@@ -25932,9 +25755,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1035",
             "profile_name": "Caleb Walton",
             "chamber": "House"
@@ -27616,24 +27439,25 @@
           }
         ],
         "scores": {
-          "social": 80.0,
-          "economic": 85.71,
+          "social": 77.78,
+          "economic": 71.43,
           "foreign": null,
-          "overall": 82.35,
-          "tier": "A"
+          "overall": 75.0,
+          "tier": "B"
         },
         "sample_size": {
-          "social": 10,
+          "social": 9,
           "economic": 7,
           "foreign": 0
         },
         "aligned_votes": {
-          "social": 8,
-          "economic": 6
+          "social": 7,
+          "economic": 5,
+          "foreign": 0
         },
-        "provisions_scored": 17,
-        "aligned_provisions": 14,
-        "finalized_bills_voted": 12,
+        "provisions_scored": 16,
+        "aligned_provisions": 12,
+        "finalized_bills_voted": 11,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -27680,9 +27504,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1122",
             "profile_name": "D. Peiper",
             "chamber": "Senate"
@@ -27823,19 +27647,6 @@
             "bill_title": "So many green effects!",
             "provision": "Interstate Highways: National Infrastructure Program",
             "category": "economic",
-            "direction": -1,
-            "vote": "nay",
-            "aligned": true,
-            "profile_id": "1122",
-            "profile_name": "D. Peiper",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
             "direction": -1,
             "vote": "nay",
             "aligned": true,
@@ -28506,25 +28317,25 @@
           }
         ],
         "scores": {
-          "social": 9.09,
-          "economic": 29.41,
+          "social": 11.11,
+          "economic": 41.18,
           "foreign": 50.0,
-          "overall": 23.33,
+          "overall": 32.14,
           "tier": "F"
         },
         "sample_size": {
-          "social": 11,
+          "social": 9,
           "economic": 17,
           "foreign": 2
         },
         "aligned_votes": {
           "social": 1,
-          "economic": 5,
+          "economic": 7,
           "foreign": 1
         },
-        "provisions_scored": 30,
-        "aligned_provisions": 7,
-        "finalized_bills_voted": 20,
+        "provisions_scored": 28,
+        "aligned_provisions": 9,
+        "finalized_bills_voted": 17,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -28571,9 +28382,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1208",
             "profile_name": "PARIS HILTON",
             "chamber": "Senate"
@@ -28699,19 +28510,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -28800,19 +28598,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -28844,9 +28629,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1208",
             "profile_name": "PARIS HILTON",
             "chamber": "Senate"
@@ -29849,18 +29634,18 @@
           "tier": "D"
         },
         "sample_size": {
-          "foreign": 1,
           "social": 1,
-          "economic": 4
+          "economic": 4,
+          "foreign": 1
         },
         "aligned_votes": {
-          "foreign": 0,
           "social": 0,
-          "economic": 3
+          "economic": 3,
+          "foreign": 0
         },
         "provisions_scored": 6,
         "aligned_provisions": 3,
-        "finalized_bills_voted": 5,
+        "finalized_bills_voted": 4,
         "bill_details": [
           {
             "resolution_id": 32,
@@ -30532,14 +30317,18 @@
           "tier": "N/A"
         },
         "sample_size": {
-          "economic": 3
+          "social": 0,
+          "economic": 3,
+          "foreign": 0
         },
         "aligned_votes": {
-          "economic": 0
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
         },
         "provisions_scored": 3,
         "aligned_provisions": 0,
-        "finalized_bills_voted": 2,
+        "finalized_bills_voted": 1,
         "bill_details": [
           {
             "resolution_id": 49,
@@ -30721,8 +30510,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -30970,25 +30767,25 @@
           }
         ],
         "scores": {
-          "social": 48.28,
-          "economic": 19.44,
+          "social": 56.0,
+          "economic": 22.22,
           "foreign": 100.0,
-          "overall": 34.33,
+          "overall": 38.1,
           "tier": "F"
         },
         "sample_size": {
-          "social": 29,
+          "social": 25,
           "economic": 36,
           "foreign": 2
         },
         "aligned_votes": {
           "social": 14,
-          "economic": 7,
+          "economic": 8,
           "foreign": 2
         },
-        "provisions_scored": 67,
-        "aligned_provisions": 23,
-        "finalized_bills_voted": 32,
+        "provisions_scored": 63,
+        "aligned_provisions": 24,
+        "finalized_bills_voted": 28,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -31100,9 +30897,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1059",
             "profile_name": "Tulsi Gabbard",
             "chamber": "Senate"
@@ -31139,9 +30936,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1065",
             "profile_name": "Eric Trump",
             "chamber": "House"
@@ -31501,19 +31298,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1059",
-            "profile_name": "Tulsi Gabbard",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -31522,19 +31306,6 @@
             "profile_id": "1059",
             "profile_name": "Tulsi Gabbard",
             "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1065",
-            "profile_name": "Eric Trump",
-            "chamber": "House"
           },
           {
             "resolution_id": 26,
@@ -31670,19 +31441,6 @@
             "resolution_id": 36,
             "number": "S. 18",
             "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1059",
-            "profile_name": "Tulsi Gabbard",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
             "provision": "Energy Reorganization: Energy Research & Development Administration",
             "category": "economic",
             "direction": -1,
@@ -31698,19 +31456,6 @@
             "bill_title": "So many green effects!",
             "provision": "Interstate Highways: National Infrastructure Program",
             "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1065",
-            "profile_name": "Eric Trump",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
             "direction": -1,
             "vote": "aye",
             "aligned": false,
@@ -31750,9 +31495,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1065",
             "profile_name": "Eric Trump",
             "chamber": "House"
@@ -33368,18 +33113,18 @@
           "tier": "F"
         },
         "sample_size": {
-          "foreign": 1,
           "social": 1,
-          "economic": 1
+          "economic": 1,
+          "foreign": 1
         },
         "aligned_votes": {
-          "foreign": 0,
           "social": 0,
-          "economic": 0
+          "economic": 0,
+          "foreign": 0
         },
         "provisions_scored": 3,
         "aligned_provisions": 0,
-        "finalized_bills_voted": 4,
+        "finalized_bills_voted": 3,
         "bill_details": [
           {
             "resolution_id": 32,
@@ -33850,25 +33595,25 @@
           }
         ],
         "scores": {
-          "social": 33.33,
-          "economic": 9.09,
+          "social": 37.14,
+          "economic": 18.18,
           "foreign": 100.0,
-          "overall": 24.14,
+          "overall": 30.12,
           "tier": "F"
         },
         "sample_size": {
-          "social": 39,
+          "social": 35,
           "economic": 44,
           "foreign": 4
         },
         "aligned_votes": {
           "social": 13,
-          "economic": 4,
+          "economic": 8,
           "foreign": 4
         },
-        "provisions_scored": 87,
-        "aligned_provisions": 21,
-        "finalized_bills_voted": 30,
+        "provisions_scored": 83,
+        "aligned_provisions": 25,
+        "finalized_bills_voted": 28,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -33993,9 +33738,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1036",
             "profile_name": "Green Homer",
             "chamber": "House"
@@ -34032,9 +33777,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1047",
             "profile_name": "Rick Santorum",
             "chamber": "House"
@@ -34498,19 +34243,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1036",
-            "profile_name": "Green Homer",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -34518,19 +34250,6 @@
             "aligned": false,
             "profile_id": "1036",
             "profile_name": "Green Homer",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1047",
-            "profile_name": "Rick Santorum",
             "chamber": "House"
           },
           {
@@ -34680,19 +34399,6 @@
             "resolution_id": 36,
             "number": "S. 18",
             "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1036",
-            "profile_name": "Green Homer",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
             "provision": "Energy Reorganization: Energy Research & Development Administration",
             "category": "economic",
             "direction": -1,
@@ -34716,19 +34422,6 @@
             "chamber": "House"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1047",
-            "profile_name": "Rick Santorum",
-            "chamber": "House"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -34760,9 +34453,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1036",
             "profile_name": "Green Homer",
             "chamber": "House"
@@ -34799,9 +34492,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1047",
             "profile_name": "Rick Santorum",
             "chamber": "House"
@@ -36880,8 +36573,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -37208,25 +36909,25 @@
           }
         ],
         "scores": {
-          "social": 12.5,
-          "economic": 20.0,
+          "social": 16.67,
+          "economic": 30.0,
           "foreign": 100.0,
-          "overall": 21.05,
+          "overall": 29.41,
           "tier": "F"
         },
         "sample_size": {
-          "social": 8,
+          "social": 6,
           "economic": 10,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 1,
-          "economic": 2,
+          "economic": 3,
           "foreign": 1
         },
-        "provisions_scored": 19,
-        "aligned_provisions": 4,
-        "finalized_bills_voted": 12,
+        "provisions_scored": 17,
+        "aligned_provisions": 5,
+        "finalized_bills_voted": 10,
         "bill_details": [
           {
             "resolution_id": 3,
@@ -37336,19 +37037,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1130",
-            "profile_name": "Sylvia S. Sylveon",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -37424,19 +37112,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1130",
-            "profile_name": "Sylvia S. Sylveon",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -37468,9 +37143,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1130",
             "profile_name": "Sylvia S. Sylveon",
             "chamber": "Senate"
@@ -37965,24 +37640,25 @@
           }
         ],
         "scores": {
-          "social": 45.45,
-          "economic": 28.57,
+          "social": 55.56,
+          "economic": 21.43,
           "foreign": null,
-          "overall": 36.0,
+          "overall": 34.78,
           "tier": "F"
         },
         "sample_size": {
-          "social": 11,
+          "social": 9,
           "economic": 14,
           "foreign": 0
         },
         "aligned_votes": {
           "social": 5,
-          "economic": 4
+          "economic": 3,
+          "foreign": 0
         },
-        "provisions_scored": 25,
-        "aligned_provisions": 9,
-        "finalized_bills_voted": 18,
+        "provisions_scored": 23,
+        "aligned_provisions": 8,
+        "finalized_bills_voted": 16,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -38042,9 +37718,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1279",
             "profile_name": "Julian Assange",
             "chamber": "Senate"
@@ -38196,19 +37872,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1279",
-            "profile_name": "Julian Assange",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -38276,19 +37939,6 @@
             "bill_title": "So many green effects!",
             "provision": "Interstate Highways: National Infrastructure Program",
             "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1279",
-            "profile_name": "Julian Assange",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
             "direction": -1,
             "vote": "aye",
             "aligned": false,
@@ -38995,25 +38645,25 @@
           }
         ],
         "scores": {
-          "social": 28.57,
-          "economic": 17.14,
+          "social": 32.0,
+          "economic": 25.71,
           "foreign": 50.0,
-          "overall": 23.08,
+          "overall": 29.03,
           "tier": "F"
         },
         "sample_size": {
-          "social": 28,
+          "social": 25,
           "economic": 35,
           "foreign": 2
         },
         "aligned_votes": {
           "social": 8,
-          "economic": 6,
+          "economic": 9,
           "foreign": 1
         },
-        "provisions_scored": 65,
-        "aligned_provisions": 15,
-        "finalized_bills_voted": 34,
+        "provisions_scored": 62,
+        "aligned_provisions": 18,
+        "finalized_bills_voted": 30,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -39112,9 +38762,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1041",
             "profile_name": "Beffrey Jeston Prezos",
             "chamber": "House"
@@ -39151,9 +38801,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1178",
             "profile_name": "Gustavo Fring",
             "chamber": "Senate"
@@ -39513,19 +39163,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1041",
-            "profile_name": "Beffrey Jeston Prezos",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -39656,19 +39293,6 @@
             "resolution_id": 36,
             "number": "S. 18",
             "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1041",
-            "profile_name": "Beffrey Jeston Prezos",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
             "provision": "Energy Reorganization: Energy Research & Development Administration",
             "category": "economic",
             "direction": -1,
@@ -39684,19 +39308,6 @@
             "bill_title": "So many green effects!",
             "provision": "Interstate Highways: National Infrastructure Program",
             "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1178",
-            "profile_name": "Gustavo Fring",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
             "direction": -1,
             "vote": "aye",
             "aligned": false,
@@ -39736,9 +39347,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1041",
             "profile_name": "Beffrey Jeston Prezos",
             "chamber": "House"
@@ -41428,25 +41039,25 @@
           }
         ],
         "scores": {
-          "social": 18.18,
-          "economic": 14.29,
+          "social": 22.22,
+          "economic": 28.57,
           "foreign": 100.0,
-          "overall": 19.23,
+          "overall": 29.17,
           "tier": "F"
         },
         "sample_size": {
-          "social": 11,
+          "social": 9,
           "economic": 14,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 2,
-          "economic": 2,
+          "economic": 4,
           "foreign": 1
         },
-        "provisions_scored": 26,
-        "aligned_provisions": 5,
-        "finalized_bills_voted": 17,
+        "provisions_scored": 24,
+        "aligned_provisions": 7,
+        "finalized_bills_voted": 15,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -41493,9 +41104,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1030",
             "profile_name": "Negar Mortazavi",
             "chamber": "Senate"
@@ -41647,19 +41258,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1030",
-            "profile_name": "Negar Mortazavi",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -41735,19 +41333,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1030",
-            "profile_name": "Negar Mortazavi",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -41779,9 +41364,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1030",
             "profile_name": "Negar Mortazavi",
             "chamber": "Senate"
@@ -42434,17 +42019,18 @@
           "tier": "C"
         },
         "sample_size": {
-          "economic": 5,
           "social": 3,
+          "economic": 5,
           "foreign": 0
         },
         "aligned_votes": {
+          "social": 2,
           "economic": 3,
-          "social": 2
+          "foreign": 0
         },
         "provisions_scored": 8,
         "aligned_provisions": 5,
-        "finalized_bills_voted": 8,
+        "finalized_bills_voted": 6,
         "bill_details": [
           {
             "resolution_id": 4,
@@ -43133,24 +42719,25 @@
           }
         ],
         "scores": {
-          "social": 55.56,
+          "social": 71.43,
           "economic": 16.67,
           "foreign": null,
-          "overall": 33.33,
+          "overall": 36.84,
           "tier": "F"
         },
         "sample_size": {
-          "social": 9,
+          "social": 7,
           "economic": 12,
           "foreign": 0
         },
         "aligned_votes": {
           "social": 5,
-          "economic": 2
+          "economic": 2,
+          "foreign": 0
         },
-        "provisions_scored": 21,
+        "provisions_scored": 19,
         "aligned_provisions": 7,
-        "finalized_bills_voted": 16,
+        "finalized_bills_voted": 14,
         "bill_details": [
           {
             "resolution_id": 3,
@@ -43312,19 +42899,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1091",
-            "profile_name": "John Ashcroft",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -43392,19 +42966,6 @@
             "bill_title": "So many green effects!",
             "provision": "Interstate Highways: National Infrastructure Program",
             "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1091",
-            "profile_name": "John Ashcroft",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
             "direction": -1,
             "vote": "aye",
             "aligned": false,
@@ -43961,25 +43522,25 @@
           }
         ],
         "scores": {
-          "social": 55.56,
-          "economic": 15.0,
+          "social": 58.82,
+          "economic": 25.0,
           "foreign": 100.0,
-          "overall": 37.5,
+          "overall": 43.59,
           "tier": "F"
         },
         "sample_size": {
-          "social": 36,
+          "social": 34,
           "economic": 40,
           "foreign": 4
         },
         "aligned_votes": {
           "social": 20,
-          "economic": 6,
+          "economic": 10,
           "foreign": 4
         },
-        "provisions_scored": 80,
-        "aligned_provisions": 30,
-        "finalized_bills_voted": 29,
+        "provisions_scored": 78,
+        "aligned_provisions": 34,
+        "finalized_bills_voted": 27,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -44091,9 +43652,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1095",
             "profile_name": "Guy Fawkes",
             "chamber": "House"
@@ -44130,9 +43691,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1096",
             "profile_name": "James Ernest",
             "chamber": "House"
@@ -44596,19 +44157,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1095",
-            "profile_name": "Guy Fawkes",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -44616,19 +44164,6 @@
             "aligned": false,
             "profile_id": "1095",
             "profile_name": "Guy Fawkes",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1096",
-            "profile_name": "James Ernest",
             "chamber": "House"
           },
           {
@@ -44780,9 +44315,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1095",
             "profile_name": "Guy Fawkes",
             "chamber": "House"
@@ -44819,9 +44354,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1096",
             "profile_name": "James Ernest",
             "chamber": "House"
@@ -47136,14 +46671,14 @@
           }
         ],
         "scores": {
-          "social": 72.73,
+          "social": 80.0,
           "economic": 40.0,
           "foreign": 100.0,
-          "overall": 59.09,
-          "tier": "D"
+          "overall": 61.9,
+          "tier": "C"
         },
         "sample_size": {
-          "social": 11,
+          "social": 10,
           "economic": 10,
           "foreign": 1
         },
@@ -47152,9 +46687,9 @@
           "economic": 4,
           "foreign": 1
         },
-        "provisions_scored": 22,
+        "provisions_scored": 21,
         "aligned_provisions": 13,
-        "finalized_bills_voted": 15,
+        "finalized_bills_voted": 13,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -47201,9 +46736,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1304",
             "profile_name": "Kanye West",
             "chamber": "Senate"
@@ -47316,19 +46851,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1304",
-            "profile_name": "Kanye West",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -47409,9 +46931,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1304",
             "profile_name": "Kanye West",
             "chamber": "Senate"
@@ -48071,11 +47593,13 @@
         },
         "sample_size": {
           "social": 1,
-          "economic": 3
+          "economic": 3,
+          "foreign": 0
         },
         "aligned_votes": {
           "social": 1,
-          "economic": 0
+          "economic": 0,
+          "foreign": 0
         },
         "provisions_scored": 4,
         "aligned_provisions": 1,
@@ -48582,8 +48106,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -48681,14 +48213,14 @@
           }
         ],
         "scores": {
-          "social": 58.82,
+          "social": 66.67,
           "economic": 31.82,
           "foreign": 100.0,
-          "overall": 45.0,
+          "overall": 47.37,
           "tier": "F"
         },
         "sample_size": {
-          "social": 17,
+          "social": 15,
           "economic": 22,
           "foreign": 1
         },
@@ -48697,9 +48229,9 @@
           "economic": 7,
           "foreign": 1
         },
-        "provisions_scored": 40,
+        "provisions_scored": 38,
         "aligned_provisions": 18,
-        "finalized_bills_voted": 26,
+        "finalized_bills_voted": 24,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -48772,9 +48304,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1093",
             "profile_name": "Joseph Brosnahan",
             "chamber": "House"
@@ -49017,19 +48549,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1093",
-            "profile_name": "Joseph Brosnahan",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -49105,19 +48624,6 @@
             "chamber": "House"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1093",
-            "profile_name": "Joseph Brosnahan",
-            "chamber": "House"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -49149,9 +48655,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1093",
             "profile_name": "Joseph Brosnahan",
             "chamber": "House"
@@ -50208,25 +49714,25 @@
           }
         ],
         "scores": {
-          "social": 25.0,
-          "economic": 0.0,
+          "social": 30.0,
+          "economic": 15.38,
           "foreign": 100.0,
-          "overall": 15.38,
+          "overall": 25.0,
           "tier": "F"
         },
         "sample_size": {
-          "social": 12,
+          "social": 10,
           "economic": 13,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 3,
-          "economic": 0,
+          "economic": 2,
           "foreign": 1
         },
-        "provisions_scored": 26,
-        "aligned_provisions": 4,
-        "finalized_bills_voted": 20,
+        "provisions_scored": 24,
+        "aligned_provisions": 6,
+        "finalized_bills_voted": 17,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -50286,9 +49792,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1173",
             "profile_name": "Bob Mendez",
             "chamber": "Senate"
@@ -50453,19 +49959,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1173",
-            "profile_name": "Bob Mendez",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -50494,19 +49987,6 @@
             "bill_title": "So many green effects!",
             "provision": "Interstate Highways: National Infrastructure Program",
             "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1173",
-            "profile_name": "Bob Mendez",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
             "direction": -1,
             "vote": "aye",
             "aligned": false,
@@ -50546,9 +50026,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1173",
             "profile_name": "Bob Mendez",
             "chamber": "Senate"
@@ -51380,24 +50860,25 @@
           }
         ],
         "scores": {
-          "social": 54.55,
-          "economic": 33.33,
+          "social": 66.67,
+          "economic": 25.0,
           "foreign": null,
-          "overall": 43.48,
+          "overall": 42.86,
           "tier": "F"
         },
         "sample_size": {
-          "social": 11,
+          "social": 9,
           "economic": 12,
           "foreign": 0
         },
         "aligned_votes": {
           "social": 6,
-          "economic": 4
+          "economic": 3,
+          "foreign": 0
         },
-        "provisions_scored": 23,
-        "aligned_provisions": 10,
-        "finalized_bills_voted": 15,
+        "provisions_scored": 21,
+        "aligned_provisions": 9,
+        "finalized_bills_voted": 14,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -51457,9 +50938,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1099",
             "profile_name": "Josh Harder",
             "chamber": "Senate"
@@ -51585,19 +51066,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1099",
-            "profile_name": "Josh Harder",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -51665,19 +51133,6 @@
             "bill_title": "So many green effects!",
             "provision": "Interstate Highways: National Infrastructure Program",
             "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1099",
-            "profile_name": "Josh Harder",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
             "direction": -1,
             "vote": "aye",
             "aligned": false,
@@ -52445,25 +51900,25 @@
           }
         ],
         "scores": {
-          "social": 12.5,
-          "economic": 22.22,
+          "social": 16.67,
+          "economic": 33.33,
           "foreign": 100.0,
-          "overall": 22.22,
+          "overall": 31.25,
           "tier": "F"
         },
         "sample_size": {
-          "social": 8,
+          "social": 6,
           "economic": 9,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 1,
-          "economic": 2,
+          "economic": 3,
           "foreign": 1
         },
-        "provisions_scored": 18,
-        "aligned_provisions": 4,
-        "finalized_bills_voted": 11,
+        "provisions_scored": 16,
+        "aligned_provisions": 5,
+        "finalized_bills_voted": 9,
         "bill_details": [
           {
             "resolution_id": 3,
@@ -52560,19 +52015,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1150",
-            "profile_name": "Kamiru Todoroki",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -52648,19 +52090,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1150",
-            "profile_name": "Kamiru Todoroki",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -52692,9 +52121,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1150",
             "profile_name": "Kamiru Todoroki",
             "chamber": "Senate"
@@ -53159,11 +52588,12 @@
         },
         "aligned_votes": {
           "social": 3,
-          "economic": 0
+          "economic": 0,
+          "foreign": 0
         },
         "provisions_scored": 10,
         "aligned_provisions": 3,
-        "finalized_bills_voted": 12,
+        "finalized_bills_voted": 9,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -53715,25 +53145,25 @@
           }
         ],
         "scores": {
-          "social": 26.67,
-          "economic": 13.33,
+          "social": 30.77,
+          "economic": 26.67,
           "foreign": 100.0,
-          "overall": 22.58,
+          "overall": 31.03,
           "tier": "F"
         },
         "sample_size": {
-          "social": 15,
+          "social": 13,
           "economic": 15,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 4,
-          "economic": 2,
+          "economic": 4,
           "foreign": 1
         },
-        "provisions_scored": 31,
-        "aligned_provisions": 7,
-        "finalized_bills_voted": 20,
+        "provisions_scored": 29,
+        "aligned_provisions": 9,
+        "finalized_bills_voted": 18,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -53780,9 +53210,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1012",
             "profile_name": "Blanche Lincoln",
             "chamber": "Senate"
@@ -53986,19 +53416,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1012",
-            "profile_name": "Blanche Lincoln",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -54074,19 +53491,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1012",
-            "profile_name": "Blanche Lincoln",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -54118,9 +53522,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1012",
             "profile_name": "Blanche Lincoln",
             "chamber": "Senate"
@@ -54922,25 +54326,25 @@
           }
         ],
         "scores": {
-          "social": 12.5,
-          "economic": 15.38,
+          "social": 16.67,
+          "economic": 23.08,
           "foreign": 100.0,
-          "overall": 18.18,
+          "overall": 25.0,
           "tier": "F"
         },
         "sample_size": {
-          "social": 8,
+          "social": 6,
           "economic": 13,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 1,
-          "economic": 2,
+          "economic": 3,
           "foreign": 1
         },
-        "provisions_scored": 22,
-        "aligned_provisions": 4,
-        "finalized_bills_voted": 13,
+        "provisions_scored": 20,
+        "aligned_provisions": 5,
+        "finalized_bills_voted": 11,
         "bill_details": [
           {
             "resolution_id": 3,
@@ -55050,19 +54454,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "HILLARY CLINTON",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -55138,19 +54529,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "HILLARY CLINTON",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -55182,9 +54560,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1004",
             "profile_name": "HILLARY CLINTON",
             "chamber": "Senate"
@@ -55768,24 +55146,25 @@
           }
         ],
         "scores": {
-          "social": 18.18,
-          "economic": 0.0,
+          "social": 22.22,
+          "economic": 10.0,
           "foreign": null,
-          "overall": 9.52,
+          "overall": 15.79,
           "tier": "F"
         },
         "sample_size": {
-          "social": 11,
+          "social": 9,
           "economic": 10,
           "foreign": 0
         },
         "aligned_votes": {
           "social": 2,
-          "economic": 0
+          "economic": 1,
+          "foreign": 0
         },
-        "provisions_scored": 21,
-        "aligned_provisions": 2,
-        "finalized_bills_voted": 16,
+        "provisions_scored": 19,
+        "aligned_provisions": 3,
+        "finalized_bills_voted": 14,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -55832,9 +55211,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1090",
             "profile_name": "Stephanie McMahon",
             "chamber": "Senate"
@@ -55999,19 +55378,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1090",
-            "profile_name": "Stephanie McMahon",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -56040,19 +55406,6 @@
             "bill_title": "So many green effects!",
             "provision": "Interstate Highways: National Infrastructure Program",
             "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1090",
-            "profile_name": "Stephanie McMahon",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
             "direction": -1,
             "vote": "aye",
             "aligned": false,
@@ -56793,9 +56146,9 @@
         ],
         "scores": {
           "social": 0.0,
-          "economic": 0.0,
+          "economic": 16.67,
           "foreign": null,
-          "overall": 0.0,
+          "overall": 7.14,
           "tier": "F"
         },
         "sample_size": {
@@ -56805,11 +56158,12 @@
         },
         "aligned_votes": {
           "social": 0,
-          "economic": 0
+          "economic": 1,
+          "foreign": 0
         },
         "provisions_scored": 14,
-        "aligned_provisions": 0,
-        "finalized_bills_voted": 11,
+        "aligned_provisions": 1,
+        "finalized_bills_voted": 9,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -56856,9 +56210,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1281",
             "profile_name": "Wony Ashford",
             "chamber": "Senate"
@@ -57485,8 +56839,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -57643,24 +57005,25 @@
           }
         ],
         "scores": {
-          "social": 0.0,
-          "economic": 0.0,
+          "social": null,
+          "economic": null,
           "foreign": null,
-          "overall": 0.0,
-          "tier": "F"
+          "overall": null,
+          "tier": "N/A"
         },
         "sample_size": {
-          "economic": 1,
           "social": 1,
+          "economic": 1,
           "foreign": 0
         },
         "aligned_votes": {
+          "social": 0,
           "economic": 0,
-          "social": 0
+          "foreign": 0
         },
         "provisions_scored": 2,
         "aligned_provisions": 0,
-        "finalized_bills_voted": 3,
+        "finalized_bills_voted": 2,
         "bill_details": [
           {
             "resolution_id": 10,
@@ -57689,7 +57052,7 @@
             "chamber": "Senate"
           }
         ],
-        "eligible_for_grade": true
+        "eligible_for_grade": false
       },
       "discord": "lazarbanagain",
       "discord_current": true,
@@ -58227,24 +57590,25 @@
           }
         ],
         "scores": {
-          "social": 28.57,
-          "economic": 13.33,
+          "social": 30.77,
+          "economic": 20.0,
           "foreign": null,
-          "overall": 20.69,
+          "overall": 25.0,
           "tier": "F"
         },
         "sample_size": {
-          "social": 14,
+          "social": 13,
           "economic": 15,
           "foreign": 0
         },
         "aligned_votes": {
           "social": 4,
-          "economic": 2
+          "economic": 3,
+          "foreign": 0
         },
-        "provisions_scored": 29,
-        "aligned_provisions": 6,
-        "finalized_bills_voted": 21,
+        "provisions_scored": 28,
+        "aligned_provisions": 7,
+        "finalized_bills_voted": 19,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -58304,9 +57668,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1165",
             "profile_name": "George Clooney",
             "chamber": "House"
@@ -58525,19 +57889,6 @@
             "bill_title": "UNIONS OF AMERICA UNITE ACT",
             "provision": "Union Dues Regulation: No Cap, Tax-Deductible",
             "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1165",
-            "profile_name": "George Clooney",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
             "direction": -1,
             "vote": "aye",
             "aligned": false,
@@ -59401,25 +58752,25 @@
           }
         ],
         "scores": {
-          "social": 36.84,
-          "economic": 31.82,
+          "social": 41.18,
+          "economic": 36.36,
           "foreign": 100.0,
-          "overall": 35.71,
+          "overall": 40.0,
           "tier": "F"
         },
         "sample_size": {
-          "social": 19,
+          "social": 17,
           "economic": 22,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 7,
-          "economic": 7,
+          "economic": 8,
           "foreign": 1
         },
-        "provisions_scored": 42,
-        "aligned_provisions": 15,
-        "finalized_bills_voted": 30,
+        "provisions_scored": 40,
+        "aligned_provisions": 16,
+        "finalized_bills_voted": 28,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -59492,9 +58843,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1061",
             "profile_name": "Olivia Dean",
             "chamber": "House"
@@ -59763,19 +59114,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1061",
-            "profile_name": "Olivia Dean",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -59856,19 +59194,6 @@
             "bill_title": "So many green effects!",
             "provision": "Interstate Highways: National Infrastructure Program",
             "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1061",
-            "profile_name": "Olivia Dean",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
             "direction": -1,
             "vote": "aye",
             "aligned": false,
@@ -61297,8 +60622,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -61667,25 +61000,25 @@
           }
         ],
         "scores": {
-          "social": 31.25,
-          "economic": 11.11,
+          "social": 35.71,
+          "economic": 22.22,
           "foreign": 100.0,
-          "overall": 22.86,
+          "overall": 30.3,
           "tier": "F"
         },
         "sample_size": {
-          "social": 16,
+          "social": 14,
           "economic": 18,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 5,
-          "economic": 2,
+          "economic": 4,
           "foreign": 1
         },
-        "provisions_scored": 35,
-        "aligned_provisions": 8,
-        "finalized_bills_voted": 23,
+        "provisions_scored": 33,
+        "aligned_provisions": 10,
+        "finalized_bills_voted": 21,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -61732,9 +61065,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1028",
             "profile_name": "Paul Wellstone",
             "chamber": "Senate"
@@ -61990,19 +61323,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1028",
-            "profile_name": "Paul Wellstone",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -62078,19 +61398,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1028",
-            "profile_name": "Paul Wellstone",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -62122,9 +61429,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1028",
             "profile_name": "Paul Wellstone",
             "chamber": "Senate"
@@ -62890,25 +62197,25 @@
           }
         ],
         "scores": {
-          "social": 25.0,
-          "economic": 14.29,
+          "social": 30.0,
+          "economic": 28.57,
           "foreign": 100.0,
-          "overall": 22.22,
+          "overall": 32.0,
           "tier": "F"
         },
         "sample_size": {
-          "social": 12,
+          "social": 10,
           "economic": 14,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 3,
-          "economic": 2,
+          "economic": 4,
           "foreign": 1
         },
-        "provisions_scored": 27,
-        "aligned_provisions": 6,
-        "finalized_bills_voted": 18,
+        "provisions_scored": 25,
+        "aligned_provisions": 8,
+        "finalized_bills_voted": 16,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -62968,9 +62275,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1139",
             "profile_name": "Elvis Presley",
             "chamber": "Senate"
@@ -63109,19 +62416,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1139",
-            "profile_name": "Elvis Presley",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -63197,19 +62491,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1139",
-            "profile_name": "Elvis Presley",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -63241,9 +62522,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1139",
             "profile_name": "Elvis Presley",
             "chamber": "Senate"
@@ -63937,25 +63218,25 @@
           }
         ],
         "scores": {
-          "social": 27.78,
-          "economic": 10.53,
+          "social": 31.25,
+          "economic": 21.05,
           "foreign": 100.0,
-          "overall": 21.05,
+          "overall": 27.78,
           "tier": "F"
         },
         "sample_size": {
-          "social": 18,
+          "social": 16,
           "economic": 19,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 5,
-          "economic": 2,
+          "economic": 4,
           "foreign": 1
         },
-        "provisions_scored": 38,
-        "aligned_provisions": 8,
-        "finalized_bills_voted": 26,
+        "provisions_scored": 36,
+        "aligned_provisions": 10,
+        "finalized_bills_voted": 24,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -64028,9 +63309,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1155",
             "profile_name": "Nagasaki",
             "chamber": "House"
@@ -64273,19 +63554,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1155",
-            "profile_name": "Nagasaki",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -64361,19 +63629,6 @@
             "chamber": "House"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1155",
-            "profile_name": "Nagasaki",
-            "chamber": "House"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -64405,9 +63660,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1155",
             "profile_name": "Nagasaki",
             "chamber": "House"
@@ -65126,14 +64381,14 @@
           }
         ],
         "scores": {
-          "social": 72.73,
+          "social": 82.76,
           "economic": 51.28,
           "foreign": 100.0,
-          "overall": 62.67,
+          "overall": 66.2,
           "tier": "C"
         },
         "sample_size": {
-          "social": 33,
+          "social": 29,
           "economic": 39,
           "foreign": 3
         },
@@ -65142,9 +64397,9 @@
           "economic": 20,
           "foreign": 3
         },
-        "provisions_scored": 75,
+        "provisions_scored": 71,
         "aligned_provisions": 47,
-        "finalized_bills_voted": 34,
+        "finalized_bills_voted": 30,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -65256,9 +64511,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1007",
             "profile_name": "Glen Youngkin",
             "chamber": "Senate"
@@ -65295,9 +64550,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1022",
             "profile_name": "Abigail Spanberger",
             "chamber": "House"
@@ -65709,19 +64964,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1007",
-            "profile_name": "Glen Youngkin",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -65730,19 +64972,6 @@
             "profile_id": "1007",
             "profile_name": "Glen Youngkin",
             "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1022",
-            "profile_name": "Abigail Spanberger",
-            "chamber": "House"
           },
           {
             "resolution_id": 26,
@@ -65878,19 +65107,6 @@
             "resolution_id": 36,
             "number": "S. 18",
             "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1007",
-            "profile_name": "Glen Youngkin",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
             "provision": "Energy Reorganization: Energy Research & Development Administration",
             "category": "economic",
             "direction": -1,
@@ -65914,19 +65130,6 @@
             "chamber": "House"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1022",
-            "profile_name": "Abigail Spanberger",
-            "chamber": "House"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -65958,9 +65161,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1007",
             "profile_name": "Glen Youngkin",
             "chamber": "Senate"
@@ -65997,9 +65200,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1022",
             "profile_name": "Abigail Spanberger",
             "chamber": "House"
@@ -67733,18 +66936,18 @@
           "tier": "F"
         },
         "sample_size": {
-          "foreign": 1,
           "social": 1,
-          "economic": 1
+          "economic": 1,
+          "foreign": 1
         },
         "aligned_votes": {
-          "foreign": 1,
           "social": 0,
-          "economic": 0
+          "economic": 0,
+          "foreign": 1
         },
         "provisions_scored": 3,
         "aligned_provisions": 1,
-        "finalized_bills_voted": 4,
+        "finalized_bills_voted": 3,
         "bill_details": [
           {
             "resolution_id": 32,
@@ -68400,8 +67603,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -68504,11 +67715,19 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
-        "finalized_bills_voted": 1,
+        "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false
       },
@@ -68629,14 +67848,14 @@
           }
         ],
         "scores": {
-          "social": 43.75,
+          "social": 50.0,
           "economic": 26.67,
           "foreign": 100.0,
-          "overall": 37.5,
+          "overall": 40.0,
           "tier": "F"
         },
         "sample_size": {
-          "social": 16,
+          "social": 14,
           "economic": 15,
           "foreign": 1
         },
@@ -68645,9 +67864,9 @@
           "economic": 4,
           "foreign": 1
         },
-        "provisions_scored": 32,
+        "provisions_scored": 30,
         "aligned_provisions": 12,
-        "finalized_bills_voted": 21,
+        "finalized_bills_voted": 19,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -68707,9 +67926,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "nay",
-            "aligned": true,
+            "aligned": false,
             "profile_id": "1070",
             "profile_name": "Cleveland Green",
             "chamber": "Senate"
@@ -68913,19 +68132,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1070",
-            "profile_name": "Cleveland Green",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -69001,19 +68207,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1070",
-            "profile_name": "Cleveland Green",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -69045,9 +68238,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1070",
             "profile_name": "Cleveland Green",
             "chamber": "Senate"
@@ -69680,25 +68873,25 @@
           }
         ],
         "scores": {
-          "social": 16.67,
-          "economic": 22.22,
+          "social": 25.0,
+          "economic": 33.33,
           "foreign": 100.0,
-          "overall": 25.0,
+          "overall": 35.71,
           "tier": "F"
         },
         "sample_size": {
-          "social": 6,
+          "social": 4,
           "economic": 9,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 1,
-          "economic": 2,
+          "economic": 3,
           "foreign": 1
         },
-        "provisions_scored": 16,
-        "aligned_provisions": 4,
-        "finalized_bills_voted": 9,
+        "provisions_scored": 14,
+        "aligned_provisions": 5,
+        "finalized_bills_voted": 7,
         "bill_details": [
           {
             "resolution_id": 17,
@@ -69758,19 +68951,6 @@
             "bill_title": "Youth Voices and Student Subsidisations Act",
             "provision": "School Lunch: Universal Free Meals",
             "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1163",
-            "profile_name": "Bernie Sanders",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
             "direction": -1,
             "vote": "aye",
             "aligned": false,
@@ -69857,19 +69037,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1163",
-            "profile_name": "Bernie Sanders",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -69901,9 +69068,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1163",
             "profile_name": "Bernie Sanders",
             "chamber": "Senate"
@@ -70413,11 +69580,12 @@
         },
         "aligned_votes": {
           "social": 3,
-          "economic": 0
+          "economic": 0,
+          "foreign": 0
         },
         "provisions_scored": 5,
         "aligned_provisions": 3,
-        "finalized_bills_voted": 6,
+        "finalized_bills_voted": 5,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -70661,8 +69829,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -70829,18 +70005,18 @@
           "tier": "F"
         },
         "sample_size": {
-          "foreign": 1,
           "social": 1,
-          "economic": 1
+          "economic": 1,
+          "foreign": 1
         },
         "aligned_votes": {
-          "foreign": 0,
           "social": 0,
-          "economic": 0
+          "economic": 0,
+          "foreign": 0
         },
         "provisions_scored": 3,
         "aligned_provisions": 0,
-        "finalized_bills_voted": 4,
+        "finalized_bills_voted": 3,
         "bill_details": [
           {
             "resolution_id": 32,
@@ -71706,25 +70882,25 @@
           }
         ],
         "scores": {
-          "social": 28.57,
-          "economic": 0.0,
+          "social": 33.33,
+          "economic": 20.0,
           "foreign": 100.0,
-          "overall": 23.08,
+          "overall": 33.33,
           "tier": "F"
         },
         "sample_size": {
-          "social": 7,
+          "social": 6,
           "economic": 5,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 2,
-          "economic": 0,
+          "economic": 1,
           "foreign": 1
         },
-        "provisions_scored": 13,
-        "aligned_provisions": 3,
-        "finalized_bills_voted": 8,
+        "provisions_scored": 12,
+        "aligned_provisions": 4,
+        "finalized_bills_voted": 7,
         "bill_details": [
           {
             "resolution_id": 15,
@@ -71831,19 +71007,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1056",
-            "profile_name": "Benjamin Netanyahu",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -71875,9 +71038,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1056",
             "profile_name": "Benjamin Netanyahu",
             "chamber": "Senate"
@@ -72276,8 +71439,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -72492,8 +71663,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -72820,25 +71999,25 @@
           }
         ],
         "scores": {
-          "social": 10.0,
-          "economic": 15.38,
+          "social": 12.5,
+          "economic": 30.77,
           "foreign": 100.0,
-          "overall": 16.67,
+          "overall": 27.27,
           "tier": "F"
         },
         "sample_size": {
-          "social": 10,
+          "social": 8,
           "economic": 13,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 1,
-          "economic": 2,
+          "economic": 4,
           "foreign": 1
         },
-        "provisions_scored": 24,
-        "aligned_provisions": 4,
-        "finalized_bills_voted": 15,
+        "provisions_scored": 22,
+        "aligned_provisions": 6,
+        "finalized_bills_voted": 13,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -72885,9 +72064,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1217",
             "profile_name": "Ashley Sharpton",
             "chamber": "Senate"
@@ -73013,19 +72192,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1217",
-            "profile_name": "Ashley Sharpton",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -73101,19 +72267,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1217",
-            "profile_name": "Ashley Sharpton",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -73145,9 +72298,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1217",
             "profile_name": "Ashley Sharpton",
             "chamber": "Senate"
@@ -74035,24 +73188,25 @@
           }
         ],
         "scores": {
-          "social": 33.33,
-          "economic": 13.33,
+          "social": 37.5,
+          "economic": 26.67,
           "foreign": null,
-          "overall": 24.24,
+          "overall": 32.26,
           "tier": "F"
         },
         "sample_size": {
-          "social": 18,
+          "social": 16,
           "economic": 15,
           "foreign": 0
         },
         "aligned_votes": {
           "social": 6,
-          "economic": 2
+          "economic": 4,
+          "foreign": 0
         },
-        "provisions_scored": 33,
-        "aligned_provisions": 8,
-        "finalized_bills_voted": 19,
+        "provisions_scored": 31,
+        "aligned_provisions": 10,
+        "finalized_bills_voted": 16,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -74164,9 +73318,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1025",
             "profile_name": "Donald Trump",
             "chamber": "House"
@@ -74203,9 +73357,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1033",
             "profile_name": "Marco Rubio",
             "chamber": "Senate"
@@ -74357,19 +73511,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1025",
-            "profile_name": "Donald Trump",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -74378,19 +73519,6 @@
             "profile_id": "1025",
             "profile_name": "Donald Trump",
             "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1033",
-            "profile_name": "Marco Rubio",
-            "chamber": "Senate"
           },
           {
             "resolution_id": 26,
@@ -75974,25 +75102,25 @@
           }
         ],
         "scores": {
-          "social": 27.78,
-          "economic": 21.74,
+          "social": 31.25,
+          "economic": 30.43,
           "foreign": 100.0,
-          "overall": 27.91,
+          "overall": 34.15,
           "tier": "F"
         },
         "sample_size": {
-          "social": 36,
+          "social": 32,
           "economic": 46,
           "foreign": 4
         },
         "aligned_votes": {
           "social": 10,
-          "economic": 10,
+          "economic": 14,
           "foreign": 4
         },
-        "provisions_scored": 86,
-        "aligned_provisions": 24,
-        "finalized_bills_voted": 29,
+        "provisions_scored": 82,
+        "aligned_provisions": 28,
+        "finalized_bills_voted": 27,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -76117,9 +75245,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1105",
             "profile_name": "LANDO NORRIS",
             "chamber": "House"
@@ -76156,9 +75284,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1108",
             "profile_name": "GEORGE RUSSELL",
             "chamber": "House"
@@ -76648,19 +75776,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1105",
-            "profile_name": "LANDO NORRIS",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -76668,19 +75783,6 @@
             "aligned": false,
             "profile_id": "1105",
             "profile_name": "LANDO NORRIS",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1108",
-            "profile_name": "GEORGE RUSSELL",
             "chamber": "House"
           },
           {
@@ -76830,19 +75932,6 @@
             "resolution_id": 36,
             "number": "S. 18",
             "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1105",
-            "profile_name": "LANDO NORRIS",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
             "provision": "Energy Reorganization: Energy Research & Development Administration",
             "category": "economic",
             "direction": -1,
@@ -76866,19 +75955,6 @@
             "chamber": "House"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1108",
-            "profile_name": "GEORGE RUSSELL",
-            "chamber": "House"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -76910,9 +75986,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1105",
             "profile_name": "LANDO NORRIS",
             "chamber": "House"
@@ -76949,9 +76025,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1108",
             "profile_name": "GEORGE RUSSELL",
             "chamber": "House"
@@ -79148,24 +78224,25 @@
           }
         ],
         "scores": {
-          "social": 50.0,
-          "economic": 0.0,
+          "social": 53.33,
+          "economic": 10.0,
           "foreign": null,
-          "overall": 30.77,
+          "overall": 36.0,
           "tier": "F"
         },
         "sample_size": {
-          "social": 16,
+          "social": 15,
           "economic": 10,
           "foreign": 0
         },
         "aligned_votes": {
           "social": 8,
-          "economic": 0
+          "economic": 1,
+          "foreign": 0
         },
-        "provisions_scored": 26,
-        "aligned_provisions": 8,
-        "finalized_bills_voted": 18,
+        "provisions_scored": 25,
+        "aligned_provisions": 9,
+        "finalized_bills_voted": 16,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -79251,9 +78328,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1107",
             "profile_name": "tweamonster",
             "chamber": "House"
@@ -79452,19 +78529,6 @@
             "profile_id": "1228",
             "profile_name": "Jeff Buckley",
             "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1107",
-            "profile_name": "tweamonster",
-            "chamber": "House"
           },
           {
             "resolution_id": 26,
@@ -80324,24 +79388,25 @@
           }
         ],
         "scores": {
-          "social": 15.38,
-          "economic": 0.0,
+          "social": 16.67,
+          "economic": 7.69,
           "foreign": null,
-          "overall": 7.69,
+          "overall": 12.0,
           "tier": "F"
         },
         "sample_size": {
-          "social": 13,
+          "social": 12,
           "economic": 13,
           "foreign": 0
         },
         "aligned_votes": {
           "social": 2,
-          "economic": 0
+          "economic": 1,
+          "foreign": 0
         },
-        "provisions_scored": 26,
-        "aligned_provisions": 2,
-        "finalized_bills_voted": 19,
+        "provisions_scored": 25,
+        "aligned_provisions": 3,
+        "finalized_bills_voted": 17,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -80401,9 +79466,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1141",
             "profile_name": "Barbara Mikulski",
             "chamber": "Senate"
@@ -80661,19 +79726,6 @@
             "bill_title": "So many green effects!",
             "provision": "Interstate Highways: National Infrastructure Program",
             "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1141",
-            "profile_name": "Barbara Mikulski",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
             "direction": -1,
             "vote": "aye",
             "aligned": false,
@@ -81546,25 +80598,25 @@
           }
         ],
         "scores": {
-          "social": 30.3,
-          "economic": 10.53,
+          "social": 34.48,
+          "economic": 21.05,
           "foreign": 66.67,
-          "overall": 21.62,
+          "overall": 28.57,
           "tier": "F"
         },
         "sample_size": {
-          "social": 33,
+          "social": 29,
           "economic": 38,
           "foreign": 3
         },
         "aligned_votes": {
           "social": 10,
-          "economic": 4,
+          "economic": 8,
           "foreign": 2
         },
-        "provisions_scored": 74,
-        "aligned_provisions": 16,
-        "finalized_bills_voted": 26,
+        "provisions_scored": 70,
+        "aligned_provisions": 20,
+        "finalized_bills_voted": 24,
         "bill_details": [
           {
             "resolution_id": 1,
@@ -81689,9 +80741,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1159",
             "profile_name": "Vincent Rein",
             "chamber": "House"
@@ -81728,9 +80780,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1160",
             "profile_name": "Theodore Rein",
             "chamber": "House"
@@ -82168,19 +81220,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1159",
-            "profile_name": "Vincent Rein",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -82188,19 +81227,6 @@
             "aligned": false,
             "profile_id": "1159",
             "profile_name": "Vincent Rein",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1160",
-            "profile_name": "Theodore Rein",
             "chamber": "House"
           },
           {
@@ -82337,19 +81363,6 @@
             "resolution_id": 36,
             "number": "S. 18",
             "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1159",
-            "profile_name": "Vincent Rein",
-            "chamber": "House"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
             "provision": "Energy Reorganization: Energy Research & Development Administration",
             "category": "economic",
             "direction": -1,
@@ -82373,19 +81386,6 @@
             "chamber": "House"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1160",
-            "profile_name": "Theodore Rein",
-            "chamber": "House"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -82417,9 +81417,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1159",
             "profile_name": "Vincent Rein",
             "chamber": "House"
@@ -82456,9 +81456,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1160",
             "profile_name": "Theodore Rein",
             "chamber": "House"
@@ -83920,8 +82920,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -84049,25 +83057,25 @@
           }
         ],
         "scores": {
-          "social": 18.18,
-          "economic": 11.11,
+          "social": 22.22,
+          "economic": 22.22,
           "foreign": 100.0,
-          "overall": 16.67,
+          "overall": 25.0,
           "tier": "F"
         },
         "sample_size": {
-          "social": 11,
+          "social": 9,
           "economic": 18,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 2,
-          "economic": 2,
+          "economic": 4,
           "foreign": 1
         },
-        "provisions_scored": 30,
-        "aligned_provisions": 5,
-        "finalized_bills_voted": 20,
+        "provisions_scored": 28,
+        "aligned_provisions": 7,
+        "finalized_bills_voted": 17,
         "bill_details": [
           {
             "resolution_id": 2,
@@ -84127,9 +83135,9 @@
             "bill_title": "Working Families and Economic Opportunity Act",
             "provision": "VA (Monthly Benefit): $1,550",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1172",
             "profile_name": "Gary Locke",
             "chamber": "Senate"
@@ -84268,19 +83276,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1172",
-            "profile_name": "Gary Locke",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -84356,19 +83351,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1172",
-            "profile_name": "Gary Locke",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -84400,9 +83382,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1172",
             "profile_name": "Gary Locke",
             "chamber": "Senate"
@@ -85568,8 +84550,16 @@
           "overall": null,
           "tier": "N/A"
         },
-        "sample_size": {},
-        "aligned_votes": {},
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
         "provisions_scored": 0,
         "aligned_provisions": 0,
         "finalized_bills_voted": 0,
@@ -86102,25 +85092,25 @@
           }
         ],
         "scores": {
-          "social": 12.5,
-          "economic": 22.22,
+          "social": 16.67,
+          "economic": 33.33,
           "foreign": 100.0,
-          "overall": 22.22,
+          "overall": 31.25,
           "tier": "F"
         },
         "sample_size": {
-          "social": 8,
+          "social": 6,
           "economic": 9,
           "foreign": 1
         },
         "aligned_votes": {
           "social": 1,
-          "economic": 2,
+          "economic": 3,
           "foreign": 1
         },
-        "provisions_scored": 18,
-        "aligned_provisions": 4,
-        "finalized_bills_voted": 11,
+        "provisions_scored": 16,
+        "aligned_provisions": 5,
+        "finalized_bills_voted": 9,
         "bill_details": [
           {
             "resolution_id": 3,
@@ -86217,19 +85207,6 @@
             "resolution_id": 26,
             "number": "S. 16",
             "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Legalization: Legal",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1269",
-            "profile_name": "Lisa",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
             "provision": "Marijuana Sales Tax: 50%",
             "category": "economic",
             "direction": -1,
@@ -86305,19 +85282,6 @@
             "chamber": "Senate"
           },
           {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Marijuana Legalization: Decriminalized",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1269",
-            "profile_name": "Lisa",
-            "chamber": "Senate"
-          },
-          {
             "resolution_id": 38,
             "number": "S. 19",
             "bill_title": "9/11 Security & Service Act",
@@ -86349,9 +85313,9 @@
             "bill_title": "9/11 Security & Service Act",
             "provision": "GI Bill: Full Tuition & Housing",
             "category": "economic",
-            "direction": -1,
+            "direction": 1,
             "vote": "aye",
-            "aligned": false,
+            "aligned": true,
             "profile_id": "1269",
             "profile_name": "Lisa",
             "chamber": "Senate"
@@ -86802,11 +85766,11 @@
           }
         ],
         "scores": {
-          "social": 0.0,
+          "social": null,
           "economic": null,
           "foreign": null,
-          "overall": 0.0,
-          "tier": "F"
+          "overall": null,
+          "tier": "N/A"
         },
         "sample_size": {
           "social": 1,
@@ -86814,11 +85778,13 @@
           "foreign": 0
         },
         "aligned_votes": {
-          "social": 0
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
         },
         "provisions_scored": 1,
         "aligned_provisions": 0,
-        "finalized_bills_voted": 3,
+        "finalized_bills_voted": 1,
         "bill_details": [
           {
             "resolution_id": 20,
@@ -86834,7 +85800,7 @@
             "chamber": "Senate"
           }
         ],
-        "eligible_for_grade": true
+        "eligible_for_grade": false
       },
       "discord": "yondame.",
       "discord_current": true,
