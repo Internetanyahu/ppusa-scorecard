@@ -1,7 +1,13 @@
-name: Update Power Play data
+name: Update players and records
 
+# Rebuilds players.json and every derived file from the bills.json already in
+# the repo. It does NOT scrape bills (see bills.yml / the Chrome extension).
 on:
   workflow_dispatch:
+
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
 
 jobs:
   scrape:
@@ -24,9 +30,6 @@ jobs:
       - name: Run player scraper
         run: python scraper/main.py
 
-      - name: Run bill scraper
-        run: python scraper/bills.py
-
       - name: Build player index and legislative history
         run: python scraper/build_history.py
 
@@ -37,6 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add players.json bills.json player_index.json legislative_history.json voting_records.json identity_review.json
-          git diff --cached --quiet || git commit -m "Update Power Play data"
+          git add players.json player_index.json legislative_history.json voting_records.json identity_review.json
+          git diff --cached --quiet || git commit -m "Update players and records"
+          git pull --rebase
           git push
