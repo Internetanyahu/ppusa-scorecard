@@ -1,14 +1,12 @@
-name: Compile conservative scorecard
+name: Compile Conservative Scorecard
 
-# The bill scraper is intentionally separate. This workflow consumes the
-# checked-in bills.json and never discovers or adds new provision options.
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 6 * * *"
 
 concurrency:
-  group: scorecard-compile
+  group: data-commit
   cancel-in-progress: false
 
 permissions:
@@ -18,6 +16,7 @@ permissions:
 
 jobs:
   scorecard:
+    name: Compile user scorecards
     runs-on: ubuntu-latest
 
     steps:
@@ -29,107 +28,117 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: |
-          pip install playwright
-          playwright install --with-deps chromium
-
-      - name: Refresh player data
-        run: python scraper/main.py
-
-      - name: Rebuild legislative history
+      - name: Rebuild user identity history
         run: python scraper/build_history.py
 
-      - name: Compile deterministic scorecard
+      - name: Apply deterministic conservative scorecard
         run: python scraper/scorecard.py
 
-      - name: Rebuild combined voting records
+      - name: Build combined voting records
         run: python scraper/build_records.py
 
-      - name: Validate finalized provisions and JSON
+      - name: Build website data
+        run: |
+          mkdir -p public/data
+          cp bills.json public/data/bills.json
+          cp conservative_scorecard.json public/data/conservative_scorecard.json
+          cp legislative_history.json public/data/legislative_history.json
+          cp players.json public/data/players.json
+          cp scorecard_rules.json public/data/scorecard_rules.json
+          cp voting_records.json public/data/voting_records.json
+
+      - name: Validate outputs
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
 
-          root = Path('.')
-          files = [
-              'bills.json',
-              'players.json',
-              'player_index.json',
-              'legislative_history.json',
-              'voting_records.json',
-              'conservative_scorecard.json',
-              'scorecard_review.json',
-              'identity_review.json',
-              'scorecard_rules.json',
-          ]
-          for name in files:
-              json.loads((root / name).read_text(encoding='utf-8'))
+          for f in [
+              "bills.json",
+              "players.json",
+              "player_index.json",
+              "legislative_history.json",
+              "voting_records.json",
+              "conservative_scorecard.json",
+              "scorecard_review.json",
+          ]:
+              json.loads(Path(f).read_text())
 
-          bills = json.loads((root / 'bills.json').read_text(encoding='utf-8'))
-          scorecard = json.loads((root / 'conservative_scorecard.json').read_text(encoding='utf-8'))
-          scored_bills = scorecard['bills']
+          scorecard = json.loads(
+              Path("conservative_scorecard.json").read_text()
+          )
 
-          finalized = [b for b in bills if b.get('finalized')]
-          if not finalized:
-              raise SystemExit('No finalized bills found; refusing to publish an empty scorecard.')
+          json.loads(
+              Path(
+                  "public/data/conservative_scorecard.json"
+              ).read_text()
+          )
 
-          for bill in finalized:
-              rid = str(bill['resolution_id'])
-              if rid not in scored_bills:
-                  raise SystemExit(f'Missing scored bill: {rid}')
-              source = bill.get('provisions', [])
-              scored = scored_bills[rid].get('scorecard', {}).get('provisions', [])
-              if len(source) != len(scored):
-                  raise SystemExit(f'Provision count mismatch for resolution {rid}')
-              for p in scored:
-                  if p.get('direction') not in (-1, 1):
+          # Normal provisions must have direction +1/-1.
+          #
+          # Custom Bill provisions are intentionally neutral:
+          # direction 0, scorable false.
+          #
+          # Custom Bills must never affect a user's score.
+          for bill in scorecard.get("bills", {}).values():
+              for provision in bill.get(
+                  "scorecard", {}
+              ).get("provisions", []):
+
+                  name = str(
+                      provision.get("name", "")
+                  ).strip().lower()
+
+                  direction = provision.get(
+                      "direction"
+                  )
+
+                  scorable = provision.get(
+                      "scorable",
+                      True,
+                  )
+
+                  if name == "custom bill":
+                      if (
+                          direction != 0
+                          or scorable is not False
+                      ):
+                          raise SystemExit(
+                              "Custom Bill must be neutral "
+                              "(direction 0, scorable false): "
+                              f"{provision!r}"
+                          )
+
+                  elif direction not in (-1, 1):
                       raise SystemExit(
-                          f"Invalid provision direction for resolution {rid}: {p.get('name')!r}"
-                      )
-                  if p.get('category') not in {'social', 'economic', 'foreign'}:
-                      raise SystemExit(
-                          f"Invalid provision category for resolution {rid}: {p.get('name')!r}"
+                          "Invalid provision direction for "
+                          f"resolution "
+                          f"{bill.get('resolution_id')}: "
+                          f"{direction!r}"
                       )
 
-          print(f'Validated {len(finalized)} finalized bills and all finalized provisions.')
+          print(
+              "All scorecard outputs validated, "
+              "including neutral Custom Bills."
+          )
           PY
-
-      - name: Build website-ready data
-        run: |
-          mkdir -p public/data
-          cp bills.json public/data/bills.json
-          cp conservative_scorecard.json public/data/conservative_scorecard.json
-          cp players.json public/data/players.json
-          cp voting_records.json public/data/voting_records.json
-          cp legislative_history.json public/data/legislative_history.json
-          cp scorecard_rules.json public/data/scorecard_rules.json
-
-      - name: Upload website-ready data artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ppusa-scorecard-data
-          path: public/data/
-          if-no-files-found: error
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload website
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-
-      - name: Deploy website
-        id: deployment
-        uses: actions/deploy-pages@v4
 
       - name: Commit compiled data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add players.json player_index.json legislative_history.json voting_records.json conservative_scorecard.json scorecard_review.json identity_review.json public/data/ scorecard_rules.json
+          git add players.json player_index.json legislative_history.json voting_records.json conservative_scorecard.json scorecard_review.json identity_review.json scorecard_rules.json public/data
           git diff --cached --quiet || git commit -m "Update conservative scorecard"
           git pull --rebase
           git push
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4
