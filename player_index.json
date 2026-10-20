@@ -1,4 +1,17 @@
 {
+  "77": {
+    "profile_id": "77",
+    "player_id": "p77",
+    "name": "Ralph Nader",
+    "discord": "",
+    "discord_id": "",
+    "discord_history": [],
+    "party": "G",
+    "state": "CT",
+    "first_seen": "2026-10-20",
+    "last_seen": null,
+    "on_site": false
+  },
   "1000": {
     "first_seen": "2026-10-20",
     "profile_id": "1000",
