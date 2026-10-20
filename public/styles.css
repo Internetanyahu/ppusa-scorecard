@@ -800,3 +800,32 @@ select option{
 }
 .scorecard .tier-S,.scorecard .tier-A,.bill-card .positive{color:var(--positive)}
 .scorecard .tier-F,.bill-card .negative{color:var(--negative)}
+
+
+/* Ideology labels next to category scores */
+.mini-bars{
+  gap:11px
+}
+.mini-row{
+  grid-template-columns:68px 1fr 48px;
+  column-gap:8px;
+  row-gap:3px
+}
+.scorecard .mini-tag{
+  grid-column:2 / -1;
+  font-size:12px;
+  font-weight:700;
+  line-height:1.2;
+  color:#cbd6e2
+}
+.detail-score .stat-tag{
+  margin-top:3px;
+  font-size:12px;
+  font-weight:700;
+  line-height:1.25;
+  color:#cbd6e2
+}
+@media (max-width:560px){
+  .scorecard .mini-tag,
+  .detail-score .stat-tag{font-size:11px}
+}
