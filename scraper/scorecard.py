@@ -1,25 +1,4 @@
-"""
-Deterministic conservative legislative scorecard.
-
-Rules:
-- Score ONLY finalized bills.
-- Score EACH provision independently; every provision has equal weight.
-- +1 = provision is conservative/rightward relative to the applicable baseline.
-- -1 = provision is liberal/leftward relative to the applicable baseline.
-- Every provision receives exactly +1 or -1; zero is never a valid score.
-- Finalized provisions are never silently dropped from the denominator.
-- Aye supports +1; Nay supports -1.
-- Categories: Social, Economic, Foreign.
-- Overall score is the share of scored provisions on which the member voted
-  in the conservative direction. Category scores are calculated separately.
-
-The classifier is intentionally deterministic and auditable. Exact calibrated
-rules are stored in scorecard_rules.json. When a comparable prior enacted bill
-exists, it is recorded as the current-law reference. Otherwise the configured
-ideological fallback is used. Unmatched provisions still receive +1 or -1 and
-are placed in scorecard_review.json for later manual calibration. No AI decision
-is required at runtime.
-"""
+"""Build the deterministic Power Play USA conservative scorecard."""
 from __future__ import annotations
 
 import json
@@ -31,6 +10,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BILLS_FILE = ROOT / "bills.json"
 HISTORY_FILE = ROOT / "legislative_history.json"
+PLAYERS_FILE = ROOT / "players.json"
+INDEX_FILE = ROOT / "player_index.json"
 RULES_FILE = ROOT / "scorecard_rules.json"
 OUT_FILE = ROOT / "conservative_scorecard.json"
 REVIEW_FILE = ROOT / "scorecard_review.json"
@@ -59,34 +40,14 @@ def tier(score):
     return "F"
 
 
-def provision_text(provision):
-    parts = [provision.get("name", "")]
-    parts.extend(str(v) for v in provision.get("notes", {}).values())
-    for effect in provision.get("effects", []):
-        parts.append(str(effect.get("metric", "")))
-    return " ".join(parts).lower()
-
-
-def compile_rules(rules):
-    compiled = []
-    for rule in rules:
-        compiled.append({
-            **rule,
-            "pattern_compiled": re.compile(rule["pattern"], re.I),
-        })
-    return compiled
-
-
-def issue_key(name):
-    # The game convention is generally "Issue: Option". Use the issue portion
-    # to locate earlier enacted laws addressing the same policy area.
-    raw = re.sub(r"\s+", " ", (name or "").strip().lower())
-    return raw.split(":", 1)[0].strip() if ":" in raw else raw
-
-
 def week_number(value):
     m = re.search(r"Week\s+(\d+),\s*(\d+)", value or "")
     return (int(m.group(2)), int(m.group(1))) if m else None
+
+
+def issue_key(name):
+    raw = re.sub(r"\s+", " ", (name or "").strip().lower())
+    return raw.split(":", 1)[0].strip() if ":" in raw else raw
 
 
 def law_sort_key(bill):
@@ -122,235 +83,270 @@ def prior_law_reference(bill, provision, bills):
     }
 
 
-def fallback_classification(bill, provision, rules):
+def provision_text(provision):
+    parts = [provision.get("name", "")]
+    parts.extend(str(v) for v in provision.get("notes", {}).values())
+    for effect in provision.get("effects", []):
+        parts.append(str(effect.get("metric", "")))
+    return " ".join(parts).lower()
+
+
+def compile_rules(rules):
+    return [{**rule, "pattern_compiled": re.compile(rule["pattern"], re.I)} for rule in rules]
+
+
+def fallback_classification(provision):
     text = provision_text(provision)
-    notes = " ".join(str(v) for v in provision.get("notes", {}).values()).lower()
-    combined = f"{provision.get('name', '')} {text} {notes}".lower()
-
-    # Prefer explicit ideological labels supplied by the game data.
-    if re.search(r"\bconservative\b", combined):
-        return 1, "SOCIAL", "Explicit conservative label in source data."
-    if re.search(r"\bliberal\b|\bpro-choice\b", combined):
-        return -1, "SOCIAL", "Explicit liberal label in source data."
-
-    # Deterministic category fallbacks for known issue families.
-    if re.search(r"\b(visa|immigration|border|citizenship|abortion|marriage|gun|firearm|religious|police|crime|election|campaign)", combined):
-        direction = -1 if re.search(r"\b(visa|immigration)\b", combined) and not re.search(r"\b(restrict|cap|deport|border enforcement)\b", combined) else 1
-        return direction, "SOCIAL", "Configured ideological fallback for social policy."
-    if re.search(r"\b(tax|wage|benefit|medicare|healthcare|regulat|spending|appropriation|union|tariff|import|subsid)", combined):
-        direction = 1 if re.search(r"\b(tariff|import|protection|buy american|tax cut|spending cut|deregulat)", combined) else -1
-        return direction, "ECONOMIC", "Configured ideological fallback for economic policy."
-    if re.search(r"\b(military|defense|intelligence|war|troop|foreign|cuba|communist|sanction|aid|treaty)", combined):
-        direction = 1 if re.search(r"\b(defense|military readiness|anti-communist|communist party ban|sanction.*communist|cuba)", combined) else -1
-        return direction, "FOREIGN", "Configured ideological fallback for foreign policy."
-
-    # The scorecard requires a binary decision. Conservative is the configured
-    # final fallback, while the item remains visible for later calibration.
-    return 1, "SOCIAL", "Final binary fallback; manual calibration recommended."
+    if re.search(r"\b(visa|immigration|h-1b|border|citizenship|abortion|marriage|gun|firearm|religious|police|crime|election|campaign)\b", text):
+        direction = -1 if re.search(r"\b(visa|immigration|h-1b)\b", text) and not re.search(r"\b(restrict|cap|deport|border enforcement)\b", text) else 1
+        return direction, "social", "Deterministic social-policy fallback."
+    if re.search(r"\b(tax|wage|benefit|medicare|healthcare|regulat|spending|appropriation|union|tariff|import|subsid)", text):
+        direction = 1 if re.search(r"\b(tariff|import|protection|buy american|tax cut|spending cut|deregulat)", text) else -1
+        return direction, "economic", "Deterministic economic-policy fallback."
+    if re.search(r"\b(military|defense|intelligence|war|troop|foreign|cuba|communist|sanction|aid|treaty)", text):
+        direction = 1 if re.search(r"\b(defense|military readiness|anti-communist|communist party ban|sanction.*communist|cuba)", text) else -1
+        return direction, "foreign", "Deterministic foreign-policy fallback."
+    return 1, "social", "Final binary fallback; retained for deterministic scoring."
 
 
 def classify_provision(bill, provision, rules, bills):
-    text = provision_text(provision)
-    baseline = prior_law_reference(bill, provision, bills)
+    name = provision.get("name", "").strip()
+    # Custom/placeholder bills are intentionally neutral and never affect a score.
+    if re.fullmatch(r"custom bill", name, re.I):
+        return {
+            "direction": 0,
+            "category": None,
+            "rule_id": "CUSTOM-BILL-NEUTRAL",
+            "rationale": "Custom bills contain no deterministic policy position and are neutral.",
+            "source": "neutral",
+            "scorable": False,
+        }
 
-    # Exact calibrated overrides are evaluated first.
     for rule in rules["calibrated_rules"]:
-        if rule["pattern_compiled"].search(provision.get("name", "").lower()):
+        if rule["pattern_compiled"].search(name.lower()):
+            direction = int(rule["direction"])
+            if name.lower() == "h-1b skilled worker visa: 200,000" and direction == 0:
+                direction = -1
+            if direction == 0:
+                # Only explicit custom bills may be neutral.
+                direction, category, rationale = fallback_classification(provision)
+                return {"direction": direction, "category": category, "rule_id": rule["id"] + "-FALLBACK", "rationale": rationale, "source": "fallback", "scorable": True}
             return {
-                "direction": int(rule["direction"]),
-                "category": rule["category"],
+                "direction": direction,
+                "category": rule["category"].lower(),
                 "rule_id": rule["id"],
                 "rationale": rule["rationale"],
                 "source": "calibrated",
+                "scorable": True,
             }
 
-    # General deterministic rules cover recurring provision types.
-    matches = []
-    for rule in rules["general_rules"]:
-        if rule["pattern_compiled"].search(text):
-            matches.append(rule)
+    matches = [r for r in rules["general_rules"] if r["pattern_compiled"].search(provision_text(provision))]
+    signatures = {(int(r["direction"]), r["category"].lower()) for r in matches}
+    if len(signatures) == 1:
+        r = matches[0]
+        return {"direction": int(r["direction"]), "category": r["category"].lower(), "rule_id": r["id"], "rationale": r["rationale"], "source": "general", "scorable": True}
 
-    if not matches:
-        direction, category, rationale = fallback_classification(bill, provision, rules)
-        return {
-            "direction": direction,
-            "category": category.lower(),
-            "rule_id": "FALLBACK",
-            "rationale": rationale,
-            "source": "fallback",
-        }
-
-    # If multiple categories/directions conflict, do not guess.
-    signatures = {(int(r["direction"]), r["category"]) for r in matches}
-    if len(signatures) != 1:
-        direction, category, rationale = fallback_classification(bill, provision, rules)
-        return {
-            "direction": direction,
-            "category": category.lower(),
-            "rule_id": "FALLBACK-CONFLICT",
-            "rationale": rationale,
-            "source": "fallback-conflict",
-            "matches": [r["id"] for r in matches],
-        }
-
-    r = matches[0]
-    return {
-        "direction": int(r["direction"]),
-        "category": r["category"],
-        "rule_id": r["id"],
-        "rationale": r["rationale"],
-        "source": "general",
-    }
+    direction, category, rationale = fallback_classification(provision)
+    return {"direction": direction, "category": category, "rule_id": "FALLBACK" if not matches else "FALLBACK-CONFLICT", "rationale": rationale, "source": "fallback", "scorable": True}
 
 
 def score_vote(vote, direction):
     if vote not in {"aye", "nay"} or direction not in {-1, 1}:
         return None
-    return 1 if ((vote == "aye") == (direction == 1)) else 0
+    return vote == "aye" if direction == 1 else vote == "nay"
 
 
 def member_vote(row):
     if row.get("house_vote") in {"aye", "nay"}:
-        return row["house_vote"]
+        return row["house_vote"], "House"
     if row.get("senate_vote") in {"aye", "nay"}:
-        return row["senate_vote"]
-    return None
+        return row["senate_vote"], "Senate"
+    return None, "Other"
 
 
-def score_player(rows, bill_meta):
+def build_profile_metadata(players, index, history_person):
+    player_id = history_person["player_id"]
+    profiles = []
+    player_map = {str(p.get("powerplay_profile_id")): p for p in players}
+    index_profiles = [e for e in index.values() if e.get("player_id") == player_id]
+    by_id = {str(e.get("profile_id")): e for e in index_profiles}
+
+    vote_chambers = defaultdict(lambda: defaultdict(int))
+    for row in history_person.get("bills", []):
+        pid = str(row.get("profile_id"))
+        if row.get("senate_vote") in {"aye", "nay", "present"}:
+            vote_chambers[pid]["Senate"] += 1
+        if row.get("house_vote") in {"aye", "nay", "present"}:
+            vote_chambers[pid]["House"] += 1
+
+    for pid in history_person.get("profiles", []):
+        source = player_map.get(str(pid), {})
+        idx = by_id.get(str(pid), {})
+        counts = vote_chambers[str(pid)]
+        chamber = source.get("chamber") or source.get("chamber_name") or source.get("office_chamber") or ""
+        if not chamber:
+            chamber = max(counts, key=counts.get) if counts else "Other"
+        chamber = str(chamber).lower()
+        if "senate" in chamber:
+            chamber = "Senate"
+        elif "house" in chamber:
+            chamber = "House"
+        else:
+            chamber = "Other"
+        profiles.append({
+            "profile_id": str(pid),
+            "name": source.get("name") or idx.get("name") or "",
+            "party": (source.get("party") or idx.get("party") or "").lower(),
+            "state": source.get("state") or idx.get("state") or "",
+            "chamber": chamber,
+            "avatar": source.get("discord_avatar") or "",
+            "is_main": bool(source.get("is_main")),
+            "on_site": bool(idx.get("on_site", True)),
+        })
+
+    profiles.sort(key=lambda p: (not p["is_main"], p["profile_id"]))
+    main = next((p for p in profiles if p["is_main"]), profiles[0] if profiles else {})
+    return profiles, main
+
+
+def score_player(person, bill_meta):
     category_aligned = defaultdict(int)
     category_possible = defaultdict(int)
     aligned_total = 0
     possible_total = 0
     details = []
+    distinct_bills = set()
 
-    for row in rows:
+    for row in person.get("bills", []):
         bill = bill_meta.get(str(row["resolution_id"]))
         if not bill or not bill.get("finalized"):
             continue
-        vote = member_vote(row)
+        vote, chamber = member_vote(row)
         if vote is None:
             continue
-
+        distinct_bills.add(int(row["resolution_id"]))
+        profile_id = str(row.get("profile_id", ""))
+        profile_name = next((p.get("name") for p in person.get("profiles_meta", []) if p.get("profile_id") == profile_id), "")
         for p in bill["scorecard"]["provisions"]:
-            direction = p["direction"]
-            if direction not in {-1, 1}:
-                raise ValueError(f"Invalid provision direction for resolution {row['resolution_id']}: {p.get('name')}")
-            aligned = score_vote(vote, direction)
+            if not p.get("scorable", True) or p.get("direction") not in {-1, 1}:
+                continue
+            aligned = score_vote(vote, p["direction"])
             if aligned is None:
                 continue
             possible_total += 1
-            aligned_total += aligned
+            aligned_total += int(aligned)
             cat = p["category"]
             if cat in CATEGORIES:
                 category_possible[cat] += 1
-                category_aligned[cat] += aligned
+                category_aligned[cat] += int(aligned)
             details.append({
                 "resolution_id": row["resolution_id"],
+                "number": bill.get("number", ""),
+                "bill_title": bill.get("title", ""),
                 "provision": p["name"],
                 "category": cat,
-                "direction": direction,
+                "direction": p["direction"],
                 "vote": vote,
                 "aligned": bool(aligned),
+                "profile_id": profile_id,
+                "profile_name": profile_name,
+                "chamber": chamber,
             })
 
-    category_scores = {}
-    for cat in CATEGORIES:
-        category_scores[cat] = round(100 * category_aligned[cat] / category_possible[cat], 2) if category_possible[cat] else None
-
-    overall = round(100 * aligned_total / possible_total, 2) if possible_total else None
+    # The user requested N/A when the user has participated in fewer than three
+    # finalized bills. Votes remain visible, but they do not receive a grade.
+    eligible = len(distinct_bills) >= 3
+    category_scores = {
+        cat: (round(100 * category_aligned[cat] / category_possible[cat], 2) if eligible and category_possible[cat] else (None if not eligible else None))
+        for cat in CATEGORIES
+    }
+    overall = round(100 * aligned_total / possible_total, 2) if eligible and possible_total else None
     return {
-        "social": category_scores["social"],
-        "economic": category_scores["economic"],
-        "foreign": category_scores["foreign"],
-        "overall": overall,
-        "tier": tier(overall),
-        "sample_size": {c: category_possible[c] for c in CATEGORIES},
-        "aligned_votes": {c: category_aligned[c] for c in CATEGORIES},
+        "scores": {
+            "social": category_scores["social"],
+            "economic": category_scores["economic"],
+            "foreign": category_scores["foreign"],
+            "overall": overall,
+            "tier": tier(overall),
+        },
+        "sample_size": dict(category_possible),
+        "aligned_votes": dict(category_aligned),
         "provisions_scored": possible_total,
         "aligned_provisions": aligned_total,
+        "finalized_bills_voted": len(distinct_bills),
         "bill_details": details,
+        "eligible_for_grade": eligible,
     }
 
 
 def main():
     bills = load_json(BILLS_FILE, [])
     history = load_json(HISTORY_FILE, [])
+    players = load_json(PLAYERS_FILE, [])
+    index = load_json(INDEX_FILE, {})
     raw_rules = load_json(RULES_FILE, {"calibrated_rules": [], "general_rules": []})
-    rules = {
-        "calibrated_rules": compile_rules(raw_rules.get("calibrated_rules", [])),
-        "general_rules": compile_rules(raw_rules.get("general_rules", [])),
-    }
+    rules = {"calibrated_rules": compile_rules(raw_rules.get("calibrated_rules", [])), "general_rules": compile_rules(raw_rules.get("general_rules", []))}
 
     bill_meta = {}
     review = []
     for bill in bills:
         if not bill.get("finalized"):
             continue
-
         scored_provisions = []
         for p in bill.get("provisions", []):
             result = classify_provision(bill, p, rules, bills)
             result["current_law"] = prior_law_reference(bill, p, bills)
-            scored_provisions.append({
-                "name": p.get("name", ""),
-                **result,
-            })
-            if result["source"] in {"fallback", "fallback-conflict"} and p.get("name", "").strip():
-                review.append({
-                    "resolution_id": bill["resolution_id"],
-                    "number": bill.get("number", ""),
-                    "title": bill.get("title", ""),
-                    "provision": p.get("name", ""),
-                    "reason": result["rationale"],
-                    "current_law": result.get("current_law"),
-                })
+            scored_provisions.append({"name": p.get("name", ""), **result})
+            if result["source"] == "fallback" and p.get("name", "").strip():
+                review.append({"resolution_id": bill["resolution_id"], "number": bill.get("number", ""), "title": bill.get("title", ""), "provision": p.get("name", ""), "reason": result["rationale"], "current_law": result.get("current_law")})
+        copy = dict(bill)
+        copy["scorecard"] = {"provisions": scored_provisions}
+        bill_meta[str(bill["resolution_id"])] = copy
 
-        bill_copy = dict(bill)
-        bill_copy["scorecard"] = {"provisions": scored_provisions}
-        bill_meta[str(bill["resolution_id"])] = bill_copy
-
-    players = []
+    out_players = []
     for person in history:
-        scored = score_player(person.get("bills", []), bill_meta)
-        players.append({
+        profiles, main = build_profile_metadata(players, index, person)
+        person = dict(person)
+        person["profiles_meta"] = profiles
+        scored = score_player(person, bill_meta)
+        party_values = [p["party"] for p in profiles if p.get("party")]
+        state_values = [p["state"] for p in profiles if p.get("state")]
+        chambers = sorted({p["chamber"] for p in profiles})
+        avatar = main.get("avatar", "")
+        discord_ids = sorted({str(e.get("discord_id")) for e in index.values() if e.get("player_id") == person["player_id"] and e.get("discord_id")})
+        out_players.append({
+            "user_id": person["player_id"],
             "player_id": person["player_id"],
-            "name": person.get("name", ""),
+            "name": main.get("name") or person.get("name", ""),
             "discord": person.get("discord", ""),
-            "scores": {
-                "social": scored["social"],
-                "economic": scored["economic"],
-                "foreign": scored["foreign"],
-                "overall": scored["overall"],
-                "tier": scored["tier"],
-            },
-            "sample_size": scored["sample_size"],
-            "aligned_votes": scored["aligned_votes"],
-            "provisions_scored": scored["provisions_scored"],
-            "aligned_provisions": scored["aligned_provisions"],
-            "bill_details": scored["bill_details"],
+            "discord_ids": discord_ids,
+            "party": party_values[0] if party_values else "",
+            "state": main.get("state") or (state_values[0] if state_values else ""),
+            "chambers": chambers,
+            "avatar": avatar,
+            "profiles": profiles,
+            **scored,
         })
 
-    players.sort(key=lambda p: (p["scores"]["overall"] is None, -(p["scores"]["overall"] or 0), p["name"].lower()))
-
+    out_players.sort(key=lambda p: ((p["scores"]["overall"] is None), -(p["scores"]["overall"] or 0), p["name"].lower()))
     save_json(OUT_FILE, {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "method": {
+            "identity_key": "player_id/user_id, not Discord username",
             "finalized_bills_only": True,
             "equal_provision_weight": True,
             "categories": list(CATEGORIES),
-            "direction_definition": "+1 = conservative/rightward; -1 = liberal/leftward; every provision is binary.",
-            "current_law_reference": "Most recent enacted/finalized prior bill with the same issue key, when available.",
-            "vote_alignment": "Aye supports +1; Nay supports -1.",
-            "neutral_provisions": "Not permitted; every finalized provision is included in the denominator.",
+            "vote_alignment": "Aye aligns with +1; Nay aligns with -1.",
+            "custom_bills": "Neutral and excluded from scoring.",
+            "minimum_finalized_bills": 3,
             "tiers": {"S": "90-100", "A": "80-89.99", "B": "70-79.99", "C": "60-69.99", "D": "50-59.99", "F": "0-49.99"},
         },
         "bills": bill_meta,
-        "players": players,
+        "players": out_players,
     })
     save_json(REVIEW_FILE, review)
     print(f"Finalized bills: {len(bill_meta)}")
-    print(f"Players scored: {len(players)}")
+    print(f"User scorecards: {len(out_players)}")
     print(f"Fallback provisions for review: {len(review)}")
 
 
