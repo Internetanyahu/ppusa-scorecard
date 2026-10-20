@@ -4,18 +4,21 @@ Deterministic conservative legislative scorecard.
 Rules:
 - Score ONLY finalized bills.
 - Score EACH provision independently; every provision has equal weight.
-- +1 = provision moves policy right of the current-law baseline.
-- -1 = provision moves policy left of the current-law baseline.
-- 0 = neutral/no material policy movement or insufficient evidence.
-- Neutral provisions do not enter the vote denominator.
+- +1 = provision is conservative/rightward relative to the applicable baseline.
+- -1 = provision is liberal/leftward relative to the applicable baseline.
+- Every provision receives exactly +1 or -1; zero is never a valid score.
+- Finalized provisions are never silently dropped from the denominator.
 - Aye supports +1; Nay supports -1.
 - Categories: Social, Economic, Foreign.
 - Overall score is the share of scored provisions on which the member voted
   in the conservative direction. Category scores are calculated separately.
 
 The classifier is intentionally deterministic and auditable. Exact calibrated
-rules are stored in scorecard_rules.json. Unknown provisions are assigned 0
-and placed in scorecard_review.json instead of being guessed by AI.
+rules are stored in scorecard_rules.json. When a comparable prior enacted bill
+exists, it is recorded as the current-law reference. Otherwise the configured
+ideological fallback is used. Unmatched provisions still receive +1 or -1 and
+are placed in scorecard_review.json for later manual calibration. No AI decision
+is required at runtime.
 """
 from __future__ import annotations
 
@@ -74,8 +77,81 @@ def compile_rules(rules):
     return compiled
 
 
-def classify_provision(bill, provision, rules):
+def issue_key(name):
+    # The game convention is generally "Issue: Option". Use the issue portion
+    # to locate earlier enacted laws addressing the same policy area.
+    raw = re.sub(r"\s+", " ", (name or "").strip().lower())
+    return raw.split(":", 1)[0].strip() if ":" in raw else raw
+
+
+def week_number(value):
+    m = re.search(r"Week\s+(\d+),\s*(\d+)", value or "")
+    return (int(m.group(2)), int(m.group(1))) if m else None
+
+
+def law_sort_key(bill):
+    return (week_number(bill.get("passed", "")) or (0, 0), int(bill.get("resolution_id", 0)))
+
+
+def prior_law_reference(bill, provision, bills):
+    key = issue_key(provision.get("name", ""))
+    if not key:
+        return None
+    current_intro = week_number(bill.get("introduced", "")) or (999999, 999999)
+    candidates = []
+    for other in bills:
+        if other.get("resolution_id") == bill.get("resolution_id"):
+            continue
+        if not other.get("finalized") or not other.get("passed"):
+            continue
+        passed = week_number(other.get("passed", ""))
+        if not passed or passed >= current_intro:
+            continue
+        for op in other.get("provisions", []):
+            if issue_key(op.get("name", "")) == key:
+                candidates.append((law_sort_key(other), other, op))
+    if not candidates:
+        return None
+    _, prior_bill, prior_provision = max(candidates, key=lambda x: x[0])
+    return {
+        "resolution_id": prior_bill.get("resolution_id"),
+        "number": prior_bill.get("number", ""),
+        "title": prior_bill.get("title", ""),
+        "passed": prior_bill.get("passed", ""),
+        "provision": prior_provision.get("name", ""),
+    }
+
+
+def fallback_classification(bill, provision, rules):
     text = provision_text(provision)
+    notes = " ".join(str(v) for v in provision.get("notes", {}).values()).lower()
+    combined = f"{provision.get('name', '')} {text} {notes}".lower()
+
+    # Prefer explicit ideological labels supplied by the game data.
+    if re.search(r"\bconservative\b", combined):
+        return 1, "SOCIAL", "Explicit conservative label in source data."
+    if re.search(r"\bliberal\b|\bpro-choice\b", combined):
+        return -1, "SOCIAL", "Explicit liberal label in source data."
+
+    # Deterministic category fallbacks for known issue families.
+    if re.search(r"\b(visa|immigration|border|citizenship|abortion|marriage|gun|firearm|religious|police|crime|election|campaign)", combined):
+        direction = -1 if re.search(r"\b(visa|immigration)\b", combined) and not re.search(r"\b(restrict|cap|deport|border enforcement)\b", combined) else 1
+        return direction, "SOCIAL", "Configured ideological fallback for social policy."
+    if re.search(r"\b(tax|wage|benefit|medicare|healthcare|regulat|spending|appropriation|union|tariff|import|subsid)", combined):
+        direction = 1 if re.search(r"\b(tariff|import|protection|buy american|tax cut|spending cut|deregulat)", combined) else -1
+        return direction, "ECONOMIC", "Configured ideological fallback for economic policy."
+    if re.search(r"\b(military|defense|intelligence|war|troop|foreign|cuba|communist|sanction|aid|treaty)", combined):
+        direction = 1 if re.search(r"\b(defense|military readiness|anti-communist|communist party ban|sanction.*communist|cuba)", combined) else -1
+        return direction, "FOREIGN", "Configured ideological fallback for foreign policy."
+
+    # The scorecard requires a binary decision. Conservative is the configured
+    # final fallback, while the item remains visible for later calibration.
+    return 1, "SOCIAL", "Final binary fallback; manual calibration recommended."
+
+
+def classify_provision(bill, provision, rules, bills):
+    text = provision_text(provision)
+    baseline = prior_law_reference(bill, provision, bills)
 
     # Exact calibrated overrides are evaluated first.
     for rule in rules["calibrated_rules"]:
@@ -95,23 +171,25 @@ def classify_provision(bill, provision, rules):
             matches.append(rule)
 
     if not matches:
+        direction, category, rationale = fallback_classification(bill, provision, rules)
         return {
-            "direction": 0,
-            "category": None,
-            "rule_id": "UNMATCHED",
-            "rationale": "No deterministic rule matched; manual calibration required.",
-            "source": "unmatched",
+            "direction": direction,
+            "category": category.lower(),
+            "rule_id": "FALLBACK",
+            "rationale": rationale,
+            "source": "fallback",
         }
 
     # If multiple categories/directions conflict, do not guess.
     signatures = {(int(r["direction"]), r["category"]) for r in matches}
     if len(signatures) != 1:
+        direction, category, rationale = fallback_classification(bill, provision, rules)
         return {
-            "direction": 0,
-            "category": None,
-            "rule_id": "CONFLICT",
-            "rationale": "Multiple deterministic rules conflict; manual calibration required.",
-            "source": "conflict",
+            "direction": direction,
+            "category": category.lower(),
+            "rule_id": "FALLBACK-CONFLICT",
+            "rationale": rationale,
+            "source": "fallback-conflict",
             "matches": [r["id"] for r in matches],
         }
 
@@ -126,7 +204,7 @@ def classify_provision(bill, provision, rules):
 
 
 def score_vote(vote, direction):
-    if vote not in {"aye", "nay"} or direction == 0:
+    if vote not in {"aye", "nay"} or direction not in {-1, 1}:
         return None
     return 1 if ((vote == "aye") == (direction == 1)) else 0
 
@@ -156,8 +234,8 @@ def score_player(rows, bill_meta):
 
         for p in bill["scorecard"]["provisions"]:
             direction = p["direction"]
-            if direction == 0:
-                continue
+            if direction not in {-1, 1}:
+                raise ValueError(f"Invalid provision direction for resolution {row['resolution_id']}: {p.get('name')}")
             aligned = score_vote(vote, direction)
             if aligned is None:
                 continue
@@ -212,18 +290,20 @@ def main():
 
         scored_provisions = []
         for p in bill.get("provisions", []):
-            result = classify_provision(bill, p, rules)
+            result = classify_provision(bill, p, rules, bills)
+            result["current_law"] = prior_law_reference(bill, p, bills)
             scored_provisions.append({
                 "name": p.get("name", ""),
                 **result,
             })
-            if result["source"] in {"unmatched", "conflict"} and p.get("name", "").strip():
+            if result["source"] in {"fallback", "fallback-conflict"} and p.get("name", "").strip():
                 review.append({
                     "resolution_id": bill["resolution_id"],
                     "number": bill.get("number", ""),
                     "title": bill.get("title", ""),
                     "provision": p.get("name", ""),
                     "reason": result["rationale"],
+                    "current_law": result.get("current_law"),
                 })
 
         bill_copy = dict(bill)
@@ -259,9 +339,10 @@ def main():
             "finalized_bills_only": True,
             "equal_provision_weight": True,
             "categories": list(CATEGORIES),
-            "direction_definition": "+1 = right of current law; -1 = left of current law; 0 = neutral/no material movement.",
+            "direction_definition": "+1 = conservative/rightward; -1 = liberal/leftward; every provision is binary.",
+            "current_law_reference": "Most recent enacted/finalized prior bill with the same issue key, when available.",
             "vote_alignment": "Aye supports +1; Nay supports -1.",
-            "neutral_provisions": "Excluded from denominators.",
+            "neutral_provisions": "Not permitted; every finalized provision is included in the denominator.",
             "tiers": {"S": "90-100", "A": "80-89.99", "B": "70-79.99", "C": "60-69.99", "D": "50-59.99", "F": "0-49.99"},
         },
         "bills": bill_meta,
@@ -270,7 +351,7 @@ def main():
     save_json(REVIEW_FILE, review)
     print(f"Finalized bills: {len(bill_meta)}")
     print(f"Players scored: {len(players)}")
-    print(f"Unmatched/neutral provisions for review: {len(review)}")
+    print(f"Fallback provisions for review: {len(review)}")
 
 
 if __name__ == "__main__":
