@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "PPUSA Bill Scraper",
+  "version": "2.0.0",
+  "description": "Automatically watches PPUSA bill pages, updates bills.json, optionally paginates through unresolved bills, and notifies you when bills pass or fail.",
+  "permissions": ["tabs", "scripting", "storage", "unlimitedStorage", "notifications", "alarms"],
+  "host_permissions": ["https://powerplayusa.net/*", "https://api.github.com/*"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_title": "PPUSA Bill Scraper", "default_popup": "popup.html" },
+  "icons": { "48": "icon48.png", "128": "icon128.png" }
+}
