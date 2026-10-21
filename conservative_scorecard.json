@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:45:38+00:00",
+  "generated_at": "2026-10-21T03:25:01+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -61144,6 +61144,47 @@
       "eligible_for_grade": false
     },
     {
+      "user_id": "p1355",
+      "player_id": "p1355",
+      "name": "Huey Newton",
+      "discord": "dogon900",
+      "discord_ids": [
+        "769624078343995432"
+      ],
+      "party": "grn",
+      "state": "Maryland",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/769624078343995432/feb7d374c8b7405220f08385e8292c71.webp",
+      "profiles": [
+        {
+          "profile_id": "1355",
+          "name": "Huey Newton",
+          "party": "grn",
+          "state": "Maryland",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/769624078343995432/feb7d374c8b7405220f08385e8292c71.webp",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {},
+      "aligned_votes": {},
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false
+    },
+    {
       "user_id": "p1291",
       "player_id": "p1291",
       "name": "IVY SPICEH",
@@ -61874,48 +61915,9 @@
       "eligible_for_grade": false
     },
     {
-      "user_id": "p1066",
-      "player_id": "p1066",
-      "name": "Kevin Kiley",
-      "discord": "",
-      "discord_ids": [],
-      "party": "gop",
-      "state": "Hawaii",
-      "chambers": [
-        "Other"
-      ],
-      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-      "profiles": [
-        {
-          "profile_id": "1066",
-          "name": "Kevin Kiley",
-          "party": "gop",
-          "state": "Hawaii",
-          "chamber": "Other",
-          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-          "is_main": false,
-          "on_site": true
-        }
-      ],
-      "scores": {
-        "social": null,
-        "economic": null,
-        "foreign": null,
-        "overall": null,
-        "tier": "N/A"
-      },
-      "sample_size": {},
-      "aligned_votes": {},
-      "provisions_scored": 0,
-      "aligned_provisions": 0,
-      "finalized_bills_voted": 0,
-      "bill_details": [],
-      "eligible_for_grade": false
-    },
-    {
       "user_id": "p1140",
       "player_id": "p1140",
-      "name": "Kevin Kioge",
+      "name": "Kevin K.",
       "discord": "kevinmwas_57000",
       "discord_ids": [
         "1421418848724320286"
@@ -61929,7 +61931,7 @@
       "profiles": [
         {
           "profile_id": "1140",
-          "name": "Kevin Kioge",
+          "name": "Kevin K.",
           "party": "gop",
           "state": "Michigan",
           "chamber": "Other",
@@ -61954,6 +61956,45 @@
           "state": "Illinois",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1421418848724320286/63c160e8dffd6b41fc8bf9ac7ac2d52e.webp",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {},
+      "aligned_votes": {},
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false
+    },
+    {
+      "user_id": "p1066",
+      "player_id": "p1066",
+      "name": "Kevin Kiley",
+      "discord": "",
+      "discord_ids": [],
+      "party": "gop",
+      "state": "Hawaii",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "profiles": [
+        {
+          "profile_id": "1066",
+          "name": "Kevin Kiley",
+          "party": "gop",
+          "state": "Hawaii",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": false,
           "on_site": true
         }
@@ -63782,7 +63823,7 @@
           "profile_id": "1075",
           "name": "JD Vance",
           "party": "gop",
-          "state": "Illinois",
+          "state": "Iowa",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1307970759959777382/bf521610107d658d2b1e76d6039361d5.webp",
           "is_main": false,

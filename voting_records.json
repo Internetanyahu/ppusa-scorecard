@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:45:38+00:00",
+  "generated_at": "2026-10-21T03:25:01+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -458,6 +458,17 @@
         "1000",
         "1001",
         "1215"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1355",
+      "label": "dogon900 (Huey Newton)",
+      "aliases": [
+        "dogon900"
+      ],
+      "profile_ids": [
+        "1355"
       ]
     },
     {
@@ -962,7 +973,7 @@
     {
       "type": "player",
       "id": "p1140",
-      "label": "kevinmwas_57000 (Kevin Kioge)",
+      "label": "kevinmwas_57000 (Kevin K.)",
       "aliases": [
         "kevinmwas_57000"
       ],
@@ -2675,6 +2686,12 @@
     },
     {
       "type": "profile",
+      "id": "1355",
+      "label": "Huey Newton (1355)",
+      "player_id": "p1355"
+    },
+    {
+      "type": "profile",
       "id": "1230",
       "label": "Imran Khan (1230)",
       "player_id": "p1190"
@@ -2951,15 +2968,15 @@
     },
     {
       "type": "profile",
-      "id": "1066",
-      "label": "Kevin Kiley (1066)",
-      "player_id": "p1066"
+      "id": "1140",
+      "label": "Kevin K. (1140)",
+      "player_id": "p1140"
     },
     {
       "type": "profile",
-      "id": "1140",
-      "label": "Kevin Kioge (1140)",
-      "player_id": "p1140"
+      "id": "1066",
+      "label": "Kevin Kiley (1066)",
+      "player_id": "p1066"
     },
     {
       "type": "profile",
@@ -30920,6 +30937,88 @@
       ]
     },
     {
+      "player_id": "p1355",
+      "conservative_scorecard": {
+        "user_id": "p1355",
+        "player_id": "p1355",
+        "name": "Huey Newton",
+        "discord": "dogon900",
+        "discord_ids": [
+          "769624078343995432"
+        ],
+        "party": "grn",
+        "state": "Maryland",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/769624078343995432/feb7d374c8b7405220f08385e8292c71.webp",
+        "profiles": [
+          {
+            "profile_id": "1355",
+            "name": "Huey Newton",
+            "party": "grn",
+            "state": "Maryland",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/769624078343995432/feb7d374c8b7405220f08385e8292c71.webp",
+            "is_main": true,
+            "on_site": true
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {},
+        "aligned_votes": {},
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false
+      },
+      "discord": "dogon900",
+      "discord_current": true,
+      "discord_aliases": [
+        "dogon900"
+      ],
+      "discord_ids": [
+        "769624078343995432"
+      ],
+      "name": "Huey Newton",
+      "profile_ids": [
+        "1355"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1355",
+          "name": "Huey Newton",
+          "party": "grn",
+          "state": "Maryland",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1017",
       "conservative_scorecard": {
         "user_id": "p1017",
@@ -55644,7 +55743,7 @@
       "conservative_scorecard": {
         "user_id": "p1140",
         "player_id": "p1140",
-        "name": "Kevin Kioge",
+        "name": "Kevin K.",
         "discord": "kevinmwas_57000",
         "discord_ids": [
           "1421418848724320286"
@@ -55658,7 +55757,7 @@
         "profiles": [
           {
             "profile_id": "1140",
-            "name": "Kevin Kioge",
+            "name": "Kevin K.",
             "party": "gop",
             "state": "Michigan",
             "chamber": "Other",
@@ -55710,7 +55809,7 @@
       "discord_ids": [
         "1421418848724320286"
       ],
-      "name": "Kevin Kioge",
+      "name": "Kevin K.",
       "profile_ids": [
         "1140",
         "1143",
@@ -55719,7 +55818,7 @@
       "profiles": [
         {
           "profile_id": "1140",
-          "name": "Kevin Kioge",
+          "name": "Kevin K.",
           "party": "gop",
           "state": "Michigan",
           "is_main": true,
@@ -85600,7 +85699,7 @@
             "profile_id": "1075",
             "name": "JD Vance",
             "party": "gop",
-            "state": "Illinois",
+            "state": "Iowa",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1307970759959777382/bf521610107d658d2b1e76d6039361d5.webp",
             "is_main": false,
@@ -85659,7 +85758,7 @@
           "profile_id": "1075",
           "name": "JD Vance",
           "party": "gop",
-          "state": "Illinois",
+          "state": "Iowa",
           "is_main": false,
           "on_site": true
         },
@@ -109072,7 +109171,7 @@
         }
       ],
       "party": "gop",
-      "state": "Illinois",
+      "state": "Iowa",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -123224,7 +123323,7 @@
     {
       "profile_id": "1140",
       "player_id": "p1140",
-      "name": "Kevin Kioge",
+      "name": "Kevin K.",
       "discord": "kevinmwas_57000",
       "discord_id": "1421418848724320286",
       "discord_history": [
@@ -146137,6 +146236,40 @@
       "discord_history": [],
       "party": "dem",
       "state": "Vermont",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1355",
+      "player_id": "p1355",
+      "name": "Huey Newton",
+      "discord": "dogon900",
+      "discord_id": "769624078343995432",
+      "discord_history": [
+        {
+          "discord": "dogon900",
+          "discord_id": "769624078343995432",
+          "first_seen": "2026-10-21"
+        }
+      ],
+      "party": "grn",
+      "state": "Maryland",
       "is_main": true,
       "on_site": true,
       "counts": {
