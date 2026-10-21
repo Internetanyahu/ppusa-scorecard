@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:13:54+00:00",
+  "generated_at": "2026-10-21T21:11:50+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -748,6 +748,15 @@
     },
     {
       "type": "player",
+      "id": "p1356",
+      "label": "Jack Marques",
+      "aliases": [],
+      "profile_ids": [
+        "1356"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1062",
       "label": "jackhammerjt (Joseph Washington)",
       "aliases": [
@@ -1154,6 +1163,17 @@
         "1026",
         "1071",
         "1236"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1357",
+      "label": "mayotrain69 (Boss man)",
+      "aliases": [
+        "mayotrain69"
+      ],
+      "profile_ids": [
+        "1357"
       ]
     },
     {
@@ -2062,6 +2082,12 @@
     },
     {
       "type": "profile",
+      "id": "1357",
+      "label": "Boss man (1357)",
+      "player_id": "p1357"
+    },
+    {
+      "type": "profile",
       "id": "1187",
       "label": "Brad Finstad (1187)",
       "player_id": "p1187"
@@ -2713,6 +2739,12 @@
       "id": "1353",
       "label": "Jack Guy (1353)",
       "player_id": "p1353"
+    },
+    {
+      "type": "profile",
+      "id": "1356",
+      "label": "Jack Marques (1356)",
+      "player_id": "p1356"
     },
     {
       "type": "profile",
@@ -48658,6 +48690,82 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1356",
+      "conservative_scorecard": {
+        "user_id": "p1356",
+        "player_id": "p1356",
+        "name": "Jack Marques",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "Virginia",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1356",
+            "name": "Jack Marques",
+            "party": "dem",
+            "state": "Virginia",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {},
+        "aligned_votes": {},
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Jack Marques",
+      "profile_ids": [
+        "1356"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1356",
+          "name": "Jack Marques",
+          "party": "dem",
+          "state": "Virginia",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1062",
       "conservative_scorecard": {
         "user_id": "p1062",
@@ -60633,6 +60741,84 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1357",
+      "conservative_scorecard": {
+        "user_id": "p1357",
+        "player_id": "p1357",
+        "name": "Boss man",
+        "discord": "mayotrain69",
+        "discord_ids": [],
+        "party": "gop",
+        "state": "West Virginia",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1357",
+            "name": "Boss man",
+            "party": "gop",
+            "state": "West Virginia",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {},
+        "aligned_votes": {},
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false
+      },
+      "discord": "mayotrain69",
+      "discord_current": true,
+      "discord_aliases": [
+        "mayotrain69"
+      ],
+      "discord_ids": [],
+      "name": "Boss man",
+      "profile_ids": [
+        "1357"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1357",
+          "name": "Boss man",
+          "party": "gop",
+          "state": "West Virginia",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1044",
       "conservative_scorecard": {
         "user_id": "p1044",
@@ -62391,7 +62577,7 @@
           "135877470137221120"
         ],
         "party": "ind",
-        "state": "Alaska",
+        "state": "North Dakota",
         "chambers": [
           "Other"
         ],
@@ -62401,7 +62587,7 @@
             "profile_id": "1055",
             "name": "Caleb Travinski",
             "party": "ind",
-            "state": "Alaska",
+            "state": "North Dakota",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
             "is_main": true,
@@ -62462,7 +62648,7 @@
           "profile_id": "1055",
           "name": "Caleb Travinski",
           "party": "ind",
-          "state": "Alaska",
+          "state": "North Dakota",
           "is_main": true,
           "on_site": true
         },
@@ -73357,8 +73543,8 @@
         "discord_ids": [
           "1287952630173138974"
         ],
-        "party": "grn",
-        "state": "Colorado",
+        "party": "cst",
+        "state": "Alabama",
         "chambers": [
           "Other",
           "Senate"
@@ -73368,8 +73554,8 @@
           {
             "profile_id": "1049",
             "name": "Tate reeves",
-            "party": "grn",
-            "state": "Colorado",
+            "party": "cst",
+            "state": "Alabama",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/6f99beb538be66713e5daa44665915eb.webp",
             "is_main": true,
@@ -73378,7 +73564,7 @@
           {
             "profile_id": "1056",
             "name": "Benjamin Netanyahu",
-            "party": "grn",
+            "party": "cst",
             "state": "Hawaii",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/6f99beb538be66713e5daa44665915eb.webp",
@@ -73388,8 +73574,8 @@
           {
             "profile_id": "1211",
             "name": "Ron Desantis",
-            "party": "grn",
-            "state": "Alaska",
+            "party": "cst",
+            "state": "Louisiana",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/6f99beb538be66713e5daa44665915eb.webp",
             "is_main": false,
@@ -73594,15 +73780,15 @@
         {
           "profile_id": "1049",
           "name": "Tate reeves",
-          "party": "grn",
-          "state": "Colorado",
+          "party": "cst",
+          "state": "Alabama",
           "is_main": true,
           "on_site": true
         },
         {
           "profile_id": "1056",
           "name": "Benjamin Netanyahu",
-          "party": "grn",
+          "party": "cst",
           "state": "Hawaii",
           "is_main": false,
           "on_site": true
@@ -73610,8 +73796,8 @@
         {
           "profile_id": "1211",
           "name": "Ron Desantis",
-          "party": "grn",
-          "state": "Alaska",
+          "party": "cst",
+          "state": "Louisiana",
           "is_main": false,
           "on_site": true
         }
@@ -103268,8 +103454,8 @@
           "first_seen": "2026-10-20"
         }
       ],
-      "party": "grn",
-      "state": "Colorado",
+      "party": "cst",
+      "state": "Alabama",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -104105,7 +104291,7 @@
         }
       ],
       "party": "ind",
-      "state": "Alaska",
+      "state": "North Dakota",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -104143,7 +104329,7 @@
           "first_seen": "2026-10-20"
         }
       ],
-      "party": "grn",
+      "party": "cst",
       "state": "Hawaii",
       "is_main": false,
       "on_site": true,
@@ -134016,8 +134202,8 @@
           "first_seen": "2026-10-20"
         }
       ],
-      "party": "grn",
-      "state": "Alaska",
+      "party": "cst",
+      "state": "Louisiana",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -146270,6 +146456,68 @@
       ],
       "party": "grn",
       "state": "Maryland",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1356",
+      "player_id": "p1356",
+      "name": "Jack Marques",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "Virginia",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1357",
+      "player_id": "p1357",
+      "name": "Boss man",
+      "discord": "mayotrain69",
+      "discord_id": "",
+      "discord_history": [
+        {
+          "discord": "mayotrain69",
+          "discord_id": "",
+          "first_seen": "2026-10-21"
+        }
+      ],
+      "party": "gop",
+      "state": "West Virginia",
       "is_main": true,
       "on_site": true,
       "counts": {

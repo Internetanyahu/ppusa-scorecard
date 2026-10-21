@@ -1162,8 +1162,8 @@
     "player_id": "p1049",
     "name": "Tate reeves",
     "discord": "simariusv",
-    "party": "grn",
-    "state": "Colorado",
+    "party": "cst",
+    "state": "Alabama",
     "last_seen": "2026-10-21",
     "on_site": true,
     "discord_id": "1287952630173138974",
@@ -1307,7 +1307,7 @@
     "name": "Caleb Travinski",
     "discord": "mdmrn",
     "party": "ind",
-    "state": "Alaska",
+    "state": "North Dakota",
     "last_seen": "2026-10-21",
     "on_site": true,
     "discord_id": "135877470137221120",
@@ -1330,7 +1330,7 @@
     "player_id": "p1049",
     "name": "Benjamin Netanyahu",
     "discord": "simariusv",
-    "party": "grn",
+    "party": "cst",
     "state": "Hawaii",
     "last_seen": "2026-10-21",
     "on_site": true,
@@ -4914,8 +4914,8 @@
     "player_id": "p1049",
     "name": "Ron Desantis",
     "discord": "simariusv",
-    "party": "grn",
-    "state": "Alaska",
+    "party": "cst",
+    "state": "Louisiana",
     "last_seen": "2026-10-21",
     "on_site": true,
     "discord_id": "1287952630173138974",
@@ -8175,6 +8175,38 @@
     "discord_id": "769624078343995432",
     "party": "grn",
     "state": "Maryland",
+    "last_seen": "2026-10-21",
+    "on_site": true
+  },
+  "1356": {
+    "profile_id": "1356",
+    "player_id": "p1356",
+    "first_seen": "2026-10-21",
+    "discord_history": [],
+    "name": "Jack Marques",
+    "discord": "",
+    "discord_id": "",
+    "party": "dem",
+    "state": "Virginia",
+    "last_seen": "2026-10-21",
+    "on_site": true
+  },
+  "1357": {
+    "profile_id": "1357",
+    "player_id": "p1357",
+    "first_seen": "2026-10-21",
+    "discord_history": [
+      {
+        "discord": "mayotrain69",
+        "discord_id": "",
+        "first_seen": "2026-10-21"
+      }
+    ],
+    "name": "Boss man",
+    "discord": "mayotrain69",
+    "discord_id": "",
+    "party": "gop",
+    "state": "West Virginia",
     "last_seen": "2026-10-21",
     "on_site": true
   }
