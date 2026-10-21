@@ -1,44 +1,13 @@
 {
-  "version": 1,
+  "version": 3,
   "default_set": "conservative",
+  "auth": {
+    "master": {"salt":"b01ed7afed75cf3c8e22b18d6be47b6c","iterations":600000,"hash":"0b65b7c7e9895e21d6d8f8a025ef60401289f36d03f82617bd4dafb03852422e"},
+    "sets": {"conservative":{"salt":"849658dc5f0efdde41d8b710716e0347","iterations":600000,"hash":"9d1b53c3434301b9fae213d3c7960650adf36091a619beeb0071a356c69cd14f"},"states-rights":{"salt":"efd3c50a1df09bef89c608d8b96fb943","iterations":600000,"hash":"f4c46ea8ed715fa2a02d7f5227facee3b91832ce0a4cca18802c64c4afa51af7"}},
+    "vault":{"version":1,"algorithm":"AES-256-GCM","kdf":"PBKDF2-SHA256","iterations":600000,"salt":"f3534fe012140155dae11b8041a114c6","iv":"8580489540be201a4a3be407","ciphertext":"490649565808becf5dec7a8d6f75a097c5ab4518ac6f12914c7575bad60fd3d50992c3d04a7350f0f0ed6174fa9bb38009cf5b2d1268b066eb3338dbe5b7626fb0a21832ffd32756e16bcbb41c9343d43ad0cebe3a42a504bca48a2ed6c2e901cf944f7f33d20a9b089e5f9c945d8b"}
+  },
   "sets": [
-    {
-      "id": "conservative",
-      "name": "Conservative Scorecard",
-      "description": "The site's original conservative policy index.",
-      "strategy": "conservative",
-      "owner_name": "PPUSA Conservative",
-      "owner_player_id": "",
-      "category_names": {
-        "social": "Social",
-        "economic": "Economic",
-        "foreign": "Foreign"
-      },
-      "ideology_labels": {
-        "social": ["Mega Woke", "Woke", "Wokelite", "Left-Leaning", "Moderate", "Right-Leaning", "Chudlite", "Chud", "Giga Chud"],
-        "economic": ["Communist", "Socialist", "Progressive", "Social Democrat", "Mixed-Market", "Center-Right", "Conservative", "Lite-Libertarian", "True Libertarian"],
-        "foreign": ["Warhawk", "Neocon", "Lite Neocon", "Interventionist", "Moderate", "Hemispherist", "Contra", "Patriot", "Gigapatriot"]
-      },
-      "provision_overrides": {}
-    },
-    {
-      "id": "states-rights",
-      "name": "State's Rights Index",
-      "description": "Prioritizes moving decisions from Washington to the states and reducing federal spending. Individual provisions can be overridden in the admin editor.",
-      "strategy": "states_rights",
-      "owner_name": "",
-      "owner_player_id": "",
-      "category_names": {
-        "social": "Federalism",
-        "economic": "Federal Spending",
-        "foreign": "National Power"
-      },
-      "ideology_labels": {
-        "social": ["Centralist", "Nationalist", "Federal-First", "Mixed", "Localist", "State-First", "State Sovereigntist", "10th Amendment", "Max State Power"],
-        "economic": ["Big Federal", "Federal Spender", "Federalist", "Mixed", "Fiscal Localist", "Spending Cutter", "Lean Federal", "Minimal Federal", "Zero-Based Federal"],
-        "foreign": ["Globalist", "Interventionist", "Federal Projection", "Mixed", "Hemispheric", "Defensive", "Noninterventionist", "Strict Defense", "No Foreign Spending"]
-      },
-      "provision_overrides": {}
-    }
+    {"id":"conservative","name":"Conservative Scorecard","description":"The site's original conservative policy index.","strategy":"conservative","owner_name":"PPUSA Conservative","owner_player_id":"","category_names":{"social":"Social","economic":"Economic","foreign":"Foreign"},"ideology_labels":{"social":["Mega Woke","Woke","Wokelite","Left-Leaning","Moderate","Right-Leaning","Chudlite","Chud","Giga Chud"],"economic":["Communist","Socialist","Progressive","Social Democrat","Mixed-Market","Center-Right","Conservative","Lite-Libertarian","True Libertarian"],"foreign":["Warhawk","Neocon","Lite Neocon","Interventionist","Moderate","Hemispherist","Contra","Patriot","Gigapatriot"]},"provision_overrides":{}},
+    {"id":"states-rights","name":"State's Rights Index","description":"Prioritizes moving decisions from Washington to the states and reducing federal spending. Individual provisions can be overridden in the admin editor.","strategy":"states_rights","owner_name":"","owner_player_id":"","category_names":{"social":"Federalism","economic":"Federal Spending","foreign":"National Power"},"ideology_labels":{"social":["Centralist","Nationalist","Federal-First","Mixed","Localist","State-First","State Sovereigntist","10th Amendment","Max State Power"],"economic":["Big Federal","Federal Spender","Federalist","Mixed","Fiscal Localist","Spending Cutter","Lean Federal","Minimal Federal","Zero-Based Federal"],"foreign":["Globalist","Interventionist","Federal Projection","Mixed","Hemispheric","Defensive","Noninterventionist","Strict Defense","No Foreign Spending"]},"provision_overrides":{}}
   ]
 }
