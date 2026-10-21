@@ -1,12 +1,12 @@
+import asyncio
 import json
 import os
 import re
 import sys
-import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from playwright.sync_api import sync_playwright
+from playwright.async_api import async_playwright
 
 BASE_URL = "https://powerplayusa.net"
 BILLS_FILE = Path("bills.json")
@@ -20,6 +20,7 @@ TAIL_MISSES = 10      # ...and after this many when scanning past the highest kn
 DELAY = 1.0           # seconds between requests (avoids being bounced to login)
 HARD_CAP = 5000       # safety net so a bug can never loop forever
 SAVE_EVERY = 25
+CONCURRENCY = int(os.environ.get("SCRAPER_CONCURRENCY", "10"))  # pages scraped at once
 
 # Identifies this scraper so the site owner can allow it. The "Mozilla/5.0
 # (compatible; ...)" shape keeps simple browser-integrity checks happy.
@@ -273,15 +274,18 @@ def build_bill(raw, resolution_id):
     }
 
 
-def scrape_bill(page, resolution_id):
+ERROR = object()  # a fetch that raised: neither a bill nor a miss
+
+
+async def scrape_bill(page, resolution_id):
     """Return a bill dict, or None if the page is the login page / missing."""
-    page.goto(
+    await page.goto(
         f"{BASE_URL}/resolutions/{resolution_id}",
         wait_until="domcontentloaded",
         timeout=60000,
     )
     try:
-        page.wait_for_function(
+        await page.wait_for_function(
             "() => [...document.querySelectorAll('h4')]"
             ".some(h => /about this bill/i.test(h.textContent))",
             timeout=15000,
@@ -291,18 +295,46 @@ def scrape_bill(page, resolution_id):
 
     raw = None
     if "/login" not in page.url:
-        raw = page.evaluate(EXTRACT_JS)
+        raw = await page.evaluate(EXTRACT_JS)
 
     if not raw or not raw.get("found"):
-        print(f"  (url={page.url!r} title={page.title()!r})")
+        print(f"  [{resolution_id}] (url={page.url!r} title={await page.title()!r})")
         if raw:
-            print(f"  h4s={raw.get('h4s')} text={raw.get('snippet')!r}")
+            print(f"  [{resolution_id}] h4s={raw.get('h4s')} text={raw.get('snippet')!r}")
         return None
 
     return build_bill(raw, resolution_id)
 
 
-def main():
+async def fetch(pool, resolution_id):
+    """Scrape one bill using a free page from the pool. Returns bill, None or ERROR."""
+    page = await pool.get()
+    try:
+        bill = await scrape_bill(page, resolution_id)
+        if bill is None:  # one retry: a rate-limit bounce looks like a miss
+            await asyncio.sleep(3)
+            bill = await scrape_bill(page, resolution_id)
+        await asyncio.sleep(DELAY)  # per page, so total rate is about CONCURRENCY / DELAY
+        return bill
+    except Exception as error:  # network errors are not "end of bills"
+        print(f"  ERROR on {resolution_id}: {error}")
+        return ERROR
+    finally:
+        pool.put_nowait(page)
+
+
+def chunks(items, size):
+    items = list(items)
+    for start in range(0, len(items), size):
+        yield items[start:start + size]
+
+
+def save_all(bills, links):
+    save_json(BILLS_FILE, [bills[k] for k in sorted(bills)])
+    save_json(LINKS_FILE, dict(sorted(links.items(), key=lambda kv: int(kv[0]))))
+
+
+async def main():
     only = [int(a) for a in sys.argv[1:] if a.isdigit()]  # e.g. python bills.py 2
 
     stored = load_json(BILLS_FILE, [])
@@ -317,86 +349,89 @@ def main():
 
     max_known = max(bills) if bills else 0
     if only:
-        ids = only
+        refresh = [r for r in only if str(r) not in links]
     else:
-        # Known bills that are not finalized yet (their status can still change),
-        # then anything newer than the highest ID we have ever seen.
-        unfinished = sorted(r for r in bills if str(r) not in links)
-        ids = unfinished + list(range(max_known + 1, HARD_CAP))
+        # Known bills that are not finalized yet (their status can still change).
+        refresh = sorted(r for r in bills if str(r) not in links)
+    skipped = len(links) if not only else len(only) - len(refresh)
     print(f"Finalized links on file: {len(links)} (never revisited)")
-    print(f"Unfinished bills to refresh: {sum(1 for r in ids if r <= max_known and str(r) not in links)}")
+    print(f"Bills to refresh: {len(refresh)}  |  pages at once: {CONCURRENCY}")
 
-    scraped = skipped = 0
-    misses = 0
+    scraped = 0
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(user_agent=USER_AGENT)
+    def keep(resolution_id, bill):
+        nonlocal scraped
+        bills[resolution_id] = bill
+        scraped += 1
+        if bill.get("finalized"):
+            links[str(resolution_id)] = bill.get("url") or f"{BASE_URL}/resolutions/{resolution_id}"
+        tally = {
+            ch: {k: len(v) for k, v in bill["votes"][ch].items()}
+            for ch in ("senate", "house")
+        }
+        print(f"{bill['number'] or resolution_id}: {bill['title']} [{bill['status']}] {tally}")
+        for warning in bill["warnings"]:
+            print(f"  WARNING: {warning}")
+
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        context = await browser.new_context(user_agent=USER_AGENT)
 
         if SCRAPER_TOKEN:
-            def add_token(route, request):
+            async def add_token(route, request):
                 if request.url.startswith(BASE_URL):
-                    route.continue_(headers={**request.headers, TOKEN_HEADER: SCRAPER_TOKEN})
+                    await route.continue_(headers={**request.headers, TOKEN_HEADER: SCRAPER_TOKEN})
                 else:  # never leak the token to third-party hosts
-                    route.continue_()
-            page.route("**/*", add_token)
+                    await route.continue_()
+            await context.route("**/*", add_token)
             print(f"Sending {TOKEN_HEADER} to {BASE_URL}")
         else:
             print("SCRAPER_TOKEN is not set; sending no identification header")
 
+        pool = asyncio.Queue()
+        for _ in range(CONCURRENCY):
+            pool.put_nowait(await context.new_page())
+
+        async def run(batch):
+            results = await asyncio.gather(*(fetch(pool, r) for r in batch))
+            return dict(zip(batch, results))
+
         try:
-            for resolution_id in ids:
-                # Finalized: archived link, never rescraped.
-                if str(resolution_id) in links:
-                    skipped += 1
-                    continue
-                is_new = resolution_id > max_known
-
-                try:
-                    bill = scrape_bill(page, resolution_id)
-                    if bill is None:  # one retry: a rate-limit bounce looks like a miss
-                        time.sleep(3)
-                        bill = scrape_bill(page, resolution_id)
-                except Exception as error:
-                    print(f"  ERROR on {resolution_id}: {error}")
-                    continue  # network errors are not "end of bills"
-                time.sleep(DELAY)
-
-                if bill is None:
-                    if not is_new:
-                        # A known bill that did not load this time (rate limit or
-                        # block page): keep the stored copy, do not end the scan.
-                        print(f"Could not refresh {resolution_id}; keeping stored copy")
+            # Phase 1: refresh known, unfinished bills (a miss here is not the end of the list).
+            for batch in chunks(refresh, SAVE_EVERY):
+                results = await run(batch)
+                for rid in batch:
+                    bill = results[rid]
+                    if bill is ERROR:
                         continue
-                    misses += 1
-                    limit = TAIL_MISSES if max_known else MAX_MISSES
-                    print(f"No bill at {resolution_id} ({misses}/{limit})")
-                    if not only and misses >= limit:
-                        break
-                    continue
+                    if bill is None:
+                        print(f"Could not refresh {rid}; keeping stored copy")
+                        continue
+                    keep(rid, bill)
+                save_all(bills, links)
 
-                misses = 0
-                bills[resolution_id] = bill
-                scraped += 1
-                if bill.get("finalized"):
-                    links[str(resolution_id)] = bill.get("url") or f"{BASE_URL}/resolutions/{resolution_id}"
-
-                tally = {
-                    ch: {k: len(v) for k, v in bill["votes"][ch].items()}
-                    for ch in ("senate", "house")
-                }
-                print(
-                    f"{bill['number'] or resolution_id}: {bill['title']} "
-                    f"[{bill['status']}] {tally}"
-                )
-                for warning in bill["warnings"]:
-                    print(f"  WARNING: {warning}")
-
-                if scraped % SAVE_EVERY == 0:
-                    save_json(BILLS_FILE, [bills[k] for k in sorted(bills)])
-                    save_json(LINKS_FILE, dict(sorted(links.items(), key=lambda kv: int(kv[0]))))
+            # Phase 2: look for new bills after the highest known ID.
+            if not only:
+                limit = TAIL_MISSES if max_known else MAX_MISSES
+                next_id, misses, done = max_known + 1, 0, False
+                while not done and next_id < HARD_CAP:
+                    batch = list(range(next_id, min(next_id + CONCURRENCY, HARD_CAP)))
+                    next_id += len(batch)
+                    results = await run(batch)
+                    for rid in batch:  # in ID order so the miss streak is right
+                        bill = results[rid]
+                        if bill is ERROR:
+                            continue
+                        if bill is None:
+                            misses += 1
+                            print(f"No bill at {rid} ({misses}/{limit})")
+                        else:
+                            misses = 0
+                            keep(rid, bill)
+                    done = misses >= limit
+                    save_all(bills, links)
         finally:
-            browser.close()
+            await browser.close()
 
     if not bills:
         print()
@@ -405,8 +440,7 @@ def main():
         print("block page means the site is rejecting the scraper.")
         sys.exit(1)
 
-    save_json(BILLS_FILE, [bills[k] for k in sorted(bills)])
-    save_json(LINKS_FILE, dict(sorted(links.items(), key=lambda kv: int(kv[0]))))
+    save_all(bills, links)
 
     print()
     print(f"Scraped: {scraped}")
@@ -416,4 +450,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
