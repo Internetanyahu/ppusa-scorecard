@@ -1,337 +1,367 @@
 'use strict';
-/* ---------------------------------------------------------------------------
-   Admin console. The access key is NOT stored here: only a salted PBKDF2-SHA256
-   verifier. To rotate the key run tools/make_admin_verifier.py and paste its
-   output over VERIFIER.
-   Note: this page is static, so the lock is a convenience gate. Changes only
-   take effect if you also hold a GitHub token with write access to the repo.
---------------------------------------------------------------------------- */
-const VERIFIER = {"salt":"f26d0b470221240e7dff7de5e56c581e","iterations":600000,"hash":"095031433fe8fbf8096a1ca8d815a4ede7d05dab03723278e8610b86a27f4505"};
-const REPO = {owner:'SK64HD', repo:'ppusa_conservative_scorecard', path:'scorecard_rules.json'};
-const CATS = ['social','economic','foreign'];
 
+/* Static admin editor for scorecard_sets_config.json. */
+const VERIFIER = {
+  salt: 'f26d0b470221240e7dff7de5e56c581e',
+  iterations: 600000,
+  hash: '095031433fe8fbf8096a1ca8d815a4ede7d05dab03723278e8610b86a27f4505'
+};
+const REPO = { owner: 'SK64HD', repo: 'ppusa_conservative_scorecard', path: 'scorecard_sets_config.json' };
+const CATS = ['social', 'economic', 'foreign'];
+const DIRS = [1, 0, -1];
 const $ = id => document.getElementById(id);
-const esc = v => String(v ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const esc = v => String(v ?? '').replace(/[&<>'"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;' }[c]));
 const norm = s => String(s || '').trim().toLowerCase().replace(/\s+/g, ' ');
-const hexToBytes = h => Uint8Array.from(h.match(/../g) || [], b => parseInt(b, 16));
-const bytesToHex = b => Array.from(b, x => x.toString(16).padStart(2, '0')).join('');
 const clone = o => JSON.parse(JSON.stringify(o));
 
-/* ------------------------------- lock screen ------------------------------ */
+const S = {
+  config: null,
+  data: null,
+  original: null,
+  selected: null,
+  provisions: [],
+  q: '',
+  token: ''
+};
+
 async function verify(secret) {
   const key = await crypto.subtle.importKey('raw', new TextEncoder().encode(secret.trim().toLowerCase()), 'PBKDF2', false, ['deriveBits']);
-  const bits = await crypto.subtle.deriveBits({name:'PBKDF2', hash:'SHA-256', salt:hexToBytes(VERIFIER.salt), iterations:VERIFIER.iterations}, key, 256);
-  return bytesToHex(new Uint8Array(bits)) === VERIFIER.hash;
+  const bits = await crypto.subtle.deriveBits({
+    name: 'PBKDF2',
+    hash: 'SHA-256',
+    salt: Uint8Array.from(VERIFIER.salt.match(/../g), x => parseInt(x, 16)),
+    iterations: VERIFIER.iterations
+  }, key, 256);
+  const got = Array.from(new Uint8Array(bits), x => x.toString(16).padStart(2, '0')).join('');
+  return got === VERIFIER.hash;
 }
 
-let fails = 0, coolUntil = 0;
-function initLock() {
-  const form = $('lockForm'), msg = $('lockMsg'), btn = $('unlockBtn'), input = $('secret');
-  form.addEventListener('submit', async e => {
-    e.preventDefault();
-    if (Date.now() < coolUntil || !input.value) return;
-    btn.disabled = true; msg.textContent = '';
-    let ok = false;
-    try { ok = await verify(input.value); }
-    catch (err) { msg.textContent = 'This page needs a secure (https) connection.'; btn.disabled = false; return; }
-    input.value = '';
-    if (ok) { fails = 0; startAdmin(); return; }
-    fails++;
-    const wait = Math.min(30000, 1000 * 2 ** (fails - 1));
-    coolUntil = Date.now() + wait;
-    const tick = () => {
-      const left = Math.ceil((coolUntil - Date.now()) / 1000);
-      if (left > 0) { msg.textContent = `Incorrect key. Try again in ${left}s.`; setTimeout(tick, 250); }
-      else { msg.textContent = 'Incorrect key.'; btn.disabled = false; input.focus(); }
-    };
-    tick();
-  });
+function slugify(value) {
+  return String(value || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 48) || `scorecard-${Date.now()}`;
 }
 
-/* --------------------------------- state ---------------------------------- */
-const S = {data:null, base:null, rules:null, baseCanon:'', provisions:[], ex:new Map(), baseEx:new Map(),
-           tab:'provisions', filter:'all', cat:'all', q:'', limit:300, token:''};
-
-function canon(rules) { const r = clone(rules); r.provision_rules = (r.provision_rules || []).slice().sort((a,b)=>norm(a.name)<norm(b.name)?-1:1); return JSON.stringify(r); }
-function serialize() {
-  const r = clone(S.rules);
-  r.provision_rules = [...S.ex.values()].sort((a,b)=>norm(a.name)<norm(b.name)?-1:1).map(x => ({id:x.id, name:x.name, direction:x.direction, category:x.direction===0?null:x.category, rationale:x.rationale||'', ...(x.confidence ? {confidence:x.confidence} : {})}));
-  return JSON.stringify(r, null, 2) + '\n';
+function setById(id) {
+  return S.config.sets.find(x => x.id === id);
 }
-function mapFrom(rules) { const m = new Map(); (rules.provision_rules || []).forEach(r => m.set(norm(r.name), {...r})); return m; }
 
-async function startAdmin() {
-  document.title = 'Scorecard rules';
-  $('app').innerHTML = '<main class="shell" style="padding:40px 0"><p class="muted">Loading rules and provisions…</p></main>';
-  try {
-    const [d, r] = await Promise.all(['../data/conservative_scorecard.json', '../data/scorecard_rules.json'].map(u => fetch(u, {cache:'no-store'}).then(x => { if (!x.ok) throw new Error(`${u}: HTTP ${x.status}`); return x.json(); })));
-    S.data = d; S.rules = r; S.rules.calibrated_rules ||= []; S.rules.general_rules ||= []; S.rules.provision_rules ||= [];
-    S.base = clone(S.rules); S.baseCanon = canon(S.rules);
-    S.ex = mapFrom(S.rules); S.baseEx = mapFrom(S.rules);
-    buildProvisions(); renderShell();
-  } catch (err) {
-    $('app').innerHTML = `<main class="shell" style="padding:40px 0"><div class="empty">Could not load data: ${esc(err.message)}</div></main>`;
+function selectedSet() {
+  return setById(S.selected);
+}
+
+function ensureShape(set) {
+  set.id ||= slugify(set.name);
+  set.name ||= set.id;
+  set.description ||= '';
+  set.strategy ||= 'conservative';
+  set.owner_name ||= '';
+  set.owner_player_id ||= '';
+  set.category_names ||= {};
+  CATS.forEach(c => { set.category_names[c] ||= c[0].toUpperCase() + c.slice(1); });
+  set.ideology_labels ||= {};
+  CATS.forEach(c => { set.ideology_labels[c] = Array.isArray(set.ideology_labels[c]) ? set.ideology_labels[c] : []; });
+  set.provision_overrides ||= {};
+  return set;
+}
+
+function defaultLabels() {
+  return {
+    social: ['Left 1','Left 2','Left 3','Left 4','Center','Right 6','Right 7','Right 8','Right 9'],
+    economic: ['Left 1','Left 2','Left 3','Left 4','Center','Right 6','Right 7','Right 8','Right 9'],
+    foreign: ['Left 1','Left 2','Left 3','Left 4','Center','Right 6','Right 7','Right 8','Right 9']
+  };
+}
+
+function currentDirection(set, name) {
+  const override = set.provision_overrides?.[norm(name)] || set.provision_overrides?.[name];
+  if (override) return Number(override.direction);
+  const generated = S.data?.sets?.find(x => x.id === set.id);
+  for (const bill of Object.values(generated?.bills || {})) {
+    const p = (bill.scorecard?.provisions || []).find(x => norm(x.name) === norm(name));
+    if (p) return Number(p.direction);
   }
+  return 0;
+}
+
+function currentAssignment(set, name) {
+  const override = set.provision_overrides?.[norm(name)] || set.provision_overrides?.[name];
+  if (override) return {
+    direction: Number(override.direction),
+    category: override.category || '',
+    rationale: override.rationale || '',
+    id: override.id || `SET-${slugify(name)}`
+  };
+  const generated = S.data?.sets?.find(x => x.id === set.id);
+  for (const bill of Object.values(generated?.bills || {})) {
+    const p = (bill.scorecard?.provisions || []).find(x => norm(x.name) === norm(name));
+    if (p) return { direction: Number(p.direction), category: p.category || '', rationale: p.rationale || '', id: p.rule_id || '' };
+  }
+  return { direction: 0, category: '', rationale: '', id: '' };
 }
 
 function buildProvisions() {
+  const set = selectedSet();
+  const generated = S.data?.sets?.find(x => x.id === set?.id);
   const map = new Map();
-  Object.values(S.data.bills || {}).forEach(b => {
-    const raw = b.provisions || [];
-    (b.scorecard?.provisions || []).forEach((p, i) => {
-      const name = String(p.name || '').trim(); if (!name) return;
-      const key = norm(name);
-      let e = map.get(key);
-      if (!e) { e = {key, name, bills:[], eff:p, sigs:new Set(), notes:null}; map.set(key, e); }
-      if (!e.bills.some(x => x.number === b.number)) e.bills.push({number:b.number, title:b.title});
-      e.sigs.add(`${p.scorable === false ? 0 : p.direction}|${p.category}`);
-      if (!e.notes && raw[i] && raw[i].name === p.name) e.notes = {notes:raw[i].notes, effects:raw[i].effects};
+  Object.values(generated?.bills || {}).forEach(b => {
+    (b.scorecard?.provisions || []).forEach(p => {
+      if (!p.name) return;
+      const key = norm(p.name);
+      if (!map.has(key)) map.set(key, { name: p.name, bills: new Set() });
+      map.get(key).bills.add(b.number || String(b.resolution_id));
     });
   });
-  (S.rules.provision_rules || []).forEach(r => {
-    const key = norm(r.name); if (!key || map.has(key)) return;
-    const dir = Number(r.direction);
-    map.set(key, {key, name:r.name, bills:[], conf:r.confidence || '', sigs:new Set(), notes:null,
-      eff:{direction:dir, category:r.category, rationale:r.rationale || '', rule_id:r.id, source:'explicit', scorable:dir !== 0}});
+  Object.keys(set?.provision_overrides || {}).forEach(key => {
+    if (!map.has(norm(key))) map.set(norm(key), { name: key, bills: new Set() });
   });
-  S.provisions = [...map.values()].sort((a,b) => a.key < b.key ? -1 : 1);
-  S.provisions.forEach((e, i) => e.idx = i);
+  S.provisions = [...map.values()].map(x => ({ ...x, bills: [...x.bills] })).sort((a,b) => a.name.localeCompare(b.name));
 }
 
-/* ------------------------------ provision rules --------------------------- */
-function view(e) {
-  const r = S.ex.get(e.key);
-  if (r) return {state:'explicit', direction:Number(r.direction), category:r.category, rationale:r.rationale || '', id:r.id};
-  const p = e.eff, dir = p.scorable === false ? 0 : Number(p.direction);
-  return {state:p.source === 'explicit' ? 'removed' : 'inherited', direction:dir, category:p.category, rationale:p.rationale || '', id:p.rule_id, source:p.source};
-}
-function newId(e) {
-  let h = 2166136261; for (const c of e.key) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619) >>> 0; }
-  return 'EXP-' + e.key.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 48) + '-' + h.toString(16).slice(0, 6);
-}
-function materialize(e) {
-  let r = S.ex.get(e.key); if (r) return r;
-  const v = view(e);
-  r = {id:newId(e), name:e.name, direction:v.direction, category:v.direction === 0 ? null : (v.category || 'social'), rationale:v.rationale};
-  S.ex.set(e.key, r); return r;
-}
-function setField(e, patch) {
-  const r = materialize(e);
-  Object.assign(r, patch);
-  if (r.direction === 0) r.category = null; else if (!CATS.includes(r.category)) r.category = 'social';
-}
-const isChanged = key => JSON.stringify(S.ex.get(key) || null) !== JSON.stringify(S.baseEx.get(key) || null);
-
-function rowHTML(e) {
-  const v = view(e), changed = isChanged(e.key);
-  const badge = v.state === 'explicit' ? '<span class="badge ok">Explicit rule</span>'
-    : v.state === 'removed' ? '<span class="badge warn">Rule removed · reverts on rebuild</span>'
-    : `<span class="badge todo">No explicit rule · ${esc(v.source || 'inherited')}${v.id ? ' · ' + esc(v.id) : ''}</span>`;
-  const d = v.direction;
-  const ctx = e.notes ? JSON.stringify(e.notes, null, 2) : '';
-  return `<div class="prow ${v.state === 'explicit' ? '' : 'inherited'} ${changed ? 'pending' : ''}" data-i="${e.idx}">
-    <div class="prow-top"><div><div class="prow-name">${esc(e.name)}</div>
-      <div class="prow-meta">${e.bills.length ? esc(e.bills.map(b => b.number).join(', ')) : 'Law on the books · no finalized bill uses this yet'}${e.conf === 'low' ? ' · <span class="err">low confidence — review</span>' : ''}${e.sigs.size > 1 ? ' · <span class="err">classified differently across bills</span>' : ''}${changed ? ' · <strong>unsaved change</strong>' : ''}</div></div>${badge}</div>
-    <div class="prow-controls">
-      <div><label>Conservative position</label><div class="seg" role="group">
-        <button type="button" data-act="dir" data-v="1" class="${d === 1 ? 'on pos' : ''}">+1 · Aye</button>
-        <button type="button" data-act="dir" data-v="-1" class="${d === -1 ? 'on neg' : ''}">−1 · Nay</button>
-        <button type="button" data-act="dir" data-v="0" class="${d === 0 ? 'on neu' : ''}">Neutral</button></div></div>
-      <div><label>Category</label><select data-act="cat" ${d === 0 ? 'disabled' : ''}>${CATS.map(c => `<option value="${c}" ${v.category === c ? 'selected' : ''}>${c[0].toUpperCase() + c.slice(1)}</option>`).join('')}</select></div>
-      <div><label>Rationale</label><input data-act="rat" type="text" value="${esc(v.rationale)}" placeholder="Why this position?"></div>
-    </div>
-    <div class="prow-foot">
-      ${v.state === 'explicit' ? '<button type="button" class="btn" data-act="reset">Remove explicit rule</button>' : '<button type="button" class="btn" data-act="lock">Make explicit</button>'}
-      ${ctx ? `<details class="ctx"><summary>Provision details</summary><pre>${esc(ctx)}</pre></details>` : ''}
-    </div></div>`;
+function changed() {
+  return JSON.stringify(S.config) !== JSON.stringify(S.original);
 }
 
-function filtered() {
-  const q = S.q.trim().toLowerCase();
-  return S.provisions.filter(e => {
-    const v = view(e);
-    if (q && !(e.key.includes(q) || e.bills.some(b => String(b.number).toLowerCase().includes(q)))) return false;
-    if (S.cat !== 'all' && (v.direction === 0 ? 'neutral' : v.category) !== S.cat) return false;
-    if (S.filter === 'uncovered') return v.state !== 'explicit';
-    if (S.filter === 'explicit') return v.state === 'explicit';
-    if (S.filter === 'neutral') return v.direction === 0;
-    if (S.filter === 'pending') return isChanged(e.key);
-    return true;
-  });
-}
-
-/* -------------------------------- pattern rules --------------------------- */
-function validRegex(p) { try { new RegExp(p, 'i'); return true; } catch { return false; } }
-function patternRows(group) {
-  return S.rules[group].map((r, i) => {
-    const b = S.base[group][i], changed = JSON.stringify(r) !== JSON.stringify(b);
-    const bad = changed && !validRegex(r.pattern);
-    const dir = Number(r.direction), cat = String(r.category || '').toLowerCase();
-    return `<div class="rrow ${changed ? 'pending' : ''}" data-g="${group}" data-i="${i}">
-      <h3>${esc(r.id)}${changed ? ' · <span class="muted">unsaved change</span>' : ''}</h3>
-      <div class="rrow-grid">
-        <div><label>Pattern (regex)</label><input data-f="pattern" class="${bad ? 'bad' : ''}" value="${esc(r.pattern)}">${bad ? '<div class="err">Invalid regular expression</div>' : ''}</div>
-        <div><label>Direction</label><select data-f="direction">${[1, -1, 0].map(d => `<option value="${d}" ${dir === d ? 'selected' : ''}>${d > 0 ? '+1' : d < 0 ? '−1' : '0'}</option>`).join('')}</select></div>
-        <div><label>Category</label><select data-f="category">${CATS.map(c => `<option value="${c}" ${cat === c ? 'selected' : ''}>${c[0].toUpperCase() + c.slice(1)}</option>`).join('')}</select></div>
-        <div><label>Rationale</label><input data-f="rationale" value="${esc(r.rationale || '')}"></div>
-      </div></div>`;
-  }).join('') || '<div class="empty">No rules in this group.</div>';
-}
-
-/* ------------------------------- diff + chrome ---------------------------- */
-function diff() {
-  const keys = new Set([...S.ex.keys(), ...S.baseEx.keys()]);
-  let added = 0, changed = 0, removed = 0;
-  keys.forEach(k => { const a = S.ex.get(k), b = S.baseEx.get(k); if (JSON.stringify(a || null) === JSON.stringify(b || null)) return; if (!b) added++; else if (!a) removed++; else changed++; });
-  let pattern = 0;
-  ['calibrated_rules', 'general_rules'].forEach(g => S.rules[g].forEach((r, i) => { if (JSON.stringify(r) !== JSON.stringify(S.base[g][i])) pattern++; }));
-  return {added, changed, removed, pattern, total:added + changed + removed + pattern};
-}
-function hasInvalid() { return ['calibrated_rules', 'general_rules'].some(g => S.rules[g].some((r, i) => JSON.stringify(r) !== JSON.stringify(S.base[g][i]) && !validRegex(r.pattern))); }
-function updateChrome() {
-  const covered = S.provisions.filter(e => S.ex.has(e.key)).length, d = diff();
-  $('stTotal').textContent = S.provisions.length; $('stCov').textContent = covered; $('stUn').textContent = S.provisions.length - covered; $('stPend').textContent = d.total;
-  $('pendText').textContent = d.total ? `${d.total} unsaved change${d.total === 1 ? '' : 's'} — ${d.added} new, ${d.changed} edited, ${d.removed} removed provision rules; ${d.pattern} pattern rule${d.pattern === 1 ? '' : 's'} edited` : 'No unsaved changes';
-  const dis = !d.total || hasInvalid();
-  ['dlBtn', 'pubBtn', 'discardBtn'].forEach(id => $(id).disabled = id === 'discardBtn' ? !d.total : dis);
-  document.querySelectorAll('[data-filter]').forEach(b => {
-    const f = b.dataset.filter, n = f === 'all' ? S.provisions.length : f === 'uncovered' ? S.provisions.length - covered : f === 'explicit' ? covered : f === 'neutral' ? S.provisions.filter(e => view(e).direction === 0).length : S.provisions.filter(e => isChanged(e.key)).length;
-    b.textContent = `${b.dataset.label} (${n})`;
-  });
-}
-
-/* --------------------------------- shell ---------------------------------- */
-function renderShell() {
-  $('app').innerHTML = `
-  <header class="adm-head"><div class="shell"><p class="eyebrow">ADMIN</p><h1>Scorecard rules</h1>
-    <p>Every provision on a finalized bill, plus every law and amendment in the game's code, is listed below with its own rule. An explicit rule always overrides pattern rules and fallbacks. Changes are saved to <code>${esc(REPO.path)}</code> and the scorecard rebuilds automatically.</p></div></header>
-  <main class="shell">
-    <section class="adm-stats">
-      <div class="hero-card"><span class="hero-label">Provisions</span><strong id="stTotal">—</strong></div>
-      <div class="hero-card"><span class="hero-label">With explicit rule</span><strong id="stCov">—</strong></div>
-      <div class="hero-card"><span class="hero-label">Without explicit rule</span><strong id="stUn">—</strong></div>
-      <div class="hero-card"><span class="hero-label">Unsaved changes</span><strong id="stPend">—</strong></div>
-    </section>
-    <div class="adm-tabs"><button class="toggle" data-tab="provisions">Provisions</button><button class="toggle" data-tab="patterns">Pattern rules</button></div>
-    <div id="tabProv">
-      <section class="adm-filters panel">
-        <div><label for="q">Search provision or bill</label><input id="q" type="search" placeholder="e.g. H-1B, HR 12…"></div>
-        <div><label for="catF">Category</label><select id="catF"><option value="all">All</option><option value="social">Social</option><option value="economic">Economic</option><option value="foreign">Foreign</option><option value="neutral">Neutral</option></select></div>
-        <div style="align-self:end"><button class="btn" id="bulkBtn" type="button" style="width:100%">Make every provision explicit</button></div>
+function render() {
+  const root = $('app');
+  const set = selectedSet();
+  if (!set) return;
+  ensureShape(set);
+  buildProvisions();
+  root.innerHTML = `
+    <header class="adm-head"><div class="shell">
+      <p class="eyebrow">PPUSA-SCORECARD ADMIN</p>
+      <h1>Scorecard sets</h1>
+      <p>Create, rename and configure independent scorecards. Each set has its own policy direction, category names and ideology labels. Published changes are stored in <code>${esc(REPO.path)}</code>.</p>
+    </div></header>
+    <main class="shell set-admin">
+      <section class="set-manager panel">
+        <div class="set-manager-head">
+          <div><h2>Scorecard sets</h2><p class="note">Add a set now; later it can be assigned to a party leader with the owner fields.</p></div>
+          <button class="btn primary" id="addSet">Add scorecard set</button>
+        </div>
+        <div class="set-list">
+          ${S.config.sets.map(s => `
+            <button type="button" class="set-card ${s.id === S.selected ? 'active' : ''}" data-select-set="${esc(s.id)}">
+              <strong>${esc(s.name)}</strong><span>${esc(s.strategy)}</span>${s.owner_name ? `<small>Owner: ${esc(s.owner_name)}</small>` : '<small>No owner assigned</small>'}
+            </button>
+          `).join('')}
+        </div>
       </section>
-      <div class="chips-row">${[['all','All'],['uncovered','No explicit rule'],['explicit','Explicit'],['neutral','Neutral'],['pending','Unsaved']].map(([f, l]) => `<button class="toggle" data-filter="${f}" data-label="${l}"></button>`).join('')}</div>
-      <div id="plist"></div>
-    </div>
-    <div id="tabPat" hidden>
-      <p class="note" style="margin-bottom:14px">Pattern rules apply to provisions that have no explicit rule. Calibrated rules match the provision name; general rules match name, notes and effect metrics. Direction 0 on a calibrated rule means “use the fallback classifier”. Use Neutral on a provision to exclude it from scoring.</p>
-      <h2 style="font-size:20px;margin:0 0 10px">Calibrated rules</h2><div id="pCal"></div>
-      <h2 style="font-size:20px;margin:22px 0 10px">General rules</h2><div id="pGen"></div>
-    </div>
-  </main>
-  <div class="actionbar"><div class="shell"><span id="pendText" class="muted"></span>
-    <div class="btns"><button class="btn danger" id="discardBtn">Discard changes</button><button class="btn" id="dlBtn">Download JSON</button><button class="btn primary" id="pubBtn">Publish to GitHub</button></div></div></div>
-  <dialog id="pubDlg" class="dialog"><button class="dialog-close" data-close aria-label="Close">×</button>
-    <div class="pad"><h2 style="font-size:22px">Publish rules</h2>
-      <p class="note">Commits <code>${esc(REPO.path)}</code> directly to the repository. The token stays in this tab’s memory only and is discarded when you close or reload the page. Use a fine-grained token limited to this repository with <strong>Contents: Read and write</strong>.</p>
-      <div class="row2"><div><label for="pOwner">Owner</label><input id="pOwner"></div><div><label for="pRepo">Repository</label><input id="pRepo"></div></div>
-      <div><label for="pTok">GitHub token</label><input id="pTok" type="password" autocomplete="off" spellcheck="false"></div>
-      <div><label for="pMsg">Commit message</label><input id="pMsg" value="Update scorecard rules (admin)"></div>
-      <div id="pStatus" class="status" role="status"></div>
-      <div><button class="btn primary" id="pGo">Commit changes</button></div></div></dialog>`;
-  $('pOwner').value = REPO.owner; $('pRepo').value = REPO.repo;
-  wire(); showTab('provisions'); renderList(); renderPatterns(); updateChrome();
-  window.addEventListener('beforeunload', ev => { if (diff().total) { ev.preventDefault(); ev.returnValue = ''; } });
+
+      <section class="panel set-editor">
+        <div class="editor-head"><div><p class="eyebrow">SELECTED SET</p><h2>${esc(set.name)}</h2></div><div class="set-actions"><button class="btn danger" id="deleteSet">Delete set</button></div></div>
+        <div class="rrow-grid set-fields">
+          <div><label>Set name</label><input id="setName" value="${esc(set.name)}"></div>
+          <div><label>Set ID</label><input id="setId" value="${esc(set.id)}" ${set.id === 'conservative' || set.id === 'states-rights' ? 'disabled' : ''}></div>
+          <div><label>Base strategy</label><select id="setStrategy"><option value="conservative" ${set.strategy === 'conservative' ? 'selected' : ''}>Conservative</option><option value="states_rights" ${set.strategy === 'states_rights' ? 'selected' : ''}>State's Rights</option></select></div>
+          <div><label>Owner / party leader</label><input id="setOwner" value="${esc(set.owner_name)}" placeholder="Future party leader"></div>
+        </div>
+        <div><label>Description</label><textarea id="setDescription">${esc(set.description)}</textarea></div>
+        <div class="rrow-grid category-fields">
+          ${CATS.map(c => `<div><label>${esc(c)} category name</label><input data-cat-name="${c}" value="${esc(set.category_names[c])}"></div>`).join('')}
+        </div>
+
+        <h3>Ideology labels</h3>
+        <p class="note">Enter exactly 9 labels per category, from 0–10 through 90–100. These labels are unique to this set.</p>
+        <div class="labels-grid">
+          ${CATS.map(c => `<div><label>${esc(c)}</label><textarea data-labels="${c}">${esc((set.ideology_labels[c] || []).join(', '))}</textarea></div>`).join('')}
+        </div>
+
+        <div class="provision-editor">
+          <div class="provision-head"><div><h3>Provision assignments</h3><p class="note">A set override replaces its base strategy for that provision. Neutral (0) is allowed and is excluded from scoring.</p></div><input id="provisionSearch" type="search" placeholder="Search provisions or bill number"></div>
+          <div id="provisionList"></div>
+        </div>
+      </section>
+    </main>
+    <div class="actionbar"><div class="shell"><span class="muted">${changed() ? 'Unsaved changes' : 'No unsaved changes'}</span><div class="btns"><button class="btn" id="discard">Discard</button><button class="btn" id="download">Download JSON</button><button class="btn primary" id="publish">Publish to GitHub</button></div></div></div>
+    <dialog id="pubDlg" class="dialog"><button class="dialog-close" data-close aria-label="Close">×</button><div class="pad"><h2>Publish scorecard sets</h2><p class="note">Use a fine-grained GitHub token with Contents: Read and write on this repository. The token is kept only in this tab.</p><div class="row2"><div><label>Owner</label><input id="pOwner" value="${esc(REPO.owner)}"></div><div><label>Repository</label><input id="pRepo" value="${esc(REPO.repo)}"></div></div><div><label>GitHub token</label><input id="pTok" type="password" autocomplete="off"></div><div><label>Commit message</label><input id="pMsg" value="Update scorecard sets"></div><div id="pStatus" class="status"></div><button class="btn primary" id="pGo">Commit changes</button></div></dialog>
+  `;
+  wire();
+  renderProvisions();
 }
 
-function showTab(t) {
-  S.tab = t; $('tabProv').hidden = t !== 'provisions'; $('tabPat').hidden = t !== 'patterns';
-  document.querySelectorAll('[data-tab]').forEach(b => b.classList.toggle('active', b.dataset.tab === t));
+function renderProvisions() {
+  const set = selectedSet();
+  const q = String(S.q || '').trim().toLowerCase();
+  const list = S.provisions.filter(p => !q || norm(p.name).includes(q) || p.bills.some(b => String(b).toLowerCase().includes(q)));
+  $('provisionList').innerHTML = list.map((p, i) => {
+    const a = currentAssignment(set, p.name);
+    const isOverride = !!(set.provision_overrides?.[norm(p.name)] || set.provision_overrides?.[p.name]);
+    return `<div class="prow ${isOverride ? 'pending' : 'inherited'}" data-provision="${esc(p.name)}">
+      <div class="prow-top"><div><div class="prow-name">${esc(p.name)}</div><div class="prow-meta">${esc(p.bills.join(', '))} · ${isOverride ? 'Set override' : 'Inherited from strategy'}</div></div><span class="badge ${isOverride ? 'ok' : 'todo'}">${isOverride ? 'Override' : 'Inherited'}</span></div>
+      <div class="prow-controls">
+        <div><label>Direction</label><div class="seg">${DIRS.map(d => `<button type="button" data-dir="${d}" class="${a.direction === d ? (d > 0 ? 'on pos' : d < 0 ? 'on neg' : 'on neu') : ''}">${d > 0 ? '+1' : d < 0 ? '−1' : '0'}</button>`).join('')}</div></div>
+        <div><label>Category</label><select data-field="category" ${a.direction === 0 ? 'disabled' : ''}>${CATS.map(c => `<option value="${c}" ${a.category === c ? 'selected' : ''}>${esc(set.category_names[c])}</option>`).join('')}</select></div>
+        <div><label>Rationale</label><input data-field="rationale" value="${esc(a.rationale)}" placeholder="Why this position?"></div>
+      </div>
+      <div class="prow-foot"><button class="btn" type="button" data-clear>Clear override</button><span class="note">Rule: ${esc(a.id || 'strategy')}</span></div>
+    </div>`;
+  }).join('') || '<div class="empty">No provisions match.</div>';
+
+  $('provisionList').querySelectorAll('[data-provision]').forEach(row => {
+    const name = row.dataset.provision;
+    row.querySelectorAll('[data-dir]').forEach(btn => btn.addEventListener('click', () => updateOverride(name, { direction: Number(btn.dataset.dir) })));
+    row.querySelector('[data-field="category"]')?.addEventListener('change', e => updateOverride(name, { category: e.target.value }));
+    row.querySelector('[data-field="rationale"]')?.addEventListener('change', e => updateOverride(name, { rationale: e.target.value }));
+    row.querySelector('[data-clear]')?.addEventListener('click', () => {
+      delete selectedSet().provision_overrides[norm(name)];
+      render();
+    });
+  });
 }
-function renderList() {
-  const list = filtered(), shown = list.slice(0, S.limit);
-  $('plist').innerHTML = (shown.map(rowHTML).join('') || '<div class="empty">Nothing matches the current filters.</div>')
-    + (list.length > shown.length ? `<div style="text-align:center"><button class="btn" id="moreBtn">Show ${list.length - shown.length} more</button></div>` : '');
-  document.querySelectorAll('[data-filter]').forEach(b => b.classList.toggle('active', b.dataset.filter === S.filter));
+
+function updateOverride(name, patch) {
+  const set = selectedSet();
+  const key = norm(name);
+  const current = currentAssignment(set, name);
+  const next = { id: current.id || `SET-${slugify(name)}`, name, direction: current.direction, category: current.category || 'social', rationale: current.rationale || '' , ...patch };
+  next.direction = Number(next.direction);
+  if (![1,0,-1].includes(next.direction)) next.direction = 0;
+  if (next.direction === 0) next.category = null;
+  set.provision_overrides[key] = next;
+  render();
 }
-function renderPatterns() { $('pCal').innerHTML = patternRows('calibrated_rules'); $('pGen').innerHTML = patternRows('general_rules'); }
 
 function wire() {
-  document.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => showTab(b.dataset.tab)));
-  document.querySelectorAll('[data-filter]').forEach(b => b.addEventListener('click', () => { S.filter = b.dataset.filter; S.limit = 300; renderList(); }));
-  $('q').addEventListener('input', e => { S.q = e.target.value; S.limit = 300; renderList(); });
-  $('catF').addEventListener('change', e => { S.cat = e.target.value; S.limit = 300; renderList(); });
-  $('bulkBtn').addEventListener('click', () => {
-    const todo = S.provisions.filter(e => !S.ex.has(e.key));
-    if (!todo.length) { alert('Every provision already has an explicit rule.'); return; }
-    if (!confirm(`Create an explicit rule for ${todo.length} provision${todo.length === 1 ? '' : 's'}, locking in how each is classified today?`)) return;
-    todo.forEach(materialize); renderList(); updateChrome();
+  $('addSet').addEventListener('click', () => {
+    const base = defaultLabels();
+    const name = `New Scorecard ${S.config.sets.length + 1}`;
+    let id = slugify(name);
+    while (setById(id)) id += '-2';
+    const set = ensureShape({ id, name, description: '', strategy: 'conservative', owner_name: '', owner_player_id: '', category_names: { social:'Social', economic:'Economic', foreign:'Foreign' }, ideology_labels: base, provision_overrides: {} });
+    S.config.sets.push(set);
+    S.selected = id;
+    render();
   });
-  const plist = $('plist');
-  plist.addEventListener('click', ev => {
-    if (ev.target.id === 'moreBtn') { S.limit += 300; renderList(); return; }
-    const btn = ev.target.closest('[data-act]'); if (!btn) return;
-    const row = btn.closest('.prow'), e = S.provisions[Number(row.dataset.i)];
-    if (btn.dataset.act === 'dir') setField(e, {direction:Number(btn.dataset.v)});
-    else if (btn.dataset.act === 'lock') materialize(e);
-    else if (btn.dataset.act === 'reset') S.ex.delete(e.key);
-    else return;
-    row.outerHTML = rowHTML(e); updateChrome();
+  document.querySelectorAll('[data-select-set]').forEach(btn => btn.addEventListener('click', () => { S.selected = btn.dataset.selectSet; render(); }));
+  $('deleteSet').addEventListener('click', () => {
+    if (S.config.sets.length <= 1) return alert('At least one scorecard set must remain.');
+    if (!confirm(`Delete "${selectedSet().name}"?`)) return;
+    S.config.sets = S.config.sets.filter(x => x.id !== selectedSet().id);
+    if (S.config.default_set === selectedSet()?.id) S.config.default_set = S.config.sets[0].id;
+    S.selected = S.config.sets[0].id;
+    render();
   });
-  plist.addEventListener('change', ev => {
-    const t = ev.target, act = t.dataset.act; if (act !== 'cat' && act !== 'rat') return;
-    const row = t.closest('.prow'), e = S.provisions[Number(row.dataset.i)];
-    setField(e, act === 'cat' ? {category:t.value} : {rationale:t.value});
-    row.outerHTML = rowHTML(e); updateChrome();
+  $('setName').addEventListener('input', e => { selectedSet().name = e.target.value; updateHeaderOnly(); });
+  $('setId').addEventListener('change', e => {
+    const old = selectedSet().id;
+    const id = slugify(e.target.value);
+    if (!id || setById(id)) { e.target.value = old; return; }
+    selectedSet().id = id;
+    if (S.config.default_set === old) S.config.default_set = id;
+    S.selected = id;
+    render();
   });
-  $('tabPat').addEventListener('change', ev => {
-    const t = ev.target, f = t.dataset.f; if (!f) return;
-    const row = t.closest('.rrow'), r = S.rules[row.dataset.g][Number(row.dataset.i)];
-    r[f] = f === 'direction' ? Number(t.value) : t.value;
-    renderPatterns(); updateChrome();
-  });
-  $('discardBtn').addEventListener('click', () => {
-    if (!confirm('Discard all unsaved changes?')) return;
-    S.rules = clone(S.base); S.ex = mapFrom(S.base); renderList(); renderPatterns(); updateChrome();
-  });
-  $('dlBtn').addEventListener('click', () => {
-    const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([serialize()], {type:'application/json'}));
-    a.download = 'scorecard_rules.json'; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
-  });
-  $('pubBtn').addEventListener('click', () => { $('pStatus').textContent = ''; $('pStatus').className = 'status'; $('pubDlg').showModal(); });
+  $('setStrategy').addEventListener('change', e => { selectedSet().strategy = e.target.value; render(); });
+  $('setOwner').addEventListener('input', e => { selectedSet().owner_name = e.target.value; updateHeaderOnly(); });
+  $('setDescription').addEventListener('input', e => { selectedSet().description = e.target.value; updateHeaderOnly(); });
+  document.querySelectorAll('[data-cat-name]').forEach(el => el.addEventListener('input', e => { selectedSet().category_names[e.target.dataset.catName] = e.target.value; }));
+  document.querySelectorAll('[data-labels]').forEach(el => el.addEventListener('change', e => { selectedSet().ideology_labels[e.target.dataset.labels] = e.target.value.split(',').map(x => x.trim()).filter(Boolean).slice(0, 9); }));
+  $('provisionSearch').addEventListener('input', e => { S.q = e.target.value; renderProvisions(); });
+  $('discard').addEventListener('click', () => { if (confirm('Discard all unsaved changes?')) { S.config = clone(S.original); S.selected = S.config.default_set; render(); } });
+  $('download').addEventListener('click', download);
+  $('publish').addEventListener('click', () => $('pubDlg').showModal());
   $('pubDlg').querySelector('[data-close]').addEventListener('click', () => $('pubDlg').close());
   $('pGo').addEventListener('click', publish);
 }
 
-/* -------------------------------- publishing ------------------------------ */
-const b64enc = text => { const bytes = new TextEncoder().encode(text); let s = ''; for (let i = 0; i < bytes.length; i += 8192) s += String.fromCharCode(...bytes.subarray(i, i + 8192)); return btoa(s); };
+function updateHeaderOnly() {
+  const h = document.querySelector('.set-editor h2');
+  if (h) h.textContent = selectedSet().name;
+}
+
+function download() {
+  const blob = new Blob([JSON.stringify(S.config, null, 2) + '\n'], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'scorecard_sets_config.json';
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+const b64enc = text => {
+  const bytes = new TextEncoder().encode(text);
+  let out = '';
+  for (let i = 0; i < bytes.length; i += 8192) out += String.fromCharCode(...bytes.subarray(i, i + 8192));
+  return btoa(out);
+};
 const b64dec = b64 => new TextDecoder().decode(Uint8Array.from(atob(b64.replace(/\s/g, '')), c => c.charCodeAt(0)));
 
 async function publish() {
-  const st = $('pStatus'), go = $('pGo'), owner = $('pOwner').value.trim(), repo = $('pRepo').value.trim(), token = $('pTok').value.trim();
-  const say = (t, cls = '') => { st.textContent = t; st.className = 'status ' + cls; };
-  if (!owner || !repo || !token) { say('Owner, repository and token are required.', 'fail'); return; }
-  go.disabled = true; say('Checking the repository…');
+  const status = $('pStatus');
+  const owner = $('pOwner').value.trim();
+  const repo = $('pRepo').value.trim();
+  const token = $('pTok').value.trim();
+  if (!owner || !repo || !token) { status.textContent = 'Owner, repository and token are required.'; status.className = 'status fail'; return; }
+  if (!S.config.sets.length) { status.textContent = 'At least one set is required.'; status.className = 'status fail'; return; }
+  if (!S.config.default_set || !setById(S.config.default_set)) S.config.default_set = S.config.sets[0].id;
+  for (const set of S.config.sets) {
+    ensureShape(set);
+    for (const cat of CATS) {
+      if (set.ideology_labels[cat].length !== 9) { status.textContent = `${set.name}: ${cat} needs exactly 9 ideology labels.`; status.className = 'status fail'; return; }
+    }
+  }
   const api = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/contents/${REPO.path}`;
-  const h = {Authorization:`Bearer ${token}`, Accept:'application/vnd.github+json', 'X-GitHub-Api-Version':'2022-11-28'};
+  const headers = { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
+  status.textContent = 'Checking repository…'; status.className = 'status';
   try {
-    const cur = await fetch(api, {headers:h, cache:'no-store'});
-    if (cur.status === 401 || cur.status === 403) throw new Error('GitHub rejected the token (needs Contents: Read and write on this repository).');
+    const cur = await fetch(api, { headers, cache: 'no-store' });
     if (!cur.ok) throw new Error(`Could not read ${REPO.path} (HTTP ${cur.status}).`);
     const meta = await cur.json();
-    if (!meta.content) throw new Error('GitHub did not return the file contents.');
-    const remote = JSON.parse(b64dec(meta.content)); remote.provision_rules ||= [];
-    if (canon(remote) !== S.baseCanon) throw new Error('The rules file on GitHub changed since you opened this page. Reload the page and redo your edits so nothing is overwritten.');
-    say('Committing…');
-    const put = await fetch(api, {method:'PUT', headers:{...h, 'Content-Type':'application/json'}, body:JSON.stringify({message:$('pMsg').value.trim() || 'Update scorecard rules (admin)', content:b64enc(serialize()), sha:meta.sha})});
-    if (put.status === 409) throw new Error('Conflict: the file changed while saving. Reload and try again.');
+    const remote = JSON.parse(b64dec(meta.content));
+    if (JSON.stringify(remote) !== JSON.stringify(S.original)) throw new Error('The config changed on GitHub since this page loaded. Reload the admin page before publishing.');
+    status.textContent = 'Committing…';
+    const put = await fetch(api, { method: 'PUT', headers: { ...headers, 'Content-Type': 'application/json' }, body: JSON.stringify({ message: $('pMsg').value.trim() || 'Update scorecard sets', content: b64enc(JSON.stringify(S.config, null, 2) + '\n'), sha: meta.sha }) });
     if (!put.ok) throw new Error(`Commit failed (HTTP ${put.status}): ${(await put.json().catch(() => ({}))).message || ''}`);
-    const res = await put.json();
-    S.base = clone(S.rules); S.base.provision_rules = [...S.ex.values()].map(x => ({...x})); S.rules.provision_rules = clone(S.base.provision_rules);
-    S.baseEx = new Map([...S.ex].map(([k, v]) => [k, {...v}])); S.baseCanon = canon(JSON.parse(serialize()));
-    $('pTok').value = ''; renderList(); renderPatterns(); updateChrome();
-    say(`Saved. Commit ${String(res.commit?.sha || '').slice(0, 7)}: ${res.commit?.html_url || ''}\nThe scorecard rebuild starts automatically; updated scores appear on the site in a few minutes.`, 'ok');
-  } catch (err) { say(err.message, 'fail'); }
-  finally { go.disabled = false; }
+    S.original = clone(S.config);
+    $('pTok').value = '';
+    status.textContent = 'Published. The scorecard workflow will rebuild the generated data from this config.';
+    status.className = 'status ok';
+    render();
+  } catch (error) {
+    status.textContent = error.message || String(error);
+    status.className = 'status fail';
+  }
 }
 
-initLock();
+async function start() {
+  $('app').innerHTML = '<main class="shell" style="padding:40px 0"><p class="muted">Loading scorecard configuration…</p></main>';
+  try {
+    const [config, data] = await Promise.all([
+      fetch('../data/scorecard_sets_config.json', { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error(`Config HTTP ${r.status}`); return r.json(); }),
+      fetch('../data/scorecard_sets.json', { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error(`Generated data HTTP ${r.status}`); return r.json(); })
+    ]);
+    S.config = config;
+    S.data = data;
+    S.config.sets.forEach(ensureShape);
+    S.original = clone(S.config);
+    S.selected = S.config.default_set || S.config.sets[0]?.id;
+    render();
+  } catch (error) {
+    $('app').innerHTML = `<main class="shell" style="padding:40px 0"><div class="empty">Could not load admin data: ${esc(error.message)}</div></main>`;
+  }
+}
+
+function initLock() {
+  const form = $('lockForm');
+  if (!form) return start();
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    const msg = $('lockMsg');
+    const btn = $('unlockBtn');
+    btn.disabled = true;
+    msg.textContent = '';
+    try {
+      if (await verify($('secret').value)) {
+        start();
+        return;
+      }
+      msg.textContent = 'Incorrect key.';
+    } catch (error) {
+      msg.textContent = error.message || 'Could not verify key.';
+    }
+    btn.disabled = false;
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initLock);
