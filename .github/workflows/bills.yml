@@ -28,7 +28,9 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Run bill scraper
-        run: python scraper/bills.py
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python -u scraper/bills.py
 
       - name: Save bills
         run: |
