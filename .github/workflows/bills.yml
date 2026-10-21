@@ -30,6 +30,7 @@ jobs:
       - name: Run bill scraper
         env:
           PYTHONUNBUFFERED: "1"
+          SCRAPER_TOKEN: ${{ secrets.SCRAPER_TOKEN }}
         run: python -u scraper/bills.py
 
       - name: Save bills

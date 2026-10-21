@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import sys
 import time
@@ -20,11 +21,16 @@ DELAY = 1.0           # seconds between requests (avoids being bounced to login)
 HARD_CAP = 5000       # safety net so a bug can never loop forever
 SAVE_EVERY = 25
 
+# Identifies this scraper so the site owner can allow it. The "Mozilla/5.0
+# (compatible; ...)" shape keeps simple browser-integrity checks happy.
 USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/154.0.0.0 Safari/537.36"
+    "Mozilla/5.0 (compatible; PPUSA-Scorecard-Bot/1.0; "
+    "+https://github.com/SK64HD/ppusa_conservative_scorecard)"
 )
+# Shared secret sent only to powerplayusa.net (from the SCRAPER_TOKEN repo
+# secret) so a firewall rule can allow exactly this scraper.
+TOKEN_HEADER = "X-PPUSA-Scorecard-Token"
+SCRAPER_TOKEN = os.environ.get("SCRAPER_TOKEN", "").strip()
 
 # Runs inside the page. Returns raw data; Python does the cleanup.
 EXTRACT_JS = r"""
@@ -326,6 +332,17 @@ def main():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page(user_agent=USER_AGENT)
+
+        if SCRAPER_TOKEN:
+            def add_token(route, request):
+                if request.url.startswith(BASE_URL):
+                    route.continue_(headers={**request.headers, TOKEN_HEADER: SCRAPER_TOKEN})
+                else:  # never leak the token to third-party hosts
+                    route.continue_()
+            page.route("**/*", add_token)
+            print(f"Sending {TOKEN_HEADER} to {BASE_URL}")
+        else:
+            print("SCRAPER_TOKEN is not set; sending no identification header")
 
         try:
             for resolution_id in ids:
