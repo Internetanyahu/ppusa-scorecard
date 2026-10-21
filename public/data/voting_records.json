@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T03:25:01+00:00",
+  "generated_at": "2026-10-21T11:13:54+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -771,7 +771,7 @@
     {
       "type": "player",
       "id": "p1058",
-      "label": "jethronie (Francine Schakowsky)",
+      "label": "jethronie (Judith Harman)",
       "aliases": [
         "jethronie"
       ],
@@ -2506,12 +2506,6 @@
     },
     {
       "type": "profile",
-      "id": "1058",
-      "label": "Francine Schakowsky (1058)",
-      "player_id": "p1058"
-    },
-    {
-      "type": "profile",
       "id": "1292",
       "label": "FRANCIS (1292)",
       "player_id": "p1291"
@@ -2917,6 +2911,12 @@
       "id": "1205",
       "label": "Joshua McKoon (1205)",
       "player_id": "p1007"
+    },
+    {
+      "type": "profile",
+      "id": "1058",
+      "label": "Judith Harman (1058)",
+      "player_id": "p1058"
     },
     {
       "type": "profile",
@@ -18776,7 +18776,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1353248676398501938/a14936a657059c280732cd5a79ddab95.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1353248676398501938/a_a202bc614a593777b1e53dd33c8032d5.gif",
         "profiles": [
           {
             "profile_id": "1332",
@@ -18784,7 +18784,7 @@
             "party": "dem",
             "state": "Massachusetts",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1353248676398501938/a14936a657059c280732cd5a79ddab95.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1353248676398501938/a_a202bc614a593777b1e53dd33c8032d5.gif",
             "is_main": true,
             "on_site": true
           }
@@ -44522,7 +44522,7 @@
             "profile_id": "1096",
             "name": "John Patsalos",
             "party": "cst",
-            "state": "New York",
+            "state": "Florida",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/637807494764429332/d85e02113b2e0d1ef5d0e31b61eba06d.webp",
             "is_main": false,
@@ -45578,7 +45578,7 @@
           "profile_id": "1096",
           "name": "John Patsalos",
           "party": "cst",
-          "state": "New York",
+          "state": "Florida",
           "is_main": false,
           "on_site": true
         },
@@ -49099,7 +49099,7 @@
       "conservative_scorecard": {
         "user_id": "p1058",
         "player_id": "p1058",
-        "name": "Francine Schakowsky",
+        "name": "Judith Harman",
         "discord": "jethronie",
         "discord_ids": [
           "877674076506820618"
@@ -49113,7 +49113,7 @@
         "profiles": [
           {
             "profile_id": "1058",
-            "name": "Francine Schakowsky",
+            "name": "Judith Harman",
             "party": "dem",
             "state": "Missouri",
             "chamber": "Other",
@@ -49165,7 +49165,7 @@
       "discord_ids": [
         "877674076506820618"
       ],
-      "name": "Francine Schakowsky",
+      "name": "Judith Harman",
       "profile_ids": [
         "1058",
         "1072",
@@ -49174,7 +49174,7 @@
       "profiles": [
         {
           "profile_id": "1058",
-          "name": "Francine Schakowsky",
+          "name": "Judith Harman",
           "party": "dem",
           "state": "Missouri",
           "is_main": true,
@@ -104492,7 +104492,7 @@
     {
       "profile_id": "1058",
       "player_id": "p1058",
-      "name": "Francine Schakowsky",
+      "name": "Judith Harman",
       "discord": "jethronie",
       "discord_id": "877674076506820618",
       "discord_history": [
@@ -114666,7 +114666,7 @@
         }
       ],
       "party": "cst",
-      "state": "New York",
+      "state": "Florida",
       "is_main": false,
       "on_site": true,
       "counts": {

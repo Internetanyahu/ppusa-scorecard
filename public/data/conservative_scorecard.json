@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T03:25:01+00:00",
+  "generated_at": "2026-10-21T11:13:54+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -39547,7 +39547,7 @@
           "profile_id": "1096",
           "name": "John Patsalos",
           "party": "cst",
-          "state": "New York",
+          "state": "Florida",
           "chamber": "House",
           "avatar": "https://cdn.discordapp.com/avatars/637807494764429332/d85e02113b2e0d1ef5d0e31b61eba06d.webp",
           "is_main": false,
@@ -59318,7 +59318,7 @@
       "chambers": [
         "Other"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/1353248676398501938/a14936a657059c280732cd5a79ddab95.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/1353248676398501938/a_a202bc614a593777b1e53dd33c8032d5.gif",
       "profiles": [
         {
           "profile_id": "1332",
@@ -59326,7 +59326,7 @@
           "party": "dem",
           "state": "Massachusetts",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1353248676398501938/a14936a657059c280732cd5a79ddab95.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1353248676398501938/a_a202bc614a593777b1e53dd33c8032d5.gif",
           "is_main": true,
           "on_site": true
         }
@@ -60838,67 +60838,6 @@
       "eligible_for_grade": false
     },
     {
-      "user_id": "p1058",
-      "player_id": "p1058",
-      "name": "Francine Schakowsky",
-      "discord": "jethronie",
-      "discord_ids": [
-        "877674076506820618"
-      ],
-      "party": "dem",
-      "state": "Missouri",
-      "chambers": [
-        "Other"
-      ],
-      "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
-      "profiles": [
-        {
-          "profile_id": "1058",
-          "name": "Francine Schakowsky",
-          "party": "dem",
-          "state": "Missouri",
-          "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
-          "is_main": true,
-          "on_site": true
-        },
-        {
-          "profile_id": "1072",
-          "name": "Gretchen Whitmer",
-          "party": "dem",
-          "state": "Wisconsin",
-          "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
-          "is_main": false,
-          "on_site": true
-        },
-        {
-          "profile_id": "1237",
-          "name": "Kristi Noem",
-          "party": "dem",
-          "state": "South Dakota",
-          "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
-          "is_main": false,
-          "on_site": true
-        }
-      ],
-      "scores": {
-        "social": null,
-        "economic": null,
-        "foreign": null,
-        "overall": null,
-        "tier": "N/A"
-      },
-      "sample_size": {},
-      "aligned_votes": {},
-      "provisions_scored": 0,
-      "aligned_provisions": 0,
-      "finalized_bills_voted": 0,
-      "bill_details": [],
-      "eligible_for_grade": false
-    },
-    {
       "user_id": "p1325",
       "player_id": "p1325",
       "name": "George Papadopoulos",
@@ -61812,6 +61751,67 @@
           "chamber": "House"
         }
       ],
+      "eligible_for_grade": false
+    },
+    {
+      "user_id": "p1058",
+      "player_id": "p1058",
+      "name": "Judith Harman",
+      "discord": "jethronie",
+      "discord_ids": [
+        "877674076506820618"
+      ],
+      "party": "dem",
+      "state": "Missouri",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
+      "profiles": [
+        {
+          "profile_id": "1058",
+          "name": "Judith Harman",
+          "party": "dem",
+          "state": "Missouri",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
+          "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1072",
+          "name": "Gretchen Whitmer",
+          "party": "dem",
+          "state": "Wisconsin",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1237",
+          "name": "Kristi Noem",
+          "party": "dem",
+          "state": "South Dakota",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {},
+      "aligned_votes": {},
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
       "eligible_for_grade": false
     },
     {
