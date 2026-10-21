@@ -1,4 +1,4 @@
-name: Compile Conservative Scorecard
+name: Compile PPUSA-SCORECARD
 
 on:
   push:
@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   scorecard:
-    name: Compile user scorecards
+    name: Compile PPUSA-SCORECARD
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -47,7 +47,7 @@ jobs:
         run: python scraper/build_history.py
       - name: Normalize editable scorecard rules
         run: python scraper/normalize_scorecard_rules.py
-      - name: Compile conservative scorecard, pending bills, and decay
+      - name: Compile PPUSA-SCORECARD data
         run: python scraper/scorecard.py
       - name: Build all configurable scorecard sets
         run: python scraper/build_scorecard_sets.py
@@ -112,7 +112,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add players.json player_index.json legislative_history.json voting_records.json conservative_scorecard.json scorecard_sets.json scorecard_sets_config.json scorecard_rules.json identity_review.json scorecard_review.json game_time.json public/data public/share
-          git diff --cached --quiet || git commit -m "Update scorecard sets"
+          git diff --cached --quiet || git commit -m "Update PPUSA-SCORECARD"
           git pull --rebase
           git push
       - name: Configure Pages
