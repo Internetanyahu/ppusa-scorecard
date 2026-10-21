@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:26:47+00:00",
+  "generated_at": "2026-10-21T23:34:01+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
