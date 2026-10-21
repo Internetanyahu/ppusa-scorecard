@@ -8209,5 +8209,24 @@
     "state": "West Virginia",
     "last_seen": "2026-10-21",
     "on_site": true
+  },
+  "1358": {
+    "profile_id": "1358",
+    "player_id": "p1088",
+    "first_seen": "2026-10-21",
+    "discord_history": [
+      {
+        "discord": "kmfan91_35425",
+        "discord_id": "1412134134158987527",
+        "first_seen": "2026-10-21"
+      }
+    ],
+    "name": "Dannii Minogue",
+    "discord": "kmfan91_35425",
+    "discord_id": "1412134134158987527",
+    "party": "dem",
+    "state": "New Jersey",
+    "last_seen": "2026-10-21",
+    "on_site": true
   }
 }

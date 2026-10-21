@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:20:25+00:00",
+  "generated_at": "2026-10-21T23:11:48+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -1014,7 +1014,8 @@
       ],
       "profile_ids": [
         "1088",
-        "1090"
+        "1090",
+        "1358"
       ]
     },
     {
@@ -2289,6 +2290,12 @@
       "id": "1010",
       "label": "Daniel mercer (1010)",
       "player_id": "p1010"
+    },
+    {
+      "type": "profile",
+      "id": "1358",
+      "label": "Dannii Minogue (1358)",
+      "player_id": "p1088"
     },
     {
       "type": "profile",
@@ -56831,6 +56838,16 @@
             "avatar": "https://cdn.discordapp.com/avatars/1412134134158987527/f75940f823105fcc0c92c56c72d080f9.webp",
             "is_main": false,
             "on_site": true
+          },
+          {
+            "profile_id": "1358",
+            "name": "Dannii Minogue",
+            "party": "dem",
+            "state": "New Jersey",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1412134134158987527/f75940f823105fcc0c92c56c72d080f9.webp",
+            "is_main": false,
+            "on_site": true
           }
         ],
         "scores": {
@@ -57114,7 +57131,8 @@
       "name": "Kylie Minogue",
       "profile_ids": [
         "1088",
-        "1090"
+        "1090",
+        "1358"
       ],
       "profiles": [
         {
@@ -57130,6 +57148,14 @@
           "name": "Stephanie McMahon",
           "party": "dem",
           "state": "Connecticut",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1358",
+          "name": "Dannii Minogue",
+          "party": "dem",
+          "state": "New Jersey",
           "is_main": false,
           "on_site": true
         }
@@ -146519,6 +146545,40 @@
       "party": "gop",
       "state": "West Virginia",
       "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1358",
+      "player_id": "p1088",
+      "name": "Dannii Minogue",
+      "discord": "kmfan91_35425",
+      "discord_id": "1412134134158987527",
+      "discord_history": [
+        {
+          "discord": "kmfan91_35425",
+          "discord_id": "1412134134158987527",
+          "first_seen": "2026-10-21"
+        }
+      ],
+      "party": "dem",
+      "state": "New Jersey",
+      "is_main": false,
       "on_site": true,
       "counts": {
         "bills": 0,

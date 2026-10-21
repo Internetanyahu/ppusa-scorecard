@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:20:25+00:00",
+  "generated_at": "2026-10-21T23:11:48+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -57418,6 +57418,16 @@
           "party": "dem",
           "state": "Connecticut",
           "chamber": "Senate",
+          "avatar": "https://cdn.discordapp.com/avatars/1412134134158987527/f75940f823105fcc0c92c56c72d080f9.webp",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1358",
+          "name": "Dannii Minogue",
+          "party": "dem",
+          "state": "New Jersey",
+          "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1412134134158987527/f75940f823105fcc0c92c56c72d080f9.webp",
           "is_main": false,
           "on_site": true
