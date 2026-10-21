@@ -45,6 +45,8 @@ jobs:
         run: python scraper/game_time.py
       - name: Rebuild user identity history
         run: python scraper/build_history.py
+      - name: Normalize editable scorecard rules
+        run: python scraper/normalize_scorecard_rules.py
       - name: Compile conservative scorecard, pending bills, and decay
         run: python scraper/scorecard.py
       - name: Build all configurable scorecard sets
@@ -67,17 +69,7 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          required = [
-              "bills.json",
-              "conservative_scorecard.json",
-              "scorecard_sets.json",
-              "scorecard_sets_config.json",
-              "legislative_history.json",
-              "players.json",
-              "scorecard_rules.json",
-              "voting_records.json",
-              "game_time.json",
-          ]
+          required = ["bills.json","conservative_scorecard.json","scorecard_sets.json","scorecard_sets_config.json","legislative_history.json","players.json","scorecard_rules.json","voting_records.json","game_time.json"]
           for name in required:
               path = Path("public/data") / name
               if not path.exists() or path.stat().st_size == 0:
@@ -92,56 +84,26 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-
-          for f in [
-              "bills.json",
-              "players.json",
-              "player_index.json",
-              "legislative_history.json",
-              "voting_records.json",
-              "conservative_scorecard.json",
-              "scorecard_sets.json",
-              "scorecard_sets_config.json",
-              "scorecard_review.json",
-              "game_time.json",
-          ]:
+          for f in ["bills.json","players.json","player_index.json","legislative_history.json","voting_records.json","conservative_scorecard.json","scorecard_sets.json","scorecard_sets_config.json","scorecard_review.json","game_time.json"]:
               json.loads(Path(f).read_text())
-
-          scorecard = json.loads(Path("conservative_scorecard.json").read_text())
-          sets = json.loads(Path("scorecard_sets.json").read_text())
-          config = json.loads(Path("scorecard_sets_config.json").read_text())
-
-          if not sets.get("sets"):
-              raise SystemExit("No scorecard sets were generated")
-          if not config.get("sets"):
-              raise SystemExit("No scorecard sets are configured")
-
-          share_root = Path("public/share")
-          if not share_root.exists():
-              raise SystemExit("Missing generated Discord share pages")
-          share_pages = list(share_root.glob("*/index.html"))
-          share_images = list(share_root.glob("*/scorecard.png"))
-          expected_players = [
-              p for p in scorecard.get("players", [])
-              if p.get("user_id") is not None or p.get("player_id") is not None
-          ]
-          if len(share_pages) != len(expected_players):
-              raise SystemExit(f"Expected {len(expected_players)} share pages, found {len(share_pages)}")
-          if len(share_images) != len(expected_players):
-              raise SystemExit(f"Expected {len(expected_players)} share images, found {len(share_images)}")
-
+          scorecard=json.loads(Path("conservative_scorecard.json").read_text())
+          sets=json.loads(Path("scorecard_sets.json").read_text())
+          config=json.loads(Path("scorecard_sets_config.json").read_text())
+          if not sets.get("sets"): raise SystemExit("No scorecard sets were generated")
+          if not config.get("sets"): raise SystemExit("No scorecard sets are configured")
+          share_root=Path("public/share")
+          if not share_root.exists(): raise SystemExit("Missing generated Discord share pages")
+          share_pages=list(share_root.glob("*/index.html")); share_images=list(share_root.glob("*/scorecard.png"))
+          expected_players=[p for p in scorecard.get("players",[]) if p.get("user_id") is not None or p.get("player_id") is not None]
+          if len(share_pages)!=len(expected_players): raise SystemExit(f"Expected {len(expected_players)} share pages, found {len(share_pages)}")
+          if len(share_images)!=len(expected_players): raise SystemExit(f"Expected {len(expected_players)} share images, found {len(share_images)}")
           for set_data in sets["sets"]:
-              for bill in set_data.get("bills", {}).values():
-                  for provision in bill.get("scorecard", {}).get("provisions", []):
-                      direction = provision.get("direction")
-                      scorable = provision.get("scorable", True)
-                      if scorable is False and direction != 0:
-                          raise SystemExit(f"Neutral provision has non-zero direction in {set_data['id']}: {provision.get('name')}")
-                      if direction not in (-1, 0, 1):
-                          raise SystemExit(f"Invalid provision direction in {set_data['id']}: {provision.get('name')}")
-                      if scorable and direction not in (-1, 1):
-                          raise SystemExit(f"Scorable provision must be +1 or -1 in {set_data['id']}: {provision.get('name')}")
-
+              for bill in set_data.get("bills",{}).values():
+                  for provision in bill.get("scorecard",{}).get("provisions",[]):
+                      direction=provision.get("direction"); scorable=provision.get("scorable",True)
+                      if scorable is False and direction != 0: raise SystemExit(f"Neutral provision has non-zero direction in {set_data['id']}: {provision.get('name')}")
+                      if direction not in (-1,0,1): raise SystemExit(f"Invalid provision direction in {set_data['id']}: {provision.get('name')}")
+                      if scorable and direction not in (-1,1): raise SystemExit(f"Scorable provision must be +1 or -1 in {set_data['id']}: {provision.get('name')}")
           print(f"Validated {len(expected_players)} player previews and {len(sets['sets'])} scorecard sets.")
           print("Neutral provisions are allowed and excluded from scoring.")
           PY
