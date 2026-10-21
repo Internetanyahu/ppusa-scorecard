@@ -1,14 +1,14 @@
-.lock-wrap{min-height:100vh;display:grid;place-items:center;padding:20px}
-.lock{width:min(420px,100%);padding:22px;display:grid;gap:12px}
+.lock-wrap{min-height:100vh;display:grid;place-items:center;padding:20px;background:#000;color:#fff}
+.lock{width:min(420px,100%);padding:22px;display:grid;gap:12px;background:#000;color:#fff;border:1px solid #333;border-radius:12px}
 .lock-msg{min-height:1.3em;margin:0;color:var(--negative);font-size:13px}
-.btn{border:1px solid var(--border);background:var(--surface2);color:var(--text);border-radius:9px;padding:10px 14px;font-weight:700}
-.btn:hover:not(:disabled){border-color:#465466}
+.btn{border:1px solid #444;background:#111;color:#fff;border-radius:9px;padding:10px 14px;font-weight:700}
+.btn:hover:not(:disabled){border-color:#777}
 .btn:disabled{opacity:.5;cursor:not-allowed}
-.btn.primary{background:#16314f;border-color:#3d6ba6}
+.btn.primary{background:#222;border-color:#666;color:#fff}
 .btn.danger{color:var(--negative)}
-.adm-head{background:#06090d;border-bottom:1px solid var(--border);padding:26px 0 18px}
-.adm-head h1{font-size:30px;margin:0 0 6px}
-.adm-head p{margin:0;color:#b9c4d1;max-width:820px;font-size:14px}
+.adm-head{background:#000;border-bottom:1px solid #333;padding:26px 0 18px}
+.adm-head h1{font-size:30px;margin:0 0 6px;color:#fff}
+.adm-head p{margin:0;color:#ccc;max-width:820px;font-size:14px}
 .adm-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0}
 .adm-tabs{display:flex;gap:8px;margin:0 0 14px}
 .adm-tabs .toggle{padding:9px 14px;font-weight:700}
@@ -42,7 +42,7 @@ details.ctx pre{white-space:pre-wrap;word-break:break-word;background:var(--surf
 .rrow h3{margin:0;font-size:14px}
 input.bad{border-color:var(--negative)}
 .err{color:var(--negative);font-size:12px}
-.actionbar{position:sticky;bottom:0;z-index:5;background:#0b1118ee;backdrop-filter:blur(6px);border-top:1px solid var(--border);padding:12px 0;margin-top:20px}
+.actionbar{position:sticky;bottom:0;z-index:5;background:#000;backdrop-filter:blur(6px);border-top:1px solid var(--border);padding:12px 0;margin-top:20px}
 .actionbar .shell{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
 .actionbar .btns{display:flex;gap:8px;flex-wrap:wrap}
 .pad{padding:24px;display:grid;gap:12px}
