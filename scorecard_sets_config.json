@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "default_set": "conservative",
+  "sets": [
+    {
+      "id": "conservative",
+      "name": "Conservative Scorecard",
+      "description": "The site's original conservative policy index.",
+      "strategy": "conservative",
+      "owner_name": "PPUSA Conservative",
+      "owner_player_id": "",
+      "category_names": {
+        "social": "Social",
+        "economic": "Economic",
+        "foreign": "Foreign"
+      },
+      "ideology_labels": {
+        "social": ["Mega Woke", "Woke", "Wokelite", "Left-Leaning", "Moderate", "Right-Leaning", "Chudlite", "Chud", "Giga Chud"],
+        "economic": ["Communist", "Socialist", "Progressive", "Social Democrat", "Mixed-Market", "Center-Right", "Conservative", "Lite-Libertarian", "True Libertarian"],
+        "foreign": ["Warhawk", "Neocon", "Lite Neocon", "Interventionist", "Moderate", "Hemispherist", "Contra", "Patriot", "Gigapatriot"]
+      },
+      "provision_overrides": {}
+    },
+    {
+      "id": "states-rights",
+      "name": "State's Rights Index",
+      "description": "Prioritizes moving decisions from Washington to the states and reducing federal spending. Individual provisions can be overridden in the admin editor.",
+      "strategy": "states_rights",
+      "owner_name": "",
+      "owner_player_id": "",
+      "category_names": {
+        "social": "Federalism",
+        "economic": "Federal Spending",
+        "foreign": "National Power"
+      },
+      "ideology_labels": {
+        "social": ["Centralist", "Nationalist", "Federal-First", "Mixed", "Localist", "State-First", "State Sovereigntist", "10th Amendment", "Max State Power"],
+        "economic": ["Big Federal", "Federal Spender", "Federalist", "Mixed", "Fiscal Localist", "Spending Cutter", "Lean Federal", "Minimal Federal", "Zero-Based Federal"],
+        "foreign": ["Globalist", "Interventionist", "Federal Projection", "Mixed", "Hemispheric", "Defensive", "Noninterventionist", "Strict Defense", "No Foreign Spending"]
+      },
+      "provision_overrides": {}
+    }
+  ]
+}
