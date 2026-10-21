@@ -9,9 +9,13 @@ from playwright.sync_api import sync_playwright
 
 BASE_URL = "https://powerplayusa.net"
 BILLS_FILE = Path("bills.json")
+# Ledger of finalized bills: {resolution_id: url}. A bill listed here is never
+# visited again, and the scan for new bills starts after the highest known ID.
+LINKS_FILE = Path("finalized_links.json")
 
 START_ID = 1
-MAX_MISSES = 40       # stop after this many consecutive login/missing pages
+MAX_MISSES = 40       # stop after this many consecutive misses when scanning from scratch
+TAIL_MISSES = 10      # ...and after this many when scanning past the highest known bill
 DELAY = 1.0           # seconds between requests (avoids being bounced to login)
 HARD_CAP = 5000       # safety net so a bug can never loop forever
 SAVE_EVERY = 25
@@ -298,6 +302,24 @@ def main():
     stored = load_json(BILLS_FILE, [])
     bills = {int(b["resolution_id"]): b for b in stored}
 
+    # Finalized-bill ledger. Seeded from bills.json so the first run after this
+    # change already knows every finalized bill.
+    links = {str(k): v for k, v in load_json(LINKS_FILE, {}).items()}
+    for rid, b in bills.items():
+        if b.get("finalized") and "provisions" in b:
+            links.setdefault(str(rid), b.get("url") or f"{BASE_URL}/resolutions/{rid}")
+
+    max_known = max(bills) if bills else 0
+    if only:
+        ids = only
+    else:
+        # Known bills that are not finalized yet (their status can still change),
+        # then anything newer than the highest ID we have ever seen.
+        unfinished = sorted(r for r in bills if str(r) not in links)
+        ids = unfinished + list(range(max_known + 1, HARD_CAP))
+    print(f"Finalized links on file: {len(links)} (never revisited)")
+    print(f"Unfinished bills to refresh: {sum(1 for r in ids if r <= max_known and str(r) not in links)}")
+
     scraped = skipped = 0
     misses = 0
 
@@ -306,16 +328,12 @@ def main():
         page = browser.new_page(user_agent=USER_AGENT)
 
         try:
-            ids = only or range(START_ID, HARD_CAP)
-
             for resolution_id in ids:
-                existing = bills.get(resolution_id)
-
-                # Law or failed: archived, never rescraped (once provisions are stored).
-                if existing and existing.get("finalized") and "provisions" in existing:
+                # Finalized: archived link, never rescraped.
+                if str(resolution_id) in links:
                     skipped += 1
-                    misses = 0
                     continue
+                is_new = resolution_id > max_known
 
                 try:
                     bill = scrape_bill(page, resolution_id)
@@ -328,15 +346,23 @@ def main():
                 time.sleep(DELAY)
 
                 if bill is None:
+                    if not is_new:
+                        # A known bill that did not load this time (rate limit or
+                        # block page): keep the stored copy, do not end the scan.
+                        print(f"Could not refresh {resolution_id}; keeping stored copy")
+                        continue
                     misses += 1
-                    print(f"No bill at {resolution_id} ({misses}/{MAX_MISSES})")
-                    if not only and misses >= MAX_MISSES:
+                    limit = TAIL_MISSES if max_known else MAX_MISSES
+                    print(f"No bill at {resolution_id} ({misses}/{limit})")
+                    if not only and misses >= limit:
                         break
                     continue
 
                 misses = 0
                 bills[resolution_id] = bill
                 scraped += 1
+                if bill.get("finalized"):
+                    links[str(resolution_id)] = bill.get("url") or f"{BASE_URL}/resolutions/{resolution_id}"
 
                 tally = {
                     ch: {k: len(v) for k, v in bill["votes"][ch].items()}
@@ -351,6 +377,7 @@ def main():
 
                 if scraped % SAVE_EVERY == 0:
                     save_json(BILLS_FILE, [bills[k] for k in sorted(bills)])
+                    save_json(LINKS_FILE, dict(sorted(links.items(), key=lambda kv: int(kv[0]))))
         finally:
             browser.close()
 
@@ -362,6 +389,7 @@ def main():
         sys.exit(1)
 
     save_json(BILLS_FILE, [bills[k] for k in sorted(bills)])
+    save_json(LINKS_FILE, dict(sorted(links.items(), key=lambda kv: int(kv[0]))))
 
     print()
     print(f"Scraped: {scraped}")
