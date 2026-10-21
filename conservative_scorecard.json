@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:42:28+00:00",
+  "generated_at": "2026-10-21T23:46:33+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -50863,17 +50863,15 @@
       "user_id": "p1046",
       "player_id": "p1046",
       "name": "Loki",
-      "discord": "yoitzdan",
-      "discord_ids": [
-        "535131333010391050"
-      ],
+      "discord": "",
+      "discord_ids": [],
       "party": "grn",
       "state": "New York",
       "chambers": [
         "Other",
         "Senate"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/535131333010391050/bb1d8127f50d9b31cb75e2c05bb7816a.webp",
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
       "profiles": [
         {
           "profile_id": "1046",
@@ -50881,7 +50879,7 @@
           "party": "grn",
           "state": "New York",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/535131333010391050/bb1d8127f50d9b31cb75e2c05bb7816a.webp",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": true,
           "on_site": true
         },
@@ -50891,7 +50889,7 @@
           "party": "grn",
           "state": "New York",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/535131333010391050/bb1d8127f50d9b31cb75e2c05bb7816a.webp",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": false,
           "on_site": true
         },
@@ -50901,7 +50899,7 @@
           "party": "grn",
           "state": "New Hampshire",
           "chamber": "Senate",
-          "avatar": "https://cdn.discordapp.com/avatars/535131333010391050/bb1d8127f50d9b31cb75e2c05bb7816a.webp",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": false,
           "on_site": true
         }
