@@ -1,6 +1,14 @@
 {
-  "version": 1,
+  "version": 2,
   "default_set": "conservative",
+  "auth": {
+    "master": {
+      "salt": "f26d0b470221240e7dff7de5e56c581e",
+      "iterations": 600000,
+      "hash": "095031433fe8fbf8096a1ca8d815a4ede7d05dab03723278e8610b86a27f4505"
+    },
+    "sets": {}
+  },
   "sets": [
     {
       "id": "conservative",
@@ -9,15 +17,11 @@
       "strategy": "conservative",
       "owner_name": "PPUSA Conservative",
       "owner_player_id": "",
-      "category_names": {
-        "social": "Social",
-        "economic": "Economic",
-        "foreign": "Foreign"
-      },
+      "category_names": {"social":"Social","economic":"Economic","foreign":"Foreign"},
       "ideology_labels": {
-        "social": ["Mega Woke", "Woke", "Wokelite", "Left-Leaning", "Moderate", "Right-Leaning", "Chudlite", "Chud", "Giga Chud"],
-        "economic": ["Communist", "Socialist", "Progressive", "Social Democrat", "Mixed-Market", "Center-Right", "Conservative", "Lite-Libertarian", "True Libertarian"],
-        "foreign": ["Warhawk", "Neocon", "Lite Neocon", "Interventionist", "Moderate", "Hemispherist", "Contra", "Patriot", "Gigapatriot"]
+        "social": ["Mega Woke","Woke","Wokelite","Left-Leaning","Moderate","Right-Leaning","Chudlite","Chud","Giga Chud"],
+        "economic": ["Communist","Socialist","Progressive","Social Democrat","Mixed-Market","Center-Right","Conservative","Lite-Libertarian","True Libertarian"],
+        "foreign": ["Warhawk","Neocon","Lite Neocon","Interventionist","Moderate","Hemispherist","Contra","Patriot","Gigapatriot"]
       },
       "provision_overrides": {}
     },
@@ -28,15 +32,11 @@
       "strategy": "states_rights",
       "owner_name": "",
       "owner_player_id": "",
-      "category_names": {
-        "social": "Federalism",
-        "economic": "Federal Spending",
-        "foreign": "National Power"
-      },
+      "category_names": {"social":"Federalism","economic":"Federal Spending","foreign":"National Power"},
       "ideology_labels": {
-        "social": ["Centralist", "Nationalist", "Federal-First", "Mixed", "Localist", "State-First", "State Sovereigntist", "10th Amendment", "Max State Power"],
-        "economic": ["Big Federal", "Federal Spender", "Federalist", "Mixed", "Fiscal Localist", "Spending Cutter", "Lean Federal", "Minimal Federal", "Zero-Based Federal"],
-        "foreign": ["Globalist", "Interventionist", "Federal Projection", "Mixed", "Hemispheric", "Defensive", "Noninterventionist", "Strict Defense", "No Foreign Spending"]
+        "social": ["Centralist","Nationalist","Federal-First","Mixed","Localist","State-First","State Sovereigntist","10th Amendment","Max State Power"],
+        "economic": ["Big Federal","Federal Spender","Federalist","Mixed","Fiscal Localist","Spending Cutter","Lean Federal","Minimal Federal","Zero-Based Federal"],
+        "foreign": ["Globalist","Interventionist","Federal Projection","Mixed","Hemispheric","Defensive","Noninterventionist","Strict Defense","No Foreign Spending"]
       },
       "provision_overrides": {}
     }
