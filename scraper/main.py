@@ -6,7 +6,6 @@ from playwright.sync_api import sync_playwright
 
 URL = "https://powerplayusa.net/national/politicians"
 
-SECURITY_RE = re.compile(r"performing security verification|security service to protect against malicious bots", re.I)
 OFFICE_KEY_RE = re.compile(r"(?:^|_)(?:office|offices|position|positions|appointment|appointments|governorship|governor|president|vice.?president)(?:$|_)", re.I)
 OFFICE_LIST_KEYS = {"offices", "held_offices", "heldOffices", "office_history", "officeHistory", "positions", "position_history", "positionHistory"}
 
@@ -15,12 +14,14 @@ def clean(value):
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
 
-def office_label(value):
+def office_label(value, key_name=""):
     if isinstance(value, str):
         return clean(value)
+    if value is True and OFFICE_KEY_RE.search(str(key_name)):
+        return re.sub(r"[_-]+", " ", str(key_name)).strip().title()
     if isinstance(value, dict):
         for key in ("office", "name", "title", "label", "position", "role"):
-            label = office_label(value.get(key))
+            label = office_label(value.get(key), key)
             if label:
                 return label
     return ""
@@ -34,11 +35,11 @@ def collect_office_values(value, key_name="", found=None):
     if OFFICE_KEY_RE.search(key) or key in OFFICE_LIST_KEYS:
         if isinstance(value, list):
             for item in value:
-                label = office_label(item)
+                label = office_label(item, key)
                 if label and label not in found:
                     found.append(label)
         else:
-            label = office_label(value)
+            label = office_label(value, key)
             if label and label not in found:
                 found.append(label)
 
@@ -63,13 +64,7 @@ PAGE_EXTRACT_JS = r"""
   const rows = elements.map(el => {
     const attrs = {};
     for (const attr of el.attributes || []) attrs[attr.name] = attr.value;
-    return {
-      tag: el.tagName.toLowerCase(),
-      text: clean(el.textContent),
-      href: el.href || '',
-      src: el.src || '',
-      attrs,
-    };
+    return { tag: el.tagName.toLowerCase(), text: clean(el.textContent), href: el.href || '', src: el.src || '', attrs };
   });
 
   const meta = {};
@@ -124,10 +119,14 @@ players = []
 for politician in politicians:
     profile_id = str(politician.get("user_id", ""))
     offices = collect_office_values(politician)
+    profile_page_elements = [
+        row for row in page_data.get("rows", [])
+        if f"/users/{profile_id}" in row.get("href", "")
+    ]
 
-    # Preserve the complete embedded player object rather than throwing away
-    # fields that the page adds later. This makes the scraper future-proof and
-    # gives the scorecard access to every field supplied by the roster page.
+    # Preserve every field supplied by window.politiciansData instead of reducing
+    # the object to Senate/House-specific fields. The page-derived elements are
+    # retained as well, so newly exposed profile information is not discarded.
     player = dict(politician)
     player.update({
         "powerplay_profile_id": profile_id,
@@ -141,6 +140,7 @@ for politician in politicians:
         "source_page": URL,
         "source_page_title": page_data.get("title", ""),
         "page_metadata": page_data.get("meta", {}),
+        "page_elements": profile_page_elements,
     })
     players.append(player)
 
