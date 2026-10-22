@@ -1,0 +1,46 @@
+name: Scrape resolution provisions
+
+on:
+  schedule:
+    # Every 3rd calendar day at 06:00 UTC.
+    - cron: "0 6 */3 * *"
+  workflow_dispatch:
+
+concurrency:
+  group: resolution-provisions
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  resolutions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Scrape current resolution provisions
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python -u scraper/resolutions.py
+
+      - name: Save provision catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resolution_provisions.json
+          git diff --cached --quiet || git commit -m "Update Power Play resolution provisions"
+          git pull --rebase
+          git push
