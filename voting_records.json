@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T02:17:09+00:00",
+  "generated_at": "2026-10-22T02:18:33+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -34700,7 +34700,7 @@
           "House",
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1423128244516945991/a926173e7ac8c4e977f6892f981d90e7.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1423128244516945991/e9780c5d137d9353fbcca5e4f0c28a39.webp",
         "profiles": [
           {
             "profile_id": "1036",
@@ -34708,7 +34708,7 @@
             "party": "grn",
             "state": "Michigan",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/1423128244516945991/a926173e7ac8c4e977f6892f981d90e7.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1423128244516945991/e9780c5d137d9353fbcca5e4f0c28a39.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -34721,7 +34721,7 @@
             "party": "grn",
             "state": "Pennsylvania",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/1423128244516945991/a926173e7ac8c4e977f6892f981d90e7.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1423128244516945991/e9780c5d137d9353fbcca5e4f0c28a39.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -34734,7 +34734,7 @@
             "party": "grn",
             "state": "Delaware",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1423128244516945991/a926173e7ac8c4e977f6892f981d90e7.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1423128244516945991/e9780c5d137d9353fbcca5e4f0c28a39.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
