@@ -1,17 +1,27 @@
 import json
+import os
+import re
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 URL = "https://powerplayusa.net/national/politicians"
+BASE_URL = "https://powerplayusa.net"
 OUT = Path("game_time.json")
+TOKEN_HEADER = "X-PPUSA-Scorecard-Token"
+SCRAPER_TOKEN = os.environ.get("SCRAPER_TOKEN", "").strip()
 
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=True)
-    page = browser.new_page(user_agent=(
+    context = browser.new_context(user_agent=(
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/154.0.0.0 Safari/537.36"
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
     ))
+    if SCRAPER_TOKEN:
+        def add_token(route, request):
+            route.continue_(headers={**request.headers, TOKEN_HEADER: SCRAPER_TOKEN})
+        context.route("**/*", add_token)
+        print(f"Sending {TOKEN_HEADER} to {BASE_URL}")
+    page = context.new_page()
     page.goto(URL, wait_until="domcontentloaded", timeout=60000)
     page.wait_for_timeout(5000)
     data = page.evaluate("""() => ({
@@ -21,21 +31,20 @@ with sync_playwright() as p:
     })""")
     browser.close()
 
-# Power Play has changed its public game-clock representation over time, so
-# inspect the page's embedded data and visible text without assuming one field.
+if re.search(r"performing security verification|security service to protect against malicious bots", data.get("body", ""), re.I):
+    raise SystemExit("GAME TIME SCRAPER STOPPED: Power Play security verification detected")
+
 blob = json.dumps(data.get("politicians") or {}, ensure_ascii=False)
 text = data.get("body", "")
 patterns = [
     r"(?i)(?:game\s*time|in[- ]game\s*time|current\s*time)\s*[:\-]?\s*([^\n]+)",
     r"(?i)\b(day|week)\s*[:\-]?\s*(\d+)\b",
 ]
-import re
 found = {}
 for pat in patterns:
     for m in re.finditer(pat, text):
         found[m.group(1).lower().replace(" ", "_")] = m.group(2) if m.lastindex and m.lastindex >= 2 else m.group(1)
 
-# Also search embedded JSON for common clock keys.
 obj = data.get("politicians") or {}
 clock = {}
 def walk(x):
