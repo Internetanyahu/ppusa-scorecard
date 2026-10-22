@@ -1,9 +1,13 @@
-/* Office display is presentation-only. It reads the compiled scorecard so the
- * scoring/rendering code does not need to know how offices are represented. */
+/* Office display is presentation-only. The compiled scorecard is authoritative. */
 (function () {
   const esc = value => String(value ?? '').replace(/[&<>'"]/g, c => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
   }[c]));
+
+  const style = document.createElement('style');
+  style.textContent = '.office-display-pending .profile-strip{visibility:hidden}.office-display-ready .profile-strip{visibility:visible}';
+  document.head.appendChild(style);
+  document.documentElement.classList.add('office-display-pending');
 
   const officesFor = profile => {
     const offices = Array.isArray(profile?.offices)
@@ -14,8 +18,11 @@
     return [...new Set(offices.map(x => String(x).trim()).filter(Boolean))];
   };
 
-  const playerOfficeCount = player =>
-    (player?.profiles || []).reduce((sum, profile) => sum + officesFor(profile).length, 0);
+  const playerOfficeCount = player => {
+    const explicit = Number(player?.office_count ?? player?.offices_held);
+    if (Number.isFinite(explicit) && explicit >= 0) return explicit;
+    return (player?.profiles || []).reduce((sum, profile) => sum + officesFor(profile).length, 0);
+  };
 
   const decorate = players => {
     document.querySelectorAll('[data-player-index]').forEach(card => {
@@ -36,16 +43,22 @@
         chip.innerHTML = `<strong>${esc(profile.name || 'Unknown')}</strong> · ${esc(location)} · ${esc(offices.length ? offices.join(', ') : 'No office')}`;
       });
     });
+    document.documentElement.classList.remove('office-display-pending');
+    document.documentElement.classList.add('office-display-ready');
   };
 
   const originalRenderPlayers = window.renderPlayers;
   if (typeof originalRenderPlayers === 'function') {
     window.renderPlayers = function () {
       originalRenderPlayers.apply(this, arguments);
-      fetch('data/conservative_scorecard.json')
+      fetch('data/conservative_scorecard.json', { cache: 'no-store' })
         .then(response => response.json())
         .then(data => decorate(data.players || []))
-        .catch(() => {});
+        .catch(error => {
+          console.error('Office display data error:', error);
+          document.documentElement.classList.remove('office-display-pending');
+          document.documentElement.classList.add('office-display-ready');
+        });
     };
   }
 
@@ -64,16 +77,9 @@
         const existing = account.querySelector('.office-detail');
         const node = existing || document.createElement('span');
         node.className = 'office-detail';
-        node.innerHTML = `<strong>Offices held:</strong> ${esc(offices.length ? offices.join(', ') : 'No office')}`;
+        node.innerHTML = `<strong>Office:</strong> ${esc(offices.length ? offices.join(', ') : 'No office')}`;
         if (!existing) account.appendChild(node);
       });
-
-      const total = playerOfficeCount(player);
-      const subtitle = dialog.querySelector('.detail-sub');
-      if (subtitle && !subtitle.dataset.officeAdded) {
-        subtitle.textContent += ` · ${total === 0 ? 'No office' : `${total} office${total === 1 ? '' : 's'} held`}`;
-        subtitle.dataset.officeAdded = '1';
-      }
     };
   }
 })();
