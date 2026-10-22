@@ -1,0 +1,74 @@
+name: Apply app data display fixes
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch app display and bill scraper rules
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          app = Path('public/app.js')
+          text = app.read_text()
+
+          replacements = [
+            ("gop: 'GOP', dem: 'Dem', grn: 'Green', cst: 'Constitutional'", "gop: 'GOP', dem: 'Dem', ind: 'Independent', grn: 'Green', cst: 'Constitutional'"),
+            ("return chamberOffice(profile) || 'No office';", "return 'No office';"),
+            ("function officeText(profile) {\n  const offices = normalizeOffices(profile);\n  if (offices.length) return offices.join(', ');\n  return 'No office';\n}", "function officeText(profile) {\n  const offices = normalizeOffices(profile);\n  return offices.length ? offices.join(', ') : 'No office';\n}\n\nfunction caucusText(profile) {\n  const caucus = Number(profile?.caucus);\n  return Number.isFinite(caucus) && caucus > 0 ? ` · Caucus ${caucus}` : '';\n}"),
+            ("const text = `${x.name} · ${officeText(x)} · ${x.state || ''}`;", "const text = `${x.name} · ${officeText(x)} · ${x.state || ''}${caucusText(x)}`;"),
+            ("const floorRows = state.pending.filter(b => /floor|calendar|house|senate/i.test(String(b.status || ''))).map(b => `<button class=\\\"bill-card\\\" data-bill-id=\\\"${esc(b.resolution_id)}\\\"><strong>${esc(b.title || `Resolution ${b.resolution_id}`)}</strong><span>${esc(b.status || 'Pending')}</span></button>`).join('');", "const floorRows = state.pending.filter(b => /floor|calendar|house|senate/i.test(String(b.status || ''))).map(b => { const total = billTotal(b); const score = total > 0 ? `+${total}` : String(total); return `<button class=\\\"bill-card\\\" data-bill-id=\\\"${esc(b.resolution_id)}\\\"><strong>${esc(b.title || `Resolution ${b.resolution_id}`)}</strong><span>Score ${esc(score)} · ${esc(b.status || 'Pending')}</span></button>`; }).join('');"),
+            ("const committeeRows = state.pending.filter(b => !/floor|calendar|house|senate/i.test(String(b.status || ''))).map(b => `<button class=\\\"bill-card\\\" data-bill-id=\\\"${esc(b.resolution_id)}\\\"><strong>${esc(b.title || `Resolution ${b.resolution_id}`)}</strong><span>${esc(b.status || 'Committee')}</span></button>`).join('');", "const committeeRows = state.pending.filter(b => !/floor|calendar|house|senate/i.test(String(b.status || ''))).map(b => { const total = billTotal(b); const score = total > 0 ? `+${total}` : String(total); return `<button class=\\\"bill-card\\\" data-bill-id=\\\"${esc(b.resolution_id)}\\\"><strong>${esc(b.title || `Resolution ${b.resolution_id}`)}</strong><span>Score ${esc(score)} · ${esc(b.status || 'Committee')}</span></button>`; }).join('');"),
+          ]
+          for old, new in replacements:
+              if old not in text:
+                  print('MISS:', old[:100])
+              else:
+                  text = text.replace(old, new)
+
+          app.write_text(text)
+
+          index = Path('public/index.html')
+          html = index.read_text()
+          html = re.sub(r'app\\.js\\?v=[^\"\']+', 'app.js?v=20261022h', html)
+          index.write_text(html)
+          PY
+
+          node --check public/app.js
+
+      - name: Stop bill scraper from refreshing known finalized records
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('scraper/bills.py')
+          s = p.read_text()
+          old = 'refresh = ([r for r in only if str(r) not in links] if only else sorted(r for r in bills if str(r) not in links))'
+          new = 'refresh = ([r for r in only if str(r) not in links and not bills.get(r, {}).get("finalized")] if only else sorted(r for r in bills if str(r) not in links and not bills.get(r, {}).get("finalized")))'
+          if old in s:
+              s = s.replace(old, new)
+          else:
+              print('bills.py refresh line already changed or not found')
+          p.write_text(s)
+          PY
+          python -m py_compile scraper/bills.py
+
+      - name: Commit changes and remove this one-time workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/app.js public/index.html scraper/bills.py
+          git commit -m "Fix bill scores, caucus pills, party labels, and finalized scraping" || true
+          git push
+          git rm .github/workflows/app-data-repair.yml
+          git commit -m "Remove one-time app repair workflow"
+          git push
