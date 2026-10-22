@@ -2,18 +2,23 @@ const $ = id => document.getElementById(id);
 const send = msg => new Promise(resolve => chrome.runtime.sendMessage(msg, resolve));
 
 async function render() {
-  const { scraperState, apiToken, extensionUpdate } = await chrome.storage.local.get(["scraperState", "apiToken", "extensionUpdate"]);
+  const { scraperState, apiToken, extensionUpdate, extensionUpdateAction, backgroundMode, ppusaDiscovery } = await chrome.storage.local.get(["scraperState", "apiToken", "extensionUpdate", "extensionUpdateAction", "backgroundMode", "ppusaDiscovery"]);
   const s = scraperState || { status: "idle", next: 1, log: [] };
+  const captures = ppusaDiscovery || [];
   $("status").className = "status " + s.status;
   $("status").textContent = `${s.status}${s.next ? ` — bill ${s.next}` : ""}${s.message ? `\n${s.message}` : ""}`;
   $("token").value = apiToken || "";
+  $("background").checked = Boolean(backgroundMode);
   $("counts").textContent = "Token: " + (apiToken ? "configured" : "not configured");
   $("log").textContent = (s.log || []).join("\n");
   $("log").scrollTop = $("log").scrollHeight;
+  const unsynced = captures.filter(x => !x.synced).length;
+  $("captureStatus").textContent = `Discovery captures: ${captures.length} local, ${unsynced} waiting to sync.`;
   if (!extensionUpdate) {
     $("updateStatus").textContent = apiToken ? "Update status: not checked yet." : "Update status: enter the token first.";
   } else if (extensionUpdate.update) {
-    $("updateStatus").textContent = `Update available: ${extensionUpdate.localVersion} → ${extensionUpdate.remoteVersion}. Replace/reload the extension files from the repository.`;
+    const action = extensionUpdateAction?.ranAt ? ` Update action ran ${new Date(extensionUpdateAction.ranAt).toLocaleString()}.` : "";
+    $("updateStatus").textContent = `Update available: ${extensionUpdate.localVersion} → ${extensionUpdate.remoteVersion}. Replace/reload the extension files from the repository.${action}`;
   } else {
     $("updateStatus").textContent = `Extension current: ${extensionUpdate.localVersion} (repository ${extensionUpdate.remoteVersion}).`;
   }
@@ -29,6 +34,21 @@ $("save").onclick = async () => {
 $("update").onclick = async () => {
   const result = await send({ type: "checkForUpdate" });
   if (!result?.ok) return alert(result?.error || "Update check failed.");
+  render();
+};
+$("background").onchange = async event => {
+  const result = await send({ type: "setBackgroundMode", enabled: event.target.checked });
+  if (!result?.ok) alert(result?.error || "Could not change background mode.");
+  render();
+};
+$("syncCaptures").onclick = async () => {
+  const result = await send({ type: "syncDiscovery" });
+  if (!result?.ok) return alert(result?.error || "Capture sync failed.");
+  render();
+};
+$("clearCaptures").onclick = async () => {
+  const result = await send({ type: "clearDiscovery" });
+  if (!result?.ok) alert(result?.error || "Could not clear captures.");
   render();
 };
 $("scrape").onclick = async () => {
