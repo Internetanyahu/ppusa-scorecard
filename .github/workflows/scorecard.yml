@@ -35,6 +35,8 @@ jobs:
         run: |
           pip install playwright
           python -m playwright install --with-deps chromium
+      - name: Install ImageMagick for share previews
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
       - name: Validate saved Power Play source examples
         run: python scraper/validate_powerplay_examples.py
       - name: Refresh current Power Play player roster
