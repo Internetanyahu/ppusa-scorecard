@@ -29,7 +29,7 @@ const num = v =>
 const fmt = v =>
   num(v) === null ? 'N/A' : Number(v).toFixed(Number(v) % 1 ? 2 : 0);
 
-const formatLabel = v =>
+const capitalizeLabel = v =>
   v ? v.charAt(0).toUpperCase() + v.slice(1) : 'Unknown';
 
 const IDEOLOGY = {
@@ -303,12 +303,12 @@ function renderPlayers() {
     const mainProfileId = p.profile_id || profiles[0]?.profile_id || profiles[0]?.id;
     const playerLink = profileUrl(mainProfileId);
     const count = officeCount(p);
-    const label = count === 0 ? 'No office' : `${count} office${count === 1 ? '' : 's'} held`;
+    const officeLabel = count === 0 ? 'No office' : `${count} office${count === 1 ? '' : 's'} held`;
     return `<article class="scorecard" tabindex="0" role="button" data-player-index="${i}">
       <div class="card-main"><div class="identity">${avatar({ name: p.name, avatar: p.avatar })}<div><h3>${playerLink ? `<a class="main-profile-link" href="${esc(playerLink)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</h3><div class="handle">${esc(p.discord || 'No Discord handle')}</div><div class="chips"><span class="party-chip">${esc(partyLabel(p.party))}</span>${(p.chambers || []).map(c => `<span class="chamber-chip">${esc(c)}</span>`).join('')}</div></div></div>
       <div class="score-row"><div class="score-main"><strong>${fmt(s.overall)}</strong><span>/ 100</span></div><div class="tier tier-${esc(s.tier || 'N/A')}">${esc(s.tier || 'N/A')}</div></div>
-      <div class="mini-bars">${['social', 'economic', 'foreign'].map(cat => { const v = num(s[cat]); const w = v === null ? 0 : Math.max(0, Math.min(100, v)); return `<div class="mini-row"><span>${formatLabel(cat)}</span><div class="bar"><span style="width:${w}%"></span></div><span class="mini-value">${fmt(v)}</span>${ideology(cat, v) ? `<span class="mini-tag">${esc(ideology(cat, v))}</span>` : ''}</div>`; }).join('')}</div></div>
-      <div class="profile-strip"><strong>${esc(label)}</strong><div class="profile-list">${profiles.map(x => { const url = profileUrl(x.profile_id || x.id); const location = [x.chamber, x.state].filter(Boolean).join(' · '); const text = `${x.name} · ${location} · ${officeText(x)}`; return url ? `<a class="profile-chip profile-link" href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : `<span class="profile-chip">${esc(text)}</span>`; }).join('')}</div></div>
+      <div class="mini-bars">${['social', 'economic', 'foreign'].map(cat => { const v = num(s[cat]); const w = v === null ? 0 : Math.max(0, Math.min(100, v)); return `<div class="mini-row"><span>${capitalizeLabel(cat)}</span><div class="bar"><span style="width:${w}%"></span></div><span class="mini-value">${fmt(v)}</span>${ideology(cat, v) ? `<span class="mini-tag">${esc(ideology(cat, v))}</span>` : ''}</div>`; }).join('')}</div></div>
+      <div class="profile-strip"><strong>${esc(officeLabel)}</strong><div class="profile-list">${profiles.map(x => { const url = profileUrl(x.profile_id || x.id); const location = [x.chamber, x.state].filter(Boolean).join(' · '); const text = `${x.name} · ${location} · ${officeText(x)}`; return url ? `<a class="profile-chip profile-link" href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : `<span class="profile-chip">${esc(text)}</span>`; }).join('')}</div></div>
     </article>`;
   }).join('');
   root.querySelectorAll('.scorecard').forEach((card, i) => { card.addEventListener('click', e => { if (e.target.closest('a')) return; openPlayer(state.filtered[i]); }); card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openPlayer(state.filtered[i]); } }); });
@@ -324,7 +324,7 @@ function renderPending() {
 
 function renderBills() {
   const root = $('bills');
-  root.innerHTML = state.bills.map(b => { const alignment = b.scorecard?.alignment || 'Neutral / mixed'; const votes = voteTotals(b); return `<button class="bill-card" data-bill-id="${esc(b.resolution_id)}"><strong>${esc(b.title || `Resolution ${b.resolution_id}`)}</strong><span>${esc(alignment)} · ${votes.yeas}–${votes.nays}</span></button>`; }).join('');
+  root.innerHTML = state.bills.map(b => { const alignment = b.scorecard?.alignment || 'Neutral / mixed'; const votes = voteTotals(b); const total = billTotal(b); const score = total > 0 ? `+${total}` : String(total); return `<button class="bill-card" data-bill-id="${esc(b.resolution_id)}"><strong>${esc(b.title || `Resolution ${b.resolution_id}`)}</strong><span>Score ${esc(score)} · ${esc(alignment)} · ${votes.yeas}–${votes.nays}</span></button>`; }).join('');
   root.querySelectorAll('[data-bill-id]').forEach(el => el.addEventListener('click', () => openBill(el.dataset.billId)));
 }
 
