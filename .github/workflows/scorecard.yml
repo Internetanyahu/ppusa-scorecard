@@ -47,7 +47,7 @@ jobs:
         run: python scraper/normalize_scorecard_rules.py
       - name: Compile PPUSA-SCORECARD data
         run: python scraper/scorecard.py
-      - name: Neutralize appropriations bills
+      - name: Neutralize appropriations bills before publishing scorecard sets
         run: python scraper/neutralize_appropriations.py
       - name: Enrich player office metadata
         run: python scraper/enrich_office_metadata.py
