@@ -45,7 +45,7 @@ function ideology(cat, v) {
 }
 
 const partyLabel = v => ({
-  gop: 'GOP', dem: 'Dem', grn: 'Green', cst: 'Constitutional'
+  gop: 'GOP', dem: 'Dem', ind: 'Independent', grn: 'Green', cst: 'Constitutional'
 })[String(v || '').toLowerCase()] || String(v || 'Other');
 
 const initials = v => String(v || '?').split(/\s+/).filter(Boolean).slice(0, 2).map(x => x[0]).join('').toUpperCase();
@@ -106,8 +106,12 @@ function chamberOffice(profile) {
 
 function officeText(profile) {
   const offices = normalizeOffices(profile);
-  if (offices.length) return offices.join(', ');
-  return chamberOffice(profile) || 'No office';
+  return offices.length ? offices.join(', ') : 'No office';
+}
+
+function caucusText(profile) {
+  const caucus = Number(profile?.caucus);
+  return Number.isFinite(caucus) && caucus > 0 ? ` · Caucus ${caucus}` : '';
 }
 
 async function loadData() {
@@ -316,7 +320,7 @@ function renderPlayers() {
       <div class="card-main"><div class="identity">${avatar({ name: p.name, avatar: p.avatar })}<div><h3>${playerLink ? `<a class="main-profile-link" href="${esc(playerLink)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</h3><div class="handle">${esc(p.discord || 'No Discord handle')}</div><div class="chips"><span class="party-chip">${esc(partyLabel(p.party))}</span>${(p.chambers || []).map(c => `<span class="chamber-chip">${esc(c)}</span>`).join('')}</div></div></div>
       <div class="score-row"><div class="score-main"><strong>${fmt(s.overall)}</strong><span>/ 100</span></div><div class="tier tier-${esc(s.tier || 'N/A')}">${esc(s.tier || 'N/A')}</div></div>
       <div class="mini-bars">${['social', 'economic', 'foreign'].map(cat => { const v = num(s[cat]); const w = v === null ? 0 : Math.max(0, Math.min(100, v)); return `<div class="mini-row"><span>${capitalizeLabel(cat)}</span><div class="bar"><span style="width:${w}%"></span></div><span class="mini-value">${fmt(v)}</span>${ideology(cat, v) ? `<span class="mini-tag">${esc(ideology(cat, v))}</span>` : ''}</div>`; }).join('')}</div></div>
-      <div class="profile-strip"><strong>${esc(officeLabel)}</strong><div class="profile-list">${profiles.map(x => { const url = profileUrl(x.profile_id || x.id); const location = [x.chamber, x.state].filter(Boolean).join(' · '); const text = `${x.name} · ${officeText(x)} · ${x.state || ''}`; return url ? `<a class="profile-chip profile-link" href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : `<span class="profile-chip">${esc(text)}</span>`; }).join('')}</div></div>
+      <div class="profile-strip"><strong>${esc(officeLabel)}</strong><div class="profile-list">${profiles.map(x => { const url = profileUrl(x.profile_id || x.id); const location = [x.chamber, x.state].filter(Boolean).join(' · '); const text = `${x.name} · ${officeText(x)} · ${x.state || ''}${caucusText(x)}`; return url ? `<a class="profile-chip profile-link" href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : `<span class="profile-chip">${esc(text)}</span>`; }).join('')}</div></div>
     </article>`;
   }).join('');
   root.querySelectorAll('.scorecard').forEach((card, i) => { card.addEventListener('click', e => { if (e.target.closest('a')) return; openPlayer(state.filtered[i]); }); card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openPlayer(state.filtered[i]); } }); });

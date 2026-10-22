@@ -245,7 +245,7 @@ async def main():
         if b.get("finalized") and "provisions" in b: links.setdefault(str(rid), b.get("url") or f"{BASE_URL}/resolutions/{rid}")
 
     max_known = max(bills) if bills else 0
-    refresh = ([r for r in only if str(r) not in links] if only else sorted(r for r in bills if str(r) not in links))
+    refresh = ([r for r in only if str(r) not in links and not bills.get(r, {}).get("finalized")] if only else sorted(r for r in bills if str(r) not in links and not bills.get(r, {}).get("finalized")))
     skipped = len(links) if not only else len(only) - len(refresh)
     print(f"Finalized links on file: {len(links)} (never revisited)")
     print(f"Bills to refresh: {len(refresh)}  |  pages at once: {CONCURRENCY}")
