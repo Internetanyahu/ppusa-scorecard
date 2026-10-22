@@ -1591,3 +1591,29 @@ select:disabled {
     animation-iteration-count: 1 !important;
   }
 }
+
+
+/* Player profile dialog: identity row and scrollable voting record */
+.detail-identity {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  min-width: 0;
+}
+
+.detail-identity .avatar,
+.detail-identity .avatar-fallback {
+  width: 64px;
+  height: 64px;
+  flex: 0 0 auto;
+}
+
+.detail-section {
+  margin-bottom: 20px;
+}
+
+.provision-scroll {
+  max-height: min(48vh, 480px);
+  overflow-y: auto;
+  padding-right: 6px;
+}

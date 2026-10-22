@@ -27,6 +27,9 @@
 - Do not infer office counts from the number of profiles.
 - Office counts must represent actual offices exposed by the Power Play USA politician/profile data, including POTUS, Vice President, Governor, and other office types when present.
 - A profile with no office must explicitly display **No office**.
+- The label above a player card's profile list is **Profiles** (not an office count). Each profile chip still shows **No office** when it has none.
+- The roster's Discord handle is `discord_user`; `scraper/main.py` copies it to `discord` and the whole pipeline reads `discord`. Never drop it: every card shows the handle.
+- Clicking a card must open the player profile dialog: avatar, scorecard numbers, profile list, a scrollable list of every provision voted on with its score, and the **Copy Discord link** button (links to `share/<id>/`).
 - Do not silently discard profiles because they lack a current office.
 - Preserve as much source profile information as practical instead of reducing the scraper to Senate/House-only fields.
 - The public player card must render the compiled office count directly and must not briefly show the old profile-count label while an asynchronous decoration step runs.

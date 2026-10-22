@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T02:01:55+00:00",
+  "generated_at": "2026-10-22T02:17:08+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -34539,8 +34539,10 @@
       "user_id": "p1122",
       "player_id": "p1122",
       "name": "D. Peiper",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "d.burgess",
+      "discord_ids": [
+        "338853029946327040"
+      ],
       "party": "cst",
       "state": "Utah",
       "chambers": [
@@ -34803,8 +34805,10 @@
       "user_id": "p1295",
       "player_id": "p1295",
       "name": "Abraham B. J. Freeman",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "heybumbumbumgotanygrapes",
+      "discord_ids": [
+        "1274754200466624618"
+      ],
       "party": "ind",
       "state": "Kansas",
       "chambers": [
@@ -34964,8 +34968,10 @@
       "user_id": "p1007",
       "player_id": "p1007",
       "name": "Glen Youngkin",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "parzival.121",
+      "discord_ids": [
+        "1513708239923974197"
+      ],
       "party": "gop",
       "state": "Virginia",
       "chambers": [
@@ -35840,8 +35846,10 @@
       "user_id": "p1053",
       "player_id": "p1053",
       "name": "Austin Vicknair",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "austin.vicknair",
+      "discord_ids": [
+        "1332798783658131476"
+      ],
       "party": "ind",
       "state": "Louisiana",
       "chambers": [
@@ -35961,8 +35969,10 @@
       "user_id": "p1304",
       "player_id": "p1304",
       "name": "Kanye West",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "internetanyahu",
+      "discord_ids": [
+        "966709449081360494"
+      ],
       "party": "gop",
       "state": "North Carolina",
       "chambers": [
@@ -36264,8 +36274,10 @@
       "user_id": "p1073",
       "player_id": "p1073",
       "name": "Mark McGwire",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "_mandoge",
+      "discord_ids": [
+        "192748374317989898"
+      ],
       "party": "cst",
       "state": "Mississippi",
       "chambers": [
@@ -37009,8 +37021,10 @@
       "user_id": "p1184",
       "player_id": "p1184",
       "name": "Andrew Welsington",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "saturnaliacivilis",
+      "discord_ids": [
+        "1193946507825647646"
+      ],
       "party": "dem",
       "state": "New Jersey",
       "chambers": [
@@ -37130,8 +37144,10 @@
       "user_id": "p1093",
       "player_id": "p1093",
       "name": "Joseph Brosnahan",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "joebee2002",
+      "discord_ids": [
+        "1550268928704385105"
+      ],
       "party": "ind",
       "state": "Tennessee",
       "chambers": [
@@ -37655,8 +37671,10 @@
       "user_id": "p1043",
       "player_id": "p1043",
       "name": "Robert Kennedy Jr.",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "chase043976",
+      "discord_ids": [
+        "1456055534909259928"
+      ],
       "party": "dem",
       "state": "Pennsylvania",
       "chambers": [
@@ -38257,8 +38275,10 @@
       "user_id": "p1000",
       "player_id": "p1000",
       "name": "Kat Abughazaleh",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "doctorsus",
+      "discord_ids": [
+        "797189211488124968"
+      ],
       "party": "grn",
       "state": "California",
       "chambers": [
@@ -38418,7 +38438,7 @@
       "user_id": "p1125",
       "player_id": "p1125",
       "name": "Steph Hodgins-May",
-      "discord": "",
+      "discord": "lazarbanagain",
       "discord_ids": [],
       "party": "grn",
       "state": "Oregon",
@@ -38814,8 +38834,10 @@
       "user_id": "p1018",
       "player_id": "p1018",
       "name": "Dolpho LaGreen",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "roginality",
+      "discord_ids": [
+        "1390846237288169652"
+      ],
       "party": "grn",
       "state": "New Hampshire",
       "chambers": [
@@ -39247,8 +39269,10 @@
       "user_id": "p1095",
       "player_id": "p1095",
       "name": "Guy Fawkes",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "insane686",
+      "discord_ids": [
+        "637807494764429332"
+      ],
       "party": "cst",
       "state": "California",
       "chambers": [
@@ -40199,8 +40223,10 @@
       "user_id": "p1044",
       "player_id": "p1044",
       "name": "Darline Graham Nordone",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "mcal4876",
+      "discord_ids": [
+        "1470138832044167178"
+      ],
       "party": "dem",
       "state": "Iowa",
       "chambers": [
@@ -40723,8 +40749,10 @@
       "user_id": "p1103",
       "player_id": "p1103",
       "name": "Elliott Witt",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "goodvibejay",
+      "discord_ids": [
+        "297561809278337035"
+      ],
       "party": "gop",
       "state": "Alaska",
       "chambers": [
@@ -41065,8 +41093,10 @@
       "user_id": "p1040",
       "player_id": "p1040",
       "name": "Arsene Kaviori",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "kawiorek.",
+      "discord_ids": [
+        "1138196745822666752"
+      ],
       "party": "dem",
       "state": "California",
       "chambers": [
@@ -41264,8 +41294,10 @@
       "user_id": "p1107",
       "player_id": "p1107",
       "name": "tweamonster",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "tweamonster_",
+      "discord_ids": [
+        "1490056689326489650"
+      ],
       "party": "grn",
       "state": "California",
       "chambers": [
@@ -41594,8 +41626,10 @@
       "user_id": "p1084",
       "player_id": "p1084",
       "name": "Jed Bartlet",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "coletrain.2026",
+      "discord_ids": [
+        "1292883592904446033"
+      ],
       "party": "dem",
       "state": "Illinois",
       "chambers": [
@@ -42430,8 +42464,10 @@
       "user_id": "p1059",
       "player_id": "p1059",
       "name": "Tulsi Gabbard",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "founderofurp2.0",
+      "discord_ids": [
+        "1253581430366277667"
+      ],
       "party": "gop",
       "state": "Texas",
       "chambers": [
@@ -43241,8 +43277,10 @@
       "user_id": "p1087",
       "player_id": "p1087",
       "name": "Dick Cheney",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "idkboy67",
+      "discord_ids": [
+        "1384943134072504380"
+      ],
       "party": "gop",
       "state": "Wyoming",
       "chambers": [
@@ -43518,8 +43556,10 @@
       "user_id": "p1005",
       "player_id": "p1005",
       "name": "Merrin Sorel",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "classicalmerrin",
+      "discord_ids": [
+        "1358235586842067004"
+      ],
       "party": "dem",
       "state": "Wisconsin",
       "chambers": [
@@ -43874,8 +43914,10 @@
       "user_id": "p1331",
       "player_id": "p1331",
       "name": "Obapy Armstrong",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "1gman4evr",
+      "discord_ids": [
+        "241007781858115584"
+      ],
       "party": "gop",
       "state": "Ohio",
       "chambers": [
@@ -44034,8 +44076,10 @@
       "user_id": "p1063",
       "player_id": "p1063",
       "name": "Phoenix Flamesong",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "phoenixflamesong",
+      "discord_ids": [
+        "1203553315263221847"
+      ],
       "party": "grn",
       "state": "Missouri",
       "chambers": [
@@ -44155,8 +44199,10 @@
       "user_id": "p1049",
       "player_id": "p1049",
       "name": "Tate reeves",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "simariusv",
+      "discord_ids": [
+        "1287952630173138974"
+      ],
       "party": "cst",
       "state": "Alabama",
       "chambers": [
@@ -44380,8 +44426,10 @@
       "user_id": "p1105",
       "player_id": "p1105",
       "name": "LANDO NORRIS",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "trustfundfinance",
+      "discord_ids": [
+        "1273992220730589270"
+      ],
       "party": "grn",
       "state": "Illinois",
       "chambers": [
@@ -45424,8 +45472,10 @@
       "user_id": "p1163",
       "player_id": "p1163",
       "name": "Bernie Sanders",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "ron210p",
+      "discord_ids": [
+        "1175438560984305697"
+      ],
       "party": "grn",
       "state": "Vermont",
       "chambers": [
@@ -45675,8 +45725,10 @@
       "user_id": "p1025",
       "player_id": "p1025",
       "name": "Donald Trump",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "trumpquest",
+      "discord_ids": [
+        "961355935496953956"
+      ],
       "party": "gop",
       "state": "Florida",
       "chambers": [
@@ -46095,8 +46147,10 @@
       "user_id": "p1003",
       "player_id": "p1003",
       "name": "BRITNEY SPEARS",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "defaultyboii911",
+      "discord_ids": [
+        "722453757513695242"
+      ],
       "party": "grn",
       "state": "Michigan",
       "chambers": [
@@ -46528,8 +46582,10 @@
       "user_id": "p1136",
       "player_id": "p1136",
       "name": "Dolly Parton",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "nolapadola",
+      "discord_ids": [
+        "1183559034259910702"
+      ],
       "party": "grn",
       "state": "Tennessee",
       "chambers": [
@@ -46896,8 +46952,10 @@
       "user_id": "p1012",
       "player_id": "p1012",
       "name": "Blanche Lincoln",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "kden_24",
+      "discord_ids": [
+        "1260620648179302400"
+      ],
       "party": "grn",
       "state": "Massachusetts",
       "chambers": [
@@ -47303,8 +47361,10 @@
       "user_id": "p1036",
       "player_id": "p1036",
       "name": "Green Homer",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "fufulabu",
+      "discord_ids": [
+        "1423128244516945991"
+      ],
       "party": "grn",
       "state": "Michigan",
       "chambers": [
@@ -48321,8 +48381,10 @@
       "user_id": "p1028",
       "player_id": "p1028",
       "name": "Paul Wellstone",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "nevonomical",
+      "discord_ids": [
+        "672611802118619142"
+      ],
       "party": "dem",
       "state": "Minnesota",
       "chambers": [
@@ -48768,7 +48830,7 @@
       "user_id": "p1019",
       "player_id": "p1019",
       "name": "Willis Blackshear",
-      "discord": "",
+      "discord": "cw872",
       "discord_ids": [],
       "party": "dem",
       "state": "Ohio",
@@ -49657,8 +49719,10 @@
       "user_id": "p1150",
       "player_id": "p1150",
       "name": "Kamiru Todoroki",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "karmablaster",
+      "discord_ids": [
+        "358455235154411521"
+      ],
       "party": "grn",
       "state": "Maine",
       "chambers": [
@@ -49921,8 +49985,10 @@
       "user_id": "p1046",
       "player_id": "p1046",
       "name": "Loki",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "yoitzdan",
+      "discord_ids": [
+        "535131333010391050"
+      ],
       "party": "grn",
       "state": "New York",
       "chambers": [
@@ -50198,8 +50264,10 @@
       "user_id": "p1159",
       "player_id": "p1159",
       "name": "Vincent Rein",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "vincenzo",
+      "discord_ids": [
+        "316305498557120522"
+      ],
       "party": "dem",
       "state": "Minnesota",
       "chambers": [
@@ -51098,8 +51166,10 @@
       "user_id": "p1021",
       "player_id": "p1021",
       "name": "Jill Stein",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "hawaji17",
+      "discord_ids": [
+        "636708961956921354"
+      ],
       "party": "grn",
       "state": "New Jersey",
       "chambers": [
@@ -51466,8 +51536,10 @@
       "user_id": "p1039",
       "player_id": "p1039",
       "name": "Emma Degurechaff",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "_deviloftherhine",
+      "discord_ids": [
+        "321306009807093760"
+      ],
       "party": "dem",
       "state": "California",
       "chambers": [
@@ -52367,8 +52439,10 @@
       "user_id": "p1138",
       "player_id": "p1138",
       "name": "Amelia Swift",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "jorgwachingmachine",
+      "discord_ids": [
+        "557957081685164042"
+      ],
       "party": "dem",
       "state": "Maine",
       "chambers": [
@@ -52736,8 +52810,10 @@
       "user_id": "p1041",
       "player_id": "p1041",
       "name": "Beffrey Jeston Prezos",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "grandgeist56",
+      "discord_ids": [
+        "1561582020251885571"
+      ],
       "party": "dem",
       "state": "New Mexico",
       "chambers": [
@@ -53521,8 +53597,10 @@
       "user_id": "p1128",
       "player_id": "p1128",
       "name": "Layla L. Leafeon",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "gion915",
+      "discord_ids": [
+        "336304476241788928"
+      ],
       "party": "grn",
       "state": "Minnesota",
       "chambers": [
@@ -53811,8 +53889,10 @@
       "user_id": "p1110",
       "player_id": "p1110",
       "name": "AL SHARPTON",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "therealmakaveli",
+      "discord_ids": [
+        "290307337514778625"
+      ],
       "party": "dem",
       "state": "California",
       "chambers": [
@@ -54166,8 +54246,10 @@
       "user_id": "p1024",
       "player_id": "p1024",
       "name": "Gracie Shelby",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "bigggumper",
+      "discord_ids": [
+        "734084874251665518"
+      ],
       "party": "grn",
       "state": "Vermont",
       "chambers": [
@@ -54573,8 +54655,10 @@
       "user_id": "p1155",
       "player_id": "p1155",
       "name": "Nagasaki",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "orangejuice789",
+      "discord_ids": [
+        "1475172188398288917"
+      ],
       "party": "dem",
       "state": "Oregon",
       "chambers": [
@@ -55058,7 +55142,7 @@
       "user_id": "p1171",
       "player_id": "p1171",
       "name": "John Edwards",
-      "discord": "",
+      "discord": "wout_3",
       "discord_ids": [],
       "party": "dem",
       "state": "North Carolina",
@@ -55478,8 +55562,10 @@
       "user_id": "p1004",
       "player_id": "p1004",
       "name": "HILLARY CLINTON",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "kewtslimnury",
+      "discord_ids": [
+        "1460058777125654644"
+      ],
       "party": "grn",
       "state": "Pennsylvania",
       "chambers": [
@@ -55807,8 +55893,10 @@
       "user_id": "p1165",
       "player_id": "p1165",
       "name": "George Clooney",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "lil_mama92",
+      "discord_ids": [
+        "1554189281751343166"
+      ],
       "party": "dem",
       "state": "Massachusetts",
       "chambers": [
@@ -56201,8 +56289,10 @@
       "user_id": "p1088",
       "player_id": "p1088",
       "name": "Kylie Minogue",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "kmfan91_35425",
+      "discord_ids": [
+        "1412134134158987527"
+      ],
       "party": "dem",
       "state": "Illinois",
       "chambers": [
@@ -56504,8 +56594,10 @@
       "user_id": "p1152",
       "player_id": "p1152",
       "name": "Queen",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "collins035",
+      "discord_ids": [
+        "1014854147268423761"
+      ],
       "party": "grn",
       "state": "Kentucky",
       "chambers": [
@@ -56755,8 +56847,10 @@
       "user_id": "p1141",
       "player_id": "p1141",
       "name": "Barbara Mikulski",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "veshex",
+      "discord_ids": [
+        "637519499167268865"
+      ],
       "party": "dem",
       "state": "Maryland",
       "chambers": [
@@ -57136,8 +57230,10 @@
       "user_id": "p1187",
       "player_id": "p1187",
       "name": "Brad Finstad",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "shadowmocker",
+      "discord_ids": [
+        "1440155160243474626"
+      ],
       "party": "dem",
       "state": "South Dakota",
       "chambers": [
@@ -57257,8 +57353,10 @@
       "user_id": "p1131",
       "player_id": "p1131",
       "name": "Charles Barnes",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "yondame.",
+      "discord_ids": [
+        "464496844261818380"
+      ],
       "party": "dem",
       "state": "Rhode Island",
       "chambers": [
@@ -57353,8 +57451,10 @@
       "user_id": "p1006",
       "player_id": "p1006",
       "name": "Faruk Pasic",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "bosnia1399",
+      "discord_ids": [
+        "1518779462941147268"
+      ],
       "party": "grn",
       "state": "Maine",
       "chambers": [
@@ -57501,8 +57601,10 @@
       "user_id": "p1169",
       "player_id": "p1169",
       "name": "Jennie Kim",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "kym47",
+      "discord_ids": [
+        "779295918448836628"
+      ],
       "party": "dem",
       "state": "Montana",
       "chambers": [
@@ -57765,8 +57867,10 @@
       "user_id": "p1112",
       "player_id": "p1112",
       "name": "Tammy Baldwin",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "fruity.patootie",
+      "discord_ids": [
+        "1068285752112336896"
+      ],
       "party": "grn",
       "state": "Wisconsin",
       "chambers": [
@@ -57886,8 +57990,10 @@
       "user_id": "p1161",
       "player_id": "p1161",
       "name": "A.C. Tunt",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "fimconte",
+      "discord_ids": [
+        "150710749260414976"
+      ],
       "party": "ind",
       "state": "Texas",
       "chambers": [
@@ -57966,8 +58072,10 @@
       "user_id": "p1011",
       "player_id": "p1011",
       "name": "Abdul El-Sayed",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "berlinsucks",
+      "discord_ids": [
+        "829048047770009611"
+      ],
       "party": "grn",
       "state": "Maryland",
       "chambers": [
@@ -58046,8 +58154,10 @@
       "user_id": "p1118",
       "player_id": "p1118",
       "name": "Alexander Morales",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "galaxydoge420",
+      "discord_ids": [
+        "398403582606442497"
+      ],
       "party": "dem",
       "state": "Louisiana",
       "chambers": [
@@ -58181,8 +58291,10 @@
       "user_id": "p1344",
       "player_id": "p1344",
       "name": "Alexis Tsipras",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "greekleftist",
+      "discord_ids": [
+        "1515453411015917722"
+      ],
       "party": "dem",
       "state": "Michigan",
       "chambers": [
@@ -58261,8 +58373,10 @@
       "user_id": "p1332",
       "player_id": "p1332",
       "name": "Alice Fuller",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "certifiedyapper2026",
+      "discord_ids": [
+        "1353248676398501938"
+      ],
       "party": "dem",
       "state": "Massachusetts",
       "chambers": [
@@ -58369,8 +58483,10 @@
       "user_id": "p1234",
       "player_id": "p1234",
       "name": "Andre Washington",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "uspsowner2234",
+      "discord_ids": [
+        "1336101166609600622"
+      ],
       "party": "dem",
       "state": "Michigan",
       "chambers": [
@@ -58423,8 +58539,10 @@
       "user_id": "p1077",
       "player_id": "p1077",
       "name": "Andrew Cuomo",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "geneva88",
+      "discord_ids": [
+        "1534257079764652185"
+      ],
       "party": "grn",
       "state": "New Jersey",
       "chambers": [
@@ -58503,8 +58621,10 @@
       "user_id": "p1009",
       "player_id": "p1009",
       "name": "Anna Paulina Luna",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "venus.444",
+      "discord_ids": [
+        "1431041441739833437"
+      ],
       "party": "grn",
       "state": "Oregon",
       "chambers": [
@@ -58637,8 +58757,10 @@
       "user_id": "p1176",
       "player_id": "p1176",
       "name": "Basil Morli",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "ennardenvy",
+      "discord_ids": [
+        "1170543879519477831"
+      ],
       "party": "dem",
       "state": "Texas",
       "chambers": [
@@ -58705,8 +58827,10 @@
       "user_id": "p1330",
       "player_id": "p1330",
       "name": "Beetee432",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "jwcorp_84739",
+      "discord_ids": [
+        "1379709691663355974"
+      ],
       "party": "gop",
       "state": "Pennsylvania",
       "chambers": [
@@ -58785,8 +58909,10 @@
       "user_id": "p1273",
       "player_id": "p1273",
       "name": "Benjamin Buford Blue",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "iamonfirepleasehelp",
+      "discord_ids": [
+        "404378779952218124"
+      ],
       "party": "cst",
       "state": "Alabama",
       "chambers": [
@@ -58865,8 +58991,10 @@
       "user_id": "p1147",
       "player_id": "p1147",
       "name": "Benjamin Nitay",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "linagrey11",
+      "discord_ids": [
+        "1318964464942448710"
+      ],
       "party": "dem",
       "state": "New Jersey",
       "chambers": [
@@ -58945,8 +59073,10 @@
       "user_id": "p1298",
       "player_id": "p1298",
       "name": "Bill “Butch” Cassidy",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "dale1776",
+      "discord_ids": [
+        "219696413292888064"
+      ],
       "party": "cst",
       "state": "Georgia",
       "chambers": [
@@ -59025,8 +59155,10 @@
       "user_id": "p1082",
       "player_id": "p1082",
       "name": "Bob Autumn",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "bobs3674",
+      "discord_ids": [
+        "784610291768885278"
+      ],
       "party": "grn",
       "state": "Massachusetts",
       "chambers": [
@@ -59106,7 +59238,7 @@
       "user_id": "p1357",
       "player_id": "p1357",
       "name": "Boss man",
-      "discord": "",
+      "discord": "mayotrain69",
       "discord_ids": [],
       "party": "gop",
       "state": "West Virginia",
@@ -59160,7 +59292,7 @@
       "user_id": "p1282",
       "player_id": "p1282",
       "name": "brycen naquin",
-      "discord": "",
+      "discord": "brycen.naquin",
       "discord_ids": [],
       "party": "gop",
       "state": "Louisiana",
@@ -59240,8 +59372,10 @@
       "user_id": "p1182",
       "player_id": "p1182",
       "name": "Cal Bradford",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "jxckuk",
+      "discord_ids": [
+        "323231395981819904"
+      ],
       "party": "grn",
       "state": "Alaska",
       "chambers": [
@@ -59361,8 +59495,10 @@
       "user_id": "p1055",
       "player_id": "p1055",
       "name": "Caleb Travinski",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "mdmrn",
+      "discord_ids": [
+        "135877470137221120"
+      ],
       "party": "ind",
       "state": "North Dakota",
       "chambers": [
@@ -59441,8 +59577,10 @@
       "user_id": "p1032",
       "player_id": "p1032",
       "name": "Chelsey Ammari",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "smapiaverageninja",
+      "discord_ids": [
+        "191284688382459904"
+      ],
       "party": "grn",
       "state": "Washington",
       "chambers": [
@@ -59522,8 +59660,10 @@
       "user_id": "p1193",
       "player_id": "p1193",
       "name": "Chris P. Bacon",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "johnphilips0911",
+      "discord_ids": [
+        "1551298483607052350"
+      ],
       "party": "grn",
       "state": "New Mexico",
       "chambers": [
@@ -59576,8 +59716,10 @@
       "user_id": "p1188",
       "player_id": "p1188",
       "name": "Claire H Underwood",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "pzdz20",
+      "discord_ids": [
+        "1303893674417193052"
+      ],
       "party": "dem",
       "state": "Delaware",
       "chambers": [
@@ -59818,8 +59960,10 @@
       "user_id": "p1186",
       "player_id": "p1186",
       "name": "Doug Turner",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "teutonicfootsoldier",
+      "discord_ids": [
+        "774441702147883059"
+      ],
       "party": "gop",
       "state": "New Mexico",
       "chambers": [
@@ -59898,8 +60042,10 @@
       "user_id": "p1124",
       "player_id": "p1124",
       "name": "Drew Simon",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "1milliondollarman",
+      "discord_ids": [
+        "1494517988433334433"
+      ],
       "party": "dem",
       "state": "New Jersey",
       "chambers": [
@@ -59952,8 +60098,10 @@
       "user_id": "p1017",
       "player_id": "p1017",
       "name": "Drone",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "drone1935",
+      "discord_ids": [
+        "1350483903462248528"
+      ],
       "party": "dem",
       "state": "Massachusetts",
       "chambers": [
@@ -60073,8 +60221,10 @@
       "user_id": "p1333",
       "player_id": "p1333",
       "name": "Elisworth Ashford",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "americantraditionalist",
+      "discord_ids": [
+        "1144342925304660028"
+      ],
       "party": "gop",
       "state": "Georgia",
       "chambers": [
@@ -60155,8 +60305,10 @@
       "user_id": "p1117",
       "player_id": "p1117",
       "name": "Eugene Debs",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "povryan",
+      "discord_ids": [
+        "228877658383974400"
+      ],
       "party": "grn",
       "state": "Vermont",
       "chambers": [
@@ -60235,8 +60387,10 @@
       "user_id": "p1078",
       "player_id": "p1078",
       "name": "Falcon Faeborn",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "falcon5518",
+      "discord_ids": [
+        "385804381649371138"
+      ],
       "party": "dem",
       "state": "New York",
       "chambers": [
@@ -60302,8 +60456,10 @@
       "user_id": "p1325",
       "player_id": "p1325",
       "name": "George Papadopoulos",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "noble_pony_17489",
+      "discord_ids": [
+        "1398129111259676736"
+      ],
       "party": "cst",
       "state": "California",
       "chambers": [
@@ -60382,8 +60538,10 @@
       "user_id": "p1126",
       "player_id": "p1126",
       "name": "Gion G. Glaceon",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "laycanrock",
+      "discord_ids": [
+        "770400492491767839"
+      ],
       "party": "grn",
       "state": "Minnesota",
       "chambers": [
@@ -60463,8 +60621,10 @@
       "user_id": "p1089",
       "player_id": "p1089",
       "name": "Herman Cain",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "cylke",
+      "discord_ids": [
+        "965001907741556813"
+      ],
       "party": "grn",
       "state": "Georgia",
       "chambers": [
@@ -60543,8 +60703,10 @@
       "user_id": "p1144",
       "player_id": "p1144",
       "name": "Howie Hawkins",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "myungbak",
+      "discord_ids": [
+        "1414135624855847013"
+      ],
       "party": "grn",
       "state": "Rhode Island",
       "chambers": [
@@ -60623,8 +60785,10 @@
       "user_id": "p1355",
       "player_id": "p1355",
       "name": "Huey Newton",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "dogon900",
+      "discord_ids": [
+        "769624078343995432"
+      ],
       "party": "grn",
       "state": "Maryland",
       "chambers": [
@@ -60677,8 +60841,10 @@
       "user_id": "p1291",
       "player_id": "p1291",
       "name": "IVY SPICEH",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "jx._._._.",
+      "discord_ids": [
+        "1259232762775212105"
+      ],
       "party": "grn",
       "state": "Maryland",
       "chambers": [
@@ -60973,8 +61139,10 @@
       "user_id": "p1189",
       "player_id": "p1189",
       "name": "Jan Brewer",
-      "discord": "",
-      "discord_ids": [],
+      "discord": ".vielle",
+      "discord_ids": [
+        "121121527075700737"
+      ],
       "party": "gop",
       "state": "Arizona",
       "chambers": [
@@ -61054,8 +61222,10 @@
       "user_id": "p1174",
       "player_id": "p1174",
       "name": "JD Vance's Couch",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "ariane_ye0ng",
+      "discord_ids": [
+        "565289871799746593"
+      ],
       "party": "gop",
       "state": "South Carolina",
       "chambers": [
@@ -61284,8 +61454,10 @@
       "user_id": "p1029",
       "player_id": "p1029",
       "name": "John Muir",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "fw.swisher",
+      "discord_ids": [
+        "994793965259858013"
+      ],
       "party": "grn",
       "state": "Pennsylvania",
       "chambers": [
@@ -61418,8 +61590,10 @@
       "user_id": "p1062",
       "player_id": "p1062",
       "name": "Joseph Washington",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "jackhammerjt",
+      "discord_ids": [
+        "859651042203402250"
+      ],
       "party": "gop",
       "state": "North Carolina",
       "chambers": [
@@ -61552,8 +61726,10 @@
       "user_id": "p1058",
       "player_id": "p1058",
       "name": "Judith Harman",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "jethronie",
+      "discord_ids": [
+        "877674076506820618"
+      ],
       "party": "dem",
       "state": "Missouri",
       "chambers": [
@@ -61632,8 +61808,10 @@
       "user_id": "p1057",
       "player_id": "p1057",
       "name": "Kaden Lux",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "kadencegok",
+      "discord_ids": [
+        "479291214496006145"
+      ],
       "party": "dem",
       "state": "Minnesota",
       "chambers": [
@@ -61766,8 +61944,10 @@
       "user_id": "p1140",
       "player_id": "p1140",
       "name": "Kevin K.",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "kevinmwas_57000",
+      "discord_ids": [
+        "1421418848724320286"
+      ],
       "party": "gop",
       "state": "Michigan",
       "chambers": [
@@ -61900,8 +62080,10 @@
       "user_id": "p1104",
       "player_id": "p1104",
       "name": "KIMI ANTONELLI",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "wow.grape",
+      "discord_ids": [
+        "812116694234693672"
+      ],
       "party": "grn",
       "state": "Massachusetts",
       "chambers": [
@@ -61981,8 +62163,10 @@
       "user_id": "p1100",
       "player_id": "p1100",
       "name": "Kirk Cousins",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "sevenfoldavenged",
+      "discord_ids": [
+        "1210380102802604063"
+      ],
       "party": "grn",
       "state": "Nevada",
       "chambers": [
@@ -62062,8 +62246,10 @@
       "user_id": "p1115",
       "player_id": "p1115",
       "name": "Kristin Jack",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "ydg0226",
+      "discord_ids": [
+        "1183919357391282310"
+      ],
       "party": "dem",
       "state": "Maine",
       "chambers": [
@@ -62129,8 +62315,10 @@
       "user_id": "p1336",
       "player_id": "p1336",
       "name": "Kylian Mobutu",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "kylianmbappe0697",
+      "discord_ids": [
+        "1559920088130261075"
+      ],
       "party": "gop",
       "state": "New York",
       "chambers": [
@@ -62317,8 +62505,10 @@
       "user_id": "p1321",
       "player_id": "p1321",
       "name": "Legend Campbell",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "toonorthern",
+      "discord_ids": [
+        "450490859738365983"
+      ],
       "party": "dem",
       "state": "North Carolina",
       "chambers": [
@@ -62371,8 +62561,10 @@
       "user_id": "p1313",
       "player_id": "p1313",
       "name": "Mackenzie Wrzesinski",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "realpalpatine",
+      "discord_ids": [
+        "418130098881953802"
+      ],
       "party": "dem",
       "state": "Arkansas",
       "chambers": [
@@ -62452,8 +62644,10 @@
       "user_id": "p1260",
       "player_id": "p1260",
       "name": "Maomao",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "maomaothepoisonenjoyer",
+      "discord_ids": [
+        "757584476552560680"
+      ],
       "party": "dem",
       "state": "California",
       "chambers": [
@@ -62532,8 +62726,10 @@
       "user_id": "p1113",
       "player_id": "p1113",
       "name": "Matt Murdock",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "ag54",
+      "discord_ids": [
+        "730775536183410698"
+      ],
       "party": "cst",
       "state": "Michigan",
       "chambers": [
@@ -62612,8 +62808,10 @@
       "user_id": "p1311",
       "player_id": "p1311",
       "name": "Michael Foster",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "pablovg8",
+      "discord_ids": [
+        "569498155784339458"
+      ],
       "party": "gop",
       "state": "Ohio",
       "chambers": [
@@ -62746,8 +62944,10 @@
       "user_id": "p1146",
       "player_id": "p1146",
       "name": "Mon Mothma",
-      "discord": "",
-      "discord_ids": [],
+      "discord": ".dr.doge",
+      "discord_ids": [
+        "677502849516699698"
+      ],
       "party": "grn",
       "state": "New Mexico",
       "chambers": [
@@ -62826,8 +63026,10 @@
       "user_id": "p1020",
       "player_id": "p1020",
       "name": "Nancy Pelosi",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "beyoncies",
+      "discord_ids": [
+        "891283902365331466"
+      ],
       "party": "dem",
       "state": "California",
       "chambers": [
@@ -63015,8 +63217,10 @@
       "user_id": "p1190",
       "player_id": "p1190",
       "name": "Osman Khan",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "alikhan.55",
+      "discord_ids": [
+        "562155693528842251"
+      ],
       "party": "dem",
       "state": "New York",
       "chambers": [
@@ -63096,8 +63300,10 @@
       "user_id": "p1002",
       "player_id": "p1002",
       "name": "Parker Cohen",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "lucky_courgette_36607",
+      "discord_ids": [
+        "1381337055765991435"
+      ],
       "party": "gop",
       "state": "Alabama",
       "chambers": [
@@ -63176,8 +63382,10 @@
       "user_id": "p1094",
       "player_id": "p1094",
       "name": "Pat Buchanan",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "musicman130897",
+      "discord_ids": [
+        "1385738660846112798"
+      ],
       "party": "ind",
       "state": "Oklahoma",
       "chambers": [
@@ -63256,8 +63464,10 @@
       "user_id": "p1121",
       "player_id": "p1121",
       "name": "Pat Riot",
-      "discord": "",
-      "discord_ids": [],
+      "discord": ".1776.",
+      "discord_ids": [
+        "728340629662203975"
+      ],
       "party": "cst",
       "state": "Idaho",
       "chambers": [
@@ -63323,8 +63533,10 @@
       "user_id": "p1050",
       "player_id": "p1050",
       "name": "Paul Finebaum",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "sobieski9882",
+      "discord_ids": [
+        "471481474735144960"
+      ],
       "party": "cst",
       "state": "Alabama",
       "chambers": [
@@ -63458,8 +63670,10 @@
       "user_id": "p1026",
       "player_id": "p1026",
       "name": "Robert Keating",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "marcsexual",
+      "discord_ids": [
+        "1406312807691063419"
+      ],
       "party": "grn",
       "state": "California",
       "chambers": [
@@ -63592,8 +63806,10 @@
       "user_id": "p1270",
       "player_id": "p1270",
       "name": "Rumi",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "myotheraccountisatier3sub",
+      "discord_ids": [
+        "653722361857835009"
+      ],
       "party": "dem",
       "state": "New York",
       "chambers": [
@@ -63726,8 +63942,10 @@
       "user_id": "p1134",
       "player_id": "p1134",
       "name": "Shrek Green",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "berrystrong",
+      "discord_ids": [
+        "273439516784721920"
+      ],
       "party": "grn",
       "state": "Wyoming",
       "chambers": [
@@ -63807,8 +64025,10 @@
       "user_id": "p1180",
       "player_id": "p1180",
       "name": "Susan Collins",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "brandonhh02",
+      "discord_ids": [
+        "887481623203950693"
+      ],
       "party": "gop",
       "state": "New Hampshire",
       "chambers": [
@@ -63888,8 +64108,10 @@
       "user_id": "p1241",
       "player_id": "p1241",
       "name": "Tanya von Degurechaff",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "kobayashi_junto",
+      "discord_ids": [
+        "537999395120087060"
+      ],
       "party": "grn",
       "state": "California",
       "chambers": [
@@ -63968,8 +64190,10 @@
       "user_id": "p1156",
       "player_id": "p1156",
       "name": "Tom Jones",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "mr.snail67",
+      "discord_ids": [
+        "1505609162426683542"
+      ],
       "party": "grn",
       "state": "Colorado",
       "chambers": [
@@ -64265,8 +64489,10 @@
       "user_id": "p1068",
       "player_id": "p1068",
       "name": "Willy Wonka",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "worst_nightmare_of_j.d._scholten",
+      "discord_ids": [
+        "1307970759959777382"
+      ],
       "party": "gop",
       "state": "Iowa",
       "chambers": [

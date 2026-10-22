@@ -303,7 +303,7 @@ function renderPlayers() {
     const mainProfileId = p.profile_id || profiles[0]?.profile_id || profiles[0]?.id;
     const playerLink = profileUrl(mainProfileId);
     const count = officeCount(p);
-    const officeLabel = count === 0 ? 'No office' : `${count} office${count === 1 ? '' : 's'} held`;
+    const officeLabel = 'Profiles';
     return `<article class="scorecard" tabindex="0" role="button" data-player-index="${i}">
       <div class="card-main"><div class="identity">${avatar({ name: p.name, avatar: p.avatar })}<div><h3>${playerLink ? `<a class="main-profile-link" href="${esc(playerLink)}" target="_blank" rel="noopener">${esc(p.name)}</a>` : esc(p.name)}</h3><div class="handle">${esc(p.discord || 'No Discord handle')}</div><div class="chips"><span class="party-chip">${esc(partyLabel(p.party))}</span>${(p.chambers || []).map(c => `<span class="chamber-chip">${esc(c)}</span>`).join('')}</div></div></div>
       <div class="score-row"><div class="score-main"><strong>${fmt(s.overall)}</strong><span>/ 100</span></div><div class="tier tier-${esc(s.tier || 'N/A')}">${esc(s.tier || 'N/A')}</div></div>
@@ -328,9 +328,46 @@ function renderBills() {
   root.querySelectorAll('[data-bill-id]').forEach(el => el.addEventListener('click', () => openBill(el.dataset.billId)));
 }
 
+function renderPlayerVotes(player) {
+  const rows = player.bill_details || [];
+  if (!rows.length) return '<div class="empty">No scored provisions yet.</div>';
+  return rows.map(x => {
+    const direction = Number(x.direction);
+    const scored = x.scorable !== false && (direction === 1 || direction === -1);
+    const url = billUrl(x.resolution_id);
+    const position = !scored ? 'Neutral — not scored' : `Conservative position: ${direction > 0 ? '+1' : '−1'}`;
+    const result = !scored
+      ? '<span class="result-pill neutral">0 Not scored</span>'
+      : `<span class="result-pill ${x.aligned ? 'aligned' : 'not-aligned'}">${x.aligned ? '+1 Aligned' : '−1 Not aligned'}</span>`;
+    const note = [x.number, x.bill_title, capitalizeLabel(x.category || ''), String(x.vote || '').toUpperCase(), x.profile_name || x.profile_id, x.chamber].filter(Boolean).join(' · ');
+    return `<div class="provision"><div><div class="provision-name"><a class="bill-provision-link" href="${esc(url)}" target="_blank" rel="noopener">${esc(x.provision || 'Provision')}</a></div><div class="provision-note">${esc(note)}</div><span class="position-pill">${esc(position)}</span></div>${result}</div>`;
+  }).join('');
+}
+
 function openPlayer(player) {
-  const dialog = $('scorecardDialog'); const detail = $('scorecardDetail'); const profiles = player.profiles || [];
-  detail.innerHTML = `<div class="detail-header"><p class="eyebrow">PLAYER PROFILE</p><h2>${esc(player.name)}</h2><p class="detail-sub">${esc(player.party || 'Other')} · ${esc(player.state || '')}</p></div><div class="detail-section"><h3>Profiles</h3>${profiles.map(p => `<div class="account"><strong>${esc(p.name || 'Unknown')}</strong><span>${esc([officeText(p), p.state].filter(Boolean).join(' · '))}</span></div>`).join('')}</div>`;
+  const dialog = $('scorecardDialog'); const detail = $('scorecardDetail');
+  const s = player.scores || {}; const profiles = player.profiles || []; const rows = player.bill_details || [];
+  const scoredRows = rows.filter(x => x.scorable !== false && [-1, 1].includes(Number(x.direction)));
+  const aligned = scoredRows.filter(x => x.aligned).length;
+  const stat = (key, title) => { const v = num(s[key]); const tag = v === null ? '' : ideology(key, v); return `<div class="detail-stat"><span>${title}</span><strong>${fmt(v)}</strong>${tag ? `<div class="stat-tag">${esc(tag)}</div>` : ''}</div>`; };
+  const sub = [player.discord || 'No Discord handle', partyLabel(player.party), player.state, `${scoredRows.length} provision${scoredRows.length === 1 ? '' : 's'} scored`].filter(Boolean).join(' · ');
+  detail.innerHTML = `
+    <div class="detail-title-row">
+      <div class="detail-identity">${avatar({ name: player.name, avatar: player.avatar })}
+        <div class="detail-header"><p class="eyebrow">LEGISLATOR SCORECARD</p><h2>${esc(player.name)}</h2><p class="detail-sub">${esc(sub)}</p>
+        <div class="chips"><span class="party-chip">${esc(partyLabel(player.party))}</span>${(player.chambers || []).map(c => `<span class="chamber-chip">${esc(c)}</span>`).join('')}</div></div></div>
+      <button class="share-scorecard" id="copyScorecardLink" type="button">Copy Discord link</button>
+    </div>
+    <div class="detail-section"><p class="eyebrow">PROFILES</p><div class="account-grid">${profiles.map(x => { const url = profileUrl(x.profile_id || x.id); const name = url ? `<a class="profile-link" href="${esc(url)}" target="_blank" rel="noopener"><strong>${esc(x.name || 'Unknown')}</strong></a>` : `<strong>${esc(x.name || 'Unknown')}</strong>`; return `<div class="account">${x.avatar ? `<img class="avatar" src="${esc(x.avatar)}" alt="">` : ''}${name}<span>${esc([officeText(x), x.chamber, x.state, partyLabel(x.party)].filter(Boolean).join(' · '))}</span></div>`; }).join('')}</div></div>
+    <div class="detail-score"><div class="detail-stat"><span>Overall</span><strong>${fmt(s.overall)} · ${esc(s.tier || 'N/A')}</strong></div>${stat('social', 'Social')}${stat('economic', 'Economic')}${stat('foreign', 'Foreign')}</div>
+    <div class="vote-row"><span><strong>${aligned}</strong> of <strong>${scoredRows.length}</strong> scored provisions aligned with the conservative position.</span></div>
+    <div class="detail-controls"><p class="eyebrow">VOTING RECORD</p></div>
+    <div class="provision-list provision-scroll" id="playerVotes">${renderPlayerVotes(player)}</div>`;
+  $('copyScorecardLink').addEventListener('click', async () => {
+    const url = shareUrl(player); const button = $('copyScorecardLink');
+    try { await navigator.clipboard.writeText(url); button.textContent = 'Copied'; setTimeout(() => { button.textContent = 'Copy Discord link'; }, 1600); }
+    catch (_) { window.prompt('Copy this scorecard link:', url); }
+  });
   if (typeof dialog.showModal === 'function') dialog.showModal(); else dialog.setAttribute('open', '');
 }
 

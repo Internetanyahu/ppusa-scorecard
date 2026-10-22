@@ -68,7 +68,7 @@ def owner_of(index, discord, discord_id, exclude_pid=None):
 def update_index(index, players, bills, today, overrides, review):
     for player in sorted(players, key=lambda p: int(p["powerplay_profile_id"])):
         pid = str(player["powerplay_profile_id"])
-        discord = player.get("discord") or ""
+        discord = player.get("discord") or player.get("discord_user") or ""
         discord_id = discord_id_of(player) if discord else ""
         entry = index.get(pid)
         if entry is None:

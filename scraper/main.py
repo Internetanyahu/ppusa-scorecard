@@ -183,6 +183,7 @@ def build_player(politician, page_data, offices):
         **politician,
         "powerplay_profile_id": profile_id,
         "name": politician.get("name", ""),
+        "discord": politician.get("discord_user", "") or "",
         "party": politician.get("partyAbbreviation2", politician.get("party", "")),
         "state": politician.get("stateName", politician.get("state", "")),
         "offices": offices,
