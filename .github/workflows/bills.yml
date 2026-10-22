@@ -30,6 +30,9 @@ jobs:
           pip install playwright
           playwright install --with-deps chromium
 
+      - name: Validate saved Power Play bill source
+        run: python -u scraper/validate_powerplay_examples.py
+
       - name: Run bill scraper
         env:
           PYTHONUNBUFFERED: "1"
