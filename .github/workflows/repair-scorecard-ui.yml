@@ -1,0 +1,85 @@
+name: Repair scorecard UI
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Patch scorecard rendering
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          app = Path('public/app.js')
+          text = app.read_text()
+          replacements = [
+              ("const formatLabel = v =>", "const capitalizeLabel = v =>"),
+              ("${formatLabel(cat)}", "${capitalizeLabel(cat)}"),
+              ("const label = count === 0 ? 'No office' : `${count} office${count === 1 ? '' : 's'} held`;", "const officeLabel = count === 0 ? 'No office' : `${count} office${count === 1 ? '' : 's'} held`;"),
+              ("${esc(label)}</strong>", "${esc(officeLabel)}</strong>"),
+              ("root.innerHTML = state.bills.map(b => { const alignment = b.scorecard?.alignment || 'Neutral / mixed'; const votes = voteTotals(b); return `<button class=\"bill-card\" data-bill-id=\"${esc(b.resolution_id)}\"><strong>${esc(b.title || `Resolution ${b.resolution_id}`)}</strong><span>${esc(alignment)} · ${votes.yeas}–${votes.nays}</span></button>`; }).join('');", "root.innerHTML = state.bills.map(b => { const alignment = b.scorecard?.alignment || 'Neutral / mixed'; const votes = voteTotals(b); const total = billTotal(b); const score = total > 0 ? `+${total}` : String(total); return `<button class=\"bill-card\" data-bill-id=\"${esc(b.resolution_id)}\"><strong>${esc(b.title || `Resolution ${b.resolution_id}`)}</strong><span>Score ${esc(score)} · ${esc(alignment)} · ${votes.yeas}–${votes.nays}</span></button>`; }).join('');")
+          ]
+          for old, new in replacements:
+              if old not in text:
+                  raise SystemExit(f'Missing expected app.js text: {old[:100]}')
+              text = text.replace(old, new, 1)
+          app.write_text(text)
+
+          index = Path('public/index.html')
+          text = index.read_text()
+          old = 'app.js?v=20261022b'
+          new = 'app.js?v=20261022d'
+          if old not in text:
+              raise SystemExit('Missing expected app.js cache-buster')
+          index.write_text(text.replace(old, new, 1))
+
+          css = Path('public/styles.css')
+          text = css.read_text()
+          marker = '.bill-card h3 {\n'
+          insert = '.bill-card > strong {\n  display: block;\n  margin-bottom: 6px;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 750;\n  line-height: 1.35;\n}\n\n.bill-card > span {\n  display: block;\n  color: var(--muted);\n  font-size: 10px;\n  line-height: 1.4;\n}\n\n'
+          if insert.strip() not in text:
+              if marker not in text:
+                  raise SystemExit('Missing bill-card CSS marker')
+              text = text.replace(marker, insert + marker, 1)
+          css.write_text(text)
+          PY
+
+      - name: Validate JavaScript syntax
+        run: |
+          node --check public/app.js
+          node --check public/bill-detail.js
+          node --check public/scorecard-selector.js
+          node --check public/scorecard-consistency.js
+
+      - name: Commit repair
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/app.js public/index.html public/styles.css
+          git diff --cached --check
+          git diff --cached --quiet && exit 0
+          git commit -m 'Fix scorecard and finalized bill rendering'
+          git push origin main
+
+      - name: Remove repair workflow
+        if: always()
+        run: |
+          git fetch origin main
+          git checkout origin/main -- .github/workflows/repair-scorecard-ui.yml || true
+          git rm -f .github/workflows/repair-scorecard-ui.yml 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Remove one-time UI repair workflow'
+          git push origin main
