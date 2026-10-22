@@ -6,14 +6,14 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 URL = "https://powerplayusa.net/national/politicians"
-PROFILE_URL = "https://powerplayusa.net/wiki/politician/{profile_id}"
 SOURCE_ENV = "PPUSA_POLITICIANS_SOURCE"
 
+# The national Politicians page is the authoritative roster source.
+# Individual politician pages are never scraped by this workflow.
 OFFICE_KEY_RE = re.compile(
     r"(?:^|_)(?:office|offices|position|positions|appointment|appointments|"
     r"governorship|governor|president|vice.?president|senator|representative|"
-    r"cabinet|secretary|mayor|judge|justice|attorney.?general)(?:$|_)",
-    re.I,
+    r"cabinet|secretary|mayor|judge|justice|attorney.?general)(?:$|_)", re.I,
 )
 OFFICE_LIST_KEYS = {
     "offices", "held_offices", "heldOffices", "office_history", "officeHistory",
@@ -23,8 +23,7 @@ OFFICE_TEXT_RE = re.compile(
     r"\b(?:President|Vice President|Governor|Lieutenant Governor|U\.S\. Senator|"
     r"Senator|U\.S\. Representative|Representative|Congressman|Congresswoman|"
     r"Cabinet Secretary|Secretary of State|Attorney General|Mayor|Chief Justice|"
-    r"Justice|Judge)\b(?:[^\n|;,]{0,100})",
-    re.I,
+    r"Justice|Judge)\b(?:[^\n|;,]{0,100})", re.I,
 )
 
 
@@ -47,14 +46,14 @@ def office_label(value, key_name=""):
 
 
 def collect_office_values(value, key_name="", found=None):
-    """Walk embedded player data and collect values from office-like keys."""
+    """Collect office values exposed in the national page's player data."""
     found = found if found is not None else []
     key = str(key_name)
     if OFFICE_KEY_RE.search(key) or key in OFFICE_LIST_KEYS:
         values = value if isinstance(value, list) else [value]
         for item in values:
             label = office_label(item, key)
-            if label and label not in found:
+            if label and label.lower() not in {x.lower() for x in found}:
                 found.append(label)
     if isinstance(value, dict):
         for child_key, child_value in value.items():
@@ -66,39 +65,41 @@ def collect_office_values(value, key_name="", found=None):
     return found
 
 
-def extract_profile_offices(text):
-    """Extract office labels from the actual Power Play politician wiki page."""
-    offices = []
-    for match in OFFICE_TEXT_RE.findall(text or ""):
-        label = clean(match).strip(" .:|-—")
-        if label and label.lower() not in {x.lower() for x in offices}:
-            offices.append(label)
-    return offices
+def extract_offices_from_page_rows(politician, page_data):
+    """Extract office labels from the rendered national roster rows only."""
+    profile_id = str(politician.get("user_id", ""))
+    if not profile_id:
+        return []
+    labels = []
+    for row in page_data.get("rows", []):
+        attrs = row.get("attrs", {}) or {}
+        identifiers = {
+            str(attrs.get("data-user-id", "")),
+            str(attrs.get("data-profile-id", "")),
+            str(attrs.get("data-id", "")),
+        }
+        href = str(row.get("href", ""))
+        if profile_id not in identifiers and f"/users/{profile_id}" not in href and f"/wiki/politician/{profile_id}" not in href:
+            continue
+        for match in OFFICE_TEXT_RE.findall(clean(row.get("text", ""))):
+            label = clean(match).strip(" .:|-—")
+            if label and label.lower() not in {x.lower() for x in labels}:
+                labels.append(label)
+    return labels
 
 
 def parse_source_html(source):
-    """Parse a saved Power Play politicians HTML source for repeatable CI tests."""
-    security = re.search(
-        r"performing security verification|security service to protect against malicious bots",
-        source,
-        re.I,
-    )
-    if security:
+    """Parse a saved Power Play politicians HTML source for CI tests."""
+    if re.search(r"performing security verification|security service to protect against malicious bots", source, re.I):
         raise RuntimeError("PLAYER SCRAPER STOPPED: saved source is a Power Play security verification page")
-
     match = re.search(r"window\.politiciansData\s*=\s*(\[.*?\])\s*;</script>", source, re.S)
     if not match:
         raise RuntimeError("Could not find window.politiciansData in saved Power Play source")
     politicians = json.loads(match.group(1))
-
     title_match = re.search(r"<title>(.*?)</title>", source, re.I | re.S)
     title = clean(re.sub(r"<[^>]+>", " ", title_match.group(1))) if title_match else ""
     meta = {}
-    for key, value in re.findall(
-        r'<meta\s+(?:name|property)=["\']([^"\']+)["\'][^>]*content=["\']([^"\']*)["\']',
-        source,
-        re.I,
-    ):
+    for key, value in re.findall(r'<meta\s+(?:name|property)=["\']([^"\']+)["\'][^>]*content=["\']([^"\']*)["\']', source, re.I):
         meta[key] = value
     return politicians, title, meta, source
 
@@ -120,15 +121,7 @@ def load_page_data(page):
     const key = el.getAttribute('name') || el.getAttribute('property');
     if (key) meta[key] = el.content || '';
   }
-  return {
-    security,
-    title: document.title,
-    url: location.href,
-    text: bodyText,
-    meta,
-    rows,
-    jsonld: [...document.querySelectorAll('script[type="application/ld+json"]')].map(x => x.textContent || ''),
-  };
+  return { security, title: document.title, url: location.href, text: bodyText, meta, rows };
 }
 """)
 
@@ -136,13 +129,10 @@ def load_page_data(page):
 def scrape_live():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/154.0.0.0 Safari/537.36"
-            )
-        )
+        page = browser.new_page(user_agent=(
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+        ))
         print("Opening Power Play...")
         page.goto(URL, wait_until="domcontentloaded", timeout=60000)
         page.wait_for_timeout(5000)
@@ -159,24 +149,6 @@ def scrape_live():
     if not politicians:
         raise RuntimeError("Could not find window.politiciansData")
     return politicians, page_data
-
-
-def scrape_profile_offices(page, profile_id):
-    if not profile_id:
-        return []
-    url = PROFILE_URL.format(profile_id=profile_id)
-    page.goto(url, wait_until="domcontentloaded", timeout=30000)
-    page.wait_for_timeout(500)
-    data = page.evaluate(r"""() => ({
-        text: String(document.body?.innerText || '').replace(/\s+/g, ' ').trim(),
-        title: document.title,
-        security: /performing security verification|security service to protect against malicious bots/i.test(document.body?.innerText || '')
-    })""")
-    if data.get("security"):
-        raise RuntimeError(
-            f"PLAYER SCRAPER STOPPED: Power Play security verification appeared at {url}"
-        )
-    return extract_profile_offices(data.get("text", ""))
 
 
 def build_player(politician, page_data, offices):
@@ -201,7 +173,7 @@ def build_player(politician, page_data, offices):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--source-file", default=None, help="Use a saved Power Play HTML source instead of the live site")
-    parser.add_argument("--skip-profile-pages", action="store_true", help="Do not visit individual politician wiki pages")
+    parser.add_argument("--skip-profile-pages", action="store_true", help="Deprecated compatibility flag; profile pages are never scraped")
     args = parser.parse_args()
 
     source_file = args.source_file or __import__("os").environ.get(SOURCE_ENV, "")
@@ -215,30 +187,12 @@ def main():
 
     print(f"Players found: {len(politicians)}")
     players = []
-
-    if not source_file and not args.skip_profile_pages:
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            profile_page = browser.new_page(
-                user_agent=(
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/154.0.0.0 Safari/537.36"
-                )
-            )
-            try:
-                for politician in politicians:
-                    profile_id = str(politician.get("user_id", ""))
-                    offices = collect_office_values(politician)
-                    if not offices:
-                        offices = scrape_profile_offices(profile_page, profile_id)
-                    players.append(build_player(politician, page_data, offices))
-            finally:
-                browser.close()
-    else:
-        for politician in politicians:
-            offices = collect_office_values(politician)
-            players.append(build_player(politician, page_data, offices))
+    for politician in politicians:
+        offices = collect_office_values(politician)
+        for label in extract_offices_from_page_rows(politician, page_data):
+            if label.lower() not in {x.lower() for x in offices}:
+                offices.append(label)
+        players.append(build_player(politician, page_data, offices))
 
     output = Path("players.json")
     output.write_text(json.dumps(players, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
