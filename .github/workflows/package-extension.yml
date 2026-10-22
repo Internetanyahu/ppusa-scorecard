@@ -1,0 +1,73 @@
+name: Package PPUSA Chrome Extension
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/package-extension.yml'
+      - 'extension/manifest.json'
+      - 'extension/background.js'
+      - 'extension/inject.js'
+      - 'extension/parse.js'
+      - 'extension/popup.html'
+      - 'extension/popup.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Read extension version
+        id: version
+        shell: bash
+        run: echo "version=$(python -c 'import json; print(json.load(open("extension/manifest.json"))["version"])')" >> "$GITHUB_OUTPUT"
+
+      - name: Build clean download folder
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf extension/PPUSA-Chrome_Extension
+          mkdir -p extension/PPUSA-Chrome_Extension
+          cp extension/manifest.json extension/background.js extension/inject.js extension/parse.js extension/popup.html extension/popup.js extension/PPUSA-Chrome_Extension/
+          test "$(find extension/PPUSA-Chrome_Extension -maxdepth 1 -type f | wc -l)" -eq 6
+
+      - name: Commit clean download folder
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add extension/PPUSA-Chrome_Extension
+          if git diff --cached --quiet; then
+            echo "Distribution folder already current."
+          else
+            git commit -m "Package Chrome extension v${{ steps.version.outputs.version }}"
+            git push
+          fi
+
+      - name: Create release ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd extension
+          zip -r "PPUSA-Chrome_Extension-v${{ steps.version.outputs.version }}.zip" PPUSA-Chrome_Extension >/dev/null
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view "v${VERSION}" >/dev/null 2>&1; then
+            echo "Release v${VERSION} already exists; replacing its extension asset."
+            gh release upload "v${VERSION}" "extension/PPUSA-Chrome_Extension-v${VERSION}.zip" --clobber
+          else
+            gh release create "v${VERSION}" "extension/PPUSA-Chrome_Extension-v${VERSION}.zip" --title "PPUSA Chrome Extension v${VERSION}" --generate-notes
+          fi
