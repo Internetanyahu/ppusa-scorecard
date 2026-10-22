@@ -2,7 +2,6 @@ name: Scrape resolution provisions
 
 on:
   schedule:
-    # Every 3rd calendar day at 06:00 UTC.
     - cron: "0 6 */3 * *"
   workflow_dispatch:
 
@@ -16,26 +15,22 @@ permissions:
 jobs:
   resolutions:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Install Playwright
         run: |
           pip install playwright
           playwright install --with-deps chromium
-
       - name: Scrape current resolution provisions
         env:
           PYTHONUNBUFFERED: "1"
+          SCRAPER_TOKEN: ${{ secrets.SCRAPER_TOKEN }}
         run: python -u scraper/resolutions.py
-
       - name: Save provision catalog
         run: |
           git config user.name "github-actions[bot]"
