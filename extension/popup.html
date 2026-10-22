@@ -4,9 +4,9 @@ body{font:13px/1.4 system-ui,sans-serif;width:390px;margin:0;padding:12px;color:
 </style></head><body>
 <h1>PPUSA Bill &amp; Office Scraper</h1>
 <div id="status" class="status">Idle</div>
-<div class="box"><b>API token</b><div class="small">Paste the GitHub API token here. It is stored only in Chrome extension local storage. <code>API_TOKEN.txt</code> is a blank placeholder for local helpers.</div><label>Token<input id="token" class="token" type="password" autocomplete="off"></label><div class="row"><button id="save" class="primary">Save token</button></div></div>
+<div class="box"><b>API token</b><div class="small">Paste the GitHub API token here. It is stored only in Chrome extension local storage. The same token authenticates repository reads/writes and extension update checks.</div><label>Token<input id="token" class="token" type="password" autocomplete="off"></label><div class="row"><button id="save" class="primary">Save token</button><button id="update">Check for updates</button></div><div id="updateStatus" class="small"></div></div>
 <div class="row"><button id="scrape" class="primary">Scrape current page</button><button id="paginate">Paginate bills to 404</button><button id="stop">Stop</button></div>
 <div class="row"><button id="export">Export current JSONs</button></div>
 <div id="counts" class="small"></div><div id="log"></div>
-<p class="small">Open a PPUSA bill to scrape a bill, or a main politician wiki page to scrape that office. Bill pagination stops at the first real 404.</p>
+<p class="small">Open a PPUSA bill to scrape a bill, or a main politician wiki page to scrape that office. Bill pagination stops at the first real 404. Repository update checks only report a newer extension version; Chrome does not allow an unpacked extension to replace its own code.</p>
 <script src="popup.js"></script></body></html>
