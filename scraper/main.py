@@ -1,5 +1,6 @@
 import argparse
 import json
+import os
 import re
 from pathlib import Path
 
@@ -8,12 +9,10 @@ from playwright.sync_api import sync_playwright
 URL = "https://powerplayusa.net/national/politicians"
 SOURCE_ENV = "PPUSA_POLITICIANS_SOURCE"
 
-# The national Politicians page is the authoritative roster source.
-# Individual politician pages are never scraped by this workflow.
 OFFICE_KEY_RE = re.compile(
     r"(?:^|_)(?:office|offices|position|positions|appointment|appointments|"
     r"governorship|governor|president|vice.?president|senator|representative|"
-    r"cabinet|secretary|mayor|judge|justice|attorney.?general)(?:$|_)", re.I,
+    r"cabinet|secretary|mayor|judge|justice|attorney.?general|role)(?:$|_)", re.I,
 )
 OFFICE_LIST_KEYS = {
     "offices", "held_offices", "heldOffices", "office_history", "officeHistory",
@@ -46,7 +45,6 @@ def office_label(value, key_name=""):
 
 
 def collect_office_values(value, key_name="", found=None):
-    """Collect office values exposed in the national page's player data."""
     found = found if found is not None else []
     key = str(key_name)
     if OFFICE_KEY_RE.search(key) or key in OFFICE_LIST_KEYS:
@@ -65,31 +63,49 @@ def collect_office_values(value, key_name="", found=None):
     return found
 
 
+def normalize_office_text(value):
+    value = clean(value)
+    if not value:
+        return ""
+    if re.fullmatch(r"senate", value, re.I):
+        return "U.S. Senator"
+    if re.fullmatch(r"house(?: of representatives)?", value, re.I):
+        return "U.S. Representative"
+    for match in OFFICE_TEXT_RE.findall(value):
+        label = clean(match).strip(" .:|-—")
+        if label:
+            return label
+    return ""
+
+
 def extract_offices_from_page_rows(politician, page_data):
-    """Extract office labels from the rendered national roster rows only."""
+    """Extract office labels from the rendered national Politicians table only."""
     profile_id = str(politician.get("user_id", ""))
     if not profile_id:
         return []
     labels = []
-    for row in page_data.get("rows", []):
-        attrs = row.get("attrs", {}) or {}
-        identifiers = {
-            str(attrs.get("data-user-id", "")),
-            str(attrs.get("data-profile-id", "")),
-            str(attrs.get("data-id", "")),
-        }
-        href = str(row.get("href", ""))
-        if profile_id not in identifiers and f"/users/{profile_id}" not in href and f"/wiki/politician/{profile_id}" not in href:
+    headers = [clean(x).lower() for x in page_data.get("table_headers", [])]
+    office_columns = [i for i, header in enumerate(headers) if re.search(r"office|position|appointment|role|chamber", header, re.I)]
+
+    for row in page_data.get("table_rows", []):
+        row_ids = {str(x) for x in row.get("ids", []) if x not in (None, "")}
+        hrefs = [str(x) for x in row.get("hrefs", [])]
+        if profile_id not in row_ids and not any(
+            f"/users/{profile_id}" in href or f"/wiki/politician/{profile_id}" in href
+            for href in hrefs
+        ):
             continue
-        for match in OFFICE_TEXT_RE.findall(clean(row.get("text", ""))):
-            label = clean(match).strip(" .:|-—")
+
+        cells = row.get("cells", [])
+        candidates = [cells[i] for i in office_columns if i < len(cells)] + cells + [row.get("text", "")]
+        for candidate in candidates:
+            label = normalize_office_text(candidate)
             if label and label.lower() not in {x.lower() for x in labels}:
                 labels.append(label)
     return labels
 
 
 def parse_source_html(source):
-    """Parse a saved Power Play politicians HTML source for CI tests."""
     if re.search(r"performing security verification|security service to protect against malicious bots", source, re.I):
         raise RuntimeError("PLAYER SCRAPER STOPPED: saved source is a Power Play security verification page")
     match = re.search(r"window\.politiciansData\s*=\s*(\[.*?\])\s*;</script>", source, re.S)
@@ -110,18 +126,28 @@ def load_page_data(page):
   const clean = value => String(value ?? '').replace(/\s+/g, ' ').trim();
   const bodyText = clean(document.body?.innerText || '');
   const security = /performing security verification|security service to protect against malicious bots/i.test(bodyText);
+  const meta = {};
+  for (const el of document.querySelectorAll('meta[name], meta[property]')) {
+    const key = el.getAttribute('name') || el.getAttribute('property');
+    if (key) meta[key] = el.content || '';
+  }
+  const table = document.querySelector('#politiciansTable');
+  const tableHeaders = table ? [...table.querySelectorAll('thead th')].map(x => clean(x.textContent)) : [];
+  const tableRows = table ? [...table.querySelectorAll('tbody tr')].map(tr => ({
+    text: clean(tr.innerText),
+    cells: [...tr.querySelectorAll('td')].map(td => clean(td.innerText)),
+    ids: [...tr.querySelectorAll('[data-user-id], [data-profile-id], [data-id]')]
+      .flatMap(el => [el.getAttribute('data-user-id'), el.getAttribute('data-profile-id'), el.getAttribute('data-id')])
+      .filter(Boolean),
+    hrefs: [...tr.querySelectorAll('a[href]')].map(a => a.href),
+  })) : [];
   const elements = [...document.querySelectorAll('a, img, [data-user-id], [data-profile-id], [data-id]')];
   const rows = elements.map(el => {
     const attrs = {};
     for (const attr of el.attributes || []) attrs[attr.name] = attr.value;
     return { tag: el.tagName.toLowerCase(), text: clean(el.textContent), href: el.href || '', src: el.src || '', attrs };
   });
-  const meta = {};
-  for (const el of document.querySelectorAll('meta[name], meta[property]')) {
-    const key = el.getAttribute('name') || el.getAttribute('property');
-    if (key) meta[key] = el.content || '';
-  }
-  return { security, title: document.title, url: location.href, text: bodyText, meta, rows };
+  return { security, title: document.title, url: location.href, text: bodyText, meta, rows, tableHeaders, tableRows };
 }
 """)
 
@@ -176,11 +202,11 @@ def main():
     parser.add_argument("--skip-profile-pages", action="store_true", help="Deprecated compatibility flag; profile pages are never scraped")
     args = parser.parse_args()
 
-    source_file = args.source_file or __import__("os").environ.get(SOURCE_ENV, "")
+    source_file = args.source_file or os.environ.get(SOURCE_ENV, "")
     if source_file:
         source = Path(source_file).read_text(encoding="utf-8")
         politicians, title, meta, raw_source = parse_source_html(source)
-        page_data = {"title": title, "meta": meta, "rows": [], "text": clean(raw_source)}
+        page_data = {"title": title, "meta": meta, "rows": [], "table_headers": [], "table_rows": [], "text": clean(raw_source)}
         print(f"Using saved Power Play source: {source_file}")
     else:
         politicians, page_data = scrape_live()
