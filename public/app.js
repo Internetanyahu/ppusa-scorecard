@@ -97,9 +97,17 @@ function officeCount(player) {
   return (player?.profiles || []).reduce((sum, profile) => sum + normalizeOffices(profile).length, 0);
 }
 
+// Fallback when no office was scraped: the profile's chamber (from the player data)
+// still says they sit in the Senate or House, so do not claim "No office".
+function chamberOffice(profile) {
+  const chamber = String(profile?.chamber || '').toLowerCase();
+  return chamber === 'senate' ? 'U.S. Senator' : chamber === 'house' ? 'U.S. Representative' : '';
+}
+
 function officeText(profile) {
   const offices = normalizeOffices(profile);
-  return offices.length ? offices.join(', ') : 'No office';
+  if (offices.length) return offices.join(', ');
+  return chamberOffice(profile) || 'No office';
 }
 
 async function loadData() {

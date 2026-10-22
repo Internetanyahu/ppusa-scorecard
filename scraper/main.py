@@ -213,9 +213,19 @@ def main():
         politicians, page_data = scrape_live()
 
     print(f"Players found: {len(politicians)}")
+    # Offices come from the wiki profile pages (scraper/scrape_offices.py -> offices.json);
+    # the national roster itself has no office data.
+    try:
+        scraped_offices = json.loads(Path("offices.json").read_text(encoding="utf-8")).get("profiles", {})
+    except (OSError, json.JSONDecodeError):
+        scraped_offices = {}
+    print(f"Scraped office records on file: {len(scraped_offices)}")
     players = []
     for politician in politicians:
         offices = collect_office_values(politician)
+        for label in (scraped_offices.get(str(politician.get("user_id", ""))) or {}).get("offices", []):
+            if label and label.lower() not in {x.lower() for x in offices}:
+                offices.append(label)
         for label in extract_offices_from_page_rows(politician, page_data):
             if label.lower() not in {x.lower() for x in offices}:
                 offices.append(label)

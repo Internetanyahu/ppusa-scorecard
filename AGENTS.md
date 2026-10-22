@@ -34,6 +34,8 @@
 - Preserve as much source profile information as practical instead of reducing the scraper to Senate/House-only fields.
 - The public player card must render the compiled office count directly and must not briefly show the old profile-count label while an asynchronous decoration step runs.
 - The Power Play national politician roster uses `window.politiciansData` for roster fields. It does **not** guarantee office information.
+- Offices are scraped by `scraper/scrape_offices.py` (workflow `.github/workflows/offices.yml`, daily plus manual) into `offices.json`; `scraper/main.py` merges it into `players.json`. The national roster has no office fields (verified against `examples/powerplayusa.net_national_politicians.txt`).
+- Display fallback: if a profile has no scraped office but the player data says its chamber is Senate or House, the site shows U.S. Senator / U.S. Representative instead of "No office". Real scraped offices always win; "Other" chamber with no office still shows **No office**.
 - Individual office/profile information must be read from the actual Power Play politician wiki profile URL: `https://powerplayusa.net/wiki/politician/{user_id}`. Do not use `/users/{user_id}` as the office source.
 - Never invent an office from party, caucus, state, chamber, or `is_main`.
 - If the actual profile page supplies no office, preserve the profile and display **No office**.

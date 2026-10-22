@@ -1,0 +1,46 @@
+name: Scrape politician offices
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 5 * * *"   # daily, before the 06:00 UTC scorecard compile
+
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  offices:
+    name: Scrape offices from wiki profile pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Scrape offices
+        env:
+          PYTHONUNBUFFERED: "1"
+          SCRAPER_TOKEN: ${{ secrets.SCRAPER_TOKEN }}
+        run: python -u scraper/scrape_offices.py
+
+      - name: Save offices
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add offices.json offices_debug.json
+          git diff --cached --quiet || git commit -m "Update politician offices"
+          git pull --rebase
+          git push
