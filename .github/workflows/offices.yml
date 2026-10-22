@@ -1,9 +1,9 @@
-name: Scrape politician offices
+name: Check inactive player offices
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 5 * * *"   # daily, before the 06:00 UTC scorecard compile
+    - cron: "30 */6 * * *"
 
 concurrency:
   group: data-commit
@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   offices:
-    name: Scrape offices from wiki profile pages
+    name: Check offices for players without a vote in 5 days
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -30,17 +30,17 @@ jobs:
           pip install playwright
           playwright install --with-deps chromium
 
-      - name: Scrape offices
+      - name: Check only inactive players from main wiki pages
         env:
           PYTHONUNBUFFERED: "1"
           SCRAPER_TOKEN: ${{ secrets.SCRAPER_TOKEN }}
-        run: python -u scraper/scrape_offices.py
+        run: python -u scraper/check_offices.py --days 5
 
-      - name: Save offices
+      - name: Save office checks
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add offices.json offices_debug.json
-          git diff --cached --quiet || git commit -m "Update politician offices"
+          git diff --cached --quiet || git commit -m "Check inactive player offices"
           git pull --rebase
           git push
