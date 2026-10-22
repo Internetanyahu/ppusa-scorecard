@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T01:57:58+00:00",
+  "generated_at": "2026-10-22T02:01:55+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -34805,7 +34805,7 @@
       "name": "Abraham B. J. Freeman",
       "discord": "",
       "discord_ids": [],
-      "party": "gop",
+      "party": "ind",
       "state": "Kansas",
       "chambers": [
         "House",
@@ -34817,7 +34817,7 @@
         {
           "profile_id": "1295",
           "name": "Abraham B. J. Freeman",
-          "party": "gop",
+          "party": "ind",
           "state": "Kansas",
           "chamber": "House",
           "avatar": "https://cdn.discordapp.com/avatars/1274754200466624618/b0db571d074c5504e3b55bf9bb190050.webp",
@@ -34830,7 +34830,7 @@
         {
           "profile_id": "1297",
           "name": "Lex Luthor",
-          "party": "gop",
+          "party": "ind",
           "state": "Kansas",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1274754200466624618/b0db571d074c5504e3b55bf9bb190050.webp",
@@ -34843,7 +34843,7 @@
         {
           "profile_id": "1301",
           "name": "Dr. Ivo Robotnik",
-          "party": "gop",
+          "party": "ind",
           "state": "West Virginia",
           "chamber": "Senate",
           "avatar": "https://cdn.discordapp.com/avatars/1274754200466624618/b0db571d074c5504e3b55bf9bb190050.webp",
