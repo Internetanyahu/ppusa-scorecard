@@ -7,7 +7,6 @@
 - This is a dark-mode website. Do not introduce white-on-white, black-on-black, or otherwise low-contrast UI.
 - Text, labels, inputs, selects, buttons, dialogs, admin screens, login screens, notices, and dynamically injected UI must remain readable against the dark theme.
 - Any new component must inherit the existing dark design tokens where possible.
-- If a third-party/default browser style would make a control light, explicitly style it for the dark theme.
 
 ## 2. The scorecard-set swapper belongs to the page
 
@@ -31,8 +30,10 @@
 - Do not silently discard profiles because they lack a current office.
 - Preserve as much source profile information as practical instead of reducing the scraper to Senate/House-only fields.
 - The public player card must render the compiled office count directly and must not briefly show the old profile-count label while an asynchronous decoration step runs.
-- The `examples/` directory contains saved Power Play source pages and is a schema reference. Use it before guessing at DOM or embedded-data structure.
-- The politician source example demonstrates that `window.politiciansData` contains roster data but does **not** itself guarantee office information. Office data must come from actual office/profile fields or individual Power Play profile pages; never invent an office from party, caucus, state, or `is_main`.
+- The Power Play national politician roster uses `window.politiciansData` for roster fields. It does **not** guarantee office information.
+- Individual office/profile information must be read from the actual Power Play politician wiki profile URL: `https://powerplayusa.net/wiki/politician/{user_id}`. Do not use `/users/{user_id}` as the office source.
+- Never invent an office from party, caucus, state, chamber, or `is_main`.
+- If the actual profile page supplies no office, preserve the profile and display **No office**.
 
 ## 5. Power Play USA security verification is a hard failure
 
@@ -90,11 +91,12 @@ Before considering a change complete, verify:
 6. Office counts come from office data, not profile count.
 7. `No office` appears for office-less profiles.
 8. Player cards do not flash the obsolete profile-count office label before compiled office metadata is applied.
-9. Power Play security verification causes an explicit scraper failure, not an empty result.
-10. Saved Power Play source fixtures parse successfully.
-11. Appropriations are direction `0` and non-scorable in published scorecard sets.
-12. Resolution provision monitoring remains scheduled every 3 calendar days.
-13. Workflows still reference the intended generated files and build steps.
+9. The office scraper uses `/wiki/politician/{user_id}`.
+10. Power Play security verification causes an explicit scraper failure, not an empty result.
+11. Saved Power Play source fixtures parse successfully.
+12. Appropriations are direction `0` and non-scorable in published scorecard sets.
+13. Resolution provision monitoring remains scheduled every 3 calendar days.
+14. Workflows still reference the intended generated files and build steps.
 
 ## 12. Source of truth for future AIs
 
