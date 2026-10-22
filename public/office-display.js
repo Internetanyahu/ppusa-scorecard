@@ -1,5 +1,5 @@
-/* Office display is deliberately separate from app.js so the scorecard renderer
- * can keep its existing scoring logic while office metadata is presentation-only. */
+/* Office display is presentation-only. It reads the compiled scorecard so the
+ * scoring/rendering code does not need to know how offices are represented. */
 (function () {
   const esc = value => String(value ?? '').replace(/[&<>'"]/g, c => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
@@ -14,30 +14,38 @@
     return [...new Set(offices.map(x => String(x).trim()).filter(Boolean))];
   };
 
-  const profileOfficeCount = profile => officesFor(profile).length;
   const playerOfficeCount = player =>
-    (player?.profiles || []).reduce((sum, profile) => sum + profileOfficeCount(profile), 0);
+    (player?.profiles || []).reduce((sum, profile) => sum + officesFor(profile).length, 0);
+
+  const decorate = players => {
+    document.querySelectorAll('[data-player-index]').forEach(card => {
+      const name = card.querySelector('h3')?.textContent?.trim();
+      const player = players.find(p => p.name === name);
+      if (!player) return;
+
+      const count = playerOfficeCount(player);
+      const label = count === 0 ? 'No office' : `${count} office${count === 1 ? '' : 's'} held`;
+      const strong = card.querySelector('.profile-strip strong');
+      if (strong) strong.textContent = label;
+
+      card.querySelectorAll('.profile-chip').forEach((chip, index) => {
+        const profile = player.profiles?.[index];
+        if (!profile) return;
+        const offices = officesFor(profile);
+        const location = [profile.chamber, profile.state].filter(Boolean).join(' · ');
+        chip.innerHTML = `<strong>${esc(profile.name || 'Unknown')}</strong> · ${esc(location)} · ${esc(offices.length ? offices.join(', ') : 'No office')}`;
+      });
+    });
+  };
 
   const originalRenderPlayers = window.renderPlayers;
   if (typeof originalRenderPlayers === 'function') {
     window.renderPlayers = function () {
       originalRenderPlayers.apply(this, arguments);
-      document.querySelectorAll('[data-player-index]').forEach(card => {
-        const player = window.state?.filtered?.[Number(card.dataset.playerIndex)];
-        if (!player) return;
-        const count = playerOfficeCount(player);
-        const label = count === 0 ? 'No office' : `${count} office${count === 1 ? '' : 's'} held`;
-        const strong = card.querySelector('.profile-strip strong');
-        if (strong) strong.textContent = label;
-
-        card.querySelectorAll('.profile-chip').forEach((chip, index) => {
-          const profile = player.profiles?.[index];
-          if (!profile) return;
-          const offices = officesFor(profile);
-          const location = [profile.chamber, profile.state].filter(Boolean).join(' · ');
-          chip.innerHTML = `<strong>${esc(profile.name || 'Unknown')}</strong> · ${esc(location)} · ${esc(offices.length ? offices.join(', ') : 'No office')}`;
-        });
-      });
+      fetch('data/conservative_scorecard.json')
+        .then(response => response.json())
+        .then(data => decorate(data.players || []))
+        .catch(() => {});
     };
   }
 
