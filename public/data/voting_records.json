@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T00:07:12+00:00",
+  "generated_at": "2026-10-22T00:11:42+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -15584,7 +15584,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
         "profiles": [
           {
             "profile_id": "1011",
@@ -15592,7 +15592,7 @@
             "party": "grn",
             "state": "Maryland",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
             "is_main": true,
             "on_site": true
           },
@@ -15602,7 +15602,7 @@
             "party": "grn",
             "state": "New Mexico",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
             "is_main": false,
             "on_site": true
           },
@@ -15612,7 +15612,7 @@
             "party": "grn",
             "state": "Wisconsin",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
             "is_main": false,
             "on_site": true
           }
