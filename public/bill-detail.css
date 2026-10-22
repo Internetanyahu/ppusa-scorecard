@@ -1,0 +1,138 @@
+.bill-status-line {
+  display: block;
+  margin-top: 6px;
+}
+
+.bill-card strong + span,
+.bill-status {
+  display: block;
+  margin-top: 5px;
+}
+
+.bill-impact {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(280px, 1fr);
+  gap: 14px;
+  margin: 22px 0;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-2);
+}
+
+.bill-impact-main strong {
+  display: block;
+  margin: 4px 0 3px;
+  font-size: 42px;
+  line-height: 1;
+  letter-spacing: -.05em;
+}
+
+.bill-impact-main p {
+  margin: 8px 0 0;
+  color: var(--text-soft);
+  font-size: 12px;
+}
+
+.bill-impact-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9px;
+}
+
+.bill-impact-stats > div {
+  padding: 10px 11px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-3);
+}
+
+.bill-impact-stats span {
+  display: block;
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.bill-impact-stats strong {
+  display: block;
+  margin-top: 3px;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.provision-list {
+  display: grid;
+  gap: 8px;
+}
+
+.provision {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 12px 13px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-3);
+}
+
+.provision-name {
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 750;
+}
+
+.provision-meta,
+.provision-rationale {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.provision-rationale {
+  color: var(--text-soft);
+  line-height: 1.5;
+}
+
+.provision-direction {
+  flex: 0 0 auto;
+  min-width: 34px;
+  padding: 4px 7px;
+  border-radius: 999px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.provision-direction.positive {
+  background: var(--positive-bg);
+  color: var(--positive);
+}
+
+.provision-direction.negative {
+  background: var(--negative-bg);
+  color: var(--negative);
+}
+
+.provision-direction.neutral {
+  background: var(--neutral-bg);
+  color: var(--neutral);
+}
+
+.bill-source-row {
+  margin-top: 18px;
+}
+
+.bill-source-row a {
+  color: var(--accent-bright);
+  font-size: 11px;
+}
+
+@media (max-width: 720px) {
+  .bill-impact {
+    grid-template-columns: 1fr;
+  }
+}
