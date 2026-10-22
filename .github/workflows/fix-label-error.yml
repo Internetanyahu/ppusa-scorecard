@@ -14,18 +14,13 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           p = Path('public/app.js')
-          s = p.read_text()
-          old = 'const label = count === 0 ? \'No office\' : `${count} office${count === 1 ? \'\' : \'s\'} held`;'
-          new = 'const officeLabel = count === 0 ? \'No office\' : `${count} office${count === 1 ? \'\' : \'s\'} held`;'
-          if old not in s:
-              raise SystemExit('Expected office label declaration not found')
-          s = s.replace(old, new, 1)
-          old2 = '<span class="player-office">${esc(label)}</span>'
-          new2 = '<span class="player-office">${esc(officeLabel)}</span>'
-          if old2 not in s:
-              raise SystemExit('Expected office label render not found')
-          s = s.replace(old2, new2, 1)
-          p.write_text(s)
+          s = p.read_text(encoding='utf-8')
+          old = "const label = v =>"
+          new = "const formatLabel = v =>"
+          if old in s:
+              s = s.replace(old, new, 1)
+          s = s.replace('label(', 'formatLabel(')
+          p.write_text(s, encoding='utf-8')
           PY
       - name: Remove temporary workflow and commit
         run: |
@@ -33,5 +28,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add public/app.js .github/workflows/fix-label-error.yml
-          git commit -m 'Fix label shadowing in scorecard renderer'
+          git diff --cached --quiet || git commit -m 'Fix label shadowing in scorecard renderer'
           git push
