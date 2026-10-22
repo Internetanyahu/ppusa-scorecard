@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "PPUSA Bill & Office Scraper",
-  "version": "3.1.0",
-  "description": "Scrape PPUSA bills and main politician wiki offices in the browser, paginate bills until 404, sync results to the repository, and check the repository for extension updates with one API token.",
+  "version": "3.2.0",
+  "description": "Scrape PPUSA bills and politician offices, paginate bills until 404, discover useful PPUSA page sources in an opt-in background mode, sync captures to examples, and check the repository for extension updates with one API token.",
   "permissions": ["tabs", "scripting", "storage", "unlimitedStorage", "notifications"],
   "host_permissions": ["https://powerplayusa.net/*", "https://api.github.com/*"],
   "background": { "service_worker": "background.js", "type": "module" },
