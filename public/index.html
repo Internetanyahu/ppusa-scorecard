@@ -6,6 +6,7 @@
   <meta name="description" content="PPUSA-SCORECARD — independent Power Play USA policy scorecards">
   <title>PPUSA-SCORECARD</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="bill-detail.css?v=20261022b">
   <link rel="stylesheet" href="scorecard-selector.css?v=20261021c">
 </head>
 <body>
@@ -36,12 +37,13 @@
     <section><div class="section-heading"><div><p class="eyebrow">LEGISLATORS</p><h2>Scorecards</h2></div><span id="resultCount" class="muted">—</span></div><div id="scorecards" class="scorecard-grid" aria-live="polite"></div></section>
     <section class="bills-section"><div class="section-heading"><div><p class="eyebrow">LEGISLATION</p><h2>On the floor</h2></div><span class="muted">Floor calendars and bills awaiting leadership calls.</span></div><div id="floorBills" class="bill-grid"></div></section>
     <section class="bills-section"><div class="section-heading"><div><p class="eyebrow">LEGISLATION</p><h2>In committee</h2></div><span class="muted">Pending bills are informational and do not affect player scores.</span></div><div id="committeeBills" class="bill-grid"></div></section>
-    <section class="bills-section"><div class="section-heading"><div><p class="eyebrow">LEGISLATION</p><h2>Finalized bills</h2></div><span class="muted">Click a bill to inspect its provisions.</span></div><p id="decayExplanation" class="muted method-note">Older finalized bills carry less weight over time.</p><div id="bills" class="bill-grid"></div></section>
+    <section class="bills-section"><div class="section-heading"><div><p class="eyebrow">LEGISLATION</p><h2>Finalized bills</h2></div><span class="muted">Click a bill to inspect its provisions and scorecard effect.</span></div><p id="decayExplanation" class="muted method-note">Older finalized bills carry less weight over time.</p><div id="bills" class="bill-grid"></div></section>
   </main>
   <dialog id="scorecardDialog" class="dialog"><button class="dialog-close" data-close aria-label="Close">×</button><div id="scorecardDetail"></div></dialog>
   <dialog id="billDialog" class="dialog"><button class="dialog-close" data-close aria-label="Close">×</button><div id="billDetail"></div></dialog>
   <footer class="site-footer"><div class="shell footer-inner"><span>PPUSA-SCORECARD</span><span>Selectable scorecard sets · Finalized bills affect scores</span></div></footer>
   <script src="scorecard-selector.js?v=20261021c"></script>
-  <script src="app.js?v=20261022a" defer></script>
+  <script src="bill-detail.js?v=20261022b"></script>
+  <script src="app.js?v=20261022b" defer></script>
 </body>
 </html>
