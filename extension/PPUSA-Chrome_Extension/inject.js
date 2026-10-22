@@ -15,6 +15,47 @@ export function probe() {
   };
 }
 
+export function extractDiscovery() {
+  const clean = s => (s || "").replace(/\s+/g, " ").trim();
+  const source = document.documentElement?.outerHTML || "";
+  const visible = clean(document.body?.innerText || "");
+  const haystack = `${document.title || ""}\n${location.href}\n${visible}`.toLowerCase();
+  const keywordGroups = {
+    resolution: ["resolution", "resolution_id", "create-resolution", "resolution status"],
+    bill: ["about this bill", "bill status", "bill number", "resolution_id", "s.j.res.", "h.j.res.", "h.r.", "s."],
+    office: ["office", "currently serves as", "career office", "senator", "representative", "governor", "president", "vice president"],
+    politician: ["politician", "caucus", "party", "district", "chamber", "/wiki/politician/"],
+    vote: ["aye", "nay", "present", "vote", "voted", "yea"],
+    data: ["data", "json", "api", "provision", "provisions", "scorecard"]
+  };
+  const hits = {};
+  for (const [group, words] of Object.entries(keywordGroups)) {
+    const found = words.filter(word => haystack.includes(word));
+    if (found.length) hits[group] = found;
+  }
+  const keywordCount = Object.values(hits).reduce((n, words) => n + words.length, 0);
+  if (!keywordCount) return { found: false, url: location.href, path: location.pathname, title: document.title || "" };
+
+  const path = location.pathname;
+  let pageType = "other";
+  if (/\/resolutions\/\d+/.test(path) || hits.resolution || hits.bill) pageType = "bill-or-resolution";
+  if (/\/wiki\/politician\/\d+/.test(path) || hits.office || hits.politician) pageType = "politician";
+  if (/\/national\/politicians/.test(path)) pageType = "politicians-roster";
+  if (/create-resolution/.test(path)) pageType = "resolution-builder";
+
+  return {
+    found: true,
+    url: location.href,
+    path,
+    title: document.title || "",
+    pageType,
+    hits,
+    keywordCount,
+    source,
+    capturedAt: new Date().toISOString()
+  };
+}
+
 export function extractBill() {
   const clean = s => (s || "").replace(/\s+/g, " ").trim();
   const meta = n => document.querySelector(`meta[property="${n}"], meta[name="${n}"]`)?.content || "";
