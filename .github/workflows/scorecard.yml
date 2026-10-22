@@ -40,8 +40,14 @@ jobs:
       - name: Validate saved Power Play source examples
         run: python scraper/validate_powerplay_examples.py
       - name: Refresh current Power Play player roster
+        env:
+          PYTHONUNBUFFERED: "1"
+          SCRAPER_TOKEN: ${{ secrets.SCRAPER_TOKEN }}
         run: python scraper/main.py
       - name: Scrape Power Play in-game clock
+        env:
+          PYTHONUNBUFFERED: "1"
+          SCRAPER_TOKEN: ${{ secrets.SCRAPER_TOKEN }}
         run: python scraper/game_time.py
       - name: Rebuild user identity history
         run: python scraper/build_history.py
