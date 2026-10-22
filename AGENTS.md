@@ -30,6 +30,8 @@
 - A profile with no office must explicitly display **No office**.
 - Do not silently discard profiles because they lack a current office.
 - Preserve as much source profile information as practical instead of reducing the scraper to Senate/House-only fields.
+- The `examples/` directory contains saved Power Play source pages and is a schema reference. Use it before guessing at DOM or embedded-data structure.
+- The politician source example demonstrates that `window.politiciansData` contains roster data but does **not** itself guarantee office information. Office data must come from actual office/profile fields or individual Power Play profile pages; never invent an office from party, caucus, state, or `is_main`.
 
 ## 5. Power Play USA security verification is a hard failure
 
@@ -42,17 +44,26 @@
 
 - Never turn a source failure into plausible-looking empty data.
 - Preserve source records unless there is a documented reason to remove them.
-- When the source schema is uncertain, inspect the actual page/source data or ask for a supplied page source rather than guessing a narrow schema.
+- When the source schema is uncertain, inspect the actual page/source data or use the supplied page-source examples rather than guessing a narrow schema.
 - Prefer broad extraction plus normalization over brittle hard-coded field lists.
+- The saved bill source is a parser fixture. It contains the actual `About This Bill`, sponsor/cosponsor, provisions, and Senate/House vote DOM used by the bill parser.
 
-## 7. Preserve existing functionality
+## 7. Saved source examples are part of the test contract
+
+- `examples/powerplayusa.net_national_politicians.txt` is the reference source for the national politician roster parser.
+- `examples/powerplayusa.net_resolutions_1.txt` is the reference source for the bill/resolution parser.
+- `examples/powerplayusa.net_chambers_create-resolution.txt` is additional Power Play source context for chamber/resolution structure.
+- `scraper/validate_powerplay_examples.py` must pass before live scraping is allowed by the workflows.
+- If Power Play changes its HTML or embedded data schema, update the parsers against the supplied source examples first, then update the fixtures/tests if necessary.
+
+## 8. Preserve existing functionality
 
 - Make targeted changes. Do not replace working behavior merely to simplify an implementation.
 - Before changing a file, inspect its current contents and preserve unrelated logic.
 - Keep scorecard-set selection, score calculation, bill data, profile data, and admin functionality working together.
 - Do not hardcode secrets, passwords, API tokens, or credentials into the repository.
 
-## 8. Validation checklist
+## 9. Validation checklist
 
 Before considering a change complete, verify:
 
@@ -64,9 +75,10 @@ Before considering a change complete, verify:
 6. Office counts come from office data, not profile count.
 7. `No office` appears for office-less profiles.
 8. Power Play security verification causes an explicit scraper failure, not an empty result.
-9. Workflows still reference the intended generated files and build steps.
+9. Saved Power Play source fixtures parse successfully.
+10. Workflows still reference the intended generated files and build steps.
 
-## 9. Source of truth for future AIs
+## 10. Source of truth for future AIs
 
 This file is the first project-level instruction document to read. If another document conflicts with these permanent UI/data-integrity rules, stop and resolve the conflict rather than silently weakening these requirements.
 
