@@ -6,6 +6,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 URL = "https://powerplayusa.net/national/politicians"
+PROFILE_URL = "https://powerplayusa.net/wiki/politician/{profile_id}"
 SOURCE_ENV = "PPUSA_POLITICIANS_SOURCE"
 
 OFFICE_KEY_RE = re.compile(
@@ -66,11 +67,10 @@ def collect_office_values(value, key_name="", found=None):
 
 
 def extract_profile_offices(text):
-    """Extract office labels from a Power Play profile page without inventing an office."""
+    """Extract office labels from the actual Power Play politician wiki page."""
     offices = []
     for match in OFFICE_TEXT_RE.findall(text or ""):
         label = clean(match).strip(" .:|-—")
-        # Do not mistake generic page navigation for an office.
         if label and label.lower() not in {x.lower() for x in offices}:
             offices.append(label)
     return offices
@@ -164,26 +164,44 @@ def scrape_live():
 def scrape_profile_offices(page, profile_id):
     if not profile_id:
         return []
-    try:
-        page.goto(f"https://powerplayusa.net/users/{profile_id}", wait_until="domcontentloaded", timeout=30000)
-        page.wait_for_timeout(500)
-        data = page.evaluate(r"""() => ({
-            text: String(document.body?.innerText || '').replace(/\s+/g, ' ').trim(),
-            title: document.title,
-            security: /performing security verification|security service to protect against malicious bots/i.test(document.body?.innerText || '')
-        })""")
-        if data.get("security"):
-            raise RuntimeError("Power Play security verification appeared while reading a player profile")
-        return extract_profile_offices(data.get("text", ""))
-    except Exception as exc:
-        print(f"  Profile {profile_id}: office page unavailable ({exc})")
-        return []
+    url = PROFILE_URL.format(profile_id=profile_id)
+    page.goto(url, wait_until="domcontentloaded", timeout=30000)
+    page.wait_for_timeout(500)
+    data = page.evaluate(r"""() => ({
+        text: String(document.body?.innerText || '').replace(/\s+/g, ' ').trim(),
+        title: document.title,
+        security: /performing security verification|security service to protect against malicious bots/i.test(document.body?.innerText || '')
+    })""")
+    if data.get("security"):
+        raise RuntimeError(
+            f"PLAYER SCRAPER STOPPED: Power Play security verification appeared at {url}"
+        )
+    return extract_profile_offices(data.get("text", ""))
+
+
+def build_player(politician, page_data, offices):
+    profile_id = str(politician.get("user_id", ""))
+    return {
+        **politician,
+        "powerplay_profile_id": profile_id,
+        "name": politician.get("name", ""),
+        "party": politician.get("partyAbbreviation2", politician.get("party", "")),
+        "state": politician.get("stateName", politician.get("state", "")),
+        "offices": offices,
+        "office": offices[0] if offices else "",
+        "office_count": len(offices),
+        "has_office": bool(offices),
+        "source_page": URL,
+        "source_page_title": page_data.get("title", ""),
+        "page_metadata": page_data.get("meta", {}),
+        "page_elements": [],
+    }
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--source-file", default=None, help="Use a saved Power Play HTML source instead of the live site")
-    parser.add_argument("--skip-profile-pages", action="store_true", help="Do not visit individual /users/{id} pages")
+    parser.add_argument("--skip-profile-pages", action="store_true", help="Do not visit individual politician wiki pages")
     args = parser.parse_args()
 
     source_file = args.source_file or __import__("os").environ.get(SOURCE_ENV, "")
@@ -198,53 +216,29 @@ def main():
     print(f"Players found: {len(politicians)}")
     players = []
 
-    profile_page = None
     if not source_file and not args.skip_profile_pages:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
-            profile_page = browser.new_page()
-            for politician in politicians:
-                profile_id = str(politician.get("user_id", ""))
-                offices = collect_office_values(politician)
-                if not offices:
-                    offices = scrape_profile_offices(profile_page, profile_id)
-                player = dict(politician)
-                player.update({
-                    "powerplay_profile_id": profile_id,
-                    "name": politician.get("name", ""),
-                    "party": politician.get("partyAbbreviation2", politician.get("party", "")),
-                    "state": politician.get("stateName", politician.get("state", "")),
-                    "offices": offices,
-                    "office": offices[0] if offices else "",
-                    "office_count": len(offices),
-                    "has_office": bool(offices),
-                    "source_page": URL,
-                    "source_page_title": page_data.get("title", ""),
-                    "page_metadata": page_data.get("meta", {}),
-                    "page_elements": [],
-                })
-                players.append(player)
-            browser.close()
+            profile_page = browser.new_page(
+                user_agent=(
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/154.0.0.0 Safari/537.36"
+                )
+            )
+            try:
+                for politician in politicians:
+                    profile_id = str(politician.get("user_id", ""))
+                    offices = collect_office_values(politician)
+                    if not offices:
+                        offices = scrape_profile_offices(profile_page, profile_id)
+                    players.append(build_player(politician, page_data, offices))
+            finally:
+                browser.close()
     else:
         for politician in politicians:
-            profile_id = str(politician.get("user_id", ""))
             offices = collect_office_values(politician)
-            player = dict(politician)
-            player.update({
-                "powerplay_profile_id": profile_id,
-                "name": politician.get("name", ""),
-                "party": politician.get("partyAbbreviation2", politician.get("party", "")),
-                "state": politician.get("stateName", politician.get("state", "")),
-                "offices": offices,
-                "office": offices[0] if offices else "",
-                "office_count": len(offices),
-                "has_office": bool(offices),
-                "source_page": URL,
-                "source_page_title": page_data.get("title", ""),
-                "page_metadata": page_data.get("meta", {}),
-                "page_elements": [],
-            })
-            players.append(player)
+            players.append(build_player(politician, page_data, offices))
 
     output = Path("players.json")
     output.write_text(json.dumps(players, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
