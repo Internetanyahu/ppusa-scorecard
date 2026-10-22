@@ -1,16 +1,12 @@
 (() => {
   function replaceRuntimeScoring() {
-    if (typeof window.applyAdminPolicy !== 'function' || !window.state?.baseData) return false;
+    if (typeof applyAdminPolicy !== 'function' || typeof state === 'undefined' || !state.baseData) return false;
 
     window.recalculatePlayer = function recalculatePlayer(player, bills) {
       const details = (player.bill_details || []).map(detail => {
         const bill = bills[String(detail.resolution_id)];
         const provision = bill?.scorecard?.provisions?.find(p => p.name === detail.provision);
-
-        if (!provision) {
-          return { ...detail, direction: 0, category: null, scorable: false, aligned: false };
-        }
-
+        if (!provision) return { ...detail, direction: 0, category: null, scorable: false, aligned: false };
         const direction = Number(provision.direction);
         const vote = String(detail.vote || '').toLowerCase();
         return {
@@ -58,7 +54,7 @@
       };
     };
 
-    window.applyAdminPolicy();
+    applyAdminPolicy();
     return true;
   }
 
