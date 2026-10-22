@@ -92,13 +92,9 @@ async function runUpdateAction(remoteVersion) {
     instructions: "Download the matching GitHub release or replace/reload the unpacked extension files."
   };
   await chrome.storage.local.set({ extensionUpdateAction: action });
-  await log(`Update action ran for ${LOCAL_VERSION} → ${remoteVersion}.`);
-  await chrome.notifications.create("ppusa-extension-update", {
-    type: "basic",
-    iconUrl: "icon128.png",
-    title: "PPUSA Scraper update available",
-    message: `Version ${remoteVersion} is available. Download/reload the updated extension.`
-  }).catch(() => {});
+  await chrome.action.setBadgeText({ text: "NEW" }).catch(() => {});
+  await chrome.action.setBadgeBackgroundColor({ color: "#b91c1c" }).catch(() => {});
+  await log(`Update action ran for ${LOCAL_VERSION} → ${remoteVersion}. Badge set to NEW.`);
 }
 async function checkForUpdate({ notify = false } = {}) {
   const apiToken = await token();
@@ -117,9 +113,11 @@ async function checkForUpdate({ notify = false } = {}) {
       }
     });
     if (update) {
-      if (notify || !(await chrome.storage.local.get("extensionUpdateAction")).extensionUpdateAction) await runUpdateAction(remoteVersion);
+      const { extensionUpdateAction } = await chrome.storage.local.get("extensionUpdateAction");
+      if (extensionUpdateAction?.remoteVersion !== remoteVersion) await runUpdateAction(remoteVersion);
     } else if (notify) {
       await log(`Extension is current at version ${LOCAL_VERSION}.`);
+      await chrome.action.setBadgeText({ text: "" }).catch(() => {});
     }
     return { configured: true, update, local: LOCAL_VERSION, remote: remoteVersion };
   } catch (error) {
