@@ -2,111 +2,76 @@ import argparse
 import json
 import os
 import re
+from datetime import datetime, timezone
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
 URL = "https://powerplayusa.net/national/politicians"
+BASE_URL = "https://powerplayusa.net"
 SOURCE_ENV = "PPUSA_POLITICIANS_SOURCE"
+TOKEN_HEADER = "X-PPUSA-Scorecard-Token"
+SCRAPER_TOKEN = os.environ.get("SCRAPER_TOKEN", "").strip()
 
-OFFICE_KEY_RE = re.compile(
-    r"(?:^|_)(?:office|offices|position|positions|appointment|appointments|"
-    r"governorship|governor|president|vice.?president|senator|representative|"
-    r"cabinet|secretary|mayor|judge|justice|attorney.?general|role)(?:$|_)", re.I,
-)
-OFFICE_LIST_KEYS = {
-    "offices", "held_offices", "heldOffices", "office_history", "officeHistory",
-    "positions", "position_history", "positionHistory", "officeHistoryEntries",
-}
-OFFICE_TEXT_RE = re.compile(
-    r"\b(?:President|Vice President|Governor|Lieutenant Governor|U\.S\. Senator|"
-    r"Senator|U\.S\. Representative|Representative|Congressman|Congresswoman|"
-    r"Cabinet Secretary|Secretary of State|Attorney General|Mayor|Chief Justice|"
-    r"Justice|Judge)\b(?:[^\n|;,]{0,100})", re.I,
-)
+SECURITY_RE = re.compile(r"performing security verification|security service to protect against malicious bots", re.I)
 
 
 def clean(value):
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
 
-def office_label(value, key_name=""):
-    if isinstance(value, str):
-        value = clean(value)
-        return value if value else ""
-    if value is True and OFFICE_KEY_RE.search(str(key_name)):
-        return re.sub(r"[_-]+", " ", str(key_name)).strip().title()
-    if isinstance(value, dict):
-        for key in ("office", "name", "title", "label", "position", "role"):
-            label = office_label(value.get(key), key)
-            if label:
-                return label
-    return ""
-
-
-def collect_office_values(value, key_name="", found=None):
-    found = found if found is not None else []
-    key = str(key_name)
-    if OFFICE_KEY_RE.search(key) or key in OFFICE_LIST_KEYS:
-        values = value if isinstance(value, list) else [value]
-        for item in values:
-            label = office_label(item, key)
-            if label and label.lower() not in {x.lower() for x in found}:
-                found.append(label)
-    if isinstance(value, dict):
-        for child_key, child_value in value.items():
-            collect_office_values(child_value, child_key, found)
-    elif isinstance(value, list):
-        for item in value:
-            if isinstance(item, (dict, list)):
-                collect_office_values(item, key, found)
-    return found
-
-
-def normalize_office_text(value):
+def party_label(value):
     value = clean(value)
-    if not value:
-        return ""
-    if re.fullmatch(r"senate", value, re.I):
-        return "U.S. Senator"
-    if re.fullmatch(r"house(?: of representatives)?", value, re.I):
-        return "U.S. Representative"
-    for match in OFFICE_TEXT_RE.findall(value):
-        label = clean(match).strip(" .:|-—")
-        if label:
-            return label
-    return ""
+    return "Independent" if value.lower() == "ind" else value
 
 
-def extract_offices_from_page_rows(politician, page_data):
-    """Extract office labels from the rendered national Politicians table only."""
-    profile_id = str(politician.get("user_id", ""))
-    if not profile_id:
-        return []
-    labels = []
-    headers = [clean(x).lower() for x in page_data.get("table_headers", [])]
-    office_columns = [i for i, header in enumerate(headers) if re.search(r"office|position|appointment|role|chamber", header, re.I)]
+def parse_iso(value):
+    try:
+        return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return datetime.min.replace(tzinfo=timezone.utc)
 
-    for row in page_data.get("table_rows", []):
-        row_ids = {str(x) for x in row.get("ids", []) if x not in (None, "")}
-        hrefs = [str(x) for x in row.get("hrefs", [])]
-        if profile_id not in row_ids and not any(
-            f"/users/{profile_id}" in href or f"/wiki/politician/{profile_id}" in href
-            for href in hrefs
-        ):
-            continue
 
-        cells = row.get("cells", [])
-        candidates = [cells[i] for i in office_columns if i < len(cells)] + cells + [row.get("text", "")]
-        for candidate in candidates:
-            label = normalize_office_text(candidate)
-            if label and label.lower() not in {x.lower() for x in labels}:
-                labels.append(label)
-    return labels
+def voter_office(voter, chamber):
+    chamber = clean(chamber).lower()
+    if chamber == "senate":
+        return "Senate"
+    if chamber == "house":
+        return "House"
+    role = clean(voter.get("role"))
+    return role if role else ""
+
+
+def latest_bill_vote(profile_id, bills):
+    best = None
+    pid = str(profile_id)
+    for bill in bills:
+        for chamber, groups in (bill.get("votes") or {}).items():
+            for vote, voters in (groups or {}).items():
+                for voter in voters or []:
+                    if str(voter.get("profile_id")) != pid:
+                        continue
+                    candidate = {
+                        "office": voter_office(voter, chamber),
+                        "chamber": clean(chamber).title(),
+                        "vote": vote,
+                        "resolution_id": bill.get("resolution_id"),
+                        "bill_number": bill.get("number", ""),
+                        "bill_title": bill.get("title", ""),
+                        "voted_at": bill.get("scraped_at", ""),
+                    }
+                    if best is None or (parse_iso(candidate["voted_at"]), int(candidate["resolution_id"] or 0)) > (parse_iso(best["voted_at"]), int(best["resolution_id"] or 0)):
+                        best = candidate
+    return best
+
+
+def fallback_office(profile_id, office_records):
+    record = office_records.get(str(profile_id)) or {}
+    return [clean(x) for x in (record.get("offices") or []) if clean(x)]
 
 
 def parse_source_html(source):
-    if re.search(r"performing security verification|security service to protect against malicious bots", source, re.I):
+    if SECURITY_RE.search(source):
         raise RuntimeError("PLAYER SCRAPER STOPPED: saved source is a Power Play security verification page")
     match = re.search(r"window\.politiciansData\s*=\s*(\[.*?\])\s*;</script>", source, re.S)
     if not match:
@@ -141,13 +106,7 @@ def load_page_data(page):
       .filter(Boolean),
     hrefs: [...tr.querySelectorAll('a[href]')].map(a => a.href),
   })) : [];
-  const elements = [...document.querySelectorAll('a, img, [data-user-id], [data-profile-id], [data-id]')];
-  const rows = elements.map(el => {
-    const attrs = {};
-    for (const attr of el.attributes || []) attrs[attr.name] = attr.value;
-    return { tag: el.tagName.toLowerCase(), text: clean(el.textContent), href: el.href || '', src: el.src || '', attrs };
-  });
-  return { security, title: document.title, url: location.href, text: bodyText, meta, rows, tableHeaders, tableRows };
+  return { security, title: document.title, url: location.href, text: bodyText, meta, tableHeaders, tableRows };
 }
 """)
 
@@ -155,10 +114,16 @@ def load_page_data(page):
 def scrape_live():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page(user_agent=(
+        context = browser.new_context(user_agent=(
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
         ))
+        if SCRAPER_TOKEN:
+            def add_token(route, request):
+                route.continue_(headers={**request.headers, TOKEN_HEADER: SCRAPER_TOKEN})
+            context.route("**/*", add_token)
+            print(f"Sending {TOKEN_HEADER} to {BASE_URL}")
+        page = context.new_page()
         print("Opening Power Play...")
         page.goto(URL, wait_until="domcontentloaded", timeout=60000)
         page.wait_for_timeout(5000)
@@ -177,24 +142,40 @@ def scrape_live():
     return politicians, page_data
 
 
-def build_player(politician, page_data, offices):
+def build_player(politician, page_data, latest_vote, fallback_offices):
     profile_id = str(politician.get("user_id", ""))
+    party = party_label(politician.get("partyAbbreviation2", politician.get("party", "")))
+    offices = [latest_vote["office"]] if latest_vote and latest_vote.get("office") else fallback_offices
     return {
         **politician,
         "powerplay_profile_id": profile_id,
         "name": politician.get("name", ""),
         "discord": politician.get("discord_user", "") or "",
-        "party": politician.get("partyAbbreviation2", politician.get("party", "")),
+        "party": party,
         "state": politician.get("stateName", politician.get("state", "")),
+        "caucus": politician.get("caucus", 0),
+        "caucus_url": politician.get("caucusUrl", "") or "",
         "offices": offices,
         "office": offices[0] if offices else "",
         "office_count": len(offices),
         "has_office": bool(offices),
+        "last_vote_at": latest_vote.get("voted_at", "") if latest_vote else "",
+        "last_vote_resolution_id": latest_vote.get("resolution_id") if latest_vote else None,
+        "last_vote_bill": latest_vote.get("bill_number", "") if latest_vote else "",
+        "last_vote_title": latest_vote.get("bill_title", "") if latest_vote else "",
+        "last_vote_chamber": latest_vote.get("chamber", "") if latest_vote else "",
         "source_page": URL,
         "source_page_title": page_data.get("title", ""),
         "page_metadata": page_data.get("meta", {}),
         "page_elements": [],
     }
+
+
+def load_json(path, default):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return default
 
 
 def main():
@@ -207,35 +188,29 @@ def main():
     if source_file:
         source = Path(source_file).read_text(encoding="utf-8")
         politicians, title, meta, raw_source = parse_source_html(source)
-        page_data = {"title": title, "meta": meta, "rows": [], "table_headers": [], "table_rows": [], "text": clean(raw_source)}
+        page_data = {"title": title, "meta": meta, "table_headers": [], "table_rows": [], "text": clean(raw_source)}
         print(f"Using saved Power Play source: {source_file}")
     else:
         politicians, page_data = scrape_live()
 
+    bills = load_json(Path("bills.json"), [])
+    office_records = load_json(Path("offices.json"), {}).get("profiles", {})
     print(f"Players found: {len(politicians)}")
-    # Offices come from the wiki profile pages (scraper/scrape_offices.py -> offices.json);
-    # the national roster itself has no office data.
-    try:
-        scraped_offices = json.loads(Path("offices.json").read_text(encoding="utf-8")).get("profiles", {})
-    except (OSError, json.JSONDecodeError):
-        scraped_offices = {}
-    print(f"Scraped office records on file: {len(scraped_offices)}")
+    print(f"Bills available for office derivation: {len(bills)}")
+    print(f"Fallback office records on file: {len(office_records)}")
+
     players = []
     for politician in politicians:
-        offices = collect_office_values(politician)
-        for label in (scraped_offices.get(str(politician.get("user_id", ""))) or {}).get("offices", []):
-            if label and label.lower() not in {x.lower() for x in offices}:
-                offices.append(label)
-        for label in extract_offices_from_page_rows(politician, page_data):
-            if label.lower() not in {x.lower() for x in offices}:
-                offices.append(label)
-        players.append(build_player(politician, page_data, offices))
+        pid = str(politician.get("user_id", ""))
+        latest_vote = latest_bill_vote(pid, bills)
+        fallback = fallback_office(pid, office_records)
+        players.append(build_player(politician, page_data, latest_vote, fallback))
 
     output = Path("players.json")
     output.write_text(json.dumps(players, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"FINAL PLAYER COUNT: {len(players)}")
     print(f"PLAYERS WITH OFFICE DATA: {sum(bool(p['offices']) for p in players)}")
-    print(f"PLAYERS WITH NO OFFICE: {sum(not p['offices'] for p in players)}")
+    print(f"PLAYERS WITH NO OFFICE: {sum(not p['offices']) for p in players)}")
     print(f"TOTAL OFFICES RECORDED: {sum(len(p['offices']) for p in players)}")
     print(f"Saved players to {output}")
 
