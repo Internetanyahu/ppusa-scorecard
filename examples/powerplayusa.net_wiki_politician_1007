@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-loaded" data-app-logged="1" data-app-eligible="0">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="csrf-token" content="b9f4e50df4ab38de5c26914abe5bd80a24271c580ce15c5e20b020f71f142bb3">
+<script src="/assets/js/csrf.js?v=1791909110"></script>
+    <title>Glen Youngkin | Power Play USA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <script>(function(){try{var d=document.documentElement,q=location.search,s=sessionStorage;if(/[?&]app=1/.test(q))s.setItem('ppusa-app','1');if(/[?&]app=0/.test(q))s.removeItem('ppusa-app');if(!(matchMedia('(display-mode: standalone)').matches||navigator.standalone||s.getItem('ppusa-app')))return;if(d.getAttribute('data-app-logged')==='1'&&d.getAttribute('data-app-eligible')!=='1'){if(!/^\/(app-early-access|login|register|logout|dev-login\.php)\/?$/.test(location.pathname))location.replace('/app-early-access');return;}d.classList.add('is-app');}catch(e){}})();</script>
+    <meta name="robots" content="noai, noimageai">
+    <meta name="CCBot" content="nofollow">
+    <script>window.ppusaHasCharacter = true; window.GAME_START_YEAR = 2000; window.GAME_WEEKS_PER_YEAR = 48;</script>
+    <script>window.PPUSA_ASSET_V={"assets/img/flags/states/":1791860153,"uploads/parties/":1792462481,"assets/img/portraits/defaultpfp.webp":1791803109,"assets/img/icons/party-default.webp":1791803108};window.ppusaAsset=function(p){p=String(p);var m=window.PPUSA_ASSET_V||{},b=p.split("?")[0],r=b.replace(/^\//,""),v=m[r]||0,best="",k;if(!v){for(k in m){if(k.slice(-1)==="/"&&r.indexOf(k)===0&&k.length>best.length)best=k;}v=best?m[best]:0;}return v?b+"?v="+v:p;};</script>    <script>
+        try {
+            if (sessionStorage.getItem('ppForceScrollTop')) {
+                sessionStorage.removeItem('ppForceScrollTop');
+                if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+                var ppTop = function(){ window.scrollTo(0, 0); };
+                document.addEventListener('DOMContentLoaded', ppTop);
+                window.addEventListener('load', ppTop);
+            }
+        } catch (e) {}
+    </script>
+    <script>
+        (function() {
+            var root = document.documentElement;
+            var isLoggedIn = true;
+            var mode;
+            try {
+                localStorage.removeItem('ppusa-theme-vars');
+                localStorage.removeItem('ppusa-theme-id');
+                if (!isLoggedIn) {
+                    mode = 'dark';
+                } else if (root.hasAttribute('data-ppusa-theme')) {
+                    mode = root.getAttribute('data-bs-theme');
+                } else {
+                    mode = localStorage.getItem('bs-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                }
+                if (!root.hasAttribute('data-ppusa-preview')) localStorage.setItem('bs-theme', mode);
+            } catch (e) {
+                mode = mode || 'dark';
+            }
+            if (!isLoggedIn || !root.hasAttribute('data-ppusa-theme')) {
+                root.setAttribute('data-bs-theme', mode);
+                root.setAttribute('data-ppusa-theme', mode);
+            }
+        })();
+    </script>
+        <meta name="title" content="Glen Youngkin | Power Play USA">
+    <meta name="description" content="Glen Youngkin is a Republican Party politician from Virginia. He currently serves as U.S. Senator from Virginia. His approval rating stands at 56.3%.">
+    <meta name="theme-color" content="#1d58a5">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="apple-touch-icon" href="/assets/img/brand/apple-touch-icon.png?v=1791802653">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Power Play">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta property="og:site_name" content="Power Play USA">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://powerplayusa.net/wiki/politician/1007">
+    <meta property="og:title" content="Glen Youngkin">
+    <meta property="og:description" content="Glen Youngkin is a Republican Party politician from Virginia. He currently serves as U.S. Senator from Virginia. His approval rating stands at 56.3%.">
+    <meta property="og:image" content="https://powerplayusa.net/uploads/profiles/1007.webp?v=1791853455">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Glen Youngkin">
+    <meta name="twitter:description" content="Glen Youngkin is a Republican Party politician from Virginia. He currently serves as U.S. Senator from Virginia. His approval rating stands at 56.3%.">
+    <meta name="twitter:image" content="https://powerplayusa.net/uploads/profiles/1007.webp?v=1791853455">
+
+    
+    <link rel="shortcut icon" href="/assets/img/brand/favicon.ico?v=1791802654" type="image/x-icon" />    <link type="text/css" href="/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="/vendor/quill/quill.snow.css" rel="stylesheet">
+
+        <link type="text/css" href="/vendor/fontawesome/css/all.min.css?v=1784568708" rel="stylesheet">
+    <link type="text/css" href="/css/pixel.css?v=1791803245" rel="stylesheet">
+    <link type="text/css" href="/assets/fonts/google/fonts.css?v=1791802512" rel="stylesheet">
+    <link type="text/css" href="/css/themes.css?v=1791803249" rel="stylesheet">
+    <link type="text/css" href="/css/theme-bridge.css?v=1791803248" rel="stylesheet">
+    <link type="text/css" href="/css/ppusa.css?v=1792459649" rel="stylesheet">
+                    <link type="text/css" href="/css/wiki.css?v=1792214065" rel="stylesheet">
+        <link type="text/css" href="/api/css/party-colors?v=28-1791802068" rel="stylesheet">
+    <link type="text/css" href="/css/headroom.css?v=1786419919" rel="stylesheet">
+    <link type="text/css" href="/css/social.css?v=1785661053" rel="stylesheet">
+            <link type="text/css" href="/css/header-nav.css?v=1792192391" rel="stylesheet">
+    <link type="text/css" href="/css/app-shell.css?v=1791803237" rel="stylesheet">
+    <link type="text/css" href="/css/app-pages.css?v=1792377050" rel="stylesheet">
+    <link type="text/css" href="/css/tutorial-guide.css?v=1791803249" rel="stylesheet">
+    <link rel="canonical" href="powerplayusa.net" />
+
+</head>
+<script>
+(function(){
+    try{
+        var key = "ppusa_tz";
+        var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone||"").trim();
+        if(!tz) return;
+        var prev = null;
+        try { prev = localStorage.getItem(key); } catch(e) {}
+        if (prev === tz) return;
+        fetch("/api/ajax/tz", {
+            method:"POST",
+            headers:{
+                "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
+                "X-Requested-With":"XMLHttpRequest"
+            },
+            body:"tz="+encodeURIComponent(tz)
+        }).then(function(res){
+            if(res && res.ok){
+                try { localStorage.setItem(key, tz); } catch(e) {}
+            }
+        }).catch(function(){});
+    }catch(e){}
+})();
+</script><header class="header-global">
+    <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary navbar-dark navbar-ppusa .headroom">
+                <div class="container position-relative d-flex align-items-center">
+
+                                <div class="app-topbar">
+                    <button type="button" class="app-back" aria-label="Back"><i class="fa-solid fa-chevron-left"></i></button>
+                    <span class="app-title">Glen Youngkin</span>
+                                    </div>
+                <a class="navbar-brand me-lg-4 me-sm-1" href="/" id="ppusaBrand">
+                    <img class="navbar-brand-dark ppusa-navbar-logo" src="/assets/img/brand/ppusa-logo-5.png?v=1791802655" alt="Logo light" width="412" height="130">
+                    <img class="navbar-brand-light ppusa-navbar-logo" src="/assets/img/brand/ppusa-logo-5.png?v=1791802655" alt="Logo dark" width="412" height="130">
+                    <img class="ppusa-brand-icon" src="/assets/img/brand/ppusaicon.webp?v=1791802656" alt="" width="391" height="391">
+                    <span class="ppusa-brand-text"><span class="ppusa-brand-a">Power</span> <span class="ppusa-brand-b">Play</span> <span class="ppusa-brand-c">USA</span></span>
+                </a>
+
+                    <div id="mobileBrandMenu" class="dropdown-menu d-lg-none" aria-label="Mobile navigation menu">
+                        <ul>
+                            <li>
+                                <a href="/" class="mobile-section-toggle" style="text-decoration:none;">
+                                    <span class="section-icon"><i class="fa-solid fa-house"></i></span>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="mobile-section"><button type="button" class="mobile-section-toggle" aria-expanded="false"><span class="section-icon"><i class="fa-solid fa-user"></i></span><img class="app-nav-img" src="/uploads/profiles/1304.jpeg?v=1792265853" alt="" loading="lazy"><span>Kanye West</span><span class="section-arrow"><i class="fa-solid fa-chevron-down"></i></span></button><div class="mobile-section-body"><div class="dropdown-header">Politician</div><a class="dropdown-item" href="/users/1304"><span class="app-nav-ic"><i class="fa-solid fa-user"></i></span>Profile</a><a class="dropdown-item" href="/outreach"><span class="app-nav-ic"><i class="fa-solid fa-bullhorn"></i></span>Campaign HQ</a><a class="dropdown-item" href="/economy/portfolio"><span class="app-nav-ic"><i class="fa-solid fa-chart-pie"></i></span>My Stocks &amp; Shares</a><a class="dropdown-item" href="/property/holdings"><span class="app-nav-ic"><i class="fa-solid fa-house-user"></i></span>My Properties</a><div class="dropdown-header">Account</div><a class="dropdown-item" href="/settings"><span class="app-nav-ic"><i class="fa-solid fa-id-card"></i></span>Profile Settings</a><a class="dropdown-item" href="/account"><span class="app-nav-ic"><i class="fa-solid fa-gear"></i></span>Account Settings</a><a class="dropdown-item" href="/referrals"><span class="app-nav-ic"><i class="fa-solid fa-user-plus"></i></span>Referrals</a><a class="dropdown-item" href="/themes"><span class="app-nav-ic"><i class="fa-solid fa-palette"></i></span>Themes</a></div></li><li class="mobile-section"><button type="button" class="mobile-section-toggle" aria-expanded="false"><span class="section-icon"><i class="fa-solid fa-people-group"></i></span><img class="app-nav-img is-flag" src="/assets/img/flags/states/37.webp?v=1791821694" alt="" loading="lazy"><span>Affiliations</span><span class="section-arrow"><i class="fa-solid fa-chevron-down"></i></span></button><div class="mobile-section-body"><div class="dropdown-header">North Carolina</div><a class="dropdown-item" href="/states/37"><span class="app-nav-ic"><i class="fa-solid fa-location-dot"></i></span>Overview</a><a class="dropdown-item" href="/states/37/elections"><span class="app-nav-ic"><i class="fa-solid fa-check-to-slot"></i></span>Elections</a><a class="dropdown-item" href="/states/37/legislature"><span class="app-nav-ic"><i class="fa-solid fa-landmark-dome"></i></span>State Legislature</a><a class="dropdown-item" href="/states/37/laws"><span class="app-nav-ic"><i class="fa-solid fa-scroll"></i></span>Laws</a><a class="dropdown-item" href="/states/37/metrics"><span class="app-nav-ic"><i class="fa-solid fa-chart-simple"></i></span>Metrics</a><a class="dropdown-item" href="/states/37/state-parties/2"><span class="app-nav-ic"><i class="fa-solid fa-flag"></i></span>State Party</a><a class="dropdown-item" href="/states/37/state-parties/2/treasury"><span class="app-nav-ic"><i class="fa-solid fa-vault"></i></span>State Party Treasury</a><div class="dropdown-header">Republican Party</div><a class="dropdown-item" href="/parties/2"><span class="app-nav-ic"><i class="fa-solid fa-flag"></i></span>Overview</a><a class="dropdown-item" href="/parties/2/elections"><span class="app-nav-ic"><i class="fa-solid fa-check-to-slot"></i></span>Elections</a><a class="dropdown-item" href="/parties/2/war-room"><span class="app-nav-ic"><i class="fa-solid fa-landmark-flag"></i></span>RNC</a></div></li><li class="mobile-section"><button type="button" class="mobile-section-toggle" aria-expanded="false"><span class="section-icon"><i class="fa-solid fa-landmark"></i></span><img class="app-nav-img is-flag" src="/assets/img/flags/countries/USA.png?v=1791803039" alt="" loading="lazy"><span>Politics</span><span class="section-arrow"><i class="fa-solid fa-chevron-down"></i></span></button><div class="mobile-section-body"><div class="dropdown-header">Legislative</div><a class="dropdown-item" href="/chambers/1"><span class="app-nav-ic"><i class="fa-solid fa-building-columns"></i></span>Senate</a><a class="dropdown-item" href="/chambers/2"><span class="app-nav-ic"><i class="fa-solid fa-building-columns"></i></span>House</a><div class="dropdown-header">Executive</div><a class="dropdown-item" href="/executive"><span class="app-nav-ic"><i class="fa-solid fa-landmark-flag"></i></span>White House</a><a class="dropdown-item" href="/executive/cabinet"><span class="app-nav-ic"><i class="fa-solid fa-user-tie"></i></span>Cabinet</a><a class="dropdown-item" href="/executive/metrics"><span class="app-nav-ic"><i class="fa-solid fa-chart-simple"></i></span>National Metrics</a><a class="dropdown-item" href="/executive/nasa"><span class="app-nav-ic"><i class="fa-solid fa-rocket"></i></span>Space Program</a><div class="dropdown-header">Global Affairs</div><a class="dropdown-item" href="/conflicts"><span class="app-nav-ic"><i class="fa-solid fa-shield-halved"></i></span>Wars</a><div class="dropdown-header">Judicial</div><a class="dropdown-item" href="/supreme-court"><span class="app-nav-ic"><i class="fa-solid fa-gavel"></i></span>Supreme Court</a><a class="dropdown-item" href="/circuits"><span class="app-nav-ic"><i class="fa-solid fa-scale-balanced"></i></span>Circuit Courts</a><a class="dropdown-item" href="/executive/laws"><span class="app-nav-ic"><i class="fa-solid fa-book"></i></span>U.S. Code</a><a class="dropdown-item" href="/amendments"><span class="app-nav-ic"><i class="fa-solid fa-file-signature"></i></span>Amendments</a><div class="dropdown-header">Elections</div><a class="dropdown-item" href="/elections/overview"><span class="app-nav-ic"><i class="fa-solid fa-square-poll-vertical"></i></span>Forecast</a><a class="dropdown-item" href="/election-night"><span class="app-nav-ic"><i class="fa-solid fa-tower-broadcast"></i></span>Election Night</a><a class="dropdown-item" href="/presidential/overview"><span class="app-nav-ic"><i class="fa-solid fa-flag-usa"></i></span>Presidential</a></div></li><li class="mobile-section"><button type="button" class="mobile-section-toggle" aria-expanded="false"><span class="section-icon"><i class="fa-solid fa-chart-line"></i></span><img class="app-nav-img is-flag" src="/assets/img/flags/countries/USA.png?v=1791803039" alt="" loading="lazy"><span>Economy</span><span class="section-arrow"><i class="fa-solid fa-chevron-down"></i></span></button><div class="mobile-section-body"><div class="dropdown-header">Business</div><a class="dropdown-item" href="/economy/corporations"><span class="app-nav-ic"><i class="fa-solid fa-building"></i></span>Corporations</a><a class="dropdown-item" href="/economy/interest-groups"><span class="app-nav-ic"><i class="fa-solid fa-bullhorn"></i></span>Interest Groups</a><a class="dropdown-item" href="/economy/procurement"><span class="app-nav-ic"><i class="fa-solid fa-file-signature"></i></span>Procurement</a><a class="dropdown-item" href="/economy/ai"><span class="app-nav-ic"><i class="fa-solid fa-microchip"></i></span>AI Race</a><div class="dropdown-header">Markets</div><a class="dropdown-item" href="/economy/stock-market"><span class="app-nav-ic"><i class="fa-solid fa-chart-line"></i></span>Stock Market</a><a class="dropdown-item" href="/economy/bonds"><span class="app-nav-ic"><i class="fa-solid fa-file-invoice-dollar"></i></span>Bonds</a><a class="dropdown-item" href="/economy/banks"><span class="app-nav-ic"><i class="fa-solid fa-landmark"></i></span>Banks</a><a class="dropdown-item" href="/economy/commodities"><span class="app-nav-ic"><i class="fa-solid fa-wheat-awn"></i></span>Commodities</a><a class="dropdown-item" href="/economy/supply-chain"><span class="app-nav-ic"><i class="fa-solid fa-diagram-project"></i></span>Supply Chain</a><a class="dropdown-item" href="/markets"><span class="app-nav-ic"><i class="fa-solid fa-chart-column"></i></span>Prediction Market</a><div class="dropdown-header">Assets</div><a class="dropdown-item" href="/economy/portfolio"><span class="app-nav-ic"><i class="fa-solid fa-chart-pie"></i></span>My Stocks &amp; Shares</a><a class="dropdown-item" href="/property/holdings"><span class="app-nav-ic"><i class="fa-solid fa-house-user"></i></span>My Properties</a><a class="dropdown-item" href="/property"><span class="app-nav-ic"><i class="fa-solid fa-sign-hanging"></i></span>Property Market</a><div class="dropdown-header">Finance</div><a class="dropdown-item" href="/executive/federal-reserve"><span class="app-nav-ic"><i class="fa-solid fa-building-columns"></i></span>Federal Reserve</a></div></li><li class="mobile-section"><button type="button" class="mobile-section-toggle" aria-expanded="false"><span class="section-icon"><i class="fa-solid fa-earth-americas"></i></span><img class="app-nav-img is-flag" src="/assets/img/executive/un-flag.webp?v=1783770266" alt="" loading="lazy"><span>World</span><span class="section-arrow"><i class="fa-solid fa-chevron-down"></i></span></button><div class="mobile-section-body"><div class="dropdown-header">International</div><a class="dropdown-item" href="/executive/foreign-policy"><span class="app-nav-ic"><i class="fa-solid fa-globe"></i></span>Foreign Policy</a><div class="dropdown-header">Data</div><a class="dropdown-item" href="/national/states"><span class="app-nav-ic"><i class="fa-solid fa-map"></i></span>States</a><a class="dropdown-item" href="/national/politicians"><span class="app-nav-ic"><i class="fa-solid fa-user-tie"></i></span>Politicians</a><a class="dropdown-item" href="/national/parties"><span class="app-nav-ic"><i class="fa-solid fa-flag"></i></span>Parties</a><a class="dropdown-item" href="/maps/governors"><span class="app-nav-ic"><i class="fa-solid fa-map-location-dot"></i></span>Seat Maps</a><div class="dropdown-header">Information</div><a class="dropdown-item" href="/history"><span class="app-nav-ic"><i class="fa-solid fa-box-archive"></i></span>Archives</a><a class="dropdown-item" href="/media"><span class="app-nav-ic"><i class="fa-solid fa-newspaper"></i></span>Media</a><a class="dropdown-item" href="/transparency"><span class="app-nav-ic"><i class="fa-solid fa-folder-open"></i></span>Records</a><a class="dropdown-item" href="/wiki"><span class="app-nav-ic"><i class="fa-solid fa-book-open"></i></span>Wiki</a><a class="dropdown-item" href="/wiki/leaderboard"><span class="app-nav-ic"><i class="fa-solid fa-ranking-star"></i></span>Leaderboard</a><a class="dropdown-item" href="/gizmos/wikibox"><span class="app-nav-ic"><i class="fa-solid fa-wand-magic-sparkles"></i></span>Wikibox Generator</a></div></li>                        </ul>
+                    </div>
+                <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse me-auto ppusa-navbar-collapse" id="navbar_global">
+                    <div class="navbar-collapse-header">
+                        <div class="row">
+                            <div class="col-6 collapse-brand">
+                                <a href="/">
+                                    <img class="ppusa-navbar-collapse-logo" src="/assets/img/brand/ppusaicon.webp?v=1791802656" alt="">
+                                </a>
+                            </div>
+                            <div class="col-6 collapse-close">
+                                <a href="#navbar_global" class="fas fa-times" data-bs-toggle="collapse" data-bs-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" title="close" aria-label="Toggle navigation"></a>
+                            </div>
+                        </div>
+                    </div>
+                        <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                            <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle ppusa-mobile-nav-link" id="playerNavDrop" aria-expanded="false" data-bs-toggle="dropdown"><span class="ppusa-nav-label" title="Kanye West">Kanye West</span><span class="fas fa-angle-down nav-link-arrow ms-1"></span></a><div class="dropdown-menu ppusa-dd" aria-labelledby="playerNavDrop"><div class="ppusa-dd-hero" style="background-image:url('/assets/img/banners/states/37.webp?v=1791802638');"><img class="ppusa-dd-hero-avatar" src="/uploads/profiles/1304.jpeg?v=1792265853" alt=""><span class="ppusa-dd-hero-name">Kanye West</span></div><div class="ppusa-dd-cols"><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Politician</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/users/1304"><span class="dd-ic"><i class="fa-solid fa-user"></i></span><span>Profile</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/outreach"><span class="dd-ic"><i class="fa-solid fa-bullhorn"></i></span><span>Campaign HQ</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/economy/portfolio"><span class="dd-ic"><i class="fa-solid fa-chart-pie"></i></span><span>My Stocks &amp; Shares</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/property/holdings"><span class="dd-ic"><i class="fa-solid fa-house-user"></i></span><span>My Properties</span></a></div><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Account</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/settings"><span class="dd-ic"><i class="fa-solid fa-id-card"></i></span><span>Profile Settings</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/account"><span class="dd-ic"><i class="fa-solid fa-gear"></i></span><span>Account Settings</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/referrals"><span class="dd-ic"><i class="fa-solid fa-user-plus"></i></span><span>Referrals</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/themes"><span class="dd-ic"><i class="fa-solid fa-palette"></i></span><span>Themes</span></a></div></div></div></li><li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle ppusa-mobile-nav-link" id="affiliationsNavDrop" aria-expanded="false" data-bs-toggle="dropdown">Affiliations<span class="fas fa-angle-down nav-link-arrow ms-1"></span></a><div class="dropdown-menu ppusa-dd" aria-labelledby="affiliationsNavDrop"><div class="ppusa-dd-hero" style="background-image:url('/assets/img/banners/states/37.webp?v=1791802638');"><img class="ppusa-dd-hero-flag" src="/assets/img/flags/states/37.webp?v=1791821694" alt=""><span class="ppusa-dd-hero-name">North Carolina</span></div><div class="ppusa-dd-cols-fixed"><div class="ppusa-dd-col"><div class="ppusa-dd-group"><div class="ppusa-dd-header"><img class="ppusa-dd-header-logo" src="/assets/img/flags/states/37.webp?v=1791821694" alt="" onerror="this.remove()"><span>North Carolina</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/states/37"><span class="dd-ic"><i class="fa-solid fa-location-dot"></i></span><span>Overview</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/states/37/elections"><span class="dd-ic"><i class="fa-solid fa-check-to-slot"></i></span><span>Elections</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/states/37/legislature"><span class="dd-ic"><i class="fa-solid fa-landmark-dome"></i></span><span>State Legislature</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/states/37/laws"><span class="dd-ic"><i class="fa-solid fa-scroll"></i></span><span>Laws</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/states/37/metrics"><span class="dd-ic"><i class="fa-solid fa-chart-simple"></i></span><span>Metrics</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/states/37/state-parties/2"><span class="dd-ic"><i class="fa-solid fa-flag"></i></span><span>State Party</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/states/37/state-parties/2/treasury"><span class="dd-ic"><i class="fa-solid fa-vault"></i></span><span>State Party Treasury</span></a></div></div><div class="ppusa-dd-col"><div class="ppusa-dd-group"><div class="ppusa-dd-header"><img class="ppusa-dd-header-logo" src="/uploads/parties/gop.webp?v=1791800953" alt="" onerror="this.onerror=null;this.src='/assets/img/icons/party-default.webp?v=1791803108'"><span>Republican Party</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/parties/2"><span class="dd-ic"><i class="fa-solid fa-flag"></i></span><span>Overview</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/parties/2/elections"><span class="dd-ic"><i class="fa-solid fa-check-to-slot"></i></span><span>Elections</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/parties/2/war-room"><span class="dd-ic"><i class="fa-solid fa-landmark-flag"></i></span><span>RNC</span></a></div></div></div></div></li><li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle ppusa-mobile-nav-link" id="politicsNavDrop" aria-expanded="false" data-bs-toggle="dropdown">Politics<span class="fas fa-angle-down nav-link-arrow ms-1"></span></a><div class="dropdown-menu ppusa-dd" aria-labelledby="politicsNavDrop"><div class="ppusa-dd-hero" style="background-image:url('/assets/img/banners/pages/capitol.webp?v=1791802602');"><img class="ppusa-dd-hero-flag" src="/assets/img/flags/countries/USA.png?v=1791803039" alt=""><span class="ppusa-dd-hero-name">American Politics</span></div><div class="ppusa-dd-cols-fixed"><div class="ppusa-dd-col"><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Legislative</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/chambers/1"><span class="dd-ic"><i class="fa-solid fa-building-columns"></i></span><span>Senate</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/chambers/2"><span class="dd-ic"><i class="fa-solid fa-building-columns"></i></span><span>House</span></a></div><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Executive</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/executive"><span class="dd-ic"><i class="fa-solid fa-landmark-flag"></i></span><span>White House</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/executive/cabinet"><span class="dd-ic"><i class="fa-solid fa-user-tie"></i></span><span>Cabinet</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/executive/metrics"><span class="dd-ic"><i class="fa-solid fa-chart-simple"></i></span><span>National Metrics</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/executive/nasa"><span class="dd-ic"><i class="fa-solid fa-rocket"></i></span><span>Space Program</span></a></div><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Global Affairs</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/conflicts"><span class="dd-ic"><i class="fa-solid fa-shield-halved"></i></span><span>Wars</span></a></div></div><div class="ppusa-dd-col"><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Judicial</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/supreme-court"><span class="dd-ic"><i class="fa-solid fa-gavel"></i></span><span>Supreme Court</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/circuits"><span class="dd-ic"><i class="fa-solid fa-scale-balanced"></i></span><span>Circuit Courts</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/executive/laws"><span class="dd-ic"><i class="fa-solid fa-book"></i></span><span>U.S. Code</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/amendments"><span class="dd-ic"><i class="fa-solid fa-file-signature"></i></span><span>Amendments</span></a></div><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Elections</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/elections/overview"><span class="dd-ic"><i class="fa-solid fa-square-poll-vertical"></i></span><span>Forecast</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/election-night"><span class="dd-ic"><i class="fa-solid fa-tower-broadcast"></i></span><span>Election Night</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/presidential/overview"><span class="dd-ic"><i class="fa-solid fa-flag-usa"></i></span><span>Presidential</span></a></div></div></div></div></li><li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle ppusa-mobile-nav-link" id="economyNavDrop" aria-expanded="false" data-bs-toggle="dropdown">Economy<span class="fas fa-angle-down nav-link-arrow ms-1"></span></a><div class="dropdown-menu ppusa-dd" aria-labelledby="economyNavDrop"><div class="ppusa-dd-hero" style="background-image:url('/assets/img/banners/pages/ppusa-money-banner.webp?v=1791802608');"><img class="ppusa-dd-hero-flag" src="/assets/img/flags/countries/USA.png?v=1791803039" alt=""><span class="ppusa-dd-hero-name">American Economy</span></div><div class="ppusa-dd-cols-fixed"><div class="ppusa-dd-col"><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Business</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/economy/corporations"><span class="dd-ic"><i class="fa-solid fa-building"></i></span><span>Corporations</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/economy/interest-groups"><span class="dd-ic"><i class="fa-solid fa-bullhorn"></i></span><span>Interest Groups</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/economy/procurement"><span class="dd-ic"><i class="fa-solid fa-file-signature"></i></span><span>Procurement</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/economy/ai"><span class="dd-ic"><i class="fa-solid fa-microchip"></i></span><span>AI Race</span></a></div><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Assets</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/economy/portfolio"><span class="dd-ic"><i class="fa-solid fa-chart-pie"></i></span><span>My Stocks &amp; Shares</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/property/holdings"><span class="dd-ic"><i class="fa-solid fa-house-user"></i></span><span>My Properties</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/property"><span class="dd-ic"><i class="fa-solid fa-sign-hanging"></i></span><span>Property Market</span></a></div></div><div class="ppusa-dd-col"><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Markets</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/economy/stock-market"><span class="dd-ic"><i class="fa-solid fa-chart-line"></i></span><span>Stock Market</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/economy/bonds"><span class="dd-ic"><i class="fa-solid fa-file-invoice-dollar"></i></span><span>Bonds</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/economy/banks"><span class="dd-ic"><i class="fa-solid fa-landmark"></i></span><span>Banks</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/economy/commodities"><span class="dd-ic"><i class="fa-solid fa-wheat-awn"></i></span><span>Commodities</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/economy/supply-chain"><span class="dd-ic"><i class="fa-solid fa-diagram-project"></i></span><span>Supply Chain</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/markets"><span class="dd-ic"><i class="fa-solid fa-chart-column"></i></span><span>Prediction Market</span></a></div><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Finance</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/executive/federal-reserve"><span class="dd-ic"><i class="fa-solid fa-building-columns"></i></span><span>Federal Reserve</span></a></div></div></div></div></li><li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle ppusa-mobile-nav-link" id="worldNavDrop" aria-expanded="false" data-bs-toggle="dropdown">World<span class="fas fa-angle-down nav-link-arrow ms-1"></span></a><div class="dropdown-menu ppusa-dd dropdown-menu-end" aria-labelledby="worldNavDrop"><div class="ppusa-dd-hero" style="background-image:url('/assets/img/executive/un-general-assembly.webp?v=1791802982');"><img class="ppusa-dd-hero-flag" src="/assets/img/executive/un-flag.webp?v=1783770266" alt=""><span class="ppusa-dd-hero-name">The World</span></div><div class="ppusa-dd-cols"><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>International</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/executive/foreign-policy"><span class="dd-ic"><i class="fa-solid fa-globe"></i></span><span>Foreign Policy</span></a></div><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Data</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/national/states"><span class="dd-ic"><i class="fa-solid fa-map"></i></span><span>States</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/national/politicians"><span class="dd-ic"><i class="fa-solid fa-user-tie"></i></span><span>Politicians</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/national/parties"><span class="dd-ic"><i class="fa-solid fa-flag"></i></span><span>Parties</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/maps/governors"><span class="dd-ic"><i class="fa-solid fa-map-location-dot"></i></span><span>Seat Maps</span></a></div><div class="ppusa-dd-group"><div class="ppusa-dd-header"><span>Information</span></div><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/history"><span class="dd-ic"><i class="fa-solid fa-box-archive"></i></span><span>Archives</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/media"><span class="dd-ic"><i class="fa-solid fa-newspaper"></i></span><span>Media</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/transparency"><span class="dd-ic"><i class="fa-solid fa-folder-open"></i></span><span>Records</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/wiki"><span class="dd-ic"><i class="fa-solid fa-book-open"></i></span><span>Wiki</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/wiki/leaderboard"><span class="dd-ic"><i class="fa-solid fa-ranking-star"></i></span><span>Leaderboard</span></a><a class="dropdown-item dd-item ppusa-mobile-nav-link" href="/gizmos/wikibox"><span class="dd-ic"><i class="fa-solid fa-wand-magic-sparkles"></i></span><span>Wikibox Generator</span></a></div></div></div></li>                        </ul>
+                </div>
+                                                                            <div class="ppusa-ctx-chips d-none d-xl-flex align-items-center me-2" style="gap:.4rem;">
+                                                <a class="ppusa-ctx-chip" href="/primaries/408" title="My Primary"><i class="fa-solid fa-bullhorn"></i><span class="ppusa-chip-label">My Primary</span></a>
+                                            </div>
+                                                            <div class="d-flex align-items-center flex-row-reverse flex-lg-row">
+                        <div class="profile-dropdown-wrapper ms-2 d-flex align-items-center order-2 order-lg-2">
+                            <div class="profile-dropdown ms-2">
+                                <img src="/uploads/profiles/1304.jpeg?v=1792265853" alt="Profile Picture" id="profilePicture" class="rounded-circle" style="width:30px;height:30px;object-fit:cover" role="button" tabindex="0" aria-label="Open your character menu" aria-controls="dropdownMenu" onclick="toggleDropdown()" onkeydown="if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggleDropdown(); }">
+                                                                <div id="dropdownMenu" class="dropdown-menu" style="display:none">
+                                    <a class="dd-profile-row" href="/users/1304">
+                                        <img src="/uploads/profiles/1304.jpeg?v=1792265853" alt="">
+                                        <span class="dd-profile-text"><span class="dd-profile-name">Kanye West</span><span class="dd-profile-sub">U.S. Senator from North Carolina</span></span>
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                                                        <div class="dd-switch-label">Switch character</div>
+                                    <div class="dd-switch-circles px-2 pt-2 pb-1" style="display:grid;grid-template-columns:repeat(3,44px);gap:8px;justify-content:center;max-height:176px;overflow-y:auto;">
+                                                                                <form method="post" action="/account/switch" class="m-0 p-0 js-profile-switch">
+                                            <input type="hidden" name="switch_account_id" value="1304">
+                                            <button type="submit" class="btn p-0 border-0 bg-transparent position-relative" title="Kanye West">
+                                                <img src="/uploads/profiles/1304.jpeg?v=1792265853" class="rounded-circle" style="width:44px;height:44px;object-fit:cover;outline:2px solid var(--bs-primary);outline-offset:1px;">
+                                                                                                <span class="badge bg-danger rounded-circle position-absolute top-0 start-100 translate-middle d-flex align-items-center justify-content-center" style="font-size:.55rem;min-width:1rem;height:1rem;padding:0 .18rem;line-height:1;">2</span>
+                                                                                            </button>
+                                        </form>
+                                                                                <form method="post" action="/account/switch" class="m-0 p-0 js-profile-switch">
+                                            <input type="hidden" name="switch_account_id" value="1307">
+                                            <button type="submit" class="btn p-0 border-0 bg-transparent position-relative" title="Nicholas J. Fuentes">
+                                                <img src="/uploads/profiles/1307.jpeg?v=1792265890" class="rounded-circle" style="width:44px;height:44px;object-fit:cover;opacity:.85;">
+                                                                                            </button>
+                                        </form>
+                                                                                <form method="post" action="/account/switch" class="m-0 p-0 js-profile-switch">
+                                            <input type="hidden" name="switch_account_id" value="1308">
+                                            <button type="submit" class="btn p-0 border-0 bg-transparent position-relative" title="Marcus Rubius">
+                                                <img src="/uploads/profiles/1308.webp?v=1792265975" class="rounded-circle" style="width:44px;height:44px;object-fit:cover;opacity:.85;">
+                                                                                                <span class="badge bg-danger rounded-circle position-absolute top-0 start-100 translate-middle d-flex align-items-center justify-content-center" style="font-size:.55rem;min-width:1rem;height:1rem;padding:0 .18rem;line-height:1;">1</span>
+                                                                                            </button>
+                                        </form>
+                                                                            </div>
+                                    <script>
+                                    (function(){
+                                        if (window.__ppProfileSwitchBound) return;
+                                        window.__ppProfileSwitchBound = true;
+                                        document.addEventListener('submit', function(e){
+                                            var form = e.target.closest && e.target.closest('.js-profile-switch');
+                                            if (!form) return;
+                                            e.preventDefault();
+                                            var fd = new FormData(form);
+                                            fd.append('ajax', '1');
+                                            fetch('/account/switch', { method:'POST', body:fd, headers:{'X-Requested-With':'XMLHttpRequest'}, credentials:'same-origin' })
+                                                .then(function(r){ return r.json(); })
+                                                .then(function(d){
+                                                    if (!d || !d.success) { form.submit(); return; }
+                                                    if (window.PPUSA && window.PPUSA.refresh) { window.PPUSA.refresh(); return; }
+                                                    try { sessionStorage.setItem('ppForceScrollTop', '1'); } catch (e) {}
+                                                    window.location.href = window.location.pathname + window.location.search;
+                                                })
+                                                .catch(function(){ form.submit(); });
+                                        });
+                                    })();
+                                    </script>
+                                    <hr class="my-1">
+                                                                        <button type="button" class="dropdown-item dd-item d-lg-none" id="ppusaPaletteBtnM"><span class="dd-ic"><i class="fa-solid fa-magnifying-glass"></i></span><span>Search</span></button>
+                                    <a class="dropdown-item dd-item d-lg-none" href="/messages"><span class="dd-ic"><i class="fa-solid fa-envelope"></i></span><span>Messages</span></a>
+                                    <a class="dropdown-item dd-item d-lg-none dd-notif-row" href="/notifications"><span class="dd-ic"><i class="fa-solid fa-bell"></i></span><span>Notifications</span><span class="badge bg-danger ms-auto">2</span></a>
+                                                                                                            <button type="button" class="dropdown-item dd-item d-lg-none" id="socialNavBtnM"><span class="dd-ic"><i class="fa-solid fa-users"></i></span><span>MySpace</span></button>
+                                                                        <button type="button" class="dropdown-item dd-item d-lg-none" id="ql-fav-btn-m"
+                                            data-href="/wiki/politician/1007"
+                                            data-label="Glen Youngkin"
+                                            data-faved="0">
+                                        <span class="dd-ic"><i id="ql-fav-icon-m" class="far fa-star" style=""></i></span>
+                                        <span id="ql-fav-text-m">Quick Link This Page</span>
+                                    </button>
+                                                                        <hr class="my-1 d-lg-none">
+                                                                        <a class="dropdown-item dd-item" href="/account"><span class="dd-ic"><i class="fa-solid fa-gear"></i></span><span>Account Settings</span></a>
+                                                                                                                                                <a class="dropdown-item dd-item" href="/themes"><span class="dd-ic"><i class="fa-solid fa-palette"></i></span><span>Themes</span></a>
+                                                                                                            <a class="dropdown-item dd-item" href="https://www.patreon.com/powerplayusa"><span class="dd-ic"><i class="fa-brands fa-patreon"></i></span><span>Upgrade Account</span></a>
+                                                                        <form method="post" action="/logout" class="m-0 dd-logout"><input type="hidden" name="_csrf" value="b9f4e50df4ab38de5c26914abe5bd80a24271c580ce15c5e20b020f71f142bb3"><button type="submit" class="dropdown-item dd-item"><span class="dd-ic"><i class="fa-solid fa-right-from-bracket"></i></span><span>Log Out</span></button></form>
+                                </div>
+                            </div>
+                        </div>
+
+                                                <div class="d-none d-lg-flex quick-actions align-items-center order-1 order-lg-1" style="gap:.5rem;">
+                            <div class="d-flex align-items-center justify-content-center" style="position:relative;height:32px;width:32px;">
+                                <button id="socialNavBtn" type="button" class="btn p-0 border-0 bg-transparent d-flex align-items-center justify-content-center" style="font-size:1.1rem;height:32px;width:32px;color:inherit;" title="MySpace">
+                                    <i class="fa-solid fa-users"></i>
+                                </button>
+                            </div>
+                            <script data-ajax-rerun>window.__social = {"name":"MySpace","icon":"fa-users","accent":"#2563eb","placeholder":"What are you up to?","verb":"Post","me":1304};</script>
+                            <div class="mailbox-wrapper d-flex flex-column align-items-center justify-content-center" style="position:relative;height:32px;width:32px;">
+                                <a href="/messages" class="position-relative d-flex align-items-center justify-content-center" style="font-size:1.1rem;height:32px;width:32px;">
+                                    <i class="fa-solid fa-envelope"></i>
+                                                                    </a>
+                            </div>
+
+                            <div class="notification-bell-wrapper d-flex flex-column align-items-center justify-content-center" style="position:relative;height:32px;width:32px;">
+                                <a href="/notifications" data-tutorial="notifications-link" class="position-relative d-flex align-items-center justify-content-center" style="font-size:1.1rem;height:32px;width:32px;">
+                                    <i class="fa-solid fa-bell"></i>
+                                                                            <span class="badge bg-danger notification-badge rounded-circle d-flex align-items-center justify-content-center">
+                                            2                                        </span>
+                                                                    </a>
+                            </div>
+
+                                                        <div class="d-flex align-items-center justify-content-center" style="height:32px;width:32px;">
+                                <button id="ql-fav-btn" type="button"
+                                        data-href="/wiki/politician/1007"
+                                        data-label="Glen Youngkin"
+                                        data-faved="0"
+                                        class="btn p-0 border-0 bg-transparent d-flex align-items-center justify-content-center"
+                                        style="font-size:1.05rem;height:32px;width:32px;color:inherit;transition:color .15s;"
+                                        title="Add to Quick Links">
+                                    <i id="ql-fav-icon" class="far fa-star"></i>
+                                </button>
+                            </div>
+                                                    </div>
+                                        </div>
+    </nav>
+        <div id="ppusaPalette" class="ppusa-palette-backdrop" hidden>
+        <div class="ppusa-palette">
+            <input id="ppusaPaletteInput" type="text" class="form-control" placeholder="Jump to a page, player, state, party, or corporation..." autocomplete="off">
+            <div id="ppusaPaletteResults" class="ppusa-palette-results"></div>
+        </div>
+    </div>
+        <script>window.PPUSA_HEADER = {"navIndex":[{"l":"Home","h":"\/","g":"Pages","i":"fa-house"},{"l":"Profile","h":"\/users\/1304","g":"Kanye West \/ Politician","i":"fa-user"},{"l":"Campaign HQ","h":"\/outreach","g":"Kanye West \/ Politician","i":"fa-bullhorn"},{"l":"My Stocks & Shares","h":"\/economy\/portfolio","g":"Kanye West \/ Politician","i":"fa-chart-pie"},{"l":"My Properties","h":"\/property\/holdings","g":"Kanye West \/ Politician","i":"fa-house-user"},{"l":"Profile Settings","h":"\/settings","g":"Kanye West \/ Account","i":"fa-id-card"},{"l":"Account Settings","h":"\/account","g":"Kanye West \/ Account","i":"fa-gear"},{"l":"Referrals","h":"\/referrals","g":"Kanye West \/ Account","i":"fa-user-plus"},{"l":"Themes","h":"\/themes","g":"Kanye West \/ Account","i":"fa-palette"},{"l":"Overview","h":"\/states\/37","g":"Affiliations \/ North Carolina","i":"fa-location-dot"},{"l":"Elections","h":"\/states\/37\/elections","g":"Affiliations \/ North Carolina","i":"fa-check-to-slot"},{"l":"State Legislature","h":"\/states\/37\/legislature","g":"Affiliations \/ North Carolina","i":"fa-landmark-dome"},{"l":"Laws","h":"\/states\/37\/laws","g":"Affiliations \/ North Carolina","i":"fa-scroll"},{"l":"Metrics","h":"\/states\/37\/metrics","g":"Affiliations \/ North Carolina","i":"fa-chart-simple"},{"l":"State Party","h":"\/states\/37\/state-parties\/2","g":"Affiliations \/ North Carolina","i":"fa-flag"},{"l":"State Party Treasury","h":"\/states\/37\/state-parties\/2\/treasury","g":"Affiliations \/ North Carolina","i":"fa-vault"},{"l":"Overview","h":"\/parties\/2","g":"Affiliations \/ Republican Party","i":"fa-flag"},{"l":"Elections","h":"\/parties\/2\/elections","g":"Affiliations \/ Republican Party","i":"fa-check-to-slot"},{"l":"RNC","h":"\/parties\/2\/war-room","g":"Affiliations \/ Republican Party","i":"fa-landmark-flag"},{"l":"Senate","h":"\/chambers\/1","g":"Politics \/ Legislative","i":"fa-building-columns"},{"l":"House","h":"\/chambers\/2","g":"Politics \/ Legislative","i":"fa-building-columns"},{"l":"White House","h":"\/executive","g":"Politics \/ Executive","i":"fa-landmark-flag"},{"l":"Cabinet","h":"\/executive\/cabinet","g":"Politics \/ Executive","i":"fa-user-tie"},{"l":"National Metrics","h":"\/executive\/metrics","g":"Politics \/ Executive","i":"fa-chart-simple"},{"l":"Space Program","h":"\/executive\/nasa","g":"Politics \/ Executive","i":"fa-rocket"},{"l":"Wars","h":"\/conflicts","g":"Politics \/ Global Affairs","i":"fa-shield-halved"},{"l":"Supreme Court","h":"\/supreme-court","g":"Politics \/ Judicial","i":"fa-gavel"},{"l":"Circuit Courts","h":"\/circuits","g":"Politics \/ Judicial","i":"fa-scale-balanced"},{"l":"U.S. Code","h":"\/executive\/laws","g":"Politics \/ Judicial","i":"fa-book"},{"l":"Amendments","h":"\/amendments","g":"Politics \/ Judicial","i":"fa-file-signature"},{"l":"Forecast","h":"\/elections\/overview","g":"Politics \/ Elections","i":"fa-square-poll-vertical"},{"l":"Election Night","h":"\/election-night","g":"Politics \/ Elections","i":"fa-tower-broadcast"},{"l":"Presidential","h":"\/presidential\/overview","g":"Politics \/ Elections","i":"fa-flag-usa"},{"l":"Corporations","h":"\/economy\/corporations","g":"Economy \/ Business","i":"fa-building"},{"l":"Interest Groups","h":"\/economy\/interest-groups","g":"Economy \/ Business","i":"fa-bullhorn"},{"l":"Procurement","h":"\/economy\/procurement","g":"Economy \/ Business","i":"fa-file-signature"},{"l":"AI Race","h":"\/economy\/ai","g":"Economy \/ Business","i":"fa-microchip"},{"l":"Stock Market","h":"\/economy\/stock-market","g":"Economy \/ Markets","i":"fa-chart-line"},{"l":"Bonds","h":"\/economy\/bonds","g":"Economy \/ Markets","i":"fa-file-invoice-dollar"},{"l":"Banks","h":"\/economy\/banks","g":"Economy \/ Markets","i":"fa-landmark"},{"l":"Commodities","h":"\/economy\/commodities","g":"Economy \/ Markets","i":"fa-wheat-awn"},{"l":"Supply Chain","h":"\/economy\/supply-chain","g":"Economy \/ Markets","i":"fa-diagram-project"},{"l":"Prediction Market","h":"\/markets","g":"Economy \/ Markets","i":"fa-chart-column"},{"l":"My Stocks & Shares","h":"\/economy\/portfolio","g":"Economy \/ Assets","i":"fa-chart-pie"},{"l":"My Properties","h":"\/property\/holdings","g":"Economy \/ Assets","i":"fa-house-user"},{"l":"Property Market","h":"\/property","g":"Economy \/ Assets","i":"fa-sign-hanging"},{"l":"Federal Reserve","h":"\/executive\/federal-reserve","g":"Economy \/ Finance","i":"fa-building-columns"},{"l":"Foreign Policy","h":"\/executive\/foreign-policy","g":"World \/ International","i":"fa-globe"},{"l":"States","h":"\/national\/states","g":"World \/ Data","i":"fa-map"},{"l":"Politicians","h":"\/national\/politicians","g":"World \/ Data","i":"fa-user-tie"},{"l":"Parties","h":"\/national\/parties","g":"World \/ Data","i":"fa-flag"},{"l":"Seat Maps","h":"\/maps\/governors","g":"World \/ Data","i":"fa-map-location-dot"},{"l":"Archives","h":"\/history","g":"World \/ Information","i":"fa-box-archive"},{"l":"Media","h":"\/media","g":"World \/ Information","i":"fa-newspaper"},{"l":"Records","h":"\/transparency","g":"World \/ Information","i":"fa-folder-open"},{"l":"Wiki","h":"\/wiki","g":"World \/ Information","i":"fa-book-open"},{"l":"Leaderboard","h":"\/wiki\/leaderboard","g":"World \/ Information","i":"fa-ranking-star"},{"l":"Wikibox Generator","h":"\/gizmos\/wikibox","g":"World \/ Information","i":"fa-wand-magic-sparkles"},{"l":"Messages","h":"\/messages","g":"Pages","i":"fa-envelope"},{"l":"Notifications","h":"\/notifications","g":"Pages","i":"fa-bell"}],"loggedIn":true};</script>
+    <script src="/assets/js/header-init.js?v=1791803162"></script>
+    
+</header>
+<div id="ppusa-page">
+<main class="ppusa-register-image">
+  <div class="row justify-content-center g-0">
+    <div class="col-md-11 container-fluid wiki-shell">
+      <div class="wiki-page">
+        <div class="wiki-layout">
+          <aside class="wiki-nav"><div id="wiki-toc" class="wiki-toc" style="display:none;"></div></aside>
+          <div class="wiki-main">
+                        <div class="wiki-tabs"><a href="/wiki" class="wiki-home-link"><img src="/assets/img/brand/ppusaicon.webp?v=1791802656" alt="" class="wiki-home-logo"> PPUSA Wiki</a><form action="/wiki/search" method="get" class="wiki-header-search"><div class="input-group wiki-search-input"><input type="text" name="q" id="wiki-search-box" class="form-control" value="" placeholder="Search PPUSA Wiki" autocomplete="off"><button type="submit" class="btn btn-tertiary"><i class="fa-solid fa-magnifying-glass"></i></button></div><div id="wiki-search-suggest" class="wiki-suggest"></div></form><span class="wiki-tab-group"><a href="/wiki/politician/1007" class="active">Read</a><a href="/wiki/politician/1007/history">History</a></span></div>            <h1 class="wiki-article-title">Glen Youngkin</h1>
+            <div class="wiki-tagline">doctorsandbox 1.0.0</div>
+                        <p class="wiki-hatnote">Archived from earlier Iterations: <a href="/wiki/archive/5/politician/1494">Iteration 5 (Glenn Youngkin)</a>, <a href="/wiki/archive/5/politician/1495">Iteration 5 (Ronald Reagan Sr.)</a>, <a href="/wiki/archive/5/politician/1496">Iteration 5 (Spencer Pratt)</a>.</p>
+                        <table class="infobox wikibox" data-wiki-slug="politician-1007">
+  <tbody>
+    <tr class="infobox-officeholder-header"><th class="infobox-title" colspan="2">Glen Youngkin</th></tr>
+    <tr><td class="infobox-image" colspan="2"><img src="/uploads/profiles/1007.webp?v=1791853455" alt="Glen Youngkin" style="max-width:170px;"></td></tr>
+
+                <tr><th class="infobox-office-band" colspan="2">U.S. Senator from <a href="/wiki/state/51">Virginia</a></th></tr>
+      <tr><th class="infobox-label">In office</th><td>2001 &ndash; present</td></tr>
+            <tr><th class="infobox-office-band" colspan="2"><a href="/wiki/party/2">Republican Party</a> National Committee member</th></tr>
+      <tr><th class="infobox-label">In office</th><td>2000 &ndash; present</td></tr>
+            <tr><th class="infobox-office-band" colspan="2"><a href="/wiki/state/51">Virginia</a> <a href="/wiki/party/2">Republican Party</a> State Chair</th></tr>
+      <tr><th class="infobox-label">In office</th><td>2000 &ndash; present</td></tr>
+          
+    <tr><td class="infobox-subheader" colspan="2">Personal details</td></tr>
+    <tr><th class="infobox-label">Political party</th><td><a href="/wiki/party/2">Republican Party</a></td></tr>
+        <tr><th class="infobox-label">Home state</th><td><a href="/wiki/state/51">Virginia</a></td></tr>
+            <tr><th class="infobox-label">Age</th><td>29</td></tr>
+                <tr><th class="infobox-label">Gender</th><td>Male</td></tr>
+            <tr><th class="infobox-label">Race</th><td>White</td></tr>
+            <tr><th class="infobox-label">Religion</th><td>Catholic</td></tr>
+            <tr><th class="infobox-label">Approval rating</th><td>56.3%</td></tr>
+    
+    <tr><td class="wikibox-foot" colspan="2"><button type="button" class="btn btn-tertiary btn-sm wikibox-download" data-target=".wikibox"><i class="fa-solid fa-download"></i> Download as image</button></td></tr>  </tbody>
+</table>
+                        <div class="wiki-summary"><p><strong><a href="/wiki/politician/1007">Glen Youngkin</a></strong> is a <a href="/wiki/party/2">Republican Party</a> politician from <a href="/wiki/state/51">Virginia</a>. He currently serves as U.S. Senator from <a href="/wiki/state/51">Virginia</a>. His approval rating stands at 56.3%.</p></div>
+                                                    <div class="wiki-generated">
+        <h2>Political career</h2>
+    <h3>Elected offices</h3>
+  <ul class="wiki-career-list"><li><span class="wiki-career-office">U.S. Senator from <a href="/wiki/state/51">Virginia</a></span><span class="wiki-career-years">2001&ndash;present</span></li></ul>      <h3>Party and appointed roles</h3>
+  <ul class="wiki-career-list"><li><span class="wiki-career-office"><a href="/wiki/party/2">Republican Party</a> National Committee member</span><span class="wiki-career-years">2000&ndash;present</span></li><li><span class="wiki-career-office"><a href="/wiki/state/51">Virginia</a> <a href="/wiki/party/2">Republican Party</a> State Chair</span><span class="wiki-career-years">2000&ndash;present</span></li></ul>    
+    <h2>Electoral history</h2>
+  <table class="wikitable wiki-results">
+    <thead><tr><th>Year</th><th>Office</th><th>Party</th><th>Votes</th><th>%</th><th>Result</th></tr></thead>
+    <tbody>
+            <tr>
+        <td><a href="/wiki/election/50">2000</a></td>
+        <td>U.S. Senator <span class="wiki-muted-inline">(<a href="/wiki/state/51">Virginia</a>)</span></td>
+        <td><a href="/wiki/party/2">Republican Party</a></td>
+        <td class="wiki-num">1,690,382</td>
+        <td class="wiki-num">66.91%</td>
+        <td><span class="wiki-result-won">Won</span></td>
+      </tr>
+          </tbody>
+  </table>
+  
+    <h2>Political positions</h2>
+  <table class="wikitable wiki-results wiki-stance-table">
+    <tbody>
+            <tr><th>Social</th><td class="ppusa-modern-right-color">Conservative &nbsp;<i class="fa-solid fa-arrow-right"></i></td></tr>
+            <tr><th>Economic</th><td class="ppusa-eco-right-color">Moderate Capitalist &nbsp;<i class="fa-solid fa-arrow-right"></i></td></tr>
+            <tr><th>Foreign Policy</th><td class="ppusa-foreign-globalist-color"><i class="fa-solid fa-globe"></i> &nbsp;Nation Building</td></tr>
+            <tr><th>Immigration</th><td class="ppusa-right-color">Restrictionist &nbsp;<i class="fa-solid fa-arrow-right"></i></td></tr>
+            <tr><th>Education</th><td class="ppusa-right-color">School Vouchers &nbsp;<i class="fa-solid fa-arrow-right"></i></td></tr>
+            <tr><th>Abortion</th><td class="ppusa-right-color">Limited Exceptions &nbsp;<i class="fa-solid fa-arrow-right"></i></td></tr>
+            <tr><th>Gay Marriage</th><td class="ppusa-right-color">Traditionalist &nbsp;<i class="fa-solid fa-arrow-right"></i></td></tr>
+            <tr><th>Gun Control</th><td class="ppusa-right-color">Concealed Carry &nbsp;<i class="fa-solid fa-arrow-right"></i></td></tr>
+            <tr><th>Healthcare</th><td class="ppusa-eco-right-color">Limited Regulations &nbsp;<i class="fa-solid fa-arrow-right"></i></td></tr>
+            <tr><th>Conservation</th><td class="ppusa-environment-left-color"><i class="fa-solid fa-arrow-left"></i> &nbsp;Conservationist</td></tr>
+            <tr><th>Fiscal Solvency</th><td class="ppusa-eco-right-color">Debt Hawk &nbsp;<i class="fa-solid fa-arrow-right"></i></td></tr>
+          </tbody>
+  </table>
+  
+    <h2>Other characters by this player</h2>
+  <table class="wikitable wiki-results">
+    <thead><tr><th>Character</th><th>Office</th></tr></thead>
+    <tbody>
+            <tr>
+        <th><a href="/wiki/politician/1022">Abigail Spanberger</a></th>
+        <td>U.S. Representative from <a href="/wiki/state/51">Virginia</a></td>
+      </tr>
+            <tr>
+        <th><a href="/wiki/politician/1205">Joshua McKoon</a></th>
+        <td>Governor of <a href="/wiki/state/13">Georgia</a></td>
+      </tr>
+          </tbody>
+  </table>
+      <p><a href="/wiki/account/1444">View this player's profile and past-iteration characters &rarr;</a></p>
+  </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+    <div class="ppusa-yard-sign-bar d-none" data-ajax-preserve>
+          </div>
+    <footer class="footer pt-5 pb-3 navbar-ppusa text-white">
+  <div class="container" data-ajax-preserve>
+    <div class="row">
+      <div class="col-md-4">
+        <img class="navbar-brand-dark mb-4" height="50" src="/assets/img/brand/ppusaicon.webp?v=1791802656" alt="Logo light">
+        <p>Power Play USA is an entirely ad-free and tracker-free experience thanks to the support of players like you.</p>
+        <ul class="social-buttons mb-3 mb-lg-0">
+          <li><a href="https://discord.gg/zhcpBuQxz4" aria-label="discord social link" class="icon-white me-2"><span class="fab fa-discord"></span></a></li>
+          <li><a href="https://www.patreon.com/powerplayusa" class="icon-white me-2" aria-label="patreon social link"><span class="fab fa-patreon"></span></a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-2 mb-3 mb-lg-0">
+        <span class="h5">Legal</span>
+        <ul class="footer-links mt-2">
+          <li><a href="/legal/terms-of-service">Terms of Service</a></li>
+          <li><a href="/legal/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/legal/rules">Rules</a></li>
+        </ul>
+      </div>
+            <div class="align-right col-6 col-md-4 mb-3 mb-lg-0">
+        <span class="h5 icon-white">Server Time</span>
+        <ul class="footer-links mt-2">
+          <li>Week 6, 2004</li>
+          <li>Wednesday, October 21, 2026</li>
+          <li>11:06 PM</li>
+        </ul>
+      </div>
+              <div class="col-6 col-md-2 mb-3 mb-lg-0 d-flex justify-content-end align-items-start">
+              <a data-ajax-preserve class="ppusa-yard-sign ppusa-yard-sign-square" href="/parties/2" title="Player banner by Tulsi Gabbard">
+      <img src="/uploads/yard-signs/262.jpg?v=1792185877" alt="Player banner by Tulsi Gabbard">
+    </a>
+            </div>
+          </div>
+    <div class="row mt-4">
+      <div class="col">
+        <div class="ppusa-footer-quote-row d-flex flex-wrap align-items-center">
+          <span class="ppusa-footer-online">
+            <i class="fa-solid fa-star text-success"></i> 56 Players Online
+          </span>
+                      <span class="ppusa-footer-quote"><span class="ppusa-footer-quote-text">&ldquo;I want to shrink government to the size where I can drown it in the bathtub.&rdquo;</span> &ndash; Grover Norquist</span>
+                  </div>
+      </div>
+    </div>
+        <div class="row">
+      <div class="col mb-5 mt-4 pt-2">
+        <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
+          <p class="fw-normal font-small mb-0">Copyright © Power Play USA 2026. All rights reserved. Theme by Pixel Bootstrap. Images belong to their respective copyright owners.</p>
+        </div>
+        <a href="/archive/legacy-index" rel="nofollow noindex" aria-hidden="true" tabindex="-1" style="display:none">Archive</a>
+      </div>
+    </div>
+  </div>
+      <div id="ppusa-bottombar" class="headroom ppusa-navbar">
+      <div class="ppusa-bottombar-inner container-fluid d-flex align-items-center justify-content-center" style="gap:16px;">
+        <span class="fw-semibold d-flex align-items-center h-100">
+          <span class="d-none d-sm-inline">Liquid Capital:&nbsp;</span>
+          <span class="d-inline d-sm-none">LC:&nbsp;</span>
+          <span class="ppusa-money-color"><span class="ppusa-stat-full">$996,024</span><span class="ppusa-stat-compact">$996.0K</span></span>
+        </span>
+        <span class="fw-semibold d-flex align-items-center h-100">
+          <span class="d-none d-sm-inline">Campaign Funds:&nbsp;</span>
+          <span class="d-inline d-sm-none">CF:&nbsp;</span>
+          <span class="ppusa-money-color"><span class="ppusa-stat-full">$950,454</span><span class="ppusa-stat-compact">$950.5K</span></span>
+        </span>
+        <span class="fw-semibold d-flex align-items-center h-100">
+          <span class="d-none d-sm-inline">Election Stamina:&nbsp;</span>
+          <span class="d-inline d-sm-none">ES:&nbsp;</span>
+          <span class="text-success">20.0</span>
+        </span>
+        <span class="fw-semibold d-flex align-items-center h-100">
+          <span class="d-none d-sm-inline">Political Power:&nbsp;</span>
+          <span class="d-inline d-sm-none">PP:&nbsp;</span>
+          <span class="text-danger"><span class="ppusa-stat-full">1,722</span><span class="ppusa-stat-compact">1,722</span></span>
+        </span>
+                <img class="al-bar-avatar" src="/uploads/profiles/1304.jpeg?v=1792265853" alt="">
+              </div>
+    </div>
+    <div class="al-social-fab" data-ajax-preserve>
+    <a href="https://discord.gg/zhcpBuQxz4" target="_blank" rel="noopener" aria-label="Discord"><span class="fab fa-discord"></span></a>
+    <a href="/media" aria-label="News"><span class="fa-solid fa-newspaper"></span></a>
+        <button type="button" class="al-social-feed" aria-label="MySpace" title="MySpace" onclick="var t=document.getElementById('socialNavBtn');if(t)t.click();"><span class="fa-solid fa-users"></span></button>
+      </div>
+  <div class="al-navpill" data-ajax-preserve>
+    <button type="button" aria-label="Back" onclick="history.back();"><span class="fa-solid fa-arrow-left"></span></button>
+    <button type="button" aria-label="Refresh" onclick="location.reload();"><span class="fa-solid fa-rotate"></span></button>
+  </div>
+  <nav class="app-tabbar" aria-label="App navigation" data-unread="2">
+        <a class="app-tab" href="/">
+        <span class="app-tab-icon"><i class="fa-solid fa-house"></i></span>
+        <span class="app-tab-label">Home</span>
+    </a>
+        <a class="app-tab" href="/chambers/1">
+        <span class="app-tab-icon"><i class="fa-solid fa-briefcase"></i></span>
+        <span class="app-tab-label">My Office</span>
+    </a>
+        <a class="app-tab" href="/elections/overview">
+        <span class="app-tab-icon"><i class="fa-solid fa-square-poll-vertical"></i></span>
+        <span class="app-tab-label">Elections</span>
+    </a>
+        <a class="app-tab" href="/notifications">
+        <span class="app-tab-icon"><i class="fa-solid fa-bell"></i><span class="app-tab-badge">2</span></span>
+        <span class="app-tab-label">Alerts</span>
+    </a>
+        <button type="button" class="app-tab" id="appTabMore" aria-controls="mobileBrandMenu">
+        <span class="app-tab-icon"><i class="fa-solid fa-bars"></i></span>
+        <span class="app-tab-label">More</span>
+    </button>
+</nav>
+</footer>
+
+<style>
+#ppusa-bottombar{
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 1040;
+  will-change: transform;
+  transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out, background-color 200ms ease-in-out;
+  transform: translateY(0) !important;
+}
+#ppusa-bottombar .ppusa-bottombar-inner{
+  height: 15px;
+  gap: .75rem;
+  padding: .5rem 1rem;
+}
+#ppusa-bottombar {
+    background-color: var(--ppusa-theme-navbar-bg) !important;
+}
+#ppusa-bottombar.headroom--pinned{ transform: translateY(0) !important; }
+#ppusa-bottombar.headroom--unpinned{ transform: translateY(0) !important; }
+</style>
+<script src="/vendor/quill/quill.min.js"></script>
+<script src="/vendor/dompurify/purify.min.js"></script>
+<script src="/assets/js/site-core.js?v=1791803229"></script>
+<script src="/assets/js/device-signals.js?v=1791803157"></script>
+<script src="/vendor/jquery/jquery-4.0.0.slim.min.js"></script>
+<script src="/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/vendor/bootbox/bootbox.min.js"></script>
+<script src="/assets/js/table.js?v=1791803231"></script>
+<script src="/assets/js/table-fit.js?v=1792459649"></script>
+<script src="/assets/js/pp-select.js?v=1786398222"></script>
+<script src="/assets/js/theme-manager.js?v=1791803232"></script>
+<script src="/assets/js/social.js?v=1791803230"></script>
+<script src="/vendor/headroom.js/dist/headroom.min.js"></script>
+
+<script src="/assets/js/pixel.js?v=1771739490"></script>
+<script src="/assets/js/maps/d3.v7.min.js"></script>
+<script src="/assets/js/maps/topojson.v3.min.js"></script>
+<script src="/vendor/html2canvas/html2canvas.min.js"></script>
+<script src="/assets/js/wikibox-download.js?v=1791803236"></script>
+<script src="/assets/js/wiki.js?v=1792214065"></script>
+</div>
+<div id="ppusa-toasts" class="ppusa-toasts" aria-live="polite" aria-atomic="false"></div>
+<script src="/assets/js/pwa.js?v=1792377050" defer></script>
+<script src="/assets/js/ajax-forms.js?v=1791803148"></script>
+<div id="ppusa-guide" data-ajax-preserve data-status="finished"></div>
+<script src="/assets/js/tutorial-guide.js?v=1791803233"></script>
+<script src="/assets/js/achievements.js?v=1791803146"></script>
+<script src="/assets/js/char-count.js?v=1785842053"></script>
+<script src="/assets/js/hover-panel.js?v=1786543792"></script>
+<script src="/assets/js/modal-stacking.js?v=1786445124"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"3adc11809aea4c4f84e500ce5ca6ced2","r":1,"spa":2}' crossorigin="anonymous"></script>
