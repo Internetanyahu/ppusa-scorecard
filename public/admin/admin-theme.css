@@ -1,0 +1,21 @@
+/* Permanent dark-mode override for the admin UI, including the login screen. */
+body{background:#070a0f!important;color:#f4f7fb!important}
+.wrap{color:#f4f7fb!important}
+.panel{background:#101720!important;color:#f4f7fb!important;border-color:#263240!important}
+.panel h1,.panel h2,.panel h3{color:#fff!important}
+.panel p,.muted{color:#8e9aaa!important}
+label{color:#d5dde7!important}
+input,textarea,select{background:#0c121a!important;color:#f4f7fb!important;border-color:#344253!important}
+input::placeholder,textarea::placeholder{color:#687587!important}
+input:focus,textarea:focus,select:focus{border-color:#6ea8ff!important;box-shadow:0 0 0 3px rgba(110,168,255,.12)!important}
+select option{background:#0c121a!important;color:#f4f7fb!important}
+.btn{background:#151f2b!important;color:#f4f7fb!important;border-color:#344253!important}
+.btn.primary{background:#6ea8ff!important;color:#07101c!important;border-color:#8bbaff!important}
+.btn.danger{color:#ff7474!important}
+.setbar button{background:#151f2b!important;color:#f4f7fb!important;border-color:#344253!important}
+.setbar .active{background:#6ea8ff!important;color:#07101c!important;border-color:#8bbaff!important}
+.seg button{background:#151f2b!important;color:#f4f7fb!important;border-color:#344253!important}
+.seg .on{background:#202a35!important;color:#fff!important}
+.actions{background:rgba(7,10,15,.96)!important;border-top-color:#263240!important}
+.row{border-top-color:#263240!important}
+.pw{color:#d5dde7!important}
