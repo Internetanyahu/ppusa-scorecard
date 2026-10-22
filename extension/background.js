@@ -1,4 +1,4 @@
-import { probe, extractBill, extractOffice } from "./inject.js";
+import { probe, extractBill, extractOffice, extractDiscovery } from "./inject.js";
 import { buildBill } from "./parse.js";
 
 const BASE = "https://powerplayusa.net";
@@ -6,9 +6,11 @@ const OWNER = "SK64HD";
 const REPO = "ppusa-scorecard";
 const BRANCH = "main";
 const EXTENSION_PATH = "extension";
-const LOCAL_VERSION = "3.1.0";
+const LOCAL_VERSION = "3.2.0";
 const DEFAULT_DELAY = 1200;
 const UPDATE_CHECK_MS = 6 * 60 * 60 * 1000;
+const DISCOVERY_KEY = "ppusaDiscovery";
+const DISCOVERY_MAX = 50;
 
 let looping = false;
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -59,23 +61,44 @@ async function githubFile(path) {
   const bytes = Uint8Array.from(atob(data.content.replace(/\n/g, "")), c => c.charCodeAt(0));
   return { sha: data.sha, text: new TextDecoder().decode(bytes) };
 }
-async function githubWrite(path, value, message) {
+async function githubWriteText(path, text, message) {
   const apiToken = await token();
   if (!apiToken) throw new Error("Paste the API token in the extension first.");
-  const current = await githubFile(path);
-  const text = JSON.stringify(value, null, 2) + "\n";
-  const bytes = new TextEncoder().encode(text);
+  let sha = null;
+  try { sha = (await githubFile(path)).sha; } catch (error) {
+    if (!String(error.message).includes("(404)")) throw error;
+  }
+  const bytes = new TextEncoder().encode(String(text));
   let binary = "";
   for (let i = 0; i < bytes.length; i += 0x8000) binary += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
   const content = btoa(binary);
   const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
-  const response = await fetch(url, {
-    method: "PUT",
-    headers: githubHeaders(apiToken, true),
-    body: JSON.stringify({ message, content, sha: current.sha, branch: BRANCH })
-  });
+  const body = { message, content, branch: BRANCH };
+  if (sha) body.sha = sha;
+  const response = await fetch(url, { method: "PUT", headers: githubHeaders(apiToken, true), body: JSON.stringify(body) });
   if (!response.ok) throw new Error(`GitHub write ${path} failed (${response.status})`);
   return response.json();
+}
+async function githubWrite(path, value, message) {
+  const text = JSON.stringify(value, null, 2) + "\n";
+  return githubWriteText(path, text, message);
+}
+async function runUpdateAction(remoteVersion) {
+  const action = {
+    ranAt: new Date().toISOString(),
+    localVersion: LOCAL_VERSION,
+    remoteVersion,
+    action: "update-available",
+    instructions: "Download the matching GitHub release or replace/reload the unpacked extension files."
+  };
+  await chrome.storage.local.set({ extensionUpdateAction: action });
+  await log(`Update action ran for ${LOCAL_VERSION} → ${remoteVersion}.`);
+  await chrome.notifications.create("ppusa-extension-update", {
+    type: "basic",
+    iconUrl: "icon128.png",
+    title: "PPUSA Scraper update available",
+    message: `Version ${remoteVersion} is available. Download/reload the updated extension.`
+  }).catch(() => {});
 }
 async function checkForUpdate({ notify = false } = {}) {
   const apiToken = await token();
@@ -94,15 +117,7 @@ async function checkForUpdate({ notify = false } = {}) {
       }
     });
     if (update) {
-      await log(`Extension update available: ${LOCAL_VERSION} → ${remoteVersion}.`);
-      if (notify) {
-        await chrome.notifications.create("ppusa-extension-update", {
-          type: "basic",
-          iconUrl: "icon128.png",
-          title: "PPUSA Scraper update available",
-          message: `Version ${remoteVersion} is in the repository. Reload the updated extension files in Chrome.`
-        }).catch(() => {});
-      }
+      if (notify || !(await chrome.storage.local.get("extensionUpdateAction")).extensionUpdateAction) await runUpdateAction(remoteVersion);
     } else if (notify) {
       await log(`Extension is current at version ${LOCAL_VERSION}.`);
     }
@@ -157,6 +172,67 @@ async function scrapeOfficeTab(tabId) {
   const match = p.path.match(/\/politician\/(\d+)/);
   if (!match || !result?.result) return { kind: "other" };
   return { kind: "office", office: { profile_id: match[1], record: result.result } };
+}
+async function discoverTab(tabId) {
+  const tab = await chrome.tabs.get(tabId).catch(() => null);
+  if (!tab?.url || !tab.url.startsWith(`${BASE}/`)) return { found: false, reason: "outside-ppusa" };
+  try {
+    const [result] = await chrome.scripting.executeScript({ target: { tabId }, func: extractDiscovery });
+    const hit = result?.result;
+    if (!hit?.found) return { found: false };
+    const captures = (await chrome.storage.local.get(DISCOVERY_KEY))[DISCOVERY_KEY] || [];
+    const encoder = new TextEncoder();
+    const digest = await crypto.subtle.digest("SHA-256", encoder.encode(hit.source));
+    const hash = [...new Uint8Array(digest)].map(x => x.toString(16).padStart(2, "0")).join("").slice(0, 16);
+    if (!captures.some(x => x.hash === hash)) {
+      captures.push({
+        hash,
+        url: hit.url,
+        path: hit.path,
+        title: hit.title,
+        pageType: hit.pageType,
+        hits: hit.hits,
+        keywordCount: hit.keywordCount,
+        capturedAt: hit.capturedAt,
+        source: hit.source,
+        synced: false
+      });
+      while (captures.length > DISCOVERY_MAX) captures.shift();
+      await chrome.storage.local.set({ [DISCOVERY_KEY]: captures });
+      await log(`Discovery hit: ${hit.pageType} — ${hit.path} — ${Object.keys(hit.hits).join(", ")}.`);
+    }
+    return { found: true, hit };
+  } catch (error) {
+    await log(`Discovery error: ${error.message}`);
+    return { found: false, error: error.message };
+  }
+}
+async function syncDiscovery() {
+  const captures = (await chrome.storage.local.get(DISCOVERY_KEY))[DISCOVERY_KEY] || [];
+  let synced = 0;
+  for (const capture of captures) {
+    if (capture.synced) continue;
+    const safePath = capture.path.replace(/^\//, "").replace(/[^a-zA-Z0-9._-]+/g, "_").slice(0, 100) || "page";
+    const filePath = `examples/extension-captures/${safePath}-${capture.hash}.txt`;
+    const header = [
+      "PPUSA extension discovery capture",
+      `Captured: ${capture.capturedAt}`,
+      `URL: ${capture.url}`,
+      `Path: ${capture.path}`,
+      `Title: ${capture.title}`,
+      `Page type: ${capture.pageType}`,
+      `Keyword hits: ${JSON.stringify(capture.hits)}`,
+      "",
+      "----- SOURCE -----",
+      ""
+    ].join("\n");
+    await githubWriteText(filePath, header + capture.source + "\n", `Add PPUSA discovery capture ${capture.hash}`);
+    capture.synced = true;
+    synced += 1;
+  }
+  await chrome.storage.local.set({ [DISCOVERY_KEY]: captures });
+  await log(`Synced ${synced} discovery capture(s) to examples/extension-captures/.`);
+  return { synced, remaining: captures.filter(x => !x.synced).length };
 }
 async function visitBill(tabId, id) {
   await chrome.tabs.update(tabId, { url: `${BASE}/resolutions/${id}`, active: false });
@@ -219,6 +295,8 @@ async function paginateBills() {
   }
 }
 async function scrapeCurrent(tabId) {
+  const tab = await chrome.tabs.get(tabId).catch(() => null);
+  if (!tab?.url?.startsWith(`${BASE}/`)) return;
   const bill = await scrapeBillTab(tabId);
   if (bill.kind === "bill") {
     try { await syncBill(bill.bill); } catch (error) { await log(`Bill sync error: ${error.message}`); }
@@ -240,6 +318,19 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
       const result = await checkForUpdate({ notify: true });
       sendResponse({ ok: !result.error, ...result });
       return;
+    } else if (msg.type === "setBackgroundMode") {
+      const enabled = Boolean(msg.enabled);
+      await chrome.storage.local.set({ backgroundMode: enabled });
+      await log(`Background discovery ${enabled ? "enabled" : "disabled"}.`);
+      sendResponse({ ok: true, enabled });
+      return;
+    } else if (msg.type === "syncDiscovery") {
+      const result = await syncDiscovery();
+      sendResponse({ ok: true, ...result });
+      return;
+    } else if (msg.type === "clearDiscovery") {
+      await chrome.storage.local.set({ [DISCOVERY_KEY]: [] });
+      await log("Local discovery captures cleared.");
     } else if (msg.type === "startPagination") {
       await setState({ paginate: true, status: "running", message: "Paginating bills until the first 404." });
       paginateBills();
@@ -266,11 +357,14 @@ chrome.runtime.onStartup.addListener(() => { checkForUpdate({ notify: true }); }
 chrome.runtime.onInstalled.addListener(() => { checkForUpdate({ notify: true }); });
 
 chrome.tabs.onUpdated.addListener(async (tabId, changeInfo) => {
-  if (changeInfo.status === "complete") {
-    const s = await state();
-    if (s.paginate && tabId === s.tabId) return;
-    await scrapeCurrent(tabId);
-  }
+  if (changeInfo.status !== "complete") return;
+  const tab = await chrome.tabs.get(tabId).catch(() => null);
+  if (!tab?.url?.startsWith(`${BASE}/`)) return;
+  const s = await state();
+  if (s.paginate && tabId === s.tabId) return;
+  await scrapeCurrent(tabId);
+  const { backgroundMode } = await chrome.storage.local.get("backgroundMode");
+  if (backgroundMode) await discoverTab(tabId);
 });
 
 setInterval(() => { checkForUpdate({ notify: true }); }, UPDATE_CHECK_MS);
