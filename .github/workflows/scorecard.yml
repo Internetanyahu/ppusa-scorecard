@@ -35,10 +35,8 @@ jobs:
         run: |
           pip install playwright
           python -m playwright install --with-deps chromium
-      - name: Install ImageMagick
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick
+      - name: Validate saved Power Play source examples
+        run: python scraper/validate_powerplay_examples.py
       - name: Refresh current Power Play player roster
         run: python scraper/main.py
       - name: Scrape Power Play in-game clock
@@ -49,6 +47,8 @@ jobs:
         run: python scraper/normalize_scorecard_rules.py
       - name: Compile PPUSA-SCORECARD data
         run: python scraper/scorecard.py
+      - name: Enrich player office metadata
+        run: python scraper/enrich_office_metadata.py
       - name: Build all configurable scorecard sets
         run: python scraper/build_scorecard_sets.py
       - name: Build combined voting records
