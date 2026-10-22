@@ -5,8 +5,10 @@ const BASE = "https://powerplayusa.net";
 const OWNER = "SK64HD";
 const REPO = "ppusa-scorecard";
 const BRANCH = "main";
-const TOKEN_HEADER = "X-PPUSA-Scorecard-Token";
+const EXTENSION_PATH = "extension";
+const LOCAL_VERSION = "3.1.0";
 const DEFAULT_DELAY = 1200;
+const UPDATE_CHECK_MS = 6 * 60 * 60 * 1000;
 
 let looping = false;
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -36,6 +38,17 @@ function githubHeaders(apiToken, json = false) {
   if (json) headers["Content-Type"] = "application/json";
   return headers;
 }
+function versionParts(version) {
+  return String(version || "0").replace(/^v/i, "").split(".").map(x => Number.parseInt(x, 10) || 0).slice(0, 3);
+}
+function isNewerVersion(remote, local) {
+  const a = versionParts(remote);
+  const b = versionParts(local);
+  for (let i = 0; i < 3; i++) {
+    if (a[i] !== b[i]) return a[i] > b[i];
+  }
+  return false;
+}
 async function githubFile(path) {
   const apiToken = await token();
   if (!apiToken) throw new Error("Paste the API token in the extension first.");
@@ -63,6 +76,41 @@ async function githubWrite(path, value, message) {
   });
   if (!response.ok) throw new Error(`GitHub write ${path} failed (${response.status})`);
   return response.json();
+}
+async function checkForUpdate({ notify = false } = {}) {
+  const apiToken = await token();
+  if (!apiToken) return { configured: false, update: false, local: LOCAL_VERSION };
+  try {
+    const remote = JSON.parse((await githubFile(`${EXTENSION_PATH}/manifest.json`)).text);
+    const remoteVersion = String(remote.version || "0.0.0");
+    const update = isNewerVersion(remoteVersion, LOCAL_VERSION);
+    await chrome.storage.local.set({
+      extensionUpdate: {
+        localVersion: LOCAL_VERSION,
+        remoteVersion,
+        update,
+        checkedAt: new Date().toISOString(),
+        path: EXTENSION_PATH
+      }
+    });
+    if (update) {
+      await log(`Extension update available: ${LOCAL_VERSION} → ${remoteVersion}.`);
+      if (notify) {
+        await chrome.notifications.create("ppusa-extension-update", {
+          type: "basic",
+          iconUrl: "icon128.png",
+          title: "PPUSA Scraper update available",
+          message: `Version ${remoteVersion} is in the repository. Reload the updated extension files in Chrome.`
+        }).catch(() => {});
+      }
+    } else if (notify) {
+      await log(`Extension is current at version ${LOCAL_VERSION}.`);
+    }
+    return { configured: true, update, local: LOCAL_VERSION, remote: remoteVersion };
+  } catch (error) {
+    await log(`Update check failed: ${error.message}`);
+    return { configured: true, update: false, local: LOCAL_VERSION, error: error.message };
+  }
 }
 async function syncBill(bill) {
   const remote = JSON.parse((await githubFile("bills.json")).text);
@@ -187,6 +235,11 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     if (msg.type === "saveToken") {
       await chrome.storage.local.set({ apiToken: String(msg.token || "").trim() });
       await log("API token saved locally in Chrome extension storage.");
+      await checkForUpdate({ notify: false });
+    } else if (msg.type === "checkForUpdate") {
+      const result = await checkForUpdate({ notify: true });
+      sendResponse({ ok: !result.error, ...result });
+      return;
     } else if (msg.type === "startPagination") {
       await setState({ paginate: true, status: "running", message: "Paginating bills until the first 404." });
       paginateBills();
@@ -209,6 +262,9 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   return true;
 });
 
+chrome.runtime.onStartup.addListener(() => { checkForUpdate({ notify: true }); });
+chrome.runtime.onInstalled.addListener(() => { checkForUpdate({ notify: true }); });
+
 chrome.tabs.onUpdated.addListener(async (tabId, changeInfo) => {
   if (changeInfo.status === "complete") {
     const s = await state();
@@ -216,3 +272,5 @@ chrome.tabs.onUpdated.addListener(async (tabId, changeInfo) => {
     await scrapeCurrent(tabId);
   }
 });
+
+setInterval(() => { checkForUpdate({ notify: true }); }, UPDATE_CHECK_MS);
