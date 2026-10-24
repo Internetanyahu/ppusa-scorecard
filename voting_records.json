@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:25:27+00:00",
+  "generated_at": "2026-10-24T20:16:00+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -279,7 +279,17 @@
       "profile_ids": [
         "1180",
         "1181",
-        "1252"
+        "1252",
+        "1367"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1366",
+      "label": "Bruce Blakeman",
+      "aliases": [],
+      "profile_ids": [
+        "1366"
       ]
     },
     {
@@ -1978,6 +1988,12 @@
     },
     {
       "type": "profile",
+      "id": "1033",
+      "label": "Andrew Tate (1033)",
+      "player_id": "p1025"
+    },
+    {
+      "type": "profile",
       "id": "1184",
       "label": "Andrew Welsington (1184)",
       "player_id": "p1184"
@@ -2152,12 +2168,6 @@
     },
     {
       "type": "profile",
-      "id": "1200",
-      "label": "Brandon Gill (1200)",
-      "player_id": "p1011"
-    },
-    {
-      "type": "profile",
       "id": "1210",
       "label": "Brian Bosworth (1210)",
       "player_id": "p1050"
@@ -2167,6 +2177,12 @@
       "id": "1003",
       "label": "BRITNEY SPEARS (1003)",
       "player_id": "p1003"
+    },
+    {
+      "type": "profile",
+      "id": "1366",
+      "label": "Bruce Blakeman (1366)",
+      "player_id": "p1366"
     },
     {
       "type": "profile",
@@ -2251,6 +2267,12 @@
       "id": "1158",
       "label": "Chernobyl (1158)",
       "player_id": "p1155"
+    },
+    {
+      "type": "profile",
+      "id": "1200",
+      "label": "Chris Gallant (1200)",
+      "player_id": "p1011"
     },
     {
       "type": "profile",
@@ -2407,12 +2429,6 @@
       "id": "1092",
       "label": "Don Blankenship (1092)",
       "player_id": "p1089"
-    },
-    {
-      "type": "profile",
-      "id": "1033",
-      "label": "Donald Trump (1033)",
-      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -3457,6 +3473,12 @@
       "id": "1212",
       "label": "Nikki (1212)",
       "player_id": "p1009"
+    },
+    {
+      "type": "profile",
+      "id": "1367",
+      "label": "Nikki Haley (1367)",
+      "player_id": "p1180"
     },
     {
       "type": "profile",
@@ -15887,7 +15909,7 @@
             "profile_id": "1023",
             "name": "Jeff Leach",
             "party": "grn",
-            "state": "New Mexico",
+            "state": "Colorado",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
             "is_main": false,
@@ -15898,7 +15920,7 @@
           },
           {
             "profile_id": "1200",
-            "name": "Brandon Gill",
+            "name": "Chris Gallant",
             "party": "grn",
             "state": "Wisconsin",
             "chamber": "Other",
@@ -15964,13 +15986,13 @@
           "profile_id": "1023",
           "name": "Jeff Leach",
           "party": "grn",
-          "state": "New Mexico",
+          "state": "Colorado",
           "is_main": false,
           "on_site": true
         },
         {
           "profile_id": "1200",
-          "name": "Brandon Gill",
+          "name": "Chris Gallant",
           "party": "grn",
           "state": "Wisconsin",
           "is_main": false,
@@ -18882,7 +18904,7 @@
             "party": "gop",
             "state": "Colorado",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/887481623203950693/4ee38cb757401bccea5b556fa7765d7a.webp",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -18892,6 +18914,19 @@
           {
             "profile_id": "1252",
             "name": "Susana Martinez",
+            "party": "gop",
+            "state": "Colorado",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/887481623203950693/4ee38cb757401bccea5b556fa7765d7a.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1367",
+            "name": "Nikki Haley",
             "party": "gop",
             "state": "Colorado",
             "chamber": "Other",
@@ -18942,7 +18977,8 @@
       "profile_ids": [
         "1180",
         "1181",
-        "1252"
+        "1252",
+        "1367"
       ],
       "profiles": [
         {
@@ -18964,6 +19000,14 @@
         {
           "profile_id": "1252",
           "name": "Susana Martinez",
+          "party": "gop",
+          "state": "Colorado",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1367",
+          "name": "Nikki Haley",
           "party": "gop",
           "state": "Colorado",
           "is_main": false,
@@ -19002,6 +19046,97 @@
           "house_seats": null
         }
       ]
+    },
+    {
+      "player_id": "p1366",
+      "conservative_scorecard": {
+        "user_id": "p1366",
+        "player_id": "p1366",
+        "name": "Bruce Blakeman",
+        "discord": "",
+        "discord_ids": [],
+        "party": "gop",
+        "state": "New York",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1366",
+            "name": "Bruce Blakeman",
+            "party": "gop",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Bruce Blakeman",
+      "profile_ids": [
+        "1366"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1366",
+          "name": "Bruce Blakeman",
+          "party": "gop",
+          "state": "New York",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
     },
     {
       "player_id": "p1282",
@@ -32172,7 +32307,7 @@
         "discord_ids": [
           "1253581430366277667"
         ],
-        "party": "grn",
+        "party": "independent",
         "state": "New York",
         "chambers": [
           "House",
@@ -32184,7 +32319,7 @@
           {
             "profile_id": "1059",
             "name": "Tulsi Gabbard",
-            "party": "grn",
+            "party": "independent",
             "state": "New York",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
@@ -32199,7 +32334,7 @@
           {
             "profile_id": "1065",
             "name": "Eric Trump",
-            "party": "grn",
+            "party": "independent",
             "state": "Texas",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
@@ -32214,7 +32349,7 @@
           {
             "profile_id": "1196",
             "name": "Pete Hegseth",
-            "party": "grn",
+            "party": "independent",
             "state": "Texas",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
@@ -32999,7 +33134,7 @@
         {
           "profile_id": "1059",
           "name": "Tulsi Gabbard",
-          "party": "grn",
+          "party": "Independent",
           "state": "New York",
           "is_main": true,
           "on_site": true
@@ -33007,7 +33142,7 @@
         {
           "profile_id": "1065",
           "name": "Eric Trump",
-          "party": "grn",
+          "party": "Independent",
           "state": "Texas",
           "is_main": false,
           "on_site": true
@@ -33015,7 +33150,7 @@
         {
           "profile_id": "1196",
           "name": "Pete Hegseth",
-          "party": "grn",
+          "party": "Independent",
           "state": "Texas",
           "is_main": false,
           "on_site": true
@@ -77303,7 +77438,7 @@
           },
           {
             "profile_id": "1033",
-            "name": "Donald Trump",
+            "name": "Andrew Tate",
             "party": "gop",
             "state": "Florida",
             "chamber": "Senate",
@@ -77390,7 +77525,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Donald Trump",
+            "profile_name": "Andrew Tate",
             "chamber": "Senate"
           },
           {
@@ -77416,7 +77551,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Donald Trump",
+            "profile_name": "Andrew Tate",
             "chamber": "Senate"
           },
           {
@@ -77442,7 +77577,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Donald Trump",
+            "profile_name": "Andrew Tate",
             "chamber": "Senate"
           },
           {
@@ -77494,7 +77629,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Donald Trump",
+            "profile_name": "Andrew Tate",
             "chamber": "Senate"
           },
           {
@@ -77507,7 +77642,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Donald Trump",
+            "profile_name": "Andrew Tate",
             "chamber": "Senate"
           },
           {
@@ -77520,7 +77655,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Donald Trump",
+            "profile_name": "Andrew Tate",
             "chamber": "Senate"
           },
           {
@@ -77598,7 +77733,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1033",
-            "profile_name": "Donald Trump",
+            "profile_name": "Andrew Tate",
             "chamber": "Senate"
           },
           {
@@ -77637,7 +77772,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Donald Trump",
+            "profile_name": "Andrew Tate",
             "chamber": "Senate"
           },
           {
@@ -77663,7 +77798,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Donald Trump",
+            "profile_name": "Andrew Tate",
             "chamber": "Senate"
           },
           {
@@ -77676,7 +77811,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1033",
-            "profile_name": "Donald Trump",
+            "profile_name": "Andrew Tate",
             "chamber": "Senate"
           },
           {
@@ -77689,7 +77824,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Donald Trump",
+            "profile_name": "Andrew Tate",
             "chamber": "Senate"
           }
         ],
@@ -77723,7 +77858,7 @@
         },
         {
           "profile_id": "1033",
-          "name": "Donald Trump",
+          "name": "Andrew Tate",
           "party": "gop",
           "state": "Florida",
           "is_main": false,
@@ -95892,7 +96027,7 @@
         }
       ],
       "party": "grn",
-      "state": "New Mexico",
+      "state": "Colorado",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -98851,7 +98986,7 @@
     {
       "profile_id": "1033",
       "player_id": "p1025",
-      "name": "Donald Trump",
+      "name": "Andrew Tate",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -106834,7 +106969,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "grn",
+      "party": "Independent",
       "state": "New York",
       "is_main": true,
       "on_site": true,
@@ -108685,7 +108820,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "grn",
+      "party": "Independent",
       "state": "Texas",
       "is_main": false,
       "on_site": true,
@@ -134366,8 +134501,8 @@
       "profile_id": "1181",
       "player_id": "p1180",
       "name": "Elizabeth Mccord",
-      "discord": "brandonhh02",
-      "discord_id": "887481623203950693",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "brandonhh02",
@@ -134388,6 +134523,11 @@
           "discord": "brandonhh02",
           "discord_id": "887481623203950693",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-10-24"
         }
       ],
       "party": "gop",
@@ -135393,7 +135533,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "grn",
+      "party": "Independent",
       "state": "Texas",
       "is_main": false,
       "on_site": true,
@@ -135685,7 +135825,7 @@
     {
       "profile_id": "1200",
       "player_id": "p1011",
-      "name": "Brandon Gill",
+      "name": "Chris Gallant",
       "discord": "berlinsucks",
       "discord_id": "829048047770009611",
       "discord_history": [
@@ -151572,6 +151712,68 @@
       "party": "dem",
       "state": "New York",
       "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1366",
+      "player_id": "p1366",
+      "name": "Bruce Blakeman",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "gop",
+      "state": "New York",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1367",
+      "player_id": "p1180",
+      "name": "Nikki Haley",
+      "discord": "brandonhh02",
+      "discord_id": "887481623203950693",
+      "discord_history": [
+        {
+          "discord": "brandonhh02",
+          "discord_id": "887481623203950693",
+          "first_seen": "2026-10-24"
+        }
+      ],
+      "party": "gop",
+      "state": "Colorado",
+      "is_main": false,
       "on_site": true,
       "counts": {
         "bills": 0,

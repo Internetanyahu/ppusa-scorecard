@@ -4718,7 +4718,7 @@
   },
   {
     "player_id": "p1011",
-    "name": "Brandon Gill",
+    "name": "Chris Gallant",
     "discord": "berlinsucks",
     "profiles": [
       "1011",
@@ -42537,12 +42537,13 @@
   },
   {
     "player_id": "p1180",
-    "name": "Susana Martinez",
+    "name": "Nikki Haley",
     "discord": "brandonhh02",
     "profiles": [
       "1180",
       "1181",
-      "1252"
+      "1252",
+      "1367"
     ],
     "bills": [
       {
@@ -45612,6 +45613,16 @@
     "discord": "",
     "profiles": [
       "1365"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1366",
+    "name": "Bruce Blakeman",
+    "discord": "",
+    "profiles": [
+      "1366"
     ],
     "bills": [],
     "bill_count": 0

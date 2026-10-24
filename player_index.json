@@ -767,7 +767,7 @@
     "name": "Jeff Leach",
     "discord": "berlinsucks",
     "party": "grn",
-    "state": "New Mexico",
+    "state": "Colorado",
     "last_seen": "2026-10-24",
     "on_site": true,
     "discord_id": "829048047770009611",
@@ -1104,7 +1104,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1033",
     "player_id": "p1025",
-    "name": "Donald Trump",
+    "name": "Andrew Tate",
     "discord": "trumpquest",
     "party": "gop",
     "state": "Florida",
@@ -1985,7 +1985,7 @@
     "player_id": "p1059",
     "name": "Tulsi Gabbard",
     "discord": "founderofurp2.0",
-    "party": "grn",
+    "party": "Independent",
     "state": "New York",
     "last_seen": "2026-10-24",
     "on_site": true,
@@ -2168,7 +2168,7 @@
     "player_id": "p1059",
     "name": "Eric Trump",
     "discord": "founderofurp2.0",
-    "party": "grn",
+    "party": "Independent",
     "state": "Texas",
     "last_seen": "2026-10-24",
     "on_site": true,
@@ -5918,12 +5918,12 @@
     "profile_id": "1181",
     "player_id": "p1180",
     "name": "Elizabeth Mccord",
-    "discord": "brandonhh02",
+    "discord": "",
     "party": "gop",
     "state": "Colorado",
     "last_seen": "2026-10-24",
     "on_site": true,
-    "discord_id": "887481623203950693",
+    "discord_id": "",
     "discord_history": [
       {
         "discord": "brandonhh02",
@@ -5944,6 +5944,11 @@
         "discord": "brandonhh02",
         "discord_id": "887481623203950693",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-10-24"
       }
     ]
   },
@@ -6408,7 +6413,7 @@
     "player_id": "p1059",
     "name": "Pete Hegseth",
     "discord": "founderofurp2.0",
-    "party": "grn",
+    "party": "Independent",
     "state": "Texas",
     "last_seen": "2026-10-24",
     "on_site": true,
@@ -6542,7 +6547,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1200",
     "player_id": "p1011",
-    "name": "Brandon Gill",
+    "name": "Chris Gallant",
     "discord": "berlinsucks",
     "party": "grn",
     "state": "Wisconsin",
@@ -11646,6 +11651,38 @@
     "discord_id": "",
     "party": "dem",
     "state": "New York",
+    "last_seen": "2026-10-24",
+    "on_site": true
+  },
+  "1366": {
+    "profile_id": "1366",
+    "player_id": "p1366",
+    "first_seen": "2026-10-24",
+    "discord_history": [],
+    "name": "Bruce Blakeman",
+    "discord": "",
+    "discord_id": "",
+    "party": "gop",
+    "state": "New York",
+    "last_seen": "2026-10-24",
+    "on_site": true
+  },
+  "1367": {
+    "profile_id": "1367",
+    "player_id": "p1180",
+    "first_seen": "2026-10-24",
+    "discord_history": [
+      {
+        "discord": "brandonhh02",
+        "discord_id": "887481623203950693",
+        "first_seen": "2026-10-24"
+      }
+    ],
+    "name": "Nikki Haley",
+    "discord": "brandonhh02",
+    "discord_id": "887481623203950693",
+    "party": "gop",
+    "state": "Colorado",
     "last_seen": "2026-10-24",
     "on_site": true
   }
