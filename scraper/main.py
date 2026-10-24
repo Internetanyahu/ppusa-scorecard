@@ -210,7 +210,7 @@ def main():
     output.write_text(json.dumps(players, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"FINAL PLAYER COUNT: {len(players)}")
     print(f"PLAYERS WITH OFFICE DATA: {sum(bool(p['offices']) for p in players)}")
-    print(f"PLAYERS WITH NO OFFICE: {sum(not p['offices']) for p in players)}")
+    print(f"PLAYERS WITH NO OFFICE: {sum(not p['offices'] for p in players)}")
     print(f"TOTAL OFFICES RECORDED: {sum(len(p['offices']) for p in players)}")
     print(f"Saved players to {output}")
 
