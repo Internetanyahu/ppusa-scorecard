@@ -8,7 +8,7 @@ from pathlib import Path
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 
-SITE_URL = "https://sk64hd.github.io/ppusa_conservative_scorecard"
+SITE_URL = "https://sk64hd.github.io/ppusa-scorecard"
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "public" / "data" / "conservative_scorecard.json"
 SHARE_ROOT = ROOT / "public" / "share"

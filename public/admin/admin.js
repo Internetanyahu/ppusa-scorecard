@@ -6,7 +6,7 @@ const VERIFIER = {
   iterations: 600000,
   hash: '095031433fe8fbf8096a1ca8d815a4ede7d05dab03723278e8610b86a27f4505'
 };
-const REPO = { owner: 'SK64HD', repo: 'ppusa_conservative_scorecard', path: 'scorecard_sets_config.json' };
+const REPO = { owner: 'SK64HD', repo: 'ppusa-scorecard', path: 'scorecard_sets_config.json' };
 const CATS = ['social', 'economic', 'foreign'];
 const DIRS = [1, 0, -1];
 const $ = id => document.getElementById(id);

@@ -59,7 +59,7 @@ async def main() -> None:
         context = await browser.new_context(user_agent=USER_AGENT)
         if SCRAPER_TOKEN:
             async def add_token(route, request):
-                await route.continue_(headers={**request.headers, TOKEN_HEADER: SCRAPER_TOKEN})
+                await (route.continue_(headers={**request.headers, TOKEN_HEADER: SCRAPER_TOKEN}) if request.url.startswith(BASE_URL) else route.continue_())
             await context.route("**/*", add_token)
             print(f"Sending {TOKEN_HEADER} to {BASE_URL}")
         page = await context.new_page()

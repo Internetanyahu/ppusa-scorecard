@@ -26,7 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SCORECARD = ROOT / "conservative_scorecard.json"
 OUT_DIR = ROOT / "public" / "share"
 SITE_BASE = os.environ.get(
-    "SITE_BASE", "https://sk64hd.github.io/ppusa_conservative_scorecard/public/"
+    "SITE_BASE", "https://sk64hd.github.io/ppusa-scorecard/"
 ).rstrip("/") + "/"
 
 W, H = 1200, 630

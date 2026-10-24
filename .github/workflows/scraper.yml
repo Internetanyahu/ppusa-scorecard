@@ -35,7 +35,10 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Refresh player data
-        run: python scraper/main.py
+        env:
+          PYTHONUNBUFFERED: "1"
+          SCRAPER_TOKEN: ${{ secrets.SCRAPER_TOKEN }}
+        run: python -u scraper/main.py
 
       - name: Rebuild legislative history
         run: python scraper/build_history.py

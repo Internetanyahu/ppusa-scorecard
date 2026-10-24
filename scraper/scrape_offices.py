@@ -39,7 +39,7 @@ DELAY = 1.0
 SAVE_EVERY = 40
 USER_AGENT = (
     "Mozilla/5.0 (compatible; PPUSA-Scorecard-Bot/1.0; "
-    "+https://github.com/SK64HD/ppusa_conservative_scorecard)"
+    "+https://github.com/SK64HD/ppusa-scorecard)"
 )
 TOKEN_HEADER = "X-PPUSA-Scorecard-Token"
 SCRAPER_TOKEN = os.environ.get("SCRAPER_TOKEN", "").strip()

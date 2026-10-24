@@ -13,12 +13,12 @@ SCRAPER_TOKEN = os.environ.get("SCRAPER_TOKEN", "").strip()
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=True)
     context = browser.new_context(user_agent=(
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+        "Mozilla/5.0 (compatible; PPUSA-Scorecard-Bot/1.0; "
+        "+https://github.com/SK64HD/ppusa-scorecard)"
     ))
     if SCRAPER_TOKEN:
         def add_token(route, request):
-            route.continue_(headers={**request.headers, TOKEN_HEADER: SCRAPER_TOKEN})
+            route.continue_(headers={**request.headers, TOKEN_HEADER: SCRAPER_TOKEN}) if request.url.startswith(BASE_URL) else route.continue_()
         context.route("**/*", add_token)
         print(f"Sending {TOKEN_HEADER} to {BASE_URL}")
     page = context.new_page()
