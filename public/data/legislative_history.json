@@ -4718,7 +4718,7 @@
   },
   {
     "player_id": "p1011",
-    "name": "Chris Gallant",
+    "name": "Brandon Gill",
     "discord": "berlinsucks",
     "profiles": [
       "1011",
@@ -19472,7 +19472,7 @@
   },
   {
     "player_id": "p1053",
-    "name": "Tucker Carlson",
+    "name": "Scott Bessent",
     "discord": "austin.vicknair",
     "profiles": [
       "1201",
@@ -44228,7 +44228,7 @@
   },
   {
     "player_id": "p1304",
-    "name": "Marcus Rubius",
+    "name": "bibino₪",
     "discord": "internetanyahu",
     "profiles": [
       "1304",
@@ -45592,6 +45592,26 @@
     "discord": "",
     "profiles": [
       "1362"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1364",
+    "name": "Nolan Masters",
+    "discord": "americanscion",
+    "profiles": [
+      "1364"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1365",
+    "name": "Victor Langdon",
+    "discord": "",
+    "profiles": [
+      "1365"
     ],
     "bills": [],
     "bill_count": 0

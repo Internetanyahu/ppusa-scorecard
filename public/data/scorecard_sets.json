@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T03:23:02+00:00",
+  "generated_at": "2026-10-24T10:20:03+00:00",
   "default_set": "conservative",
   "sets": [
     {
@@ -36053,9 +36053,9 @@
             },
             {
               "profile_id": "1060",
-              "name": "Charlie Kirk",
+              "name": "Howard Lutnick",
               "party": "independent",
-              "state": "Florida",
+              "state": "Louisiana",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1332798783658131476/da3646e5c05e12ea418bc920a780f4fc.webp",
               "is_main": false,
@@ -36066,7 +36066,7 @@
             },
             {
               "profile_id": "1201",
-              "name": "Tucker Carlson",
+              "name": "Scott Bessent",
               "party": "independent",
               "state": "Mississippi",
               "chamber": "House",
@@ -36112,7 +36112,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1201",
-              "profile_name": "Tucker Carlson",
+              "profile_name": "Scott Bessent",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36126,7 +36126,7 @@
               "vote": "nay",
               "aligned": false,
               "profile_id": "1201",
-              "profile_name": "Tucker Carlson",
+              "profile_name": "Scott Bessent",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36140,7 +36140,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1201",
-              "profile_name": "Tucker Carlson",
+              "profile_name": "Scott Bessent",
               "chamber": "Senate",
               "scorable": true
             }
@@ -36196,7 +36196,7 @@
             },
             {
               "profile_id": "1308",
-              "name": "Marcus Rubius",
+              "name": "bibino₪",
               "party": "gop",
               "state": "Florida",
               "chamber": "Other",
@@ -43124,8 +43124,8 @@
           "discord_ids": [
             "1253581430366277667"
           ],
-          "party": "gop",
-          "state": "Texas",
+          "party": "grn",
+          "state": "New York",
           "chambers": [
             "House",
             "Other",
@@ -43136,8 +43136,8 @@
             {
               "profile_id": "1059",
               "name": "Tulsi Gabbard",
-              "party": "gop",
-              "state": "Texas",
+              "party": "grn",
+              "state": "New York",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
               "is_main": true,
@@ -43151,7 +43151,7 @@
             {
               "profile_id": "1065",
               "name": "Eric Trump",
-              "party": "gop",
+              "party": "grn",
               "state": "Texas",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
@@ -43166,7 +43166,7 @@
             {
               "profile_id": "1196",
               "name": "Pete Hegseth",
-              "party": "gop",
+              "party": "grn",
               "state": "Texas",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
@@ -47086,7 +47086,7 @@
             },
             {
               "profile_id": "1008",
-              "name": "LUCI BAINES JOHNSON",
+              "name": "ELIZABETH HOLMES",
               "party": "grn",
               "state": "Virginia",
               "chamber": "Senate",
@@ -59847,7 +59847,7 @@
             },
             {
               "profile_id": "1023",
-              "name": "Todd Achilles",
+              "name": "Jeff Leach",
               "party": "grn",
               "state": "New Mexico",
               "chamber": "Other",
@@ -59860,7 +59860,7 @@
             },
             {
               "profile_id": "1200",
-              "name": "Chris Gallant",
+              "name": "Brandon Gill",
               "party": "grn",
               "state": "Wisconsin",
               "chamber": "Other",
@@ -64569,7 +64569,7 @@
             "859651042203402250"
           ],
           "party": "gop",
-          "state": "North Carolina",
+          "state": "Florida",
           "chambers": [
             "House",
             "Other"
@@ -64580,7 +64580,7 @@
               "profile_id": "1062",
               "name": "Marco Rubio",
               "party": "gop",
-              "state": "North Carolina",
+              "state": "Florida",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
               "is_main": true,
@@ -64715,7 +64715,7 @@
           "chambers": [
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/3a28404b0206ca3ae0a1a6a674f3536f.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/566cf24ede266e119abb471ce7632358.webp",
           "profiles": [
             {
               "profile_id": "1094",
@@ -64723,7 +64723,7 @@
               "party": "independent",
               "state": "Oklahoma",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/3a28404b0206ca3ae0a1a6a674f3536f.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/566cf24ede266e119abb471ce7632358.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -64736,7 +64736,7 @@
               "party": "independent",
               "state": "Texas",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/3a28404b0206ca3ae0a1a6a674f3536f.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/566cf24ede266e119abb471ce7632358.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -64749,7 +64749,7 @@
               "party": "independent",
               "state": "Nebraska",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/3a28404b0206ca3ae0a1a6a674f3536f.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/566cf24ede266e119abb471ce7632358.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -65168,6 +65168,62 @@
           "offices_held": 2,
           "office_count": 2,
           "has_office": true
+        },
+        {
+          "user_id": "p1364",
+          "player_id": "p1364",
+          "name": "Nolan Masters",
+          "discord": "americanscion",
+          "discord_ids": [
+            "1451742560845435032"
+          ],
+          "party": "gop",
+          "state": "Florida",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/1451742560845435032/2141493c5bab7ca29caa16d23f9e0937.webp",
+          "profiles": [
+            {
+              "profile_id": "1364",
+              "name": "Nolan Masters",
+              "party": "gop",
+              "state": "Florida",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/1451742560845435032/2141493c5bab7ca29caa16d23f9e0937.webp",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
         },
         {
           "user_id": "p1240",
@@ -66389,6 +66445,60 @@
               "name": "Uncle America",
               "party": "independent",
               "state": "Georgia",
+              "chamber": "Other",
+              "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p1365",
+          "player_id": "p1365",
+          "name": "Victor Langdon",
+          "discord": "",
+          "discord_ids": [],
+          "party": "dem",
+          "state": "New York",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "profiles": [
+            {
+              "profile_id": "1365",
+              "name": "Victor Langdon",
+              "party": "dem",
+              "state": "New York",
               "chamber": "Other",
               "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
               "is_main": true,
@@ -101721,9 +101831,9 @@
             },
             {
               "profile_id": "1060",
-              "name": "Charlie Kirk",
+              "name": "Howard Lutnick",
               "party": "independent",
-              "state": "Florida",
+              "state": "Louisiana",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1332798783658131476/da3646e5c05e12ea418bc920a780f4fc.webp",
               "is_main": false,
@@ -101734,7 +101844,7 @@
             },
             {
               "profile_id": "1201",
-              "name": "Tucker Carlson",
+              "name": "Scott Bessent",
               "party": "independent",
               "state": "Mississippi",
               "chamber": "House",
@@ -101821,7 +101931,7 @@
             },
             {
               "profile_id": "1308",
-              "name": "Marcus Rubius",
+              "name": "bibino₪",
               "party": "gop",
               "state": "Florida",
               "chamber": "Other",
@@ -104140,8 +104250,8 @@
           "discord_ids": [
             "1253581430366277667"
           ],
-          "party": "gop",
-          "state": "Texas",
+          "party": "grn",
+          "state": "New York",
           "chambers": [
             "House",
             "Other",
@@ -104152,8 +104262,8 @@
             {
               "profile_id": "1059",
               "name": "Tulsi Gabbard",
-              "party": "gop",
-              "state": "Texas",
+              "party": "grn",
+              "state": "New York",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
               "is_main": true,
@@ -104167,7 +104277,7 @@
             {
               "profile_id": "1065",
               "name": "Eric Trump",
-              "party": "gop",
+              "party": "grn",
               "state": "Texas",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
@@ -104182,7 +104292,7 @@
             {
               "profile_id": "1196",
               "name": "Pete Hegseth",
-              "party": "gop",
+              "party": "grn",
               "state": "Texas",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
@@ -105553,7 +105663,7 @@
             },
             {
               "profile_id": "1008",
-              "name": "LUCI BAINES JOHNSON",
+              "name": "ELIZABETH HOLMES",
               "party": "grn",
               "state": "Virginia",
               "chamber": "Senate",
@@ -109925,7 +110035,7 @@
             },
             {
               "profile_id": "1023",
-              "name": "Todd Achilles",
+              "name": "Jeff Leach",
               "party": "grn",
               "state": "New Mexico",
               "chamber": "Other",
@@ -109938,7 +110048,7 @@
             },
             {
               "profile_id": "1200",
-              "name": "Chris Gallant",
+              "name": "Brandon Gill",
               "party": "grn",
               "state": "Wisconsin",
               "chamber": "Other",
@@ -114633,7 +114743,7 @@
             "859651042203402250"
           ],
           "party": "gop",
-          "state": "North Carolina",
+          "state": "Florida",
           "chambers": [
             "House",
             "Other"
@@ -114644,7 +114754,7 @@
               "profile_id": "1062",
               "name": "Marco Rubio",
               "party": "gop",
-              "state": "North Carolina",
+              "state": "Florida",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
               "is_main": true,
@@ -114751,7 +114861,7 @@
           "chambers": [
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/3a28404b0206ca3ae0a1a6a674f3536f.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/566cf24ede266e119abb471ce7632358.webp",
           "profiles": [
             {
               "profile_id": "1094",
@@ -114759,7 +114869,7 @@
               "party": "independent",
               "state": "Oklahoma",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/3a28404b0206ca3ae0a1a6a674f3536f.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/566cf24ede266e119abb471ce7632358.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -114772,7 +114882,7 @@
               "party": "independent",
               "state": "Texas",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/3a28404b0206ca3ae0a1a6a674f3536f.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/566cf24ede266e119abb471ce7632358.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -114785,7 +114895,7 @@
               "party": "independent",
               "state": "Nebraska",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/3a28404b0206ca3ae0a1a6a674f3536f.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/566cf24ede266e119abb471ce7632358.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -115204,6 +115314,62 @@
           "offices_held": 2,
           "office_count": 2,
           "has_office": true
+        },
+        {
+          "user_id": "p1364",
+          "player_id": "p1364",
+          "name": "Nolan Masters",
+          "discord": "americanscion",
+          "discord_ids": [
+            "1451742560845435032"
+          ],
+          "party": "gop",
+          "state": "Florida",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/1451742560845435032/2141493c5bab7ca29caa16d23f9e0937.webp",
+          "profiles": [
+            {
+              "profile_id": "1364",
+              "name": "Nolan Masters",
+              "party": "gop",
+              "state": "Florida",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/1451742560845435032/2141493c5bab7ca29caa16d23f9e0937.webp",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
         },
         {
           "user_id": "p1240",
@@ -116425,6 +116591,60 @@
               "name": "Uncle America",
               "party": "independent",
               "state": "Georgia",
+              "chamber": "Other",
+              "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p1365",
+          "player_id": "p1365",
+          "name": "Victor Langdon",
+          "discord": "",
+          "discord_ids": [],
+          "party": "dem",
+          "state": "New York",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "profiles": [
+            {
+              "profile_id": "1365",
+              "name": "Victor Langdon",
+              "party": "dem",
+              "state": "New York",
               "chamber": "Other",
               "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
               "is_main": true,
