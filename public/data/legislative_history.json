@@ -8927,7 +8927,7 @@
   },
   {
     "player_id": "p1025",
-    "name": "Pete Hegseth",
+    "name": "Melania Trump",
     "discord": "trumpquest",
     "profiles": [
       "1025",
@@ -10320,7 +10320,7 @@
   },
   {
     "player_id": "p1026",
-    "name": "Kurt Cobain",
+    "name": "Elijah Hewson",
     "discord": "marcsexual",
     "profiles": [
       "1026",
@@ -19926,7 +19926,7 @@
   },
   {
     "player_id": "p1059",
-    "name": "Greg Abbott",
+    "name": "Pete Hegseth",
     "discord": "founderofurp2.0",
     "profiles": [
       "1065",
@@ -27075,7 +27075,7 @@
   },
   {
     "player_id": "p1094",
-    "name": "Ashley Hinson",
+    "name": "Karoline Leavitt",
     "discord": "musicman130897",
     "profiles": [
       "1094",
@@ -44768,7 +44768,7 @@
   {
     "player_id": "p1311",
     "name": "Paul Roberts",
-    "discord": "pablovg8",
+    "discord": "",
     "profiles": [
       "1311",
       "1314",
@@ -45575,6 +45575,28 @@
     "bill_count": 0
   },
   {
+    "player_id": "p1359",
+    "name": "Doroteusz Sawicki",
+    "discord": "yakub67420",
+    "profiles": [
+      "1359",
+      "1360",
+      "1361"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1362",
+    "name": "Huddson",
+    "discord": "",
+    "profiles": [
+      "1362"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p77",
     "name": "Ralph Nader",
     "discord": "",
@@ -45599,5 +45621,15 @@
       }
     ],
     "bill_count": 1
+  },
+  {
+    "player_id": "p8",
+    "name": "John Paul Stevens",
+    "discord": "",
+    "profiles": [
+      "8"
+    ],
+    "bills": [],
+    "bill_count": 0
   }
 ]

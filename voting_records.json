@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T03:09:36+00:00",
+  "generated_at": "2026-10-24T03:23:02+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -248,7 +248,7 @@
     {
       "type": "player",
       "id": "p1006",
-      "label": "bosnia1399 (Faruk Pasic)",
+      "label": "bosnia1399 (Faruk Pašić)",
       "aliases": [
         "bosnia1399"
       ],
@@ -679,6 +679,15 @@
     },
     {
       "type": "player",
+      "id": "p1362",
+      "label": "Huddson",
+      "aliases": [],
+      "profile_ids": [
+        "1362"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1273",
       "label": "iamonfirepleasehelp (Benjamin Buford Blue)",
       "aliases": [
@@ -758,7 +767,7 @@
     {
       "type": "player",
       "id": "p1062",
-      "label": "jackhammerjt (Joseph Washington)",
+      "label": "jackhammerjt (Marco Rubio)",
       "aliases": [
         "jackhammerjt"
       ],
@@ -828,6 +837,15 @@
       "aliases": [],
       "profile_ids": [
         "1329"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p8",
+      "label": "John Paul Stevens",
+      "aliases": [],
+      "profile_ids": [
+        "8"
       ]
     },
     {
@@ -1228,7 +1246,7 @@
     {
       "type": "player",
       "id": "p1094",
-      "label": "musicman130897 (Pat Buchanan)",
+      "label": "musicman130897 (Markwayne Mullin)",
       "aliases": [
         "musicman130897"
       ],
@@ -1601,7 +1619,7 @@
     {
       "type": "player",
       "id": "p1025",
-      "label": "trumpquest (Donald Trump)",
+      "label": "trumpquest (Alina Habba)",
       "aliases": [
         "trumpquest"
       ],
@@ -1745,6 +1763,19 @@
     },
     {
       "type": "player",
+      "id": "p1359",
+      "label": "yakub67420 (Chuck Bartowski)",
+      "aliases": [
+        "yakub67420"
+      ],
+      "profile_ids": [
+        "1359",
+        "1360",
+        "1361"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1115",
       "label": "ydg0226 (Kristin Jack)",
       "aliases": [
@@ -1843,12 +1874,6 @@
     },
     {
       "type": "profile",
-      "id": "1154",
-      "label": "Alan Wilson (1154)",
-      "player_id": "p1094"
-    },
-    {
-      "type": "profile",
       "id": "1310",
       "label": "Alex Lux (1310)",
       "player_id": "p1057"
@@ -1882,6 +1907,12 @@
       "id": "1332",
       "label": "Alice Fuller (1332)",
       "player_id": "p1332"
+    },
+    {
+      "type": "profile",
+      "id": "1025",
+      "label": "Alina Habba (1025)",
+      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -1948,12 +1979,6 @@
       "id": "1040",
       "label": "Arsene Kaviori (1040)",
       "player_id": "p1040"
-    },
-    {
-      "type": "profile",
-      "id": "1202",
-      "label": "Ashley Hinson (1202)",
-      "player_id": "p1094"
     },
     {
       "type": "profile",
@@ -2227,6 +2252,12 @@
     },
     {
       "type": "profile",
+      "id": "1359",
+      "label": "Chuck Bartowski (1359)",
+      "player_id": "p1359"
+    },
+    {
+      "type": "profile",
       "id": "1280",
       "label": "Chuck Hassebrook (1280)",
       "player_id": "p1028"
@@ -2359,8 +2390,8 @@
     },
     {
       "type": "profile",
-      "id": "1025",
-      "label": "Donald Trump (1025)",
+      "id": "1033",
+      "label": "Donald Trump (1033)",
       "player_id": "p1025"
     },
     {
@@ -2368,6 +2399,12 @@
       "id": "1220",
       "label": "Donald Trump Jr. (1220)",
       "player_id": "p1062"
+    },
+    {
+      "type": "profile",
+      "id": "1361",
+      "label": "Doroteusz Sawicki (1361)",
+      "player_id": "p1359"
     },
     {
       "type": "profile",
@@ -2425,6 +2462,12 @@
     },
     {
       "type": "profile",
+      "id": "1236",
+      "label": "Elijah Hewson (1236)",
+      "player_id": "p1026"
+    },
+    {
+      "type": "profile",
       "id": "1333",
       "label": "Elisworth Ashford (1333)",
       "player_id": "p1333"
@@ -2446,6 +2489,12 @@
       "id": "1103",
       "label": "Elliott Witt (1103)",
       "player_id": "p1103"
+    },
+    {
+      "type": "profile",
+      "id": "1154",
+      "label": "Elon Musk (1154)",
+      "player_id": "p1094"
     },
     {
       "type": "profile",
@@ -2510,7 +2559,7 @@
     {
       "type": "profile",
       "id": "1006",
-      "label": "Faruk Pasic (1006)",
+      "label": "Faruk Pašić (1006)",
       "player_id": "p1006"
     },
     {
@@ -2641,12 +2690,6 @@
     },
     {
       "type": "profile",
-      "id": "1196",
-      "label": "Greg Abbott (1196)",
-      "player_id": "p1059"
-    },
-    {
-      "type": "profile",
       "id": "1250",
       "label": "Greta Thumberg (1250)",
       "player_id": "p1006"
@@ -2707,6 +2750,12 @@
     },
     {
       "type": "profile",
+      "id": "1362",
+      "label": "Huddson (1362)",
+      "player_id": "p1362"
+    },
+    {
+      "type": "profile",
       "id": "1268",
       "label": "Huey Long (1268)",
       "player_id": "p1029"
@@ -2755,9 +2804,9 @@
     },
     {
       "type": "profile",
-      "id": "1080",
-      "label": "James T. Fishback (1080)",
-      "player_id": "p1062"
+      "id": "1360",
+      "label": "Jakub Kostiuczuk (1360)",
+      "player_id": "p1359"
     },
     {
       "type": "profile",
@@ -2899,6 +2948,12 @@
     },
     {
       "type": "profile",
+      "id": "8",
+      "label": "John Paul Stevens (8)",
+      "player_id": "p8"
+    },
+    {
+      "type": "profile",
       "id": "1233",
       "label": "John Smith (1233)",
       "player_id": "p1131"
@@ -2935,8 +2990,8 @@
     },
     {
       "type": "profile",
-      "id": "1062",
-      "label": "Joseph Washington (1062)",
+      "id": "1080",
+      "label": "Joseph Washington (1080)",
       "player_id": "p1062"
     },
     {
@@ -2992,6 +3047,12 @@
       "id": "1179",
       "label": "Karina Kaviori (1179)",
       "player_id": "p1169"
+    },
+    {
+      "type": "profile",
+      "id": "1202",
+      "label": "Karoline Leavitt (1202)",
+      "player_id": "p1094"
     },
     {
       "type": "profile",
@@ -3058,12 +3119,6 @@
       "id": "1115",
       "label": "Kristin Jack (1115)",
       "player_id": "p1115"
-    },
-    {
-      "type": "profile",
-      "id": "1236",
-      "label": "Kurt Cobain (1236)",
-      "player_id": "p1026"
     },
     {
       "type": "profile",
@@ -3193,9 +3248,9 @@
     },
     {
       "type": "profile",
-      "id": "1033",
-      "label": "Marco Rubio (1033)",
-      "player_id": "p1025"
+      "id": "1062",
+      "label": "Marco Rubio (1062)",
+      "player_id": "p1062"
     },
     {
       "type": "profile",
@@ -3229,6 +3284,12 @@
     },
     {
       "type": "profile",
+      "id": "1094",
+      "label": "Markwayne Mullin (1094)",
+      "player_id": "p1094"
+    },
+    {
+      "type": "profile",
       "id": "1195",
       "label": "Marsha Blackburn (1195)",
       "player_id": "p1093"
@@ -3256,6 +3317,12 @@
       "id": "1101",
       "label": "Matthew Stafford (1101)",
       "player_id": "p1100"
+    },
+    {
+      "type": "profile",
+      "id": "1209",
+      "label": "Melania Trump (1209)",
+      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -3433,12 +3500,6 @@
     },
     {
       "type": "profile",
-      "id": "1094",
-      "label": "Pat Buchanan (1094)",
-      "player_id": "p1094"
-    },
-    {
-      "type": "profile",
       "id": "1121",
       "label": "Pat Riot (1121)",
       "player_id": "p1121"
@@ -3469,9 +3530,9 @@
     },
     {
       "type": "profile",
-      "id": "1209",
-      "label": "Pete Hegseth (1209)",
-      "player_id": "p1025"
+      "id": "1196",
+      "label": "Pete Hegseth (1196)",
+      "player_id": "p1059"
     },
     {
       "type": "profile",
@@ -8117,9 +8178,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/121121527075700737/2aaea451f5f879d58d408d05ea037249.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1259",
@@ -8158,9 +8221,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": ".vielle",
       "discord_current": true,
@@ -8397,9 +8460,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/241007781858115584/aa11127a489d6be2fab70b74bb24cd9b.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1348",
@@ -8530,9 +8595,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "1gman4evr",
       "discord_current": true,
@@ -9038,9 +9103,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -9066,9 +9133,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "1milliondollarman",
       "discord_current": true,
@@ -9167,9 +9234,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/321306009807093760/f32a80abc05f0d3362a8715059585756.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1054",
@@ -9180,9 +9249,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/321306009807093760/f32a80abc05f0d3362a8715059585756.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1290",
@@ -9193,9 +9264,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/321306009807093760/f32a80abc05f0d3362a8715059585756.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -10041,9 +10114,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 3,
+        "office_count": 3,
+        "has_office": true
       },
       "discord": "_deviloftherhine",
       "discord_current": true,
@@ -11705,9 +11778,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/192748374317989898/632aba7f2814eaa5f9b2e5e2eba2238b.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1076",
@@ -11718,9 +11793,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/192748374317989898/632aba7f2814eaa5f9b2e5e2eba2238b.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1214",
@@ -11731,9 +11808,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/192748374317989898/632aba7f2814eaa5f9b2e5e2eba2238b.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -12423,9 +12502,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 3,
+        "office_count": 3,
+        "has_office": true
       },
       "discord": "_mandoge",
       "discord_current": true,
@@ -14229,9 +14308,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/562155693528842251/e46e2cc5a65e09a040b6ce304e8abf05.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1191",
@@ -14283,9 +14364,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "alikhan.55",
       "discord_current": true,
@@ -14479,9 +14560,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a4707adc99dc25c8d1b6d3e5f6c38465.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1334",
@@ -14505,9 +14588,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a4707adc99dc25c8d1b6d3e5f6c38465.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -14533,9 +14618,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "americantraditionalist",
       "discord_current": true,
@@ -14755,9 +14840,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/565289871799746593/a_34f471df74e5d7b7fc073738df47efbd.gif",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -14783,9 +14870,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "ariane_ye0ng",
       "discord_current": true,
@@ -14966,7 +15053,7 @@
         "discord_ids": [
           "1332798783658131476"
         ],
-        "party": "ind",
+        "party": "independent",
         "state": "Louisiana",
         "chambers": [
           "House",
@@ -14977,7 +15064,7 @@
           {
             "profile_id": "1053",
             "name": "Austin Vicknair",
-            "party": "ind",
+            "party": "independent",
             "state": "Louisiana",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1332798783658131476/da3646e5c05e12ea418bc920a780f4fc.webp",
@@ -14990,7 +15077,7 @@
           {
             "profile_id": "1060",
             "name": "Charlie Kirk",
-            "party": "ind",
+            "party": "independent",
             "state": "Florida",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1332798783658131476/da3646e5c05e12ea418bc920a780f4fc.webp",
@@ -15003,15 +15090,17 @@
           {
             "profile_id": "1201",
             "name": "Tucker Carlson",
-            "party": "ind",
+            "party": "independent",
             "state": "Mississippi",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/1332798783658131476/da3646e5c05e12ea418bc920a780f4fc.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -15077,9 +15166,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "austin.vicknair",
       "discord_current": true,
@@ -15099,7 +15188,7 @@
         {
           "profile_id": "1053",
           "name": "Austin Vicknair",
-          "party": "ind",
+          "party": "Independent",
           "state": "Louisiana",
           "is_main": true,
           "on_site": true
@@ -15107,7 +15196,7 @@
         {
           "profile_id": "1060",
           "name": "Charlie Kirk",
-          "party": "ind",
+          "party": "Independent",
           "state": "Florida",
           "is_main": false,
           "on_site": true
@@ -15115,7 +15204,7 @@
         {
           "profile_id": "1201",
           "name": "Tucker Carlson",
-          "party": "ind",
+          "party": "Independent",
           "state": "Mississippi",
           "is_main": false,
           "on_site": true
@@ -15803,9 +15892,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/273439516784721920/ec08cf141ad3175ae41fa4b795c58295.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1135",
@@ -15857,9 +15948,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "berrystrong",
       "discord_current": true,
@@ -16096,9 +16187,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/891283902365331466/e8ee6482d33aed91083067fa3c0b2d48.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1037",
@@ -16109,9 +16202,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/891283902365331466/e8ee6482d33aed91083067fa3c0b2d48.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1278",
@@ -16150,9 +16245,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "beyoncies",
       "discord_current": true,
@@ -16464,9 +16559,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/734084874251665518/8b97e058862712bca615ec8794ea12c5.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1031",
@@ -16477,9 +16574,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/734084874251665518/8b97e058862712bca615ec8794ea12c5.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1352",
@@ -16844,9 +16943,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "bigggumper",
       "discord_current": true,
@@ -17724,9 +17823,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/784610291768885278/92d1aa3563111eb0771fa140ba51f8eb.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -17752,9 +17853,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "bobs3674",
       "discord_current": true,
@@ -17924,7 +18025,7 @@
       "conservative_scorecard": {
         "user_id": "p1006",
         "player_id": "p1006",
-        "name": "Faruk Pasic",
+        "name": "Faruk Pašić",
         "discord": "bosnia1399",
         "discord_ids": [
           "1518779462941147268"
@@ -17940,7 +18041,7 @@
         "profiles": [
           {
             "profile_id": "1006",
-            "name": "Faruk Pasic",
+            "name": "Faruk Pašić",
             "party": "grn",
             "state": "Maine",
             "chamber": "Other",
@@ -17960,9 +18061,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1518779462941147268/348164283032d52de38b51abeb814ffa.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1250",
@@ -17973,9 +18076,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1518779462941147268/348164283032d52de38b51abeb814ffa.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -18067,9 +18172,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "bosnia1399",
       "discord_current": true,
@@ -18079,7 +18184,7 @@
       "discord_ids": [
         "1518779462941147268"
       ],
-      "name": "Faruk Pasic",
+      "name": "Faruk Pašić",
       "profile_ids": [
         "1006",
         "1015",
@@ -18088,7 +18193,7 @@
       "profiles": [
         {
           "profile_id": "1006",
-          "name": "Faruk Pasic",
+          "name": "Faruk Pašić",
           "party": "grn",
           "state": "Maine",
           "is_main": true,
@@ -18636,9 +18741,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/887481623203950693/4ee38cb757401bccea5b556fa7765d7a.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1181",
@@ -18690,9 +18797,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "brandonhh02",
       "discord_current": true,
@@ -19119,9 +19226,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1456055534909259928/aca87a298e1b0eeb72d64c88a8615dc0.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1098",
@@ -19132,9 +19241,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1456055534909259928/aca87a298e1b0eeb72d64c88a8615dc0.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1303",
@@ -19145,9 +19256,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1456055534909259928/aca87a298e1b0eeb72d64c88a8615dc0.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -19694,9 +19807,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 3,
+        "office_count": 3,
+        "has_office": true
       },
       "discord": "chase043976",
       "discord_current": true,
@@ -21192,9 +21305,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1358235586842067004/d76be7fff49db90d3aaed78816691dab.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1247",
@@ -21205,9 +21320,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1358235586842067004/d76be7fff49db90d3aaed78816691dab.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -21507,9 +21624,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "classicalmerrin",
       "discord_current": true,
@@ -22436,9 +22553,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1292883592904446033/52746d0c1b3705f326e812bbc72d0b0e.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1085",
@@ -22449,9 +22568,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1292883592904446033/52746d0c1b3705f326e812bbc72d0b0e.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1343",
@@ -22462,9 +22583,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1292883592904446033/52746d0c1b3705f326e812bbc72d0b0e.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -23245,9 +23368,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 3,
+        "office_count": 3,
+        "has_office": true
       },
       "discord": "coletrain.2026",
       "discord_current": true,
@@ -24999,9 +25122,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1014854147268423761/75317c0cf7e76f54dfd720642b1aac6c.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1153",
@@ -25012,9 +25137,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1014854147268423761/75317c0cf7e76f54dfd720642b1aac6c.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -25223,9 +25350,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "collins035",
       "discord_current": true,
@@ -25618,9 +25745,11 @@
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1035",
@@ -25631,9 +25760,11 @@
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1258",
@@ -26479,9 +26610,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "cw872",
       "discord_current": true,
@@ -28132,9 +28263,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/338853029946327040/9c1c98dd2590f0177806033e26341165.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1302",
@@ -28369,9 +28502,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "d.burgess",
       "discord_current": true,
@@ -28969,7 +29102,7 @@
             "state": "Texas",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-            "is_main": true,
+            "is_main": false,
             "on_site": true,
             "offices": [],
             "office": "",
@@ -29017,7 +29150,7 @@
           "name": "Daniel mercer",
           "party": "gop",
           "state": "Texas",
-          "is_main": true,
+          "is_main": false,
           "on_site": true
         }
       ],
@@ -29169,9 +29302,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/722453757513695242/5b2b403bef6b216550b285b5a87f4728.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1208",
@@ -29182,9 +29317,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/722453757513695242/5b2b403bef6b216550b285b5a87f4728.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -29562,9 +29699,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "defaultyboii911",
       "discord_current": true,
@@ -30490,9 +30627,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/797189211488124968/d662fbf945c94fc6f91665b9551e0f5a.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1215",
@@ -30503,9 +30642,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/797189211488124968/d662fbf945c94fc6f91665b9551e0f5a.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -30610,9 +30751,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "doctorsus",
       "discord_current": true,
@@ -31317,9 +31458,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/342cd978a26c7668c69d0a1b4f414f77.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -31385,9 +31528,9 @@
           }
         ],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "drone1935",
       "discord_current": true,
@@ -31532,9 +31675,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1170543879519477831/1618552b1906d1218f167724e8567e7d.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -31560,9 +31705,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "ennardenvy",
       "discord_current": true,
@@ -31757,7 +31902,7 @@
         "discord_ids": [
           "150710749260414976"
         ],
-        "party": "ind",
+        "party": "independent",
         "state": "Texas",
         "chambers": [
           "Other"
@@ -31767,7 +31912,7 @@
           {
             "profile_id": "1161",
             "name": "A.C. Tunt",
-            "party": "ind",
+            "party": "independent",
             "state": "Texas",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/150710749260414976/66882e5b3a33221baed5cb2e2ca983fd.webp",
@@ -31780,7 +31925,7 @@
           {
             "profile_id": "1162",
             "name": "Lucius Vanderbilt",
-            "party": "ind",
+            "party": "independent",
             "state": "Texas",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/150710749260414976/66882e5b3a33221baed5cb2e2ca983fd.webp",
@@ -31793,7 +31938,7 @@
           {
             "profile_id": "1264",
             "name": "Thomas Meer",
-            "party": "ind",
+            "party": "independent",
             "state": "Texas",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/150710749260414976/66882e5b3a33221baed5cb2e2ca983fd.webp",
@@ -31849,7 +31994,7 @@
         {
           "profile_id": "1161",
           "name": "A.C. Tunt",
-          "party": "ind",
+          "party": "Independent",
           "state": "Texas",
           "is_main": true,
           "on_site": true
@@ -31857,7 +32002,7 @@
         {
           "profile_id": "1162",
           "name": "Lucius Vanderbilt",
-          "party": "ind",
+          "party": "Independent",
           "state": "Texas",
           "is_main": false,
           "on_site": true
@@ -31865,7 +32010,7 @@
         {
           "profile_id": "1264",
           "name": "Thomas Meer",
-          "party": "ind",
+          "party": "Independent",
           "state": "Texas",
           "is_main": false,
           "on_site": true
@@ -31916,9 +32061,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1065",
@@ -31929,13 +32076,15 @@
             "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1196",
-            "name": "Greg Abbott",
+            "name": "Pete Hegseth",
             "party": "gop",
             "state": "Texas",
             "chamber": "Other",
@@ -32699,9 +32848,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "founderofurp2.0",
       "discord_current": true,
@@ -32736,7 +32885,7 @@
         },
         {
           "profile_id": "1196",
-          "name": "Greg Abbott",
+          "name": "Pete Hegseth",
           "party": "gop",
           "state": "Texas",
           "is_main": false,
@@ -34224,9 +34373,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1068285752112336896/2fc6402c02ab075f1a4e75493aa1a61c.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -34292,9 +34443,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "fruity.patootie",
       "discord_current": true,
@@ -34711,9 +34862,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1423128244516945991/e9780c5d137d9353fbcca5e4f0c28a39.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1047",
@@ -34724,9 +34877,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1423128244516945991/e9780c5d137d9353fbcca5e4f0c28a39.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1213",
@@ -35702,9 +35857,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "fufulabu",
       "discord_current": true,
@@ -37521,7 +37676,7 @@
             "profile_id": "1268",
             "name": "Huey Long",
             "party": "grn",
-            "state": "Louisiana",
+            "state": "West Virginia",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/994793965259858013/e4e579f805af3295f0dc4cc65f28d59b.webp",
             "is_main": false,
@@ -37593,7 +37748,7 @@
           "profile_id": "1268",
           "name": "Huey Long",
           "party": "grn",
-          "state": "Louisiana",
+          "state": "West Virginia",
           "is_main": false,
           "on_site": true
         }
@@ -37642,9 +37797,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/398403582606442497/525cc5e180b22a994d0fac6c90be56b5.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1120",
@@ -37696,9 +37853,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "galaxydoge420",
       "discord_current": true,
@@ -38089,9 +38246,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/336304476241788928/2d56a6a51624ce9d1a2feb3252016a1a.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1206",
@@ -38102,9 +38261,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/336304476241788928/2d56a6a51624ce9d1a2feb3252016a1a.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -38339,9 +38500,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "gion915",
       "discord_current": true,
@@ -38831,9 +38992,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/297561809278337035/d69e06c1eee61cf79829985f855152fe.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1279",
@@ -38844,9 +39007,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/297561809278337035/d69e06c1eee61cf79829985f855152fe.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -39133,9 +39298,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "goodvibejay",
       "discord_current": true,
@@ -39808,9 +39973,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1561582020251885571/2c90385e4dd9571c550bdfe8ad174463.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1178",
@@ -39821,9 +39988,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1561582020251885571/2c90385e4dd9571c550bdfe8ad174463.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1204",
@@ -40565,9 +40734,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "grandgeist56",
       "discord_current": true,
@@ -42037,7 +42206,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1515453411015917722/355f915d050a3052141f9b755c3a0aa6.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1515453411015917722/4342063673d303ad73453cb60ee2fbd1.webp",
         "profiles": [
           {
             "profile_id": "1344",
@@ -42045,7 +42214,7 @@
             "party": "dem",
             "state": "Michigan",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1515453411015917722/355f915d050a3052141f9b755c3a0aa6.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1515453411015917722/4342063673d303ad73453cb60ee2fbd1.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -42058,7 +42227,7 @@
             "party": "dem",
             "state": "Oklahoma",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1515453411015917722/355f915d050a3052141f9b755c3a0aa6.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1515453411015917722/4342063673d303ad73453cb60ee2fbd1.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -42071,7 +42240,7 @@
             "party": "dem",
             "state": "New York",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1515453411015917722/355f915d050a3052141f9b755c3a0aa6.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1515453411015917722/4342063673d303ad73453cb60ee2fbd1.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -42203,9 +42372,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/636708961956921354/a_33fef2d33ebcc95db526e0c55cc25fdd.gif",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1218",
@@ -42216,9 +42387,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/636708961956921354/a_33fef2d33ebcc95db526e0c55cc25fdd.gif",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -42531,9 +42704,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "hawaji17",
       "discord_current": true,
@@ -43143,7 +43316,7 @@
         "discord_ids": [
           "1274754200466624618"
         ],
-        "party": "ind",
+        "party": "independent",
         "state": "Kansas",
         "chambers": [
           "House",
@@ -43155,20 +43328,22 @@
           {
             "profile_id": "1295",
             "name": "Abraham B. J. Freeman",
-            "party": "ind",
+            "party": "independent",
             "state": "Kansas",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/1274754200466624618/b0db571d074c5504e3b55bf9bb190050.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1297",
             "name": "Lex Luthor",
-            "party": "ind",
+            "party": "independent",
             "state": "Kansas",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1274754200466624618/b0db571d074c5504e3b55bf9bb190050.webp",
@@ -43181,15 +43356,17 @@
           {
             "profile_id": "1301",
             "name": "Dr. Ivo Robotnik",
-            "party": "ind",
+            "party": "independent",
             "state": "West Virginia",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/1274754200466624618/b0db571d074c5504e3b55bf9bb190050.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -43294,9 +43471,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "heybumbumbumgotanygrapes",
       "discord_current": true,
@@ -43316,7 +43493,7 @@
         {
           "profile_id": "1295",
           "name": "Abraham B. J. Freeman",
-          "party": "ind",
+          "party": "Independent",
           "state": "Kansas",
           "is_main": true,
           "on_site": true
@@ -43324,7 +43501,7 @@
         {
           "profile_id": "1297",
           "name": "Lex Luthor",
-          "party": "ind",
+          "party": "Independent",
           "state": "Kansas",
           "is_main": false,
           "on_site": true
@@ -43332,7 +43509,7 @@
         {
           "profile_id": "1301",
           "name": "Dr. Ivo Robotnik",
-          "party": "ind",
+          "party": "Independent",
           "state": "West Virginia",
           "is_main": false,
           "on_site": true
@@ -43777,6 +43954,97 @@
       ]
     },
     {
+      "player_id": "p1362",
+      "conservative_scorecard": {
+        "user_id": "p1362",
+        "player_id": "p1362",
+        "name": "Huddson",
+        "discord": "",
+        "discord_ids": [],
+        "party": "gop",
+        "state": "Louisiana",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1362",
+            "name": "Huddson",
+            "party": "gop",
+            "state": "Louisiana",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Huddson",
+      "profile_ids": [
+        "1362"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1362",
+          "name": "Huddson",
+          "party": "gop",
+          "state": "Louisiana",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1273",
       "conservative_scorecard": {
         "user_id": "p1273",
@@ -43957,9 +44225,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1384943134072504380/f41f33e842b7d1c06523f95ea3f98522.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -44194,9 +44464,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "idkboy67",
       "discord_current": true,
@@ -44708,9 +44978,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/637807494764429332/d85e02113b2e0d1ef5d0e31b61eba06d.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1096",
@@ -44721,9 +44993,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/637807494764429332/d85e02113b2e0d1ef5d0e31b61eba06d.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1221",
@@ -44734,9 +45008,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/637807494764429332/d85e02113b2e0d1ef5d0e31b61eba06d.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -45634,9 +45910,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 3,
+        "office_count": 3,
+        "has_office": true
       },
       "discord": "insane686",
       "discord_current": true,
@@ -47748,9 +48024,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/966709449081360494/cd615d88dedfdcb723cf518686211ee8.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1307",
@@ -48024,9 +48302,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "internetanyahu",
       "discord_current": true,
@@ -48844,7 +49122,7 @@
       "conservative_scorecard": {
         "user_id": "p1062",
         "player_id": "p1062",
-        "name": "Joseph Washington",
+        "name": "Marco Rubio",
         "discord": "jackhammerjt",
         "discord_ids": [
           "859651042203402250"
@@ -48855,28 +49133,30 @@
           "House",
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_44ba0eaea09917409101a8167698a40e.gif",
+        "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
         "profiles": [
           {
             "profile_id": "1062",
-            "name": "Joseph Washington",
+            "name": "Marco Rubio",
             "party": "gop",
             "state": "North Carolina",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_44ba0eaea09917409101a8167698a40e.gif",
+            "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1080",
-            "name": "James T. Fishback",
+            "name": "Joseph Washington",
             "party": "gop",
             "state": "Florida",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_44ba0eaea09917409101a8167698a40e.gif",
+            "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -48889,7 +49169,7 @@
             "party": "gop",
             "state": "Nevada",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_44ba0eaea09917409101a8167698a40e.gif",
+            "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -48929,7 +49209,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1062",
-            "profile_name": "Joseph Washington",
+            "profile_name": "Marco Rubio",
             "chamber": "Senate"
           },
           {
@@ -48942,7 +49222,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1062",
-            "profile_name": "Joseph Washington",
+            "profile_name": "Marco Rubio",
             "chamber": "House"
           },
           {
@@ -48955,7 +49235,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1062",
-            "profile_name": "Joseph Washington",
+            "profile_name": "Marco Rubio",
             "chamber": "House"
           },
           {
@@ -48968,14 +49248,14 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1062",
-            "profile_name": "Joseph Washington",
+            "profile_name": "Marco Rubio",
             "chamber": "House"
           }
         ],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "jackhammerjt",
       "discord_current": true,
@@ -48985,7 +49265,7 @@
       "discord_ids": [
         "859651042203402250"
       ],
-      "name": "Joseph Washington",
+      "name": "Marco Rubio",
       "profile_ids": [
         "1062",
         "1080",
@@ -48994,7 +49274,7 @@
       "profiles": [
         {
           "profile_id": "1062",
-          "name": "Joseph Washington",
+          "name": "Marco Rubio",
           "party": "gop",
           "state": "North Carolina",
           "is_main": true,
@@ -49002,7 +49282,7 @@
         },
         {
           "profile_id": "1080",
-          "name": "James T. Fishback",
+          "name": "Joseph Washington",
           "party": "gop",
           "state": "Florida",
           "is_main": false,
@@ -49562,9 +49842,11 @@
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -49590,9 +49872,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "",
       "discord_current": false,
@@ -49655,7 +49937,7 @@
         "discord_ids": [
           "1550268928704385105"
         ],
-        "party": "ind",
+        "party": "independent",
         "state": "Tennessee",
         "chambers": [
           "House",
@@ -49667,33 +49949,37 @@
           {
             "profile_id": "1093",
             "name": "Joseph Brosnahan",
-            "party": "ind",
+            "party": "independent",
             "state": "Tennessee",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/1550268928704385105/0df653636d93d7592c184d1af22a36fd.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1195",
             "name": "Marsha Blackburn",
-            "party": "ind",
+            "party": "independent",
             "state": "Tennessee",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/1550268928704385105/0df653636d93d7592c184d1af22a36fd.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1197",
             "name": "Loretta Lynn",
-            "party": "ind",
+            "party": "independent",
             "state": "Tennessee",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1550268928704385105/0df653636d93d7592c184d1af22a36fd.webp",
@@ -50170,9 +50456,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "joebee2002",
       "discord_current": true,
@@ -50192,7 +50478,7 @@
         {
           "profile_id": "1093",
           "name": "Joseph Brosnahan",
-          "party": "ind",
+          "party": "Independent",
           "state": "Tennessee",
           "is_main": true,
           "on_site": true
@@ -50200,7 +50486,7 @@
         {
           "profile_id": "1195",
           "name": "Marsha Blackburn",
-          "party": "ind",
+          "party": "Independent",
           "state": "Tennessee",
           "is_main": false,
           "on_site": true
@@ -50208,7 +50494,7 @@
         {
           "profile_id": "1197",
           "name": "Loretta Lynn",
-          "party": "ind",
+          "party": "Independent",
           "state": "Tennessee",
           "is_main": false,
           "on_site": true
@@ -51020,7 +51306,7 @@
         "name": "John G. Roberts, Jr.",
         "discord": "",
         "discord_ids": [],
-        "party": "ind",
+        "party": "independent",
         "state": "New York",
         "chambers": [
           "Other"
@@ -51030,7 +51316,7 @@
           {
             "profile_id": "1329",
             "name": "John G. Roberts, Jr.",
-            "party": "ind",
+            "party": "independent",
             "state": "New York",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -51080,8 +51366,99 @@
         {
           "profile_id": "1329",
           "name": "John G. Roberts, Jr.",
-          "party": "ind",
+          "party": "Independent",
           "state": "New York",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p8",
+      "conservative_scorecard": {
+        "user_id": "p8",
+        "player_id": "p8",
+        "name": "John Paul Stevens",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "Illinois",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "8",
+            "name": "John Paul Stevens",
+            "party": "dem",
+            "state": "Illinois",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "John Paul Stevens",
+      "profile_ids": [
+        "8"
+      ],
+      "profiles": [
+        {
+          "profile_id": "8",
+          "name": "John Paul Stevens",
+          "party": "dem",
+          "state": "Illinois",
           "is_main": true,
           "on_site": true
         }
@@ -51228,9 +51605,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1173",
@@ -51241,9 +51620,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1235",
@@ -51569,9 +51950,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "jorgwachingmachine",
       "discord_current": true,
@@ -52314,7 +52695,7 @@
         "name": "Joseph Gorski Warszawski",
         "discord": "",
         "discord_ids": [],
-        "party": "ind",
+        "party": "independent",
         "state": "Pennsylvania",
         "chambers": [
           "Other"
@@ -52324,7 +52705,7 @@
           {
             "profile_id": "1192",
             "name": "Joseph Gorski Warszawski",
-            "party": "ind",
+            "party": "independent",
             "state": "Pennsylvania",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -52374,7 +52755,7 @@
         {
           "profile_id": "1192",
           "name": "Joseph Gorski Warszawski",
-          "party": "ind",
+          "party": "Independent",
           "state": "Pennsylvania",
           "is_main": true,
           "on_site": true
@@ -52421,9 +52802,11 @@
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -52684,9 +53067,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "",
       "discord_current": false,
@@ -53729,9 +54112,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/358455235154411521/ddbe6f1d52fa5f2c68117915a9fa9f41.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1151",
@@ -53966,9 +54351,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "karmablaster",
       "discord_current": true,
@@ -54391,9 +54776,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1138196745822666752/a_af968f2946b312b3b0b568d987aec296.gif",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1074",
@@ -54404,9 +54791,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1138196745822666752/a_af968f2946b312b3b0b568d987aec296.gif",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1276",
@@ -54417,9 +54806,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1138196745822666752/a_af968f2946b312b3b0b568d987aec296.gif",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -54563,9 +54954,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 3,
+        "office_count": 3,
+        "has_office": true
       },
       "discord": "kawiorek.",
       "discord_current": true,
@@ -54982,9 +55373,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1260620648179302400/6062db575534ce9b240891d90fc81256.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1042",
@@ -55362,9 +55755,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "kden_24",
       "discord_current": true,
@@ -56253,9 +56646,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1013",
@@ -56555,9 +56950,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "kewtslimnury",
       "discord_current": true,
@@ -57107,9 +57502,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1412134134158987527/f75940f823105fcc0c92c56c72d080f9.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1358",
@@ -57370,9 +57767,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "kmfan91_35425",
       "discord_current": true,
@@ -58249,9 +58646,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/779295918448836628/c385ee0fe2ebf9c53aa10885f9bbaa40.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1281",
@@ -58262,9 +58661,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/779295918448836628/c385ee0fe2ebf9c53aa10885f9bbaa40.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -58473,9 +58874,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "kym47",
       "discord_current": true,
@@ -59011,9 +59412,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/770400492491767839/d794c80a9e5ec5d9aa8308ff22eef4b5.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1227",
@@ -59052,9 +59455,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "laycanrock",
       "discord_current": true,
@@ -59183,9 +59586,11 @@
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1127",
@@ -59196,9 +59601,11 @@
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1231",
@@ -59209,9 +59616,11 @@
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -59264,9 +59673,9 @@
           }
         ],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 3,
+        "office_count": 3,
+        "has_office": true
       },
       "discord": "lazarbanagain",
       "discord_current": true,
@@ -59832,9 +60241,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1554189281751343166/1a6db06dc3291fa3b4a6287e7b48fe42.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1166",
@@ -59845,9 +60256,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1554189281751343166/1a6db06dc3291fa3b4a6287e7b48fe42.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1294",
@@ -60199,9 +60612,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "lil_mama92",
       "discord_current": true,
@@ -61074,7 +61487,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/91f0f9982546bea131e64a7f8316a58a.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/4d25b19e3903080294430be7a5fcca12.webp",
         "profiles": [
           {
             "profile_id": "1026",
@@ -61082,7 +61495,7 @@
             "party": "grn",
             "state": "California",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/91f0f9982546bea131e64a7f8316a58a.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/4d25b19e3903080294430be7a5fcca12.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -61095,7 +61508,7 @@
             "party": "grn",
             "state": "Virginia",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/91f0f9982546bea131e64a7f8316a58a.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/4d25b19e3903080294430be7a5fcca12.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -61104,11 +61517,11 @@
           },
           {
             "profile_id": "1236",
-            "name": "Kurt Cobain",
+            "name": "Elijah Hewson",
             "party": "grn",
             "state": "Ohio",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/91f0f9982546bea131e64a7f8316a58a.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/4d25b19e3903080294430be7a5fcca12.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -61176,7 +61589,7 @@
         },
         {
           "profile_id": "1236",
-          "name": "Kurt Cobain",
+          "name": "Elijah Hewson",
           "party": "grn",
           "state": "Ohio",
           "is_main": false,
@@ -61320,9 +61733,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1470138832044167178/f8bac10afd8032eaf5f8ca9418f0fb51.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1061",
@@ -61333,9 +61748,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1470138832044167178/f8bac10afd8032eaf5f8ca9418f0fb51.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1198",
@@ -61346,9 +61763,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1470138832044167178/f8bac10afd8032eaf5f8ca9418f0fb51.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -61817,9 +62236,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 3,
+        "office_count": 3,
+        "has_office": true
       },
       "discord": "mcal4876",
       "discord_current": true,
@@ -62999,7 +63418,7 @@
         "discord_ids": [
           "135877470137221120"
         ],
-        "party": "ind",
+        "party": "independent",
         "state": "North Dakota",
         "chambers": [
           "Other"
@@ -63009,7 +63428,7 @@
           {
             "profile_id": "1055",
             "name": "Caleb Travinski",
-            "party": "ind",
+            "party": "independent",
             "state": "North Dakota",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
@@ -63022,7 +63441,7 @@
           {
             "profile_id": "1168",
             "name": "Esther Neimann",
-            "party": "ind",
+            "party": "independent",
             "state": "Alaska",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
@@ -63035,7 +63454,7 @@
           {
             "profile_id": "1251",
             "name": "Ruth Buffalo",
-            "party": "ind",
+            "party": "independent",
             "state": "North Dakota",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
@@ -63091,7 +63510,7 @@
         {
           "profile_id": "1055",
           "name": "Caleb Travinski",
-          "party": "ind",
+          "party": "Independent",
           "state": "North Dakota",
           "is_main": true,
           "on_site": true
@@ -63099,7 +63518,7 @@
         {
           "profile_id": "1168",
           "name": "Esther Neimann",
-          "party": "ind",
+          "party": "Independent",
           "state": "Alaska",
           "is_main": false,
           "on_site": true
@@ -63107,7 +63526,7 @@
         {
           "profile_id": "1251",
           "name": "Ruth Buffalo",
-          "party": "ind",
+          "party": "Independent",
           "state": "North Dakota",
           "is_main": false,
           "on_site": true
@@ -63248,9 +63667,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1505609162426683542/f2a78d1b58c63d690cbc26dc17a1820e.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1157",
@@ -63302,9 +63723,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "mr.snail67",
       "discord_current": true,
@@ -63414,12 +63835,12 @@
       "conservative_scorecard": {
         "user_id": "p1094",
         "player_id": "p1094",
-        "name": "Pat Buchanan",
+        "name": "Markwayne Mullin",
         "discord": "musicman130897",
         "discord_ids": [
           "1385738660846112798"
         ],
-        "party": "ind",
+        "party": "independent",
         "state": "Oklahoma",
         "chambers": [
           "Other"
@@ -63428,8 +63849,8 @@
         "profiles": [
           {
             "profile_id": "1094",
-            "name": "Pat Buchanan",
-            "party": "ind",
+            "name": "Markwayne Mullin",
+            "party": "independent",
             "state": "Oklahoma",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/3a28404b0206ca3ae0a1a6a674f3536f.webp",
@@ -63441,9 +63862,9 @@
           },
           {
             "profile_id": "1154",
-            "name": "Alan Wilson",
-            "party": "ind",
-            "state": "South Dakota",
+            "name": "Elon Musk",
+            "party": "independent",
+            "state": "Texas",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/3a28404b0206ca3ae0a1a6a674f3536f.webp",
             "is_main": false,
@@ -63454,8 +63875,8 @@
           },
           {
             "profile_id": "1202",
-            "name": "Ashley Hinson",
-            "party": "ind",
+            "name": "Karoline Leavitt",
+            "party": "independent",
             "state": "Nebraska",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/3a28404b0206ca3ae0a1a6a674f3536f.webp",
@@ -63501,7 +63922,7 @@
       "discord_ids": [
         "1385738660846112798"
       ],
-      "name": "Pat Buchanan",
+      "name": "Markwayne Mullin",
       "profile_ids": [
         "1094",
         "1154",
@@ -63510,24 +63931,24 @@
       "profiles": [
         {
           "profile_id": "1094",
-          "name": "Pat Buchanan",
-          "party": "ind",
+          "name": "Markwayne Mullin",
+          "party": "Independent",
           "state": "Oklahoma",
           "is_main": true,
           "on_site": true
         },
         {
           "profile_id": "1154",
-          "name": "Alan Wilson",
-          "party": "ind",
-          "state": "South Dakota",
+          "name": "Elon Musk",
+          "party": "Independent",
+          "state": "Texas",
           "is_main": false,
           "on_site": true
         },
         {
           "profile_id": "1202",
-          "name": "Ashley Hinson",
-          "party": "ind",
+          "name": "Karoline Leavitt",
+          "party": "Independent",
           "state": "Nebraska",
           "is_main": false,
           "on_site": true
@@ -63860,9 +64281,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/672611802118619142/1f6808aa46300cc9a4af2413ce1d5039.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1048",
@@ -63886,9 +64309,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/672611802118619142/1f6808aa46300cc9a4af2413ce1d5039.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -64279,9 +64704,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "nevonomical",
       "discord_current": true,
@@ -65107,9 +65532,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1183559034259910702/a_0e16fe358ffa2163e762ce045e98dd26.gif",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1229",
@@ -65435,9 +65862,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "nolapadola",
       "discord_current": true,
@@ -66140,9 +66567,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1475172188398288917/248b29aea0f21d72f1f0663b3bc61e44.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1158",
@@ -66166,9 +66595,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1475172188398288917/248b29aea0f21d72f1f0663b3bc61e44.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -66598,9 +67029,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "orangejuice789",
       "discord_current": true,
@@ -67207,16 +67638,14 @@
         "user_id": "p1311",
         "player_id": "p1311",
         "name": "Michael Foster",
-        "discord": "pablovg8",
-        "discord_ids": [
-          "569498155784339458"
-        ],
+        "discord": "",
+        "discord_ids": [],
         "party": "gop",
         "state": "Ohio",
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/569498155784339458/f77a4a6fcde38643ff25d1280810583e.webp",
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
         "profiles": [
           {
             "profile_id": "1311",
@@ -67224,7 +67653,7 @@
             "party": "gop",
             "state": "Ohio",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/569498155784339458/f77a4a6fcde38643ff25d1280810583e.webp",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -67237,7 +67666,7 @@
             "party": "gop",
             "state": "Arkansas",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/569498155784339458/f77a4a6fcde38643ff25d1280810583e.webp",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -67250,7 +67679,7 @@
             "party": "gop",
             "state": "Hawaii",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/569498155784339458/f77a4a6fcde38643ff25d1280810583e.webp",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -67286,7 +67715,7 @@
         "has_office": false
       },
       "discord": "pablovg8",
-      "discord_current": true,
+      "discord_current": false,
       "discord_aliases": [
         "pablovg8"
       ],
@@ -67370,9 +67799,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1513708239923974197/ffd8224175612d695c7e2aaf4f3f2c12.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1022",
@@ -67383,9 +67814,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1513708239923974197/ffd8224175612d695c7e2aaf4f3f2c12.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1205",
@@ -68218,9 +68651,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "parzival.121",
       "discord_current": true,
@@ -69848,9 +70281,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1203553315263221847/b60fa9136d037c44fb4be3660599c5ae.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -69916,9 +70351,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "phoenixflamesong",
       "discord_current": true,
@@ -70505,7 +70940,7 @@
           "1303893674417193052"
         ],
         "party": "dem",
-        "state": "Delaware",
+        "state": "Puerto Rico",
         "chambers": [
           "Other"
         ],
@@ -70515,7 +70950,7 @@
             "profile_id": "1188",
             "name": "Claire H Underwood",
             "party": "dem",
-            "state": "Delaware",
+            "state": "Puerto Rico",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
             "is_main": true,
@@ -70597,7 +71032,7 @@
           "profile_id": "1188",
           "name": "Claire H Underwood",
           "party": "dem",
-          "state": "Delaware",
+          "state": "Puerto Rico",
           "is_main": true,
           "on_site": true
         },
@@ -70782,9 +71217,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/418130098881953802/ed5e542f1f585edd28023ab6fc3e50e8.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1328",
@@ -70795,9 +71232,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/418130098881953802/ed5e542f1f585edd28023ab6fc3e50e8.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -70823,9 +71262,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "realpalpatine",
       "discord_current": true,
@@ -70955,9 +71394,11 @@
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1267",
@@ -71348,9 +71789,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "roginality",
       "discord_current": true,
@@ -71971,9 +72412,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1175438560984305697/8a8b1ec77faad52a72e71ea88672a219.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1164",
@@ -72195,9 +72638,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "ron210p",
       "discord_current": true,
@@ -72779,9 +73222,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/c6a1a78bee217620d667ff5460f85e30.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -72860,9 +73305,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "saturnaliacivilis",
       "discord_current": true,
@@ -73043,9 +73488,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1210380102802604063/a_6e9e8b740b50b7468c1e8826cee201af.gif",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1257",
@@ -73084,9 +73531,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "sevenfoldavenged",
       "discord_current": true,
@@ -73218,9 +73665,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1440155160243474626/d74fcd000e9083aff48b31d93328e8ea.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1323",
@@ -73231,9 +73680,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1440155160243474626/d74fcd000e9083aff48b31d93328e8ea.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1324",
@@ -73244,9 +73695,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1440155160243474626/d74fcd000e9083aff48b31d93328e8ea.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -73312,9 +73765,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 3,
+        "office_count": 3,
+        "has_office": true
       },
       "discord": "shadowmocker",
       "discord_current": true,
@@ -74149,9 +74602,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/6f99beb538be66713e5daa44665915eb.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1211",
@@ -74334,9 +74789,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "simariusv",
       "discord_current": true,
@@ -74721,9 +75176,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/191284688382459904/df69bcc0069dcd26ee9c0add7388d455.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1248",
@@ -74762,9 +75219,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "smapiaverageninja",
       "discord_current": true,
@@ -74956,9 +75413,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/471481474735144960/ec4baf1f1dd9bfe0d9b5d45a65c370e0.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1052",
@@ -74982,9 +75441,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/471481474735144960/ec4baf1f1dd9bfe0d9b5d45a65c370e0.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -75010,9 +75471,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "sobieski9882",
       "discord_current": true,
@@ -75390,9 +75851,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/290307337514778625/06121027e8e08e1273acd7237f7c9144.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1111",
@@ -75416,9 +75879,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/290307337514778625/06121027e8e08e1273acd7237f7c9144.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -75718,9 +76183,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "therealmakaveli",
       "discord_current": true,
@@ -76679,7 +77144,7 @@
       "conservative_scorecard": {
         "user_id": "p1025",
         "player_id": "p1025",
-        "name": "Donald Trump",
+        "name": "Alina Habba",
         "discord": "trumpquest",
         "discord_ids": [
           "961355935496953956"
@@ -76694,42 +77159,48 @@
         "profiles": [
           {
             "profile_id": "1025",
-            "name": "Donald Trump",
+            "name": "Alina Habba",
             "party": "gop",
             "state": "Florida",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1033",
-            "name": "Marco Rubio",
+            "name": "Donald Trump",
             "party": "gop",
             "state": "Florida",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1209",
-            "name": "Pete Hegseth",
+            "name": "Melania Trump",
             "party": "gop",
-            "state": "Nevada",
+            "state": "Nebraska",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -76764,7 +77235,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -76777,7 +77248,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -76790,7 +77261,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Marco Rubio",
+            "profile_name": "Donald Trump",
             "chamber": "Senate"
           },
           {
@@ -76803,7 +77274,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -76816,7 +77287,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Marco Rubio",
+            "profile_name": "Donald Trump",
             "chamber": "Senate"
           },
           {
@@ -76829,7 +77300,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -76842,7 +77313,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Marco Rubio",
+            "profile_name": "Donald Trump",
             "chamber": "Senate"
           },
           {
@@ -76855,7 +77326,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -76868,7 +77339,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -76881,7 +77352,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -76894,7 +77365,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Marco Rubio",
+            "profile_name": "Donald Trump",
             "chamber": "Senate"
           },
           {
@@ -76907,7 +77378,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Marco Rubio",
+            "profile_name": "Donald Trump",
             "chamber": "Senate"
           },
           {
@@ -76920,7 +77391,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Marco Rubio",
+            "profile_name": "Donald Trump",
             "chamber": "Senate"
           },
           {
@@ -76933,7 +77404,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -76946,7 +77417,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -76959,7 +77430,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -76972,7 +77443,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -76985,7 +77456,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -76998,7 +77469,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1033",
-            "profile_name": "Marco Rubio",
+            "profile_name": "Donald Trump",
             "chamber": "Senate"
           },
           {
@@ -77011,7 +77482,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -77024,7 +77495,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -77037,7 +77508,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Marco Rubio",
+            "profile_name": "Donald Trump",
             "chamber": "Senate"
           },
           {
@@ -77050,7 +77521,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Donald Trump",
+            "profile_name": "Alina Habba",
             "chamber": "House"
           },
           {
@@ -77063,7 +77534,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Marco Rubio",
+            "profile_name": "Donald Trump",
             "chamber": "Senate"
           },
           {
@@ -77076,7 +77547,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1033",
-            "profile_name": "Marco Rubio",
+            "profile_name": "Donald Trump",
             "chamber": "Senate"
           },
           {
@@ -77089,14 +77560,14 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Marco Rubio",
+            "profile_name": "Donald Trump",
             "chamber": "Senate"
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 3,
+        "office_count": 3,
+        "has_office": true
       },
       "discord": "trumpquest",
       "discord_current": true,
@@ -77106,7 +77577,7 @@
       "discord_ids": [
         "961355935496953956"
       ],
-      "name": "Donald Trump",
+      "name": "Alina Habba",
       "profile_ids": [
         "1025",
         "1033",
@@ -77115,7 +77586,7 @@
       "profiles": [
         {
           "profile_id": "1025",
-          "name": "Donald Trump",
+          "name": "Alina Habba",
           "party": "gop",
           "state": "Florida",
           "is_main": true,
@@ -77123,7 +77594,7 @@
         },
         {
           "profile_id": "1033",
-          "name": "Marco Rubio",
+          "name": "Donald Trump",
           "party": "gop",
           "state": "Florida",
           "is_main": false,
@@ -77131,9 +77602,9 @@
         },
         {
           "profile_id": "1209",
-          "name": "Pete Hegseth",
+          "name": "Melania Trump",
           "party": "gop",
-          "state": "Nevada",
+          "state": "Nebraska",
           "is_main": false,
           "on_site": true
         }
@@ -78563,9 +79034,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1273992220730589270/e74fea01147b8ed2f842a66a9f7053d3.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1108",
@@ -78576,9 +79049,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1273992220730589270/e74fea01147b8ed2f842a66a9f7053d3.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1203",
@@ -78589,9 +79064,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1273992220730589270/e74fea01147b8ed2f842a66a9f7053d3.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -79580,9 +80057,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 3,
+        "office_count": 3,
+        "has_office": true
       },
       "discord": "trustfundfinance",
       "discord_current": true,
@@ -81605,9 +82082,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1490056689326489650/8478a164fa4638ec0dd7c03d9f701c98.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1109",
@@ -81631,9 +82110,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1490056689326489650/8478a164fa4638ec0dd7c03d9f701c98.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -81907,9 +82388,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "tweamonster_",
       "discord_current": true,
@@ -82517,7 +82998,7 @@
         "name": "Uncle America",
         "discord": "",
         "discord_ids": [],
-        "party": "ind",
+        "party": "independent",
         "state": "Georgia",
         "chambers": [
           "Other"
@@ -82527,7 +83008,7 @@
           {
             "profile_id": "1079",
             "name": "Uncle America",
-            "party": "ind",
+            "party": "independent",
             "state": "Georgia",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -82577,7 +83058,7 @@
         {
           "profile_id": "1079",
           "name": "Uncle America",
-          "party": "ind",
+          "party": "Independent",
           "state": "Georgia",
           "is_main": true,
           "on_site": true
@@ -82865,9 +83346,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/637519499167268865/57667172caf7a280b9339f90846db3bd.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1142",
@@ -82878,9 +83361,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/637519499167268865/57667172caf7a280b9339f90846db3bd.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1223",
@@ -83219,9 +83704,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "veshex",
       "discord_current": true,
@@ -84072,9 +84557,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/316305498557120522/a17166975bc60d3b22ae408e923ef120.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1160",
@@ -84085,9 +84572,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/316305498557120522/a17166975bc60d3b22ae408e923ef120.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -84946,9 +85435,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "vincenzo",
       "discord_current": true,
@@ -86422,9 +86911,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/1307970759959777382/bf521610107d658d2b1e76d6039361d5.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           },
           {
             "profile_id": "1075",
@@ -86476,9 +86967,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "worst_nightmare_of_j.d._scholten",
       "discord_current": true,
@@ -86578,9 +87069,11 @@
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1172",
@@ -86591,9 +87084,11 @@
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1249",
@@ -86604,9 +87099,11 @@
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -86971,9 +87468,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 3,
+        "office_count": 3,
+        "has_office": true
       },
       "discord": "wout_3",
       "discord_current": true,
@@ -88063,22 +88560,26 @@
             "avatar": "https://cdn.discordapp.com/avatars/812116694234693672/a_564d88afc9a0508991557fb7863fa7e1.gif",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1106",
             "name": "OSCAR PIASTRI",
             "party": "grn",
-            "state": "Illinois",
+            "state": "Hawaii",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/812116694234693672/a_564d88afc9a0508991557fb7863fa7e1.gif",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1232",
@@ -88117,9 +88618,9 @@
         "finalized_bills_voted": 0,
         "bill_details": [],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "wow.grape",
       "discord_current": true,
@@ -88148,7 +88649,7 @@
           "profile_id": "1106",
           "name": "OSCAR PIASTRI",
           "party": "grn",
-          "state": "Illinois",
+          "state": "Hawaii",
           "is_main": false,
           "on_site": true
         },
@@ -88555,6 +89056,143 @@
       ]
     },
     {
+      "player_id": "p1359",
+      "conservative_scorecard": {
+        "user_id": "p1359",
+        "player_id": "p1359",
+        "name": "Chuck Bartowski",
+        "discord": "yakub67420",
+        "discord_ids": [],
+        "party": "gop",
+        "state": "Nevada",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1359",
+            "name": "Chuck Bartowski",
+            "party": "gop",
+            "state": "Nevada",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1360",
+            "name": "Jakub Kostiuczuk",
+            "party": "gop",
+            "state": "Illinois",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1361",
+            "name": "Doroteusz Sawicki",
+            "party": "gop",
+            "state": "Indiana",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "yakub67420",
+      "discord_current": true,
+      "discord_aliases": [
+        "yakub67420"
+      ],
+      "discord_ids": [],
+      "name": "Chuck Bartowski",
+      "profile_ids": [
+        "1359",
+        "1360",
+        "1361"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1359",
+          "name": "Chuck Bartowski",
+          "party": "gop",
+          "state": "Nevada",
+          "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1360",
+          "name": "Jakub Kostiuczuk",
+          "party": "gop",
+          "state": "Illinois",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1361",
+          "name": "Doroteusz Sawicki",
+          "party": "gop",
+          "state": "Indiana",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1115",
       "conservative_scorecard": {
         "user_id": "p1115",
@@ -88726,9 +89364,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/535131333010391050/bb1d8127f50d9b31cb75e2c05bb7816a.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -88950,9 +89590,9 @@
           }
         ],
         "eligible_for_grade": true,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
       },
       "discord": "yoitzdan",
       "discord_current": true,
@@ -89385,9 +90025,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/464496844261818380/e098169a395413337ae3af7c05b1bcbf.webp",
             "is_main": true,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           },
           {
             "profile_id": "1133",
@@ -89411,9 +90053,11 @@
             "avatar": "https://cdn.discordapp.com/avatars/464496844261818380/e098169a395413337ae3af7c05b1bcbf.webp",
             "is_main": false,
             "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
+            "offices": [
+              "House"
+            ],
+            "office": "House",
+            "office_count": 1
           }
         ],
         "scores": {
@@ -89453,9 +90097,9 @@
           }
         ],
         "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
+        "offices_held": 2,
+        "office_count": 2,
+        "has_office": true
       },
       "discord": "yondame.",
       "discord_current": true,
@@ -89607,6 +90251,34 @@
     }
   ],
   "profiles": [
+    {
+      "profile_id": "8",
+      "player_id": "p8",
+      "name": "John Paul Stevens",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "Illinois",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
     {
       "profile_id": "77",
       "player_id": "p77",
@@ -90790,7 +91462,7 @@
     {
       "profile_id": "1006",
       "player_id": "p1006",
-      "name": "Faruk Pasic",
+      "name": "Faruk Pašić",
       "discord": "bosnia1399",
       "discord_id": "1518779462941147268",
       "discord_history": [
@@ -91669,7 +92341,7 @@
       "discord_history": [],
       "party": "gop",
       "state": "Texas",
-      "is_main": true,
+      "is_main": false,
       "on_site": true,
       "counts": {
         "bills": 0,
@@ -95688,7 +96360,7 @@
     {
       "profile_id": "1025",
       "player_id": "p1025",
-      "name": "Donald Trump",
+      "name": "Alina Habba",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -97959,7 +98631,7 @@
     {
       "profile_id": "1033",
       "player_id": "p1025",
-      "name": "Marco Rubio",
+      "name": "Donald Trump",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -104836,7 +105508,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Louisiana",
       "is_main": true,
       "on_site": true,
@@ -105460,7 +106132,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "North Dakota",
       "is_main": true,
       "on_site": true,
@@ -106532,7 +107204,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Florida",
       "is_main": false,
       "on_site": true,
@@ -107461,7 +108133,7 @@
     {
       "profile_id": "1062",
       "player_id": "p1062",
-      "name": "Joseph Washington",
+      "name": "Marco Rubio",
       "discord": "jackhammerjt",
       "discord_id": "859651042203402250",
       "discord_history": [
@@ -111417,7 +112089,7 @@
       "discord": "",
       "discord_id": "",
       "discord_history": [],
-      "party": "ind",
+      "party": "Independent",
       "state": "Georgia",
       "is_main": true,
       "on_site": true,
@@ -111441,7 +112113,7 @@
     {
       "profile_id": "1080",
       "player_id": "p1062",
-      "name": "James T. Fishback",
+      "name": "Joseph Washington",
       "discord": "jackhammerjt",
       "discord_id": "859651042203402250",
       "discord_history": [
@@ -114507,7 +115179,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Tennessee",
       "is_main": true,
       "on_site": true,
@@ -115297,7 +115969,7 @@
     {
       "profile_id": "1094",
       "player_id": "p1094",
-      "name": "Pat Buchanan",
+      "name": "Markwayne Mullin",
       "discord": "musicman130897",
       "discord_id": "1385738660846112798",
       "discord_history": [
@@ -115322,7 +115994,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Oklahoma",
       "is_main": true,
       "on_site": true,
@@ -120181,7 +120853,7 @@
         }
       ],
       "party": "grn",
-      "state": "Illinois",
+      "state": "Hawaii",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -127455,7 +128127,7 @@
     {
       "profile_id": "1154",
       "player_id": "p1094",
-      "name": "Alan Wilson",
+      "name": "Elon Musk",
       "discord": "musicman130897",
       "discord_id": "1385738660846112798",
       "discord_history": [
@@ -127480,8 +128152,8 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
-      "state": "South Dakota",
+      "party": "Independent",
+      "state": "Texas",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -129612,7 +130284,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Texas",
       "is_main": true,
       "on_site": true,
@@ -129661,7 +130333,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Texas",
       "is_main": false,
       "on_site": true,
@@ -130612,7 +131284,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Alaska",
       "is_main": false,
       "on_site": true,
@@ -134099,7 +134771,7 @@
         }
       ],
       "party": "dem",
-      "state": "Delaware",
+      "state": "Puerto Rico",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -134289,7 +134961,7 @@
       "discord": "",
       "discord_id": "",
       "discord_history": [],
-      "party": "ind",
+      "party": "Independent",
       "state": "Pennsylvania",
       "is_main": true,
       "on_site": true,
@@ -134436,7 +135108,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Tennessee",
       "is_main": false,
       "on_site": true,
@@ -134476,7 +135148,7 @@
     {
       "profile_id": "1196",
       "player_id": "p1059",
-      "name": "Greg Abbott",
+      "name": "Pete Hegseth",
       "discord": "founderofurp2.0",
       "discord_id": "1253581430366277667",
       "discord_history": [
@@ -134550,7 +135222,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Tennessee",
       "is_main": false,
       "on_site": true,
@@ -134867,7 +135539,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Mississippi",
       "is_main": false,
       "on_site": true,
@@ -135297,7 +135969,7 @@
     {
       "profile_id": "1202",
       "player_id": "p1094",
-      "name": "Ashley Hinson",
+      "name": "Karoline Leavitt",
       "discord": "musicman130897",
       "discord_id": "1385738660846112798",
       "discord_history": [
@@ -135322,7 +135994,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Nebraska",
       "is_main": false,
       "on_site": true,
@@ -136492,7 +137164,7 @@
     {
       "profile_id": "1209",
       "player_id": "p1025",
-      "name": "Pete Hegseth",
+      "name": "Melania Trump",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -136518,7 +137190,7 @@
         }
       ],
       "party": "gop",
-      "state": "Nevada",
+      "state": "Nebraska",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -139245,7 +139917,7 @@
     {
       "profile_id": "1236",
       "player_id": "p1026",
-      "name": "Kurt Cobain",
+      "name": "Elijah Hewson",
       "discord": "marcsexual",
       "discord_id": "1406312807691063419",
       "discord_history": [
@@ -140882,7 +141554,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "North Dakota",
       "is_main": false,
       "on_site": true,
@@ -142041,7 +142713,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Texas",
       "is_main": false,
       "on_site": true,
@@ -142217,7 +142889,7 @@
         }
       ],
       "party": "grn",
-      "state": "Louisiana",
+      "state": "West Virginia",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -145252,7 +145924,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Kansas",
       "is_main": true,
       "on_site": true,
@@ -145636,7 +146308,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "Kansas",
       "is_main": false,
       "on_site": true,
@@ -145832,7 +146504,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "ind",
+      "party": "Independent",
       "state": "West Virginia",
       "is_main": false,
       "on_site": true,
@@ -146989,8 +147661,8 @@
       "profile_id": "1311",
       "player_id": "p1311",
       "name": "Michael Foster",
-      "discord": "pablovg8",
-      "discord_id": "569498155784339458",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "pablovg8",
@@ -147011,6 +147683,11 @@
           "discord": "pablovg8",
           "discord_id": "569498155784339458",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-10-24"
         }
       ],
       "party": "gop",
@@ -147136,8 +147813,8 @@
       "profile_id": "1314",
       "player_id": "p1311",
       "name": "Robert Miller",
-      "discord": "pablovg8",
-      "discord_id": "569498155784339458",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "pablovg8",
@@ -147158,6 +147835,11 @@
           "discord": "pablovg8",
           "discord_id": "569498155784339458",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-10-24"
         }
       ],
       "party": "gop",
@@ -147250,8 +147932,8 @@
       "profile_id": "1316",
       "player_id": "p1311",
       "name": "Paul Roberts",
-      "discord": "pablovg8",
-      "discord_id": "569498155784339458",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "pablovg8",
@@ -147272,6 +147954,11 @@
           "discord": "pablovg8",
           "discord_id": "569498155784339458",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-10-24"
         }
       ],
       "party": "gop",
@@ -148461,7 +149148,7 @@
       "discord": "",
       "discord_id": "",
       "discord_history": [],
-      "party": "ind",
+      "party": "Independent",
       "state": "New York",
       "is_main": true,
       "on_site": true,
@@ -150473,6 +151160,136 @@
       "party": "dem",
       "state": "New Jersey",
       "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1359",
+      "player_id": "p1359",
+      "name": "Chuck Bartowski",
+      "discord": "yakub67420",
+      "discord_id": "",
+      "discord_history": [
+        {
+          "discord": "yakub67420",
+          "discord_id": "",
+          "first_seen": "2026-10-24"
+        }
+      ],
+      "party": "gop",
+      "state": "Nevada",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1360",
+      "player_id": "p1359",
+      "name": "Jakub Kostiuczuk",
+      "discord": "yakub67420",
+      "discord_id": "",
+      "discord_history": [
+        {
+          "discord": "yakub67420",
+          "discord_id": "",
+          "first_seen": "2026-10-24"
+        }
+      ],
+      "party": "gop",
+      "state": "Illinois",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1361",
+      "player_id": "p1359",
+      "name": "Doroteusz Sawicki",
+      "discord": "yakub67420",
+      "discord_id": "",
+      "discord_history": [
+        {
+          "discord": "yakub67420",
+          "discord_id": "",
+          "first_seen": "2026-10-24"
+        }
+      ],
+      "party": "gop",
+      "state": "Indiana",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1362",
+      "player_id": "p1362",
+      "name": "Huddson",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "gop",
+      "state": "Louisiana",
+      "is_main": true,
       "on_site": true,
       "counts": {
         "bills": 0,
