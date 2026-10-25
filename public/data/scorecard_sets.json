@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T03:17:57+00:00",
+  "generated_at": "2026-10-25T10:46:54+00:00",
   "default_set": "conservative",
   "sets": [
     {
@@ -36153,7 +36153,7 @@
         {
           "user_id": "p1304",
           "player_id": "p1304",
-          "name": "Kanye West",
+          "name": "Mat Nuclear",
           "discord": "internetanyahu",
           "discord_ids": [
             "966709449081360494"
@@ -36168,7 +36168,7 @@
           "profiles": [
             {
               "profile_id": "1304",
-              "name": "Kanye West",
+              "name": "Mat Nuclear",
               "party": "dem",
               "state": "North Carolina",
               "chamber": "Senate",
@@ -36183,7 +36183,7 @@
             },
             {
               "profile_id": "1307",
-              "name": "Nicholas J. Fuentes",
+              "name": "Dean Withers",
               "party": "dem",
               "state": "Illinois",
               "chamber": "Other",
@@ -36240,7 +36240,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36254,7 +36254,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36268,7 +36268,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36282,7 +36282,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36296,7 +36296,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36310,7 +36310,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36324,7 +36324,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36338,7 +36338,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36352,7 +36352,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36366,7 +36366,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36380,7 +36380,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36394,7 +36394,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36408,7 +36408,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36422,7 +36422,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36436,7 +36436,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36450,7 +36450,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -36464,7 +36464,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             }
@@ -61598,7 +61598,7 @@
           "name": "Chuck Bartowski",
           "discord": "yakub67420",
           "discord_ids": [],
-          "party": "gop",
+          "party": "dem",
           "state": "Nevada",
           "chambers": [
             "Other"
@@ -61608,7 +61608,7 @@
             {
               "profile_id": "1359",
               "name": "Chuck Bartowski",
-              "party": "gop",
+              "party": "dem",
               "state": "Nevada",
               "chamber": "Other",
               "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -61621,7 +61621,7 @@
             {
               "profile_id": "1360",
               "name": "Jakub Kostiuczuk",
-              "party": "gop",
+              "party": "dem",
               "state": "Illinois",
               "chamber": "Other",
               "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -61634,7 +61634,7 @@
             {
               "profile_id": "1361",
               "name": "Doroteusz Sawicki",
-              "party": "gop",
+              "party": "dem",
               "state": "Indiana",
               "chamber": "Other",
               "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -62432,7 +62432,7 @@
             "1398129111259676736"
           ],
           "party": "cst",
-          "state": "California",
+          "state": "Texas",
           "chambers": [
             "Other"
           ],
@@ -62442,7 +62442,7 @@
               "profile_id": "1325",
               "name": "George Papadopoulos",
               "party": "cst",
-              "state": "California",
+              "state": "Texas",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1398129111259676736/c2cf8db35c6dea260dc856c4e68dfd76.webp",
               "is_main": true,
@@ -62468,7 +62468,7 @@
               "profile_id": "1327",
               "name": "George Papadopoulosss",
               "party": "cst",
-              "state": "California",
+              "state": "Texas",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1398129111259676736/c2cf8db35c6dea260dc856c4e68dfd76.webp",
               "is_main": false,
@@ -66919,6 +66919,60 @@
           "offices_held": 1,
           "office_count": 1,
           "has_office": true
+        },
+        {
+          "user_id": "p1371",
+          "player_id": "p1371",
+          "name": "Xandru",
+          "discord": "",
+          "discord_ids": [],
+          "party": "dem",
+          "state": "Texas",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "profiles": [
+            {
+              "profile_id": "1371",
+              "name": "Xandru",
+              "party": "dem",
+              "state": "Texas",
+              "chamber": "Other",
+              "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
         }
       ]
     },
@@ -102134,7 +102188,7 @@
         {
           "user_id": "p1304",
           "player_id": "p1304",
-          "name": "Kanye West",
+          "name": "Mat Nuclear",
           "discord": "internetanyahu",
           "discord_ids": [
             "966709449081360494"
@@ -102149,7 +102203,7 @@
           "profiles": [
             {
               "profile_id": "1304",
-              "name": "Kanye West",
+              "name": "Mat Nuclear",
               "party": "dem",
               "state": "North Carolina",
               "chamber": "Senate",
@@ -102164,7 +102218,7 @@
             },
             {
               "profile_id": "1307",
-              "name": "Nicholas J. Fuentes",
+              "name": "Dean Withers",
               "party": "dem",
               "state": "Illinois",
               "chamber": "Other",
@@ -102221,7 +102275,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             },
@@ -102235,7 +102289,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1304",
-              "profile_name": "Kanye West",
+              "profile_name": "Mat Nuclear",
               "chamber": "Senate",
               "scorable": true
             }
@@ -112032,7 +112086,7 @@
           "name": "Chuck Bartowski",
           "discord": "yakub67420",
           "discord_ids": [],
-          "party": "gop",
+          "party": "dem",
           "state": "Nevada",
           "chambers": [
             "Other"
@@ -112042,7 +112096,7 @@
             {
               "profile_id": "1359",
               "name": "Chuck Bartowski",
-              "party": "gop",
+              "party": "dem",
               "state": "Nevada",
               "chamber": "Other",
               "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -112055,7 +112109,7 @@
             {
               "profile_id": "1360",
               "name": "Jakub Kostiuczuk",
-              "party": "gop",
+              "party": "dem",
               "state": "Illinois",
               "chamber": "Other",
               "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -112068,7 +112122,7 @@
             {
               "profile_id": "1361",
               "name": "Doroteusz Sawicki",
-              "party": "gop",
+              "party": "dem",
               "state": "Indiana",
               "chamber": "Other",
               "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -112852,7 +112906,7 @@
             "1398129111259676736"
           ],
           "party": "cst",
-          "state": "California",
+          "state": "Texas",
           "chambers": [
             "Other"
           ],
@@ -112862,7 +112916,7 @@
               "profile_id": "1325",
               "name": "George Papadopoulos",
               "party": "cst",
-              "state": "California",
+              "state": "Texas",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1398129111259676736/c2cf8db35c6dea260dc856c4e68dfd76.webp",
               "is_main": true,
@@ -112888,7 +112942,7 @@
               "profile_id": "1327",
               "name": "George Papadopoulosss",
               "party": "cst",
-              "state": "California",
+              "state": "Texas",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1398129111259676736/c2cf8db35c6dea260dc856c4e68dfd76.webp",
               "is_main": false,
@@ -117311,6 +117365,60 @@
           "offices_held": 1,
           "office_count": 1,
           "has_office": true
+        },
+        {
+          "user_id": "p1371",
+          "player_id": "p1371",
+          "name": "Xandru",
+          "discord": "",
+          "discord_ids": [],
+          "party": "dem",
+          "state": "Texas",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "profiles": [
+            {
+              "profile_id": "1371",
+              "name": "Xandru",
+              "party": "dem",
+              "state": "Texas",
+              "chamber": "Other",
+              "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
         }
       ]
     }
