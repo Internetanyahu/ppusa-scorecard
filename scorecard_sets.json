@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T10:46:54+00:00",
+  "generated_at": "2026-10-25T15:35:54+00:00",
   "default_set": "conservative",
   "sets": [
     {
@@ -64578,7 +64578,7 @@
           "discord_ids": [
             "418130098881953802"
           ],
-          "party": "dem",
+          "party": "gop",
           "state": "Arkansas",
           "chambers": [
             "House",
@@ -64589,7 +64589,7 @@
             {
               "profile_id": "1313",
               "name": "Mackenzie Wrzesinski",
-              "party": "dem",
+              "party": "gop",
               "state": "Arkansas",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/418130098881953802/ed5e542f1f585edd28023ab6fc3e50e8.webp",
@@ -64602,7 +64602,7 @@
             {
               "profile_id": "1315",
               "name": "Theodore Wrzesinski",
-              "party": "dem",
+              "party": "gop",
               "state": "Arkansas",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/418130098881953802/ed5e542f1f585edd28023ab6fc3e50e8.webp",
@@ -64617,7 +64617,7 @@
             {
               "profile_id": "1328",
               "name": "Conrad Wrzesinski",
-              "party": "dem",
+              "party": "gop",
               "state": "Kansas",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/418130098881953802/ed5e542f1f585edd28023ab6fc3e50e8.webp",
@@ -115052,7 +115052,7 @@
           "discord_ids": [
             "418130098881953802"
           ],
-          "party": "dem",
+          "party": "gop",
           "state": "Arkansas",
           "chambers": [
             "House",
@@ -115063,7 +115063,7 @@
             {
               "profile_id": "1313",
               "name": "Mackenzie Wrzesinski",
-              "party": "dem",
+              "party": "gop",
               "state": "Arkansas",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/418130098881953802/ed5e542f1f585edd28023ab6fc3e50e8.webp",
@@ -115076,7 +115076,7 @@
             {
               "profile_id": "1315",
               "name": "Theodore Wrzesinski",
-              "party": "dem",
+              "party": "gop",
               "state": "Arkansas",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/418130098881953802/ed5e542f1f585edd28023ab6fc3e50e8.webp",
@@ -115091,7 +115091,7 @@
             {
               "profile_id": "1328",
               "name": "Conrad Wrzesinski",
-              "party": "dem",
+              "party": "gop",
               "state": "Kansas",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/418130098881953802/ed5e542f1f585edd28023ab6fc3e50e8.webp",
