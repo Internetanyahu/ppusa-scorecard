@@ -1,4 +1,17 @@
 {
+  "7": {
+    "profile_id": "7",
+    "player_id": "p7",
+    "first_seen": "2026-10-25",
+    "discord_history": [],
+    "name": "William Rehnquist",
+    "discord": "",
+    "discord_id": "",
+    "party": "gop",
+    "state": "Arizona",
+    "last_seen": "2026-10-25",
+    "on_site": true
+  },
   "8": {
     "profile_id": "8",
     "player_id": "p8",
@@ -9,7 +22,7 @@
     "discord_id": "",
     "party": "dem",
     "state": "Illinois",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "77": {
@@ -33,7 +46,7 @@
     "discord": "doctorsus",
     "party": "grn",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "797189211488124968",
     "discord_history": [
@@ -67,7 +80,7 @@
     "discord": "doctorsus",
     "party": "grn",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "797189211488124968",
     "discord_history": [
@@ -101,7 +114,7 @@
     "discord": "lucky_courgette_36607",
     "party": "gop",
     "state": "Alabama",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1381337055765991435",
     "discord_history": [
@@ -135,7 +148,7 @@
     "discord": "defaultyboii911",
     "party": "grn",
     "state": "Michigan",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "722453757513695242",
     "discord_history": [
@@ -169,7 +182,7 @@
     "discord": "kewtslimnury",
     "party": "grn",
     "state": "Pennsylvania",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1460058777125654644",
     "discord_history": [
@@ -203,7 +216,7 @@
     "discord": "classicalmerrin",
     "party": "dem",
     "state": "Wisconsin",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1358235586842067004",
     "discord_history": [
@@ -237,7 +250,7 @@
     "discord": "bosnia1399",
     "party": "grn",
     "state": "Maine",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1518779462941147268",
     "discord_history": [
@@ -271,7 +284,7 @@
     "discord": "parzival.121",
     "party": "gop",
     "state": "Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1513708239923974197",
     "discord_history": [
@@ -305,7 +318,7 @@
     "discord": "defaultyboii911",
     "party": "grn",
     "state": "Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "722453757513695242",
     "discord_history": [
@@ -339,7 +352,7 @@
     "discord": "venus.444",
     "party": "grn",
     "state": "Oregon",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1431041441739833437",
     "discord_history": [
@@ -373,7 +386,7 @@
     "discord": "",
     "party": "gop",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -386,7 +399,7 @@
     "discord": "berlinsucks",
     "party": "grn",
     "state": "Maryland",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "829048047770009611",
     "discord_history": [
@@ -420,7 +433,7 @@
     "discord": "kden_24",
     "party": "grn",
     "state": "Massachusetts",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1260620648179302400",
     "discord_history": [
@@ -454,7 +467,7 @@
     "discord": "kewtslimnury",
     "party": "grn",
     "state": "Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1460058777125654644",
     "discord_history": [
@@ -488,7 +501,7 @@
     "discord": "",
     "party": "gop",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -501,7 +514,7 @@
     "discord": "bosnia1399",
     "party": "grn",
     "state": "Maine",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1518779462941147268",
     "discord_history": [
@@ -535,7 +548,7 @@
     "discord": "classicalmerrin",
     "party": "dem",
     "state": "Wisconsin",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1358235586842067004",
     "discord_history": [
@@ -569,7 +582,7 @@
     "discord": "drone1935",
     "party": "dem",
     "state": "Massachusetts",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1350483903462248528",
     "discord_history": [
@@ -603,7 +616,7 @@
     "discord": "roginality",
     "party": "grn",
     "state": "New Hampshire",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1390846237288169652",
     "discord_history": [
@@ -637,7 +650,7 @@
     "discord": "cw872",
     "party": "dem",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -666,7 +679,7 @@
     "discord": "beyoncies",
     "party": "dem",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "891283902365331466",
     "discord_history": [
@@ -700,7 +713,7 @@
     "discord": "hawaji17",
     "party": "grn",
     "state": "New Jersey",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "636708961956921354",
     "discord_history": [
@@ -734,7 +747,7 @@
     "discord": "parzival.121",
     "party": "gop",
     "state": "Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1513708239923974197",
     "discord_history": [
@@ -768,7 +781,7 @@
     "discord": "berlinsucks",
     "party": "grn",
     "state": "Colorado",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "829048047770009611",
     "discord_history": [
@@ -802,7 +815,7 @@
     "discord": "bigggumper",
     "party": "grn",
     "state": "Vermont",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "734084874251665518",
     "discord_history": [
@@ -836,7 +849,7 @@
     "discord": "trumpquest",
     "party": "gop",
     "state": "Florida",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "961355935496953956",
     "discord_history": [
@@ -870,7 +883,7 @@
     "discord": "marcsexual",
     "party": "grn",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1406312807691063419",
     "discord_history": [
@@ -904,7 +917,7 @@
     "discord": "venus.444",
     "party": "grn",
     "state": "Hawaii",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1431041441739833437",
     "discord_history": [
@@ -938,7 +951,7 @@
     "discord": "nevonomical",
     "party": "dem",
     "state": "Minnesota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "672611802118619142",
     "discord_history": [
@@ -972,7 +985,7 @@
     "discord": "fw.swisher",
     "party": "grn",
     "state": "Pennsylvania",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "994793965259858013",
     "discord_history": [
@@ -1006,7 +1019,7 @@
     "discord": "hawaji17",
     "party": "grn",
     "state": "New Jersey",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "636708961956921354",
     "discord_history": [
@@ -1040,7 +1053,7 @@
     "discord": "bigggumper",
     "party": "grn",
     "state": "Rhode Island",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "734084874251665518",
     "discord_history": [
@@ -1074,7 +1087,7 @@
     "discord": "smapiaverageninja",
     "party": "grn",
     "state": "Washington",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "191284688382459904",
     "discord_history": [
@@ -1108,7 +1121,7 @@
     "discord": "trumpquest",
     "party": "gop",
     "state": "Florida",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "961355935496953956",
     "discord_history": [
@@ -1142,7 +1155,7 @@
     "discord": "drone1935",
     "party": "dem",
     "state": "Massachusetts",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1350483903462248528",
     "discord_history": [
@@ -1176,7 +1189,7 @@
     "discord": "cw872",
     "party": "dem",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -1205,7 +1218,7 @@
     "discord": "fufulabu",
     "party": "grn",
     "state": "Michigan",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1423128244516945991",
     "discord_history": [
@@ -1239,7 +1252,7 @@
     "discord": "beyoncies",
     "party": "dem",
     "state": "Illinois",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "891283902365331466",
     "discord_history": [
@@ -1273,7 +1286,7 @@
     "discord": "smapiaverageninja",
     "party": "grn",
     "state": "Oregon",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "191284688382459904",
     "discord_history": [
@@ -1307,7 +1320,7 @@
     "discord": "_deviloftherhine",
     "party": "dem",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "321306009807093760",
     "discord_history": [
@@ -1341,7 +1354,7 @@
     "discord": "kawiorek.",
     "party": "dem",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1138196745822666752",
     "discord_history": [
@@ -1375,7 +1388,7 @@
     "discord": "grandgeist56",
     "party": "dem",
     "state": "New Mexico",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1561582020251885571",
     "discord_history": [
@@ -1409,7 +1422,7 @@
     "discord": "kden_24",
     "party": "grn",
     "state": "Connecticut",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1260620648179302400",
     "discord_history": [
@@ -1443,7 +1456,7 @@
     "discord": "chase043976",
     "party": "dem",
     "state": "Pennsylvania",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1456055534909259928",
     "discord_history": [
@@ -1477,7 +1490,7 @@
     "discord": "mcal4876",
     "party": "dem",
     "state": "Iowa",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1470138832044167178",
     "discord_history": [
@@ -1511,7 +1524,7 @@
     "discord": "fw.swisher",
     "party": "grn",
     "state": "Michigan",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "994793965259858013",
     "discord_history": [
@@ -1545,7 +1558,7 @@
     "discord": "yoitzdan",
     "party": "grn",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "535131333010391050",
     "discord_history": [
@@ -1579,7 +1592,7 @@
     "discord": "fufulabu",
     "party": "grn",
     "state": "Pennsylvania",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1423128244516945991",
     "discord_history": [
@@ -1613,7 +1626,7 @@
     "discord": "nevonomical",
     "party": "dem",
     "state": "Iowa",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "672611802118619142",
     "discord_history": [
@@ -1647,7 +1660,7 @@
     "discord": "simariusv",
     "party": "cst",
     "state": "Alabama",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1287952630173138974",
     "discord_history": [
@@ -1681,7 +1694,7 @@
     "discord": "sobieski9882",
     "party": "cst",
     "state": "Alabama",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "471481474735144960",
     "discord_history": [
@@ -1715,7 +1728,7 @@
     "discord": "yoitzdan",
     "party": "grn",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "535131333010391050",
     "discord_history": [
@@ -1749,7 +1762,7 @@
     "discord": "sobieski9882",
     "party": "cst",
     "state": "Alabama",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "471481474735144960",
     "discord_history": [
@@ -1781,9 +1794,9 @@
     "player_id": "p1053",
     "name": "Austin Vicknair",
     "discord": "austin.vicknair",
-    "party": "Independent",
+    "party": "dem",
     "state": "Louisiana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1332798783658131476",
     "discord_history": [
@@ -1817,7 +1830,7 @@
     "discord": "_deviloftherhine",
     "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "321306009807093760",
     "discord_history": [
@@ -1851,7 +1864,7 @@
     "discord": "mdmrn",
     "party": "Independent",
     "state": "North Dakota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "135877470137221120",
     "discord_history": [
@@ -1885,7 +1898,7 @@
     "discord": "simariusv",
     "party": "cst",
     "state": "Hawaii",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1287952630173138974",
     "discord_history": [
@@ -1919,7 +1932,7 @@
     "discord": "kadencegok",
     "party": "dem",
     "state": "Minnesota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "479291214496006145",
     "discord_history": [
@@ -1953,7 +1966,7 @@
     "discord": "jethronie",
     "party": "dem",
     "state": "Missouri",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "877674076506820618",
     "discord_history": [
@@ -1985,9 +1998,9 @@
     "player_id": "p1059",
     "name": "Tulsi Gabbard",
     "discord": "founderofurp2.0",
-    "party": "Independent",
-    "state": "New York",
-    "last_seen": "2026-10-24",
+    "party": "dem",
+    "state": "Oklahoma",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1253581430366277667",
     "discord_history": [
@@ -2019,9 +2032,9 @@
     "player_id": "p1053",
     "name": "Howard Lutnick",
     "discord": "austin.vicknair",
-    "party": "Independent",
+    "party": "dem",
     "state": "Louisiana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1332798783658131476",
     "discord_history": [
@@ -2055,7 +2068,7 @@
     "discord": "mcal4876",
     "party": "dem",
     "state": "Michigan",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1470138832044167178",
     "discord_history": [
@@ -2089,7 +2102,7 @@
     "discord": "jackhammerjt",
     "party": "gop",
     "state": "Florida",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "859651042203402250",
     "discord_history": [
@@ -2123,7 +2136,7 @@
     "discord": "phoenixflamesong",
     "party": "grn",
     "state": "Missouri",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1203553315263221847",
     "discord_history": [
@@ -2157,7 +2170,7 @@
     "discord": "",
     "party": "gop",
     "state": "Delaware",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -2168,9 +2181,9 @@
     "player_id": "p1059",
     "name": "Eric Trump",
     "discord": "founderofurp2.0",
-    "party": "Independent",
+    "party": "dem",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1253581430366277667",
     "discord_history": [
@@ -2204,7 +2217,7 @@
     "discord": "",
     "party": "gop",
     "state": "Hawaii",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -2217,7 +2230,7 @@
     "discord": "",
     "party": "gop",
     "state": "Rhode Island",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -2230,7 +2243,7 @@
     "discord": "worst_nightmare_of_j.d._scholten",
     "party": "gop",
     "state": "Iowa",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1307970759959777382",
     "discord_history": [
@@ -2264,7 +2277,7 @@
     "discord": "kadencegok",
     "party": "dem",
     "state": "Oregon",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "479291214496006145",
     "discord_history": [
@@ -2298,7 +2311,7 @@
     "discord": "",
     "party": "grn",
     "state": "Nevada",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -2327,7 +2340,7 @@
     "discord": "marcsexual",
     "party": "grn",
     "state": "Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1406312807691063419",
     "discord_history": [
@@ -2361,7 +2374,7 @@
     "discord": "jethronie",
     "party": "dem",
     "state": "Wisconsin",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "877674076506820618",
     "discord_history": [
@@ -2395,7 +2408,7 @@
     "discord": "_mandoge",
     "party": "cst",
     "state": "Mississippi",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "192748374317989898",
     "discord_history": [
@@ -2429,7 +2442,7 @@
     "discord": "kawiorek.",
     "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1138196745822666752",
     "discord_history": [
@@ -2463,7 +2476,7 @@
     "discord": "worst_nightmare_of_j.d._scholten",
     "party": "gop",
     "state": "Iowa",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1307970759959777382",
     "discord_history": [
@@ -2497,7 +2510,7 @@
     "discord": "_mandoge",
     "party": "cst",
     "state": "Mississippi",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "192748374317989898",
     "discord_history": [
@@ -2531,7 +2544,7 @@
     "discord": "geneva88",
     "party": "grn",
     "state": "New Jersey",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1534257079764652185",
     "discord_history": [
@@ -2565,7 +2578,7 @@
     "discord": "falcon5518",
     "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "385804381649371138",
     "discord_history": [
@@ -2599,7 +2612,7 @@
     "discord": "",
     "party": "Independent",
     "state": "Georgia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -2612,7 +2625,7 @@
     "discord": "jackhammerjt",
     "party": "gop",
     "state": "Florida",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "859651042203402250",
     "discord_history": [
@@ -2646,7 +2659,7 @@
     "discord": "geneva88",
     "party": "grn",
     "state": "Connecticut",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1534257079764652185",
     "discord_history": [
@@ -2680,7 +2693,7 @@
     "discord": "bobs3674",
     "party": "grn",
     "state": "Massachusetts",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "784610291768885278",
     "discord_history": [
@@ -2714,7 +2727,7 @@
     "discord": "falcon5518",
     "party": "dem",
     "state": "Massachusetts",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "385804381649371138",
     "discord_history": [
@@ -2748,7 +2761,7 @@
     "discord": "coletrain.2026",
     "party": "dem",
     "state": "Illinois",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1292883592904446033",
     "discord_history": [
@@ -2782,7 +2795,7 @@
     "discord": "coletrain.2026",
     "party": "dem",
     "state": "Wisconsin",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1292883592904446033",
     "discord_history": [
@@ -2816,7 +2829,7 @@
     "discord": "bobs3674",
     "party": "grn",
     "state": "Maryland",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "784610291768885278",
     "discord_history": [
@@ -2850,7 +2863,7 @@
     "discord": "idkboy67",
     "party": "gop",
     "state": "Wyoming",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1384943134072504380",
     "discord_history": [
@@ -2884,7 +2897,7 @@
     "discord": "kmfan91_35425",
     "party": "dem",
     "state": "Illinois",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1412134134158987527",
     "discord_history": [
@@ -2918,7 +2931,7 @@
     "discord": "cylke",
     "party": "grn",
     "state": "Georgia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "965001907741556813",
     "discord_history": [
@@ -2952,7 +2965,7 @@
     "discord": "kmfan91_35425",
     "party": "dem",
     "state": "Connecticut",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1412134134158987527",
     "discord_history": [
@@ -2986,7 +2999,7 @@
     "discord": "idkboy67",
     "party": "gop",
     "state": "Missouri",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1384943134072504380",
     "discord_history": [
@@ -3020,7 +3033,7 @@
     "discord": "cylke",
     "party": "grn",
     "state": "West Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "965001907741556813",
     "discord_history": [
@@ -3054,7 +3067,7 @@
     "discord": "joebee2002",
     "party": "Independent",
     "state": "Tennessee",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1550268928704385105",
     "discord_history": [
@@ -3086,9 +3099,9 @@
     "player_id": "p1094",
     "name": "Markwayne Mullin",
     "discord": "musicman130897",
-    "party": "Independent",
+    "party": "dem",
     "state": "Oklahoma",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1385738660846112798",
     "discord_history": [
@@ -3121,8 +3134,8 @@
     "name": "Guy Fawkes",
     "discord": "insane686",
     "party": "cst",
-    "state": "California",
-    "last_seen": "2026-10-24",
+    "state": "Texas",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "637807494764429332",
     "discord_history": [
@@ -3156,7 +3169,7 @@
     "discord": "insane686",
     "party": "cst",
     "state": "Florida",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "637807494764429332",
     "discord_history": [
@@ -3190,7 +3203,7 @@
     "discord": "lucky_courgette_36607",
     "party": "gop",
     "state": "Alabama",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1381337055765991435",
     "discord_history": [
@@ -3224,7 +3237,7 @@
     "discord": "chase043976",
     "party": "dem",
     "state": "Florida",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1456055534909259928",
     "discord_history": [
@@ -3258,7 +3271,7 @@
     "discord": "",
     "party": "gop",
     "state": "West Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -3271,7 +3284,7 @@
     "discord": "sevenfoldavenged",
     "party": "grn",
     "state": "Nevada",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1210380102802604063",
     "discord_history": [
@@ -3305,7 +3318,7 @@
     "discord": "sevenfoldavenged",
     "party": "grn",
     "state": "Michigan",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1210380102802604063",
     "discord_history": [
@@ -3339,7 +3352,7 @@
     "discord": "",
     "party": "gop",
     "state": "Alabama",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -3352,7 +3365,7 @@
     "discord": "goodvibejay",
     "party": "gop",
     "state": "Alaska",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "297561809278337035",
     "discord_history": [
@@ -3386,7 +3399,7 @@
     "discord": "wow.grape",
     "party": "grn",
     "state": "Massachusetts",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "812116694234693672",
     "discord_history": [
@@ -3420,7 +3433,7 @@
     "discord": "trustfundfinance",
     "party": "grn",
     "state": "Illinois",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1273992220730589270",
     "discord_history": [
@@ -3454,7 +3467,7 @@
     "discord": "wow.grape",
     "party": "grn",
     "state": "Hawaii",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "812116694234693672",
     "discord_history": [
@@ -3488,7 +3501,7 @@
     "discord": "tweamonster_",
     "party": "grn",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1490056689326489650",
     "discord_history": [
@@ -3522,7 +3535,7 @@
     "discord": "trustfundfinance",
     "party": "grn",
     "state": "Maryland",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1273992220730589270",
     "discord_history": [
@@ -3552,11 +3565,11 @@
     "first_seen": "2026-10-20",
     "profile_id": "1109",
     "player_id": "p1107",
-    "name": "ted",
+    "name": "Lyle Menendez",
     "discord": "tweamonster_",
     "party": "grn",
     "state": "Florida",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1490056689326489650",
     "discord_history": [
@@ -3590,7 +3603,7 @@
     "discord": "therealmakaveli",
     "party": "dem",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "290307337514778625",
     "discord_history": [
@@ -3624,7 +3637,7 @@
     "discord": "therealmakaveli",
     "party": "dem",
     "state": "Pennsylvania",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "290307337514778625",
     "discord_history": [
@@ -3658,7 +3671,7 @@
     "discord": "fruity.patootie",
     "party": "grn",
     "state": "Wisconsin",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1068285752112336896",
     "discord_history": [
@@ -3692,7 +3705,7 @@
     "discord": "ag54",
     "party": "cst",
     "state": "Michigan",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "730775536183410698",
     "discord_history": [
@@ -3726,7 +3739,7 @@
     "discord": "fruity.patootie",
     "party": "grn",
     "state": "South Dakota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1068285752112336896",
     "discord_history": [
@@ -3760,7 +3773,7 @@
     "discord": "ydg0226",
     "party": "dem",
     "state": "Maine",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1183919357391282310",
     "discord_history": [
@@ -3794,7 +3807,7 @@
     "discord": "ag54",
     "party": "cst",
     "state": "North Carolina",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "730775536183410698",
     "discord_history": [
@@ -3828,7 +3841,7 @@
     "discord": "povryan",
     "party": "grn",
     "state": "Vermont",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "228877658383974400",
     "discord_history": [
@@ -3862,7 +3875,7 @@
     "discord": "galaxydoge420",
     "party": "dem",
     "state": "Louisiana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "398403582606442497",
     "discord_history": [
@@ -3896,7 +3909,7 @@
     "discord": "povryan",
     "party": "grn",
     "state": "Washington",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "228877658383974400",
     "discord_history": [
@@ -3930,7 +3943,7 @@
     "discord": "galaxydoge420",
     "party": "dem",
     "state": "Puerto Rico",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "398403582606442497",
     "discord_history": [
@@ -3964,7 +3977,7 @@
     "discord": ".1776.",
     "party": "cst",
     "state": "Idaho",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "728340629662203975",
     "discord_history": [
@@ -3998,7 +4011,7 @@
     "discord": "d.burgess",
     "party": "cst",
     "state": "Utah",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "338853029946327040",
     "discord_history": [
@@ -4032,7 +4045,7 @@
     "discord": ".1776.",
     "party": "cst",
     "state": "Idaho",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "728340629662203975",
     "discord_history": [
@@ -4066,7 +4079,7 @@
     "discord": "1milliondollarman",
     "party": "dem",
     "state": "New Jersey",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1494517988433334433",
     "discord_history": [
@@ -4100,7 +4113,7 @@
     "discord": "lazarbanagain",
     "party": "grn",
     "state": "Oregon",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -4129,7 +4142,7 @@
     "discord": "laycanrock",
     "party": "grn",
     "state": "Minnesota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "770400492491767839",
     "discord_history": [
@@ -4163,7 +4176,7 @@
     "discord": "lazarbanagain",
     "party": "grn",
     "state": "Hawaii",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -4192,7 +4205,7 @@
     "discord": "gion915",
     "party": "grn",
     "state": "Minnesota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "336304476241788928",
     "discord_history": [
@@ -4226,7 +4239,7 @@
     "discord": "",
     "party": "grn",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -4239,7 +4252,7 @@
     "discord": "gion915",
     "party": "grn",
     "state": "Washington",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "336304476241788928",
     "discord_history": [
@@ -4273,7 +4286,7 @@
     "discord": "yondame.",
     "party": "dem",
     "state": "Rhode Island",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "464496844261818380",
     "discord_history": [
@@ -4307,7 +4320,7 @@
     "discord": "laycanrock",
     "party": "grn",
     "state": "Minnesota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "770400492491767839",
     "discord_history": [
@@ -4341,7 +4354,7 @@
     "discord": "yondame.",
     "party": "dem",
     "state": "Rhode Island",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "464496844261818380",
     "discord_history": [
@@ -4375,7 +4388,7 @@
     "discord": "berrystrong",
     "party": "grn",
     "state": "Wyoming",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "273439516784721920",
     "discord_history": [
@@ -4409,7 +4422,7 @@
     "discord": "berrystrong",
     "party": "grn",
     "state": "Indiana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "273439516784721920",
     "discord_history": [
@@ -4443,7 +4456,7 @@
     "discord": "nolapadola",
     "party": "grn",
     "state": "Tennessee",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1183559034259910702",
     "discord_history": [
@@ -4477,7 +4490,7 @@
     "discord": "",
     "party": "grn",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -4490,7 +4503,7 @@
     "discord": "jorgwachingmachine",
     "party": "dem",
     "state": "Maine",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "557957081685164042",
     "discord_history": [
@@ -4524,7 +4537,7 @@
     "discord": "nolapadola",
     "party": "grn",
     "state": "Tennessee",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1183559034259910702",
     "discord_history": [
@@ -4558,7 +4571,7 @@
     "discord": "kevinmwas_57000",
     "party": "gop",
     "state": "Michigan",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1421418848724320286",
     "discord_history": [
@@ -4592,7 +4605,7 @@
     "discord": "veshex",
     "party": "dem",
     "state": "Maryland",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "637519499167268865",
     "discord_history": [
@@ -4626,7 +4639,7 @@
     "discord": "veshex",
     "party": "dem",
     "state": "Maryland",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "637519499167268865",
     "discord_history": [
@@ -4660,7 +4673,7 @@
     "discord": "kevinmwas_57000",
     "party": "gop",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1421418848724320286",
     "discord_history": [
@@ -4694,7 +4707,7 @@
     "discord": "myungbak",
     "party": "grn",
     "state": "Rhode Island",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1414135624855847013",
     "discord_history": [
@@ -4728,7 +4741,7 @@
     "discord": "phoenixflamesong",
     "party": "grn",
     "state": "Missouri",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1203553315263221847",
     "discord_history": [
@@ -4762,7 +4775,7 @@
     "discord": ".dr.doge",
     "party": "grn",
     "state": "New Mexico",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "677502849516699698",
     "discord_history": [
@@ -4796,7 +4809,7 @@
     "discord": "linagrey11",
     "party": "dem",
     "state": "New Jersey",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1318964464942448710",
     "discord_history": [
@@ -4830,7 +4843,7 @@
     "discord": ".dr.doge",
     "party": "grn",
     "state": "Tennessee",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "677502849516699698",
     "discord_history": [
@@ -4864,7 +4877,7 @@
     "discord": "linagrey11",
     "party": "dem",
     "state": "Illinois",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1318964464942448710",
     "discord_history": [
@@ -4898,7 +4911,7 @@
     "discord": "karmablaster",
     "party": "grn",
     "state": "Maine",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "358455235154411521",
     "discord_history": [
@@ -4932,7 +4945,7 @@
     "discord": "karmablaster",
     "party": "grn",
     "state": "Nevada",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "358455235154411521",
     "discord_history": [
@@ -4966,7 +4979,7 @@
     "discord": "collins035",
     "party": "grn",
     "state": "Kentucky",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1014854147268423761",
     "discord_history": [
@@ -5000,7 +5013,7 @@
     "discord": "collins035",
     "party": "grn",
     "state": "Kentucky",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1014854147268423761",
     "discord_history": [
@@ -5032,9 +5045,9 @@
     "player_id": "p1094",
     "name": "Elon Musk",
     "discord": "musicman130897",
-    "party": "Independent",
+    "party": "dem",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1385738660846112798",
     "discord_history": [
@@ -5068,7 +5081,7 @@
     "discord": "orangejuice789",
     "party": "dem",
     "state": "Oregon",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1475172188398288917",
     "discord_history": [
@@ -5102,7 +5115,7 @@
     "discord": "mr.snail67",
     "party": "grn",
     "state": "Colorado",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1505609162426683542",
     "discord_history": [
@@ -5136,7 +5149,7 @@
     "discord": "mr.snail67",
     "party": "grn",
     "state": "Vermont",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1505609162426683542",
     "discord_history": [
@@ -5170,7 +5183,7 @@
     "discord": "orangejuice789",
     "party": "dem",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1475172188398288917",
     "discord_history": [
@@ -5204,7 +5217,7 @@
     "discord": "vincenzo",
     "party": "dem",
     "state": "Minnesota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "316305498557120522",
     "discord_history": [
@@ -5238,7 +5251,7 @@
     "discord": "vincenzo",
     "party": "dem",
     "state": "Iowa",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "316305498557120522",
     "discord_history": [
@@ -5272,7 +5285,7 @@
     "discord": "fimconte",
     "party": "Independent",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "150710749260414976",
     "discord_history": [
@@ -5306,7 +5319,7 @@
     "discord": "fimconte",
     "party": "Independent",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "150710749260414976",
     "discord_history": [
@@ -5340,7 +5353,7 @@
     "discord": "ron210p",
     "party": "grn",
     "state": "Vermont",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1175438560984305697",
     "discord_history": [
@@ -5374,7 +5387,7 @@
     "discord": "ron210p",
     "party": "grn",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1175438560984305697",
     "discord_history": [
@@ -5408,7 +5421,7 @@
     "discord": "lil_mama92",
     "party": "dem",
     "state": "Massachusetts",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1554189281751343166",
     "discord_history": [
@@ -5442,7 +5455,7 @@
     "discord": "lil_mama92",
     "party": "dem",
     "state": "Maryland",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1554189281751343166",
     "discord_history": [
@@ -5476,7 +5489,7 @@
     "discord": "",
     "party": "dem",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -5489,7 +5502,7 @@
     "discord": "mdmrn",
     "party": "Independent",
     "state": "Alaska",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "135877470137221120",
     "discord_history": [
@@ -5523,7 +5536,7 @@
     "discord": "kym47",
     "party": "dem",
     "state": "Montana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "779295918448836628",
     "discord_history": [
@@ -5557,7 +5570,7 @@
     "discord": "goodvibejay",
     "party": "gop",
     "state": "Alaska",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "297561809278337035",
     "discord_history": [
@@ -5591,7 +5604,7 @@
     "discord": "wout_3",
     "party": "dem",
     "state": "North Carolina",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -5620,7 +5633,7 @@
     "discord": "wout_3",
     "party": "dem",
     "state": "Washington",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -5649,7 +5662,7 @@
     "discord": "jorgwachingmachine",
     "party": "dem",
     "state": "Michigan",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "557957081685164042",
     "discord_history": [
@@ -5683,7 +5696,7 @@
     "discord": "ariane_ye0ng",
     "party": "gop",
     "state": "South Carolina",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "565289871799746593",
     "discord_history": [
@@ -5717,7 +5730,7 @@
     "discord": "ariane_ye0ng",
     "party": "gop",
     "state": "South Carolina",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "565289871799746593",
     "discord_history": [
@@ -5751,7 +5764,7 @@
     "discord": "ennardenvy",
     "party": "dem",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1170543879519477831",
     "discord_history": [
@@ -5785,7 +5798,7 @@
     "discord": "ennardenvy",
     "party": "dem",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1170543879519477831",
     "discord_history": [
@@ -5819,7 +5832,7 @@
     "discord": "grandgeist56",
     "party": "dem",
     "state": "New Mexico",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1561582020251885571",
     "discord_history": [
@@ -5853,7 +5866,7 @@
     "discord": "kym47",
     "party": "dem",
     "state": "Montana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "779295918448836628",
     "discord_history": [
@@ -5887,7 +5900,7 @@
     "discord": "brandonhh02",
     "party": "gop",
     "state": "New Hampshire",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "887481623203950693",
     "discord_history": [
@@ -5921,7 +5934,7 @@
     "discord": "",
     "party": "gop",
     "state": "Colorado",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -5960,7 +5973,7 @@
     "discord": "jxckuk",
     "party": "grn",
     "state": "Alaska",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "323231395981819904",
     "discord_history": [
@@ -5994,7 +6007,7 @@
     "discord": "jxckuk",
     "party": "grn",
     "state": "Colorado",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "323231395981819904",
     "discord_history": [
@@ -6028,7 +6041,7 @@
     "discord": "saturnaliacivilis",
     "party": "dem",
     "state": "New Jersey",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1193946507825647646",
     "discord_history": [
@@ -6062,7 +6075,7 @@
     "discord": "saturnaliacivilis",
     "party": "dem",
     "state": "New Jersey",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1193946507825647646",
     "discord_history": [
@@ -6096,7 +6109,7 @@
     "discord": "teutonicfootsoldier",
     "party": "gop",
     "state": "New Mexico",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "774441702147883059",
     "discord_history": [
@@ -6130,7 +6143,7 @@
     "discord": "shadowmocker",
     "party": "dem",
     "state": "South Dakota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1440155160243474626",
     "discord_history": [
@@ -6164,7 +6177,7 @@
     "discord": "pzdz20",
     "party": "dem",
     "state": "Puerto Rico",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1303893674417193052",
     "discord_history": [
@@ -6198,7 +6211,7 @@
     "discord": ".vielle",
     "party": "gop",
     "state": "Arizona",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "121121527075700737",
     "discord_history": [
@@ -6232,7 +6245,7 @@
     "discord": "alikhan.55",
     "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "562155693528842251",
     "discord_history": [
@@ -6266,7 +6279,7 @@
     "discord": "alikhan.55",
     "party": "dem",
     "state": "Pennsylvania",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "562155693528842251",
     "discord_history": [
@@ -6300,7 +6313,7 @@
     "discord": "",
     "party": "Independent",
     "state": "Pennsylvania",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -6313,7 +6326,7 @@
     "discord": "johnphilips0911",
     "party": "grn",
     "state": "New Mexico",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1551298483607052350",
     "discord_history": [
@@ -6347,7 +6360,7 @@
     "discord": "teutonicfootsoldier",
     "party": "gop",
     "state": "Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "774441702147883059",
     "discord_history": [
@@ -6381,7 +6394,7 @@
     "discord": "joebee2002",
     "party": "Independent",
     "state": "Tennessee",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1550268928704385105",
     "discord_history": [
@@ -6413,9 +6426,9 @@
     "player_id": "p1059",
     "name": "Pete Hegseth",
     "discord": "founderofurp2.0",
-    "party": "Independent",
+    "party": "dem",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1253581430366277667",
     "discord_history": [
@@ -6449,7 +6462,7 @@
     "discord": "joebee2002",
     "party": "Independent",
     "state": "Tennessee",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1550268928704385105",
     "discord_history": [
@@ -6483,7 +6496,7 @@
     "discord": "mcal4876",
     "party": "dem",
     "state": "Arkansas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1470138832044167178",
     "discord_history": [
@@ -6517,7 +6530,7 @@
     "discord": "teutonicfootsoldier",
     "party": "gop",
     "state": "Kentucky",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "774441702147883059",
     "discord_history": [
@@ -6551,7 +6564,7 @@
     "discord": "berlinsucks",
     "party": "grn",
     "state": "Wisconsin",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "829048047770009611",
     "discord_history": [
@@ -6583,9 +6596,9 @@
     "player_id": "p1053",
     "name": "Scott Bessent",
     "discord": "austin.vicknair",
-    "party": "Independent",
+    "party": "dem",
     "state": "Mississippi",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1332798783658131476",
     "discord_history": [
@@ -6617,9 +6630,9 @@
     "player_id": "p1094",
     "name": "Karoline Leavitt",
     "discord": "musicman130897",
-    "party": "Independent",
+    "party": "dem",
     "state": "Nebraska",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1385738660846112798",
     "discord_history": [
@@ -6653,7 +6666,7 @@
     "discord": "trustfundfinance",
     "party": "grn",
     "state": "Pennsylvania",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1273992220730589270",
     "discord_history": [
@@ -6687,7 +6700,7 @@
     "discord": "grandgeist56",
     "party": "dem",
     "state": "New Mexico",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1561582020251885571",
     "discord_history": [
@@ -6721,7 +6734,7 @@
     "discord": "parzival.121",
     "party": "gop",
     "state": "Georgia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1513708239923974197",
     "discord_history": [
@@ -6755,7 +6768,7 @@
     "discord": "gion915",
     "party": "grn",
     "state": "Delaware",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "336304476241788928",
     "discord_history": [
@@ -6789,7 +6802,7 @@
     "discord": "",
     "party": "gop",
     "state": "Nebraska",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -6802,7 +6815,7 @@
     "discord": "defaultyboii911",
     "party": "grn",
     "state": "Indiana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "722453757513695242",
     "discord_history": [
@@ -6836,7 +6849,7 @@
     "discord": "trumpquest",
     "party": "gop",
     "state": "Nebraska",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "961355935496953956",
     "discord_history": [
@@ -6870,7 +6883,7 @@
     "discord": "sobieski9882",
     "party": "cst",
     "state": "Oklahoma",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "471481474735144960",
     "discord_history": [
@@ -6904,7 +6917,7 @@
     "discord": "simariusv",
     "party": "cst",
     "state": "Louisiana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1287952630173138974",
     "discord_history": [
@@ -6938,7 +6951,7 @@
     "discord": "venus.444",
     "party": "grn",
     "state": "Indiana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1431041441739833437",
     "discord_history": [
@@ -6972,7 +6985,7 @@
     "discord": "fufulabu",
     "party": "grn",
     "state": "Delaware",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1423128244516945991",
     "discord_history": [
@@ -7006,7 +7019,7 @@
     "discord": "_mandoge",
     "party": "cst",
     "state": "Mississippi",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "192748374317989898",
     "discord_history": [
@@ -7040,7 +7053,7 @@
     "discord": "doctorsus",
     "party": "grn",
     "state": "Wisconsin",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "797189211488124968",
     "discord_history": [
@@ -7074,7 +7087,7 @@
     "discord": "galaxydoge420",
     "party": "dem",
     "state": "New Hampshire",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "398403582606442497",
     "discord_history": [
@@ -7108,7 +7121,7 @@
     "discord": "therealmakaveli",
     "party": "dem",
     "state": "Indiana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "290307337514778625",
     "discord_history": [
@@ -7142,7 +7155,7 @@
     "discord": "hawaji17",
     "party": "grn",
     "state": "Idaho",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "636708961956921354",
     "discord_history": [
@@ -7176,7 +7189,7 @@
     "discord": "geneva88",
     "party": "grn",
     "state": "New Jersey",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1534257079764652185",
     "discord_history": [
@@ -7210,7 +7223,7 @@
     "discord": "jackhammerjt",
     "party": "gop",
     "state": "Nevada",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "859651042203402250",
     "discord_history": [
@@ -7244,7 +7257,7 @@
     "discord": "insane686",
     "party": "cst",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "637807494764429332",
     "discord_history": [
@@ -7278,7 +7291,7 @@
     "discord": "kevinmwas_57000",
     "party": "gop",
     "state": "Illinois",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1421418848724320286",
     "discord_history": [
@@ -7312,7 +7325,7 @@
     "discord": "veshex",
     "party": "dem",
     "state": "Maryland",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "637519499167268865",
     "discord_history": [
@@ -7346,7 +7359,7 @@
     "discord": "cylke",
     "party": "grn",
     "state": "Kansas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "965001907741556813",
     "discord_history": [
@@ -7380,7 +7393,7 @@
     "discord": "worst_nightmare_of_j.d._scholten",
     "party": "gop",
     "state": "Iowa",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1307970759959777382",
     "discord_history": [
@@ -7414,7 +7427,7 @@
     "discord": "lucky_courgette_36607",
     "party": "gop",
     "state": "Alabama",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1381337055765991435",
     "discord_history": [
@@ -7448,7 +7461,7 @@
     "discord": "laycanrock",
     "party": "grn",
     "state": "Delaware",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "770400492491767839",
     "discord_history": [
@@ -7482,7 +7495,7 @@
     "discord": "tweamonster_",
     "party": "grn",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1490056689326489650",
     "discord_history": [
@@ -7516,7 +7529,7 @@
     "discord": "nolapadola",
     "party": "grn",
     "state": "Delaware",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1183559034259910702",
     "discord_history": [
@@ -7550,7 +7563,7 @@
     "discord": "alikhan.55",
     "party": "dem",
     "state": "Pennsylvania",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "562155693528842251",
     "discord_history": [
@@ -7583,8 +7596,8 @@
     "name": "Larissa Waters",
     "discord": "lazarbanagain",
     "party": "grn",
-    "state": "New Hampshire",
-    "last_seen": "2026-10-24",
+    "state": "Washington",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -7613,7 +7626,7 @@
     "discord": "wow.grape",
     "party": "grn",
     "state": "Illinois",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "812116694234693672",
     "discord_history": [
@@ -7647,7 +7660,7 @@
     "discord": "yondame.",
     "party": "dem",
     "state": "Rhode Island",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "464496844261818380",
     "discord_history": [
@@ -7681,7 +7694,7 @@
     "discord": "uspsowner2234",
     "party": "dem",
     "state": "Michigan",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1336101166609600622",
     "discord_history": [
@@ -7715,7 +7728,7 @@
     "discord": "jorgwachingmachine",
     "party": "dem",
     "state": "Iowa",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "557957081685164042",
     "discord_history": [
@@ -7749,7 +7762,7 @@
     "discord": "marcsexual",
     "party": "grn",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1406312807691063419",
     "discord_history": [
@@ -7783,7 +7796,7 @@
     "discord": "jethronie",
     "party": "dem",
     "state": "South Dakota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "877674076506820618",
     "discord_history": [
@@ -7817,7 +7830,7 @@
     "discord": "linagrey11",
     "party": "dem",
     "state": "Florida",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1318964464942448710",
     "discord_history": [
@@ -7851,7 +7864,7 @@
     "discord": ".dr.doge",
     "party": "grn",
     "state": "Wyoming",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "677502849516699698",
     "discord_history": [
@@ -7885,7 +7898,7 @@
     "discord": "",
     "party": "dem",
     "state": "Nevada",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -7898,7 +7911,7 @@
     "discord": "kobayashi_junto",
     "party": "grn",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "537999395120087060",
     "discord_history": [
@@ -7932,7 +7945,7 @@
     "discord": "kobayashi_junto",
     "party": "grn",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "537999395120087060",
     "discord_history": [
@@ -7966,7 +7979,7 @@
     "discord": "myungbak",
     "party": "grn",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1414135624855847013",
     "discord_history": [
@@ -8000,7 +8013,7 @@
     "discord": "myungbak",
     "party": "grn",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1414135624855847013",
     "discord_history": [
@@ -8034,7 +8047,7 @@
     "discord": "kewtslimnury",
     "party": "grn",
     "state": "New Jersey",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1460058777125654644",
     "discord_history": [
@@ -8068,7 +8081,7 @@
     "discord": "ydg0226",
     "party": "dem",
     "state": "Maine",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1183919357391282310",
     "discord_history": [
@@ -8102,7 +8115,7 @@
     "discord": "classicalmerrin",
     "party": "dem",
     "state": "North Carolina",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1358235586842067004",
     "discord_history": [
@@ -8136,7 +8149,7 @@
     "discord": "smapiaverageninja",
     "party": "grn",
     "state": "Maryland",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "191284688382459904",
     "discord_history": [
@@ -8170,7 +8183,7 @@
     "discord": "wout_3",
     "party": "dem",
     "state": "Indiana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -8199,7 +8212,7 @@
     "discord": "bosnia1399",
     "party": "grn",
     "state": "Arizona",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1518779462941147268",
     "discord_history": [
@@ -8233,7 +8246,7 @@
     "discord": "mdmrn",
     "party": "Independent",
     "state": "North Dakota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "135877470137221120",
     "discord_history": [
@@ -8267,7 +8280,7 @@
     "discord": "brandonhh02",
     "party": "gop",
     "state": "Colorado",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "887481623203950693",
     "discord_history": [
@@ -8301,7 +8314,7 @@
     "discord": "kobayashi_junto",
     "party": "grn",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "537999395120087060",
     "discord_history": [
@@ -8335,7 +8348,7 @@
     "discord": "pzdz20",
     "party": "dem",
     "state": "Puerto Rico",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1303893674417193052",
     "discord_history": [
@@ -8369,7 +8382,7 @@
     "discord": "pzdz20",
     "party": "dem",
     "state": "South Carolina",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1303893674417193052",
     "discord_history": [
@@ -8403,7 +8416,7 @@
     "discord": ".vielle",
     "party": "gop",
     "state": "Arizona",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "121121527075700737",
     "discord_history": [
@@ -8437,7 +8450,7 @@
     "discord": "sevenfoldavenged",
     "party": "grn",
     "state": "Wisconsin",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1210380102802604063",
     "discord_history": [
@@ -8471,7 +8484,7 @@
     "discord": "cw872",
     "party": "dem",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -8500,7 +8513,7 @@
     "discord": ".vielle",
     "party": "gop",
     "state": "Oregon",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "121121527075700737",
     "discord_history": [
@@ -8534,7 +8547,7 @@
     "discord": "maomaothepoisonenjoyer",
     "party": "dem",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "757584476552560680",
     "discord_history": [
@@ -8568,7 +8581,7 @@
     "discord": "maomaothepoisonenjoyer",
     "party": "dem",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "757584476552560680",
     "discord_history": [
@@ -8602,7 +8615,7 @@
     "discord": "maomaothepoisonenjoyer",
     "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "757584476552560680",
     "discord_history": [
@@ -8636,7 +8649,7 @@
     "discord": "phoenixflamesong",
     "party": "grn",
     "state": "Missouri",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1203553315263221847",
     "discord_history": [
@@ -8670,7 +8683,7 @@
     "discord": "fimconte",
     "party": "Independent",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "150710749260414976",
     "discord_history": [
@@ -8704,7 +8717,7 @@
     "discord": "",
     "party": "grn",
     "state": "Illinois",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -8717,7 +8730,7 @@
     "discord": "kden_24",
     "party": "grn",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1260620648179302400",
     "discord_history": [
@@ -8751,7 +8764,7 @@
     "discord": "roginality",
     "party": "grn",
     "state": "Kentucky",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1390846237288169652",
     "discord_history": [
@@ -8785,7 +8798,7 @@
     "discord": "fw.swisher",
     "party": "grn",
     "state": "West Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "994793965259858013",
     "discord_history": [
@@ -8819,7 +8832,7 @@
     "discord": "yoitzdan",
     "party": "grn",
     "state": "New Hampshire",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "535131333010391050",
     "discord_history": [
@@ -8853,7 +8866,7 @@
     "discord": "myotheraccountisatier3sub",
     "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "653722361857835009",
     "discord_history": [
@@ -8887,7 +8900,7 @@
     "discord": "myotheraccountisatier3sub",
     "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "653722361857835009",
     "discord_history": [
@@ -8921,7 +8934,7 @@
     "discord": "myotheraccountisatier3sub",
     "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "653722361857835009",
     "discord_history": [
@@ -8955,7 +8968,7 @@
     "discord": "iamonfirepleasehelp",
     "party": "cst",
     "state": "Alabama",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "404378779952218124",
     "discord_history": [
@@ -8989,7 +9002,7 @@
     "discord": "iamonfirepleasehelp",
     "party": "cst",
     "state": "Alabama",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "404378779952218124",
     "discord_history": [
@@ -9023,7 +9036,7 @@
     "discord": "iamonfirepleasehelp",
     "party": "cst",
     "state": "Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "404378779952218124",
     "discord_history": [
@@ -9057,7 +9070,7 @@
     "discord": "kawiorek.",
     "party": "dem",
     "state": "Illinois",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1138196745822666752",
     "discord_history": [
@@ -9091,7 +9104,7 @@
     "discord": "bobs3674",
     "party": "grn",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "784610291768885278",
     "discord_history": [
@@ -9125,7 +9138,7 @@
     "discord": "beyoncies",
     "party": "dem",
     "state": "Alaska",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "891283902365331466",
     "discord_history": [
@@ -9159,7 +9172,7 @@
     "discord": "goodvibejay",
     "party": "gop",
     "state": "North Dakota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "297561809278337035",
     "discord_history": [
@@ -9193,7 +9206,7 @@
     "discord": "nevonomical",
     "party": "dem",
     "state": "Nebraska",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "672611802118619142",
     "discord_history": [
@@ -9227,7 +9240,7 @@
     "discord": "kym47",
     "party": "dem",
     "state": "Montana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "779295918448836628",
     "discord_history": [
@@ -9261,7 +9274,7 @@
     "discord": "brycen.naquin",
     "party": "gop",
     "state": "Louisiana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -9290,7 +9303,7 @@
     "discord": "brycen.naquin",
     "party": "gop",
     "state": "New Jersey",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -9319,7 +9332,7 @@
     "discord": "brycen.naquin",
     "party": "gop",
     "state": "Alaska",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -9348,7 +9361,7 @@
     "discord": "ag54",
     "party": "cst",
     "state": "Puerto Rico",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "730775536183410698",
     "discord_history": [
@@ -9382,7 +9395,7 @@
     "discord": "povryan",
     "party": "grn",
     "state": "Connecticut",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "228877658383974400",
     "discord_history": [
@@ -9416,7 +9429,7 @@
     "discord": "fruity.patootie",
     "party": "grn",
     "state": "Wisconsin",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1068285752112336896",
     "discord_history": [
@@ -9450,7 +9463,7 @@
     "discord": "",
     "party": "gop",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -9463,7 +9476,7 @@
     "discord": "orangejuice789",
     "party": "dem",
     "state": "Colorado",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1475172188398288917",
     "discord_history": [
@@ -9497,7 +9510,7 @@
     "discord": "_deviloftherhine",
     "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "321306009807093760",
     "discord_history": [
@@ -9531,7 +9544,7 @@
     "discord": "jx._._._.",
     "party": "grn",
     "state": "Maryland",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1259232762775212105",
     "discord_history": [
@@ -9565,7 +9578,7 @@
     "discord": "jx._._._.",
     "party": "grn",
     "state": "Connecticut",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1259232762775212105",
     "discord_history": [
@@ -9599,7 +9612,7 @@
     "discord": "jx._._._.",
     "party": "grn",
     "state": "Minnesota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1259232762775212105",
     "discord_history": [
@@ -9633,7 +9646,7 @@
     "discord": "lil_mama92",
     "party": "dem",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1554189281751343166",
     "discord_history": [
@@ -9665,9 +9678,9 @@
     "player_id": "p1295",
     "name": "Abraham B. J. Freeman",
     "discord": "heybumbumbumgotanygrapes",
-    "party": "Independent",
+    "party": "dem",
     "state": "Kansas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1274754200466624618",
     "discord_history": [
@@ -9701,7 +9714,7 @@
     "discord": "berrystrong",
     "party": "grn",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "273439516784721920",
     "discord_history": [
@@ -9733,9 +9746,9 @@
     "player_id": "p1295",
     "name": "Lex Luthor",
     "discord": "heybumbumbumgotanygrapes",
-    "party": "Independent",
+    "party": "dem",
     "state": "Kansas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1274754200466624618",
     "discord_history": [
@@ -9769,7 +9782,7 @@
     "discord": "dale1776",
     "party": "cst",
     "state": "Georgia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "219696413292888064",
     "discord_history": [
@@ -9803,7 +9816,7 @@
     "discord": "dale1776",
     "party": "cst",
     "state": "Florida",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "219696413292888064",
     "discord_history": [
@@ -9837,7 +9850,7 @@
     "discord": "dale1776",
     "party": "cst",
     "state": "Florida",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "219696413292888064",
     "discord_history": [
@@ -9869,9 +9882,9 @@
     "player_id": "p1295",
     "name": "Dr. Ivo Robotnik",
     "discord": "heybumbumbumgotanygrapes",
-    "party": "Independent",
+    "party": "dem",
     "state": "West Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1274754200466624618",
     "discord_history": [
@@ -9905,7 +9918,7 @@
     "discord": "d.burgess",
     "party": "cst",
     "state": "Utah",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "338853029946327040",
     "discord_history": [
@@ -9939,7 +9952,7 @@
     "discord": "chase043976",
     "party": "dem",
     "state": "New Mexico",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1456055534909259928",
     "discord_history": [
@@ -9971,9 +9984,9 @@
     "player_id": "p1304",
     "name": "Kanye West",
     "discord": "internetanyahu",
-    "party": "gop",
+    "party": "dem",
     "state": "North Carolina",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "966709449081360494",
     "discord_history": [
@@ -10007,7 +10020,7 @@
     "discord": "",
     "party": "dem",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -10020,7 +10033,7 @@
     "discord": "",
     "party": "gop",
     "state": "Arizona",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -10031,9 +10044,9 @@
     "player_id": "p1304",
     "name": "Nicholas J. Fuentes",
     "discord": "internetanyahu",
-    "party": "gop",
+    "party": "dem",
     "state": "Illinois",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "966709449081360494",
     "discord_history": [
@@ -10063,11 +10076,11 @@
     "first_seen": "2026-10-20",
     "profile_id": "1308",
     "player_id": "p1304",
-    "name": "bibino₪",
+    "name": "Culver's",
     "discord": "internetanyahu",
-    "party": "gop",
-    "state": "Florida",
-    "last_seen": "2026-10-24",
+    "party": "dem",
+    "state": "Wisconsin",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "966709449081360494",
     "discord_history": [
@@ -10101,7 +10114,7 @@
     "discord": "",
     "party": "dem",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -10113,8 +10126,8 @@
     "name": "Alex Lux",
     "discord": "kadencegok",
     "party": "dem",
-    "state": "California",
-    "last_seen": "2026-10-24",
+    "state": "Texas",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "479291214496006145",
     "discord_history": [
@@ -10148,7 +10161,7 @@
     "discord": "",
     "party": "gop",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -10187,7 +10200,7 @@
     "discord": "mr.snail67",
     "party": "grn",
     "state": "Tennessee",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1505609162426683542",
     "discord_history": [
@@ -10221,7 +10234,7 @@
     "discord": "realpalpatine",
     "party": "dem",
     "state": "Arkansas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "418130098881953802",
     "discord_history": [
@@ -10255,7 +10268,7 @@
     "discord": "",
     "party": "gop",
     "state": "Arkansas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -10294,7 +10307,7 @@
     "discord": "realpalpatine",
     "party": "dem",
     "state": "Arkansas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "418130098881953802",
     "discord_history": [
@@ -10328,7 +10341,7 @@
     "discord": "",
     "party": "gop",
     "state": "Hawaii",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": [
@@ -10367,7 +10380,7 @@
     "discord": "d.burgess",
     "party": "cst",
     "state": "Utah",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "338853029946327040",
     "discord_history": [
@@ -10401,7 +10414,7 @@
     "discord": "",
     "party": "gop",
     "state": "Wyoming",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -10414,7 +10427,7 @@
     "discord": "",
     "party": "gop",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -10427,7 +10440,7 @@
     "discord": "",
     "party": "gop",
     "state": "Wisconsin",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -10440,7 +10453,7 @@
     "discord": "toonorthern",
     "party": "dem",
     "state": "North Carolina",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "450490859738365983",
     "discord_history": [
@@ -10474,7 +10487,7 @@
     "discord": "drone1935",
     "party": "dem",
     "state": "Washington",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1350483903462248528",
     "discord_history": [
@@ -10508,7 +10521,7 @@
     "discord": "shadowmocker",
     "party": "dem",
     "state": "South Dakota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1440155160243474626",
     "discord_history": [
@@ -10542,7 +10555,7 @@
     "discord": "shadowmocker",
     "party": "dem",
     "state": "South Dakota",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1440155160243474626",
     "discord_history": [
@@ -10576,7 +10589,7 @@
     "discord": "noble_pony_17489",
     "party": "cst",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1398129111259676736",
     "discord_history": [
@@ -10610,7 +10623,7 @@
     "discord": "noble_pony_17489",
     "party": "cst",
     "state": "Texas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1398129111259676736",
     "discord_history": [
@@ -10644,7 +10657,7 @@
     "discord": "noble_pony_17489",
     "party": "cst",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1398129111259676736",
     "discord_history": [
@@ -10678,7 +10691,7 @@
     "discord": "realpalpatine",
     "party": "dem",
     "state": "Kansas",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "418130098881953802",
     "discord_history": [
@@ -10712,7 +10725,7 @@
     "discord": "",
     "party": "Independent",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -10725,7 +10738,7 @@
     "discord": "jwcorp_84739",
     "party": "gop",
     "state": "Pennsylvania",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1379709691663355974",
     "discord_history": [
@@ -10759,7 +10772,7 @@
     "discord": "1gman4evr",
     "party": "gop",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "241007781858115584",
     "discord_history": [
@@ -10793,7 +10806,7 @@
     "discord": "certifiedyapper2026",
     "party": "dem",
     "state": "Massachusetts",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1353248676398501938",
     "discord_history": [
@@ -10827,7 +10840,7 @@
     "discord": "americantraditionalist",
     "party": "gop",
     "state": "Georgia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1144342925304660028",
     "discord_history": [
@@ -10861,7 +10874,7 @@
     "discord": "americantraditionalist",
     "party": "gop",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1144342925304660028",
     "discord_history": [
@@ -10895,7 +10908,7 @@
     "discord": "americantraditionalist",
     "party": "gop",
     "state": "West Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1144342925304660028",
     "discord_history": [
@@ -10927,9 +10940,9 @@
     "player_id": "p1336",
     "name": "Kylian Mobutu",
     "discord": "kylianmbappe0697",
-    "party": "gop",
+    "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1559920088130261075",
     "discord_history": [
@@ -10961,9 +10974,9 @@
     "player_id": "p1336",
     "name": "Erling Himmler",
     "discord": "kylianmbappe0697",
-    "party": "gop",
+    "party": "dem",
     "state": "California",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1559920088130261075",
     "discord_history": [
@@ -10995,9 +11008,9 @@
     "player_id": "p1336",
     "name": "Lionel Mussolini",
     "discord": "kylianmbappe0697",
-    "party": "gop",
+    "party": "dem",
     "state": "Nevada",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1559920088130261075",
     "discord_history": [
@@ -11031,7 +11044,7 @@
     "discord": "ron210p",
     "party": "grn",
     "state": "Mississippi",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1175438560984305697",
     "discord_history": [
@@ -11065,7 +11078,7 @@
     "discord": "",
     "party": "gop",
     "state": "Oklahoma",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -11078,7 +11091,7 @@
     "discord": "jwcorp_84739",
     "party": "gop",
     "state": "Wyoming",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1379709691663355974",
     "discord_history": [
@@ -11112,7 +11125,7 @@
     "discord": "jwcorp_84739",
     "party": "gop",
     "state": "Nevada",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1379709691663355974",
     "discord_history": [
@@ -11146,7 +11159,7 @@
     "discord": "coletrain.2026",
     "party": "dem",
     "state": "Missouri",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1292883592904446033",
     "discord_history": [
@@ -11180,7 +11193,7 @@
     "discord": "greekleftist",
     "party": "dem",
     "state": "Michigan",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1515453411015917722",
     "discord_history": [
@@ -11214,7 +11227,7 @@
     "discord": "greekleftist",
     "party": "dem",
     "state": "Oklahoma",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1515453411015917722",
     "discord_history": [
@@ -11248,7 +11261,7 @@
     "discord": "",
     "party": "gop",
     "state": "Pennsylvania",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -11261,7 +11274,7 @@
     "discord": "",
     "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "",
     "discord_history": []
@@ -11274,7 +11287,7 @@
     "discord": "1gman4evr",
     "party": "gop",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "241007781858115584",
     "discord_history": [
@@ -11308,7 +11321,7 @@
     "discord": "1gman4evr",
     "party": "gop",
     "state": "Ohio",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "241007781858115584",
     "discord_history": [
@@ -11342,7 +11355,7 @@
     "discord": "greekleftist",
     "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1515453411015917722",
     "discord_history": [
@@ -11394,7 +11407,7 @@
     "discord_id": "1390846237288169652",
     "party": "grn",
     "state": "Nevada",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1352": {
@@ -11423,7 +11436,7 @@
     "discord_id": "734084874251665518",
     "party": "grn",
     "state": "Rhode Island",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1353": {
@@ -11436,7 +11449,7 @@
     "discord_id": "",
     "party": "dem",
     "state": "Massachusetts",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1354": {
@@ -11449,7 +11462,7 @@
     "discord_id": "",
     "party": "dem",
     "state": "Vermont",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1355": {
@@ -11478,7 +11491,7 @@
     "discord_id": "769624078343995432",
     "party": "grn",
     "state": "Maryland",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1356": {
@@ -11491,7 +11504,7 @@
     "discord_id": "",
     "party": "dem",
     "state": "Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1357": {
@@ -11520,7 +11533,7 @@
     "discord_id": "",
     "party": "gop",
     "state": "West Virginia",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1358": {
@@ -11549,7 +11562,7 @@
     "discord_id": "1412134134158987527",
     "party": "dem",
     "state": "New Jersey",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1359": {
@@ -11568,7 +11581,7 @@
     "discord_id": "",
     "party": "gop",
     "state": "Nevada",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1360": {
@@ -11587,7 +11600,7 @@
     "discord_id": "",
     "party": "gop",
     "state": "Illinois",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1361": {
@@ -11606,7 +11619,7 @@
     "discord_id": "",
     "party": "gop",
     "state": "Indiana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1362": {
@@ -11619,7 +11632,7 @@
     "discord_id": "",
     "party": "gop",
     "state": "Louisiana",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1364": {
@@ -11638,7 +11651,7 @@
     "discord_id": "1451742560845435032",
     "party": "gop",
     "state": "Florida",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1365": {
@@ -11651,7 +11664,7 @@
     "discord_id": "",
     "party": "dem",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1366": {
@@ -11664,7 +11677,7 @@
     "discord_id": "",
     "party": "gop",
     "state": "New York",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
     "on_site": true
   },
   "1367": {
@@ -11683,7 +11696,64 @@
     "discord_id": "887481623203950693",
     "party": "gop",
     "state": "Colorado",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-25",
+    "on_site": true
+  },
+  "1368": {
+    "profile_id": "1368",
+    "player_id": "p1368",
+    "first_seen": "2026-10-25",
+    "discord_history": [
+      {
+        "discord": "theofficialking0829",
+        "discord_id": "1373437758961356912",
+        "first_seen": "2026-10-25"
+      }
+    ],
+    "name": "Byron Donalds",
+    "discord": "theofficialking0829",
+    "discord_id": "1373437758961356912",
+    "party": "gop",
+    "state": "Florida",
+    "last_seen": "2026-10-25",
+    "on_site": true
+  },
+  "1369": {
+    "profile_id": "1369",
+    "player_id": "p1369",
+    "first_seen": "2026-10-25",
+    "discord_history": [
+      {
+        "discord": "littledipperbigdipper",
+        "discord_id": "1425102559596773467",
+        "first_seen": "2026-10-25"
+      }
+    ],
+    "name": "jewdith",
+    "discord": "littledipperbigdipper",
+    "discord_id": "1425102559596773467",
+    "party": "Independent",
+    "state": "Texas",
+    "last_seen": "2026-10-25",
+    "on_site": true
+  },
+  "1370": {
+    "profile_id": "1370",
+    "player_id": "p1368",
+    "first_seen": "2026-10-25",
+    "discord_history": [
+      {
+        "discord": "theofficialking0829",
+        "discord_id": "1373437758961356912",
+        "first_seen": "2026-10-25"
+      }
+    ],
+    "name": "Paul Renner",
+    "discord": "theofficialking0829",
+    "discord_id": "1373437758961356912",
+    "party": "gop",
+    "state": "Florida",
+    "last_seen": "2026-10-25",
     "on_site": true
   }
 }
