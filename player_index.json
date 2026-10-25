@@ -32,11 +32,11 @@
     "discord": "",
     "discord_id": "",
     "discord_history": [],
-    "party": "G",
-    "state": "CT",
+    "party": "grn",
+    "state": "Connecticut",
     "first_seen": "2026-10-20",
-    "last_seen": null,
-    "on_site": false
+    "last_seen": "2026-10-25",
+    "on_site": true
   },
   "1000": {
     "first_seen": "2026-10-20",
@@ -777,7 +777,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1023",
     "player_id": "p1011",
-    "name": "Jeff Leach",
+    "name": "Manny Rutinel",
     "discord": "berlinsucks",
     "party": "grn",
     "state": "Colorado",
@@ -879,7 +879,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1026",
     "player_id": "p1026",
-    "name": "Robert Keating",
+    "name": "ABBY LEE MILLER",
     "discord": "marcsexual",
     "party": "grn",
     "state": "California",
@@ -4115,7 +4115,7 @@
     "state": "Oregon",
     "last_seen": "2026-10-25",
     "on_site": true,
-    "discord_id": "",
+    "discord_id": "1374176733200252958",
     "discord_history": [
       {
         "discord": "lazarbanagain",
@@ -4131,6 +4131,11 @@
         "discord": "lazarbanagain",
         "discord_id": "",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "lazarbanagain",
+        "discord_id": "1374176733200252958",
+        "first_seen": "2026-10-25"
       }
     ]
   },
@@ -4178,7 +4183,7 @@
     "state": "Hawaii",
     "last_seen": "2026-10-25",
     "on_site": true,
-    "discord_id": "",
+    "discord_id": "1374176733200252958",
     "discord_history": [
       {
         "discord": "lazarbanagain",
@@ -4194,6 +4199,11 @@
         "discord": "lazarbanagain",
         "discord_id": "",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "lazarbanagain",
+        "discord_id": "1374176733200252958",
+        "first_seen": "2026-10-25"
       }
     ]
   },
@@ -5077,7 +5087,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1155",
     "player_id": "p1155",
-    "name": "Nagasaki",
+    "name": "Shock",
     "discord": "orangejuice789",
     "party": "dem",
     "state": "Oregon",
@@ -5179,10 +5189,10 @@
     "first_seen": "2026-10-20",
     "profile_id": "1158",
     "player_id": "p1155",
-    "name": "Chernobyl",
+    "name": "Barrel",
     "discord": "orangejuice789",
     "party": "dem",
-    "state": "California",
+    "state": "New Hampshire",
     "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1475172188398288917",
@@ -6950,7 +6960,7 @@
     "name": "Nikki",
     "discord": "venus.444",
     "party": "grn",
-    "state": "Indiana",
+    "state": "Hawaii",
     "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1431041441739833437",
@@ -7018,7 +7028,7 @@
     "name": "Jose Canseco",
     "discord": "_mandoge",
     "party": "cst",
-    "state": "Mississippi",
+    "state": "Texas",
     "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "192748374317989898",
@@ -7599,7 +7609,7 @@
     "state": "Washington",
     "last_seen": "2026-10-25",
     "on_site": true,
-    "discord_id": "",
+    "discord_id": "1374176733200252958",
     "discord_history": [
       {
         "discord": "lazarbanagain",
@@ -7615,6 +7625,11 @@
         "discord": "lazarbanagain",
         "discord_id": "",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "lazarbanagain",
+        "discord_id": "1374176733200252958",
+        "first_seen": "2026-10-25"
       }
     ]
   },
@@ -7758,7 +7773,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1236",
     "player_id": "p1026",
-    "name": "Elijah Hewson",
+    "name": "Robert Keating",
     "discord": "marcsexual",
     "party": "grn",
     "state": "Ohio",
@@ -9472,10 +9487,10 @@
     "first_seen": "2026-10-20",
     "profile_id": "1289",
     "player_id": "p1155",
-    "name": "Hiroshima",
+    "name": "Lock",
     "discord": "orangejuice789",
     "party": "dem",
-    "state": "Colorado",
+    "state": "New York",
     "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1475172188398288917",
@@ -9645,7 +9660,7 @@
     "name": "Jewish George Clooney",
     "discord": "lil_mama92",
     "party": "dem",
-    "state": "California",
+    "state": "New Hampshire",
     "last_seen": "2026-10-25",
     "on_site": true,
     "discord_id": "1554189281751343166",

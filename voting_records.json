@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:35:55+00:00",
+  "generated_at": "2026-10-25T20:36:06+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -1206,7 +1206,7 @@
     {
       "type": "player",
       "id": "p1026",
-      "label": "marcsexual (Robert Keating)",
+      "label": "marcsexual (ABBY LEE MILLER)",
       "aliases": [
         "marcsexual"
       ],
@@ -1365,7 +1365,7 @@
     {
       "type": "player",
       "id": "p1155",
-      "label": "orangejuice789 (Nagasaki)",
+      "label": "orangejuice789 (Shock)",
       "aliases": [
         "orangejuice789"
       ],
@@ -1897,6 +1897,12 @@
     },
     {
       "type": "profile",
+      "id": "1026",
+      "label": "ABBY LEE MILLER (1026)",
+      "player_id": "p1026"
+    },
+    {
+      "type": "profile",
       "id": "1011",
       "label": "Abdul El-Sayed (1011)",
       "player_id": "p1011"
@@ -2080,6 +2086,12 @@
       "id": "1141",
       "label": "Barbara Mikulski (1141)",
       "player_id": "p1141"
+    },
+    {
+      "type": "profile",
+      "id": "1158",
+      "label": "Barrel (1158)",
+      "player_id": "p1155"
     },
     {
       "type": "profile",
@@ -2302,12 +2314,6 @@
       "id": "1032",
       "label": "Chelsey Ammari (1032)",
       "player_id": "p1032"
-    },
-    {
-      "type": "profile",
-      "id": "1158",
-      "label": "Chernobyl (1158)",
-      "player_id": "p1155"
     },
     {
       "type": "profile",
@@ -2548,12 +2554,6 @@
       "id": "1016",
       "label": "Elias Sorel (1016)",
       "player_id": "p1005"
-    },
-    {
-      "type": "profile",
-      "id": "1236",
-      "label": "Elijah Hewson (1236)",
-      "player_id": "p1026"
     },
     {
       "type": "profile",
@@ -2833,12 +2833,6 @@
     },
     {
       "type": "profile",
-      "id": "1289",
-      "label": "Hiroshima (1289)",
-      "player_id": "p1155"
-    },
-    {
-      "type": "profile",
       "id": "1060",
       "label": "Howard Lutnick (1060)",
       "player_id": "p1053"
@@ -2956,12 +2950,6 @@
       "id": "1228",
       "label": "Jeff Buckley (1228)",
       "player_id": "p1107"
-    },
-    {
-      "type": "profile",
-      "id": "1023",
-      "label": "Jeff Leach (1023)",
-      "player_id": "p1011"
     },
     {
       "type": "profile",
@@ -3301,6 +3289,12 @@
     },
     {
       "type": "profile",
+      "id": "1289",
+      "label": "Lock (1289)",
+      "player_id": "p1155"
+    },
+    {
+      "type": "profile",
       "id": "1031",
       "label": "Lois Griffin (1031)",
       "player_id": "p1024"
@@ -3340,6 +3334,12 @@
       "id": "1313",
       "label": "Mackenzie Wrzesinski (1313)",
       "player_id": "p1313"
+    },
+    {
+      "type": "profile",
+      "id": "1023",
+      "label": "Manny Rutinel (1023)",
+      "player_id": "p1011"
     },
     {
       "type": "profile",
@@ -3478,12 +3478,6 @@
       "id": "1146",
       "label": "Mon Mothma (1146)",
       "player_id": "p1146"
-    },
-    {
-      "type": "profile",
-      "id": "1155",
-      "label": "Nagasaki (1155)",
-      "player_id": "p1155"
     },
     {
       "type": "profile",
@@ -3715,8 +3709,8 @@
     },
     {
       "type": "profile",
-      "id": "1026",
-      "label": "Robert Keating (1026)",
+      "id": "1236",
+      "label": "Robert Keating (1236)",
       "player_id": "p1026"
     },
     {
@@ -3838,6 +3832,12 @@
       "id": "1135",
       "label": "Shego Green (1135)",
       "player_id": "p1134"
+    },
+    {
+      "type": "profile",
+      "id": "1155",
+      "label": "Shock (1155)",
+      "player_id": "p1155"
     },
     {
       "type": "profile",
@@ -11928,7 +11928,7 @@
             "profile_id": "1214",
             "name": "Jose Canseco",
             "party": "cst",
-            "state": "Mississippi",
+            "state": "Texas",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/192748374317989898/632aba7f2814eaa5f9b2e5e2eba2238b.webp",
             "is_main": false,
@@ -12666,7 +12666,7 @@
           "profile_id": "1214",
           "name": "Jose Canseco",
           "party": "cst",
-          "state": "Mississippi",
+          "state": "Texas",
           "is_main": false,
           "on_site": true
         }
@@ -15978,7 +15978,7 @@
           },
           {
             "profile_id": "1023",
-            "name": "Jeff Leach",
+            "name": "Manny Rutinel",
             "party": "grn",
             "state": "Colorado",
             "chamber": "Other",
@@ -16055,7 +16055,7 @@
         },
         {
           "profile_id": "1023",
-          "name": "Jeff Leach",
+          "name": "Manny Rutinel",
           "party": "grn",
           "state": "Colorado",
           "is_main": false,
@@ -59904,13 +59904,15 @@
         "player_id": "p1125",
         "name": "Steph Hodgins-May",
         "discord": "lazarbanagain",
-        "discord_ids": [],
+        "discord_ids": [
+          "1374176733200252958"
+        ],
         "party": "grn",
         "state": "Oregon",
         "chambers": [
           "Senate"
         ],
-        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "avatar": "https://cdn.discordapp.com/avatars/1374176733200252958/619bd2c285720abf92a15fd5490e8206.webp",
         "profiles": [
           {
             "profile_id": "1125",
@@ -59918,7 +59920,7 @@
             "party": "grn",
             "state": "Oregon",
             "chamber": "Senate",
-            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "avatar": "https://cdn.discordapp.com/avatars/1374176733200252958/619bd2c285720abf92a15fd5490e8206.webp",
             "is_main": true,
             "on_site": true,
             "offices": [
@@ -59933,7 +59935,7 @@
             "party": "grn",
             "state": "Hawaii",
             "chamber": "Senate",
-            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "avatar": "https://cdn.discordapp.com/avatars/1374176733200252958/619bd2c285720abf92a15fd5490e8206.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -59948,7 +59950,7 @@
             "party": "grn",
             "state": "Washington",
             "chamber": "Senate",
-            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "avatar": "https://cdn.discordapp.com/avatars/1374176733200252958/619bd2c285720abf92a15fd5490e8206.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -60017,7 +60019,9 @@
       "discord_aliases": [
         "lazarbanagain"
       ],
-      "discord_ids": [],
+      "discord_ids": [
+        "1374176733200252958"
+      ],
       "name": "Steph Hodgins-May",
       "profile_ids": [
         "1125",
@@ -60601,7 +60605,7 @@
             "profile_id": "1294",
             "name": "Jewish George Clooney",
             "party": "dem",
-            "state": "California",
+            "state": "New Hampshire",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1554189281751343166/1a6db06dc3291fa3b4a6287e7b48fe42.webp",
             "is_main": false,
@@ -60986,7 +60990,7 @@
           "profile_id": "1294",
           "name": "Jewish George Clooney",
           "party": "dem",
-          "state": "California",
+          "state": "New Hampshire",
           "is_main": false,
           "on_site": true
         }
@@ -61909,7 +61913,7 @@
       "conservative_scorecard": {
         "user_id": "p1026",
         "player_id": "p1026",
-        "name": "Robert Keating",
+        "name": "ABBY LEE MILLER",
         "discord": "marcsexual",
         "discord_ids": [
           "1406312807691063419"
@@ -61923,7 +61927,7 @@
         "profiles": [
           {
             "profile_id": "1026",
-            "name": "Robert Keating",
+            "name": "ABBY LEE MILLER",
             "party": "grn",
             "state": "California",
             "chamber": "Other",
@@ -61949,7 +61953,7 @@
           },
           {
             "profile_id": "1236",
-            "name": "Elijah Hewson",
+            "name": "Robert Keating",
             "party": "grn",
             "state": "Ohio",
             "chamber": "Other",
@@ -61996,7 +62000,7 @@
       "discord_ids": [
         "1406312807691063419"
       ],
-      "name": "Robert Keating",
+      "name": "ABBY LEE MILLER",
       "profile_ids": [
         "1026",
         "1071",
@@ -62005,7 +62009,7 @@
       "profiles": [
         {
           "profile_id": "1026",
-          "name": "Robert Keating",
+          "name": "ABBY LEE MILLER",
           "party": "grn",
           "state": "California",
           "is_main": true,
@@ -62021,7 +62025,7 @@
         },
         {
           "profile_id": "1236",
-          "name": "Elijah Hewson",
+          "name": "Robert Keating",
           "party": "grn",
           "state": "Ohio",
           "is_main": false,
@@ -66977,7 +66981,7 @@
       "conservative_scorecard": {
         "user_id": "p1155",
         "player_id": "p1155",
-        "name": "Nagasaki",
+        "name": "Shock",
         "discord": "orangejuice789",
         "discord_ids": [
           "1475172188398288917"
@@ -66992,7 +66996,7 @@
         "profiles": [
           {
             "profile_id": "1155",
-            "name": "Nagasaki",
+            "name": "Shock",
             "party": "dem",
             "state": "Oregon",
             "chamber": "House",
@@ -67007,9 +67011,9 @@
           },
           {
             "profile_id": "1158",
-            "name": "Chernobyl",
+            "name": "Barrel",
             "party": "dem",
-            "state": "California",
+            "state": "New Hampshire",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1475172188398288917/248b29aea0f21d72f1f0663b3bc61e44.webp",
             "is_main": false,
@@ -67020,9 +67024,9 @@
           },
           {
             "profile_id": "1289",
-            "name": "Hiroshima",
+            "name": "Lock",
             "party": "dem",
-            "state": "Colorado",
+            "state": "New York",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/1475172188398288917/248b29aea0f21d72f1f0663b3bc61e44.webp",
             "is_main": false,
@@ -67066,7 +67070,7 @@
             "vote": "nay",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67079,7 +67083,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67092,7 +67096,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67105,7 +67109,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67118,7 +67122,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67131,7 +67135,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67144,7 +67148,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67157,7 +67161,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67170,7 +67174,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67183,7 +67187,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67196,7 +67200,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67209,7 +67213,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67222,7 +67226,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67235,7 +67239,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67248,7 +67252,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67261,7 +67265,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67274,7 +67278,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67287,7 +67291,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67300,7 +67304,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67313,7 +67317,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67326,7 +67330,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67339,7 +67343,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67352,7 +67356,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67365,7 +67369,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67378,7 +67382,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67391,7 +67395,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67404,7 +67408,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67417,7 +67421,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67430,7 +67434,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67443,7 +67447,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "House"
           },
           {
@@ -67456,7 +67460,7 @@
             "vote": "nay",
             "aligned": false,
             "profile_id": "1155",
-            "profile_name": "Nagasaki",
+            "profile_name": "Shock",
             "chamber": "Senate"
           }
         ],
@@ -67473,7 +67477,7 @@
       "discord_ids": [
         "1475172188398288917"
       ],
-      "name": "Nagasaki",
+      "name": "Shock",
       "profile_ids": [
         "1155",
         "1158",
@@ -67482,7 +67486,7 @@
       "profiles": [
         {
           "profile_id": "1155",
-          "name": "Nagasaki",
+          "name": "Shock",
           "party": "dem",
           "state": "Oregon",
           "is_main": true,
@@ -67490,17 +67494,17 @@
         },
         {
           "profile_id": "1158",
-          "name": "Chernobyl",
+          "name": "Barrel",
           "party": "dem",
-          "state": "California",
+          "state": "New Hampshire",
           "is_main": false,
           "on_site": true
         },
         {
           "profile_id": "1289",
-          "name": "Hiroshima",
+          "name": "Lock",
           "party": "dem",
-          "state": "Colorado",
+          "state": "New York",
           "is_main": false,
           "on_site": true
         }
@@ -71510,22 +71514,22 @@
         "name": "Ralph Nader",
         "discord": "",
         "discord_ids": [],
-        "party": "g",
-        "state": "CT",
+        "party": "grn",
+        "state": "Connecticut",
         "chambers": [
           "Other"
         ],
-        "avatar": "",
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
         "profiles": [
           {
             "profile_id": "77",
             "name": "Ralph Nader",
-            "party": "g",
-            "state": "CT",
+            "party": "grn",
+            "state": "Connecticut",
             "chamber": "Other",
-            "avatar": "",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
-            "on_site": false,
+            "on_site": true,
             "offices": [],
             "office": "",
             "office_count": 0
@@ -71570,10 +71574,10 @@
         {
           "profile_id": "77",
           "name": "Ralph Nader",
-          "party": "G",
-          "state": "CT",
+          "party": "grn",
+          "state": "Connecticut",
           "is_main": false,
-          "on_site": false
+          "on_site": true
         }
       ],
       "counts": {
@@ -83776,7 +83780,7 @@
             "profile_id": "1212",
             "name": "Nikki",
             "party": "grn",
-            "state": "Indiana",
+            "state": "Hawaii",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1431041441739833437/d8ad99ccbc3ff5bb2dbe117202aaf05b.webp",
             "is_main": false,
@@ -83848,7 +83852,7 @@
           "profile_id": "1212",
           "name": "Nikki",
           "party": "grn",
-          "state": "Indiana",
+          "state": "Hawaii",
           "is_main": false,
           "on_site": true
         }
@@ -91138,10 +91142,10 @@
       "discord": "",
       "discord_id": "",
       "discord_history": [],
-      "party": "G",
-      "state": "CT",
+      "party": "grn",
+      "state": "Connecticut",
       "is_main": false,
-      "on_site": false,
+      "on_site": true,
       "counts": {
         "bills": 1,
         "sponsored": 1,
@@ -96498,7 +96502,7 @@
     {
       "profile_id": "1023",
       "player_id": "p1011",
-      "name": "Jeff Leach",
+      "name": "Manny Rutinel",
       "discord": "berlinsucks",
       "discord_id": "829048047770009611",
       "discord_history": [
@@ -97922,7 +97926,7 @@
     {
       "profile_id": "1026",
       "player_id": "p1026",
-      "name": "Robert Keating",
+      "name": "ABBY LEE MILLER",
       "discord": "marcsexual",
       "discord_id": "1406312807691063419",
       "discord_history": [
@@ -124689,7 +124693,7 @@
       "player_id": "p1125",
       "name": "Steph Hodgins-May",
       "discord": "lazarbanagain",
-      "discord_id": "",
+      "discord_id": "1374176733200252958",
       "discord_history": [
         {
           "discord": "lazarbanagain",
@@ -124705,6 +124709,11 @@
           "discord": "lazarbanagain",
           "discord_id": "",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "lazarbanagain",
+          "discord_id": "1374176733200252958",
+          "first_seen": "2026-10-25"
         }
       ],
       "party": "grn",
@@ -124948,7 +124957,7 @@
       "player_id": "p1125",
       "name": "Sarah Hanson-Young",
       "discord": "lazarbanagain",
-      "discord_id": "",
+      "discord_id": "1374176733200252958",
       "discord_history": [
         {
           "discord": "lazarbanagain",
@@ -124964,6 +124973,11 @@
           "discord": "lazarbanagain",
           "discord_id": "",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "lazarbanagain",
+          "discord_id": "1374176733200252958",
+          "first_seen": "2026-10-25"
         }
       ],
       "party": "grn",
@@ -129028,7 +129042,7 @@
     {
       "profile_id": "1155",
       "player_id": "p1155",
-      "name": "Nagasaki",
+      "name": "Shock",
       "discord": "orangejuice789",
       "discord_id": "1475172188398288917",
       "discord_history": [
@@ -129657,7 +129671,7 @@
     {
       "profile_id": "1158",
       "player_id": "p1155",
-      "name": "Chernobyl",
+      "name": "Barrel",
       "discord": "orangejuice789",
       "discord_id": "1475172188398288917",
       "discord_history": [
@@ -129683,7 +129697,7 @@
         }
       ],
       "party": "dem",
-      "state": "California",
+      "state": "New Hampshire",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -138391,7 +138405,7 @@
         }
       ],
       "party": "grn",
-      "state": "Indiana",
+      "state": "Hawaii",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -138489,7 +138503,7 @@
         }
       ],
       "party": "cst",
-      "state": "Mississippi",
+      "state": "Texas",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -140444,7 +140458,7 @@
       "player_id": "p1125",
       "name": "Larissa Waters",
       "discord": "lazarbanagain",
-      "discord_id": "",
+      "discord_id": "1374176733200252958",
       "discord_history": [
         {
           "discord": "lazarbanagain",
@@ -140460,6 +140474,11 @@
           "discord": "lazarbanagain",
           "discord_id": "",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "lazarbanagain",
+          "discord_id": "1374176733200252958",
+          "first_seen": "2026-10-25"
         }
       ],
       "party": "grn",
@@ -140774,7 +140793,7 @@
     {
       "profile_id": "1236",
       "player_id": "p1026",
-      "name": "Elijah Hewson",
+      "name": "Robert Keating",
       "discord": "marcsexual",
       "discord_id": "1406312807691063419",
       "discord_history": [
@@ -146295,7 +146314,7 @@
     {
       "profile_id": "1289",
       "player_id": "p1155",
-      "name": "Hiroshima",
+      "name": "Lock",
       "discord": "orangejuice789",
       "discord_id": "1475172188398288917",
       "discord_history": [
@@ -146321,7 +146340,7 @@
         }
       ],
       "party": "dem",
-      "state": "Colorado",
+      "state": "New York",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -146733,7 +146752,7 @@
         }
       ],
       "party": "dem",
-      "state": "California",
+      "state": "New Hampshire",
       "is_main": false,
       "on_site": true,
       "counts": {
