@@ -1556,7 +1556,7 @@
     "player_id": "p1046",
     "name": "Loki",
     "discord": "yoitzdan",
-    "party": "grn",
+    "party": "dem",
     "state": "New York",
     "last_seen": "2026-10-26",
     "on_site": true,
@@ -1724,9 +1724,9 @@
     "first_seen": "2026-10-20",
     "profile_id": "1051",
     "player_id": "p1046",
-    "name": "Poison Ivy",
+    "name": "WEAREWOW.GRAPE",
     "discord": "yoitzdan",
-    "party": "grn",
+    "party": "dem",
     "state": "New York",
     "last_seen": "2026-10-26",
     "on_site": true,
@@ -3431,7 +3431,7 @@
     "player_id": "p1105",
     "name": "LANDO NORRIS",
     "discord": "trustfundfinance",
-    "party": "grn",
+    "party": "Independent",
     "state": "Illinois",
     "last_seen": "2026-10-26",
     "on_site": true,
@@ -3533,7 +3533,7 @@
     "player_id": "p1105",
     "name": "GEORGE RUSSELL",
     "discord": "trustfundfinance",
-    "party": "grn",
+    "party": "Independent",
     "state": "Maryland",
     "last_seen": "2026-10-26",
     "on_site": true,
@@ -6674,7 +6674,7 @@
     "player_id": "p1105",
     "name": "AMBERLYNN REID",
     "discord": "trustfundfinance",
-    "party": "grn",
+    "party": "Independent",
     "state": "Pennsylvania",
     "last_seen": "2026-10-26",
     "on_site": true,
@@ -8845,7 +8845,7 @@
     "player_id": "p1046",
     "name": "Lisa",
     "discord": "yoitzdan",
-    "party": "grn",
+    "party": "dem",
     "state": "New Hampshire",
     "last_seen": "2026-10-26",
     "on_site": true,
@@ -11594,11 +11594,16 @@
         "discord": "yakub67420",
         "discord_id": "",
         "first_seen": "2026-10-24"
+      },
+      {
+        "discord": "yakub67420",
+        "discord_id": "1562800467011051601",
+        "first_seen": "2026-10-26"
       }
     ],
     "name": "Chuck Bartowski",
     "discord": "yakub67420",
-    "discord_id": "",
+    "discord_id": "1562800467011051601",
     "party": "dem",
     "state": "Nevada",
     "last_seen": "2026-10-26",
@@ -11613,11 +11618,16 @@
         "discord": "yakub67420",
         "discord_id": "",
         "first_seen": "2026-10-24"
+      },
+      {
+        "discord": "yakub67420",
+        "discord_id": "1562800467011051601",
+        "first_seen": "2026-10-26"
       }
     ],
     "name": "Jakub Kostiuczuk",
     "discord": "yakub67420",
-    "discord_id": "",
+    "discord_id": "1562800467011051601",
     "party": "dem",
     "state": "Illinois",
     "last_seen": "2026-10-26",
@@ -11632,11 +11642,16 @@
         "discord": "yakub67420",
         "discord_id": "",
         "first_seen": "2026-10-24"
+      },
+      {
+        "discord": "yakub67420",
+        "discord_id": "1562800467011051601",
+        "first_seen": "2026-10-26"
       }
     ],
     "name": "Doroteusz Sawicki",
     "discord": "yakub67420",
-    "discord_id": "",
+    "discord_id": "1562800467011051601",
     "party": "dem",
     "state": "Indiana",
     "last_seen": "2026-10-26",
@@ -11817,10 +11832,15 @@
         "discord": "deleted_user_f744cd97f804",
         "discord_id": "",
         "first_seen": "2026-10-26"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-10-26"
       }
     ],
     "name": "Dan Quayle",
-    "discord": "deleted_user_f744cd97f804",
+    "discord": "",
     "discord_id": "",
     "party": "dsa",
     "state": "Idaho",
@@ -11836,10 +11856,15 @@
         "discord": "deleted_user_f744cd97f804",
         "discord_id": "",
         "first_seen": "2026-10-26"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-10-26"
       }
     ],
     "name": "Barron Trump",
-    "discord": "deleted_user_f744cd97f804",
+    "discord": "",
     "discord_id": "",
     "party": "dsa",
     "state": "Utah",
@@ -11855,10 +11880,15 @@
         "discord": "deleted_user_f744cd97f804",
         "discord_id": "",
         "first_seen": "2026-10-26"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-10-26"
       }
     ],
     "name": "Brandon Gill",
-    "discord": "deleted_user_f744cd97f804",
+    "discord": "",
     "discord_id": "",
     "party": "dsa",
     "state": "Montana",

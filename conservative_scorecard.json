@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T12:18:05+00:00",
+  "generated_at": "2026-10-26T22:19:51+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -44526,7 +44526,7 @@
       "discord_ids": [
         "1273992220730589270"
       ],
-      "party": "grn",
+      "party": "independent",
       "state": "Illinois",
       "chambers": [
         "House",
@@ -44537,7 +44537,7 @@
         {
           "profile_id": "1105",
           "name": "LANDO NORRIS",
-          "party": "grn",
+          "party": "independent",
           "state": "Illinois",
           "chamber": "House",
           "avatar": "https://cdn.discordapp.com/avatars/1273992220730589270/e74fea01147b8ed2f842a66a9f7053d3.webp",
@@ -44552,7 +44552,7 @@
         {
           "profile_id": "1108",
           "name": "GEORGE RUSSELL",
-          "party": "grn",
+          "party": "independent",
           "state": "Maryland",
           "chamber": "House",
           "avatar": "https://cdn.discordapp.com/avatars/1273992220730589270/e74fea01147b8ed2f842a66a9f7053d3.webp",
@@ -44567,7 +44567,7 @@
         {
           "profile_id": "1203",
           "name": "AMBERLYNN REID",
-          "party": "grn",
+          "party": "independent",
           "state": "Pennsylvania",
           "chamber": "Senate",
           "avatar": "https://cdn.discordapp.com/avatars/1273992220730589270/e74fea01147b8ed2f842a66a9f7053d3.webp",
@@ -50121,7 +50121,7 @@
       "discord_ids": [
         "535131333010391050"
       ],
-      "party": "grn",
+      "party": "dem",
       "state": "New York",
       "chambers": [
         "Other",
@@ -50132,7 +50132,7 @@
         {
           "profile_id": "1046",
           "name": "Loki",
-          "party": "grn",
+          "party": "dem",
           "state": "New York",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/535131333010391050/bb1d8127f50d9b31cb75e2c05bb7816a.webp",
@@ -50144,8 +50144,8 @@
         },
         {
           "profile_id": "1051",
-          "name": "Poison Ivy",
-          "party": "grn",
+          "name": "WEAREWOW.GRAPE",
+          "party": "dem",
           "state": "New York",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/535131333010391050/bb1d8127f50d9b31cb75e2c05bb7816a.webp",
@@ -50158,7 +50158,7 @@
         {
           "profile_id": "1269",
           "name": "Lisa",
-          "party": "grn",
+          "party": "dem",
           "state": "New Hampshire",
           "chamber": "Senate",
           "avatar": "https://cdn.discordapp.com/avatars/535131333010391050/bb1d8127f50d9b31cb75e2c05bb7816a.webp",
@@ -60062,13 +60062,15 @@
       "player_id": "p1359",
       "name": "Chuck Bartowski",
       "discord": "yakub67420",
-      "discord_ids": [],
+      "discord_ids": [
+        "1562800467011051601"
+      ],
       "party": "dem",
       "state": "Nevada",
       "chambers": [
         "Other"
       ],
-      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "avatar": "https://cdn.discordapp.com/avatars/1562800467011051601/34d724a31150a2656646b80e14a46188.webp",
       "profiles": [
         {
           "profile_id": "1359",
@@ -60076,7 +60078,7 @@
           "party": "dem",
           "state": "Nevada",
           "chamber": "Other",
-          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "avatar": "https://cdn.discordapp.com/avatars/1562800467011051601/34d724a31150a2656646b80e14a46188.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -60089,7 +60091,7 @@
           "party": "dem",
           "state": "Illinois",
           "chamber": "Other",
-          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "avatar": "https://cdn.discordapp.com/avatars/1562800467011051601/34d724a31150a2656646b80e14a46188.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -60102,7 +60104,7 @@
           "party": "dem",
           "state": "Indiana",
           "chamber": "Other",
-          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "avatar": "https://cdn.discordapp.com/avatars/1562800467011051601/34d724a31150a2656646b80e14a46188.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -60277,7 +60279,7 @@
       "user_id": "p1373",
       "player_id": "p1373",
       "name": "Dan Quayle",
-      "discord": "deleted_user_f744cd97f804",
+      "discord": "",
       "discord_ids": [],
       "party": "dsa",
       "state": "Idaho",
@@ -60293,7 +60295,7 @@
           "state": "Idaho",
           "chamber": "Other",
           "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-          "is_main": true,
+          "is_main": false,
           "on_site": true,
           "offices": [],
           "office": "",
