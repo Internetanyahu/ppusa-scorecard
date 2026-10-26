@@ -8927,7 +8927,7 @@
   },
   {
     "player_id": "p1025",
-    "name": "Melania Trump",
+    "name": "Sherrod Brown",
     "discord": "trumpquest",
     "profiles": [
       "1025",
@@ -10320,7 +10320,7 @@
   },
   {
     "player_id": "p1026",
-    "name": "Robert Keating",
+    "name": "Andrew Vanwyngarden",
     "discord": "marcsexual",
     "profiles": [
       "1026",
@@ -45568,7 +45568,7 @@
   {
     "player_id": "p1357",
     "name": "Boss man",
-    "discord": "mayotrain69",
+    "discord": "",
     "profiles": [
       "1357"
     ],
@@ -45654,6 +45654,16 @@
     "discord": "",
     "profiles": [
       "1371"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1372",
+    "name": "Paul Connelly Jr.",
+    "discord": "elislittleacc",
+    "profiles": [
+      "1372"
     ],
     "bills": [],
     "bill_count": 0

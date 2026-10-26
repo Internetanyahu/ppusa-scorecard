@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:36:06+00:00",
+  "generated_at": "2026-10-26T03:19:45+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -507,6 +507,17 @@
     },
     {
       "type": "player",
+      "id": "p1372",
+      "label": "elislittleacc (Paul Connelly Jr.)",
+      "aliases": [
+        "elislittleacc"
+      ],
+      "profile_ids": [
+        "1372"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1176",
       "label": "ennardenvy (Basil Morli)",
       "aliases": [
@@ -688,7 +699,7 @@
     {
       "type": "player",
       "id": "p1295",
-      "label": "heybumbumbumgotanygrapes (Abraham B. J. Freeman)",
+      "label": "heybumbumbumgotanygrapes (Nicholas Joseph Fury)",
       "aliases": [
         "heybumbumbumgotanygrapes"
       ],
@@ -748,7 +759,7 @@
     {
       "type": "player",
       "id": "p1304",
-      "label": "internetanyahu (Mat Nuclear)",
+      "label": "internetanyahu (Kanye West 2006)",
       "aliases": [
         "internetanyahu"
       ],
@@ -1206,7 +1217,7 @@
     {
       "type": "player",
       "id": "p1026",
-      "label": "marcsexual (ABBY LEE MILLER)",
+      "label": "marcsexual (Gerard Way)",
       "aliases": [
         "marcsexual"
       ],
@@ -1663,7 +1674,7 @@
     {
       "type": "player",
       "id": "p1025",
-      "label": "trumpquest (Alina Habba)",
+      "label": "trumpquest (Barack Obama)",
       "aliases": [
         "trumpquest"
       ],
@@ -1897,12 +1908,6 @@
     },
     {
       "type": "profile",
-      "id": "1026",
-      "label": "ABBY LEE MILLER (1026)",
-      "player_id": "p1026"
-    },
-    {
-      "type": "profile",
       "id": "1011",
       "label": "Abdul El-Sayed (1011)",
       "player_id": "p1011"
@@ -1912,12 +1917,6 @@
       "id": "1022",
       "label": "Abigail Spanberger (1022)",
       "player_id": "p1007"
-    },
-    {
-      "type": "profile",
-      "id": "1295",
-      "label": "Abraham B. J. Freeman (1295)",
-      "player_id": "p1295"
     },
     {
       "type": "profile",
@@ -1987,12 +1986,6 @@
     },
     {
       "type": "profile",
-      "id": "1025",
-      "label": "Alina Habba (1025)",
-      "player_id": "p1025"
-    },
-    {
-      "type": "profile",
       "id": "1290",
       "label": "Allen Degurechaff (1290)",
       "player_id": "p1039"
@@ -2035,9 +2028,9 @@
     },
     {
       "type": "profile",
-      "id": "1033",
-      "label": "Andrew Tate (1033)",
-      "player_id": "p1025"
+      "id": "1236",
+      "label": "Andrew Vanwyngarden (1236)",
+      "player_id": "p1026"
     },
     {
       "type": "profile",
@@ -2080,6 +2073,12 @@
       "id": "1053",
       "label": "Austin Vicknair (1053)",
       "player_id": "p1053"
+    },
+    {
+      "type": "profile",
+      "id": "1025",
+      "label": "Barack Obama (1025)",
+      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -2707,6 +2706,12 @@
     },
     {
       "type": "profile",
+      "id": "1033",
+      "label": "Gavin Newsom (1033)",
+      "player_id": "p1025"
+    },
+    {
+      "type": "profile",
       "id": "1165",
       "label": "George Clooney (1165)",
       "player_id": "p1165"
@@ -2743,8 +2748,8 @@
     },
     {
       "type": "profile",
-      "id": "1071",
-      "label": "Gerard Way (1071)",
+      "id": "1026",
+      "label": "Gerard Way (1026)",
       "player_id": "p1026"
     },
     {
@@ -3139,6 +3144,12 @@
     },
     {
       "type": "profile",
+      "id": "1304",
+      "label": "Kanye West 2006 (1304)",
+      "player_id": "p1304"
+    },
+    {
+      "type": "profile",
       "id": "1179",
       "label": "Karina Kaviori (1179)",
       "player_id": "p1169"
@@ -3409,12 +3420,6 @@
     },
     {
       "type": "profile",
-      "id": "1304",
-      "label": "Mat Nuclear (1304)",
-      "player_id": "p1304"
-    },
-    {
-      "type": "profile",
       "id": "1113",
       "label": "Matt Murdock (1113)",
       "player_id": "p1113"
@@ -3424,12 +3429,6 @@
       "id": "1101",
       "label": "Matthew Stafford (1101)",
       "player_id": "p1100"
-    },
-    {
-      "type": "profile",
-      "id": "1209",
-      "label": "Melania Trump (1209)",
-      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -3508,6 +3507,12 @@
       "id": "1247",
       "label": "Nelson Sorel (1247)",
       "player_id": "p1005"
+    },
+    {
+      "type": "profile",
+      "id": "1295",
+      "label": "Nicholas Joseph Fury (1295)",
+      "player_id": "p1295"
     },
     {
       "type": "profile",
@@ -3613,6 +3618,12 @@
     },
     {
       "type": "profile",
+      "id": "1372",
+      "label": "Paul Connelly Jr. (1372)",
+      "player_id": "p1372"
+    },
+    {
+      "type": "profile",
       "id": "1050",
       "label": "Paul Finebaum (1050)",
       "player_id": "p1050"
@@ -3709,8 +3720,8 @@
     },
     {
       "type": "profile",
-      "id": "1236",
-      "label": "Robert Keating (1236)",
+      "id": "1071",
+      "label": "Robert Keating (1071)",
       "player_id": "p1026"
     },
     {
@@ -3832,6 +3843,12 @@
       "id": "1135",
       "label": "Shego Green (1135)",
       "player_id": "p1134"
+    },
+    {
+      "type": "profile",
+      "id": "1209",
+      "label": "Sherrod Brown (1209)",
+      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -31971,6 +31988,103 @@
       ]
     },
     {
+      "player_id": "p1372",
+      "conservative_scorecard": {
+        "user_id": "p1372",
+        "player_id": "p1372",
+        "name": "Paul Connelly Jr.",
+        "discord": "elislittleacc",
+        "discord_ids": [
+          "729497064316207165"
+        ],
+        "party": "gop",
+        "state": "New Hampshire",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/729497064316207165/d8cb10ee2ddfdce74c00ff114b6707b6.webp",
+        "profiles": [
+          {
+            "profile_id": "1372",
+            "name": "Paul Connelly Jr.",
+            "party": "gop",
+            "state": "New Hampshire",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/729497064316207165/d8cb10ee2ddfdce74c00ff114b6707b6.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "elislittleacc",
+      "discord_current": true,
+      "discord_aliases": [
+        "elislittleacc"
+      ],
+      "discord_ids": [
+        "729497064316207165"
+      ],
+      "name": "Paul Connelly Jr.",
+      "profile_ids": [
+        "1372"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1372",
+          "name": "Paul Connelly Jr.",
+          "party": "gop",
+          "state": "New Hampshire",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1176",
       "conservative_scorecard": {
         "user_id": "p1176",
@@ -42717,7 +42831,7 @@
             "profile_id": "1218",
             "name": "Nigar Arpadarai",
             "party": "grn",
-            "state": "Idaho",
+            "state": "Minnesota",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/636708961956921354/a_33fef2d33ebcc95db526e0c55cc25fdd.gif",
             "is_main": false,
@@ -43078,7 +43192,7 @@
           "profile_id": "1218",
           "name": "Nigar Arpadarai",
           "party": "grn",
-          "state": "Idaho",
+          "state": "Minnesota",
           "is_main": false,
           "on_site": true
         }
@@ -43646,7 +43760,7 @@
       "conservative_scorecard": {
         "user_id": "p1295",
         "player_id": "p1295",
-        "name": "Abraham B. J. Freeman",
+        "name": "Nicholas Joseph Fury",
         "discord": "heybumbumbumgotanygrapes",
         "discord_ids": [
           "1274754200466624618"
@@ -43662,7 +43776,7 @@
         "profiles": [
           {
             "profile_id": "1295",
-            "name": "Abraham B. J. Freeman",
+            "name": "Nicholas Joseph Fury",
             "party": "dem",
             "state": "Kansas",
             "chamber": "House",
@@ -43775,7 +43889,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1295",
-            "profile_name": "Abraham B. J. Freeman",
+            "profile_name": "Nicholas Joseph Fury",
             "chamber": "House"
           },
           {
@@ -43788,7 +43902,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1295",
-            "profile_name": "Abraham B. J. Freeman",
+            "profile_name": "Nicholas Joseph Fury",
             "chamber": "House"
           },
           {
@@ -43801,7 +43915,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1295",
-            "profile_name": "Abraham B. J. Freeman",
+            "profile_name": "Nicholas Joseph Fury",
             "chamber": "House"
           }
         ],
@@ -43818,7 +43932,7 @@
       "discord_ids": [
         "1274754200466624618"
       ],
-      "name": "Abraham B. J. Freeman",
+      "name": "Nicholas Joseph Fury",
       "profile_ids": [
         "1295",
         "1297",
@@ -43827,7 +43941,7 @@
       "profiles": [
         {
           "profile_id": "1295",
-          "name": "Abraham B. J. Freeman",
+          "name": "Nicholas Joseph Fury",
           "party": "dem",
           "state": "Kansas",
           "is_main": true,
@@ -48337,7 +48451,7 @@
       "conservative_scorecard": {
         "user_id": "p1304",
         "player_id": "p1304",
-        "name": "Mat Nuclear",
+        "name": "Kanye West 2006",
         "discord": "internetanyahu",
         "discord_ids": [
           "966709449081360494"
@@ -48352,7 +48466,7 @@
         "profiles": [
           {
             "profile_id": "1304",
-            "name": "Mat Nuclear",
+            "name": "Kanye West 2006",
             "party": "dem",
             "state": "North Carolina",
             "chamber": "Senate",
@@ -48424,7 +48538,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48437,7 +48551,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48450,7 +48564,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48463,7 +48577,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48476,7 +48590,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48489,7 +48603,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48502,7 +48616,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48515,7 +48629,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48528,7 +48642,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48541,7 +48655,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48554,7 +48668,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48567,7 +48681,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48580,7 +48694,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48593,7 +48707,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48606,7 +48720,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48619,7 +48733,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           },
           {
@@ -48632,7 +48746,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Mat Nuclear",
+            "profile_name": "Kanye West 2006",
             "chamber": "Senate"
           }
         ],
@@ -48649,7 +48763,7 @@
       "discord_ids": [
         "966709449081360494"
       ],
-      "name": "Mat Nuclear",
+      "name": "Kanye West 2006",
       "profile_ids": [
         "1304",
         "1307",
@@ -48658,7 +48772,7 @@
       "profiles": [
         {
           "profile_id": "1304",
-          "name": "Mat Nuclear",
+          "name": "Kanye West 2006",
           "party": "dem",
           "state": "North Carolina",
           "is_main": true,
@@ -54337,7 +54451,7 @@
         "name": "Kamala D. Harris",
         "discord": "",
         "discord_ids": [],
-        "party": "dem",
+        "party": "independent",
         "state": "California",
         "chambers": [
           "Other"
@@ -54347,7 +54461,7 @@
           {
             "profile_id": "1167",
             "name": "Kamala D. Harris",
-            "party": "dem",
+            "party": "independent",
             "state": "California",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -54397,7 +54511,7 @@
         {
           "profile_id": "1167",
           "name": "Kamala D. Harris",
-          "party": "dem",
+          "party": "Independent",
           "state": "California",
           "is_main": true,
           "on_site": true
@@ -61913,7 +62027,7 @@
       "conservative_scorecard": {
         "user_id": "p1026",
         "player_id": "p1026",
-        "name": "ABBY LEE MILLER",
+        "name": "Gerard Way",
         "discord": "marcsexual",
         "discord_ids": [
           "1406312807691063419"
@@ -61927,7 +62041,7 @@
         "profiles": [
           {
             "profile_id": "1026",
-            "name": "ABBY LEE MILLER",
+            "name": "Gerard Way",
             "party": "grn",
             "state": "California",
             "chamber": "Other",
@@ -61940,7 +62054,7 @@
           },
           {
             "profile_id": "1071",
-            "name": "Gerard Way",
+            "name": "Robert Keating",
             "party": "grn",
             "state": "Virginia",
             "chamber": "Other",
@@ -61953,7 +62067,7 @@
           },
           {
             "profile_id": "1236",
-            "name": "Robert Keating",
+            "name": "Andrew Vanwyngarden",
             "party": "grn",
             "state": "Ohio",
             "chamber": "Other",
@@ -62000,7 +62114,7 @@
       "discord_ids": [
         "1406312807691063419"
       ],
-      "name": "ABBY LEE MILLER",
+      "name": "Gerard Way",
       "profile_ids": [
         "1026",
         "1071",
@@ -62009,7 +62123,7 @@
       "profiles": [
         {
           "profile_id": "1026",
-          "name": "ABBY LEE MILLER",
+          "name": "Gerard Way",
           "party": "grn",
           "state": "California",
           "is_main": true,
@@ -62017,7 +62131,7 @@
         },
         {
           "profile_id": "1071",
-          "name": "Gerard Way",
+          "name": "Robert Keating",
           "party": "grn",
           "state": "Virginia",
           "is_main": false,
@@ -62025,7 +62139,7 @@
         },
         {
           "profile_id": "1236",
-          "name": "Robert Keating",
+          "name": "Andrew Vanwyngarden",
           "party": "grn",
           "state": "Ohio",
           "is_main": false,
@@ -62055,7 +62169,7 @@
         "user_id": "p1357",
         "player_id": "p1357",
         "name": "Boss man",
-        "discord": "mayotrain69",
+        "discord": "",
         "discord_ids": [],
         "party": "gop",
         "state": "West Virginia",
@@ -62071,7 +62185,7 @@
             "state": "West Virginia",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-            "is_main": true,
+            "is_main": false,
             "on_site": true,
             "offices": [],
             "office": "",
@@ -62106,7 +62220,7 @@
         "has_office": false
       },
       "discord": "mayotrain69",
-      "discord_current": true,
+      "discord_current": false,
       "discord_aliases": [
         "mayotrain69"
       ],
@@ -62121,7 +62235,7 @@
           "name": "Boss man",
           "party": "gop",
           "state": "West Virginia",
-          "is_main": true,
+          "is_main": false,
           "on_site": true
         }
       ],
@@ -77699,12 +77813,12 @@
       "conservative_scorecard": {
         "user_id": "p1025",
         "player_id": "p1025",
-        "name": "Alina Habba",
+        "name": "Barack Obama",
         "discord": "trumpquest",
         "discord_ids": [
           "961355935496953956"
         ],
-        "party": "gop",
+        "party": "independent",
         "state": "Florida",
         "chambers": [
           "House",
@@ -77714,8 +77828,8 @@
         "profiles": [
           {
             "profile_id": "1025",
-            "name": "Alina Habba",
-            "party": "gop",
+            "name": "Barack Obama",
+            "party": "independent",
             "state": "Florida",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -77729,8 +77843,8 @@
           },
           {
             "profile_id": "1033",
-            "name": "Andrew Tate",
-            "party": "gop",
+            "name": "Gavin Newsom",
+            "party": "independent",
             "state": "Florida",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -77744,8 +77858,8 @@
           },
           {
             "profile_id": "1209",
-            "name": "Melania Trump",
-            "party": "gop",
+            "name": "Sherrod Brown",
+            "party": "independent",
             "state": "Nebraska",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -77790,7 +77904,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -77803,7 +77917,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -77816,7 +77930,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Andrew Tate",
+            "profile_name": "Gavin Newsom",
             "chamber": "Senate"
           },
           {
@@ -77829,7 +77943,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -77842,7 +77956,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Andrew Tate",
+            "profile_name": "Gavin Newsom",
             "chamber": "Senate"
           },
           {
@@ -77855,7 +77969,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -77868,7 +77982,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Andrew Tate",
+            "profile_name": "Gavin Newsom",
             "chamber": "Senate"
           },
           {
@@ -77881,7 +77995,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -77894,7 +78008,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -77907,7 +78021,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -77920,7 +78034,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Andrew Tate",
+            "profile_name": "Gavin Newsom",
             "chamber": "Senate"
           },
           {
@@ -77933,7 +78047,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Andrew Tate",
+            "profile_name": "Gavin Newsom",
             "chamber": "Senate"
           },
           {
@@ -77946,7 +78060,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Andrew Tate",
+            "profile_name": "Gavin Newsom",
             "chamber": "Senate"
           },
           {
@@ -77959,7 +78073,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -77972,7 +78086,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -77985,7 +78099,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -77998,7 +78112,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -78011,7 +78125,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -78024,7 +78138,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1033",
-            "profile_name": "Andrew Tate",
+            "profile_name": "Gavin Newsom",
             "chamber": "Senate"
           },
           {
@@ -78037,7 +78151,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -78050,7 +78164,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -78063,7 +78177,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Andrew Tate",
+            "profile_name": "Gavin Newsom",
             "chamber": "Senate"
           },
           {
@@ -78076,7 +78190,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1025",
-            "profile_name": "Alina Habba",
+            "profile_name": "Barack Obama",
             "chamber": "House"
           },
           {
@@ -78089,7 +78203,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Andrew Tate",
+            "profile_name": "Gavin Newsom",
             "chamber": "Senate"
           },
           {
@@ -78102,7 +78216,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1033",
-            "profile_name": "Andrew Tate",
+            "profile_name": "Gavin Newsom",
             "chamber": "Senate"
           },
           {
@@ -78115,7 +78229,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1033",
-            "profile_name": "Andrew Tate",
+            "profile_name": "Gavin Newsom",
             "chamber": "Senate"
           }
         ],
@@ -78132,7 +78246,7 @@
       "discord_ids": [
         "961355935496953956"
       ],
-      "name": "Alina Habba",
+      "name": "Barack Obama",
       "profile_ids": [
         "1025",
         "1033",
@@ -78141,24 +78255,24 @@
       "profiles": [
         {
           "profile_id": "1025",
-          "name": "Alina Habba",
-          "party": "gop",
+          "name": "Barack Obama",
+          "party": "Independent",
           "state": "Florida",
           "is_main": true,
           "on_site": true
         },
         {
           "profile_id": "1033",
-          "name": "Andrew Tate",
-          "party": "gop",
+          "name": "Gavin Newsom",
+          "party": "Independent",
           "state": "Florida",
           "is_main": false,
           "on_site": true
         },
         {
           "profile_id": "1209",
-          "name": "Melania Trump",
-          "party": "gop",
+          "name": "Sherrod Brown",
+          "party": "Independent",
           "state": "Nebraska",
           "is_main": false,
           "on_site": true
@@ -97216,7 +97330,7 @@
     {
       "profile_id": "1025",
       "player_id": "p1025",
-      "name": "Alina Habba",
+      "name": "Barack Obama",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -97241,7 +97355,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "gop",
+      "party": "Independent",
       "state": "Florida",
       "is_main": true,
       "on_site": true,
@@ -97926,7 +98040,7 @@
     {
       "profile_id": "1026",
       "player_id": "p1026",
-      "name": "ABBY LEE MILLER",
+      "name": "Gerard Way",
       "discord": "marcsexual",
       "discord_id": "1406312807691063419",
       "discord_history": [
@@ -99487,7 +99601,7 @@
     {
       "profile_id": "1033",
       "player_id": "p1025",
-      "name": "Andrew Tate",
+      "name": "Gavin Newsom",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -99512,7 +99626,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "gop",
+      "party": "Independent",
       "state": "Florida",
       "is_main": false,
       "on_site": true,
@@ -110956,7 +111070,7 @@
     {
       "profile_id": "1071",
       "player_id": "p1026",
-      "name": "Gerard Way",
+      "name": "Robert Keating",
       "discord": "marcsexual",
       "discord_id": "1406312807691063419",
       "discord_history": [
@@ -132101,7 +132215,7 @@
       "discord": "",
       "discord_id": "",
       "discord_history": [],
-      "party": "dem",
+      "party": "Independent",
       "state": "California",
       "is_main": true,
       "on_site": true,
@@ -138035,7 +138149,7 @@
     {
       "profile_id": "1209",
       "player_id": "p1025",
-      "name": "Melania Trump",
+      "name": "Sherrod Brown",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -138060,7 +138174,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "gop",
+      "party": "Independent",
       "state": "Nebraska",
       "is_main": false,
       "on_site": true,
@@ -139467,7 +139581,7 @@
         }
       ],
       "party": "grn",
-      "state": "Idaho",
+      "state": "Minnesota",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -140793,7 +140907,7 @@
     {
       "profile_id": "1236",
       "player_id": "p1026",
-      "name": "Robert Keating",
+      "name": "Andrew Vanwyngarden",
       "discord": "marcsexual",
       "discord_id": "1406312807691063419",
       "discord_history": [
@@ -146775,7 +146889,7 @@
     {
       "profile_id": "1295",
       "player_id": "p1295",
-      "name": "Abraham B. J. Freeman",
+      "name": "Nicholas Joseph Fury",
       "discord": "heybumbumbumgotanygrapes",
       "discord_id": "1274754200466624618",
       "discord_history": [
@@ -147759,7 +147873,7 @@
     {
       "profile_id": "1304",
       "player_id": "p1304",
-      "name": "Mat Nuclear",
+      "name": "Kanye West 2006",
       "discord": "internetanyahu",
       "discord_id": "966709449081360494",
       "discord_history": [
@@ -151970,7 +152084,7 @@
       "profile_id": "1357",
       "player_id": "p1357",
       "name": "Boss man",
-      "discord": "mayotrain69",
+      "discord": "",
       "discord_id": "",
       "discord_history": [
         {
@@ -151987,11 +152101,16 @@
           "discord": "mayotrain69",
           "discord_id": "",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-10-26"
         }
       ],
       "party": "gop",
       "state": "West Virginia",
-      "is_main": true,
+      "is_main": false,
       "on_site": true,
       "counts": {
         "bills": 0,
@@ -152419,6 +152538,40 @@
       "discord_history": [],
       "party": "dem",
       "state": "Texas",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1372",
+      "player_id": "p1372",
+      "name": "Paul Connelly Jr.",
+      "discord": "elislittleacc",
+      "discord_id": "729497064316207165",
+      "discord_history": [
+        {
+          "discord": "elislittleacc",
+          "discord_id": "729497064316207165",
+          "first_seen": "2026-10-26"
+        }
+      ],
+      "party": "gop",
+      "state": "New Hampshire",
       "is_main": true,
       "on_site": true,
       "counts": {
