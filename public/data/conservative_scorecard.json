@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T03:19:45+00:00",
+  "generated_at": "2026-10-26T12:18:05+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -45833,8 +45833,8 @@
       "discord_ids": [
         "961355935496953956"
       ],
-      "party": "independent",
-      "state": "Florida",
+      "party": "dsa",
+      "state": "Illinois",
       "chambers": [
         "House",
         "Senate"
@@ -45844,8 +45844,8 @@
         {
           "profile_id": "1025",
           "name": "Barack Obama",
-          "party": "independent",
-          "state": "Florida",
+          "party": "dsa",
+          "state": "Illinois",
           "chamber": "House",
           "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
           "is_main": true,
@@ -45859,8 +45859,8 @@
         {
           "profile_id": "1033",
           "name": "Gavin Newsom",
-          "party": "independent",
-          "state": "Florida",
+          "party": "dsa",
+          "state": "California",
           "chamber": "Senate",
           "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
           "is_main": false,
@@ -45873,9 +45873,9 @@
         },
         {
           "profile_id": "1209",
-          "name": "Sherrod Brown",
-          "party": "independent",
-          "state": "Nebraska",
+          "name": "Tim Ryan",
+          "party": "dsa",
+          "state": "New York",
           "chamber": "Senate",
           "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
           "is_main": false,
@@ -60274,6 +60274,86 @@
       "has_office": false
     },
     {
+      "user_id": "p1373",
+      "player_id": "p1373",
+      "name": "Dan Quayle",
+      "discord": "deleted_user_f744cd97f804",
+      "discord_ids": [],
+      "party": "dsa",
+      "state": "Idaho",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "profiles": [
+        {
+          "profile_id": "1373",
+          "name": "Dan Quayle",
+          "party": "dsa",
+          "state": "Idaho",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1374",
+          "name": "Barron Trump",
+          "party": "dsa",
+          "state": "Utah",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1375",
+          "name": "Brandon Gill",
+          "party": "dsa",
+          "state": "Montana",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
       "user_id": "p1010",
       "player_id": "p1010",
       "name": "Daniel mercer",
@@ -60347,6 +60427,88 @@
           "state": "New York",
           "chamber": "Other",
           "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
+      "user_id": "p1058",
+      "player_id": "p1058",
+      "name": "Dianne Feinstein",
+      "discord": "jethronie",
+      "discord_ids": [
+        "877674076506820618"
+      ],
+      "party": "dem",
+      "state": "Missouri",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
+      "profiles": [
+        {
+          "profile_id": "1058",
+          "name": "Dianne Feinstein",
+          "party": "dem",
+          "state": "Missouri",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1072",
+          "name": "Gretchen Whitmer",
+          "party": "dem",
+          "state": "Wisconsin",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1237",
+          "name": "Kristi Noem",
+          "party": "dem",
+          "state": "South Dakota",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -62274,88 +62436,6 @@
       "has_office": false
     },
     {
-      "user_id": "p1058",
-      "player_id": "p1058",
-      "name": "Judith Harman",
-      "discord": "jethronie",
-      "discord_ids": [
-        "877674076506820618"
-      ],
-      "party": "dem",
-      "state": "Missouri",
-      "chambers": [
-        "Other"
-      ],
-      "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
-      "profiles": [
-        {
-          "profile_id": "1058",
-          "name": "Judith Harman",
-          "party": "dem",
-          "state": "Missouri",
-          "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
-          "is_main": true,
-          "on_site": true,
-          "offices": [],
-          "office": "",
-          "office_count": 0
-        },
-        {
-          "profile_id": "1072",
-          "name": "Gretchen Whitmer",
-          "party": "dem",
-          "state": "Wisconsin",
-          "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
-          "is_main": false,
-          "on_site": true,
-          "offices": [],
-          "office": "",
-          "office_count": 0
-        },
-        {
-          "profile_id": "1237",
-          "name": "Kristi Noem",
-          "party": "dem",
-          "state": "South Dakota",
-          "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/877674076506820618/18e4ebeaa88409138320b04b5f7966a2.webp",
-          "is_main": false,
-          "on_site": true,
-          "offices": [],
-          "office": "",
-          "office_count": 0
-        }
-      ],
-      "scores": {
-        "social": null,
-        "economic": null,
-        "foreign": null,
-        "overall": null,
-        "tier": "N/A"
-      },
-      "sample_size": {
-        "social": 0,
-        "economic": 0,
-        "foreign": 0,
-        "overall": 0
-      },
-      "aligned_votes": {
-        "social": 0,
-        "economic": 0,
-        "foreign": 0
-      },
-      "provisions_scored": 0,
-      "aligned_provisions": 0,
-      "finalized_bills_voted": 0,
-      "bill_details": [],
-      "eligible_for_grade": false,
-      "offices_held": 0,
-      "office_count": 0,
-      "has_office": false
-    },
-    {
       "user_id": "p1057",
       "player_id": "p1057",
       "name": "Kaden Lux",
@@ -63297,7 +63377,7 @@
         "House",
         "Other"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
+      "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_5ddcbb22a94ae427badf6946f2765c8a.gif",
       "profiles": [
         {
           "profile_id": "1062",
@@ -63305,7 +63385,7 @@
           "party": "gop",
           "state": "Florida",
           "chamber": "House",
-          "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
+          "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_5ddcbb22a94ae427badf6946f2765c8a.gif",
           "is_main": true,
           "on_site": true,
           "offices": [
@@ -63320,7 +63400,7 @@
           "party": "gop",
           "state": "Florida",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
+          "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_5ddcbb22a94ae427badf6946f2765c8a.gif",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -63333,7 +63413,7 @@
           "party": "gop",
           "state": "Nevada",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
+          "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_5ddcbb22a94ae427badf6946f2765c8a.gif",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -65497,7 +65577,7 @@
   "office_metadata": {
     "definition": "Count of normalized offices attached to each Power Play profile; POTUS, Vice President, Governor, legislative and other offices are all counted when supplied by the source.",
     "no_office_label": "No office",
-    "updated_profiles": 375,
-    "updated_players": 159
+    "updated_profiles": 378,
+    "updated_players": 160
   }
 }

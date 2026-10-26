@@ -847,8 +847,8 @@
     "player_id": "p1025",
     "name": "Barack Obama",
     "discord": "trumpquest",
-    "party": "Independent",
-    "state": "Florida",
+    "party": "dsa",
+    "state": "Illinois",
     "last_seen": "2026-10-26",
     "on_site": true,
     "discord_id": "961355935496953956",
@@ -1119,8 +1119,8 @@
     "player_id": "p1025",
     "name": "Gavin Newsom",
     "discord": "trumpquest",
-    "party": "Independent",
-    "state": "Florida",
+    "party": "dsa",
+    "state": "California",
     "last_seen": "2026-10-26",
     "on_site": true,
     "discord_id": "961355935496953956",
@@ -1962,7 +1962,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1058",
     "player_id": "p1058",
-    "name": "Judith Harman",
+    "name": "Dianne Feinstein",
     "discord": "jethronie",
     "party": "dem",
     "state": "Missouri",
@@ -6855,10 +6855,10 @@
     "first_seen": "2026-10-20",
     "profile_id": "1209",
     "player_id": "p1025",
-    "name": "Sherrod Brown",
+    "name": "Tim Ryan",
     "discord": "trumpquest",
-    "party": "Independent",
-    "state": "Nebraska",
+    "party": "dsa",
+    "state": "New York",
     "last_seen": "2026-10-26",
     "on_site": true,
     "discord_id": "961355935496953956",
@@ -11805,6 +11805,63 @@
     "discord_id": "729497064316207165",
     "party": "gop",
     "state": "New Hampshire",
+    "last_seen": "2026-10-26",
+    "on_site": true
+  },
+  "1373": {
+    "profile_id": "1373",
+    "player_id": "p1373",
+    "first_seen": "2026-10-26",
+    "discord_history": [
+      {
+        "discord": "deleted_user_f744cd97f804",
+        "discord_id": "",
+        "first_seen": "2026-10-26"
+      }
+    ],
+    "name": "Dan Quayle",
+    "discord": "deleted_user_f744cd97f804",
+    "discord_id": "",
+    "party": "dsa",
+    "state": "Idaho",
+    "last_seen": "2026-10-26",
+    "on_site": true
+  },
+  "1374": {
+    "profile_id": "1374",
+    "player_id": "p1373",
+    "first_seen": "2026-10-26",
+    "discord_history": [
+      {
+        "discord": "deleted_user_f744cd97f804",
+        "discord_id": "",
+        "first_seen": "2026-10-26"
+      }
+    ],
+    "name": "Barron Trump",
+    "discord": "deleted_user_f744cd97f804",
+    "discord_id": "",
+    "party": "dsa",
+    "state": "Utah",
+    "last_seen": "2026-10-26",
+    "on_site": true
+  },
+  "1375": {
+    "profile_id": "1375",
+    "player_id": "p1373",
+    "first_seen": "2026-10-26",
+    "discord_history": [
+      {
+        "discord": "deleted_user_f744cd97f804",
+        "discord_id": "",
+        "first_seen": "2026-10-26"
+      }
+    ],
+    "name": "Brandon Gill",
+    "discord": "deleted_user_f744cd97f804",
+    "discord_id": "",
+    "party": "dsa",
+    "state": "Montana",
     "last_seen": "2026-10-26",
     "on_site": true
   }

@@ -8927,7 +8927,7 @@
   },
   {
     "player_id": "p1025",
-    "name": "Sherrod Brown",
+    "name": "Tim Ryan",
     "discord": "trumpquest",
     "profiles": [
       "1025",
@@ -45664,6 +45664,18 @@
     "discord": "elislittleacc",
     "profiles": [
       "1372"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1373",
+    "name": "Brandon Gill",
+    "discord": "deleted_user_f744cd97f804",
+    "profiles": [
+      "1373",
+      "1374",
+      "1375"
     ],
     "bills": [],
     "bill_count": 0

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T03:19:45+00:00",
+  "generated_at": "2026-10-26T12:18:06+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -470,6 +470,19 @@
     },
     {
       "type": "player",
+      "id": "p1373",
+      "label": "deleted_user_f744cd97f804 (Dan Quayle)",
+      "aliases": [
+        "deleted_user_f744cd97f804"
+      ],
+      "profile_ids": [
+        "1373",
+        "1374",
+        "1375"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1000",
       "label": "doctorsus (Kat Abughazaleh)",
       "aliases": [
@@ -821,7 +834,7 @@
     {
       "type": "player",
       "id": "p1058",
-      "label": "jethronie (Judith Harman)",
+      "label": "jethronie (Dianne Feinstein)",
       "aliases": [
         "jethronie"
       ],
@@ -2094,6 +2107,12 @@
     },
     {
       "type": "profile",
+      "id": "1374",
+      "label": "Barron Trump (1374)",
+      "player_id": "p1373"
+    },
+    {
+      "type": "profile",
       "id": "1318",
       "label": "barry mickockiner (1318)",
       "player_id": "p1318"
@@ -2211,6 +2230,12 @@
       "id": "1001",
       "label": "Brad Lander (1001)",
       "player_id": "p1000"
+    },
+    {
+      "type": "profile",
+      "id": "1375",
+      "label": "Brandon Gill (1375)",
+      "player_id": "p1373"
     },
     {
       "type": "profile",
@@ -2406,6 +2431,12 @@
     },
     {
       "type": "profile",
+      "id": "1373",
+      "label": "Dan Quayle (1373)",
+      "player_id": "p1373"
+    },
+    {
+      "type": "profile",
       "id": "1275",
       "label": "Daniel \"Dan\" Taylor (1275)",
       "player_id": "p1273"
@@ -2457,6 +2488,12 @@
       "id": "1307",
       "label": "Dean Withers (1307)",
       "player_id": "p1304"
+    },
+    {
+      "type": "profile",
+      "id": "1058",
+      "label": "Dianne Feinstein (1058)",
+      "player_id": "p1058"
     },
     {
       "type": "profile",
@@ -3111,12 +3148,6 @@
       "id": "1205",
       "label": "Joshua McKoon (1205)",
       "player_id": "p1007"
-    },
-    {
-      "type": "profile",
-      "id": "1058",
-      "label": "Judith Harman (1058)",
-      "player_id": "p1058"
     },
     {
       "type": "profile",
@@ -3846,12 +3877,6 @@
     },
     {
       "type": "profile",
-      "id": "1209",
-      "label": "Sherrod Brown (1209)",
-      "player_id": "p1025"
-    },
-    {
-      "type": "profile",
       "id": "1155",
       "label": "Shock (1155)",
       "player_id": "p1155"
@@ -3957,6 +3982,12 @@
       "id": "1177",
       "label": "Thomas Morli (1177)",
       "player_id": "p1176"
+    },
+    {
+      "type": "profile",
+      "id": "1209",
+      "label": "Tim Ryan (1209)",
+      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -30939,6 +30970,143 @@
       ]
     },
     {
+      "player_id": "p1373",
+      "conservative_scorecard": {
+        "user_id": "p1373",
+        "player_id": "p1373",
+        "name": "Dan Quayle",
+        "discord": "deleted_user_f744cd97f804",
+        "discord_ids": [],
+        "party": "dsa",
+        "state": "Idaho",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1373",
+            "name": "Dan Quayle",
+            "party": "dsa",
+            "state": "Idaho",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1374",
+            "name": "Barron Trump",
+            "party": "dsa",
+            "state": "Utah",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1375",
+            "name": "Brandon Gill",
+            "party": "dsa",
+            "state": "Montana",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "deleted_user_f744cd97f804",
+      "discord_current": true,
+      "discord_aliases": [
+        "deleted_user_f744cd97f804"
+      ],
+      "discord_ids": [],
+      "name": "Dan Quayle",
+      "profile_ids": [
+        "1373",
+        "1374",
+        "1375"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1373",
+          "name": "Dan Quayle",
+          "party": "dsa",
+          "state": "Idaho",
+          "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1374",
+          "name": "Barron Trump",
+          "party": "dsa",
+          "state": "Utah",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1375",
+          "name": "Brandon Gill",
+          "party": "dsa",
+          "state": "Montana",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1000",
       "conservative_scorecard": {
         "user_id": "p1000",
@@ -49582,7 +49750,7 @@
           "House",
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
+        "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_5ddcbb22a94ae427badf6946f2765c8a.gif",
         "profiles": [
           {
             "profile_id": "1062",
@@ -49590,7 +49758,7 @@
             "party": "gop",
             "state": "Florida",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
+            "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_5ddcbb22a94ae427badf6946f2765c8a.gif",
             "is_main": true,
             "on_site": true,
             "offices": [
@@ -49605,7 +49773,7 @@
             "party": "gop",
             "state": "Florida",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
+            "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_5ddcbb22a94ae427badf6946f2765c8a.gif",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -49618,7 +49786,7 @@
             "party": "gop",
             "state": "Nevada",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_bb208485d8e59d1d325898f743fe82bf.gif",
+            "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_5ddcbb22a94ae427badf6946f2765c8a.gif",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -50040,7 +50208,7 @@
       "conservative_scorecard": {
         "user_id": "p1058",
         "player_id": "p1058",
-        "name": "Judith Harman",
+        "name": "Dianne Feinstein",
         "discord": "jethronie",
         "discord_ids": [
           "877674076506820618"
@@ -50054,7 +50222,7 @@
         "profiles": [
           {
             "profile_id": "1058",
-            "name": "Judith Harman",
+            "name": "Dianne Feinstein",
             "party": "dem",
             "state": "Missouri",
             "chamber": "Other",
@@ -50127,7 +50295,7 @@
       "discord_ids": [
         "877674076506820618"
       ],
-      "name": "Judith Harman",
+      "name": "Dianne Feinstein",
       "profile_ids": [
         "1058",
         "1072",
@@ -50136,7 +50304,7 @@
       "profiles": [
         {
           "profile_id": "1058",
-          "name": "Judith Harman",
+          "name": "Dianne Feinstein",
           "party": "dem",
           "state": "Missouri",
           "is_main": true,
@@ -77818,8 +77986,8 @@
         "discord_ids": [
           "961355935496953956"
         ],
-        "party": "independent",
-        "state": "Florida",
+        "party": "dsa",
+        "state": "Illinois",
         "chambers": [
           "House",
           "Senate"
@@ -77829,8 +77997,8 @@
           {
             "profile_id": "1025",
             "name": "Barack Obama",
-            "party": "independent",
-            "state": "Florida",
+            "party": "dsa",
+            "state": "Illinois",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
             "is_main": true,
@@ -77844,8 +78012,8 @@
           {
             "profile_id": "1033",
             "name": "Gavin Newsom",
-            "party": "independent",
-            "state": "Florida",
+            "party": "dsa",
+            "state": "California",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
             "is_main": false,
@@ -77858,9 +78026,9 @@
           },
           {
             "profile_id": "1209",
-            "name": "Sherrod Brown",
-            "party": "independent",
-            "state": "Nebraska",
+            "name": "Tim Ryan",
+            "party": "dsa",
+            "state": "New York",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
             "is_main": false,
@@ -78256,24 +78424,24 @@
         {
           "profile_id": "1025",
           "name": "Barack Obama",
-          "party": "Independent",
-          "state": "Florida",
+          "party": "dsa",
+          "state": "Illinois",
           "is_main": true,
           "on_site": true
         },
         {
           "profile_id": "1033",
           "name": "Gavin Newsom",
-          "party": "Independent",
-          "state": "Florida",
+          "party": "dsa",
+          "state": "California",
           "is_main": false,
           "on_site": true
         },
         {
           "profile_id": "1209",
-          "name": "Sherrod Brown",
-          "party": "Independent",
-          "state": "Nebraska",
+          "name": "Tim Ryan",
+          "party": "dsa",
+          "state": "New York",
           "is_main": false,
           "on_site": true
         }
@@ -97355,8 +97523,8 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "Independent",
-      "state": "Florida",
+      "party": "dsa",
+      "state": "Illinois",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -99626,8 +99794,8 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "Independent",
-      "state": "Florida",
+      "party": "dsa",
+      "state": "California",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -107510,7 +107678,7 @@
     {
       "profile_id": "1058",
       "player_id": "p1058",
-      "name": "Judith Harman",
+      "name": "Dianne Feinstein",
       "discord": "jethronie",
       "discord_id": "877674076506820618",
       "discord_history": [
@@ -138149,7 +138317,7 @@
     {
       "profile_id": "1209",
       "player_id": "p1025",
-      "name": "Sherrod Brown",
+      "name": "Tim Ryan",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -138174,8 +138342,8 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "Independent",
-      "state": "Nebraska",
+      "party": "dsa",
+      "state": "New York",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -152573,6 +152741,108 @@
       "party": "gop",
       "state": "New Hampshire",
       "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1373",
+      "player_id": "p1373",
+      "name": "Dan Quayle",
+      "discord": "deleted_user_f744cd97f804",
+      "discord_id": "",
+      "discord_history": [
+        {
+          "discord": "deleted_user_f744cd97f804",
+          "discord_id": "",
+          "first_seen": "2026-10-26"
+        }
+      ],
+      "party": "dsa",
+      "state": "Idaho",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1374",
+      "player_id": "p1373",
+      "name": "Barron Trump",
+      "discord": "deleted_user_f744cd97f804",
+      "discord_id": "",
+      "discord_history": [
+        {
+          "discord": "deleted_user_f744cd97f804",
+          "discord_id": "",
+          "first_seen": "2026-10-26"
+        }
+      ],
+      "party": "dsa",
+      "state": "Utah",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1375",
+      "player_id": "p1373",
+      "name": "Brandon Gill",
+      "discord": "deleted_user_f744cd97f804",
+      "discord_id": "",
+      "discord_history": [
+        {
+          "discord": "deleted_user_f744cd97f804",
+          "discord_id": "",
+          "first_seen": "2026-10-26"
+        }
+      ],
+      "party": "dsa",
+      "state": "Montana",
+      "is_main": false,
       "on_site": true,
       "counts": {
         "bills": 0,
