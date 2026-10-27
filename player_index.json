@@ -179,7 +179,7 @@
     "profile_id": "1004",
     "player_id": "p1004",
     "name": "BLAIR WALDORF",
-    "discord": "kewtslimnury",
+    "discord": "americanboydoll",
     "party": "dem",
     "state": "Pennsylvania",
     "last_seen": "2026-10-27",
@@ -205,6 +205,11 @@
         "discord": "kewtslimnury",
         "discord_id": "1460058777125654644",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "americanboydoll",
+        "discord_id": "1460058777125654644",
+        "first_seen": "2026-10-27"
       }
     ]
   },
@@ -464,7 +469,7 @@
     "profile_id": "1013",
     "player_id": "p1004",
     "name": "SERENA VANDERWOODSEN",
-    "discord": "kewtslimnury",
+    "discord": "americanboydoll",
     "party": "dem",
     "state": "Virginia",
     "last_seen": "2026-10-27",
@@ -490,6 +495,11 @@
         "discord": "kewtslimnury",
         "discord_id": "1460058777125654644",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "americanboydoll",
+        "discord_id": "1460058777125654644",
+        "first_seen": "2026-10-27"
       }
     ]
   },
@@ -8059,7 +8069,7 @@
     "profile_id": "1245",
     "player_id": "p1004",
     "name": "ALEXANDRIA OCASIO-CORTEZ",
-    "discord": "kewtslimnury",
+    "discord": "americanboydoll",
     "party": "dem",
     "state": "New Jersey",
     "last_seen": "2026-10-27",
@@ -8085,6 +8095,11 @@
         "discord": "kewtslimnury",
         "discord_id": "1460058777125654644",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "americanboydoll",
+        "discord_id": "1460058777125654644",
+        "first_seen": "2026-10-27"
       }
     ]
   },
@@ -9997,7 +10012,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1304",
     "player_id": "p1304",
-    "name": "Kanye West 2006",
+    "name": "Kanye West",
     "discord": "internetanyahu",
     "party": "dem",
     "state": "North Carolina",
@@ -10060,7 +10075,7 @@
     "name": "Dean Withers",
     "discord": "internetanyahu",
     "party": "dem",
-    "state": "Illinois",
+    "state": "District of Columbia",
     "last_seen": "2026-10-27",
     "on_site": true,
     "discord_id": "966709449081360494",
@@ -10094,7 +10109,7 @@
     "name": "Culver's",
     "discord": "internetanyahu",
     "party": "dem",
-    "state": "Wisconsin",
+    "state": "District of Columbia",
     "last_seen": "2026-10-27",
     "on_site": true,
     "discord_id": "966709449081360494",

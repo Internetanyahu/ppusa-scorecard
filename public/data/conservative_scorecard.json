@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:48:23+00:00",
+  "generated_at": "2026-10-27T11:38:49+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -35980,7 +35980,7 @@
     {
       "user_id": "p1304",
       "player_id": "p1304",
-      "name": "Kanye West 2006",
+      "name": "Kanye West",
       "discord": "internetanyahu",
       "discord_ids": [
         "966709449081360494"
@@ -35995,7 +35995,7 @@
       "profiles": [
         {
           "profile_id": "1304",
-          "name": "Kanye West 2006",
+          "name": "Kanye West",
           "party": "dem",
           "state": "North Carolina",
           "chamber": "Senate",
@@ -36012,7 +36012,7 @@
           "profile_id": "1307",
           "name": "Dean Withers",
           "party": "dem",
-          "state": "Illinois",
+          "state": "District of Columbia",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/966709449081360494/cd615d88dedfdcb723cf518686211ee8.webp",
           "is_main": false,
@@ -36025,7 +36025,7 @@
           "profile_id": "1308",
           "name": "Culver's",
           "party": "dem",
-          "state": "Wisconsin",
+          "state": "District of Columbia",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/966709449081360494/cd615d88dedfdcb723cf518686211ee8.webp",
           "is_main": false,
@@ -36067,7 +36067,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36080,7 +36080,7 @@
           "vote": "nay",
           "aligned": true,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36093,7 +36093,7 @@
           "vote": "nay",
           "aligned": true,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36106,7 +36106,7 @@
           "vote": "nay",
           "aligned": true,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36119,7 +36119,7 @@
           "vote": "nay",
           "aligned": true,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36132,7 +36132,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36145,7 +36145,7 @@
           "vote": "nay",
           "aligned": true,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36158,7 +36158,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36171,7 +36171,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36184,7 +36184,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36197,7 +36197,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36210,7 +36210,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36223,7 +36223,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36236,7 +36236,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36249,7 +36249,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36262,7 +36262,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         },
         {
@@ -36275,7 +36275,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1304",
-          "profile_name": "Kanye West 2006",
+          "profile_name": "Kanye West",
           "chamber": "Senate"
         }
       ],
@@ -55740,7 +55740,7 @@
       "user_id": "p1004",
       "player_id": "p1004",
       "name": "BLAIR WALDORF",
-      "discord": "kewtslimnury",
+      "discord": "americanboydoll",
       "discord_ids": [
         "1460058777125654644"
       ],
@@ -55750,7 +55750,7 @@
         "Other",
         "Senate"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
       "profiles": [
         {
           "profile_id": "1004",
@@ -55758,7 +55758,7 @@
           "party": "dem",
           "state": "Pennsylvania",
           "chamber": "Senate",
-          "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
           "is_main": true,
           "on_site": true,
           "offices": [
@@ -55773,7 +55773,7 @@
           "party": "dem",
           "state": "Virginia",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -55786,7 +55786,7 @@
           "party": "dem",
           "state": "New Jersey",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],

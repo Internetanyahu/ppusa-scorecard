@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:48:24+00:00",
+  "generated_at": "2026-10-27T11:38:50+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -131,6 +131,20 @@
       "aliases": [],
       "profile_ids": [
         "1014"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1004",
+      "label": "americanboydoll (BLAIR WALDORF)",
+      "aliases": [
+        "kewtslimnury",
+        "americanboydoll"
+      ],
+      "profile_ids": [
+        "1004",
+        "1013",
+        "1245"
       ]
     },
     {
@@ -772,7 +786,7 @@
     {
       "type": "player",
       "id": "p1304",
-      "label": "internetanyahu (Kanye West 2006)",
+      "label": "internetanyahu (Kanye West)",
       "aliases": [
         "internetanyahu"
       ],
@@ -1053,19 +1067,6 @@
         "1140",
         "1143",
         "1222"
-      ]
-    },
-    {
-      "type": "player",
-      "id": "p1004",
-      "label": "kewtslimnury (BLAIR WALDORF)",
-      "aliases": [
-        "kewtslimnury"
-      ],
-      "profile_ids": [
-        "1004",
-        "1013",
-        "1245"
       ]
     },
     {
@@ -3170,7 +3171,7 @@
     {
       "type": "profile",
       "id": "1304",
-      "label": "Kanye West 2006 (1304)",
+      "label": "Kanye West (1304)",
       "player_id": "p1304"
     },
     {
@@ -14704,6 +14705,850 @@
         }
       },
       "bill_votes": []
+    },
+    {
+      "player_id": "p1004",
+      "conservative_scorecard": {
+        "user_id": "p1004",
+        "player_id": "p1004",
+        "name": "BLAIR WALDORF",
+        "discord": "americanboydoll",
+        "discord_ids": [
+          "1460058777125654644"
+        ],
+        "party": "dem",
+        "state": "Pennsylvania",
+        "chambers": [
+          "Other",
+          "Senate"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
+        "profiles": [
+          {
+            "profile_id": "1004",
+            "name": "BLAIR WALDORF",
+            "party": "dem",
+            "state": "Pennsylvania",
+            "chamber": "Senate",
+            "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
+          },
+          {
+            "profile_id": "1013",
+            "name": "SERENA VANDERWOODSEN",
+            "party": "dem",
+            "state": "Virginia",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1245",
+            "name": "ALEXANDRIA OCASIO-CORTEZ",
+            "party": "dem",
+            "state": "New Jersey",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": 16.67,
+          "economic": 16.67,
+          "foreign": 100.0,
+          "overall": 21.05,
+          "tier": "F"
+        },
+        "sample_size": {
+          "social": 6,
+          "economic": 12,
+          "foreign": 1,
+          "overall": 19
+        },
+        "aligned_votes": {
+          "social": 1,
+          "economic": 2,
+          "foreign": 1
+        },
+        "provisions_scored": 19,
+        "aligned_provisions": 4,
+        "finalized_bills_voted": 11,
+        "bill_details": [
+          {
+            "resolution_id": 3,
+            "number": "S. 3",
+            "bill_title": "Abortion Act",
+            "provision": "Abortion: Allowed",
+            "category": "social",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 15,
+            "number": "S. 11",
+            "bill_title": "The Big Freedom Win Act",
+            "provision": "Communist Party Ban: Outlawed",
+            "category": "social",
+            "direction": 1,
+            "vote": "nay",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 17,
+            "number": "S. 13",
+            "bill_title": "Voting Accessibility Act",
+            "provision": "Holidays (Election Day): Recognized Federally",
+            "category": "social",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 20,
+            "number": "H.R. 9",
+            "bill_title": "Taxation With Representation Act",
+            "provision": "District of Columbia: Statehood",
+            "category": "social",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 21,
+            "number": "S. 14",
+            "bill_title": "Youth Voices and Student Subsidisations Act",
+            "provision": "Voting Age (26th Amendment): 16",
+            "category": "social",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 21,
+            "number": "S. 14",
+            "bill_title": "Youth Voices and Student Subsidisations Act",
+            "provision": "Student Loans: Free Public University",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 21,
+            "number": "S. 14",
+            "bill_title": "Youth Voices and Student Subsidisations Act",
+            "provision": "School Lunch: Universal Free Meals",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 25,
+            "number": "S. 15",
+            "bill_title": "UNIONS OF AMERICA UNITE ACT",
+            "provision": "Union Dues Regulation: No Cap, Tax-Deductible",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 26,
+            "number": "S. 16",
+            "bill_title": "The Federal Cannabis Reform & Small Business Act",
+            "provision": "Marijuana Sales Tax: 50%",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 35,
+            "number": "S. 17",
+            "bill_title": "Families, Seniors & Growth Relief Act",
+            "provision": "Healthcare & Education Tax Credit: 25% Credit",
+            "category": "economic",
+            "direction": 1,
+            "vote": "aye",
+            "aligned": true,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 35,
+            "number": "S. 17",
+            "bill_title": "Families, Seniors & Growth Relief Act",
+            "provision": "Social Security (Monthly Benefit): $2,250",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 36,
+            "number": "S. 18",
+            "bill_title": "So many green effects!",
+            "provision": "Energy Reorganization: Energy Research & Development Administration",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 36,
+            "number": "S. 18",
+            "bill_title": "So many green effects!",
+            "provision": "Interstate Highways: National Infrastructure Program",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 38,
+            "number": "S. 19",
+            "bill_title": "9/11 Security & Service Act",
+            "provision": "Special Prosecutor: Independent Office",
+            "category": "social",
+            "direction": 1,
+            "vote": "aye",
+            "aligned": true,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 38,
+            "number": "S. 19",
+            "bill_title": "9/11 Security & Service Act",
+            "provision": "Intelligence Community Budget Authority: Full Program Authority",
+            "category": "foreign",
+            "direction": 1,
+            "vote": "aye",
+            "aligned": true,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 38,
+            "number": "S. 19",
+            "bill_title": "9/11 Security & Service Act",
+            "provision": "GI Bill: Full Tuition & Housing",
+            "category": "economic",
+            "direction": 1,
+            "vote": "aye",
+            "aligned": true,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 49,
+            "number": "S. 25",
+            "bill_title": "Federal Support Expansion Act",
+            "provision": "Interstate Highways: National Infrastructure Program",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 49,
+            "number": "S. 25",
+            "bill_title": "Federal Support Expansion Act",
+            "provision": "Small Business Support: Expanded SBA & Tax Relief",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 49,
+            "number": "S. 25",
+            "bill_title": "Federal Support Expansion Act",
+            "provision": "Minimum Wage: $12",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "BLAIR WALDORF",
+            "chamber": "Senate"
+          }
+        ],
+        "eligible_for_grade": true,
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
+      },
+      "discord": "americanboydoll",
+      "discord_current": true,
+      "discord_aliases": [
+        "kewtslimnury",
+        "americanboydoll"
+      ],
+      "discord_ids": [
+        "1460058777125654644"
+      ],
+      "name": "BLAIR WALDORF",
+      "profile_ids": [
+        "1004",
+        "1013",
+        "1245"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1004",
+          "name": "BLAIR WALDORF",
+          "party": "dem",
+          "state": "Pennsylvania",
+          "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1013",
+          "name": "SERENA VANDERWOODSEN",
+          "party": "dem",
+          "state": "Virginia",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1245",
+          "name": "ALEXANDRIA OCASIO-CORTEZ",
+          "party": "dem",
+          "state": "New Jersey",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 30,
+        "sponsored": 0,
+        "cosponsored": 2,
+        "senate": {
+          "aye": 25,
+          "nay": 4,
+          "present": 0
+        },
+        "house": {
+          "aye": 1,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": [
+        {
+          "resolution_id": 3,
+          "number": "S. 3",
+          "title": "Abortion Act",
+          "status": "Enacted without Signature",
+          "finalized": true,
+          "introduced": "Week 1, 2001",
+          "passed": "Week 26, 2002",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 15,
+          "number": "S. 11",
+          "title": "The Big Freedom Win Act",
+          "status": "Died Awaiting Majority Leader's Call",
+          "finalized": true,
+          "introduced": "Week 8, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": true,
+          "senate_vote": "nay",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 17,
+          "number": "S. 13",
+          "title": "Voting Accessibility Act",
+          "status": "Signed into Law",
+          "finalized": true,
+          "introduced": "Week 15, 2001",
+          "passed": "Week 4, 2003",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 18,
+          "number": "H.R. 7",
+          "title": "Marijuana Legalization Act",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 15, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 20,
+          "number": "H.R. 9",
+          "title": "Taxation With Representation Act",
+          "status": "Enacted without Signature",
+          "finalized": true,
+          "introduced": "Week 17, 2001",
+          "passed": "Week 48, 2002",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 21,
+          "number": "S. 14",
+          "title": "Youth Voices and Student Subsidisations Act",
+          "status": "Signed into Law",
+          "finalized": true,
+          "introduced": "Week 20, 2001",
+          "passed": "Week 4, 2003",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": true,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 22,
+          "number": "H.R. 10",
+          "title": "VOTING RIGHTS ACT OF 2001",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 20, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 24,
+          "number": "H.R. 12",
+          "title": "Veteran Protection Act",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 20, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 25,
+          "number": "S. 15",
+          "title": "UNIONS OF AMERICA UNITE ACT",
+          "status": "Signed into Law",
+          "finalized": true,
+          "introduced": "Week 21, 2001",
+          "passed": "Week 4, 2003",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 26,
+          "number": "S. 16",
+          "title": "The Federal Cannabis Reform & Small Business Act",
+          "status": "Enacted without Signature",
+          "finalized": true,
+          "introduced": "Week 22, 2001",
+          "passed": "Week 47, 2002",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 28,
+          "number": "H.R. 14",
+          "title": "Farm Protection and Revitalization Act",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 23, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 29,
+          "number": "H.R. 15",
+          "title": "Drug Abusw",
+          "status": "Sent to President",
+          "finalized": false,
+          "introduced": "Week 23, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 31,
+          "number": "H.R. 17",
+          "title": "MORE WELFARE FOR EVERYONE",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 27, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 33,
+          "number": "H.R. 19",
+          "title": "Modernize Education Act",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 32, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 35,
+          "number": "S. 17",
+          "title": "Families, Seniors & Growth Relief Act",
+          "status": "Enacted without Signature",
+          "finalized": true,
+          "introduced": "Week 35, 2001",
+          "passed": "Week 48, 2002",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 36,
+          "number": "S. 18",
+          "title": "So many green effects!",
+          "status": "Enacted without Signature",
+          "finalized": true,
+          "introduced": "Week 40, 2001",
+          "passed": "Week 1, 2003",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 38,
+          "number": "S. 19",
+          "title": "9/11 Security & Service Act",
+          "status": "Signed into Law",
+          "finalized": true,
+          "introduced": "Week 42, 2001",
+          "passed": "Week 4, 2003",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 40,
+          "number": "S. 20",
+          "title": "Family Reunification Visa Expansion",
+          "status": "Sent to President",
+          "finalized": false,
+          "introduced": "Week 44, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 43,
+          "number": "S. 21",
+          "title": "The Protection from Evangelicism Act",
+          "status": "Defeated in Senate",
+          "finalized": true,
+          "introduced": "Week 47, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "nay",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 45,
+          "number": "S. 22",
+          "title": "Background Check Reform",
+          "status": "Sent to President",
+          "finalized": false,
+          "introduced": "Week 47, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 46,
+          "number": "S. 23",
+          "title": "Authorization for Use of Military Force: Afghanistan & al-Qa",
+          "status": "Enacted without Signature",
+          "finalized": true,
+          "introduced": "Week 47, 2001",
+          "passed": "Week 4, 2002",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 47,
+          "number": "S. 24",
+          "title": "Expand Education Funding Act",
+          "status": "Sent to President",
+          "finalized": false,
+          "introduced": "Week 48, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 49,
+          "number": "S. 25",
+          "title": "Federal Support Expansion Act",
+          "status": "Defeated in House",
+          "finalized": true,
+          "introduced": "Week 1, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 51,
+          "number": "S. 27",
+          "title": "Tax Cuts Act",
+          "status": "Sent to President",
+          "finalized": false,
+          "introduced": "Week 7, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "nay",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 52,
+          "number": "S. 28",
+          "title": "Working Class Tax Relief & Equity Act",
+          "status": "House Floor",
+          "finalized": false,
+          "introduced": "Week 10, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 53,
+          "number": "S. 29",
+          "title": "Equal Rights & Justice Reform Act",
+          "status": "House Floor",
+          "finalized": false,
+          "introduced": "Week 10, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 54,
+          "number": "H.R. 27",
+          "title": "Economy Boost",
+          "status": "Sent to President",
+          "finalized": false,
+          "introduced": "Week 16, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 76,
+          "number": "S. 2",
+          "title": "Immigration Reform Act of 2002",
+          "status": "Awaiting Majority Leader's Call",
+          "finalized": false,
+          "introduced": "Week 27, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "nay",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 80,
+          "number": "S. 4",
+          "title": "Omnibus Act of 2002",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 38, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": null,
+          "house_vote": "aye",
+          "house_seats": null
+        },
+        {
+          "resolution_id": 100,
+          "number": "S. 15",
+          "title": "Lindsey O. Graham Act",
+          "status": "Awaiting Majority Leader's Call",
+          "finalized": false,
+          "introduced": "Week 4, 2003",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        }
+      ]
     },
     {
       "player_id": "p1364",
@@ -48619,7 +49464,7 @@
       "conservative_scorecard": {
         "user_id": "p1304",
         "player_id": "p1304",
-        "name": "Kanye West 2006",
+        "name": "Kanye West",
         "discord": "internetanyahu",
         "discord_ids": [
           "966709449081360494"
@@ -48634,7 +49479,7 @@
         "profiles": [
           {
             "profile_id": "1304",
-            "name": "Kanye West 2006",
+            "name": "Kanye West",
             "party": "dem",
             "state": "North Carolina",
             "chamber": "Senate",
@@ -48651,7 +49496,7 @@
             "profile_id": "1307",
             "name": "Dean Withers",
             "party": "dem",
-            "state": "Illinois",
+            "state": "District of Columbia",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/966709449081360494/cd615d88dedfdcb723cf518686211ee8.webp",
             "is_main": false,
@@ -48664,7 +49509,7 @@
             "profile_id": "1308",
             "name": "Culver's",
             "party": "dem",
-            "state": "Wisconsin",
+            "state": "District of Columbia",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/966709449081360494/cd615d88dedfdcb723cf518686211ee8.webp",
             "is_main": false,
@@ -48706,7 +49551,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48719,7 +49564,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48732,7 +49577,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48745,7 +49590,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48758,7 +49603,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48771,7 +49616,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48784,7 +49629,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48797,7 +49642,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48810,7 +49655,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48823,7 +49668,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48836,7 +49681,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48849,7 +49694,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48862,7 +49707,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48875,7 +49720,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48888,7 +49733,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48901,7 +49746,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           },
           {
@@ -48914,7 +49759,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West 2006",
+            "profile_name": "Kanye West",
             "chamber": "Senate"
           }
         ],
@@ -48931,7 +49776,7 @@
       "discord_ids": [
         "966709449081360494"
       ],
-      "name": "Kanye West 2006",
+      "name": "Kanye West",
       "profile_ids": [
         "1304",
         "1307",
@@ -48940,7 +49785,7 @@
       "profiles": [
         {
           "profile_id": "1304",
-          "name": "Kanye West 2006",
+          "name": "Kanye West",
           "party": "dem",
           "state": "North Carolina",
           "is_main": true,
@@ -48950,7 +49795,7 @@
           "profile_id": "1307",
           "name": "Dean Withers",
           "party": "dem",
-          "state": "Illinois",
+          "state": "District of Columbia",
           "is_main": false,
           "on_site": true
         },
@@ -48958,7 +49803,7 @@
           "profile_id": "1308",
           "name": "Culver's",
           "party": "dem",
-          "state": "Wisconsin",
+          "state": "District of Columbia",
           "is_main": false,
           "on_site": true
         }
@@ -57235,849 +58080,6 @@
         }
       },
       "bill_votes": []
-    },
-    {
-      "player_id": "p1004",
-      "conservative_scorecard": {
-        "user_id": "p1004",
-        "player_id": "p1004",
-        "name": "BLAIR WALDORF",
-        "discord": "kewtslimnury",
-        "discord_ids": [
-          "1460058777125654644"
-        ],
-        "party": "dem",
-        "state": "Pennsylvania",
-        "chambers": [
-          "Other",
-          "Senate"
-        ],
-        "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
-        "profiles": [
-          {
-            "profile_id": "1004",
-            "name": "BLAIR WALDORF",
-            "party": "dem",
-            "state": "Pennsylvania",
-            "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
-            "is_main": true,
-            "on_site": true,
-            "offices": [
-              "Senate"
-            ],
-            "office": "Senate",
-            "office_count": 1
-          },
-          {
-            "profile_id": "1013",
-            "name": "SERENA VANDERWOODSEN",
-            "party": "dem",
-            "state": "Virginia",
-            "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
-            "is_main": false,
-            "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
-          },
-          {
-            "profile_id": "1245",
-            "name": "ALEXANDRIA OCASIO-CORTEZ",
-            "party": "dem",
-            "state": "New Jersey",
-            "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
-            "is_main": false,
-            "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
-          }
-        ],
-        "scores": {
-          "social": 16.67,
-          "economic": 16.67,
-          "foreign": 100.0,
-          "overall": 21.05,
-          "tier": "F"
-        },
-        "sample_size": {
-          "social": 6,
-          "economic": 12,
-          "foreign": 1,
-          "overall": 19
-        },
-        "aligned_votes": {
-          "social": 1,
-          "economic": 2,
-          "foreign": 1
-        },
-        "provisions_scored": 19,
-        "aligned_provisions": 4,
-        "finalized_bills_voted": 11,
-        "bill_details": [
-          {
-            "resolution_id": 3,
-            "number": "S. 3",
-            "bill_title": "Abortion Act",
-            "provision": "Abortion: Allowed",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 15,
-            "number": "S. 11",
-            "bill_title": "The Big Freedom Win Act",
-            "provision": "Communist Party Ban: Outlawed",
-            "category": "social",
-            "direction": 1,
-            "vote": "nay",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 17,
-            "number": "S. 13",
-            "bill_title": "Voting Accessibility Act",
-            "provision": "Holidays (Election Day): Recognized Federally",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 20,
-            "number": "H.R. 9",
-            "bill_title": "Taxation With Representation Act",
-            "provision": "District of Columbia: Statehood",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 21,
-            "number": "S. 14",
-            "bill_title": "Youth Voices and Student Subsidisations Act",
-            "provision": "Voting Age (26th Amendment): 16",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 21,
-            "number": "S. 14",
-            "bill_title": "Youth Voices and Student Subsidisations Act",
-            "provision": "Student Loans: Free Public University",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 21,
-            "number": "S. 14",
-            "bill_title": "Youth Voices and Student Subsidisations Act",
-            "provision": "School Lunch: Universal Free Meals",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 25,
-            "number": "S. 15",
-            "bill_title": "UNIONS OF AMERICA UNITE ACT",
-            "provision": "Union Dues Regulation: No Cap, Tax-Deductible",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Sales Tax: 50%",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 35,
-            "number": "S. 17",
-            "bill_title": "Families, Seniors & Growth Relief Act",
-            "provision": "Healthcare & Education Tax Credit: 25% Credit",
-            "category": "economic",
-            "direction": 1,
-            "vote": "aye",
-            "aligned": true,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 35,
-            "number": "S. 17",
-            "bill_title": "Families, Seniors & Growth Relief Act",
-            "provision": "Social Security (Monthly Benefit): $2,250",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Energy Reorganization: Energy Research & Development Administration",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Interstate Highways: National Infrastructure Program",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 38,
-            "number": "S. 19",
-            "bill_title": "9/11 Security & Service Act",
-            "provision": "Special Prosecutor: Independent Office",
-            "category": "social",
-            "direction": 1,
-            "vote": "aye",
-            "aligned": true,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 38,
-            "number": "S. 19",
-            "bill_title": "9/11 Security & Service Act",
-            "provision": "Intelligence Community Budget Authority: Full Program Authority",
-            "category": "foreign",
-            "direction": 1,
-            "vote": "aye",
-            "aligned": true,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 38,
-            "number": "S. 19",
-            "bill_title": "9/11 Security & Service Act",
-            "provision": "GI Bill: Full Tuition & Housing",
-            "category": "economic",
-            "direction": 1,
-            "vote": "aye",
-            "aligned": true,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 49,
-            "number": "S. 25",
-            "bill_title": "Federal Support Expansion Act",
-            "provision": "Interstate Highways: National Infrastructure Program",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 49,
-            "number": "S. 25",
-            "bill_title": "Federal Support Expansion Act",
-            "provision": "Small Business Support: Expanded SBA & Tax Relief",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 49,
-            "number": "S. 25",
-            "bill_title": "Federal Support Expansion Act",
-            "provision": "Minimum Wage: $12",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "BLAIR WALDORF",
-            "chamber": "Senate"
-          }
-        ],
-        "eligible_for_grade": true,
-        "offices_held": 1,
-        "office_count": 1,
-        "has_office": true
-      },
-      "discord": "kewtslimnury",
-      "discord_current": true,
-      "discord_aliases": [
-        "kewtslimnury"
-      ],
-      "discord_ids": [
-        "1460058777125654644"
-      ],
-      "name": "BLAIR WALDORF",
-      "profile_ids": [
-        "1004",
-        "1013",
-        "1245"
-      ],
-      "profiles": [
-        {
-          "profile_id": "1004",
-          "name": "BLAIR WALDORF",
-          "party": "dem",
-          "state": "Pennsylvania",
-          "is_main": true,
-          "on_site": true
-        },
-        {
-          "profile_id": "1013",
-          "name": "SERENA VANDERWOODSEN",
-          "party": "dem",
-          "state": "Virginia",
-          "is_main": false,
-          "on_site": true
-        },
-        {
-          "profile_id": "1245",
-          "name": "ALEXANDRIA OCASIO-CORTEZ",
-          "party": "dem",
-          "state": "New Jersey",
-          "is_main": false,
-          "on_site": true
-        }
-      ],
-      "counts": {
-        "bills": 30,
-        "sponsored": 0,
-        "cosponsored": 2,
-        "senate": {
-          "aye": 25,
-          "nay": 4,
-          "present": 0
-        },
-        "house": {
-          "aye": 1,
-          "nay": 0,
-          "present": 0
-        }
-      },
-      "bill_votes": [
-        {
-          "resolution_id": 3,
-          "number": "S. 3",
-          "title": "Abortion Act",
-          "status": "Enacted without Signature",
-          "finalized": true,
-          "introduced": "Week 1, 2001",
-          "passed": "Week 26, 2002",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 15,
-          "number": "S. 11",
-          "title": "The Big Freedom Win Act",
-          "status": "Died Awaiting Majority Leader's Call",
-          "finalized": true,
-          "introduced": "Week 8, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": true,
-          "senate_vote": "nay",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 17,
-          "number": "S. 13",
-          "title": "Voting Accessibility Act",
-          "status": "Signed into Law",
-          "finalized": true,
-          "introduced": "Week 15, 2001",
-          "passed": "Week 4, 2003",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 18,
-          "number": "H.R. 7",
-          "title": "Marijuana Legalization Act",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 15, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 20,
-          "number": "H.R. 9",
-          "title": "Taxation With Representation Act",
-          "status": "Enacted without Signature",
-          "finalized": true,
-          "introduced": "Week 17, 2001",
-          "passed": "Week 48, 2002",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 21,
-          "number": "S. 14",
-          "title": "Youth Voices and Student Subsidisations Act",
-          "status": "Signed into Law",
-          "finalized": true,
-          "introduced": "Week 20, 2001",
-          "passed": "Week 4, 2003",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": true,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 22,
-          "number": "H.R. 10",
-          "title": "VOTING RIGHTS ACT OF 2001",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 20, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 24,
-          "number": "H.R. 12",
-          "title": "Veteran Protection Act",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 20, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 25,
-          "number": "S. 15",
-          "title": "UNIONS OF AMERICA UNITE ACT",
-          "status": "Signed into Law",
-          "finalized": true,
-          "introduced": "Week 21, 2001",
-          "passed": "Week 4, 2003",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 26,
-          "number": "S. 16",
-          "title": "The Federal Cannabis Reform & Small Business Act",
-          "status": "Enacted without Signature",
-          "finalized": true,
-          "introduced": "Week 22, 2001",
-          "passed": "Week 47, 2002",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 28,
-          "number": "H.R. 14",
-          "title": "Farm Protection and Revitalization Act",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 23, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 29,
-          "number": "H.R. 15",
-          "title": "Drug Abusw",
-          "status": "Sent to President",
-          "finalized": false,
-          "introduced": "Week 23, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 31,
-          "number": "H.R. 17",
-          "title": "MORE WELFARE FOR EVERYONE",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 27, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 33,
-          "number": "H.R. 19",
-          "title": "Modernize Education Act",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 32, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 35,
-          "number": "S. 17",
-          "title": "Families, Seniors & Growth Relief Act",
-          "status": "Enacted without Signature",
-          "finalized": true,
-          "introduced": "Week 35, 2001",
-          "passed": "Week 48, 2002",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 36,
-          "number": "S. 18",
-          "title": "So many green effects!",
-          "status": "Enacted without Signature",
-          "finalized": true,
-          "introduced": "Week 40, 2001",
-          "passed": "Week 1, 2003",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 38,
-          "number": "S. 19",
-          "title": "9/11 Security & Service Act",
-          "status": "Signed into Law",
-          "finalized": true,
-          "introduced": "Week 42, 2001",
-          "passed": "Week 4, 2003",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 40,
-          "number": "S. 20",
-          "title": "Family Reunification Visa Expansion",
-          "status": "Sent to President",
-          "finalized": false,
-          "introduced": "Week 44, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 43,
-          "number": "S. 21",
-          "title": "The Protection from Evangelicism Act",
-          "status": "Defeated in Senate",
-          "finalized": true,
-          "introduced": "Week 47, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "nay",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 45,
-          "number": "S. 22",
-          "title": "Background Check Reform",
-          "status": "Sent to President",
-          "finalized": false,
-          "introduced": "Week 47, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 46,
-          "number": "S. 23",
-          "title": "Authorization for Use of Military Force: Afghanistan & al-Qa",
-          "status": "Enacted without Signature",
-          "finalized": true,
-          "introduced": "Week 47, 2001",
-          "passed": "Week 4, 2002",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 47,
-          "number": "S. 24",
-          "title": "Expand Education Funding Act",
-          "status": "Sent to President",
-          "finalized": false,
-          "introduced": "Week 48, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 49,
-          "number": "S. 25",
-          "title": "Federal Support Expansion Act",
-          "status": "Defeated in House",
-          "finalized": true,
-          "introduced": "Week 1, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 51,
-          "number": "S. 27",
-          "title": "Tax Cuts Act",
-          "status": "Sent to President",
-          "finalized": false,
-          "introduced": "Week 7, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "nay",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 52,
-          "number": "S. 28",
-          "title": "Working Class Tax Relief & Equity Act",
-          "status": "House Floor",
-          "finalized": false,
-          "introduced": "Week 10, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 53,
-          "number": "S. 29",
-          "title": "Equal Rights & Justice Reform Act",
-          "status": "House Floor",
-          "finalized": false,
-          "introduced": "Week 10, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 54,
-          "number": "H.R. 27",
-          "title": "Economy Boost",
-          "status": "Sent to President",
-          "finalized": false,
-          "introduced": "Week 16, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 76,
-          "number": "S. 2",
-          "title": "Immigration Reform Act of 2002",
-          "status": "Awaiting Majority Leader's Call",
-          "finalized": false,
-          "introduced": "Week 27, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "nay",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 80,
-          "number": "S. 4",
-          "title": "Omnibus Act of 2002",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 38, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": null,
-          "house_vote": "aye",
-          "house_seats": null
-        },
-        {
-          "resolution_id": 100,
-          "number": "S. 15",
-          "title": "Lindsey O. Graham Act",
-          "status": "Awaiting Majority Leader's Call",
-          "finalized": false,
-          "introduced": "Week 4, 2003",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        }
-      ]
     },
     {
       "player_id": "p1088",
@@ -92056,7 +92058,7 @@
       "profile_id": "1004",
       "player_id": "p1004",
       "name": "BLAIR WALDORF",
-      "discord": "kewtslimnury",
+      "discord": "americanboydoll",
       "discord_id": "1460058777125654644",
       "discord_history": [
         {
@@ -92078,6 +92080,11 @@
           "discord": "kewtslimnury",
           "discord_id": "1460058777125654644",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "americanboydoll",
+          "discord_id": "1460058777125654644",
+          "first_seen": "2026-10-27"
         }
       ],
       "party": "dem",
@@ -94175,7 +94182,7 @@
       "profile_id": "1013",
       "player_id": "p1004",
       "name": "SERENA VANDERWOODSEN",
-      "discord": "kewtslimnury",
+      "discord": "americanboydoll",
       "discord_id": "1460058777125654644",
       "discord_history": [
         {
@@ -94197,6 +94204,11 @@
           "discord": "kewtslimnury",
           "discord_id": "1460058777125654644",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "americanboydoll",
+          "discord_id": "1460058777125654644",
+          "first_seen": "2026-10-27"
         }
       ],
       "party": "dem",
@@ -141500,7 +141512,7 @@
       "profile_id": "1245",
       "player_id": "p1004",
       "name": "ALEXANDRIA OCASIO-CORTEZ",
-      "discord": "kewtslimnury",
+      "discord": "americanboydoll",
       "discord_id": "1460058777125654644",
       "discord_history": [
         {
@@ -141522,6 +141534,11 @@
           "discord": "kewtslimnury",
           "discord_id": "1460058777125654644",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "americanboydoll",
+          "discord_id": "1460058777125654644",
+          "first_seen": "2026-10-27"
         }
       ],
       "party": "dem",
@@ -148045,7 +148062,7 @@
     {
       "profile_id": "1304",
       "player_id": "p1304",
-      "name": "Kanye West 2006",
+      "name": "Kanye West",
       "discord": "internetanyahu",
       "discord_id": "966709449081360494",
       "discord_history": [
@@ -148673,7 +148690,7 @@
         }
       ],
       "party": "dem",
-      "state": "Illinois",
+      "state": "District of Columbia",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -148722,7 +148739,7 @@
         }
       ],
       "party": "dem",
-      "state": "Wisconsin",
+      "state": "District of Columbia",
       "is_main": false,
       "on_site": true,
       "counts": {
