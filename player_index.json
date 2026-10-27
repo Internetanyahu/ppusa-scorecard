@@ -1565,12 +1565,12 @@
     "profile_id": "1046",
     "player_id": "p1046",
     "name": "Loki",
-    "discord": "yoitzdan",
+    "discord": "",
     "party": "dem",
     "state": "New York",
     "last_seen": "2026-10-27",
     "on_site": true,
-    "discord_id": "535131333010391050",
+    "discord_id": "",
     "discord_history": [
       {
         "discord": "yoitzdan",
@@ -1591,6 +1591,11 @@
         "discord": "yoitzdan",
         "discord_id": "535131333010391050",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-10-27"
       }
     ]
   },
@@ -1735,12 +1740,12 @@
     "profile_id": "1051",
     "player_id": "p1046",
     "name": "WEAREWOW.GRAPE",
-    "discord": "yoitzdan",
+    "discord": "",
     "party": "dem",
     "state": "New York",
     "last_seen": "2026-10-27",
     "on_site": true,
-    "discord_id": "535131333010391050",
+    "discord_id": "",
     "discord_history": [
       {
         "discord": "yoitzdan",
@@ -1761,6 +1766,11 @@
         "discord": "yoitzdan",
         "discord_id": "535131333010391050",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-10-27"
       }
     ]
   },
@@ -8859,12 +8869,12 @@
     "profile_id": "1269",
     "player_id": "p1046",
     "name": "Lisa",
-    "discord": "yoitzdan",
+    "discord": "",
     "party": "dem",
     "state": "New Hampshire",
     "last_seen": "2026-10-27",
     "on_site": true,
-    "discord_id": "535131333010391050",
+    "discord_id": "",
     "discord_history": [
       {
         "discord": "yoitzdan",
@@ -8885,6 +8895,11 @@
         "discord": "yoitzdan",
         "discord_id": "535131333010391050",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-10-27"
       }
     ]
   },
