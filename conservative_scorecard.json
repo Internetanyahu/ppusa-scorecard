@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:19:51+00:00",
+  "generated_at": "2026-10-27T03:48:23+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -44526,7 +44526,7 @@
       "discord_ids": [
         "1273992220730589270"
       ],
-      "party": "independent",
+      "party": "gop",
       "state": "Illinois",
       "chambers": [
         "House",
@@ -44537,7 +44537,7 @@
         {
           "profile_id": "1105",
           "name": "LANDO NORRIS",
-          "party": "independent",
+          "party": "gop",
           "state": "Illinois",
           "chamber": "House",
           "avatar": "https://cdn.discordapp.com/avatars/1273992220730589270/e74fea01147b8ed2f842a66a9f7053d3.webp",
@@ -44552,7 +44552,7 @@
         {
           "profile_id": "1108",
           "name": "GEORGE RUSSELL",
-          "party": "independent",
+          "party": "gop",
           "state": "Maryland",
           "chamber": "House",
           "avatar": "https://cdn.discordapp.com/avatars/1273992220730589270/e74fea01147b8ed2f842a66a9f7053d3.webp",
@@ -44567,8 +44567,8 @@
         {
           "profile_id": "1203",
           "name": "AMBERLYNN REID",
-          "party": "independent",
-          "state": "Pennsylvania",
+          "party": "gop",
+          "state": "Kentucky",
           "chamber": "Senate",
           "avatar": "https://cdn.discordapp.com/avatars/1273992220730589270/e74fea01147b8ed2f842a66a9f7053d3.webp",
           "is_main": false,
@@ -55739,12 +55739,12 @@
     {
       "user_id": "p1004",
       "player_id": "p1004",
-      "name": "HILLARY CLINTON",
+      "name": "BLAIR WALDORF",
       "discord": "kewtslimnury",
       "discord_ids": [
         "1460058777125654644"
       ],
-      "party": "grn",
+      "party": "dem",
       "state": "Pennsylvania",
       "chambers": [
         "Other",
@@ -55754,8 +55754,8 @@
       "profiles": [
         {
           "profile_id": "1004",
-          "name": "HILLARY CLINTON",
-          "party": "grn",
+          "name": "BLAIR WALDORF",
+          "party": "dem",
           "state": "Pennsylvania",
           "chamber": "Senate",
           "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
@@ -55769,8 +55769,8 @@
         },
         {
           "profile_id": "1013",
-          "name": "DARIALIZA AVILA CHEVAL",
-          "party": "grn",
+          "name": "SERENA VANDERWOODSEN",
+          "party": "dem",
           "state": "Virginia",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
@@ -55783,7 +55783,7 @@
         {
           "profile_id": "1245",
           "name": "ALEXANDRIA OCASIO-CORTEZ",
-          "party": "grn",
+          "party": "dem",
           "state": "New Jersey",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/cdd33b96d5eeb550f70e63e5b89490fa.webp",
@@ -55826,7 +55826,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55839,7 +55839,7 @@
           "vote": "nay",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55852,7 +55852,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55865,7 +55865,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55878,7 +55878,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55891,7 +55891,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55904,7 +55904,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55917,7 +55917,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55930,7 +55930,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55943,7 +55943,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55956,7 +55956,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55969,7 +55969,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55982,7 +55982,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -55995,7 +55995,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -56008,7 +56008,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -56021,7 +56021,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -56034,7 +56034,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -56047,7 +56047,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         },
         {
@@ -56060,7 +56060,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1004",
-          "profile_name": "HILLARY CLINTON",
+          "profile_name": "BLAIR WALDORF",
           "chamber": "Senate"
         }
       ],
