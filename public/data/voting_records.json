@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:30:07+00:00",
+  "generated_at": "2026-10-27T21:50:51+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -1231,7 +1231,7 @@
     {
       "type": "player",
       "id": "p1026",
-      "label": "marcsexual (Gerard Way)",
+      "label": "marcsexual (Jesse Jackson)",
       "aliases": [
         "marcsexual"
       ],
@@ -2786,12 +2786,6 @@
     },
     {
       "type": "profile",
-      "id": "1026",
-      "label": "Gerard Way (1026)",
-      "player_id": "p1026"
-    },
-    {
-      "type": "profile",
       "id": "1126",
       "label": "Gion G. Glaceon (1126)",
       "player_id": "p1126"
@@ -3005,6 +2999,12 @@
       "id": "1300",
       "label": "Jerry Shekelstein (1300)",
       "player_id": "p1298"
+    },
+    {
+      "type": "profile",
+      "id": "1026",
+      "label": "Jesse Jackson (1026)",
+      "player_id": "p1026"
     },
     {
       "type": "profile",
@@ -3362,12 +3362,6 @@
     },
     {
       "type": "profile",
-      "id": "1109",
-      "label": "Lyle Menendez (1109)",
-      "player_id": "p1107"
-    },
-    {
-      "type": "profile",
       "id": "1313",
       "label": "Mackenzie Wrzesinski (1313)",
       "player_id": "p1313"
@@ -3437,6 +3431,12 @@
       "id": "1223",
       "label": "Martin O'Malley (1223)",
       "player_id": "p1141"
+    },
+    {
+      "type": "profile",
+      "id": "1109",
+      "label": "Marty Spunkhouser (1109)",
+      "player_id": "p1107"
     },
     {
       "type": "profile",
@@ -62197,7 +62197,7 @@
       "conservative_scorecard": {
         "user_id": "p1026",
         "player_id": "p1026",
-        "name": "Gerard Way",
+        "name": "Jesse Jackson",
         "discord": "marcsexual",
         "discord_ids": [
           "1406312807691063419"
@@ -62211,7 +62211,7 @@
         "profiles": [
           {
             "profile_id": "1026",
-            "name": "Gerard Way",
+            "name": "Jesse Jackson",
             "party": "grn",
             "state": "California",
             "chamber": "Other",
@@ -62284,7 +62284,7 @@
       "discord_ids": [
         "1406312807691063419"
       ],
-      "name": "Gerard Way",
+      "name": "Jesse Jackson",
       "profile_ids": [
         "1026",
         "1071",
@@ -62293,7 +62293,7 @@
       "profiles": [
         {
           "profile_id": "1026",
-          "name": "Gerard Way",
+          "name": "Jesse Jackson",
           "party": "grn",
           "state": "California",
           "is_main": true,
@@ -82929,7 +82929,7 @@
           },
           {
             "profile_id": "1109",
-            "name": "Lyle Menendez",
+            "name": "Marty Spunkhouser",
             "party": "grn",
             "state": "Florida",
             "chamber": "Other",
@@ -83256,7 +83256,7 @@
         },
         {
           "profile_id": "1109",
-          "name": "Lyle Menendez",
+          "name": "Marty Spunkhouser",
           "party": "grn",
           "state": "Florida",
           "is_main": false,
@@ -98222,7 +98222,7 @@
     {
       "profile_id": "1026",
       "player_id": "p1026",
-      "name": "Gerard Way",
+      "name": "Jesse Jackson",
       "discord": "marcsexual",
       "discord_id": "1406312807691063419",
       "discord_history": [
@@ -123549,7 +123549,7 @@
     {
       "profile_id": "1109",
       "player_id": "p1107",
-      "name": "Lyle Menendez",
+      "name": "Marty Spunkhouser",
       "discord": "tweamonster_",
       "discord_id": "1490056689326489650",
       "discord_history": [
