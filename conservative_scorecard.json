@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T21:50:50+00:00",
+  "generated_at": "2026-10-28T04:05:49+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -40308,7 +40308,7 @@
           "profile_id": "1061",
           "name": "Olivia Dean",
           "party": "dem",
-          "state": "Michigan",
+          "state": "Arkansas",
           "chamber": "House",
           "avatar": "https://cdn.discordapp.com/avatars/1470138832044167178/f8bac10afd8032eaf5f8ca9418f0fb51.webp",
           "is_main": false,
@@ -42576,7 +42576,7 @@
           "profile_id": "1065",
           "name": "Eric Trump",
           "party": "dem",
-          "state": "Texas",
+          "state": "Nebraska",
           "chamber": "House",
           "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
           "is_main": false,
@@ -44303,7 +44303,7 @@
         "Other",
         "Senate"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/08a5fda6f06afe5b57214744f5c07456.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/a0f0c20bf99640052e6998ba54ed1cdb.webp",
       "profiles": [
         {
           "profile_id": "1049",
@@ -44311,7 +44311,7 @@
           "party": "cst",
           "state": "Alabama",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/08a5fda6f06afe5b57214744f5c07456.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/a0f0c20bf99640052e6998ba54ed1cdb.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -44324,7 +44324,7 @@
           "party": "cst",
           "state": "Hawaii",
           "chamber": "Senate",
-          "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/08a5fda6f06afe5b57214744f5c07456.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/a0f0c20bf99640052e6998ba54ed1cdb.webp",
           "is_main": false,
           "on_site": true,
           "offices": [
@@ -44339,7 +44339,7 @@
           "party": "cst",
           "state": "Louisiana",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/08a5fda6f06afe5b57214744f5c07456.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/a0f0c20bf99640052e6998ba54ed1cdb.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -45833,7 +45833,7 @@
       "discord_ids": [
         "961355935496953956"
       ],
-      "party": "dsa",
+      "party": "afp",
       "state": "Illinois",
       "chambers": [
         "House",
@@ -45844,7 +45844,7 @@
         {
           "profile_id": "1025",
           "name": "Barack Obama",
-          "party": "dsa",
+          "party": "afp",
           "state": "Illinois",
           "chamber": "House",
           "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -45859,7 +45859,7 @@
         {
           "profile_id": "1033",
           "name": "Gavin Newsom",
-          "party": "dsa",
+          "party": "afp",
           "state": "California",
           "chamber": "Senate",
           "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -45874,7 +45874,7 @@
         {
           "profile_id": "1209",
           "name": "Tim Ryan",
-          "party": "dsa",
+          "party": "afp",
           "state": "New York",
           "chamber": "Senate",
           "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -60169,7 +60169,7 @@
           "profile_id": "1254",
           "name": "Peter Russo",
           "party": "dem",
-          "state": "Puerto Rico",
+          "state": "Idaho",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
           "is_main": false,
@@ -60556,7 +60556,7 @@
       "chambers": [
         "Other"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/9686f898246ebde922743f7c8d3a4627.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/61ac9f8e3bf4b343b0d8a17d60474c30.webp",
       "profiles": [
         {
           "profile_id": "1186",
@@ -60564,7 +60564,7 @@
           "party": "gop",
           "state": "New Mexico",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/9686f898246ebde922743f7c8d3a4627.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/61ac9f8e3bf4b343b0d8a17d60474c30.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -60577,7 +60577,7 @@
           "party": "gop",
           "state": "Virginia",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/9686f898246ebde922743f7c8d3a4627.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/61ac9f8e3bf4b343b0d8a17d60474c30.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -60590,7 +60590,7 @@
           "party": "gop",
           "state": "Kentucky",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/9686f898246ebde922743f7c8d3a4627.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/61ac9f8e3bf4b343b0d8a17d60474c30.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -63371,7 +63371,7 @@
       "discord_ids": [
         "859651042203402250"
       ],
-      "party": "gop",
+      "party": "afp",
       "state": "Florida",
       "chambers": [
         "House",
@@ -63382,7 +63382,7 @@
         {
           "profile_id": "1062",
           "name": "Marco Rubio",
-          "party": "gop",
+          "party": "afp",
           "state": "Florida",
           "chamber": "House",
           "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_5ddcbb22a94ae427badf6946f2765c8a.gif",
@@ -63397,7 +63397,7 @@
         {
           "profile_id": "1080",
           "name": "Joseph Washington",
-          "party": "gop",
+          "party": "afp",
           "state": "Florida",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_5ddcbb22a94ae427badf6946f2765c8a.gif",
@@ -63410,8 +63410,8 @@
         {
           "profile_id": "1220",
           "name": "Donald Trump Jr.",
-          "party": "gop",
-          "state": "Nevada",
+          "party": "afp",
+          "state": "Florida",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/859651042203402250/a_5ddcbb22a94ae427badf6946f2765c8a.gif",
           "is_main": false,
