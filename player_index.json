@@ -858,7 +858,7 @@
     "name": "Barack Obama",
     "discord": "trumpquest",
     "party": "afp",
-    "state": "Illinois",
+    "state": "Alaska",
     "last_seen": "2026-10-28",
     "on_site": true,
     "discord_id": "961355935496953956",
@@ -1130,7 +1130,7 @@
     "name": "Gavin Newsom",
     "discord": "trumpquest",
     "party": "afp",
-    "state": "California",
+    "state": "Alaska",
     "last_seen": "2026-10-28",
     "on_site": true,
     "discord_id": "961355935496953956",
@@ -3383,7 +3383,7 @@
     "player_id": "p1103",
     "name": "Elliott Witt",
     "discord": "goodvibejay",
-    "party": "gop",
+    "party": "dsa",
     "state": "Alaska",
     "last_seen": "2026-10-28",
     "on_site": true,
@@ -5598,7 +5598,7 @@
     "player_id": "p1103",
     "name": "Todd Palin",
     "discord": "goodvibejay",
-    "party": "gop",
+    "party": "dsa",
     "state": "Alaska",
     "last_seen": "2026-10-28",
     "on_site": true,
@@ -6875,10 +6875,10 @@
     "first_seen": "2026-10-20",
     "profile_id": "1209",
     "player_id": "p1025",
-    "name": "Tim Ryan",
+    "name": "Andrew Tate",
     "discord": "trumpquest",
     "party": "afp",
-    "state": "New York",
+    "state": "Alaska",
     "last_seen": "2026-10-28",
     "on_site": true,
     "discord_id": "961355935496953956",
@@ -9215,7 +9215,7 @@
     "player_id": "p1103",
     "name": "Julian Assange",
     "discord": "goodvibejay",
-    "party": "gop",
+    "party": "dsa",
     "state": "North Dakota",
     "last_seen": "2026-10-28",
     "on_site": true,
@@ -10027,7 +10027,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1304",
     "player_id": "p1304",
-    "name": "Kanye West",
+    "name": "Benjamіn Netanyahu",
     "discord": "internetanyahu",
     "party": "dem",
     "state": "North Carolina",
@@ -11922,6 +11922,63 @@
     "discord_id": "",
     "party": "dsa",
     "state": "Montana",
+    "last_seen": "2026-10-28",
+    "on_site": true
+  },
+  "1376": {
+    "profile_id": "1376",
+    "player_id": "p1376",
+    "first_seen": "2026-10-28",
+    "discord_history": [
+      {
+        "discord": "matchamatchamatcha",
+        "discord_id": "434790190809350165",
+        "first_seen": "2026-10-28"
+      }
+    ],
+    "name": "John Stone",
+    "discord": "matchamatchamatcha",
+    "discord_id": "434790190809350165",
+    "party": "dem",
+    "state": "South Carolina",
+    "last_seen": "2026-10-28",
+    "on_site": true
+  },
+  "1377": {
+    "profile_id": "1377",
+    "player_id": "p1376",
+    "first_seen": "2026-10-28",
+    "discord_history": [
+      {
+        "discord": "matchamatchamatcha",
+        "discord_id": "434790190809350165",
+        "first_seen": "2026-10-28"
+      }
+    ],
+    "name": "Kanye West",
+    "discord": "matchamatchamatcha",
+    "discord_id": "434790190809350165",
+    "party": "dem",
+    "state": "Illinois",
+    "last_seen": "2026-10-28",
+    "on_site": true
+  },
+  "1378": {
+    "profile_id": "1378",
+    "player_id": "p1376",
+    "first_seen": "2026-10-28",
+    "discord_history": [
+      {
+        "discord": "matchamatchamatcha",
+        "discord_id": "434790190809350165",
+        "first_seen": "2026-10-28"
+      }
+    ],
+    "name": "Ye",
+    "discord": "matchamatchamatcha",
+    "discord_id": "434790190809350165",
+    "party": "dem",
+    "state": "California",
     "last_seen": "2026-10-28",
     "on_site": true
   }

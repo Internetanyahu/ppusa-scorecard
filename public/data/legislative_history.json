@@ -8927,7 +8927,7 @@
   },
   {
     "player_id": "p1025",
-    "name": "Tim Ryan",
+    "name": "Andrew Tate",
     "discord": "trumpquest",
     "profiles": [
       "1025",
@@ -45676,6 +45676,18 @@
       "1373",
       "1374",
       "1375"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1376",
+    "name": "Ye",
+    "discord": "matchamatchamatcha",
+    "profiles": [
+      "1376",
+      "1377",
+      "1378"
     ],
     "bills": [],
     "bill_count": 0

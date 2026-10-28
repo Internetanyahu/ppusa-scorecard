@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T04:05:50+00:00",
+  "generated_at": "2026-10-28T12:10:00+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -786,7 +786,7 @@
     {
       "type": "player",
       "id": "p1304",
-      "label": "internetanyahu (Kanye West)",
+      "label": "internetanyahu (Benjamіn Netanyahu)",
       "aliases": [
         "internetanyahu"
       ],
@@ -1239,6 +1239,19 @@
         "1026",
         "1071",
         "1236"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1376",
+      "label": "matchamatchamatcha (John Stone)",
+      "aliases": [
+        "matchamatchamatcha"
+      ],
+      "profile_ids": [
+        "1376",
+        "1377",
+        "1378"
       ]
     },
     {
@@ -2042,6 +2055,12 @@
     },
     {
       "type": "profile",
+      "id": "1209",
+      "label": "Andrew Tate (1209)",
+      "player_id": "p1025"
+    },
+    {
+      "type": "profile",
       "id": "1236",
       "label": "Andrew Vanwyngarden (1236)",
       "player_id": "p1026"
@@ -2177,6 +2196,12 @@
       "id": "1147",
       "label": "Benjamin Nitay (1147)",
       "player_id": "p1147"
+    },
+    {
+      "type": "profile",
+      "id": "1304",
+      "label": "Benjamіn Netanyahu (1304)",
+      "player_id": "p1304"
     },
     {
       "type": "profile",
@@ -3098,6 +3123,12 @@
     },
     {
       "type": "profile",
+      "id": "1376",
+      "label": "John Stone (1376)",
+      "player_id": "p1376"
+    },
+    {
+      "type": "profile",
       "id": "1339",
       "label": "Jon Ossoff (1339)",
       "player_id": "p1163"
@@ -3170,9 +3201,9 @@
     },
     {
       "type": "profile",
-      "id": "1304",
-      "label": "Kanye West (1304)",
-      "player_id": "p1304"
+      "id": "1377",
+      "label": "Kanye West (1377)",
+      "player_id": "p1376"
     },
     {
       "type": "profile",
@@ -3980,12 +4011,6 @@
     },
     {
       "type": "profile",
-      "id": "1209",
-      "label": "Tim Ryan (1209)",
-      "player_id": "p1025"
-    },
-    {
-      "type": "profile",
       "id": "1229",
       "label": "Tina Turner (1229)",
       "player_id": "p1136"
@@ -4151,6 +4176,12 @@
       "id": "1371",
       "label": "Xandru (1371)",
       "player_id": "p1371"
+    },
+    {
+      "type": "profile",
+      "id": "1378",
+      "label": "Ye (1378)",
+      "player_id": "p1376"
     },
     {
       "type": "profile",
@@ -40424,7 +40455,7 @@
         "discord_ids": [
           "297561809278337035"
         ],
-        "party": "gop",
+        "party": "dsa",
         "state": "Alaska",
         "chambers": [
           "Other",
@@ -40435,7 +40466,7 @@
           {
             "profile_id": "1103",
             "name": "Elliott Witt",
-            "party": "gop",
+            "party": "dsa",
             "state": "Alaska",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/297561809278337035/d69e06c1eee61cf79829985f855152fe.webp",
@@ -40448,7 +40479,7 @@
           {
             "profile_id": "1170",
             "name": "Todd Palin",
-            "party": "gop",
+            "party": "dsa",
             "state": "Alaska",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/297561809278337035/d69e06c1eee61cf79829985f855152fe.webp",
@@ -40463,7 +40494,7 @@
           {
             "profile_id": "1279",
             "name": "Julian Assange",
-            "party": "gop",
+            "party": "dsa",
             "state": "North Dakota",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/297561809278337035/d69e06c1eee61cf79829985f855152fe.webp",
@@ -40782,7 +40813,7 @@
         {
           "profile_id": "1103",
           "name": "Elliott Witt",
-          "party": "gop",
+          "party": "dsa",
           "state": "Alaska",
           "is_main": true,
           "on_site": true
@@ -40790,7 +40821,7 @@
         {
           "profile_id": "1170",
           "name": "Todd Palin",
-          "party": "gop",
+          "party": "dsa",
           "state": "Alaska",
           "is_main": false,
           "on_site": true
@@ -40798,7 +40829,7 @@
         {
           "profile_id": "1279",
           "name": "Julian Assange",
-          "party": "gop",
+          "party": "dsa",
           "state": "North Dakota",
           "is_main": false,
           "on_site": true
@@ -49464,7 +49495,7 @@
       "conservative_scorecard": {
         "user_id": "p1304",
         "player_id": "p1304",
-        "name": "Kanye West",
+        "name": "Benjamіn Netanyahu",
         "discord": "internetanyahu",
         "discord_ids": [
           "966709449081360494"
@@ -49479,7 +49510,7 @@
         "profiles": [
           {
             "profile_id": "1304",
-            "name": "Kanye West",
+            "name": "Benjamіn Netanyahu",
             "party": "dem",
             "state": "North Carolina",
             "chamber": "Senate",
@@ -49551,7 +49582,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49564,7 +49595,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49577,7 +49608,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49590,7 +49621,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49603,7 +49634,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49616,7 +49647,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49629,7 +49660,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49642,7 +49673,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49655,7 +49686,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49668,7 +49699,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49681,7 +49712,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49694,7 +49725,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49707,7 +49738,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49720,7 +49751,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49733,7 +49764,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49746,7 +49777,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           },
           {
@@ -49759,7 +49790,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Kanye West",
+            "profile_name": "Benjamіn Netanyahu",
             "chamber": "Senate"
           }
         ],
@@ -49776,7 +49807,7 @@
       "discord_ids": [
         "966709449081360494"
       ],
-      "name": "Kanye West",
+      "name": "Benjamіn Netanyahu",
       "profile_ids": [
         "1304",
         "1307",
@@ -49785,7 +49816,7 @@
       "profiles": [
         {
           "profile_id": "1304",
-          "name": "Kanye West",
+          "name": "Benjamіn Netanyahu",
           "party": "dem",
           "state": "North Carolina",
           "is_main": true,
@@ -62312,6 +62343,147 @@
           "name": "Andrew Vanwyngarden",
           "party": "grn",
           "state": "Ohio",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p1376",
+      "conservative_scorecard": {
+        "user_id": "p1376",
+        "player_id": "p1376",
+        "name": "John Stone",
+        "discord": "matchamatchamatcha",
+        "discord_ids": [
+          "434790190809350165"
+        ],
+        "party": "dem",
+        "state": "South Carolina",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/26e0b64a9741bf0b8bab9d0a1ff140f2.webp",
+        "profiles": [
+          {
+            "profile_id": "1376",
+            "name": "John Stone",
+            "party": "dem",
+            "state": "South Carolina",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/26e0b64a9741bf0b8bab9d0a1ff140f2.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1377",
+            "name": "Kanye West",
+            "party": "dem",
+            "state": "Illinois",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/26e0b64a9741bf0b8bab9d0a1ff140f2.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1378",
+            "name": "Ye",
+            "party": "dem",
+            "state": "California",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/26e0b64a9741bf0b8bab9d0a1ff140f2.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "matchamatchamatcha",
+      "discord_current": true,
+      "discord_aliases": [
+        "matchamatchamatcha"
+      ],
+      "discord_ids": [
+        "434790190809350165"
+      ],
+      "name": "John Stone",
+      "profile_ids": [
+        "1376",
+        "1377",
+        "1378"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1376",
+          "name": "John Stone",
+          "party": "dem",
+          "state": "South Carolina",
+          "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1377",
+          "name": "Kanye West",
+          "party": "dem",
+          "state": "Illinois",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1378",
+          "name": "Ye",
+          "party": "dem",
+          "state": "California",
           "is_main": false,
           "on_site": true
         }
@@ -77989,7 +78161,7 @@
           "961355935496953956"
         ],
         "party": "afp",
-        "state": "Illinois",
+        "state": "Alaska",
         "chambers": [
           "House",
           "Senate"
@@ -78000,7 +78172,7 @@
             "profile_id": "1025",
             "name": "Barack Obama",
             "party": "afp",
-            "state": "Illinois",
+            "state": "Alaska",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
             "is_main": true,
@@ -78015,7 +78187,7 @@
             "profile_id": "1033",
             "name": "Gavin Newsom",
             "party": "afp",
-            "state": "California",
+            "state": "Alaska",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
             "is_main": false,
@@ -78028,9 +78200,9 @@
           },
           {
             "profile_id": "1209",
-            "name": "Tim Ryan",
+            "name": "Andrew Tate",
             "party": "afp",
-            "state": "New York",
+            "state": "Alaska",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
             "is_main": false,
@@ -78427,7 +78599,7 @@
           "profile_id": "1025",
           "name": "Barack Obama",
           "party": "afp",
-          "state": "Illinois",
+          "state": "Alaska",
           "is_main": true,
           "on_site": true
         },
@@ -78435,15 +78607,15 @@
           "profile_id": "1033",
           "name": "Gavin Newsom",
           "party": "afp",
-          "state": "California",
+          "state": "Alaska",
           "is_main": false,
           "on_site": true
         },
         {
           "profile_id": "1209",
-          "name": "Tim Ryan",
+          "name": "Andrew Tate",
           "party": "afp",
-          "state": "New York",
+          "state": "Alaska",
           "is_main": false,
           "on_site": true
         }
@@ -97538,7 +97710,7 @@
         }
       ],
       "party": "afp",
-      "state": "Illinois",
+      "state": "Alaska",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -99809,7 +99981,7 @@
         }
       ],
       "party": "afp",
-      "state": "California",
+      "state": "Alaska",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -120740,7 +120912,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "gop",
+      "party": "dsa",
       "state": "Alaska",
       "is_main": true,
       "on_site": true,
@@ -132554,7 +132726,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "gop",
+      "party": "dsa",
       "state": "Alaska",
       "is_main": false,
       "on_site": true,
@@ -138341,7 +138513,7 @@
     {
       "profile_id": "1209",
       "player_id": "p1025",
-      "name": "Tim Ryan",
+      "name": "Andrew Tate",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -138367,7 +138539,7 @@
         }
       ],
       "party": "afp",
-      "state": "New York",
+      "state": "Alaska",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -145087,7 +145259,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "gop",
+      "party": "dsa",
       "state": "North Dakota",
       "is_main": false,
       "on_site": true,
@@ -148075,7 +148247,7 @@
     {
       "profile_id": "1304",
       "player_id": "p1304",
-      "name": "Kanye West",
+      "name": "Benjamіn Netanyahu",
       "discord": "internetanyahu",
       "discord_id": "966709449081360494",
       "discord_history": [
@@ -152906,6 +153078,108 @@
       ],
       "party": "dsa",
       "state": "Montana",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1376",
+      "player_id": "p1376",
+      "name": "John Stone",
+      "discord": "matchamatchamatcha",
+      "discord_id": "434790190809350165",
+      "discord_history": [
+        {
+          "discord": "matchamatchamatcha",
+          "discord_id": "434790190809350165",
+          "first_seen": "2026-10-28"
+        }
+      ],
+      "party": "dem",
+      "state": "South Carolina",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1377",
+      "player_id": "p1376",
+      "name": "Kanye West",
+      "discord": "matchamatchamatcha",
+      "discord_id": "434790190809350165",
+      "discord_history": [
+        {
+          "discord": "matchamatchamatcha",
+          "discord_id": "434790190809350165",
+          "first_seen": "2026-10-28"
+        }
+      ],
+      "party": "dem",
+      "state": "Illinois",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1378",
+      "player_id": "p1376",
+      "name": "Ye",
+      "discord": "matchamatchamatcha",
+      "discord_id": "434790190809350165",
+      "discord_history": [
+        {
+          "discord": "matchamatchamatcha",
+          "discord_id": "434790190809350165",
+          "first_seen": "2026-10-28"
+        }
+      ],
+      "party": "dem",
+      "state": "California",
       "is_main": false,
       "on_site": true,
       "counts": {
