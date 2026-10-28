@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:10:00+00:00",
+  "generated_at": "2026-10-28T22:13:12+00:00",
   "default_set": "conservative",
   "sets": [
     {
@@ -39718,7 +39718,7 @@
               "profile_id": "1096",
               "name": "John Patsalos",
               "party": "cst",
-              "state": "Florida",
+              "state": "Texas",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/637807494764429332/d85e02113b2e0d1ef5d0e31b61eba06d.webp",
               "is_main": false,
@@ -52435,7 +52435,7 @@
         {
           "user_id": "p1021",
           "player_id": "p1021",
-          "name": "Jill Stein",
+          "name": "Viorica Ceaușoglu",
           "discord": "hawaji17",
           "discord_ids": [
             "636708961956921354"
@@ -52450,7 +52450,7 @@
           "profiles": [
             {
               "profile_id": "1021",
-              "name": "Jill Stein",
+              "name": "Viorica Ceaușoglu",
               "party": "grn",
               "state": "New Jersey",
               "chamber": "Other",
@@ -60295,7 +60295,7 @@
             "1534257079764652185"
           ],
           "party": "grn",
-          "state": "New Jersey",
+          "state": "Rhode Island",
           "chambers": [
             "Other"
           ],
@@ -60305,7 +60305,7 @@
               "profile_id": "1077",
               "name": "Andrew Cuomo",
               "party": "grn",
-              "state": "New Jersey",
+              "state": "Rhode Island",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1534257079764652185/8f1d586bee2bf18f07387e697d8d8337.webp",
               "is_main": true,
@@ -60318,7 +60318,7 @@
               "profile_id": "1081",
               "name": "Zohran Mamdani",
               "party": "grn",
-              "state": "Connecticut",
+              "state": "Rhode Island",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1534257079764652185/8f1d586bee2bf18f07387e697d8d8337.webp",
               "is_main": false,
@@ -60331,7 +60331,7 @@
               "profile_id": "1219",
               "name": "Joseph R. Biden Jr.",
               "party": "grn",
-              "state": "New Jersey",
+              "state": "Rhode Island",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1534257079764652185/8f1d586bee2bf18f07387e697d8d8337.webp",
               "is_main": false,
@@ -60854,7 +60854,7 @@
               "profile_id": "1299",
               "name": "Grant Gainsworth",
               "party": "cst",
-              "state": "Florida",
+              "state": "Alabama",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/1659cbc09914a1fb27d8e77dc00d28fa.webp",
               "is_main": false,
@@ -60867,7 +60867,7 @@
               "profile_id": "1300",
               "name": "Jerry Shekelstein",
               "party": "cst",
-              "state": "Florida",
+              "state": "Georgia",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/1659cbc09914a1fb27d8e77dc00d28fa.webp",
               "is_main": false,
@@ -61377,7 +61377,7 @@
           "discord_ids": [
             "135877470137221120"
           ],
-          "party": "independent",
+          "party": "dsa",
           "state": "North Dakota",
           "chambers": [
             "Other"
@@ -61387,7 +61387,7 @@
             {
               "profile_id": "1055",
               "name": "Caleb Travinski",
-              "party": "independent",
+              "party": "dsa",
               "state": "North Dakota",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
@@ -61400,7 +61400,7 @@
             {
               "profile_id": "1168",
               "name": "Esther Neimann",
-              "party": "independent",
+              "party": "dsa",
               "state": "Alaska",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
@@ -61413,7 +61413,7 @@
             {
               "profile_id": "1251",
               "name": "Ruth Buffalo",
-              "party": "independent",
+              "party": "dsa",
               "state": "North Dakota",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
@@ -64379,7 +64379,7 @@
               "profile_id": "1232",
               "name": "OLLIE BEARMAN",
               "party": "grn",
-              "state": "Illinois",
+              "state": "New Jersey",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/812116694234693672/a_564d88afc9a0508991557fb7863fa7e1.gif",
               "is_main": false,
@@ -66246,6 +66246,62 @@
           "has_office": false
         },
         {
+          "user_id": "p1379",
+          "player_id": "p1379",
+          "name": "Ruben Gallego",
+          "discord": "_.loannes",
+          "discord_ids": [
+            "1240249543832895549"
+          ],
+          "party": "dem",
+          "state": "Washington",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/1240249543832895549/b3ec48829eb0293335c3b02e10d92c6f.webp",
+          "profiles": [
+            {
+              "profile_id": "1379",
+              "name": "Ruben Gallego",
+              "party": "dem",
+              "state": "Washington",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/1240249543832895549/b3ec48829eb0293335c3b02e10d92c6f.webp",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
           "user_id": "p1270",
           "player_id": "p1270",
           "name": "Rumi",
@@ -66475,7 +66531,7 @@
             "887481623203950693"
           ],
           "party": "gop",
-          "state": "New Hampshire",
+          "state": "Colorado",
           "chambers": [
             "Other",
             "Senate"
@@ -66486,7 +66542,7 @@
               "profile_id": "1180",
               "name": "Susan Collins",
               "party": "gop",
-              "state": "New Hampshire",
+              "state": "Colorado",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/887481623203950693/4ee38cb757401bccea5b556fa7765d7a.webp",
               "is_main": true,
@@ -103745,7 +103801,7 @@
               "profile_id": "1096",
               "name": "John Patsalos",
               "party": "cst",
-              "state": "Florida",
+              "state": "Texas",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/637807494764429332/d85e02113b2e0d1ef5d0e31b61eba06d.webp",
               "is_main": false,
@@ -107710,7 +107766,7 @@
         {
           "user_id": "p1021",
           "player_id": "p1021",
-          "name": "Jill Stein",
+          "name": "Viorica Ceaușoglu",
           "discord": "hawaji17",
           "discord_ids": [
             "636708961956921354"
@@ -107725,7 +107781,7 @@
           "profiles": [
             {
               "profile_id": "1021",
-              "name": "Jill Stein",
+              "name": "Viorica Ceaușoglu",
               "party": "grn",
               "state": "New Jersey",
               "chamber": "Other",
@@ -111003,7 +111059,7 @@
             "1534257079764652185"
           ],
           "party": "grn",
-          "state": "New Jersey",
+          "state": "Rhode Island",
           "chambers": [
             "Other"
           ],
@@ -111013,7 +111069,7 @@
               "profile_id": "1077",
               "name": "Andrew Cuomo",
               "party": "grn",
-              "state": "New Jersey",
+              "state": "Rhode Island",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1534257079764652185/8f1d586bee2bf18f07387e697d8d8337.webp",
               "is_main": true,
@@ -111026,7 +111082,7 @@
               "profile_id": "1081",
               "name": "Zohran Mamdani",
               "party": "grn",
-              "state": "Connecticut",
+              "state": "Rhode Island",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1534257079764652185/8f1d586bee2bf18f07387e697d8d8337.webp",
               "is_main": false,
@@ -111039,7 +111095,7 @@
               "profile_id": "1219",
               "name": "Joseph R. Biden Jr.",
               "party": "grn",
-              "state": "New Jersey",
+              "state": "Rhode Island",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1534257079764652185/8f1d586bee2bf18f07387e697d8d8337.webp",
               "is_main": false,
@@ -111562,7 +111618,7 @@
               "profile_id": "1299",
               "name": "Grant Gainsworth",
               "party": "cst",
-              "state": "Florida",
+              "state": "Alabama",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/1659cbc09914a1fb27d8e77dc00d28fa.webp",
               "is_main": false,
@@ -111575,7 +111631,7 @@
               "profile_id": "1300",
               "name": "Jerry Shekelstein",
               "party": "cst",
-              "state": "Florida",
+              "state": "Georgia",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/1659cbc09914a1fb27d8e77dc00d28fa.webp",
               "is_main": false,
@@ -112085,7 +112141,7 @@
           "discord_ids": [
             "135877470137221120"
           ],
-          "party": "independent",
+          "party": "dsa",
           "state": "North Dakota",
           "chambers": [
             "Other"
@@ -112095,7 +112151,7 @@
             {
               "profile_id": "1055",
               "name": "Caleb Travinski",
-              "party": "independent",
+              "party": "dsa",
               "state": "North Dakota",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
@@ -112108,7 +112164,7 @@
             {
               "profile_id": "1168",
               "name": "Esther Neimann",
-              "party": "independent",
+              "party": "dsa",
               "state": "Alaska",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
@@ -112121,7 +112177,7 @@
             {
               "profile_id": "1251",
               "name": "Ruth Buffalo",
-              "party": "independent",
+              "party": "dsa",
               "state": "North Dakota",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
@@ -115073,7 +115129,7 @@
               "profile_id": "1232",
               "name": "OLLIE BEARMAN",
               "party": "grn",
-              "state": "Illinois",
+              "state": "New Jersey",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/812116694234693672/a_564d88afc9a0508991557fb7863fa7e1.gif",
               "is_main": false,
@@ -116912,6 +116968,62 @@
           "has_office": false
         },
         {
+          "user_id": "p1379",
+          "player_id": "p1379",
+          "name": "Ruben Gallego",
+          "discord": "_.loannes",
+          "discord_ids": [
+            "1240249543832895549"
+          ],
+          "party": "dem",
+          "state": "Washington",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/1240249543832895549/b3ec48829eb0293335c3b02e10d92c6f.webp",
+          "profiles": [
+            {
+              "profile_id": "1379",
+              "name": "Ruben Gallego",
+              "party": "dem",
+              "state": "Washington",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/1240249543832895549/b3ec48829eb0293335c3b02e10d92c6f.webp",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
           "user_id": "p1270",
           "player_id": "p1270",
           "name": "Rumi",
@@ -117141,7 +117253,7 @@
             "887481623203950693"
           ],
           "party": "gop",
-          "state": "New Hampshire",
+          "state": "Colorado",
           "chambers": [
             "Other",
             "Senate"
@@ -117152,7 +117264,7 @@
               "profile_id": "1180",
               "name": "Susan Collins",
               "party": "gop",
-              "state": "New Hampshire",
+              "state": "Colorado",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/887481623203950693/4ee38cb757401bccea5b556fa7765d7a.webp",
               "is_main": true,
