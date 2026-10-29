@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:20:25+00:00",
+  "generated_at": "2026-10-29T22:27:41+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -55,12 +55,14 @@
     {
       "type": "player",
       "id": "p1124",
-      "label": "1milliondollarman (Drew Simon)",
+      "label": "1milliondollarman (Bree Van de Kamp)",
       "aliases": [
         "1milliondollarman"
       ],
       "profile_ids": [
-        "1124"
+        "1124",
+        "1381",
+        "1382"
       ]
     },
     {
@@ -306,15 +308,6 @@
         "1181",
         "1252",
         "1367"
-      ]
-    },
-    {
-      "type": "player",
-      "id": "p1366",
-      "label": "Bruce Blakeman",
-      "aliases": [],
-      "profile_ids": [
-        "1366"
       ]
     },
     {
@@ -1013,6 +1006,17 @@
     },
     {
       "type": "player",
+      "id": "p1380",
+      "label": "kaidengordon4311 (Kamala Harris)",
+      "aliases": [
+        "kaidengordon4311"
+      ],
+      "profile_ids": [
+        "1380"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1167",
       "label": "Kamala D. Harris",
       "aliases": [],
@@ -1567,6 +1571,17 @@
     },
     {
       "type": "player",
+      "id": "p1366",
+      "label": "samthegreat4943 (Bruce Blakeman)",
+      "aliases": [
+        "samthegreat4943"
+      ],
+      "profile_ids": [
+        "1366"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1184",
       "label": "saturnaliacivilis (Andrew Welsington)",
       "aliases": [
@@ -1946,6 +1961,12 @@
     },
     {
       "type": "profile",
+      "id": "1381",
+      "label": "Abby Lee Miller (1381)",
+      "player_id": "p1124"
+    },
+    {
+      "type": "profile",
       "id": "1022",
       "label": "Abigail Spanberger (1022)",
       "player_id": "p1007"
@@ -2276,6 +2297,12 @@
     },
     {
       "type": "profile",
+      "id": "1124",
+      "label": "Bree Van de Kamp (1124)",
+      "player_id": "p1124"
+    },
+    {
+      "type": "profile",
       "id": "1210",
       "label": "Brian Bosworth (1210)",
       "player_id": "p1050"
@@ -2600,12 +2627,6 @@
     },
     {
       "type": "profile",
-      "id": "1124",
-      "label": "Drew Simon (1124)",
-      "player_id": "p1124"
-    },
-    {
-      "type": "profile",
       "id": "1017",
       "label": "Drone (1017)",
       "player_id": "p1017"
@@ -2621,6 +2642,12 @@
       "id": "1175",
       "label": "Edelgard von Hresvelg (1175)",
       "player_id": "p1174"
+    },
+    {
+      "type": "profile",
+      "id": "1212",
+      "label": "Eden Cohen (1212)",
+      "player_id": "p1009"
     },
     {
       "type": "profile",
@@ -2909,6 +2936,12 @@
       "id": "1089",
       "label": "Herman Cain (1089)",
       "player_id": "p1089"
+    },
+    {
+      "type": "profile",
+      "id": "1382",
+      "label": "Holly Frazier (1382)",
+      "player_id": "p1124"
     },
     {
       "type": "profile",
@@ -3209,6 +3242,12 @@
       "id": "1167",
       "label": "Kamala D. Harris (1167)",
       "player_id": "p1167"
+    },
+    {
+      "type": "profile",
+      "id": "1380",
+      "label": "Kamala Harris (1380)",
+      "player_id": "p1380"
     },
     {
       "type": "profile",
@@ -3587,12 +3626,6 @@
       "id": "1218",
       "label": "Nigar Arpadarai (1218)",
       "player_id": "p1021"
-    },
-    {
-      "type": "profile",
-      "id": "1212",
-      "label": "Nikki (1212)",
-      "player_id": "p1009"
     },
     {
       "type": "profile",
@@ -9304,23 +9337,24 @@
       "conservative_scorecard": {
         "user_id": "p1124",
         "player_id": "p1124",
-        "name": "Drew Simon",
+        "name": "Bree Van de Kamp",
         "discord": "1milliondollarman",
         "discord_ids": [
           "1494517988433334433"
         ],
         "party": "dem",
-        "state": "New Jersey",
+        "state": "North Carolina",
         "chambers": [
-          "House"
+          "House",
+          "Other"
         ],
         "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
         "profiles": [
           {
             "profile_id": "1124",
-            "name": "Drew Simon",
+            "name": "Bree Van de Kamp",
             "party": "dem",
-            "state": "New Jersey",
+            "state": "North Carolina",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
             "is_main": true,
@@ -9330,6 +9364,32 @@
             ],
             "office": "House",
             "office_count": 1
+          },
+          {
+            "profile_id": "1381",
+            "name": "Abby Lee Miller",
+            "party": "dem",
+            "state": "Louisiana",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1382",
+            "name": "Holly Frazier",
+            "party": "dem",
+            "state": "North Carolina",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
           }
         ],
         "scores": {
@@ -9367,17 +9427,35 @@
       "discord_ids": [
         "1494517988433334433"
       ],
-      "name": "Drew Simon",
+      "name": "Bree Van de Kamp",
       "profile_ids": [
-        "1124"
+        "1124",
+        "1381",
+        "1382"
       ],
       "profiles": [
         {
           "profile_id": "1124",
-          "name": "Drew Simon",
+          "name": "Bree Van de Kamp",
           "party": "dem",
-          "state": "New Jersey",
+          "state": "North Carolina",
           "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1381",
+          "name": "Abby Lee Miller",
+          "party": "dem",
+          "state": "Louisiana",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1382",
+          "name": "Holly Frazier",
+          "party": "dem",
+          "state": "North Carolina",
+          "is_main": false,
           "on_site": true
         }
       ],
@@ -20157,97 +20235,6 @@
       ]
     },
     {
-      "player_id": "p1366",
-      "conservative_scorecard": {
-        "user_id": "p1366",
-        "player_id": "p1366",
-        "name": "Bruce Blakeman",
-        "discord": "",
-        "discord_ids": [],
-        "party": "gop",
-        "state": "New York",
-        "chambers": [
-          "Other"
-        ],
-        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-        "profiles": [
-          {
-            "profile_id": "1366",
-            "name": "Bruce Blakeman",
-            "party": "gop",
-            "state": "New York",
-            "chamber": "Other",
-            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-            "is_main": true,
-            "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
-          }
-        ],
-        "scores": {
-          "social": null,
-          "economic": null,
-          "foreign": null,
-          "overall": null,
-          "tier": "N/A"
-        },
-        "sample_size": {
-          "social": 0,
-          "economic": 0,
-          "foreign": 0,
-          "overall": 0
-        },
-        "aligned_votes": {
-          "social": 0,
-          "economic": 0,
-          "foreign": 0
-        },
-        "provisions_scored": 0,
-        "aligned_provisions": 0,
-        "finalized_bills_voted": 0,
-        "bill_details": [],
-        "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
-      },
-      "discord": "",
-      "discord_current": false,
-      "discord_aliases": [],
-      "discord_ids": [],
-      "name": "Bruce Blakeman",
-      "profile_ids": [
-        "1366"
-      ],
-      "profiles": [
-        {
-          "profile_id": "1366",
-          "name": "Bruce Blakeman",
-          "party": "gop",
-          "state": "New York",
-          "is_main": true,
-          "on_site": true
-        }
-      ],
-      "counts": {
-        "bills": 0,
-        "sponsored": 0,
-        "cosponsored": 0,
-        "senate": {
-          "aye": 0,
-          "nay": 0,
-          "present": 0
-        },
-        "house": {
-          "aye": 0,
-          "nay": 0,
-          "present": 0
-        }
-      },
-      "bill_votes": []
-    },
-    {
       "player_id": "p1282",
       "conservative_scorecard": {
         "user_id": "p1282",
@@ -27128,7 +27115,7 @@
             "profile_id": "1035",
             "name": "Caleb Walton",
             "party": "dem",
-            "state": "Ohio",
+            "state": "Michigan",
             "chamber": "House",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
@@ -28012,7 +27999,7 @@
           "profile_id": "1035",
           "name": "Caleb Walton",
           "party": "dem",
-          "state": "Ohio",
+          "state": "Michigan",
           "is_main": false,
           "on_site": true
         },
@@ -33657,7 +33644,7 @@
           "Other",
           "Senate"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/998af8fdba24bee56e74e1e49258b7c0.webp",
         "profiles": [
           {
             "profile_id": "1059",
@@ -33665,7 +33652,7 @@
             "party": "dem",
             "state": "Oklahoma",
             "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/998af8fdba24bee56e74e1e49258b7c0.webp",
             "is_main": true,
             "on_site": true,
             "offices": [
@@ -33680,7 +33667,7 @@
             "party": "dem",
             "state": "Nebraska",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/998af8fdba24bee56e74e1e49258b7c0.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -33695,7 +33682,7 @@
             "party": "dem",
             "state": "Texas",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/998af8fdba24bee56e74e1e49258b7c0.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -55602,6 +55589,103 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1380",
+      "conservative_scorecard": {
+        "user_id": "p1380",
+        "player_id": "p1380",
+        "name": "Kamala Harris",
+        "discord": "kaidengordon4311",
+        "discord_ids": [
+          "827875094399025182"
+        ],
+        "party": "dem",
+        "state": "Michigan",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/827875094399025182/1096c720b520f9a6b6fca5a072a95f31.webp",
+        "profiles": [
+          {
+            "profile_id": "1380",
+            "name": "Kamala Harris",
+            "party": "dem",
+            "state": "Michigan",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/827875094399025182/1096c720b520f9a6b6fca5a072a95f31.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "kaidengordon4311",
+      "discord_current": true,
+      "discord_aliases": [
+        "kaidengordon4311"
+      ],
+      "discord_ids": [
+        "827875094399025182"
+      ],
+      "name": "Kamala Harris",
+      "profile_ids": [
+        "1380"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1380",
+          "name": "Kamala Harris",
+          "party": "dem",
+          "state": "Michigan",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1167",
       "conservative_scorecard": {
         "user_id": "p1167",
@@ -64988,7 +65072,7 @@
           "653722361857835009"
         ],
         "party": "dem",
-        "state": "New York",
+        "state": "Wyoming",
         "chambers": [
           "Other"
         ],
@@ -64998,7 +65082,7 @@
             "profile_id": "1270",
             "name": "Rumi",
             "party": "dem",
-            "state": "New York",
+            "state": "Wyoming",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/653722361857835009/d381ea47d495e34a6c6dab630157038e.webp",
             "is_main": true,
@@ -65011,7 +65095,7 @@
             "profile_id": "1271",
             "name": "Zoey",
             "party": "dem",
-            "state": "New York",
+            "state": "Idaho",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/653722361857835009/d381ea47d495e34a6c6dab630157038e.webp",
             "is_main": false,
@@ -65024,7 +65108,7 @@
             "profile_id": "1272",
             "name": "Mira",
             "party": "dem",
-            "state": "New York",
+            "state": "Utah",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/653722361857835009/d381ea47d495e34a6c6dab630157038e.webp",
             "is_main": false,
@@ -65080,7 +65164,7 @@
           "profile_id": "1270",
           "name": "Rumi",
           "party": "dem",
-          "state": "New York",
+          "state": "Wyoming",
           "is_main": true,
           "on_site": true
         },
@@ -65088,7 +65172,7 @@
           "profile_id": "1271",
           "name": "Zoey",
           "party": "dem",
-          "state": "New York",
+          "state": "Idaho",
           "is_main": false,
           "on_site": true
         },
@@ -65096,7 +65180,7 @@
           "profile_id": "1272",
           "name": "Mira",
           "party": "dem",
-          "state": "New York",
+          "state": "Utah",
           "is_main": false,
           "on_site": true
         }
@@ -74168,6 +74252,103 @@
           "party": "grn",
           "state": "California",
           "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p1366",
+      "conservative_scorecard": {
+        "user_id": "p1366",
+        "player_id": "p1366",
+        "name": "Bruce Blakeman",
+        "discord": "samthegreat4943",
+        "discord_ids": [
+          "947334408568987659"
+        ],
+        "party": "gop",
+        "state": "New York",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/947334408568987659/b3e3c238384a9e61d19dba6fe48813bf.webp",
+        "profiles": [
+          {
+            "profile_id": "1366",
+            "name": "Bruce Blakeman",
+            "party": "gop",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/947334408568987659/b3e3c238384a9e61d19dba6fe48813bf.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "samthegreat4943",
+      "discord_current": true,
+      "discord_aliases": [
+        "samthegreat4943"
+      ],
+      "discord_ids": [
+        "947334408568987659"
+      ],
+      "name": "Bruce Blakeman",
+      "profile_ids": [
+        "1366"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1366",
+          "name": "Bruce Blakeman",
+          "party": "gop",
+          "state": "New York",
+          "is_main": true,
           "on_site": true
         }
       ],
@@ -84348,7 +84529,7 @@
           },
           {
             "profile_id": "1212",
-            "name": "Nikki",
+            "name": "Eden Cohen",
             "party": "grn",
             "state": "Hawaii",
             "chamber": "Other",
@@ -84420,7 +84601,7 @@
         },
         {
           "profile_id": "1212",
-          "name": "Nikki",
+          "name": "Eden Cohen",
           "party": "grn",
           "state": "Hawaii",
           "is_main": false,
@@ -100789,7 +100970,7 @@
         }
       ],
       "party": "dem",
-      "state": "Ohio",
+      "state": "Michigan",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -125203,7 +125384,7 @@
     {
       "profile_id": "1124",
       "player_id": "p1124",
-      "name": "Drew Simon",
+      "name": "Bree Van de Kamp",
       "discord": "1milliondollarman",
       "discord_id": "1494517988433334433",
       "discord_history": [
@@ -125229,7 +125410,7 @@
         }
       ],
       "party": "dem",
-      "state": "New Jersey",
+      "state": "North Carolina",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -138971,7 +139152,7 @@
     {
       "profile_id": "1212",
       "player_id": "p1009",
-      "name": "Nikki",
+      "name": "Eden Cohen",
       "discord": "venus.444",
       "discord_id": "1431041441739833437",
       "discord_history": [
@@ -144811,7 +144992,7 @@
         }
       ],
       "party": "dem",
-      "state": "New York",
+      "state": "Wyoming",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -144860,7 +145041,7 @@
         }
       ],
       "party": "dem",
-      "state": "New York",
+      "state": "Idaho",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -144909,7 +145090,7 @@
         }
       ],
       "party": "dem",
-      "state": "New York",
+      "state": "Utah",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -152872,9 +153053,15 @@
       "profile_id": "1366",
       "player_id": "p1366",
       "name": "Bruce Blakeman",
-      "discord": "",
-      "discord_id": "",
-      "discord_history": [],
+      "discord": "samthegreat4943",
+      "discord_id": "947334408568987659",
+      "discord_history": [
+        {
+          "discord": "samthegreat4943",
+          "discord_id": "947334408568987659",
+          "first_seen": "2026-10-29"
+        }
+      ],
       "party": "gop",
       "state": "New York",
       "is_main": true,
@@ -153329,6 +153516,108 @@
       "party": "dem",
       "state": "Washington",
       "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1380",
+      "player_id": "p1380",
+      "name": "Kamala Harris",
+      "discord": "kaidengordon4311",
+      "discord_id": "827875094399025182",
+      "discord_history": [
+        {
+          "discord": "kaidengordon4311",
+          "discord_id": "827875094399025182",
+          "first_seen": "2026-10-29"
+        }
+      ],
+      "party": "dem",
+      "state": "Michigan",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1381",
+      "player_id": "p1124",
+      "name": "Abby Lee Miller",
+      "discord": "1milliondollarman",
+      "discord_id": "1494517988433334433",
+      "discord_history": [
+        {
+          "discord": "1milliondollarman",
+          "discord_id": "1494517988433334433",
+          "first_seen": "2026-10-29"
+        }
+      ],
+      "party": "dem",
+      "state": "Louisiana",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1382",
+      "player_id": "p1124",
+      "name": "Holly Frazier",
+      "discord": "1milliondollarman",
+      "discord_id": "1494517988433334433",
+      "discord_history": [
+        {
+          "discord": "1milliondollarman",
+          "discord_id": "1494517988433334433",
+          "first_seen": "2026-10-29"
+        }
+      ],
+      "party": "dem",
+      "state": "North Carolina",
+      "is_main": false,
       "on_site": true,
       "counts": {
         "bills": 0,

@@ -1198,7 +1198,7 @@
     "name": "Caleb Walton",
     "discord": "cw872",
     "party": "dem",
-    "state": "Ohio",
+    "state": "Michigan",
     "last_seen": "2026-10-29",
     "on_site": true,
     "discord_id": "",
@@ -4095,10 +4095,10 @@
     "first_seen": "2026-10-20",
     "profile_id": "1124",
     "player_id": "p1124",
-    "name": "Drew Simon",
+    "name": "Bree Van de Kamp",
     "discord": "1milliondollarman",
     "party": "dem",
-    "state": "New Jersey",
+    "state": "North Carolina",
     "last_seen": "2026-10-29",
     "on_site": true,
     "discord_id": "1494517988433334433",
@@ -6977,7 +6977,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1212",
     "player_id": "p1009",
-    "name": "Nikki",
+    "name": "Eden Cohen",
     "discord": "venus.444",
     "party": "grn",
     "state": "Hawaii",
@@ -8910,7 +8910,7 @@
     "name": "Rumi",
     "discord": "myotheraccountisatier3sub",
     "party": "dem",
-    "state": "New York",
+    "state": "Wyoming",
     "last_seen": "2026-10-29",
     "on_site": true,
     "discord_id": "653722361857835009",
@@ -8944,7 +8944,7 @@
     "name": "Zoey",
     "discord": "myotheraccountisatier3sub",
     "party": "dem",
-    "state": "New York",
+    "state": "Idaho",
     "last_seen": "2026-10-29",
     "on_site": true,
     "discord_id": "653722361857835009",
@@ -8978,7 +8978,7 @@
     "name": "Mira",
     "discord": "myotheraccountisatier3sub",
     "party": "dem",
-    "state": "New York",
+    "state": "Utah",
     "last_seen": "2026-10-29",
     "on_site": true,
     "discord_id": "653722361857835009",
@@ -11736,10 +11736,16 @@
     "profile_id": "1366",
     "player_id": "p1366",
     "first_seen": "2026-10-24",
-    "discord_history": [],
+    "discord_history": [
+      {
+        "discord": "samthegreat4943",
+        "discord_id": "947334408568987659",
+        "first_seen": "2026-10-29"
+      }
+    ],
     "name": "Bruce Blakeman",
-    "discord": "",
-    "discord_id": "",
+    "discord": "samthegreat4943",
+    "discord_id": "947334408568987659",
     "party": "gop",
     "state": "New York",
     "last_seen": "2026-10-29",
@@ -11998,6 +12004,63 @@
     "discord_id": "1240249543832895549",
     "party": "dem",
     "state": "Washington",
+    "last_seen": "2026-10-29",
+    "on_site": true
+  },
+  "1380": {
+    "profile_id": "1380",
+    "player_id": "p1380",
+    "first_seen": "2026-10-29",
+    "discord_history": [
+      {
+        "discord": "kaidengordon4311",
+        "discord_id": "827875094399025182",
+        "first_seen": "2026-10-29"
+      }
+    ],
+    "name": "Kamala Harris",
+    "discord": "kaidengordon4311",
+    "discord_id": "827875094399025182",
+    "party": "dem",
+    "state": "Michigan",
+    "last_seen": "2026-10-29",
+    "on_site": true
+  },
+  "1381": {
+    "profile_id": "1381",
+    "player_id": "p1124",
+    "first_seen": "2026-10-29",
+    "discord_history": [
+      {
+        "discord": "1milliondollarman",
+        "discord_id": "1494517988433334433",
+        "first_seen": "2026-10-29"
+      }
+    ],
+    "name": "Abby Lee Miller",
+    "discord": "1milliondollarman",
+    "discord_id": "1494517988433334433",
+    "party": "dem",
+    "state": "Louisiana",
+    "last_seen": "2026-10-29",
+    "on_site": true
+  },
+  "1382": {
+    "profile_id": "1382",
+    "player_id": "p1124",
+    "first_seen": "2026-10-29",
+    "discord_history": [
+      {
+        "discord": "1milliondollarman",
+        "discord_id": "1494517988433334433",
+        "first_seen": "2026-10-29"
+      }
+    ],
+    "name": "Holly Frazier",
+    "discord": "1milliondollarman",
+    "discord_id": "1494517988433334433",
+    "party": "dem",
+    "state": "North Carolina",
     "last_seen": "2026-10-29",
     "on_site": true
   }

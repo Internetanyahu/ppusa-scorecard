@@ -4696,7 +4696,7 @@
   },
   {
     "player_id": "p1009",
-    "name": "Nikki",
+    "name": "Eden Cohen",
     "discord": "venus.444",
     "profiles": [
       "1009",
@@ -34604,10 +34604,12 @@
   },
   {
     "player_id": "p1124",
-    "name": "Drew Simon",
+    "name": "Holly Frazier",
     "discord": "1milliondollarman",
     "profiles": [
-      "1124"
+      "1124",
+      "1381",
+      "1382"
     ],
     "bills": [
       {
@@ -45620,7 +45622,7 @@
   {
     "player_id": "p1366",
     "name": "Bruce Blakeman",
-    "discord": "",
+    "discord": "samthegreat4943",
     "profiles": [
       "1366"
     ],
@@ -45698,6 +45700,16 @@
     "discord": "_.loannes",
     "profiles": [
       "1379"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1380",
+    "name": "Kamala Harris",
+    "discord": "kaidengordon4311",
+    "profiles": [
+      "1380"
     ],
     "bills": [],
     "bill_count": 0

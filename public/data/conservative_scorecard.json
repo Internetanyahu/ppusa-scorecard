@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:20:25+00:00",
+  "generated_at": "2026-10-29T22:27:41+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -42555,7 +42555,7 @@
         "Other",
         "Senate"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/998af8fdba24bee56e74e1e49258b7c0.webp",
       "profiles": [
         {
           "profile_id": "1059",
@@ -42563,7 +42563,7 @@
           "party": "dem",
           "state": "Oklahoma",
           "chamber": "Senate",
-          "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/998af8fdba24bee56e74e1e49258b7c0.webp",
           "is_main": true,
           "on_site": true,
           "offices": [
@@ -42578,7 +42578,7 @@
           "party": "dem",
           "state": "Nebraska",
           "chamber": "House",
-          "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/998af8fdba24bee56e74e1e49258b7c0.webp",
           "is_main": false,
           "on_site": true,
           "offices": [
@@ -42593,7 +42593,7 @@
           "party": "dem",
           "state": "Texas",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/0e140c5fcd44d1fca8ba53ebf2793322.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/998af8fdba24bee56e74e1e49258b7c0.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -48986,7 +48986,7 @@
           "profile_id": "1035",
           "name": "Caleb Walton",
           "party": "dem",
-          "state": "Ohio",
+          "state": "Michigan",
           "chamber": "House",
           "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": false,
@@ -58792,7 +58792,7 @@
         },
         {
           "profile_id": "1212",
-          "name": "Nikki",
+          "name": "Eden Cohen",
           "party": "grn",
           "state": "Hawaii",
           "chamber": "Other",
@@ -59425,17 +59425,104 @@
       "has_office": false
     },
     {
+      "user_id": "p1124",
+      "player_id": "p1124",
+      "name": "Bree Van de Kamp",
+      "discord": "1milliondollarman",
+      "discord_ids": [
+        "1494517988433334433"
+      ],
+      "party": "dem",
+      "state": "North Carolina",
+      "chambers": [
+        "House",
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+      "profiles": [
+        {
+          "profile_id": "1124",
+          "name": "Bree Van de Kamp",
+          "party": "dem",
+          "state": "North Carolina",
+          "chamber": "House",
+          "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+          "is_main": true,
+          "on_site": true,
+          "offices": [
+            "House"
+          ],
+          "office": "House",
+          "office_count": 1
+        },
+        {
+          "profile_id": "1381",
+          "name": "Abby Lee Miller",
+          "party": "dem",
+          "state": "Louisiana",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1382",
+          "name": "Holly Frazier",
+          "party": "dem",
+          "state": "North Carolina",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 1,
+      "office_count": 1,
+      "has_office": true
+    },
+    {
       "user_id": "p1366",
       "player_id": "p1366",
       "name": "Bruce Blakeman",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "samthegreat4943",
+      "discord_ids": [
+        "947334408568987659"
+      ],
       "party": "gop",
       "state": "New York",
       "chambers": [
         "Other"
       ],
-      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "avatar": "https://cdn.discordapp.com/avatars/947334408568987659/b3e3c238384a9e61d19dba6fe48813bf.webp",
       "profiles": [
         {
           "profile_id": "1366",
@@ -59443,7 +59530,7 @@
           "party": "gop",
           "state": "New York",
           "chamber": "Other",
-          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "avatar": "https://cdn.discordapp.com/avatars/947334408568987659/b3e3c238384a9e61d19dba6fe48813bf.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -60542,64 +60629,6 @@
       "offices_held": 0,
       "office_count": 0,
       "has_office": false
-    },
-    {
-      "user_id": "p1124",
-      "player_id": "p1124",
-      "name": "Drew Simon",
-      "discord": "1milliondollarman",
-      "discord_ids": [
-        "1494517988433334433"
-      ],
-      "party": "dem",
-      "state": "New Jersey",
-      "chambers": [
-        "House"
-      ],
-      "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
-      "profiles": [
-        {
-          "profile_id": "1124",
-          "name": "Drew Simon",
-          "party": "dem",
-          "state": "New Jersey",
-          "chamber": "House",
-          "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
-          "is_main": true,
-          "on_site": true,
-          "offices": [
-            "House"
-          ],
-          "office": "House",
-          "office_count": 1
-        }
-      ],
-      "scores": {
-        "social": null,
-        "economic": null,
-        "foreign": null,
-        "overall": null,
-        "tier": "N/A"
-      },
-      "sample_size": {
-        "social": 0,
-        "economic": 0,
-        "foreign": 0,
-        "overall": 0
-      },
-      "aligned_votes": {
-        "social": 0,
-        "economic": 0,
-        "foreign": 0
-      },
-      "provisions_scored": 0,
-      "aligned_provisions": 0,
-      "finalized_bills_voted": 0,
-      "bill_details": [],
-      "eligible_for_grade": false,
-      "offices_held": 1,
-      "office_count": 1,
-      "has_office": true
     },
     {
       "user_id": "p1017",
@@ -62619,6 +62648,62 @@
           "state": "California",
           "chamber": "Other",
           "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
+      "user_id": "p1380",
+      "player_id": "p1380",
+      "name": "Kamala Harris",
+      "discord": "kaidengordon4311",
+      "discord_ids": [
+        "827875094399025182"
+      ],
+      "party": "dem",
+      "state": "Michigan",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/827875094399025182/1096c720b520f9a6b6fca5a072a95f31.webp",
+      "profiles": [
+        {
+          "profile_id": "1380",
+          "name": "Kamala Harris",
+          "party": "dem",
+          "state": "Michigan",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/827875094399025182/1096c720b520f9a6b6fca5a072a95f31.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -64766,7 +64851,7 @@
         "653722361857835009"
       ],
       "party": "dem",
-      "state": "New York",
+      "state": "Wyoming",
       "chambers": [
         "Other"
       ],
@@ -64776,7 +64861,7 @@
           "profile_id": "1270",
           "name": "Rumi",
           "party": "dem",
-          "state": "New York",
+          "state": "Wyoming",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/653722361857835009/d381ea47d495e34a6c6dab630157038e.webp",
           "is_main": true,
@@ -64789,7 +64874,7 @@
           "profile_id": "1271",
           "name": "Zoey",
           "party": "dem",
-          "state": "New York",
+          "state": "Idaho",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/653722361857835009/d381ea47d495e34a6c6dab630157038e.webp",
           "is_main": false,
@@ -64802,7 +64887,7 @@
           "profile_id": "1272",
           "name": "Mira",
           "party": "dem",
-          "state": "New York",
+          "state": "Utah",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/653722361857835009/d381ea47d495e34a6c6dab630157038e.webp",
           "is_main": false,
@@ -65715,7 +65800,7 @@
   "office_metadata": {
     "definition": "Count of normalized offices attached to each Power Play profile; POTUS, Vice President, Governor, legislative and other offices are all counted when supplied by the source.",
     "no_office_label": "No office",
-    "updated_profiles": 382,
-    "updated_players": 162
+    "updated_profiles": 385,
+    "updated_players": 163
   }
 }
