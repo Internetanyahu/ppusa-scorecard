@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:13:12+00:00",
+  "generated_at": "2026-10-29T04:29:07+00:00",
   "default_set": "conservative",
   "sets": [
     {
@@ -40714,7 +40714,7 @@
         {
           "user_id": "p1044",
           "player_id": "p1044",
-          "name": "Darline Graham Nordone",
+          "name": "Dan A. Sullivan",
           "discord": "mcal4876",
           "discord_ids": [
             "1470138832044167178"
@@ -40729,7 +40729,7 @@
           "profiles": [
             {
               "profile_id": "1044",
-              "name": "Darline Graham Nordone",
+              "name": "Dan A. Sullivan",
               "party": "dem",
               "state": "Iowa",
               "chamber": "Senate",
@@ -40744,7 +40744,7 @@
             },
             {
               "profile_id": "1061",
-              "name": "Olivia Dean",
+              "name": "Dan J. Sullivan",
               "party": "dem",
               "state": "Arkansas",
               "chamber": "House",
@@ -40759,7 +40759,7 @@
             },
             {
               "profile_id": "1198",
-              "name": "Marie Gluesenkamp Perez",
+              "name": "Dan S. Sullivan",
               "party": "dem",
               "state": "Arkansas",
               "chamber": "Senate",
@@ -40805,7 +40805,7 @@
               "vote": "nay",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40819,7 +40819,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40833,7 +40833,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40847,7 +40847,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40861,7 +40861,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40875,7 +40875,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40889,7 +40889,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40903,7 +40903,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40917,7 +40917,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40931,7 +40931,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40945,7 +40945,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40959,7 +40959,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40973,7 +40973,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -40987,7 +40987,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41001,7 +41001,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41015,7 +41015,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41029,7 +41029,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41043,7 +41043,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41057,7 +41057,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41071,7 +41071,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41085,7 +41085,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41099,7 +41099,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41113,7 +41113,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41127,7 +41127,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41141,7 +41141,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "Senate",
               "scorable": true
             },
@@ -41155,7 +41155,7 @@
               "vote": "nay",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41169,7 +41169,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41183,7 +41183,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41197,7 +41197,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41211,7 +41211,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "Senate",
               "scorable": true
             },
@@ -41225,7 +41225,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41239,7 +41239,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41253,7 +41253,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -41267,7 +41267,7 @@
               "vote": "nay",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "Senate",
               "scorable": true
             }
@@ -45244,7 +45244,7 @@
               "profile_id": "1108",
               "name": "GEORGE RUSSELL",
               "party": "gop",
-              "state": "Maryland",
+              "state": "Kentucky",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/1273992220730589270/e74fea01147b8ed2f842a66a9f7053d3.webp",
               "is_main": false,
@@ -46611,7 +46611,7 @@
           "discord_ids": [
             "961355935496953956"
           ],
-          "party": "afp",
+          "party": "gop",
           "state": "Alaska",
           "chambers": [
             "House",
@@ -46622,7 +46622,7 @@
             {
               "profile_id": "1025",
               "name": "Barack Obama",
-              "party": "afp",
+              "party": "gop",
               "state": "Alaska",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -46637,7 +46637,7 @@
             {
               "profile_id": "1033",
               "name": "Gavin Newsom",
-              "party": "afp",
+              "party": "gop",
               "state": "Alaska",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -46652,7 +46652,7 @@
             {
               "profile_id": "1209",
               "name": "Andrew Tate",
-              "party": "afp",
+              "party": "gop",
               "state": "Alaska",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -56183,7 +56183,7 @@
             "1475172188398288917"
           ],
           "party": "dem",
-          "state": "Oregon",
+          "state": "California",
           "chambers": [
             "House",
             "Other"
@@ -56194,7 +56194,7 @@
               "profile_id": "1155",
               "name": "Shock",
               "party": "dem",
-              "state": "Oregon",
+              "state": "California",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/1475172188398288917/248b29aea0f21d72f1f0663b3bc61e44.webp",
               "is_main": true,
@@ -59818,88 +59818,6 @@
           "has_office": false
         },
         {
-          "user_id": "p1011",
-          "player_id": "p1011",
-          "name": "Abdul El-Sayed",
-          "discord": "berlinsucks",
-          "discord_ids": [
-            "829048047770009611"
-          ],
-          "party": "grn",
-          "state": "Maryland",
-          "chambers": [
-            "Other"
-          ],
-          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
-          "profiles": [
-            {
-              "profile_id": "1011",
-              "name": "Abdul El-Sayed",
-              "party": "grn",
-              "state": "Maryland",
-              "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
-              "is_main": true,
-              "on_site": true,
-              "offices": [],
-              "office": "",
-              "office_count": 0
-            },
-            {
-              "profile_id": "1023",
-              "name": "Manny Rutinel",
-              "party": "grn",
-              "state": "Colorado",
-              "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
-              "is_main": false,
-              "on_site": true,
-              "offices": [],
-              "office": "",
-              "office_count": 0
-            },
-            {
-              "profile_id": "1200",
-              "name": "Chris Gallant",
-              "party": "grn",
-              "state": "Wisconsin",
-              "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
-              "is_main": false,
-              "on_site": true,
-              "offices": [],
-              "office": "",
-              "office_count": 0
-            }
-          ],
-          "scores": {
-            "social": null,
-            "economic": null,
-            "foreign": null,
-            "overall": null,
-            "tier": "N/A"
-          },
-          "sample_size": {
-            "social": 0,
-            "economic": 0,
-            "foreign": 0,
-            "overall": 0
-          },
-          "aligned_votes": {
-            "social": 0,
-            "economic": 0,
-            "foreign": 0
-          },
-          "provisions_scored": 0,
-          "aligned_provisions": 0,
-          "finalized_bills_voted": 0,
-          "bill_details": [],
-          "eligible_for_grade": false,
-          "offices_held": 0,
-          "office_count": 0,
-          "has_office": false
-        },
-        {
           "user_id": "p1118",
           "player_id": "p1118",
           "name": "Alexander Morales",
@@ -62635,6 +62553,88 @@
               "state": "Texas",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1398129111259676736/c2cf8db35c6dea260dc856c4e68dfd76.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p1011",
+          "player_id": "p1011",
+          "name": "George Simion",
+          "discord": "berlinsucks",
+          "discord_ids": [
+            "829048047770009611"
+          ],
+          "party": "grn",
+          "state": "Maryland",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
+          "profiles": [
+            {
+              "profile_id": "1011",
+              "name": "George Simion",
+              "party": "grn",
+              "state": "Maryland",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1023",
+              "name": "Gabrielius Landsbergis",
+              "party": "grn",
+              "state": "Colorado",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1200",
+              "name": "Volodymyr Zelenskyy",
+              "party": "grn",
+              "state": "Wisconsin",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -65852,7 +65852,7 @@
             "1381337055765991435"
           ],
           "party": "gop",
-          "state": "Alabama",
+          "state": "California",
           "chambers": [
             "Other"
           ],
@@ -65862,7 +65862,7 @@
               "profile_id": "1002",
               "name": "Parker Cohen",
               "party": "gop",
-              "state": "Alabama",
+              "state": "California",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/3c94c155c935931dcbf4ffa6301833ca.webp",
               "is_main": true,
@@ -65875,7 +65875,7 @@
               "profile_id": "1097",
               "name": "Dax",
               "party": "gop",
-              "state": "Alabama",
+              "state": "Ohio",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/3c94c155c935931dcbf4ffa6301833ca.webp",
               "is_main": false,
@@ -65888,7 +65888,7 @@
               "profile_id": "1226",
               "name": "Eddie Vedder",
               "party": "gop",
-              "state": "Alabama",
+              "state": "South Carolina",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/3c94c155c935931dcbf4ffa6301833ca.webp",
               "is_main": false,
@@ -104027,7 +104027,7 @@
         {
           "user_id": "p1044",
           "player_id": "p1044",
-          "name": "Darline Graham Nordone",
+          "name": "Dan A. Sullivan",
           "discord": "mcal4876",
           "discord_ids": [
             "1470138832044167178"
@@ -104042,7 +104042,7 @@
           "profiles": [
             {
               "profile_id": "1044",
-              "name": "Darline Graham Nordone",
+              "name": "Dan A. Sullivan",
               "party": "dem",
               "state": "Iowa",
               "chamber": "Senate",
@@ -104057,7 +104057,7 @@
             },
             {
               "profile_id": "1061",
-              "name": "Olivia Dean",
+              "name": "Dan J. Sullivan",
               "party": "dem",
               "state": "Arkansas",
               "chamber": "House",
@@ -104072,7 +104072,7 @@
             },
             {
               "profile_id": "1198",
-              "name": "Marie Gluesenkamp Perez",
+              "name": "Dan S. Sullivan",
               "party": "dem",
               "state": "Arkansas",
               "chamber": "Senate",
@@ -104118,7 +104118,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -104132,7 +104132,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -104146,7 +104146,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -104160,7 +104160,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -104174,7 +104174,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -104188,7 +104188,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             },
@@ -104202,7 +104202,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1061",
-              "profile_name": "Olivia Dean",
+              "profile_name": "Dan J. Sullivan",
               "chamber": "House",
               "scorable": true
             }
@@ -105671,7 +105671,7 @@
               "profile_id": "1108",
               "name": "GEORGE RUSSELL",
               "party": "gop",
-              "state": "Maryland",
+              "state": "Kentucky",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/1273992220730589270/e74fea01147b8ed2f842a66a9f7053d3.webp",
               "is_main": false,
@@ -106072,7 +106072,7 @@
           "discord_ids": [
             "961355935496953956"
           ],
-          "party": "afp",
+          "party": "gop",
           "state": "Alaska",
           "chambers": [
             "House",
@@ -106083,7 +106083,7 @@
             {
               "profile_id": "1025",
               "name": "Barack Obama",
-              "party": "afp",
+              "party": "gop",
               "state": "Alaska",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -106098,7 +106098,7 @@
             {
               "profile_id": "1033",
               "name": "Gavin Newsom",
-              "party": "afp",
+              "party": "gop",
               "state": "Alaska",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -106113,7 +106113,7 @@
             {
               "profile_id": "1209",
               "name": "Andrew Tate",
-              "party": "afp",
+              "party": "gop",
               "state": "Alaska",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -109022,7 +109022,7 @@
             "1475172188398288917"
           ],
           "party": "dem",
-          "state": "Oregon",
+          "state": "California",
           "chambers": [
             "House",
             "Other"
@@ -109033,7 +109033,7 @@
               "profile_id": "1155",
               "name": "Shock",
               "party": "dem",
-              "state": "Oregon",
+              "state": "California",
               "chamber": "House",
               "avatar": "https://cdn.discordapp.com/avatars/1475172188398288917/248b29aea0f21d72f1f0663b3bc61e44.webp",
               "is_main": true,
@@ -110547,88 +110547,6 @@
               "state": "Texas",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/150710749260414976/66882e5b3a33221baed5cb2e2ca983fd.webp",
-              "is_main": false,
-              "on_site": true,
-              "offices": [],
-              "office": "",
-              "office_count": 0
-            }
-          ],
-          "scores": {
-            "social": null,
-            "economic": null,
-            "foreign": null,
-            "overall": null,
-            "tier": "N/A"
-          },
-          "sample_size": {
-            "social": 0,
-            "economic": 0,
-            "foreign": 0,
-            "overall": 0
-          },
-          "aligned_votes": {
-            "social": 0,
-            "economic": 0,
-            "foreign": 0
-          },
-          "provisions_scored": 0,
-          "aligned_provisions": 0,
-          "finalized_bills_voted": 0,
-          "bill_details": [],
-          "eligible_for_grade": false,
-          "offices_held": 0,
-          "office_count": 0,
-          "has_office": false
-        },
-        {
-          "user_id": "p1011",
-          "player_id": "p1011",
-          "name": "Abdul El-Sayed",
-          "discord": "berlinsucks",
-          "discord_ids": [
-            "829048047770009611"
-          ],
-          "party": "grn",
-          "state": "Maryland",
-          "chambers": [
-            "Other"
-          ],
-          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
-          "profiles": [
-            {
-              "profile_id": "1011",
-              "name": "Abdul El-Sayed",
-              "party": "grn",
-              "state": "Maryland",
-              "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
-              "is_main": true,
-              "on_site": true,
-              "offices": [],
-              "office": "",
-              "office_count": 0
-            },
-            {
-              "profile_id": "1023",
-              "name": "Manny Rutinel",
-              "party": "grn",
-              "state": "Colorado",
-              "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
-              "is_main": false,
-              "on_site": true,
-              "offices": [],
-              "office": "",
-              "office_count": 0
-            },
-            {
-              "profile_id": "1200",
-              "name": "Chris Gallant",
-              "party": "grn",
-              "state": "Wisconsin",
-              "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -113385,6 +113303,88 @@
               "state": "Texas",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1398129111259676736/c2cf8db35c6dea260dc856c4e68dfd76.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p1011",
+          "player_id": "p1011",
+          "name": "George Simion",
+          "discord": "berlinsucks",
+          "discord_ids": [
+            "829048047770009611"
+          ],
+          "party": "grn",
+          "state": "Maryland",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
+          "profiles": [
+            {
+              "profile_id": "1011",
+              "name": "George Simion",
+              "party": "grn",
+              "state": "Maryland",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1023",
+              "name": "Gabrielius Landsbergis",
+              "party": "grn",
+              "state": "Colorado",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1200",
+              "name": "Volodymyr Zelenskyy",
+              "party": "grn",
+              "state": "Wisconsin",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -116574,7 +116574,7 @@
             "1381337055765991435"
           ],
           "party": "gop",
-          "state": "Alabama",
+          "state": "California",
           "chambers": [
             "Other"
           ],
@@ -116584,7 +116584,7 @@
               "profile_id": "1002",
               "name": "Parker Cohen",
               "party": "gop",
-              "state": "Alabama",
+              "state": "California",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/3c94c155c935931dcbf4ffa6301833ca.webp",
               "is_main": true,
@@ -116597,7 +116597,7 @@
               "profile_id": "1097",
               "name": "Dax",
               "party": "gop",
-              "state": "Alabama",
+              "state": "Ohio",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/3c94c155c935931dcbf4ffa6301833ca.webp",
               "is_main": false,
@@ -116610,7 +116610,7 @@
               "profile_id": "1226",
               "name": "Eddie Vedder",
               "party": "gop",
-              "state": "Alabama",
+              "state": "South Carolina",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/3c94c155c935931dcbf4ffa6301833ca.webp",
               "is_main": false,
