@@ -19926,7 +19926,7 @@
   },
   {
     "player_id": "p1059",
-    "name": "Pete Hegseth",
+    "name": "Marjorie Taylor Greene",
     "discord": "founderofurp2.0",
     "profiles": [
       "1065",
@@ -45710,6 +45710,16 @@
     "discord": "kaidengordon4311",
     "profiles": [
       "1380"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1383",
+    "name": "Holden Ferguson",
+    "discord": "holdenthedemocrat",
+    "profiles": [
+      "1383"
     ],
     "bills": [],
     "bill_count": 0

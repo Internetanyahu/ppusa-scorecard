@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:27:41+00:00",
+  "generated_at": "2026-10-30T04:29:08+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -738,6 +738,17 @@
         "1295",
         "1297",
         "1301"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1383",
+      "label": "holdenthedemocrat (Holden Ferguson)",
+      "aliases": [
+        "holdenthedemocrat"
+      ],
+      "profile_ids": [
+        "1383"
       ]
     },
     {
@@ -2939,6 +2950,12 @@
     },
     {
       "type": "profile",
+      "id": "1383",
+      "label": "Holden Ferguson (1383)",
+      "player_id": "p1383"
+    },
+    {
+      "type": "profile",
       "id": "1382",
       "label": "Holly Frazier (1382)",
       "player_id": "p1124"
@@ -3473,6 +3490,12 @@
     },
     {
       "type": "profile",
+      "id": "1196",
+      "label": "Marjorie Taylor Greene (1196)",
+      "player_id": "p1059"
+    },
+    {
+      "type": "profile",
       "id": "1256",
       "label": "Mark Lamb (1256)",
       "player_id": "p1189"
@@ -3740,12 +3763,6 @@
       "id": "1028",
       "label": "Paul Wellstone (1028)",
       "player_id": "p1028"
-    },
-    {
-      "type": "profile",
-      "id": "1196",
-      "label": "Pete Hegseth (1196)",
-      "player_id": "p1059"
     },
     {
       "type": "profile",
@@ -9343,7 +9360,7 @@
           "1494517988433334433"
         ],
         "party": "dem",
-        "state": "North Carolina",
+        "state": "Pennsylvania",
         "chambers": [
           "House",
           "Other"
@@ -9354,7 +9371,7 @@
             "profile_id": "1124",
             "name": "Bree Van de Kamp",
             "party": "dem",
-            "state": "North Carolina",
+            "state": "Pennsylvania",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
             "is_main": true,
@@ -9438,7 +9455,7 @@
           "profile_id": "1124",
           "name": "Bree Van de Kamp",
           "party": "dem",
-          "state": "North Carolina",
+          "state": "Pennsylvania",
           "is_main": true,
           "on_site": true
         },
@@ -26465,8 +26482,8 @@
         "discord_ids": [
           "1014854147268423761"
         ],
-        "party": "grn",
-        "state": "Kentucky",
+        "party": "dem",
+        "state": "Kansas",
         "chambers": [
           "House",
           "Senate"
@@ -26476,8 +26493,8 @@
           {
             "profile_id": "1152",
             "name": "Queen",
-            "party": "grn",
-            "state": "Kentucky",
+            "party": "dem",
+            "state": "Kansas",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/1014854147268423761/75317c0cf7e76f54dfd720642b1aac6c.webp",
             "is_main": true,
@@ -26491,7 +26508,7 @@
           {
             "profile_id": "1153",
             "name": "Young Nyno",
-            "party": "grn",
+            "party": "dem",
             "state": "Kentucky",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/1014854147268423761/75317c0cf7e76f54dfd720642b1aac6c.webp",
@@ -26731,15 +26748,15 @@
         {
           "profile_id": "1152",
           "name": "Queen",
-          "party": "grn",
-          "state": "Kentucky",
+          "party": "dem",
+          "state": "Kansas",
           "is_main": true,
           "on_site": true
         },
         {
           "profile_id": "1153",
           "name": "Young Nyno",
-          "party": "grn",
+          "party": "dem",
           "state": "Kentucky",
           "is_main": false,
           "on_site": true
@@ -33678,7 +33695,7 @@
           },
           {
             "profile_id": "1196",
-            "name": "Pete Hegseth",
+            "name": "Marjorie Taylor Greene",
             "party": "dem",
             "state": "Texas",
             "chamber": "Other",
@@ -34479,7 +34496,7 @@
         },
         {
           "profile_id": "1196",
-          "name": "Pete Hegseth",
+          "name": "Marjorie Taylor Greene",
           "party": "dem",
           "state": "Texas",
           "is_main": false,
@@ -45546,6 +45563,103 @@
           "house_seats": null
         }
       ]
+    },
+    {
+      "player_id": "p1383",
+      "conservative_scorecard": {
+        "user_id": "p1383",
+        "player_id": "p1383",
+        "name": "Holden Ferguson",
+        "discord": "holdenthedemocrat",
+        "discord_ids": [
+          "1417281280386797790"
+        ],
+        "party": "dem",
+        "state": "Illinois",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/1417281280386797790/cd91554b9f3dd988c8dc72bd9613012c.webp",
+        "profiles": [
+          {
+            "profile_id": "1383",
+            "name": "Holden Ferguson",
+            "party": "dem",
+            "state": "Illinois",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1417281280386797790/cd91554b9f3dd988c8dc72bd9613012c.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "holdenthedemocrat",
+      "discord_current": true,
+      "discord_aliases": [
+        "holdenthedemocrat"
+      ],
+      "discord_ids": [
+        "1417281280386797790"
+      ],
+      "name": "Holden Ferguson",
+      "profile_ids": [
+        "1383"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1383",
+          "name": "Holden Ferguson",
+          "party": "dem",
+          "state": "Illinois",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
     },
     {
       "player_id": "p1362",
@@ -78456,7 +78570,7 @@
           "961355935496953956"
         ],
         "party": "gop",
-        "state": "Alaska",
+        "state": "Texas",
         "chambers": [
           "House",
           "Senate"
@@ -78467,7 +78581,7 @@
             "profile_id": "1025",
             "name": "Barack Obama",
             "party": "gop",
-            "state": "Alaska",
+            "state": "Texas",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
             "is_main": true,
@@ -78894,7 +79008,7 @@
           "profile_id": "1025",
           "name": "Barack Obama",
           "party": "gop",
-          "state": "Alaska",
+          "state": "Texas",
           "is_main": true,
           "on_site": true
         },
@@ -80324,7 +80438,7 @@
           "1273992220730589270"
         ],
         "party": "gop",
-        "state": "Illinois",
+        "state": "Kentucky",
         "chambers": [
           "House",
           "Senate"
@@ -80335,7 +80449,7 @@
             "profile_id": "1105",
             "name": "LANDO NORRIS",
             "party": "gop",
-            "state": "Illinois",
+            "state": "Kentucky",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/1273992220730589270/e74fea01147b8ed2f842a66a9f7053d3.webp",
             "is_main": true,
@@ -81386,7 +81500,7 @@
           "profile_id": "1105",
           "name": "LANDO NORRIS",
           "party": "gop",
-          "state": "Illinois",
+          "state": "Kentucky",
           "is_main": true,
           "on_site": true
         },
@@ -98005,7 +98119,7 @@
         }
       ],
       "party": "gop",
-      "state": "Alaska",
+      "state": "Texas",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -121532,7 +121646,7 @@
         }
       ],
       "party": "gop",
-      "state": "Illinois",
+      "state": "Kentucky",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -125410,7 +125524,7 @@
         }
       ],
       "party": "dem",
-      "state": "North Carolina",
+      "state": "Pennsylvania",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -129466,8 +129580,8 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "grn",
-      "state": "Kentucky",
+      "party": "dem",
+      "state": "Kansas",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -129696,7 +129810,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "grn",
+      "party": "dem",
       "state": "Kentucky",
       "is_main": false,
       "on_site": true,
@@ -136792,7 +136906,7 @@
     {
       "profile_id": "1196",
       "player_id": "p1059",
-      "name": "Pete Hegseth",
+      "name": "Marjorie Taylor Greene",
       "discord": "founderofurp2.0",
       "discord_id": "1253581430366277667",
       "discord_history": [
@@ -153618,6 +153732,40 @@
       "party": "dem",
       "state": "North Carolina",
       "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1383",
+      "player_id": "p1383",
+      "name": "Holden Ferguson",
+      "discord": "holdenthedemocrat",
+      "discord_id": "1417281280386797790",
+      "discord_history": [
+        {
+          "discord": "holdenthedemocrat",
+          "discord_id": "1417281280386797790",
+          "first_seen": "2026-10-30"
+        }
+      ],
+      "party": "dem",
+      "state": "Illinois",
+      "is_main": true,
       "on_site": true,
       "counts": {
         "bills": 0,
