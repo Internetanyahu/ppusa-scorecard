@@ -858,7 +858,7 @@
     "name": "Barack Obama",
     "discord": "trumpquest",
     "party": "gop",
-    "state": "Texas",
+    "state": "District of Columbia",
     "last_seen": "2026-10-30",
     "on_site": true,
     "discord_id": "961355935496953956",
@@ -5724,7 +5724,7 @@
     "player_id": "p1174",
     "name": "JD Vance's Couch",
     "discord": "ariane_ye0ng",
-    "party": "gop",
+    "party": "cst",
     "state": "South Carolina",
     "last_seen": "2026-10-30",
     "on_site": true,
@@ -5758,7 +5758,7 @@
     "player_id": "p1174",
     "name": "Edelgard von Hresvelg",
     "discord": "ariane_ye0ng",
-    "party": "gop",
+    "party": "cst",
     "state": "South Carolina",
     "last_seen": "2026-10-30",
     "on_site": true,
@@ -12073,11 +12073,16 @@
         "discord": "holdenthedemocrat",
         "discord_id": "1417281280386797790",
         "first_seen": "2026-10-30"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-10-30"
       }
     ],
     "name": "Holden Ferguson",
-    "discord": "holdenthedemocrat",
-    "discord_id": "1417281280386797790",
+    "discord": "",
+    "discord_id": "",
     "party": "grn",
     "state": "Illinois",
     "last_seen": "2026-10-30",
@@ -12092,11 +12097,16 @@
         "discord": "holdenthedemocrat",
         "discord_id": "1417281280386797790",
         "first_seen": "2026-10-30"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-10-30"
       }
     ],
     "name": "John Jameson",
-    "discord": "holdenthedemocrat",
-    "discord_id": "1417281280386797790",
+    "discord": "",
+    "discord_id": "",
     "party": "grn",
     "state": "California",
     "last_seen": "2026-10-30",
@@ -12124,11 +12134,16 @@
         "discord": "holdenthedemocrat",
         "discord_id": "1417281280386797790",
         "first_seen": "2026-10-30"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-10-30"
       }
     ],
     "name": "Jared johns",
-    "discord": "holdenthedemocrat",
-    "discord_id": "1417281280386797790",
+    "discord": "",
+    "discord_id": "",
     "party": "grn",
     "state": "California",
     "last_seen": "2026-10-30",
@@ -12169,6 +12184,120 @@
     "discord_id": "1396051400756297789",
     "party": "dem",
     "state": "California",
+    "last_seen": "2026-10-30",
+    "on_site": true
+  },
+  "1389": {
+    "profile_id": "1389",
+    "player_id": "p1389",
+    "first_seen": "2026-10-30",
+    "discord_history": [
+      {
+        "discord": "polug1ca2",
+        "discord_id": "1306670198245298277",
+        "first_seen": "2026-10-30"
+      }
+    ],
+    "name": "Mike Eastwood",
+    "discord": "polug1ca2",
+    "discord_id": "1306670198245298277",
+    "party": "gop",
+    "state": "Arizona",
+    "last_seen": "2026-10-30",
+    "on_site": true
+  },
+  "1390": {
+    "profile_id": "1390",
+    "player_id": "p1390",
+    "first_seen": "2026-10-30",
+    "discord_history": [
+      {
+        "discord": "holdenthegreen",
+        "discord_id": "1565765824680038442",
+        "first_seen": "2026-10-30"
+      }
+    ],
+    "name": "Holden Boone Ferguson",
+    "discord": "holdenthegreen",
+    "discord_id": "1565765824680038442",
+    "party": "grn",
+    "state": "Maine",
+    "last_seen": "2026-10-30",
+    "on_site": true
+  },
+  "1391": {
+    "profile_id": "1391",
+    "player_id": "p1390",
+    "first_seen": "2026-10-30",
+    "discord_history": [
+      {
+        "discord": "holdenthegreen",
+        "discord_id": "1565765824680038442",
+        "first_seen": "2026-10-30"
+      }
+    ],
+    "name": "Sarah Stevenson",
+    "discord": "holdenthegreen",
+    "discord_id": "1565765824680038442",
+    "party": "grn",
+    "state": "Maine",
+    "last_seen": "2026-10-30",
+    "on_site": true
+  },
+  "1392": {
+    "profile_id": "1392",
+    "player_id": "p1390",
+    "first_seen": "2026-10-30",
+    "discord_history": [
+      {
+        "discord": "holdenthegreen",
+        "discord_id": "1565765824680038442",
+        "first_seen": "2026-10-30"
+      }
+    ],
+    "name": "Howie Davidson",
+    "discord": "holdenthegreen",
+    "discord_id": "1565765824680038442",
+    "party": "grn",
+    "state": "Maine",
+    "last_seen": "2026-10-30",
+    "on_site": true
+  },
+  "1393": {
+    "profile_id": "1393",
+    "player_id": "p1372",
+    "first_seen": "2026-10-30",
+    "discord_history": [
+      {
+        "discord": "elislittleacc",
+        "discord_id": "729497064316207165",
+        "first_seen": "2026-10-30"
+      }
+    ],
+    "name": "Deborah-Lee Manning",
+    "discord": "elislittleacc",
+    "discord_id": "729497064316207165",
+    "party": "gop",
+    "state": "Mississippi",
+    "last_seen": "2026-10-30",
+    "on_site": true
+  },
+  "1394": {
+    "profile_id": "1394",
+    "player_id": "p1372",
+    "first_seen": "2026-10-30",
+    "discord_history": [
+      {
+        "discord": "elislittleacc",
+        "discord_id": "729497064316207165",
+        "first_seen": "2026-10-30"
+      }
+    ],
+    "name": "Peter Millhouse",
+    "discord": "elislittleacc",
+    "discord_id": "729497064316207165",
+    "party": "gop",
+    "state": "Louisiana",
     "last_seen": "2026-10-30",
     "on_site": true
   }

@@ -45662,10 +45662,12 @@
   },
   {
     "player_id": "p1372",
-    "name": "Paul Connelly Jr.",
+    "name": "Peter Millhouse",
     "discord": "elislittleacc",
     "profiles": [
-      "1372"
+      "1372",
+      "1393",
+      "1394"
     ],
     "bills": [],
     "bill_count": 0
@@ -45717,7 +45719,7 @@
   {
     "player_id": "p1383",
     "name": "Jared johns",
-    "discord": "holdenthedemocrat",
+    "discord": "",
     "profiles": [
       "1383",
       "1384",
@@ -45752,6 +45754,28 @@
     "discord": "antimptc_actajeepney",
     "profiles": [
       "1388"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1389",
+    "name": "Mike Eastwood",
+    "discord": "polug1ca2",
+    "profiles": [
+      "1389"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1390",
+    "name": "Howie Davidson",
+    "discord": "holdenthegreen",
+    "profiles": [
+      "1390",
+      "1391",
+      "1392"
     ],
     "bills": [],
     "bill_count": 0

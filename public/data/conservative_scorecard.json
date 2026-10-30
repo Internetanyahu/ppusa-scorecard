@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T12:10:59+00:00",
+  "generated_at": "2026-10-30T21:57:35+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -45834,7 +45834,7 @@
         "961355935496953956"
       ],
       "party": "gop",
-      "state": "Texas",
+      "state": "District of Columbia",
       "chambers": [
         "House",
         "Senate"
@@ -45845,7 +45845,7 @@
           "profile_id": "1025",
           "name": "Barack Obama",
           "party": "gop",
-          "state": "Texas",
+          "state": "District of Columbia",
           "chamber": "House",
           "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
           "is_main": true,
@@ -61145,7 +61145,7 @@
       "chambers": [
         "Other"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/6c59140a33bc088226a51e035239f937.webp",
       "profiles": [
         {
           "profile_id": "1011",
@@ -61153,7 +61153,7 @@
           "party": "grn",
           "state": "Maryland",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/6c59140a33bc088226a51e035239f937.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -61166,7 +61166,7 @@
           "party": "grn",
           "state": "Colorado",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/6c59140a33bc088226a51e035239f937.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -61179,7 +61179,7 @@
           "party": "grn",
           "state": "Wisconsin",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/e90830b30a44a526f779c0085ed60936.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/6c59140a33bc088226a51e035239f937.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -61382,19 +61382,99 @@
       "has_office": false
     },
     {
+      "user_id": "p1390",
+      "player_id": "p1390",
+      "name": "Holden Boone Ferguson",
+      "discord": "holdenthegreen",
+      "discord_ids": [
+        "1565765824680038442"
+      ],
+      "party": "grn",
+      "state": "Maine",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/1565765824680038442/e0ae5ae02026e752111a57030c49f8dd.webp",
+      "profiles": [
+        {
+          "profile_id": "1390",
+          "name": "Holden Boone Ferguson",
+          "party": "grn",
+          "state": "Maine",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/1565765824680038442/e0ae5ae02026e752111a57030c49f8dd.webp",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1391",
+          "name": "Sarah Stevenson",
+          "party": "grn",
+          "state": "Maine",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/1565765824680038442/e0ae5ae02026e752111a57030c49f8dd.webp",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1392",
+          "name": "Howie Davidson",
+          "party": "grn",
+          "state": "Maine",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/1565765824680038442/e0ae5ae02026e752111a57030c49f8dd.webp",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
       "user_id": "p1383",
       "player_id": "p1383",
       "name": "Holden Ferguson",
-      "discord": "holdenthedemocrat",
-      "discord_ids": [
-        "1417281280386797790"
-      ],
+      "discord": "",
+      "discord_ids": [],
       "party": "grn",
       "state": "Illinois",
       "chambers": [
         "Other"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/1417281280386797790/cd91554b9f3dd988c8dc72bd9613012c.webp",
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
       "profiles": [
         {
           "profile_id": "1383",
@@ -61402,7 +61482,7 @@
           "party": "grn",
           "state": "Illinois",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1417281280386797790/cd91554b9f3dd988c8dc72bd9613012c.webp",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -61415,7 +61495,7 @@
           "party": "grn",
           "state": "California",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1417281280386797790/cd91554b9f3dd988c8dc72bd9613012c.webp",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -61428,7 +61508,7 @@
           "party": "grn",
           "state": "California",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1417281280386797790/cd91554b9f3dd988c8dc72bd9613012c.webp",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -62046,7 +62126,7 @@
       "discord_ids": [
         "565289871799746593"
       ],
-      "party": "gop",
+      "party": "cst",
       "state": "South Carolina",
       "chambers": [
         "Other",
@@ -62057,7 +62137,7 @@
         {
           "profile_id": "1174",
           "name": "JD Vance's Couch",
-          "party": "gop",
+          "party": "cst",
           "state": "South Carolina",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/565289871799746593/a_34f471df74e5d7b7fc073738df47efbd.gif",
@@ -62070,7 +62150,7 @@
         {
           "profile_id": "1175",
           "name": "Edelgard von Hresvelg",
-          "party": "gop",
+          "party": "cst",
           "state": "South Carolina",
           "chamber": "Senate",
           "avatar": "https://cdn.discordapp.com/avatars/565289871799746593/a_34f471df74e5d7b7fc073738df47efbd.gif",
@@ -64051,6 +64131,62 @@
       "has_office": false
     },
     {
+      "user_id": "p1389",
+      "player_id": "p1389",
+      "name": "Mike Eastwood",
+      "discord": "polug1ca2",
+      "discord_ids": [
+        "1306670198245298277"
+      ],
+      "party": "gop",
+      "state": "Arizona",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/1306670198245298277/c294028cfa4d767df93c186b9454a315.webp",
+      "profiles": [
+        {
+          "profile_id": "1389",
+          "name": "Mike Eastwood",
+          "party": "gop",
+          "state": "Arizona",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/1306670198245298277/c294028cfa4d767df93c186b9454a315.webp",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
       "user_id": "p1320",
       "player_id": "p1320",
       "name": "mike hunt",
@@ -64806,6 +64942,32 @@
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/729497064316207165/d8cb10ee2ddfdce74c00ff114b6707b6.webp",
           "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1393",
+          "name": "Deborah-Lee Manning",
+          "party": "gop",
+          "state": "Mississippi",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/729497064316207165/d8cb10ee2ddfdce74c00ff114b6707b6.webp",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1394",
+          "name": "Peter Millhouse",
+          "party": "gop",
+          "state": "Louisiana",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/729497064316207165/d8cb10ee2ddfdce74c00ff114b6707b6.webp",
+          "is_main": false,
           "on_site": true,
           "offices": [],
           "office": "",
@@ -66048,7 +66210,7 @@
   "office_metadata": {
     "definition": "Count of normalized offices attached to each Power Play profile; POTUS, Vice President, Governor, legislative and other offices are all counted when supplied by the source.",
     "no_office_label": "No office",
-    "updated_profiles": 391,
-    "updated_players": 167
+    "updated_profiles": 397,
+    "updated_players": 169
   }
 }
