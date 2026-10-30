@@ -45716,10 +45716,42 @@
   },
   {
     "player_id": "p1383",
-    "name": "Holden Ferguson",
+    "name": "Jared johns",
     "discord": "holdenthedemocrat",
     "profiles": [
-      "1383"
+      "1383",
+      "1384",
+      "1386"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1385",
+    "name": "Mohamed Adam",
+    "discord": "",
+    "profiles": [
+      "1385"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1387",
+    "name": "Curtis Mehlberg",
+    "discord": "duckboythe8th",
+    "profiles": [
+      "1387"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1388",
+    "name": "Nancy D'Alessandro Pelosi",
+    "discord": "antimptc_actajeepney",
+    "profiles": [
+      "1388"
     ],
     "bills": [],
     "bill_count": 0

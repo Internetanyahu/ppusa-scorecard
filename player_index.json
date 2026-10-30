@@ -2120,7 +2120,7 @@
     "player_id": "p1062",
     "name": "Marco Rubio",
     "discord": "jackhammerjt",
-    "party": "afp",
+    "party": "dem",
     "state": "Florida",
     "last_seen": "2026-10-30",
     "on_site": true,
@@ -2643,7 +2643,7 @@
     "player_id": "p1062",
     "name": "Joseph Washington",
     "discord": "jackhammerjt",
-    "party": "afp",
+    "party": "dem",
     "state": "Florida",
     "last_seen": "2026-10-30",
     "on_site": true,
@@ -7251,7 +7251,7 @@
     "player_id": "p1062",
     "name": "Donald Trump Jr.",
     "discord": "jackhammerjt",
-    "party": "afp",
+    "party": "dem",
     "state": "Florida",
     "last_seen": "2026-10-30",
     "on_site": true,
@@ -12078,8 +12078,97 @@
     "name": "Holden Ferguson",
     "discord": "holdenthedemocrat",
     "discord_id": "1417281280386797790",
-    "party": "dem",
+    "party": "grn",
     "state": "Illinois",
+    "last_seen": "2026-10-30",
+    "on_site": true
+  },
+  "1384": {
+    "profile_id": "1384",
+    "player_id": "p1383",
+    "first_seen": "2026-10-30",
+    "discord_history": [
+      {
+        "discord": "holdenthedemocrat",
+        "discord_id": "1417281280386797790",
+        "first_seen": "2026-10-30"
+      }
+    ],
+    "name": "John Jameson",
+    "discord": "holdenthedemocrat",
+    "discord_id": "1417281280386797790",
+    "party": "grn",
+    "state": "California",
+    "last_seen": "2026-10-30",
+    "on_site": true
+  },
+  "1385": {
+    "profile_id": "1385",
+    "player_id": "p1385",
+    "first_seen": "2026-10-30",
+    "discord_history": [],
+    "name": "Mohamed Adam",
+    "discord": "",
+    "discord_id": "",
+    "party": "dem",
+    "state": "Michigan",
+    "last_seen": "2026-10-30",
+    "on_site": true
+  },
+  "1386": {
+    "profile_id": "1386",
+    "player_id": "p1383",
+    "first_seen": "2026-10-30",
+    "discord_history": [
+      {
+        "discord": "holdenthedemocrat",
+        "discord_id": "1417281280386797790",
+        "first_seen": "2026-10-30"
+      }
+    ],
+    "name": "Jared johns",
+    "discord": "holdenthedemocrat",
+    "discord_id": "1417281280386797790",
+    "party": "grn",
+    "state": "California",
+    "last_seen": "2026-10-30",
+    "on_site": true
+  },
+  "1387": {
+    "profile_id": "1387",
+    "player_id": "p1387",
+    "first_seen": "2026-10-30",
+    "discord_history": [
+      {
+        "discord": "duckboythe8th",
+        "discord_id": "1245197071980564521",
+        "first_seen": "2026-10-30"
+      }
+    ],
+    "name": "Curtis Mehlberg",
+    "discord": "duckboythe8th",
+    "discord_id": "1245197071980564521",
+    "party": "dsa",
+    "state": "Missouri",
+    "last_seen": "2026-10-30",
+    "on_site": true
+  },
+  "1388": {
+    "profile_id": "1388",
+    "player_id": "p1388",
+    "first_seen": "2026-10-30",
+    "discord_history": [
+      {
+        "discord": "antimptc_actajeepney",
+        "discord_id": "1396051400756297789",
+        "first_seen": "2026-10-30"
+      }
+    ],
+    "name": "Nancy D'Alessandro Pelosi",
+    "discord": "antimptc_actajeepney",
+    "discord_id": "1396051400756297789",
+    "party": "dem",
+    "state": "California",
     "last_seen": "2026-10-30",
     "on_site": true
   }
