@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T04:09:51+00:00",
+  "generated_at": "2026-10-31T11:44:12+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -328,6 +328,15 @@
         "1181",
         "1252",
         "1367"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1399",
+      "label": "Brian Smith",
+      "aliases": [],
+      "profile_ids": [
+        "1399"
       ]
     },
     {
@@ -713,6 +722,15 @@
         "1077",
         "1081",
         "1219"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p4",
+      "label": "George W. Bush",
+      "aliases": [],
+      "profile_ids": [
+        "4"
       ]
     },
     {
@@ -2432,6 +2450,12 @@
     },
     {
       "type": "profile",
+      "id": "1399",
+      "label": "Brian Smith (1399)",
+      "player_id": "p1399"
+    },
+    {
+      "type": "profile",
       "id": "1003",
       "label": "BRITNEY SPEARS (1003)",
       "player_id": "p1003"
@@ -2600,12 +2624,6 @@
     },
     {
       "type": "profile",
-      "id": "1308",
-      "label": "Culver's (1308)",
-      "player_id": "p1304"
-    },
-    {
-      "type": "profile",
       "id": "1387",
       "label": "Curtis Mehlberg (1387)",
       "player_id": "p1387"
@@ -2651,6 +2669,12 @@
       "id": "1010",
       "label": "Daniel mercer (1010)",
       "player_id": "p1010"
+    },
+    {
+      "type": "profile",
+      "id": "1308",
+      "label": "Daniel Middleton (1308)",
+      "player_id": "p1304"
     },
     {
       "type": "profile",
@@ -2999,6 +3023,12 @@
       "id": "1011",
       "label": "George Simion (1011)",
       "player_id": "p1011"
+    },
+    {
+      "type": "profile",
+      "id": "4",
+      "label": "George W. Bush (4)",
+      "player_id": "p4"
     },
     {
       "type": "profile",
@@ -9737,7 +9767,7 @@
           "1240249543832895549"
         ],
         "party": "dem",
-        "state": "Washington",
+        "state": "New Mexico",
         "chambers": [
           "Other"
         ],
@@ -9747,7 +9777,7 @@
             "profile_id": "1379",
             "name": "Ruben Gallego",
             "party": "dem",
-            "state": "Washington",
+            "state": "New Mexico",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1240249543832895549/b3ec48829eb0293335c3b02e10d92c6f.webp",
             "is_main": true,
@@ -9801,7 +9831,7 @@
           "profile_id": "1379",
           "name": "Ruben Gallego",
           "party": "dem",
-          "state": "Washington",
+          "state": "New Mexico",
           "is_main": true,
           "on_site": true
         }
@@ -20640,6 +20670,97 @@
           "house_seats": null
         }
       ]
+    },
+    {
+      "player_id": "p1399",
+      "conservative_scorecard": {
+        "user_id": "p1399",
+        "player_id": "p1399",
+        "name": "Brian Smith",
+        "discord": "",
+        "discord_ids": [],
+        "party": "gop",
+        "state": "Alaska",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1399",
+            "name": "Brian Smith",
+            "party": "gop",
+            "state": "Alaska",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Brian Smith",
+      "profile_ids": [
+        "1399"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1399",
+          "name": "Brian Smith",
+          "party": "gop",
+          "state": "Alaska",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
     },
     {
       "player_id": "p1282",
@@ -39974,7 +40095,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/994793965259858013/e4e579f805af3295f0dc4cc65f28d59b.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/994793965259858013/52b837c46543453a16f460348735a3ef.webp",
         "profiles": [
           {
             "profile_id": "1029",
@@ -39982,7 +40103,7 @@
             "party": "grn",
             "state": "Pennsylvania",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/994793965259858013/e4e579f805af3295f0dc4cc65f28d59b.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/994793965259858013/52b837c46543453a16f460348735a3ef.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -39995,7 +40116,7 @@
             "party": "grn",
             "state": "Michigan",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/994793965259858013/e4e579f805af3295f0dc4cc65f28d59b.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/994793965259858013/52b837c46543453a16f460348735a3ef.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -40008,7 +40129,7 @@
             "party": "grn",
             "state": "West Virginia",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/994793965259858013/e4e579f805af3295f0dc4cc65f28d59b.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/994793965259858013/52b837c46543453a16f460348735a3ef.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -40516,6 +40637,97 @@
           "party": "grn",
           "state": "Rhode Island",
           "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p4",
+      "conservative_scorecard": {
+        "user_id": "p4",
+        "player_id": "p4",
+        "name": "George W. Bush",
+        "discord": "",
+        "discord_ids": [],
+        "party": "gop",
+        "state": "Texas",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "4",
+            "name": "George W. Bush",
+            "party": "gop",
+            "state": "Texas",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "George W. Bush",
+      "profile_ids": [
+        "4"
+      ],
+      "profiles": [
+        {
+          "profile_id": "4",
+          "name": "George W. Bush",
+          "party": "gop",
+          "state": "Texas",
+          "is_main": true,
           "on_site": true
         }
       ],
@@ -46291,7 +46503,7 @@
         "name": "Holden Ferguson",
         "discord": "",
         "discord_ids": [],
-        "party": "grn",
+        "party": "dem",
         "state": "Illinois",
         "chambers": [
           "Other"
@@ -46301,7 +46513,7 @@
           {
             "profile_id": "1383",
             "name": "Holden Ferguson",
-            "party": "grn",
+            "party": "dem",
             "state": "Illinois",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -46314,7 +46526,7 @@
           {
             "profile_id": "1384",
             "name": "John Jameson",
-            "party": "grn",
+            "party": "dem",
             "state": "California",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -46327,7 +46539,7 @@
           {
             "profile_id": "1386",
             "name": "Jared johns",
-            "party": "grn",
+            "party": "dem",
             "state": "California",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -46383,7 +46595,7 @@
         {
           "profile_id": "1383",
           "name": "Holden Ferguson",
-          "party": "grn",
+          "party": "dem",
           "state": "Illinois",
           "is_main": true,
           "on_site": true
@@ -46391,7 +46603,7 @@
         {
           "profile_id": "1384",
           "name": "John Jameson",
-          "party": "grn",
+          "party": "dem",
           "state": "California",
           "is_main": false,
           "on_site": true
@@ -46399,7 +46611,7 @@
         {
           "profile_id": "1386",
           "name": "Jared johns",
-          "party": "grn",
+          "party": "dem",
           "state": "California",
           "is_main": false,
           "on_site": true
@@ -50655,7 +50867,7 @@
           },
           {
             "profile_id": "1308",
-            "name": "Culver's",
+            "name": "Daniel Middleton",
             "party": "dem",
             "state": "District of Columbia",
             "chamber": "Other",
@@ -50949,7 +51161,7 @@
         },
         {
           "profile_id": "1308",
-          "name": "Culver's",
+          "name": "Daniel Middleton",
           "party": "dem",
           "state": "District of Columbia",
           "is_main": false,
@@ -75771,7 +75983,7 @@
           "House",
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/c6a1a78bee217620d667ff5460f85e30.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/48d50ccb70965e03c5cd3de2e90a4158.webp",
         "profiles": [
           {
             "profile_id": "1184",
@@ -75779,7 +75991,7 @@
             "party": "dem",
             "state": "New Jersey",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/c6a1a78bee217620d667ff5460f85e30.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/48d50ccb70965e03c5cd3de2e90a4158.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -75792,7 +76004,7 @@
             "party": "dem",
             "state": "New Jersey",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/c6a1a78bee217620d667ff5460f85e30.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/48d50ccb70965e03c5cd3de2e90a4158.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -89689,7 +89901,7 @@
             "state": "Arizona",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-            "is_main": true,
+            "is_main": false,
             "on_site": true,
             "offices": [],
             "office": "",
@@ -89737,7 +89949,7 @@
           "name": "William Rehnquist",
           "party": "gop",
           "state": "Arizona",
-          "is_main": true,
+          "is_main": false,
           "on_site": true
         }
       ],
@@ -93219,6 +93431,34 @@
   ],
   "profiles": [
     {
+      "profile_id": "4",
+      "player_id": "p4",
+      "name": "George W. Bush",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "gop",
+      "state": "Texas",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "profile_id": "7",
       "player_id": "p7",
       "name": "William Rehnquist",
@@ -93227,7 +93467,7 @@
       "discord_history": [],
       "party": "gop",
       "state": "Arizona",
-      "is_main": true,
+      "is_main": false,
       "on_site": true,
       "counts": {
         "bills": 0,
@@ -150607,7 +150847,7 @@
     {
       "profile_id": "1308",
       "player_id": "p1304",
-      "name": "Culver's",
+      "name": "Daniel Middleton",
       "discord": "internetanyahu",
       "discord_id": "966709449081360494",
       "discord_history": [
@@ -154928,7 +155168,7 @@
         }
       ],
       "party": "dem",
-      "state": "Washington",
+      "state": "New Mexico",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -155068,7 +155308,7 @@
           "first_seen": "2026-10-30"
         }
       ],
-      "party": "grn",
+      "party": "dem",
       "state": "Illinois",
       "is_main": true,
       "on_site": true,
@@ -155107,7 +155347,7 @@
           "first_seen": "2026-10-30"
         }
       ],
-      "party": "grn",
+      "party": "dem",
       "state": "California",
       "is_main": false,
       "on_site": true,
@@ -155174,7 +155414,7 @@
           "first_seen": "2026-10-30"
         }
       ],
-      "party": "grn",
+      "party": "dem",
       "state": "California",
       "is_main": false,
       "on_site": true,
@@ -155567,6 +155807,34 @@
       "party": "grn",
       "state": "Maine",
       "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1399",
+      "player_id": "p1399",
+      "name": "Brian Smith",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "gop",
+      "state": "Alaska",
+      "is_main": true,
       "on_site": true,
       "counts": {
         "bills": 0,

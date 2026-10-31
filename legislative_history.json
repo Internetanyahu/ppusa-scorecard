@@ -44231,7 +44231,7 @@
   },
   {
     "player_id": "p1304",
-    "name": "Culver's",
+    "name": "Daniel Middleton",
     "discord": "internetanyahu",
     "profiles": [
       "1304",
@@ -45821,11 +45821,31 @@
     "bill_count": 0
   },
   {
+    "player_id": "p1399",
+    "name": "Brian Smith",
+    "discord": "",
+    "profiles": [
+      "1399"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
     "player_id": "p14",
     "name": "Ruth Bader Ginsburg",
     "discord": "",
     "profiles": [
       "14"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p4",
+    "name": "George W. Bush",
+    "discord": "",
+    "profiles": [
+      "4"
     ],
     "bills": [],
     "bill_count": 0

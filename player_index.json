@@ -1,4 +1,17 @@
 {
+  "4": {
+    "profile_id": "4",
+    "player_id": "p4",
+    "first_seen": "2026-10-31",
+    "discord_history": [],
+    "name": "George W. Bush",
+    "discord": "",
+    "discord_id": "",
+    "party": "gop",
+    "state": "Texas",
+    "last_seen": "2026-10-31",
+    "on_site": true
+  },
   "7": {
     "profile_id": "7",
     "player_id": "p7",
@@ -10134,7 +10147,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1308",
     "player_id": "p1304",
-    "name": "Culver's",
+    "name": "Daniel Middleton",
     "discord": "internetanyahu",
     "party": "dem",
     "state": "District of Columbia",
@@ -12016,7 +12029,7 @@
     "discord": "_.loannes",
     "discord_id": "1240249543832895549",
     "party": "dem",
-    "state": "Washington",
+    "state": "New Mexico",
     "last_seen": "2026-10-31",
     "on_site": true
   },
@@ -12096,7 +12109,7 @@
     "name": "Holden Ferguson",
     "discord": "",
     "discord_id": "",
-    "party": "grn",
+    "party": "dem",
     "state": "Illinois",
     "last_seen": "2026-10-31",
     "on_site": true
@@ -12120,7 +12133,7 @@
     "name": "John Jameson",
     "discord": "",
     "discord_id": "",
-    "party": "grn",
+    "party": "dem",
     "state": "California",
     "last_seen": "2026-10-31",
     "on_site": true
@@ -12157,7 +12170,7 @@
     "name": "Jared johns",
     "discord": "",
     "discord_id": "",
-    "party": "grn",
+    "party": "dem",
     "state": "California",
     "last_seen": "2026-10-31",
     "on_site": true
@@ -12369,6 +12382,19 @@
     "discord_id": "",
     "party": "grn",
     "state": "Maine",
+    "last_seen": "2026-10-31",
+    "on_site": true
+  },
+  "1399": {
+    "profile_id": "1399",
+    "player_id": "p1399",
+    "first_seen": "2026-10-31",
+    "discord_history": [],
+    "name": "Brian Smith",
+    "discord": "",
+    "discord_id": "",
+    "party": "gop",
+    "state": "Alaska",
     "last_seen": "2026-10-31",
     "on_site": true
   }
