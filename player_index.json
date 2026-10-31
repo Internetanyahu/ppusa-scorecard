@@ -882,12 +882,12 @@
     "profile_id": "1025",
     "player_id": "p1025",
     "name": "Barack Obama",
-    "discord": "trumpquest",
+    "discord": "",
     "party": "gop",
     "state": "District of Columbia",
     "last_seen": "2026-10-31",
     "on_site": true,
-    "discord_id": "961355935496953956",
+    "discord_id": "",
     "discord_history": [
       {
         "discord": "trumpquest",
@@ -908,6 +908,11 @@
         "discord": "trumpquest",
         "discord_id": "961355935496953956",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-10-31"
       }
     ]
   },
@@ -1154,12 +1159,12 @@
     "profile_id": "1033",
     "player_id": "p1025",
     "name": "Gavin Newsom",
-    "discord": "trumpquest",
+    "discord": "",
     "party": "gop",
     "state": "Alaska",
     "last_seen": "2026-10-31",
     "on_site": true,
-    "discord_id": "961355935496953956",
+    "discord_id": "",
     "discord_history": [
       {
         "discord": "trumpquest",
@@ -1180,6 +1185,11 @@
         "discord": "trumpquest",
         "discord_id": "961355935496953956",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-10-31"
       }
     ]
   },
@@ -11297,7 +11307,7 @@
     "name": "Altaccisjsksk",
     "discord": "greekleftist",
     "party": "dem",
-    "state": "Oklahoma",
+    "state": "Michigan",
     "last_seen": "2026-10-31",
     "on_site": true,
     "discord_id": "1515453411015917722",
@@ -11425,7 +11435,7 @@
     "name": "Fjjd",
     "discord": "greekleftist",
     "party": "dem",
-    "state": "New York",
+    "state": "Michigan",
     "last_seen": "2026-10-31",
     "on_site": true,
     "discord_id": "1515453411015917722",

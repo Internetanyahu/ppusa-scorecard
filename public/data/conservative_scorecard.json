@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T11:44:11+00:00",
+  "generated_at": "2026-10-31T16:51:22+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -45828,13 +45828,13 @@
     {
       "user_id": "p1025",
       "player_id": "p1025",
-      "name": "Barack Obama",
+      "name": "Andrew Tate",
       "discord": "trumpquest",
       "discord_ids": [
         "961355935496953956"
       ],
       "party": "gop",
-      "state": "District of Columbia",
+      "state": "Alaska",
       "chambers": [
         "House",
         "Senate"
@@ -45842,13 +45842,28 @@
       "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
       "profiles": [
         {
+          "profile_id": "1209",
+          "name": "Andrew Tate",
+          "party": "gop",
+          "state": "Alaska",
+          "chamber": "Senate",
+          "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+          "is_main": true,
+          "on_site": true,
+          "offices": [
+            "House"
+          ],
+          "office": "House",
+          "office_count": 1
+        },
+        {
           "profile_id": "1025",
           "name": "Barack Obama",
           "party": "gop",
           "state": "District of Columbia",
           "chamber": "House",
-          "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
-          "is_main": true,
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": false,
           "on_site": true,
           "offices": [
             "House"
@@ -45862,22 +45877,7 @@
           "party": "gop",
           "state": "Alaska",
           "chamber": "Senate",
-          "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
-          "is_main": false,
-          "on_site": true,
-          "offices": [
-            "House"
-          ],
-          "office": "House",
-          "office_count": 1
-        },
-        {
-          "profile_id": "1209",
-          "name": "Andrew Tate",
-          "party": "gop",
-          "state": "Alaska",
-          "chamber": "Senate",
-          "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": false,
           "on_site": true,
           "offices": [
@@ -58451,7 +58451,7 @@
           "profile_id": "1345",
           "name": "Altaccisjsksk",
           "party": "dem",
-          "state": "Oklahoma",
+          "state": "Michigan",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1515453411015917722/4342063673d303ad73453cb60ee2fbd1.webp",
           "is_main": false,
@@ -58464,7 +58464,7 @@
           "profile_id": "1350",
           "name": "Fjjd",
           "party": "dem",
-          "state": "New York",
+          "state": "Michigan",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1515453411015917722/4342063673d303ad73453cb60ee2fbd1.webp",
           "is_main": false,
@@ -62475,7 +62475,7 @@
       "chambers": [
         "Other"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/4d25b19e3903080294430be7a5fcca12.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/f659a2b3fca78b5d4e182a6b9db63ced.webp",
       "profiles": [
         {
           "profile_id": "1026",
@@ -62483,7 +62483,7 @@
           "party": "grn",
           "state": "California",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/4d25b19e3903080294430be7a5fcca12.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/f659a2b3fca78b5d4e182a6b9db63ced.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -62496,7 +62496,7 @@
           "party": "grn",
           "state": "Virginia",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/4d25b19e3903080294430be7a5fcca12.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/f659a2b3fca78b5d4e182a6b9db63ced.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -62509,7 +62509,7 @@
           "party": "grn",
           "state": "Ohio",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/4d25b19e3903080294430be7a5fcca12.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/f659a2b3fca78b5d4e182a6b9db63ced.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
