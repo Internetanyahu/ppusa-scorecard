@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T16:51:23+00:00",
+  "generated_at": "2026-10-31T21:00:45+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -214,6 +214,17 @@
       "aliases": [],
       "profile_ids": [
         "1397"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1400",
+      "label": "atharv04 (Tom Marshall)",
+      "aliases": [
+        "atharv04"
+      ],
+      "profile_ids": [
+        "1400"
       ]
     },
     {
@@ -944,6 +955,19 @@
       "aliases": [],
       "profile_ids": [
         "1064"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1403",
+      "label": "jameswimbury4349 (Jennifer Banks)",
+      "aliases": [
+        "jameswimbury4349"
+      ],
+      "profile_ids": [
+        "1403",
+        "1404",
+        "1405"
       ]
     },
     {
@@ -1869,7 +1893,9 @@
       "profile_ids": [
         "1025",
         "1033",
-        "1209"
+        "1209",
+        "1401",
+        "1402"
       ]
     },
     {
@@ -2750,6 +2776,12 @@
     },
     {
       "type": "profile",
+      "id": "1401",
+      "label": "Donald Trump (1401)",
+      "player_id": "p1025"
+    },
+    {
+      "type": "profile",
       "id": "1220",
       "label": "Donald Trump Jr. (1220)",
       "player_id": "p1062"
@@ -3278,6 +3310,12 @@
     },
     {
       "type": "profile",
+      "id": "1403",
+      "label": "Jennifer Banks (1403)",
+      "player_id": "p1403"
+    },
+    {
+      "type": "profile",
       "id": "1300",
       "label": "Jerry Shekelstein (1300)",
       "player_id": "p1298"
@@ -3305,6 +3343,12 @@
       "id": "1143",
       "label": "Jim Thorne (1143)",
       "player_id": "p1140"
+    },
+    {
+      "type": "profile",
+      "id": "1402",
+      "label": "Jimmy Carter (1402)",
+      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -3494,6 +3538,12 @@
     },
     {
       "type": "profile",
+      "id": "1404",
+      "label": "Kendra Wilson (1404)",
+      "player_id": "p1403"
+    },
+    {
+      "type": "profile",
       "id": "1140",
       "label": "Kevin K. (1140)",
       "player_id": "p1140"
@@ -3587,6 +3637,12 @@
       "id": "1128",
       "label": "Layla L. Leafeon (1128)",
       "player_id": "p1128"
+    },
+    {
+      "type": "profile",
+      "id": "1405",
+      "label": "LeAnne Johnson (1405)",
+      "player_id": "p1403"
     },
     {
       "type": "profile",
@@ -4319,6 +4375,12 @@
       "id": "1156",
       "label": "Tom Jones (1156)",
       "player_id": "p1156"
+    },
+    {
+      "type": "profile",
+      "id": "1400",
+      "label": "Tom Marshall (1400)",
+      "player_id": "p1400"
     },
     {
       "type": "profile",
@@ -16798,6 +16860,103 @@
           "party": "grn",
           "state": "Maine",
           "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p1400",
+      "conservative_scorecard": {
+        "user_id": "p1400",
+        "player_id": "p1400",
+        "name": "Tom Marshall",
+        "discord": "atharv04",
+        "discord_ids": [
+          "685324262340558849"
+        ],
+        "party": "dem",
+        "state": "New York",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/685324262340558849/e6a0f65fea6c4d201e341bba3336ee74.webp",
+        "profiles": [
+          {
+            "profile_id": "1400",
+            "name": "Tom Marshall",
+            "party": "dem",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/685324262340558849/e6a0f65fea6c4d201e341bba3336ee74.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "atharv04",
+      "discord_current": true,
+      "discord_aliases": [
+        "atharv04"
+      ],
+      "discord_ids": [
+        "685324262340558849"
+      ],
+      "name": "Tom Marshall",
+      "profile_ids": [
+        "1400"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1400",
+          "name": "Tom Marshall",
+          "party": "dem",
+          "state": "New York",
+          "is_main": true,
           "on_site": true
         }
       ],
@@ -36782,7 +36941,7 @@
           "1068285752112336896"
         ],
         "party": "grn",
-        "state": "Wisconsin",
+        "state": "South Carolina",
         "chambers": [
           "House",
           "Other"
@@ -36793,7 +36952,7 @@
             "profile_id": "1112",
             "name": "Tammy Baldwin",
             "party": "grn",
-            "state": "Wisconsin",
+            "state": "South Carolina",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1068285752112336896/2fc6402c02ab075f1a4e75493aa1a61c.webp",
             "is_main": true,
@@ -36917,7 +37076,7 @@
           "profile_id": "1112",
           "name": "Tammy Baldwin",
           "party": "grn",
-          "state": "Wisconsin",
+          "state": "South Carolina",
           "is_main": true,
           "on_site": true
         },
@@ -52387,6 +52546,143 @@
           "name": "James Talarico",
           "party": "gop",
           "state": "Delaware",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p1403",
+      "conservative_scorecard": {
+        "user_id": "p1403",
+        "player_id": "p1403",
+        "name": "Jennifer Banks",
+        "discord": "jameswimbury4349",
+        "discord_ids": [],
+        "party": "gop",
+        "state": "Arkansas",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1403",
+            "name": "Jennifer Banks",
+            "party": "gop",
+            "state": "Arkansas",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1404",
+            "name": "Kendra Wilson",
+            "party": "gop",
+            "state": "Mississippi",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1405",
+            "name": "LeAnne Johnson",
+            "party": "gop",
+            "state": "South Carolina",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "jameswimbury4349",
+      "discord_current": true,
+      "discord_aliases": [
+        "jameswimbury4349"
+      ],
+      "discord_ids": [],
+      "name": "Jennifer Banks",
+      "profile_ids": [
+        "1403",
+        "1404",
+        "1405"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1403",
+          "name": "Jennifer Banks",
+          "party": "gop",
+          "state": "Arkansas",
+          "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1404",
+          "name": "Kendra Wilson",
+          "party": "gop",
+          "state": "Mississippi",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1405",
+          "name": "LeAnne Johnson",
+          "party": "gop",
+          "state": "South Carolina",
           "is_main": false,
           "on_site": true
         }
@@ -80057,6 +80353,7 @@
         "state": "Alaska",
         "chambers": [
           "House",
+          "Other",
           "Senate"
         ],
         "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -80105,6 +80402,32 @@
             ],
             "office": "House",
             "office_count": 1
+          },
+          {
+            "profile_id": "1401",
+            "name": "Donald Trump",
+            "party": "gop",
+            "state": "Virginia",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1402",
+            "name": "Jimmy Carter",
+            "party": "gop",
+            "state": "New Jersey",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
           }
         ],
         "scores": {
@@ -80485,7 +80808,9 @@
       "profile_ids": [
         "1025",
         "1033",
-        "1209"
+        "1209",
+        "1401",
+        "1402"
       ],
       "profiles": [
         {
@@ -80510,6 +80835,22 @@
           "party": "gop",
           "state": "Alaska",
           "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1401",
+          "name": "Donald Trump",
+          "party": "gop",
+          "state": "Virginia",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1402",
+          "name": "Jimmy Carter",
+          "party": "gop",
+          "state": "New Jersey",
+          "is_main": false,
           "on_site": true
         }
       ],
@@ -125959,7 +126300,7 @@
         }
       ],
       "party": "grn",
-      "state": "Wisconsin",
+      "state": "South Carolina",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -155845,6 +156186,210 @@
       "party": "gop",
       "state": "Alaska",
       "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1400",
+      "player_id": "p1400",
+      "name": "Tom Marshall",
+      "discord": "atharv04",
+      "discord_id": "685324262340558849",
+      "discord_history": [
+        {
+          "discord": "atharv04",
+          "discord_id": "685324262340558849",
+          "first_seen": "2026-10-31"
+        }
+      ],
+      "party": "dem",
+      "state": "New York",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1401",
+      "player_id": "p1025",
+      "name": "Donald Trump",
+      "discord": "trumpquest",
+      "discord_id": "961355935496953956",
+      "discord_history": [
+        {
+          "discord": "trumpquest",
+          "discord_id": "961355935496953956",
+          "first_seen": "2026-10-31"
+        }
+      ],
+      "party": "gop",
+      "state": "Virginia",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1402",
+      "player_id": "p1025",
+      "name": "Jimmy Carter",
+      "discord": "trumpquest",
+      "discord_id": "961355935496953956",
+      "discord_history": [
+        {
+          "discord": "trumpquest",
+          "discord_id": "961355935496953956",
+          "first_seen": "2026-10-31"
+        }
+      ],
+      "party": "gop",
+      "state": "New Jersey",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1403",
+      "player_id": "p1403",
+      "name": "Jennifer Banks",
+      "discord": "jameswimbury4349",
+      "discord_id": "",
+      "discord_history": [
+        {
+          "discord": "jameswimbury4349",
+          "discord_id": "",
+          "first_seen": "2026-10-31"
+        }
+      ],
+      "party": "gop",
+      "state": "Arkansas",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1404",
+      "player_id": "p1403",
+      "name": "Kendra Wilson",
+      "discord": "jameswimbury4349",
+      "discord_id": "",
+      "discord_history": [
+        {
+          "discord": "jameswimbury4349",
+          "discord_id": "",
+          "first_seen": "2026-10-31"
+        }
+      ],
+      "party": "gop",
+      "state": "Mississippi",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1405",
+      "player_id": "p1403",
+      "name": "LeAnne Johnson",
+      "discord": "jameswimbury4349",
+      "discord_id": "",
+      "discord_history": [
+        {
+          "discord": "jameswimbury4349",
+          "discord_id": "",
+          "first_seen": "2026-10-31"
+        }
+      ],
+      "party": "gop",
+      "state": "South Carolina",
+      "is_main": false,
       "on_site": true,
       "counts": {
         "bills": 0,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T16:51:22+00:00",
+  "generated_at": "2026-10-31T21:00:45+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -45837,6 +45837,7 @@
       "state": "Alaska",
       "chambers": [
         "House",
+        "Other",
         "Senate"
       ],
       "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
@@ -45885,6 +45886,32 @@
           ],
           "office": "House",
           "office_count": 1
+        },
+        {
+          "profile_id": "1401",
+          "name": "Donald Trump",
+          "party": "gop",
+          "state": "Virginia",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1402",
+          "name": "Jimmy Carter",
+          "party": "gop",
+          "state": "New Jersey",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
         }
       ],
       "scores": {
@@ -58082,7 +58109,7 @@
         "1068285752112336896"
       ],
       "party": "grn",
-      "state": "Wisconsin",
+      "state": "South Carolina",
       "chambers": [
         "House",
         "Other"
@@ -58093,7 +58120,7 @@
           "profile_id": "1112",
           "name": "Tammy Baldwin",
           "party": "grn",
-          "state": "Wisconsin",
+          "state": "South Carolina",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1068285752112336896/2fc6402c02ab075f1a4e75493aa1a61c.webp",
           "is_main": true,
@@ -62463,6 +62490,86 @@
       "has_office": true
     },
     {
+      "user_id": "p1403",
+      "player_id": "p1403",
+      "name": "Jennifer Banks",
+      "discord": "jameswimbury4349",
+      "discord_ids": [],
+      "party": "gop",
+      "state": "Arkansas",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "profiles": [
+        {
+          "profile_id": "1403",
+          "name": "Jennifer Banks",
+          "party": "gop",
+          "state": "Arkansas",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1404",
+          "name": "Kendra Wilson",
+          "party": "gop",
+          "state": "Mississippi",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1405",
+          "name": "LeAnne Johnson",
+          "party": "gop",
+          "state": "South Carolina",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
       "user_id": "p1026",
       "player_id": "p1026",
       "name": "Jesse Jackson",
@@ -66119,6 +66226,62 @@
       "has_office": true
     },
     {
+      "user_id": "p1400",
+      "player_id": "p1400",
+      "name": "Tom Marshall",
+      "discord": "atharv04",
+      "discord_ids": [
+        "685324262340558849"
+      ],
+      "party": "dem",
+      "state": "New York",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/685324262340558849/e6a0f65fea6c4d201e341bba3336ee74.webp",
+      "profiles": [
+        {
+          "profile_id": "1400",
+          "name": "Tom Marshall",
+          "party": "dem",
+          "state": "New York",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/685324262340558849/e6a0f65fea6c4d201e341bba3336ee74.webp",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
       "user_id": "p1102",
       "player_id": "p1102",
       "name": "Tom Patti",
@@ -66590,7 +66753,7 @@
   "office_metadata": {
     "definition": "Count of normalized offices attached to each Power Play profile; POTUS, Vice President, Governor, legislative and other offices are all counted when supplied by the source.",
     "no_office_label": "No office",
-    "updated_profiles": 404,
-    "updated_players": 176
+    "updated_profiles": 410,
+    "updated_players": 178
   }
 }

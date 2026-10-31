@@ -3726,7 +3726,7 @@
     "name": "Tammy Baldwin",
     "discord": "fruity.patootie",
     "party": "grn",
-    "state": "Wisconsin",
+    "state": "South Carolina",
     "last_seen": "2026-10-31",
     "on_site": true,
     "discord_id": "1068285752112336896",
@@ -12405,6 +12405,120 @@
     "discord_id": "",
     "party": "gop",
     "state": "Alaska",
+    "last_seen": "2026-10-31",
+    "on_site": true
+  },
+  "1400": {
+    "profile_id": "1400",
+    "player_id": "p1400",
+    "first_seen": "2026-10-31",
+    "discord_history": [
+      {
+        "discord": "atharv04",
+        "discord_id": "685324262340558849",
+        "first_seen": "2026-10-31"
+      }
+    ],
+    "name": "Tom Marshall",
+    "discord": "atharv04",
+    "discord_id": "685324262340558849",
+    "party": "dem",
+    "state": "New York",
+    "last_seen": "2026-10-31",
+    "on_site": true
+  },
+  "1401": {
+    "profile_id": "1401",
+    "player_id": "p1025",
+    "first_seen": "2026-10-31",
+    "discord_history": [
+      {
+        "discord": "trumpquest",
+        "discord_id": "961355935496953956",
+        "first_seen": "2026-10-31"
+      }
+    ],
+    "name": "Donald Trump",
+    "discord": "trumpquest",
+    "discord_id": "961355935496953956",
+    "party": "gop",
+    "state": "Virginia",
+    "last_seen": "2026-10-31",
+    "on_site": true
+  },
+  "1402": {
+    "profile_id": "1402",
+    "player_id": "p1025",
+    "first_seen": "2026-10-31",
+    "discord_history": [
+      {
+        "discord": "trumpquest",
+        "discord_id": "961355935496953956",
+        "first_seen": "2026-10-31"
+      }
+    ],
+    "name": "Jimmy Carter",
+    "discord": "trumpquest",
+    "discord_id": "961355935496953956",
+    "party": "gop",
+    "state": "New Jersey",
+    "last_seen": "2026-10-31",
+    "on_site": true
+  },
+  "1403": {
+    "profile_id": "1403",
+    "player_id": "p1403",
+    "first_seen": "2026-10-31",
+    "discord_history": [
+      {
+        "discord": "jameswimbury4349",
+        "discord_id": "",
+        "first_seen": "2026-10-31"
+      }
+    ],
+    "name": "Jennifer Banks",
+    "discord": "jameswimbury4349",
+    "discord_id": "",
+    "party": "gop",
+    "state": "Arkansas",
+    "last_seen": "2026-10-31",
+    "on_site": true
+  },
+  "1404": {
+    "profile_id": "1404",
+    "player_id": "p1403",
+    "first_seen": "2026-10-31",
+    "discord_history": [
+      {
+        "discord": "jameswimbury4349",
+        "discord_id": "",
+        "first_seen": "2026-10-31"
+      }
+    ],
+    "name": "Kendra Wilson",
+    "discord": "jameswimbury4349",
+    "discord_id": "",
+    "party": "gop",
+    "state": "Mississippi",
+    "last_seen": "2026-10-31",
+    "on_site": true
+  },
+  "1405": {
+    "profile_id": "1405",
+    "player_id": "p1403",
+    "first_seen": "2026-10-31",
+    "discord_history": [
+      {
+        "discord": "jameswimbury4349",
+        "discord_id": "",
+        "first_seen": "2026-10-31"
+      }
+    ],
+    "name": "LeAnne Johnson",
+    "discord": "jameswimbury4349",
+    "discord_id": "",
+    "party": "gop",
+    "state": "South Carolina",
     "last_seen": "2026-10-31",
     "on_site": true
   }

@@ -8927,12 +8927,14 @@
   },
   {
     "player_id": "p1025",
-    "name": "Andrew Tate",
+    "name": "Jimmy Carter",
     "discord": "trumpquest",
     "profiles": [
       "1025",
       "1033",
-      "1209"
+      "1209",
+      "1401",
+      "1402"
     ],
     "bills": [
       {
@@ -45836,6 +45838,28 @@
     "discord": "",
     "profiles": [
       "14"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1400",
+    "name": "Tom Marshall",
+    "discord": "atharv04",
+    "profiles": [
+      "1400"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1403",
+    "name": "LeAnne Johnson",
+    "discord": "jameswimbury4349",
+    "profiles": [
+      "1403",
+      "1404",
+      "1405"
     ],
     "bills": [],
     "bill_count": 0
