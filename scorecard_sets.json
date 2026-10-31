@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T21:57:35+00:00",
+  "generated_at": "2026-10-31T04:09:51+00:00",
   "default_set": "conservative",
   "sets": [
     {
@@ -60369,6 +60369,60 @@
           "has_office": false
         },
         {
+          "user_id": "p1397",
+          "player_id": "p1397",
+          "name": "Astrid Lindholm",
+          "discord": "",
+          "discord_ids": [],
+          "party": "grn",
+          "state": "Maine",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "profiles": [
+            {
+              "profile_id": "1397",
+              "name": "Astrid Lindholm",
+              "party": "grn",
+              "state": "Maine",
+              "chamber": "Other",
+              "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
           "user_id": "p1318",
           "player_id": "p1318",
           "name": "barry mickockiner",
@@ -62352,6 +62406,60 @@
           "has_office": true
         },
         {
+          "user_id": "p1398",
+          "player_id": "p1398",
+          "name": "Elias Thorne",
+          "discord": "",
+          "discord_ids": [],
+          "party": "grn",
+          "state": "Maine",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "profiles": [
+            {
+              "profile_id": "1398",
+              "name": "Elias Thorne",
+              "party": "grn",
+              "state": "Maine",
+              "chamber": "Other",
+              "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
           "user_id": "p1333",
           "player_id": "p1333",
           "name": "Elisworth Ashford",
@@ -63241,6 +63349,62 @@
               "state": "Maryland",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/769624078343995432/feb7d374c8b7405220f08385e8292c71.webp",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p1395",
+          "player_id": "p1395",
+          "name": "Hunter Biden",
+          "discord": "danielthecreator",
+          "discord_ids": [
+            "538504775008780300"
+          ],
+          "party": "dem",
+          "state": "Illinois",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/538504775008780300/93894c85bb485ef4ef9b2ec3d1295518.webp",
+          "profiles": [
+            {
+              "profile_id": "1395",
+              "name": "Hunter Biden",
+              "party": "dem",
+              "state": "Illinois",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/538504775008780300/93894c85bb485ef4ef9b2ec3d1295518.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -66687,6 +66851,60 @@
           "has_office": false
         },
         {
+          "user_id": "p1396",
+          "player_id": "p1396",
+          "name": "Rowan Sterling",
+          "discord": "",
+          "discord_ids": [],
+          "party": "grn",
+          "state": "Maine",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "profiles": [
+            {
+              "profile_id": "1396",
+              "name": "Rowan Sterling",
+              "party": "grn",
+              "state": "Maine",
+              "chamber": "Other",
+              "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
           "user_id": "p1319",
           "player_id": "p1319",
           "name": "rubbin magroin",
@@ -66844,6 +67062,60 @@
               "state": "Utah",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/653722361857835009/d381ea47d495e34a6c6dab630157038e.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p14",
+          "player_id": "p14",
+          "name": "Ruth Bader Ginsburg",
+          "discord": "",
+          "discord_ids": [],
+          "party": "dem",
+          "state": "District of Columbia",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "profiles": [
+            {
+              "profile_id": "14",
+              "name": "Ruth Bader Ginsburg",
+              "party": "dem",
+              "state": "District of Columbia",
+              "chamber": "Other",
+              "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -111628,6 +111900,60 @@
           "has_office": false
         },
         {
+          "user_id": "p1397",
+          "player_id": "p1397",
+          "name": "Astrid Lindholm",
+          "discord": "",
+          "discord_ids": [],
+          "party": "grn",
+          "state": "Maine",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "profiles": [
+            {
+              "profile_id": "1397",
+              "name": "Astrid Lindholm",
+              "party": "grn",
+              "state": "Maine",
+              "chamber": "Other",
+              "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
           "user_id": "p1318",
           "player_id": "p1318",
           "name": "barry mickockiner",
@@ -113597,6 +113923,60 @@
           "has_office": true
         },
         {
+          "user_id": "p1398",
+          "player_id": "p1398",
+          "name": "Elias Thorne",
+          "discord": "",
+          "discord_ids": [],
+          "party": "grn",
+          "state": "Maine",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "profiles": [
+            {
+              "profile_id": "1398",
+              "name": "Elias Thorne",
+              "party": "grn",
+              "state": "Maine",
+              "chamber": "Other",
+              "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
           "user_id": "p1333",
           "player_id": "p1333",
           "name": "Elisworth Ashford",
@@ -114486,6 +114866,62 @@
               "state": "Maryland",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/769624078343995432/feb7d374c8b7405220f08385e8292c71.webp",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p1395",
+          "player_id": "p1395",
+          "name": "Hunter Biden",
+          "discord": "danielthecreator",
+          "discord_ids": [
+            "538504775008780300"
+          ],
+          "party": "dem",
+          "state": "Illinois",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/538504775008780300/93894c85bb485ef4ef9b2ec3d1295518.webp",
+          "profiles": [
+            {
+              "profile_id": "1395",
+              "name": "Hunter Biden",
+              "party": "dem",
+              "state": "Illinois",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/538504775008780300/93894c85bb485ef4ef9b2ec3d1295518.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -117904,6 +118340,60 @@
           "has_office": false
         },
         {
+          "user_id": "p1396",
+          "player_id": "p1396",
+          "name": "Rowan Sterling",
+          "discord": "",
+          "discord_ids": [],
+          "party": "grn",
+          "state": "Maine",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "profiles": [
+            {
+              "profile_id": "1396",
+              "name": "Rowan Sterling",
+              "party": "grn",
+              "state": "Maine",
+              "chamber": "Other",
+              "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
           "user_id": "p1319",
           "player_id": "p1319",
           "name": "rubbin magroin",
@@ -118061,6 +118551,60 @@
               "state": "Utah",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/653722361857835009/d381ea47d495e34a6c6dab630157038e.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p14",
+          "player_id": "p14",
+          "name": "Ruth Bader Ginsburg",
+          "discord": "",
+          "discord_ids": [],
+          "party": "dem",
+          "state": "District of Columbia",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "profiles": [
+            {
+              "profile_id": "14",
+              "name": "Ruth Bader Ginsburg",
+              "party": "dem",
+              "state": "District of Columbia",
+              "chamber": "Other",
+              "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
               "is_main": false,
               "on_site": true,
               "offices": [],

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T21:57:35+00:00",
+  "generated_at": "2026-10-31T04:09:51+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -205,6 +205,15 @@
       "profile_ids": [
         "1174",
         "1175"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1397",
+      "label": "Astrid Lindholm",
+      "aliases": [],
+      "profile_ids": [
+        "1397"
       ]
     },
     {
@@ -477,6 +486,17 @@
     },
     {
       "type": "player",
+      "id": "p1395",
+      "label": "danielthecreator (Hunter Biden)",
+      "aliases": [
+        "danielthecreator"
+      ],
+      "profile_ids": [
+        "1395"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1137",
       "label": "Darializa Chevalier",
       "aliases": [],
@@ -556,6 +576,15 @@
       ],
       "profile_ids": [
         "1387"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1398",
+      "label": "Elias Thorne",
+      "aliases": [],
+      "profile_ids": [
+        "1398"
       ]
     },
     {
@@ -1623,11 +1652,29 @@
     },
     {
       "type": "player",
+      "id": "p1396",
+      "label": "Rowan Sterling",
+      "aliases": [],
+      "profile_ids": [
+        "1396"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1319",
       "label": "rubbin magroin",
       "aliases": [],
       "profile_ids": [
         "1319"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p14",
+      "label": "Ruth Bader Ginsburg",
+      "aliases": [],
+      "profile_ids": [
+        "14"
       ]
     },
     {
@@ -2199,6 +2246,12 @@
     },
     {
       "type": "profile",
+      "id": "1397",
+      "label": "Astrid Lindholm (1397)",
+      "player_id": "p1397"
+    },
+    {
+      "type": "profile",
       "id": "1053",
       "label": "Austin Vicknair (1053)",
       "player_id": "p1053"
@@ -2739,6 +2792,12 @@
     },
     {
       "type": "profile",
+      "id": "1398",
+      "label": "Elias Thorne (1398)",
+      "player_id": "p1398"
+    },
+    {
+      "type": "profile",
       "id": "1333",
       "label": "Elisworth Ashford (1333)",
       "player_id": "p1333"
@@ -3072,6 +3131,12 @@
       "id": "1355",
       "label": "Huey Newton (1355)",
       "player_id": "p1355"
+    },
+    {
+      "type": "profile",
+      "id": "1395",
+      "label": "Hunter Biden (1395)",
+      "player_id": "p1395"
     },
     {
       "type": "profile",
@@ -3999,6 +4064,12 @@
     },
     {
       "type": "profile",
+      "id": "1396",
+      "label": "Rowan Sterling (1396)",
+      "player_id": "p1396"
+    },
+    {
+      "type": "profile",
       "id": "1319",
       "label": "rubbin magroin (1319)",
       "player_id": "p1319"
@@ -4014,6 +4085,12 @@
       "id": "1270",
       "label": "Rumi (1270)",
       "player_id": "p1270"
+    },
+    {
+      "type": "profile",
+      "id": "14",
+      "label": "Ruth Bader Ginsburg (14)",
+      "player_id": "p14"
     },
     {
       "type": "profile",
@@ -16619,6 +16696,97 @@
           "house_seats": null
         }
       ]
+    },
+    {
+      "player_id": "p1397",
+      "conservative_scorecard": {
+        "user_id": "p1397",
+        "player_id": "p1397",
+        "name": "Astrid Lindholm",
+        "discord": "",
+        "discord_ids": [],
+        "party": "grn",
+        "state": "Maine",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1397",
+            "name": "Astrid Lindholm",
+            "party": "grn",
+            "state": "Maine",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Astrid Lindholm",
+      "profile_ids": [
+        "1397"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1397",
+          "name": "Astrid Lindholm",
+          "party": "grn",
+          "state": "Maine",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
     },
     {
       "player_id": "p1053",
@@ -30771,6 +30939,103 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1395",
+      "conservative_scorecard": {
+        "user_id": "p1395",
+        "player_id": "p1395",
+        "name": "Hunter Biden",
+        "discord": "danielthecreator",
+        "discord_ids": [
+          "538504775008780300"
+        ],
+        "party": "dem",
+        "state": "Illinois",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/538504775008780300/93894c85bb485ef4ef9b2ec3d1295518.webp",
+        "profiles": [
+          {
+            "profile_id": "1395",
+            "name": "Hunter Biden",
+            "party": "dem",
+            "state": "Illinois",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/538504775008780300/93894c85bb485ef4ef9b2ec3d1295518.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "danielthecreator",
+      "discord_current": true,
+      "discord_aliases": [
+        "danielthecreator"
+      ],
+      "discord_ids": [
+        "538504775008780300"
+      ],
+      "name": "Hunter Biden",
+      "profile_ids": [
+        "1395"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1395",
+          "name": "Hunter Biden",
+          "party": "dem",
+          "state": "Illinois",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1137",
       "conservative_scorecard": {
         "user_id": "p1137",
@@ -33448,6 +33713,97 @@
           "party": "dsa",
           "state": "Missouri",
           "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p1398",
+      "conservative_scorecard": {
+        "user_id": "p1398",
+        "player_id": "p1398",
+        "name": "Elias Thorne",
+        "discord": "",
+        "discord_ids": [],
+        "party": "grn",
+        "state": "Maine",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1398",
+            "name": "Elias Thorne",
+            "party": "grn",
+            "state": "Maine",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Elias Thorne",
+      "profile_ids": [
+        "1398"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1398",
+          "name": "Elias Thorne",
+          "party": "grn",
+          "state": "Maine",
+          "is_main": false,
           "on_site": true
         }
       ],
@@ -74939,6 +75295,97 @@
       ]
     },
     {
+      "player_id": "p1396",
+      "conservative_scorecard": {
+        "user_id": "p1396",
+        "player_id": "p1396",
+        "name": "Rowan Sterling",
+        "discord": "",
+        "discord_ids": [],
+        "party": "grn",
+        "state": "Maine",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1396",
+            "name": "Rowan Sterling",
+            "party": "grn",
+            "state": "Maine",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Rowan Sterling",
+      "profile_ids": [
+        "1396"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1396",
+          "name": "Rowan Sterling",
+          "party": "grn",
+          "state": "Maine",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1319",
       "conservative_scorecard": {
         "user_id": "p1319",
@@ -75008,6 +75455,97 @@
           "name": "rubbin magroin",
           "party": "gop",
           "state": "Ohio",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p14",
+      "conservative_scorecard": {
+        "user_id": "p14",
+        "player_id": "p14",
+        "name": "Ruth Bader Ginsburg",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "District of Columbia",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "14",
+            "name": "Ruth Bader Ginsburg",
+            "party": "dem",
+            "state": "District of Columbia",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Ruth Bader Ginsburg",
+      "profile_ids": [
+        "14"
+      ],
+      "profiles": [
+        {
+          "profile_id": "14",
+          "name": "Ruth Bader Ginsburg",
+          "party": "dem",
+          "state": "District of Columbia",
           "is_main": false,
           "on_site": true
         }
@@ -92717,6 +93255,34 @@
       "discord_history": [],
       "party": "dem",
       "state": "Illinois",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "14",
+      "player_id": "p14",
+      "name": "Ruth Bader Ginsburg",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "District of Columbia",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -154882,6 +155448,124 @@
       ],
       "party": "gop",
       "state": "Louisiana",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1395",
+      "player_id": "p1395",
+      "name": "Hunter Biden",
+      "discord": "danielthecreator",
+      "discord_id": "538504775008780300",
+      "discord_history": [
+        {
+          "discord": "danielthecreator",
+          "discord_id": "538504775008780300",
+          "first_seen": "2026-10-31"
+        }
+      ],
+      "party": "dem",
+      "state": "Illinois",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1396",
+      "player_id": "p1396",
+      "name": "Rowan Sterling",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "grn",
+      "state": "Maine",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1397",
+      "player_id": "p1397",
+      "name": "Astrid Lindholm",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "grn",
+      "state": "Maine",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1398",
+      "player_id": "p1398",
+      "name": "Elias Thorne",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "grn",
+      "state": "Maine",
       "is_main": false,
       "on_site": true,
       "counts": {
