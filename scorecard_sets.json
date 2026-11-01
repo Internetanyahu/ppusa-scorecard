@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T12:43:34+00:00",
+  "generated_at": "2026-11-01T21:44:00+00:00",
   "default_set": "conservative",
   "sets": [
     {
@@ -39269,7 +39269,7 @@
               "profile_id": "1267",
               "name": "David Allan Coe",
               "party": "grn",
-              "state": "Kentucky",
+              "state": "Connecticut",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1390846237288169652/54ae99a07c17e29b7dab470c621c785a.webp",
               "is_main": false,
@@ -61098,6 +61098,19 @@
               "offices": [],
               "office": "",
               "office_count": 0
+            },
+            {
+              "profile_id": "1410",
+              "name": "Abby Lee Miller Jr",
+              "party": "dem",
+              "state": "Pennsylvania",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
             }
           ],
           "scores": {
@@ -61861,7 +61874,7 @@
               "profile_id": "1254",
               "name": "Peter Russo",
               "party": "dem",
-              "state": "Idaho",
+              "state": "Washington",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
               "is_main": false,
@@ -62387,7 +62400,7 @@
             "House",
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/342cd978a26c7668c69d0a1b4f414f77.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/c404b0ecc6908f7aa6bdb1466b68a217.webp",
           "profiles": [
             {
               "profile_id": "1017",
@@ -62395,7 +62408,7 @@
               "party": "dem",
               "state": "Massachusetts",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/342cd978a26c7668c69d0a1b4f414f77.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/c404b0ecc6908f7aa6bdb1466b68a217.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -62408,7 +62421,7 @@
               "party": "dem",
               "state": "Massachusetts",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/342cd978a26c7668c69d0a1b4f414f77.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/c404b0ecc6908f7aa6bdb1466b68a217.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -62421,7 +62434,7 @@
               "party": "dem",
               "state": "Washington",
               "chamber": "House",
-              "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/342cd978a26c7668c69d0a1b4f414f77.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/c404b0ecc6908f7aa6bdb1466b68a217.webp",
               "is_main": false,
               "on_site": true,
               "offices": [
@@ -62889,7 +62902,7 @@
           "chambers": [
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/6c59140a33bc088226a51e035239f937.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
           "profiles": [
             {
               "profile_id": "1011",
@@ -62897,7 +62910,7 @@
               "party": "grn",
               "state": "Maryland",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/6c59140a33bc088226a51e035239f937.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -62910,7 +62923,7 @@
               "party": "grn",
               "state": "Colorado",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/6c59140a33bc088226a51e035239f937.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -62923,7 +62936,7 @@
               "party": "grn",
               "state": "Wisconsin",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/6c59140a33bc088226a51e035239f937.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -65938,7 +65951,7 @@
               "profile_id": "1154",
               "name": "Elon Musk",
               "party": "dem",
-              "state": "Texas",
+              "state": "Arizona",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/566cf24ede266e119abb471ce7632358.webp",
               "is_main": false,
@@ -104795,7 +104808,7 @@
               "profile_id": "1267",
               "name": "David Allan Coe",
               "party": "grn",
-              "state": "Kentucky",
+              "state": "Connecticut",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1390846237288169652/54ae99a07c17e29b7dab470c621c785a.webp",
               "is_main": false,
@@ -112997,6 +113010,19 @@
               "offices": [],
               "office": "",
               "office_count": 0
+            },
+            {
+              "profile_id": "1410",
+              "name": "Abby Lee Miller Jr",
+              "party": "dem",
+              "state": "Pennsylvania",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
             }
           ],
           "scores": {
@@ -113760,7 +113786,7 @@
               "profile_id": "1254",
               "name": "Peter Russo",
               "party": "dem",
-              "state": "Idaho",
+              "state": "Washington",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
               "is_main": false,
@@ -114286,7 +114312,7 @@
             "House",
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/342cd978a26c7668c69d0a1b4f414f77.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/c404b0ecc6908f7aa6bdb1466b68a217.webp",
           "profiles": [
             {
               "profile_id": "1017",
@@ -114294,7 +114320,7 @@
               "party": "dem",
               "state": "Massachusetts",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/342cd978a26c7668c69d0a1b4f414f77.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/c404b0ecc6908f7aa6bdb1466b68a217.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -114307,7 +114333,7 @@
               "party": "dem",
               "state": "Massachusetts",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/342cd978a26c7668c69d0a1b4f414f77.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/c404b0ecc6908f7aa6bdb1466b68a217.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -114320,7 +114346,7 @@
               "party": "dem",
               "state": "Washington",
               "chamber": "House",
-              "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/342cd978a26c7668c69d0a1b4f414f77.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1350483903462248528/c404b0ecc6908f7aa6bdb1466b68a217.webp",
               "is_main": false,
               "on_site": true,
               "offices": [
@@ -114774,7 +114800,7 @@
           "chambers": [
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/6c59140a33bc088226a51e035239f937.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
           "profiles": [
             {
               "profile_id": "1011",
@@ -114782,7 +114808,7 @@
               "party": "grn",
               "state": "Maryland",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/6c59140a33bc088226a51e035239f937.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -114795,7 +114821,7 @@
               "party": "grn",
               "state": "Colorado",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/6c59140a33bc088226a51e035239f937.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -114808,7 +114834,7 @@
               "party": "grn",
               "state": "Wisconsin",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/6c59140a33bc088226a51e035239f937.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -117795,7 +117821,7 @@
               "profile_id": "1154",
               "name": "Elon Musk",
               "party": "dem",
-              "state": "Texas",
+              "state": "Arizona",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/566cf24ede266e119abb471ce7632358.webp",
               "is_main": false,

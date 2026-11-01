@@ -5112,7 +5112,7 @@
     "name": "Elon Musk",
     "discord": "musicman130897",
     "party": "dem",
-    "state": "Texas",
+    "state": "Arizona",
     "last_seen": "2026-11-01",
     "on_site": true,
     "discord_id": "1385738660846112798",
@@ -8423,7 +8423,7 @@
     "name": "Peter Russo",
     "discord": "pzdz20",
     "party": "dem",
-    "state": "Idaho",
+    "state": "Washington",
     "last_seen": "2026-11-01",
     "on_site": true,
     "discord_id": "1303893674417193052",
@@ -8839,7 +8839,7 @@
     "name": "David Allan Coe",
     "discord": "roginality",
     "party": "grn",
-    "state": "Kentucky",
+    "state": "Connecticut",
     "last_seen": "2026-11-01",
     "on_site": true,
     "discord_id": "1390846237288169652",
@@ -12606,6 +12606,25 @@
     "discord_id": "1373437758961356912",
     "party": "gop",
     "state": "Florida",
+    "last_seen": "2026-11-01",
+    "on_site": true
+  },
+  "1410": {
+    "profile_id": "1410",
+    "player_id": "p1124",
+    "first_seen": "2026-11-01",
+    "discord_history": [
+      {
+        "discord": "1milliondollarman",
+        "discord_id": "1494517988433334433",
+        "first_seen": "2026-11-01"
+      }
+    ],
+    "name": "Abby Lee Miller Jr",
+    "discord": "1milliondollarman",
+    "discord_id": "1494517988433334433",
+    "party": "dem",
+    "state": "Pennsylvania",
     "last_seen": "2026-11-01",
     "on_site": true
   }
