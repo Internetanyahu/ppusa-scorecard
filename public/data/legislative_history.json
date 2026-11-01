@@ -45633,11 +45633,12 @@
   },
   {
     "player_id": "p1368",
-    "name": "Paul Renner",
+    "name": "Jay Collins",
     "discord": "theofficialking0829",
     "profiles": [
       "1368",
-      "1370"
+      "1370",
+      "1409"
     ],
     "bills": [],
     "bill_count": 0
@@ -45860,6 +45861,18 @@
       "1403",
       "1404",
       "1405"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1406",
+    "name": "John Haldeman",
+    "discord": "greenlion42.",
+    "profiles": [
+      "1406",
+      "1407",
+      "1408"
     ],
     "bills": [],
     "bill_count": 0

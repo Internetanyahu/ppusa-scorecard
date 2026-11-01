@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T21:00:45+00:00",
+  "generated_at": "2026-11-01T04:30:37+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -472,7 +472,7 @@
     {
       "type": "player",
       "id": "p1122",
-      "label": "d.burgess (D. Peiper)",
+      "label": "d.burgess (Herschel Walker)",
       "aliases": [
         "d.burgess"
       ],
@@ -798,6 +798,19 @@
     },
     {
       "type": "player",
+      "id": "p1406",
+      "label": "greenlion42. (John Nixon)",
+      "aliases": [
+        "greenlion42."
+      ],
+      "profile_ids": [
+        "1406",
+        "1407",
+        "1408"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1021",
       "label": "hawaji17 (Viorica Ceaușoglu)",
       "aliases": [
@@ -898,7 +911,7 @@
     {
       "type": "player",
       "id": "p1304",
-      "label": "internetanyahu (Benjamіn Netanyahu)",
+      "label": "internetanyahu (Rabbi Yosef Mizrachi)",
       "aliases": [
         "internetanyahu"
       ],
@@ -1367,7 +1380,7 @@
     {
       "type": "player",
       "id": "p1026",
-      "label": "marcsexual (Jesse Jackson)",
+      "label": "marcsexual (KillJoy)",
       "aliases": [
         "marcsexual"
       ],
@@ -1838,7 +1851,8 @@
       ],
       "profile_ids": [
         "1368",
-        "1370"
+        "1370",
+        "1409"
       ]
     },
     {
@@ -2392,12 +2406,6 @@
     },
     {
       "type": "profile",
-      "id": "1304",
-      "label": "Benjamіn Netanyahu (1304)",
-      "player_id": "p1304"
-    },
-    {
-      "type": "profile",
       "id": "1163",
       "label": "Bernie Sanders (1163)",
       "player_id": "p1163"
@@ -2653,12 +2661,6 @@
       "id": "1387",
       "label": "Curtis Mehlberg (1387)",
       "player_id": "p1387"
-    },
-    {
-      "type": "profile",
-      "id": "1122",
-      "label": "D. Peiper (1122)",
-      "player_id": "p1122"
     },
     {
       "type": "profile",
@@ -3142,6 +3144,12 @@
     },
     {
       "type": "profile",
+      "id": "1122",
+      "label": "Herschel Walker (1122)",
+      "player_id": "p1122"
+    },
+    {
+      "type": "profile",
       "id": "1390",
       "label": "Holden Boone Ferguson (1390)",
       "player_id": "p1390"
@@ -3274,6 +3282,12 @@
     },
     {
       "type": "profile",
+      "id": "1409",
+      "label": "Jay Collins (1409)",
+      "player_id": "p1368"
+    },
+    {
+      "type": "profile",
       "id": "1075",
       "label": "JD Vance (1075)",
       "player_id": "p1068"
@@ -3322,12 +3336,6 @@
     },
     {
       "type": "profile",
-      "id": "1026",
-      "label": "Jesse Jackson (1026)",
-      "player_id": "p1026"
-    },
-    {
-      "type": "profile",
       "id": "1369",
       "label": "jewdith (1369)",
       "player_id": "p1369"
@@ -3370,6 +3378,12 @@
     },
     {
       "type": "profile",
+      "id": "1407",
+      "label": "John Agnew (1407)",
+      "player_id": "p1406"
+    },
+    {
+      "type": "profile",
       "id": "1091",
       "label": "John Ashcroft (1091)",
       "player_id": "p1087"
@@ -3388,6 +3402,12 @@
     },
     {
       "type": "profile",
+      "id": "1408",
+      "label": "John Haldeman (1408)",
+      "player_id": "p1406"
+    },
+    {
+      "type": "profile",
       "id": "1384",
       "label": "John Jameson (1384)",
       "player_id": "p1383"
@@ -3403,6 +3423,12 @@
       "id": "1029",
       "label": "John Muir (1029)",
       "player_id": "p1029"
+    },
+    {
+      "type": "profile",
+      "id": "1406",
+      "label": "John Nixon (1406)",
+      "player_id": "p1406"
     },
     {
       "type": "profile",
@@ -3559,6 +3585,12 @@
       "id": "1283",
       "label": "kia trump (1283)",
       "player_id": "p1282"
+    },
+    {
+      "type": "profile",
+      "id": "1026",
+      "label": "KillJoy (1026)",
+      "player_id": "p1026"
     },
     {
       "type": "profile",
@@ -4066,6 +4098,12 @@
     },
     {
       "type": "profile",
+      "id": "1304",
+      "label": "Rabbi Yosef Mizrachi (1304)",
+      "player_id": "p1304"
+    },
+    {
+      "type": "profile",
       "id": "1076",
       "label": "Rafael Palmeiro (1076)",
       "player_id": "p1073"
@@ -4087,12 +4125,6 @@
       "id": "1047",
       "label": "Rick Santorum (1047)",
       "player_id": "p1036"
-    },
-    {
-      "type": "profile",
-      "id": "1071",
-      "label": "Robert Keating (1071)",
-      "player_id": "p1026"
     },
     {
       "type": "profile",
@@ -4351,6 +4383,12 @@
       "id": "1177",
       "label": "Thomas Morli (1177)",
       "player_id": "p1176"
+    },
+    {
+      "type": "profile",
+      "id": "1071",
+      "label": "Three Cheers For Revenge (1071)",
+      "player_id": "p1026"
     },
     {
       "type": "profile",
@@ -9682,7 +9720,7 @@
             "party": "dem",
             "state": "Louisiana",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -27179,7 +27217,7 @@
             "profile_id": "1153",
             "name": "Young Nyno",
             "party": "dem",
-            "state": "Kentucky",
+            "state": "Alaska",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/1014854147268423761/75317c0cf7e76f54dfd720642b1aac6c.webp",
             "is_main": false,
@@ -27427,7 +27465,7 @@
           "profile_id": "1153",
           "name": "Young Nyno",
           "party": "dem",
-          "state": "Kentucky",
+          "state": "Alaska",
           "is_main": false,
           "on_site": true
         }
@@ -30288,7 +30326,7 @@
       "conservative_scorecard": {
         "user_id": "p1122",
         "player_id": "p1122",
-        "name": "D. Peiper",
+        "name": "Herschel Walker",
         "discord": "d.burgess",
         "discord_ids": [
           "338853029946327040"
@@ -30303,7 +30341,7 @@
         "profiles": [
           {
             "profile_id": "1122",
-            "name": "D. Peiper",
+            "name": "Herschel Walker",
             "party": "cst",
             "state": "Utah",
             "chamber": "Senate",
@@ -30375,7 +30413,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30388,7 +30426,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30401,7 +30439,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30414,7 +30452,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30427,7 +30465,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30440,7 +30478,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30453,7 +30491,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30466,7 +30504,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30479,7 +30517,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30492,7 +30530,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30505,7 +30543,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30518,7 +30556,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30531,7 +30569,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           },
           {
@@ -30544,7 +30582,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1122",
-            "profile_name": "D. Peiper",
+            "profile_name": "Herschel Walker",
             "chamber": "Senate"
           }
         ],
@@ -30561,7 +30599,7 @@
       "discord_ids": [
         "338853029946327040"
       ],
-      "name": "D. Peiper",
+      "name": "Herschel Walker",
       "profile_ids": [
         "1122",
         "1302",
@@ -30570,7 +30608,7 @@
       "profiles": [
         {
           "profile_id": "1122",
-          "name": "D. Peiper",
+          "name": "Herschel Walker",
           "party": "cst",
           "state": "Utah",
           "is_main": true,
@@ -34660,7 +34698,7 @@
           "Other",
           "Senate"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/998af8fdba24bee56e74e1e49258b7c0.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/156bac1464ff224d46a7b9689f81055b.webp",
         "profiles": [
           {
             "profile_id": "1059",
@@ -34668,7 +34706,7 @@
             "party": "dem",
             "state": "Oklahoma",
             "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/998af8fdba24bee56e74e1e49258b7c0.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/156bac1464ff224d46a7b9689f81055b.webp",
             "is_main": true,
             "on_site": true,
             "offices": [
@@ -34683,7 +34721,7 @@
             "party": "dem",
             "state": "Nebraska",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/998af8fdba24bee56e74e1e49258b7c0.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/156bac1464ff224d46a7b9689f81055b.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -34698,7 +34736,7 @@
             "party": "dem",
             "state": "Texas",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/998af8fdba24bee56e74e1e49258b7c0.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/156bac1464ff224d46a7b9689f81055b.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -45034,6 +45072,147 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1406",
+      "conservative_scorecard": {
+        "user_id": "p1406",
+        "player_id": "p1406",
+        "name": "John Nixon",
+        "discord": "greenlion42.",
+        "discord_ids": [
+          "1409297837581406368"
+        ],
+        "party": "cst",
+        "state": "Ohio",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/1409297837581406368/a_0fd985f7e42308327c6f16fd3e108773.gif",
+        "profiles": [
+          {
+            "profile_id": "1406",
+            "name": "John Nixon",
+            "party": "cst",
+            "state": "Ohio",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1409297837581406368/a_0fd985f7e42308327c6f16fd3e108773.gif",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1407",
+            "name": "John Agnew",
+            "party": "cst",
+            "state": "Ohio",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1409297837581406368/a_0fd985f7e42308327c6f16fd3e108773.gif",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1408",
+            "name": "John Haldeman",
+            "party": "cst",
+            "state": "Ohio",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1409297837581406368/a_0fd985f7e42308327c6f16fd3e108773.gif",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "greenlion42.",
+      "discord_current": true,
+      "discord_aliases": [
+        "greenlion42."
+      ],
+      "discord_ids": [
+        "1409297837581406368"
+      ],
+      "name": "John Nixon",
+      "profile_ids": [
+        "1406",
+        "1407",
+        "1408"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1406",
+          "name": "John Nixon",
+          "party": "cst",
+          "state": "Ohio",
+          "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1407",
+          "name": "John Agnew",
+          "party": "cst",
+          "state": "Ohio",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1408",
+          "name": "John Haldeman",
+          "party": "cst",
+          "state": "Ohio",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1021",
       "conservative_scorecard": {
         "user_id": "p1021",
@@ -50983,7 +51162,7 @@
       "conservative_scorecard": {
         "user_id": "p1304",
         "player_id": "p1304",
-        "name": "Benjamіn Netanyahu",
+        "name": "Rabbi Yosef Mizrachi",
         "discord": "internetanyahu",
         "discord_ids": [
           "966709449081360494"
@@ -50998,7 +51177,7 @@
         "profiles": [
           {
             "profile_id": "1304",
-            "name": "Benjamіn Netanyahu",
+            "name": "Rabbi Yosef Mizrachi",
             "party": "dem",
             "state": "North Carolina",
             "chamber": "Senate",
@@ -51070,7 +51249,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51083,7 +51262,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51096,7 +51275,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51109,7 +51288,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51122,7 +51301,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51135,7 +51314,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51148,7 +51327,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51161,7 +51340,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51174,7 +51353,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51187,7 +51366,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51200,7 +51379,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51213,7 +51392,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51226,7 +51405,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51239,7 +51418,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51252,7 +51431,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51265,7 +51444,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           },
           {
@@ -51278,7 +51457,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1304",
-            "profile_name": "Benjamіn Netanyahu",
+            "profile_name": "Rabbi Yosef Mizrachi",
             "chamber": "Senate"
           }
         ],
@@ -51295,7 +51474,7 @@
       "discord_ids": [
         "966709449081360494"
       ],
-      "name": "Benjamіn Netanyahu",
+      "name": "Rabbi Yosef Mizrachi",
       "profile_ids": [
         "1304",
         "1307",
@@ -51304,7 +51483,7 @@
       "profiles": [
         {
           "profile_id": "1304",
-          "name": "Benjamіn Netanyahu",
+          "name": "Rabbi Yosef Mizrachi",
           "party": "dem",
           "state": "North Carolina",
           "is_main": true,
@@ -63950,7 +64129,7 @@
       "conservative_scorecard": {
         "user_id": "p1026",
         "player_id": "p1026",
-        "name": "Jesse Jackson",
+        "name": "KillJoy",
         "discord": "marcsexual",
         "discord_ids": [
           "1406312807691063419"
@@ -63964,7 +64143,7 @@
         "profiles": [
           {
             "profile_id": "1026",
-            "name": "Jesse Jackson",
+            "name": "KillJoy",
             "party": "grn",
             "state": "California",
             "chamber": "Other",
@@ -63977,9 +64156,9 @@
           },
           {
             "profile_id": "1071",
-            "name": "Robert Keating",
+            "name": "Three Cheers For Revenge",
             "party": "grn",
-            "state": "Virginia",
+            "state": "Oregon",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/f659a2b3fca78b5d4e182a6b9db63ced.webp",
             "is_main": false,
@@ -64037,7 +64216,7 @@
       "discord_ids": [
         "1406312807691063419"
       ],
-      "name": "Jesse Jackson",
+      "name": "KillJoy",
       "profile_ids": [
         "1026",
         "1071",
@@ -64046,7 +64225,7 @@
       "profiles": [
         {
           "profile_id": "1026",
-          "name": "Jesse Jackson",
+          "name": "KillJoy",
           "party": "grn",
           "state": "California",
           "is_main": true,
@@ -64054,9 +64233,9 @@
         },
         {
           "profile_id": "1071",
-          "name": "Robert Keating",
+          "name": "Three Cheers For Revenge",
           "party": "grn",
-          "state": "Virginia",
+          "state": "Oregon",
           "is_main": false,
           "on_site": true
         },
@@ -64331,7 +64510,7 @@
           "1470138832044167178"
         ],
         "party": "dem",
-        "state": "Iowa",
+        "state": "Montana",
         "chambers": [
           "House",
           "Senate"
@@ -64342,7 +64521,7 @@
             "profile_id": "1044",
             "name": "Dan A. Sullivan",
             "party": "dem",
-            "state": "Iowa",
+            "state": "Montana",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/1470138832044167178/f8bac10afd8032eaf5f8ca9418f0fb51.webp",
             "is_main": true,
@@ -64357,7 +64536,7 @@
             "profile_id": "1061",
             "name": "Dan J. Sullivan",
             "party": "dem",
-            "state": "Arkansas",
+            "state": "North Dakota",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/1470138832044167178/f8bac10afd8032eaf5f8ca9418f0fb51.webp",
             "is_main": false,
@@ -64873,7 +65052,7 @@
           "profile_id": "1044",
           "name": "Dan A. Sullivan",
           "party": "dem",
-          "state": "Iowa",
+          "state": "Montana",
           "is_main": true,
           "on_site": true
         },
@@ -64881,7 +65060,7 @@
           "profile_id": "1061",
           "name": "Dan J. Sullivan",
           "party": "dem",
-          "state": "Arkansas",
+          "state": "North Dakota",
           "is_main": false,
           "on_site": true
         },
@@ -70486,7 +70665,7 @@
         "discord_ids": [
           "1513708239923974197"
         ],
-        "party": "gop",
+        "party": "cst",
         "state": "Virginia",
         "chambers": [
           "House",
@@ -70498,7 +70677,7 @@
           {
             "profile_id": "1007",
             "name": "Glen Youngkin",
-            "party": "gop",
+            "party": "cst",
             "state": "Virginia",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/1513708239923974197/ffd8224175612d695c7e2aaf4f3f2c12.webp",
@@ -70513,7 +70692,7 @@
           {
             "profile_id": "1022",
             "name": "Abigail Spanberger",
-            "party": "gop",
+            "party": "cst",
             "state": "Virginia",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/1513708239923974197/ffd8224175612d695c7e2aaf4f3f2c12.webp",
@@ -70528,7 +70707,7 @@
           {
             "profile_id": "1205",
             "name": "Joshua McKoon",
-            "party": "gop",
+            "party": "cst",
             "state": "Georgia",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1513708239923974197/ffd8224175612d695c7e2aaf4f3f2c12.webp",
@@ -71378,7 +71557,7 @@
         {
           "profile_id": "1007",
           "name": "Glen Youngkin",
-          "party": "gop",
+          "party": "cst",
           "state": "Virginia",
           "is_main": true,
           "on_site": true
@@ -71386,7 +71565,7 @@
         {
           "profile_id": "1022",
           "name": "Abigail Spanberger",
-          "party": "gop",
+          "party": "cst",
           "state": "Virginia",
           "is_main": false,
           "on_site": true
@@ -71394,7 +71573,7 @@
         {
           "profile_id": "1205",
           "name": "Joshua McKoon",
-          "party": "gop",
+          "party": "cst",
           "state": "Georgia",
           "is_main": false,
           "on_site": true
@@ -78947,6 +79126,19 @@
             "offices": [],
             "office": "",
             "office_count": 0
+          },
+          {
+            "profile_id": "1409",
+            "name": "Jay Collins",
+            "party": "gop",
+            "state": "Florida",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1373437758961356912/a0df72f1fcba08b9f22db61f645da519.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
           }
         ],
         "scores": {
@@ -78987,7 +79179,8 @@
       "name": "Byron Donalds",
       "profile_ids": [
         "1368",
-        "1370"
+        "1370",
+        "1409"
       ],
       "profiles": [
         {
@@ -79001,6 +79194,14 @@
         {
           "profile_id": "1370",
           "name": "Paul Renner",
+          "party": "gop",
+          "state": "Florida",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1409",
+          "name": "Jay Collins",
           "party": "gop",
           "state": "Florida",
           "is_main": false,
@@ -95145,7 +95346,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "gop",
+      "party": "cst",
       "state": "Virginia",
       "is_main": true,
       "on_site": true,
@@ -98290,7 +98491,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "gop",
+      "party": "cst",
       "state": "Virginia",
       "is_main": false,
       "on_site": true,
@@ -100689,7 +100890,7 @@
     {
       "profile_id": "1026",
       "player_id": "p1026",
-      "name": "Jesse Jackson",
+      "name": "KillJoy",
       "discord": "marcsexual",
       "discord_id": "1406312807691063419",
       "discord_history": [
@@ -107624,7 +107825,7 @@
         }
       ],
       "party": "dem",
-      "state": "Iowa",
+      "state": "Montana",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -110888,7 +111089,7 @@
         }
       ],
       "party": "dem",
-      "state": "Arkansas",
+      "state": "North Dakota",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -113734,7 +113935,7 @@
     {
       "profile_id": "1071",
       "player_id": "p1026",
-      "name": "Robert Keating",
+      "name": "Three Cheers For Revenge",
       "discord": "marcsexual",
       "discord_id": "1406312807691063419",
       "discord_history": [
@@ -113760,7 +113961,7 @@
         }
       ],
       "party": "grn",
-      "state": "Virginia",
+      "state": "Oregon",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -126915,7 +127116,7 @@
     {
       "profile_id": "1122",
       "player_id": "p1122",
-      "name": "D. Peiper",
+      "name": "Herschel Walker",
       "discord": "d.burgess",
       "discord_id": "338853029946327040",
       "discord_history": [
@@ -131702,7 +131903,7 @@
         }
       ],
       "party": "dem",
-      "state": "Kentucky",
+      "state": "Alaska",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -139896,7 +140097,7 @@
           "first_seen": "2026-10-21"
         }
       ],
-      "party": "gop",
+      "party": "cst",
       "state": "Georgia",
       "is_main": false,
       "on_site": true,
@@ -150547,7 +150748,7 @@
     {
       "profile_id": "1304",
       "player_id": "p1304",
-      "name": "Benjamіn Netanyahu",
+      "name": "Rabbi Yosef Mizrachi",
       "discord": "internetanyahu",
       "discord_id": "966709449081360494",
       "discord_history": [
@@ -155577,13 +155778,18 @@
       "profile_id": "1381",
       "player_id": "p1124",
       "name": "Abby Lee Miller",
-      "discord": "1milliondollarman",
-      "discord_id": "1494517988433334433",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "1milliondollarman",
           "discord_id": "1494517988433334433",
           "first_seen": "2026-10-29"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-11-01"
         }
       ],
       "party": "dem",
@@ -156389,6 +156595,142 @@
       ],
       "party": "gop",
       "state": "South Carolina",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1406",
+      "player_id": "p1406",
+      "name": "John Nixon",
+      "discord": "greenlion42.",
+      "discord_id": "1409297837581406368",
+      "discord_history": [
+        {
+          "discord": "greenlion42.",
+          "discord_id": "1409297837581406368",
+          "first_seen": "2026-11-01"
+        }
+      ],
+      "party": "cst",
+      "state": "Ohio",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1407",
+      "player_id": "p1406",
+      "name": "John Agnew",
+      "discord": "greenlion42.",
+      "discord_id": "1409297837581406368",
+      "discord_history": [
+        {
+          "discord": "greenlion42.",
+          "discord_id": "1409297837581406368",
+          "first_seen": "2026-11-01"
+        }
+      ],
+      "party": "cst",
+      "state": "Ohio",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1408",
+      "player_id": "p1406",
+      "name": "John Haldeman",
+      "discord": "greenlion42.",
+      "discord_id": "1409297837581406368",
+      "discord_history": [
+        {
+          "discord": "greenlion42.",
+          "discord_id": "1409297837581406368",
+          "first_seen": "2026-11-01"
+        }
+      ],
+      "party": "cst",
+      "state": "Ohio",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1409",
+      "player_id": "p1368",
+      "name": "Jay Collins",
+      "discord": "theofficialking0829",
+      "discord_id": "1373437758961356912",
+      "discord_history": [
+        {
+          "discord": "theofficialking0829",
+          "discord_id": "1373437758961356912",
+          "first_seen": "2026-11-01"
+        }
+      ],
+      "party": "gop",
+      "state": "Florida",
       "is_main": false,
       "on_site": true,
       "counts": {
