@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T04:30:36+00:00",
+  "generated_at": "2026-11-01T12:43:33+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -43371,7 +43371,7 @@
         "Other",
         "Senate"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/1384943134072504380/f41f33e842b7d1c06523f95ea3f98522.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/1384943134072504380/31ff95dc167c5c37df6096b359946565.webp",
       "profiles": [
         {
           "profile_id": "1087",
@@ -43379,7 +43379,7 @@
           "party": "gop",
           "state": "Wyoming",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1384943134072504380/f41f33e842b7d1c06523f95ea3f98522.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1384943134072504380/31ff95dc167c5c37df6096b359946565.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -43392,7 +43392,7 @@
           "party": "gop",
           "state": "Missouri",
           "chamber": "Senate",
-          "avatar": "https://cdn.discordapp.com/avatars/1384943134072504380/f41f33e842b7d1c06523f95ea3f98522.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1384943134072504380/31ff95dc167c5c37df6096b359946565.webp",
           "is_main": false,
           "on_site": true,
           "offices": [
@@ -59594,14 +59594,16 @@
       "user_id": "p1399",
       "player_id": "p1399",
       "name": "Brian Smith",
-      "discord": "",
-      "discord_ids": [],
+      "discord": "zach218503",
+      "discord_ids": [
+        "1112573386871291964"
+      ],
       "party": "gop",
       "state": "Alaska",
       "chambers": [
         "Other"
       ],
-      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "avatar": "https://cdn.discordapp.com/avatars/1112573386871291964/6aec16abec55c41a67ee3206a9661e6a.webp",
       "profiles": [
         {
           "profile_id": "1399",
@@ -59609,7 +59611,7 @@
           "party": "gop",
           "state": "Alaska",
           "chamber": "Other",
-          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "avatar": "https://cdn.discordapp.com/avatars/1112573386871291964/6aec16abec55c41a67ee3206a9661e6a.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -64777,7 +64779,7 @@
         "677502849516699698"
       ],
       "party": "grn",
-      "state": "New Mexico",
+      "state": "Wyoming",
       "chambers": [
         "Other"
       ],
@@ -64787,7 +64789,7 @@
           "profile_id": "1146",
           "name": "Mon Mothma",
           "party": "grn",
-          "state": "New Mexico",
+          "state": "Wyoming",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/677502849516699698/c0626dfb5aafd4a21f59f789ab3c5db6.webp",
           "is_main": true,
@@ -66161,7 +66163,7 @@
       "discord_ids": [
         "537999395120087060"
       ],
-      "party": "grn",
+      "party": "afp",
       "state": "California",
       "chambers": [
         "Other"
@@ -66171,7 +66173,7 @@
         {
           "profile_id": "1241",
           "name": "Tanya von Degurechaff",
-          "party": "grn",
+          "party": "afp",
           "state": "California",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/537999395120087060/ffd50451b40f8fe3fa0dda5c793f2d03.webp",
@@ -66184,7 +66186,7 @@
         {
           "profile_id": "1242",
           "name": "Walter von Feliks",
-          "party": "grn",
+          "party": "afp",
           "state": "California",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/537999395120087060/ffd50451b40f8fe3fa0dda5c793f2d03.webp",
@@ -66197,7 +66199,7 @@
         {
           "profile_id": "1253",
           "name": "Viktoriya Serebryakov",
-          "party": "grn",
+          "party": "afp",
           "state": "California",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/537999395120087060/ffd50451b40f8fe3fa0dda5c793f2d03.webp",
