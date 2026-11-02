@@ -8117,7 +8117,7 @@
     "name": "ALEXANDRIA OCASIO-CORTEZ",
     "discord": "americanboydoll",
     "party": "grn",
-    "state": "New Jersey",
+    "state": "Oregon",
     "last_seen": "2026-11-02",
     "on_site": true,
     "discord_id": "1460058777125654644",
@@ -12256,11 +12256,16 @@
         "discord": "holdenthegreen",
         "discord_id": "1565765824680038442",
         "first_seen": "2026-10-30"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-11-02"
       }
     ],
     "name": "Holden Boone Ferguson",
-    "discord": "holdenthegreen",
-    "discord_id": "1565765824680038442",
+    "discord": "",
+    "discord_id": "",
     "party": "grn",
     "state": "Maine",
     "last_seen": "2026-11-02",
@@ -12275,11 +12280,16 @@
         "discord": "holdenthegreen",
         "discord_id": "1565765824680038442",
         "first_seen": "2026-10-30"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-11-02"
       }
     ],
     "name": "Sarah Stevenson",
-    "discord": "holdenthegreen",
-    "discord_id": "1565765824680038442",
+    "discord": "",
+    "discord_id": "",
     "party": "grn",
     "state": "Maine",
     "last_seen": "2026-11-02",
@@ -12294,11 +12304,16 @@
         "discord": "holdenthegreen",
         "discord_id": "1565765824680038442",
         "first_seen": "2026-10-30"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-11-02"
       }
     ],
     "name": "Howie Davidson",
-    "discord": "holdenthegreen",
-    "discord_id": "1565765824680038442",
+    "discord": "",
+    "discord_id": "",
     "party": "grn",
     "state": "Maine",
     "last_seen": "2026-11-02",
@@ -12415,7 +12430,7 @@
     "discord": "zach218503",
     "discord_id": "1112573386871291964",
     "party": "gop",
-    "state": "Alaska",
+    "state": "Washington",
     "last_seen": "2026-11-02",
     "on_site": true
   },
@@ -12661,7 +12676,7 @@
     "name": "Vertin",
     "discord": "astero9890_",
     "discord_id": "385619017215508481",
-    "party": "dem",
+    "party": "Independent",
     "state": "Indiana",
     "last_seen": "2026-11-02",
     "on_site": true

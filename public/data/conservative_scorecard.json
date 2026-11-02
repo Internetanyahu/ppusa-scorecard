@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T04:32:51+00:00",
+  "generated_at": "2026-11-02T14:49:18+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -55788,7 +55788,7 @@
         "Other",
         "Senate"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/fee45739df6e7481e888280053c32a1f.webp",
       "profiles": [
         {
           "profile_id": "1004",
@@ -55796,7 +55796,7 @@
           "party": "grn",
           "state": "Pennsylvania",
           "chamber": "Senate",
-          "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/fee45739df6e7481e888280053c32a1f.webp",
           "is_main": true,
           "on_site": true,
           "offices": [
@@ -55811,7 +55811,7 @@
           "party": "grn",
           "state": "Virginia",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/fee45739df6e7481e888280053c32a1f.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -55822,9 +55822,9 @@
           "profile_id": "1245",
           "name": "ALEXANDRIA OCASIO-CORTEZ",
           "party": "grn",
-          "state": "New Jersey",
+          "state": "Oregon",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/fee45739df6e7481e888280053c32a1f.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -59625,7 +59625,7 @@
         "1112573386871291964"
       ],
       "party": "gop",
-      "state": "Alaska",
+      "state": "Washington",
       "chambers": [
         "Other"
       ],
@@ -59635,7 +59635,7 @@
           "profile_id": "1399",
           "name": "Brian Smith",
           "party": "gop",
-          "state": "Alaska",
+          "state": "Washington",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1112573386871291964/6aec16abec55c41a67ee3206a9661e6a.webp",
           "is_main": true,
@@ -61669,16 +61669,14 @@
       "user_id": "p1390",
       "player_id": "p1390",
       "name": "Holden Boone Ferguson",
-      "discord": "holdenthegreen",
-      "discord_ids": [
-        "1565765824680038442"
-      ],
+      "discord": "",
+      "discord_ids": [],
       "party": "grn",
       "state": "Maine",
       "chambers": [
         "Other"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/1565765824680038442/e0ae5ae02026e752111a57030c49f8dd.webp",
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
       "profiles": [
         {
           "profile_id": "1390",
@@ -61686,8 +61684,8 @@
           "party": "grn",
           "state": "Maine",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1565765824680038442/e0ae5ae02026e752111a57030c49f8dd.webp",
-          "is_main": true,
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": false,
           "on_site": true,
           "offices": [],
           "office": "",
@@ -61699,7 +61697,7 @@
           "party": "grn",
           "state": "Maine",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1565765824680038442/e0ae5ae02026e752111a57030c49f8dd.webp",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -61712,7 +61710,7 @@
           "party": "grn",
           "state": "Maine",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1565765824680038442/e0ae5ae02026e752111a57030c49f8dd.webp",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -61767,7 +61765,7 @@
           "state": "Illinois",
           "chamber": "Other",
           "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-          "is_main": true,
+          "is_main": false,
           "on_site": true,
           "offices": [],
           "office": "",
@@ -63525,7 +63523,7 @@
       "chambers": [
         "Other"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/f659a2b3fca78b5d4e182a6b9db63ced.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/7c2239890d0577f762c3ee9c8a0d1e6c.webp",
       "profiles": [
         {
           "profile_id": "1026",
@@ -63533,7 +63531,7 @@
           "party": "grn",
           "state": "California",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/f659a2b3fca78b5d4e182a6b9db63ced.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/7c2239890d0577f762c3ee9c8a0d1e6c.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -63546,7 +63544,7 @@
           "party": "grn",
           "state": "Oregon",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/f659a2b3fca78b5d4e182a6b9db63ced.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/7c2239890d0577f762c3ee9c8a0d1e6c.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -63559,7 +63557,7 @@
           "party": "grn",
           "state": "Ohio",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/f659a2b3fca78b5d4e182a6b9db63ced.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/7c2239890d0577f762c3ee9c8a0d1e6c.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -65664,7 +65662,7 @@
           "state": "Maine",
           "chamber": "Other",
           "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-          "is_main": true,
+          "is_main": false,
           "on_site": true,
           "offices": [],
           "office": "",
@@ -66574,7 +66572,7 @@
       "discord_ids": [
         "385619017215508481"
       ],
-      "party": "dem",
+      "party": "independent",
       "state": "Indiana",
       "chambers": [
         "Other"
@@ -66584,7 +66582,7 @@
         {
           "profile_id": "1412",
           "name": "Vertin",
-          "party": "dem",
+          "party": "independent",
           "state": "Indiana",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/385619017215508481/cf5e956b8a3c11b81db16245c9565a05.webp",
