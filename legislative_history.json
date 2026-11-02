@@ -4718,7 +4718,7 @@
   },
   {
     "player_id": "p1011",
-    "name": "Volodymyr Zelenskyy",
+    "name": "Jeff Weninger",
     "discord": "berlinsucks",
     "profiles": [
       "1011",
@@ -19928,7 +19928,7 @@
   },
   {
     "player_id": "p1059",
-    "name": "Marjorie Taylor Greene",
+    "name": "Abdul El-Sayed",
     "discord": "founderofurp2.0",
     "profiles": [
       "1065",
@@ -42582,11 +42582,12 @@
   },
   {
     "player_id": "p1184",
-    "name": "John Kerry",
+    "name": "Sweetie Fox",
     "discord": "saturnaliacivilis",
     "profiles": [
       "1185",
-      "1184"
+      "1184",
+      "1411"
     ],
     "bills": [
       {
@@ -45874,6 +45875,16 @@
       "1406",
       "1407",
       "1408"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1412",
+    "name": "Vertin",
+    "discord": "astero9890_",
+    "profiles": [
+      "1412"
     ],
     "bills": [],
     "bill_count": 0

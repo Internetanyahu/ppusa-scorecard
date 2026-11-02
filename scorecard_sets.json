@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T21:44:00+00:00",
+  "generated_at": "2026-11-02T04:32:51+00:00",
   "default_set": "conservative",
   "sets": [
     {
@@ -37321,6 +37321,19 @@
               ],
               "office": "House",
               "office_count": 1
+            },
+            {
+              "profile_id": "1411",
+              "name": "Sweetie Fox",
+              "party": "dem",
+              "state": "New Jersey",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/48d50ccb70965e03c5cd3de2e90a4158.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
             }
           ],
           "scores": {
@@ -38803,7 +38816,7 @@
           "discord_ids": [
             "1374176733200252958"
           ],
-          "party": "grn",
+          "party": "dsa",
           "state": "Oregon",
           "chambers": [
             "Senate"
@@ -38813,7 +38826,7 @@
             {
               "profile_id": "1125",
               "name": "Steph Hodgins-May",
-              "party": "grn",
+              "party": "dsa",
               "state": "Oregon",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/1374176733200252958/619bd2c285720abf92a15fd5490e8206.webp",
@@ -38828,7 +38841,7 @@
             {
               "profile_id": "1127",
               "name": "Sarah Hanson-Young",
-              "party": "grn",
+              "party": "dsa",
               "state": "Hawaii",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/1374176733200252958/619bd2c285720abf92a15fd5490e8206.webp",
@@ -38843,7 +38856,7 @@
             {
               "profile_id": "1231",
               "name": "Larissa Waters",
-              "party": "grn",
+              "party": "dsa",
               "state": "Washington",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/1374176733200252958/619bd2c285720abf92a15fd5490e8206.webp",
@@ -43121,7 +43134,7 @@
         {
           "user_id": "p1059",
           "player_id": "p1059",
-          "name": "Tulsi Gabbard",
+          "name": "Amy Klobuchar",
           "discord": "founderofurp2.0",
           "discord_ids": [
             "1253581430366277667"
@@ -43137,7 +43150,7 @@
           "profiles": [
             {
               "profile_id": "1059",
-              "name": "Tulsi Gabbard",
+              "name": "Amy Klobuchar",
               "party": "dem",
               "state": "Oklahoma",
               "chamber": "Senate",
@@ -43152,7 +43165,7 @@
             },
             {
               "profile_id": "1065",
-              "name": "Eric Trump",
+              "name": "Pete Buttigieg",
               "party": "dem",
               "state": "Nebraska",
               "chamber": "House",
@@ -43167,7 +43180,7 @@
             },
             {
               "profile_id": "1196",
-              "name": "Marjorie Taylor Greene",
+              "name": "Abdul El-Sayed",
               "party": "dem",
               "state": "Texas",
               "chamber": "Other",
@@ -43211,7 +43224,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43225,7 +43238,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43239,7 +43252,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43253,7 +43266,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43267,7 +43280,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43281,7 +43294,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43295,7 +43308,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43309,7 +43322,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43323,7 +43336,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43337,7 +43350,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43351,7 +43364,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43365,7 +43378,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43379,7 +43392,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43393,7 +43406,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43407,7 +43420,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43421,7 +43434,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43435,7 +43448,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43449,7 +43462,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43463,7 +43476,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43477,7 +43490,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43491,7 +43504,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43505,7 +43518,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43519,7 +43532,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43533,7 +43546,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43547,7 +43560,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43561,7 +43574,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43575,7 +43588,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43589,7 +43602,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43603,7 +43616,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43617,7 +43630,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43631,7 +43644,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43645,7 +43658,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43659,7 +43672,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43673,7 +43686,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43687,7 +43700,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43701,7 +43714,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43715,7 +43728,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43729,7 +43742,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43743,7 +43756,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43757,7 +43770,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43771,7 +43784,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43785,7 +43798,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43799,7 +43812,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43813,7 +43826,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43827,7 +43840,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43841,7 +43854,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43855,7 +43868,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43869,7 +43882,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43883,7 +43896,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43897,7 +43910,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43911,7 +43924,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43925,7 +43938,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "Senate",
               "scorable": true
             },
@@ -43939,7 +43952,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43953,7 +43966,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43967,7 +43980,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -43981,7 +43994,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "Senate",
               "scorable": true
             }
@@ -57178,12 +57191,12 @@
         {
           "user_id": "p1004",
           "player_id": "p1004",
-          "name": "BLAIR WALDORF",
+          "name": "KATIE HOBBS",
           "discord": "americanboydoll",
           "discord_ids": [
             "1460058777125654644"
           ],
-          "party": "dem",
+          "party": "grn",
           "state": "Pennsylvania",
           "chambers": [
             "Other",
@@ -57193,8 +57206,8 @@
           "profiles": [
             {
               "profile_id": "1004",
-              "name": "BLAIR WALDORF",
-              "party": "dem",
+              "name": "KATIE HOBBS",
+              "party": "grn",
               "state": "Pennsylvania",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
@@ -57208,8 +57221,8 @@
             },
             {
               "profile_id": "1013",
-              "name": "SERENA VANDERWOODSEN",
-              "party": "dem",
+              "name": "MARY PELTOLA",
+              "party": "grn",
               "state": "Virginia",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
@@ -57222,7 +57235,7 @@
             {
               "profile_id": "1245",
               "name": "ALEXANDRIA OCASIO-CORTEZ",
-              "party": "dem",
+              "party": "grn",
               "state": "New Jersey",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
@@ -57265,7 +57278,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57279,7 +57292,7 @@
               "vote": "nay",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57293,7 +57306,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57307,7 +57320,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57321,7 +57334,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57335,7 +57348,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57349,7 +57362,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57363,7 +57376,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57377,7 +57390,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57391,7 +57404,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57405,7 +57418,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57419,7 +57432,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57433,7 +57446,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57447,7 +57460,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57461,7 +57474,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57475,7 +57488,7 @@
               "vote": "aye",
               "aligned": true,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57489,7 +57502,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57503,7 +57516,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -57517,7 +57530,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             }
@@ -62919,7 +62932,7 @@
             },
             {
               "profile_id": "1023",
-              "name": "Gabrielius Landsbergis",
+              "name": "Joe Holberg",
               "party": "grn",
               "state": "Colorado",
               "chamber": "Other",
@@ -62932,7 +62945,7 @@
             },
             {
               "profile_id": "1200",
-              "name": "Volodymyr Zelenskyy",
+              "name": "Jeff Weninger",
               "party": "grn",
               "state": "Wisconsin",
               "chamber": "Other",
@@ -68063,6 +68076,62 @@
               "state": "Georgia",
               "chamber": "Other",
               "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p1412",
+          "player_id": "p1412",
+          "name": "Vertin",
+          "discord": "astero9890_",
+          "discord_ids": [
+            "385619017215508481"
+          ],
+          "party": "dem",
+          "state": "Indiana",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/385619017215508481/cf5e956b8a3c11b81db16245c9565a05.webp",
+          "profiles": [
+            {
+              "profile_id": "1412",
+              "name": "Vertin",
+              "party": "dem",
+              "state": "Indiana",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/385619017215508481/cf5e956b8a3c11b81db16245c9565a05.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -104010,6 +104079,19 @@
               ],
               "office": "House",
               "office_count": 1
+            },
+            {
+              "profile_id": "1411",
+              "name": "Sweetie Fox",
+              "party": "dem",
+              "state": "New Jersey",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/48d50ccb70965e03c5cd3de2e90a4158.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
             }
           ],
           "scores": {
@@ -104595,7 +104677,7 @@
           "discord_ids": [
             "1374176733200252958"
           ],
-          "party": "grn",
+          "party": "dsa",
           "state": "Oregon",
           "chambers": [
             "Senate"
@@ -104605,7 +104687,7 @@
             {
               "profile_id": "1125",
               "name": "Steph Hodgins-May",
-              "party": "grn",
+              "party": "dsa",
               "state": "Oregon",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/1374176733200252958/619bd2c285720abf92a15fd5490e8206.webp",
@@ -104620,7 +104702,7 @@
             {
               "profile_id": "1127",
               "name": "Sarah Hanson-Young",
-              "party": "grn",
+              "party": "dsa",
               "state": "Hawaii",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/1374176733200252958/619bd2c285720abf92a15fd5490e8206.webp",
@@ -104635,7 +104717,7 @@
             {
               "profile_id": "1231",
               "name": "Larissa Waters",
-              "party": "grn",
+              "party": "dsa",
               "state": "Washington",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/1374176733200252958/619bd2c285720abf92a15fd5490e8206.webp",
@@ -105971,7 +106053,7 @@
         {
           "user_id": "p1059",
           "player_id": "p1059",
-          "name": "Tulsi Gabbard",
+          "name": "Amy Klobuchar",
           "discord": "founderofurp2.0",
           "discord_ids": [
             "1253581430366277667"
@@ -105987,7 +106069,7 @@
           "profiles": [
             {
               "profile_id": "1059",
-              "name": "Tulsi Gabbard",
+              "name": "Amy Klobuchar",
               "party": "dem",
               "state": "Oklahoma",
               "chamber": "Senate",
@@ -106002,7 +106084,7 @@
             },
             {
               "profile_id": "1065",
-              "name": "Eric Trump",
+              "name": "Pete Buttigieg",
               "party": "dem",
               "state": "Nebraska",
               "chamber": "House",
@@ -106017,7 +106099,7 @@
             },
             {
               "profile_id": "1196",
-              "name": "Marjorie Taylor Greene",
+              "name": "Abdul El-Sayed",
               "party": "dem",
               "state": "Texas",
               "chamber": "Other",
@@ -106061,7 +106143,7 @@
               "vote": "nay",
               "aligned": true,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -106075,7 +106157,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -106089,7 +106171,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -106103,7 +106185,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -106117,7 +106199,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -106131,7 +106213,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1059",
-              "profile_name": "Tulsi Gabbard",
+              "profile_name": "Amy Klobuchar",
               "chamber": "Senate",
               "scorable": true
             },
@@ -106145,7 +106227,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -106159,7 +106241,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -106173,7 +106255,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             },
@@ -106187,7 +106269,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1065",
-              "profile_name": "Eric Trump",
+              "profile_name": "Pete Buttigieg",
               "chamber": "House",
               "scorable": true
             }
@@ -110535,12 +110617,12 @@
         {
           "user_id": "p1004",
           "player_id": "p1004",
-          "name": "BLAIR WALDORF",
+          "name": "KATIE HOBBS",
           "discord": "americanboydoll",
           "discord_ids": [
             "1460058777125654644"
           ],
-          "party": "dem",
+          "party": "grn",
           "state": "Pennsylvania",
           "chambers": [
             "Other",
@@ -110550,8 +110632,8 @@
           "profiles": [
             {
               "profile_id": "1004",
-              "name": "BLAIR WALDORF",
-              "party": "dem",
+              "name": "KATIE HOBBS",
+              "party": "grn",
               "state": "Pennsylvania",
               "chamber": "Senate",
               "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
@@ -110565,8 +110647,8 @@
             },
             {
               "profile_id": "1013",
-              "name": "SERENA VANDERWOODSEN",
-              "party": "dem",
+              "name": "MARY PELTOLA",
+              "party": "grn",
               "state": "Virginia",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
@@ -110579,7 +110661,7 @@
             {
               "profile_id": "1245",
               "name": "ALEXANDRIA OCASIO-CORTEZ",
-              "party": "dem",
+              "party": "grn",
               "state": "New Jersey",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/5451e5b94bc79f13f13707a1ed58741d.webp",
@@ -110622,7 +110704,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -110636,7 +110718,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -110650,7 +110732,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             },
@@ -110664,7 +110746,7 @@
               "vote": "aye",
               "aligned": false,
               "profile_id": "1004",
-              "profile_name": "BLAIR WALDORF",
+              "profile_name": "KATIE HOBBS",
               "chamber": "Senate",
               "scorable": true
             }
@@ -114817,7 +114899,7 @@
             },
             {
               "profile_id": "1023",
-              "name": "Gabrielius Landsbergis",
+              "name": "Joe Holberg",
               "party": "grn",
               "state": "Colorado",
               "chamber": "Other",
@@ -114830,7 +114912,7 @@
             },
             {
               "profile_id": "1200",
-              "name": "Volodymyr Zelenskyy",
+              "name": "Jeff Weninger",
               "party": "grn",
               "state": "Wisconsin",
               "chamber": "Other",
@@ -119933,6 +120015,62 @@
               "state": "Georgia",
               "chamber": "Other",
               "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p1412",
+          "player_id": "p1412",
+          "name": "Vertin",
+          "discord": "astero9890_",
+          "discord_ids": [
+            "385619017215508481"
+          ],
+          "party": "dem",
+          "state": "Indiana",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/385619017215508481/cf5e956b8a3c11b81db16245c9565a05.webp",
+          "profiles": [
+            {
+              "profile_id": "1412",
+              "name": "Vertin",
+              "party": "dem",
+              "state": "Indiana",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/385619017215508481/cf5e956b8a3c11b81db16245c9565a05.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
