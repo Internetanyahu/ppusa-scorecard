@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:40:29+00:00",
+  "generated_at": "2026-11-03T22:56:06+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -1702,6 +1702,17 @@
     },
     {
       "type": "player",
+      "id": "p1419",
+      "label": "realpigsooie (Rudy Giuliani)",
+      "aliases": [
+        "realpigsooie"
+      ],
+      "profile_ids": [
+        "1419"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1018",
       "label": "roginality (Dolpho LaGreen)",
       "aliases": [
@@ -1935,7 +1946,8 @@
         "1209",
         "1401",
         "1402",
-        "1417"
+        "1417",
+        "1418"
       ]
     },
     {
@@ -4291,6 +4303,12 @@
     },
     {
       "type": "profile",
+      "id": "1419",
+      "label": "Rudy Giuliani (1419)",
+      "player_id": "p1419"
+    },
+    {
+      "type": "profile",
       "id": "1270",
       "label": "Rumi (1270)",
       "player_id": "p1270"
@@ -4480,6 +4498,12 @@
       "id": "1071",
       "label": "Three Cheers For Revenge (1071)",
       "player_id": "p1026"
+    },
+    {
+      "type": "profile",
+      "id": "1418",
+      "label": "Tim Ryan (1418)",
+      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -54247,7 +54271,7 @@
           "Other",
           "Senate"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/0959ffb7595e18618e3a3bcc69b45261.webp",
         "profiles": [
           {
             "profile_id": "1138",
@@ -54255,7 +54279,7 @@
             "party": "dem",
             "state": "Maine",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/0959ffb7595e18618e3a3bcc69b45261.webp",
             "is_main": true,
             "on_site": true,
             "offices": [
@@ -54270,7 +54294,7 @@
             "party": "dem",
             "state": "Iowa",
             "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/0959ffb7595e18618e3a3bcc69b45261.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -54285,7 +54309,7 @@
             "party": "dem",
             "state": "Iowa",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/0959ffb7595e18618e3a3bcc69b45261.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -66417,7 +66441,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/16cfd5357edc928cade1662b11dcc9d1.webp",
         "profiles": [
           {
             "profile_id": "1055",
@@ -66425,7 +66449,7 @@
             "party": "dsa",
             "state": "North Dakota",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/16cfd5357edc928cade1662b11dcc9d1.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -66438,7 +66462,7 @@
             "party": "dsa",
             "state": "Alaska",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/16cfd5357edc928cade1662b11dcc9d1.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -66451,7 +66475,7 @@
             "party": "dsa",
             "state": "North Dakota",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/16cfd5357edc928cade1662b11dcc9d1.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -74628,6 +74652,103 @@
       ]
     },
     {
+      "player_id": "p1419",
+      "conservative_scorecard": {
+        "user_id": "p1419",
+        "player_id": "p1419",
+        "name": "Rudy Giuliani",
+        "discord": "realpigsooie",
+        "discord_ids": [
+          "1450009803236708474"
+        ],
+        "party": "independent",
+        "state": "New York",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/1450009803236708474/3004610f1029747b9193bb8b6731819c.webp",
+        "profiles": [
+          {
+            "profile_id": "1419",
+            "name": "Rudy Giuliani",
+            "party": "independent",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1450009803236708474/3004610f1029747b9193bb8b6731819c.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "realpigsooie",
+      "discord_current": true,
+      "discord_aliases": [
+        "realpigsooie"
+      ],
+      "discord_ids": [
+        "1450009803236708474"
+      ],
+      "name": "Rudy Giuliani",
+      "profile_ids": [
+        "1419"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1419",
+          "name": "Rudy Giuliani",
+          "party": "Independent",
+          "state": "New York",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1018",
       "conservative_scorecard": {
         "user_id": "p1018",
@@ -78196,7 +78317,7 @@
           "Other",
           "Senate"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/754710f48ec8683104ffe5e37d3b170b.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
         "profiles": [
           {
             "profile_id": "1049",
@@ -78204,7 +78325,7 @@
             "party": "cst",
             "state": "Alabama",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/754710f48ec8683104ffe5e37d3b170b.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -78217,7 +78338,7 @@
             "party": "cst",
             "state": "Hawaii",
             "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/754710f48ec8683104ffe5e37d3b170b.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -78232,7 +78353,7 @@
             "party": "cst",
             "state": "Louisiana",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/754710f48ec8683104ffe5e37d3b170b.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -81000,6 +81121,19 @@
             "offices": [],
             "office": "",
             "office_count": 0
+          },
+          {
+            "profile_id": "1418",
+            "name": "Tim Ryan",
+            "party": "gop",
+            "state": "Virginia",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
           }
         ],
         "scores": {
@@ -81383,7 +81517,8 @@
         "1209",
         "1401",
         "1402",
-        "1417"
+        "1417",
+        "1418"
       ],
       "profiles": [
         {
@@ -81429,6 +81564,14 @@
         {
           "profile_id": "1417",
           "name": "Anna Kelly",
+          "party": "gop",
+          "state": "Virginia",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1418",
+          "name": "Tim Ryan",
           "party": "gop",
           "state": "Virginia",
           "is_main": false,
@@ -157530,6 +157673,74 @@
       "party": "gop",
       "state": "Virginia",
       "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1418",
+      "player_id": "p1025",
+      "name": "Tim Ryan",
+      "discord": "trumpquest",
+      "discord_id": "961355935496953956",
+      "discord_history": [
+        {
+          "discord": "trumpquest",
+          "discord_id": "961355935496953956",
+          "first_seen": "2026-11-03"
+        }
+      ],
+      "party": "gop",
+      "state": "Virginia",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1419",
+      "player_id": "p1419",
+      "name": "Rudy Giuliani",
+      "discord": "realpigsooie",
+      "discord_id": "1450009803236708474",
+      "discord_history": [
+        {
+          "discord": "realpigsooie",
+          "discord_id": "1450009803236708474",
+          "first_seen": "2026-11-03"
+        }
+      ],
+      "party": "Independent",
+      "state": "New York",
+      "is_main": true,
       "on_site": true,
       "counts": {
         "bills": 0,

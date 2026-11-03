@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:40:29+00:00",
+  "generated_at": "2026-11-03T22:56:06+00:00",
   "default_set": "conservative",
   "sets": [
     {
@@ -44996,7 +44996,7 @@
             "Other",
             "Senate"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/754710f48ec8683104ffe5e37d3b170b.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
           "profiles": [
             {
               "profile_id": "1049",
@@ -45004,7 +45004,7 @@
               "party": "cst",
               "state": "Alabama",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/754710f48ec8683104ffe5e37d3b170b.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -45017,7 +45017,7 @@
               "party": "cst",
               "state": "Hawaii",
               "chamber": "Senate",
-              "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/754710f48ec8683104ffe5e37d3b170b.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
               "is_main": false,
               "on_site": true,
               "offices": [
@@ -45032,7 +45032,7 @@
               "party": "cst",
               "state": "Louisiana",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/754710f48ec8683104ffe5e37d3b170b.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -46707,6 +46707,19 @@
             {
               "profile_id": "1417",
               "name": "Anna Kelly",
+              "party": "gop",
+              "state": "Virginia",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1418",
+              "name": "Tim Ryan",
               "party": "gop",
               "state": "Virginia",
               "chamber": "Other",
@@ -53866,7 +53879,7 @@
             "Other",
             "Senate"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/0959ffb7595e18618e3a3bcc69b45261.webp",
           "profiles": [
             {
               "profile_id": "1138",
@@ -53874,7 +53887,7 @@
               "party": "dem",
               "state": "Maine",
               "chamber": "House",
-              "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/0959ffb7595e18618e3a3bcc69b45261.webp",
               "is_main": true,
               "on_site": true,
               "offices": [
@@ -53889,7 +53902,7 @@
               "party": "dem",
               "state": "Iowa",
               "chamber": "Senate",
-              "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/0959ffb7595e18618e3a3bcc69b45261.webp",
               "is_main": false,
               "on_site": true,
               "offices": [
@@ -53904,7 +53917,7 @@
               "party": "dem",
               "state": "Iowa",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/0959ffb7595e18618e3a3bcc69b45261.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -61600,7 +61613,7 @@
           "chambers": [
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/16cfd5357edc928cade1662b11dcc9d1.webp",
           "profiles": [
             {
               "profile_id": "1055",
@@ -61608,7 +61621,7 @@
               "party": "dsa",
               "state": "North Dakota",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/16cfd5357edc928cade1662b11dcc9d1.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -61621,7 +61634,7 @@
               "party": "dsa",
               "state": "Alaska",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/16cfd5357edc928cade1662b11dcc9d1.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -61634,7 +61647,7 @@
               "party": "dsa",
               "state": "North Dakota",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/16cfd5357edc928cade1662b11dcc9d1.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -67461,6 +67474,62 @@
               "state": "New Mexico",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1240249543832895549/b3ec48829eb0293335c3b02e10d92c6f.webp",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p1419",
+          "player_id": "p1419",
+          "name": "Rudy Giuliani",
+          "discord": "realpigsooie",
+          "discord_ids": [
+            "1450009803236708474"
+          ],
+          "party": "independent",
+          "state": "New York",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/1450009803236708474/3004610f1029747b9193bb8b6731819c.webp",
+          "profiles": [
+            {
+              "profile_id": "1419",
+              "name": "Rudy Giuliani",
+              "party": "independent",
+              "state": "New York",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/1450009803236708474/3004610f1029747b9193bb8b6731819c.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -106909,7 +106978,7 @@
             "Other",
             "Senate"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/754710f48ec8683104ffe5e37d3b170b.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
           "profiles": [
             {
               "profile_id": "1049",
@@ -106917,7 +106986,7 @@
               "party": "cst",
               "state": "Alabama",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/754710f48ec8683104ffe5e37d3b170b.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -106930,7 +106999,7 @@
               "party": "cst",
               "state": "Hawaii",
               "chamber": "Senate",
-              "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/754710f48ec8683104ffe5e37d3b170b.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
               "is_main": false,
               "on_site": true,
               "offices": [
@@ -106945,7 +107014,7 @@
               "party": "cst",
               "state": "Louisiana",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/754710f48ec8683104ffe5e37d3b170b.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -107528,6 +107597,19 @@
             {
               "profile_id": "1417",
               "name": "Anna Kelly",
+              "party": "gop",
+              "state": "Virginia",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1418",
+              "name": "Tim Ryan",
               "party": "gop",
               "state": "Virginia",
               "chamber": "Other",
@@ -109619,7 +109701,7 @@
             "Other",
             "Senate"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/0959ffb7595e18618e3a3bcc69b45261.webp",
           "profiles": [
             {
               "profile_id": "1138",
@@ -109627,7 +109709,7 @@
               "party": "dem",
               "state": "Maine",
               "chamber": "House",
-              "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/0959ffb7595e18618e3a3bcc69b45261.webp",
               "is_main": true,
               "on_site": true,
               "offices": [
@@ -109642,7 +109724,7 @@
               "party": "dem",
               "state": "Iowa",
               "chamber": "Senate",
-              "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/0959ffb7595e18618e3a3bcc69b45261.webp",
               "is_main": false,
               "on_site": true,
               "offices": [
@@ -109657,7 +109739,7 @@
               "party": "dem",
               "state": "Iowa",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/0959ffb7595e18618e3a3bcc69b45261.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -113724,7 +113806,7 @@
           "chambers": [
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/16cfd5357edc928cade1662b11dcc9d1.webp",
           "profiles": [
             {
               "profile_id": "1055",
@@ -113732,7 +113814,7 @@
               "party": "dsa",
               "state": "North Dakota",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/16cfd5357edc928cade1662b11dcc9d1.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -113745,7 +113827,7 @@
               "party": "dsa",
               "state": "Alaska",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/16cfd5357edc928cade1662b11dcc9d1.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -113758,7 +113840,7 @@
               "party": "dsa",
               "state": "North Dakota",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/16cfd5357edc928cade1662b11dcc9d1.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -119543,6 +119625,62 @@
               "state": "New Mexico",
               "chamber": "Other",
               "avatar": "https://cdn.discordapp.com/avatars/1240249543832895549/b3ec48829eb0293335c3b02e10d92c6f.webp",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p1419",
+          "player_id": "p1419",
+          "name": "Rudy Giuliani",
+          "discord": "realpigsooie",
+          "discord_ids": [
+            "1450009803236708474"
+          ],
+          "party": "independent",
+          "state": "New York",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/1450009803236708474/3004610f1029747b9193bb8b6731819c.webp",
+          "profiles": [
+            {
+              "profile_id": "1419",
+              "name": "Rudy Giuliani",
+              "party": "independent",
+              "state": "New York",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/1450009803236708474/3004610f1029747b9193bb8b6731819c.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],

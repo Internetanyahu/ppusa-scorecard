@@ -8927,7 +8927,7 @@
   },
   {
     "player_id": "p1025",
-    "name": "Anna Kelly",
+    "name": "Tim Ryan",
     "discord": "trumpquest",
     "profiles": [
       "1025",
@@ -8935,7 +8935,8 @@
       "1209",
       "1401",
       "1402",
-      "1417"
+      "1417",
+      "1418"
     ],
     "bills": [
       {
@@ -45908,6 +45909,16 @@
     "discord": "",
     "profiles": [
       "1416"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1419",
+    "name": "Rudy Giuliani",
+    "discord": "realpigsooie",
+    "profiles": [
+      "1419"
     ],
     "bills": [],
     "bill_count": 0

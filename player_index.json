@@ -12803,5 +12803,43 @@
     "state": "Virginia",
     "last_seen": "2026-11-03",
     "on_site": true
+  },
+  "1418": {
+    "profile_id": "1418",
+    "player_id": "p1025",
+    "first_seen": "2026-11-03",
+    "discord_history": [
+      {
+        "discord": "trumpquest",
+        "discord_id": "961355935496953956",
+        "first_seen": "2026-11-03"
+      }
+    ],
+    "name": "Tim Ryan",
+    "discord": "trumpquest",
+    "discord_id": "961355935496953956",
+    "party": "gop",
+    "state": "Virginia",
+    "last_seen": "2026-11-03",
+    "on_site": true
+  },
+  "1419": {
+    "profile_id": "1419",
+    "player_id": "p1419",
+    "first_seen": "2026-11-03",
+    "discord_history": [
+      {
+        "discord": "realpigsooie",
+        "discord_id": "1450009803236708474",
+        "first_seen": "2026-11-03"
+      }
+    ],
+    "name": "Rudy Giuliani",
+    "discord": "realpigsooie",
+    "discord_id": "1450009803236708474",
+    "party": "Independent",
+    "state": "New York",
+    "last_seen": "2026-11-03",
+    "on_site": true
   }
 }
