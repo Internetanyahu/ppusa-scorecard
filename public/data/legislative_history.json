@@ -521,7 +521,7 @@
   },
   {
     "player_id": "p1003",
-    "name": "PARIS HILTON",
+    "name": "JOE BURROW",
     "discord": "defaultyboii911",
     "profiles": [
       "1208",
@@ -7597,7 +7597,7 @@
   {
     "player_id": "p1021",
     "name": "Nigar Arpadarai",
-    "discord": "hawaji17",
+    "discord": "",
     "profiles": [
       "1030",
       "1218",
@@ -45625,10 +45625,12 @@
   },
   {
     "player_id": "p1366",
-    "name": "Bruce Blakeman",
+    "name": "Patrick Jane",
     "discord": "samthegreat4943",
     "profiles": [
-      "1366"
+      "1366",
+      "1414",
+      "1415"
     ],
     "bills": [],
     "bill_count": 0
@@ -45885,6 +45887,26 @@
     "discord": "astero9890_",
     "profiles": [
       "1412"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1413",
+    "name": "Rangy De La Nada Tripleta",
+    "discord": "",
+    "profiles": [
+      "1413"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1416",
+    "name": "Celeste Hawthorne",
+    "discord": "",
+    "profiles": [
+      "1416"
     ],
     "bills": [],
     "bill_count": 0

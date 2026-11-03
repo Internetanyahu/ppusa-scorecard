@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:49:18+00:00",
+  "generated_at": "2026-11-03T00:34:02+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -373,6 +373,15 @@
       "aliases": [],
       "profile_ids": [
         "1067"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1416",
+      "label": "Celeste Hawthorne",
+      "aliases": [],
+      "profile_ids": [
+        "1416"
       ]
     },
     {
@@ -1670,6 +1679,15 @@
     },
     {
       "type": "player",
+      "id": "p1413",
+      "label": "Rangy De La Nada Tripleta",
+      "aliases": [],
+      "profile_ids": [
+        "1413"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1313",
       "label": "realpalpatine (Mackenzie Wrzesinski)",
       "aliases": [
@@ -1752,7 +1770,9 @@
         "samthegreat4943"
       ],
       "profile_ids": [
-        "1366"
+        "1366",
+        "1414",
+        "1415"
       ]
     },
     {
@@ -2577,6 +2597,12 @@
     },
     {
       "type": "profile",
+      "id": "1416",
+      "label": "Celeste Hawthorne (1416)",
+      "player_id": "p1416"
+    },
+    {
+      "type": "profile",
       "id": "1074",
       "label": "Celestia Kaviori (1074)",
       "player_id": "p1040"
@@ -3387,6 +3413,12 @@
     },
     {
       "type": "profile",
+      "id": "1208",
+      "label": "JOE BURROW (1208)",
+      "player_id": "p1003"
+    },
+    {
+      "type": "profile",
       "id": "1346",
       "label": "Joe Cocker Jr. (1346)",
       "player_id": "p1346"
@@ -3927,6 +3959,12 @@
     },
     {
       "type": "profile",
+      "id": "1414",
+      "label": "MrBeast (1414)",
+      "player_id": "p1366"
+    },
+    {
+      "type": "profile",
       "id": "1388",
       "label": "Nancy D'Alessandro Pelosi (1388)",
       "player_id": "p1388"
@@ -4041,12 +4079,6 @@
     },
     {
       "type": "profile",
-      "id": "1208",
-      "label": "PARIS HILTON (1208)",
-      "player_id": "p1003"
-    },
-    {
-      "type": "profile",
       "id": "1002",
       "label": "Parker Cohen (1002)",
       "player_id": "p1002"
@@ -4056,6 +4088,12 @@
       "id": "1121",
       "label": "Pat Riot (1121)",
       "player_id": "p1121"
+    },
+    {
+      "type": "profile",
+      "id": "1415",
+      "label": "Patrick Jane (1415)",
+      "player_id": "p1366"
     },
     {
       "type": "profile",
@@ -4158,6 +4196,12 @@
       "id": "1285",
       "label": "Ramu Shah (1285)",
       "player_id": "p1113"
+    },
+    {
+      "type": "profile",
+      "id": "1413",
+      "label": "Rangy De La Nada Tripleta (1413)",
+      "player_id": "p1413"
     },
     {
       "type": "profile",
@@ -21249,6 +21293,97 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1416",
+      "conservative_scorecard": {
+        "user_id": "p1416",
+        "player_id": "p1416",
+        "name": "Celeste Hawthorne",
+        "discord": "",
+        "discord_ids": [],
+        "party": "afp",
+        "state": "South Carolina",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1416",
+            "name": "Celeste Hawthorne",
+            "party": "afp",
+            "state": "South Carolina",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Celeste Hawthorne",
+      "profile_ids": [
+        "1416"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1416",
+          "name": "Celeste Hawthorne",
+          "party": "afp",
+          "state": "South Carolina",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1332",
       "conservative_scorecard": {
         "user_id": "p1332",
@@ -31553,7 +31688,7 @@
           },
           {
             "profile_id": "1208",
-            "name": "PARIS HILTON",
+            "name": "JOE BURROW",
             "party": "grn",
             "state": "Indiana",
             "chamber": "Senate",
@@ -31599,7 +31734,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31612,7 +31747,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31625,7 +31760,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31638,7 +31773,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31651,7 +31786,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31664,7 +31799,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31677,7 +31812,7 @@
             "vote": "nay",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31690,7 +31825,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31703,7 +31838,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31716,7 +31851,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31729,7 +31864,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31742,7 +31877,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31755,7 +31890,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31768,7 +31903,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31781,7 +31916,7 @@
             "vote": "nay",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31794,7 +31929,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31807,7 +31942,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31820,7 +31955,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31833,7 +31968,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31846,7 +31981,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31859,7 +31994,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31872,7 +32007,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31885,7 +32020,7 @@
             "vote": "nay",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           },
           {
@@ -31898,7 +32033,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "House"
           },
           {
@@ -31911,7 +32046,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "House"
           },
           {
@@ -31924,7 +32059,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "House"
           },
           {
@@ -31937,7 +32072,7 @@
             "vote": "nay",
             "aligned": false,
             "profile_id": "1208",
-            "profile_name": "PARIS HILTON",
+            "profile_name": "JOE BURROW",
             "chamber": "Senate"
           }
         ],
@@ -31979,7 +32114,7 @@
         },
         {
           "profile_id": "1208",
-          "name": "PARIS HILTON",
+          "name": "JOE BURROW",
           "party": "grn",
           "state": "Indiana",
           "is_main": false,
@@ -34759,7 +34894,7 @@
           "Other",
           "Senate"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/156bac1464ff224d46a7b9689f81055b.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/8e27cb3d3a580dcd31aea026bc895592.webp",
         "profiles": [
           {
             "profile_id": "1059",
@@ -34767,7 +34902,7 @@
             "party": "dem",
             "state": "Oklahoma",
             "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/156bac1464ff224d46a7b9689f81055b.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/8e27cb3d3a580dcd31aea026bc895592.webp",
             "is_main": true,
             "on_site": true,
             "offices": [
@@ -34782,7 +34917,7 @@
             "party": "dem",
             "state": "Nebraska",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/156bac1464ff224d46a7b9689f81055b.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/8e27cb3d3a580dcd31aea026bc895592.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -34797,7 +34932,7 @@
             "party": "dem",
             "state": "Texas",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/156bac1464ff224d46a7b9689f81055b.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/8e27cb3d3a580dcd31aea026bc895592.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -45279,17 +45414,15 @@
         "user_id": "p1021",
         "player_id": "p1021",
         "name": "Viorica Ceaușoglu",
-        "discord": "hawaji17",
-        "discord_ids": [
-          "636708961956921354"
-        ],
+        "discord": "",
+        "discord_ids": [],
         "party": "grn",
         "state": "New Jersey",
         "chambers": [
           "Other",
           "Senate"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/636708961956921354/a_33fef2d33ebcc95db526e0c55cc25fdd.gif",
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
         "profiles": [
           {
             "profile_id": "1021",
@@ -45297,7 +45430,7 @@
             "party": "grn",
             "state": "New Jersey",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/636708961956921354/a_33fef2d33ebcc95db526e0c55cc25fdd.gif",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -45310,7 +45443,7 @@
             "party": "grn",
             "state": "New Jersey",
             "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/636708961956921354/a_33fef2d33ebcc95db526e0c55cc25fdd.gif",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -45325,7 +45458,7 @@
             "party": "grn",
             "state": "Minnesota",
             "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/636708961956921354/a_33fef2d33ebcc95db526e0c55cc25fdd.gif",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -45650,7 +45783,7 @@
         "has_office": true
       },
       "discord": "hawaji17",
-      "discord_current": true,
+      "discord_current": false,
       "discord_aliases": [
         "hawaji17"
       ],
@@ -47278,7 +47411,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/57f5f37ebe29d237257ebae86773eec1.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/86666ecc4a7bd3e6acf96910f4e8320d.webp",
         "profiles": [
           {
             "profile_id": "1273",
@@ -47286,7 +47419,7 @@
             "party": "cst",
             "state": "Alabama",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/57f5f37ebe29d237257ebae86773eec1.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/86666ecc4a7bd3e6acf96910f4e8320d.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -47299,7 +47432,7 @@
             "party": "cst",
             "state": "Alabama",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/57f5f37ebe29d237257ebae86773eec1.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/86666ecc4a7bd3e6acf96910f4e8320d.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -47312,7 +47445,7 @@
             "party": "cst",
             "state": "Virginia",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/57f5f37ebe29d237257ebae86773eec1.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/86666ecc4a7bd3e6acf96910f4e8320d.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -60122,7 +60255,7 @@
             "profile_id": "1358",
             "name": "Dannii Minogue",
             "party": "dem",
-            "state": "New Jersey",
+            "state": "South Carolina",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1412134134158987527/f75940f823105fcc0c92c56c72d080f9.webp",
             "is_main": false,
@@ -60416,7 +60549,7 @@
           "profile_id": "1358",
           "name": "Dannii Minogue",
           "party": "dem",
-          "state": "New Jersey",
+          "state": "South Carolina",
           "is_main": false,
           "on_site": true
         }
@@ -64339,7 +64472,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/26e0b64a9741bf0b8bab9d0a1ff140f2.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/7af2b5c3a189a1b1e76f39739d57b993.webp",
         "profiles": [
           {
             "profile_id": "1376",
@@ -64347,7 +64480,7 @@
             "party": "dem",
             "state": "South Carolina",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/26e0b64a9741bf0b8bab9d0a1ff140f2.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/7af2b5c3a189a1b1e76f39739d57b993.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -64360,7 +64493,7 @@
             "party": "dem",
             "state": "Illinois",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/26e0b64a9741bf0b8bab9d0a1ff140f2.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/7af2b5c3a189a1b1e76f39739d57b993.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -64373,7 +64506,7 @@
             "party": "dem",
             "state": "California",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/26e0b64a9741bf0b8bab9d0a1ff140f2.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/7af2b5c3a189a1b1e76f39739d57b993.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -68305,7 +68438,7 @@
           "1398129111259676736"
         ],
         "party": "cst",
-        "state": "Texas",
+        "state": "North Carolina",
         "chambers": [
           "Other"
         ],
@@ -68315,7 +68448,7 @@
             "profile_id": "1325",
             "name": "George Papadopoulos",
             "party": "cst",
-            "state": "Texas",
+            "state": "North Carolina",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1398129111259676736/c2cf8db35c6dea260dc856c4e68dfd76.webp",
             "is_main": true,
@@ -68328,7 +68461,7 @@
             "profile_id": "1326",
             "name": "George Papadopouloss",
             "party": "cst",
-            "state": "Texas",
+            "state": "Pennsylvania",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1398129111259676736/c2cf8db35c6dea260dc856c4e68dfd76.webp",
             "is_main": false,
@@ -68341,7 +68474,7 @@
             "profile_id": "1327",
             "name": "George Papadopoulosss",
             "party": "cst",
-            "state": "Texas",
+            "state": "Florida",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1398129111259676736/c2cf8db35c6dea260dc856c4e68dfd76.webp",
             "is_main": false,
@@ -68397,7 +68530,7 @@
           "profile_id": "1325",
           "name": "George Papadopoulos",
           "party": "cst",
-          "state": "Texas",
+          "state": "North Carolina",
           "is_main": true,
           "on_site": true
         },
@@ -68405,7 +68538,7 @@
           "profile_id": "1326",
           "name": "George Papadopouloss",
           "party": "cst",
-          "state": "Texas",
+          "state": "Pennsylvania",
           "is_main": false,
           "on_site": true
         },
@@ -68413,7 +68546,7 @@
           "profile_id": "1327",
           "name": "George Papadopoulosss",
           "party": "cst",
-          "state": "Texas",
+          "state": "Florida",
           "is_main": false,
           "on_site": true
         }
@@ -74218,6 +74351,97 @@
       ]
     },
     {
+      "player_id": "p1413",
+      "conservative_scorecard": {
+        "user_id": "p1413",
+        "player_id": "p1413",
+        "name": "Rangy De La Nada Tripleta",
+        "discord": "",
+        "discord_ids": [],
+        "party": "grn",
+        "state": "Puerto Rico",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1413",
+            "name": "Rangy De La Nada Tripleta",
+            "party": "grn",
+            "state": "Puerto Rico",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Rangy De La Nada Tripleta",
+      "profile_ids": [
+        "1413"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1413",
+          "name": "Rangy De La Nada Tripleta",
+          "party": "grn",
+          "state": "Puerto Rico",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1313",
       "conservative_scorecard": {
         "user_id": "p1313",
@@ -76433,6 +76657,32 @@
             "offices": [],
             "office": "",
             "office_count": 0
+          },
+          {
+            "profile_id": "1414",
+            "name": "MrBeast",
+            "party": "gop",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/947334408568987659/b3e3c238384a9e61d19dba6fe48813bf.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1415",
+            "name": "Patrick Jane",
+            "party": "gop",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/947334408568987659/b3e3c238384a9e61d19dba6fe48813bf.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
           }
         ],
         "scores": {
@@ -76472,7 +76722,9 @@
       ],
       "name": "Bruce Blakeman",
       "profile_ids": [
-        "1366"
+        "1366",
+        "1414",
+        "1415"
       ],
       "profiles": [
         {
@@ -76481,6 +76733,22 @@
           "party": "gop",
           "state": "New York",
           "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1414",
+          "name": "MrBeast",
+          "party": "gop",
+          "state": "New York",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1415",
+          "name": "Patrick Jane",
+          "party": "gop",
+          "state": "New York",
+          "is_main": false,
           "on_site": true
         }
       ],
@@ -98596,8 +98864,8 @@
       "profile_id": "1021",
       "player_id": "p1021",
       "name": "Viorica Ceaușoglu",
-      "discord": "hawaji17",
-      "discord_id": "636708961956921354",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "hawaji17",
@@ -98618,6 +98886,11 @@
           "discord": "hawaji17",
           "discord_id": "636708961956921354",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-11-03"
         }
       ],
       "party": "grn",
@@ -101836,8 +102109,8 @@
       "profile_id": "1030",
       "player_id": "p1021",
       "name": "Negar Mortazavi",
-      "discord": "hawaji17",
-      "discord_id": "636708961956921354",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "hawaji17",
@@ -101858,6 +102131,11 @@
           "discord": "hawaji17",
           "discord_id": "636708961956921354",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-11-03"
         }
       ],
       "party": "grn",
@@ -140422,7 +140700,7 @@
     {
       "profile_id": "1208",
       "player_id": "p1003",
-      "name": "PARIS HILTON",
+      "name": "JOE BURROW",
       "discord": "defaultyboii911",
       "discord_id": "722453757513695242",
       "discord_history": [
@@ -142599,8 +142877,8 @@
       "profile_id": "1218",
       "player_id": "p1021",
       "name": "Nigar Arpadarai",
-      "discord": "hawaji17",
-      "discord_id": "636708961956921354",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "hawaji17",
@@ -142621,6 +142899,11 @@
           "discord": "hawaji17",
           "discord_id": "636708961956921354",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-11-03"
         }
       ],
       "party": "grn",
@@ -153001,7 +153284,7 @@
         }
       ],
       "party": "cst",
-      "state": "Texas",
+      "state": "North Carolina",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -153050,7 +153333,7 @@
         }
       ],
       "party": "cst",
-      "state": "Texas",
+      "state": "Pennsylvania",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -153099,7 +153382,7 @@
         }
       ],
       "party": "cst",
-      "state": "Texas",
+      "state": "Florida",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -155206,7 +155489,7 @@
         }
       ],
       "party": "dem",
-      "state": "New Jersey",
+      "state": "South Carolina",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -157032,6 +157315,130 @@
       ],
       "party": "Independent",
       "state": "Indiana",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1413",
+      "player_id": "p1413",
+      "name": "Rangy De La Nada Tripleta",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "grn",
+      "state": "Puerto Rico",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1414",
+      "player_id": "p1366",
+      "name": "MrBeast",
+      "discord": "samthegreat4943",
+      "discord_id": "947334408568987659",
+      "discord_history": [
+        {
+          "discord": "samthegreat4943",
+          "discord_id": "947334408568987659",
+          "first_seen": "2026-11-03"
+        }
+      ],
+      "party": "gop",
+      "state": "New York",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1415",
+      "player_id": "p1366",
+      "name": "Patrick Jane",
+      "discord": "samthegreat4943",
+      "discord_id": "947334408568987659",
+      "discord_history": [
+        {
+          "discord": "samthegreat4943",
+          "discord_id": "947334408568987659",
+          "first_seen": "2026-11-03"
+        }
+      ],
+      "party": "gop",
+      "state": "New York",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1416",
+      "player_id": "p1416",
+      "name": "Celeste Hawthorne",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "afp",
+      "state": "South Carolina",
       "is_main": true,
       "on_site": true,
       "counts": {

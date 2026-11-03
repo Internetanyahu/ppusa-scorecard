@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:49:18+00:00",
+  "generated_at": "2026-11-03T00:34:01+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -42568,7 +42568,7 @@
         "Other",
         "Senate"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/156bac1464ff224d46a7b9689f81055b.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/8e27cb3d3a580dcd31aea026bc895592.webp",
       "profiles": [
         {
           "profile_id": "1059",
@@ -42576,7 +42576,7 @@
           "party": "dem",
           "state": "Oklahoma",
           "chamber": "Senate",
-          "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/156bac1464ff224d46a7b9689f81055b.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/8e27cb3d3a580dcd31aea026bc895592.webp",
           "is_main": true,
           "on_site": true,
           "offices": [
@@ -42591,7 +42591,7 @@
           "party": "dem",
           "state": "Nebraska",
           "chamber": "House",
-          "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/156bac1464ff224d46a7b9689f81055b.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/8e27cb3d3a580dcd31aea026bc895592.webp",
           "is_main": false,
           "on_site": true,
           "offices": [
@@ -42606,7 +42606,7 @@
           "party": "dem",
           "state": "Texas",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/156bac1464ff224d46a7b9689f81055b.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1253581430366277667/8e27cb3d3a580dcd31aea026bc895592.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -46339,7 +46339,7 @@
         },
         {
           "profile_id": "1208",
-          "name": "PARIS HILTON",
+          "name": "JOE BURROW",
           "party": "grn",
           "state": "Indiana",
           "chamber": "Senate",
@@ -46385,7 +46385,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46398,7 +46398,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46411,7 +46411,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46424,7 +46424,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46437,7 +46437,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46450,7 +46450,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46463,7 +46463,7 @@
           "vote": "nay",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46476,7 +46476,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46489,7 +46489,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46502,7 +46502,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46515,7 +46515,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46528,7 +46528,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46541,7 +46541,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46554,7 +46554,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46567,7 +46567,7 @@
           "vote": "nay",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46580,7 +46580,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46593,7 +46593,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46606,7 +46606,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46619,7 +46619,7 @@
           "vote": "aye",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46632,7 +46632,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46645,7 +46645,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46658,7 +46658,7 @@
           "vote": "aye",
           "aligned": true,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46671,7 +46671,7 @@
           "vote": "nay",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         },
         {
@@ -46684,7 +46684,7 @@
           "vote": "nay",
           "aligned": true,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "House"
         },
         {
@@ -46697,7 +46697,7 @@
           "vote": "nay",
           "aligned": true,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "House"
         },
         {
@@ -46710,7 +46710,7 @@
           "vote": "nay",
           "aligned": true,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "House"
         },
         {
@@ -46723,7 +46723,7 @@
           "vote": "nay",
           "aligned": false,
           "profile_id": "1208",
-          "profile_name": "PARIS HILTON",
+          "profile_name": "JOE BURROW",
           "chamber": "Senate"
         }
       ],
@@ -51342,17 +51342,15 @@
       "user_id": "p1021",
       "player_id": "p1021",
       "name": "Viorica Ceaușoglu",
-      "discord": "hawaji17",
-      "discord_ids": [
-        "636708961956921354"
-      ],
+      "discord": "",
+      "discord_ids": [],
       "party": "grn",
       "state": "New Jersey",
       "chambers": [
         "Other",
         "Senate"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/636708961956921354/a_33fef2d33ebcc95db526e0c55cc25fdd.gif",
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
       "profiles": [
         {
           "profile_id": "1021",
@@ -51360,7 +51358,7 @@
           "party": "grn",
           "state": "New Jersey",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/636708961956921354/a_33fef2d33ebcc95db526e0c55cc25fdd.gif",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -51373,7 +51371,7 @@
           "party": "grn",
           "state": "New Jersey",
           "chamber": "Senate",
-          "avatar": "https://cdn.discordapp.com/avatars/636708961956921354/a_33fef2d33ebcc95db526e0c55cc25fdd.gif",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": false,
           "on_site": true,
           "offices": [
@@ -51388,7 +51386,7 @@
           "party": "grn",
           "state": "Minnesota",
           "chamber": "Senate",
-          "avatar": "https://cdn.discordapp.com/avatars/636708961956921354/a_33fef2d33ebcc95db526e0c55cc25fdd.gif",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": false,
           "on_site": true,
           "offices": [
@@ -56555,7 +56553,7 @@
           "profile_id": "1358",
           "name": "Dannii Minogue",
           "party": "dem",
-          "state": "New Jersey",
+          "state": "South Carolina",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1412134134158987527/f75940f823105fcc0c92c56c72d080f9.webp",
           "is_main": false,
@@ -59146,7 +59144,7 @@
       "chambers": [
         "Other"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/57f5f37ebe29d237257ebae86773eec1.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/86666ecc4a7bd3e6acf96910f4e8320d.webp",
       "profiles": [
         {
           "profile_id": "1273",
@@ -59154,7 +59152,7 @@
           "party": "cst",
           "state": "Alabama",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/57f5f37ebe29d237257ebae86773eec1.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/86666ecc4a7bd3e6acf96910f4e8320d.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -59167,7 +59165,7 @@
           "party": "cst",
           "state": "Alabama",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/57f5f37ebe29d237257ebae86773eec1.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/86666ecc4a7bd3e6acf96910f4e8320d.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -59180,7 +59178,7 @@
           "party": "cst",
           "state": "Virginia",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/57f5f37ebe29d237257ebae86773eec1.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/404378779952218124/86666ecc4a7bd3e6acf96910f4e8320d.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -59699,6 +59697,32 @@
           "offices": [],
           "office": "",
           "office_count": 0
+        },
+        {
+          "profile_id": "1414",
+          "name": "MrBeast",
+          "party": "gop",
+          "state": "New York",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/947334408568987659/b3e3c238384a9e61d19dba6fe48813bf.webp",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1415",
+          "name": "Patrick Jane",
+          "party": "gop",
+          "state": "New York",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/947334408568987659/b3e3c238384a9e61d19dba6fe48813bf.webp",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
         }
       ],
       "scores": {
@@ -60062,6 +60086,60 @@
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/135877470137221120/9d07bd9aad3bfc9ca67cccf8898aa6e3.webp",
           "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
+      "user_id": "p1416",
+      "player_id": "p1416",
+      "name": "Celeste Hawthorne",
+      "discord": "",
+      "discord_ids": [],
+      "party": "afp",
+      "state": "South Carolina",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "profiles": [
+        {
+          "profile_id": "1416",
+          "name": "Celeste Hawthorne",
+          "party": "afp",
+          "state": "South Carolina",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": true,
           "on_site": true,
           "offices": [],
           "office": "",
@@ -61289,7 +61367,7 @@
         "1398129111259676736"
       ],
       "party": "cst",
-      "state": "Texas",
+      "state": "North Carolina",
       "chambers": [
         "Other"
       ],
@@ -61299,7 +61377,7 @@
           "profile_id": "1325",
           "name": "George Papadopoulos",
           "party": "cst",
-          "state": "Texas",
+          "state": "North Carolina",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1398129111259676736/c2cf8db35c6dea260dc856c4e68dfd76.webp",
           "is_main": true,
@@ -61312,7 +61390,7 @@
           "profile_id": "1326",
           "name": "George Papadopouloss",
           "party": "cst",
-          "state": "Texas",
+          "state": "Pennsylvania",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1398129111259676736/c2cf8db35c6dea260dc856c4e68dfd76.webp",
           "is_main": false,
@@ -61325,7 +61403,7 @@
           "profile_id": "1327",
           "name": "George Papadopoulosss",
           "party": "cst",
-          "state": "Texas",
+          "state": "Florida",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1398129111259676736/c2cf8db35c6dea260dc856c4e68dfd76.webp",
           "is_main": false,
@@ -63059,7 +63137,7 @@
       "chambers": [
         "Other"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/26e0b64a9741bf0b8bab9d0a1ff140f2.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/7af2b5c3a189a1b1e76f39739d57b993.webp",
       "profiles": [
         {
           "profile_id": "1376",
@@ -63067,7 +63145,7 @@
           "party": "dem",
           "state": "South Carolina",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/26e0b64a9741bf0b8bab9d0a1ff140f2.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/7af2b5c3a189a1b1e76f39739d57b993.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -63080,7 +63158,7 @@
           "party": "dem",
           "state": "Illinois",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/26e0b64a9741bf0b8bab9d0a1ff140f2.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/7af2b5c3a189a1b1e76f39739d57b993.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -63093,7 +63171,7 @@
           "party": "dem",
           "state": "California",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/26e0b64a9741bf0b8bab9d0a1ff140f2.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/434790190809350165/7af2b5c3a189a1b1e76f39739d57b993.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -65643,6 +65721,60 @@
       "has_office": false
     },
     {
+      "user_id": "p1413",
+      "player_id": "p1413",
+      "name": "Rangy De La Nada Tripleta",
+      "discord": "",
+      "discord_ids": [],
+      "party": "grn",
+      "state": "Puerto Rico",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "profiles": [
+        {
+          "profile_id": "1413",
+          "name": "Rangy De La Nada Tripleta",
+          "party": "grn",
+          "state": "Puerto Rico",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
       "user_id": "p1396",
       "player_id": "p1396",
       "name": "Rowan Sterling",
@@ -66930,7 +67062,7 @@
   "office_metadata": {
     "definition": "Count of normalized offices attached to each Power Play profile; POTUS, Vice President, Governor, legislative and other offices are all counted when supplied by the source.",
     "no_office_label": "No office",
-    "updated_profiles": 417,
-    "updated_players": 180
+    "updated_profiles": 421,
+    "updated_players": 182
   }
 }
