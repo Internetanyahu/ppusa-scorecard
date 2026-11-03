@@ -205,7 +205,7 @@
     "profile_id": "1004",
     "player_id": "p1004",
     "name": "KATIE HOBBS",
-    "discord": "americanboydoll",
+    "discord": "kewtnury",
     "party": "grn",
     "state": "Pennsylvania",
     "last_seen": "2026-11-03",
@@ -236,6 +236,11 @@
         "discord": "americanboydoll",
         "discord_id": "1460058777125654644",
         "first_seen": "2026-10-27"
+      },
+      {
+        "discord": "kewtnury",
+        "discord_id": "1460058777125654644",
+        "first_seen": "2026-11-03"
       }
     ]
   },
@@ -495,7 +500,7 @@
     "profile_id": "1013",
     "player_id": "p1004",
     "name": "MARY PELTOLA",
-    "discord": "americanboydoll",
+    "discord": "kewtnury",
     "party": "grn",
     "state": "Virginia",
     "last_seen": "2026-11-03",
@@ -526,6 +531,11 @@
         "discord": "americanboydoll",
         "discord_id": "1460058777125654644",
         "first_seen": "2026-10-27"
+      },
+      {
+        "discord": "kewtnury",
+        "discord_id": "1460058777125654644",
+        "first_seen": "2026-11-03"
       }
     ]
   },
@@ -5737,7 +5747,7 @@
     "name": "Bob Mendez",
     "discord": "jorgwachingmachine",
     "party": "dem",
-    "state": "Michigan",
+    "state": "Iowa",
     "last_seen": "2026-11-03",
     "on_site": true,
     "discord_id": "557957081685164042",
@@ -8130,7 +8140,7 @@
     "profile_id": "1245",
     "player_id": "p1004",
     "name": "ALEXANDRIA OCASIO-CORTEZ",
-    "discord": "americanboydoll",
+    "discord": "kewtnury",
     "party": "grn",
     "state": "Oregon",
     "last_seen": "2026-11-03",
@@ -8161,6 +8171,11 @@
         "discord": "americanboydoll",
         "discord_id": "1460058777125654644",
         "first_seen": "2026-10-27"
+      },
+      {
+        "discord": "kewtnury",
+        "discord_id": "1460058777125654644",
+        "first_seen": "2026-11-03"
       }
     ]
   },
@@ -11105,7 +11120,7 @@
     "name": "Lionel Mussolini",
     "discord": "kylianmbappe0697",
     "party": "dem",
-    "state": "Nevada",
+    "state": "Puerto Rico",
     "last_seen": "2026-11-03",
     "on_site": true,
     "discord_id": "1559920088130261075",
@@ -12477,11 +12492,16 @@
         "discord": "trumpquest",
         "discord_id": "961355935496953956",
         "first_seen": "2026-10-31"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-11-03"
       }
     ],
     "name": "Donald Trump",
-    "discord": "trumpquest",
-    "discord_id": "961355935496953956",
+    "discord": "",
+    "discord_id": "",
     "party": "gop",
     "state": "Virginia",
     "last_seen": "2026-11-03",
@@ -12496,11 +12516,16 @@
         "discord": "trumpquest",
         "discord_id": "961355935496953956",
         "first_seen": "2026-10-31"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-11-03"
       }
     ],
     "name": "Jimmy Carter",
-    "discord": "trumpquest",
-    "discord_id": "961355935496953956",
+    "discord": "",
+    "discord_id": "",
     "party": "gop",
     "state": "New Jersey",
     "last_seen": "2026-11-03",
@@ -12757,6 +12782,25 @@
     "discord_id": "",
     "party": "afp",
     "state": "South Carolina",
+    "last_seen": "2026-11-03",
+    "on_site": true
+  },
+  "1417": {
+    "profile_id": "1417",
+    "player_id": "p1025",
+    "first_seen": "2026-11-03",
+    "discord_history": [
+      {
+        "discord": "trumpquest",
+        "discord_id": "961355935496953956",
+        "first_seen": "2026-11-03"
+      }
+    ],
+    "name": "Anna Kelly",
+    "discord": "trumpquest",
+    "discord_id": "961355935496953956",
+    "party": "gop",
+    "state": "Virginia",
     "last_seen": "2026-11-03",
     "on_site": true
   }

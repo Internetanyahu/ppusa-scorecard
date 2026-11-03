@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T00:34:02+00:00",
+  "generated_at": "2026-11-03T13:40:29+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -145,20 +145,6 @@
       "aliases": [],
       "profile_ids": [
         "1014"
-      ]
-    },
-    {
-      "type": "player",
-      "id": "p1004",
-      "label": "americanboydoll (KATIE HOBBS)",
-      "aliases": [
-        "kewtslimnury",
-        "americanboydoll"
-      ],
-      "profile_ids": [
-        "1004",
-        "1013",
-        "1245"
       ]
     },
     {
@@ -1232,6 +1218,21 @@
     },
     {
       "type": "player",
+      "id": "p1004",
+      "label": "kewtnury (KATIE HOBBS)",
+      "aliases": [
+        "kewtslimnury",
+        "americanboydoll",
+        "kewtnury"
+      ],
+      "profile_ids": [
+        "1004",
+        "1013",
+        "1245"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1088",
       "label": "kmfan91_35425 (Kylie Minogue)",
       "aliases": [
@@ -1933,7 +1934,8 @@
         "1033",
         "1209",
         "1401",
-        "1402"
+        "1402",
+        "1417"
       ]
     },
     {
@@ -2324,6 +2326,12 @@
       "id": "1184",
       "label": "Andrew Welsington (1184)",
       "player_id": "p1184"
+    },
+    {
+      "type": "profile",
+      "id": "1417",
+      "label": "Anna Kelly (1417)",
+      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -9774,7 +9782,7 @@
           "House",
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/5e17d5657b7e9971a330a0efda3f13cb.webp",
         "profiles": [
           {
             "profile_id": "1124",
@@ -9782,7 +9790,7 @@
             "party": "dem",
             "state": "Pennsylvania",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/5e17d5657b7e9971a330a0efda3f13cb.webp",
             "is_main": true,
             "on_site": true,
             "offices": [
@@ -9810,7 +9818,7 @@
             "party": "dem",
             "state": "North Carolina",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/5e17d5657b7e9971a330a0efda3f13cb.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -9823,7 +9831,7 @@
             "party": "dem",
             "state": "Pennsylvania",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/7543b3e16160672069e34a3ea5e31969.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/5e17d5657b7e9971a330a0efda3f13cb.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -15378,850 +15386,6 @@
       "bill_votes": []
     },
     {
-      "player_id": "p1004",
-      "conservative_scorecard": {
-        "user_id": "p1004",
-        "player_id": "p1004",
-        "name": "KATIE HOBBS",
-        "discord": "americanboydoll",
-        "discord_ids": [
-          "1460058777125654644"
-        ],
-        "party": "grn",
-        "state": "Pennsylvania",
-        "chambers": [
-          "Other",
-          "Senate"
-        ],
-        "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/fee45739df6e7481e888280053c32a1f.webp",
-        "profiles": [
-          {
-            "profile_id": "1004",
-            "name": "KATIE HOBBS",
-            "party": "grn",
-            "state": "Pennsylvania",
-            "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/fee45739df6e7481e888280053c32a1f.webp",
-            "is_main": true,
-            "on_site": true,
-            "offices": [
-              "Senate"
-            ],
-            "office": "Senate",
-            "office_count": 1
-          },
-          {
-            "profile_id": "1013",
-            "name": "MARY PELTOLA",
-            "party": "grn",
-            "state": "Virginia",
-            "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/fee45739df6e7481e888280053c32a1f.webp",
-            "is_main": false,
-            "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
-          },
-          {
-            "profile_id": "1245",
-            "name": "ALEXANDRIA OCASIO-CORTEZ",
-            "party": "grn",
-            "state": "Oregon",
-            "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/fee45739df6e7481e888280053c32a1f.webp",
-            "is_main": false,
-            "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
-          }
-        ],
-        "scores": {
-          "social": 16.67,
-          "economic": 16.67,
-          "foreign": 100.0,
-          "overall": 21.05,
-          "tier": "F"
-        },
-        "sample_size": {
-          "social": 6,
-          "economic": 12,
-          "foreign": 1,
-          "overall": 19
-        },
-        "aligned_votes": {
-          "social": 1,
-          "economic": 2,
-          "foreign": 1
-        },
-        "provisions_scored": 19,
-        "aligned_provisions": 4,
-        "finalized_bills_voted": 11,
-        "bill_details": [
-          {
-            "resolution_id": 3,
-            "number": "S. 3",
-            "bill_title": "Abortion Act",
-            "provision": "Abortion: Allowed",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 15,
-            "number": "S. 11",
-            "bill_title": "The Big Freedom Win Act",
-            "provision": "Communist Party Ban: Outlawed",
-            "category": "social",
-            "direction": 1,
-            "vote": "nay",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 17,
-            "number": "S. 13",
-            "bill_title": "Voting Accessibility Act",
-            "provision": "Holidays (Election Day): Recognized Federally",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 20,
-            "number": "H.R. 9",
-            "bill_title": "Taxation With Representation Act",
-            "provision": "District of Columbia: Statehood",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 21,
-            "number": "S. 14",
-            "bill_title": "Youth Voices and Student Subsidisations Act",
-            "provision": "Voting Age (26th Amendment): 16",
-            "category": "social",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 21,
-            "number": "S. 14",
-            "bill_title": "Youth Voices and Student Subsidisations Act",
-            "provision": "Student Loans: Free Public University",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 21,
-            "number": "S. 14",
-            "bill_title": "Youth Voices and Student Subsidisations Act",
-            "provision": "School Lunch: Universal Free Meals",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 25,
-            "number": "S. 15",
-            "bill_title": "UNIONS OF AMERICA UNITE ACT",
-            "provision": "Union Dues Regulation: No Cap, Tax-Deductible",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 26,
-            "number": "S. 16",
-            "bill_title": "The Federal Cannabis Reform & Small Business Act",
-            "provision": "Marijuana Sales Tax: 50%",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 35,
-            "number": "S. 17",
-            "bill_title": "Families, Seniors & Growth Relief Act",
-            "provision": "Healthcare & Education Tax Credit: 25% Credit",
-            "category": "economic",
-            "direction": 1,
-            "vote": "aye",
-            "aligned": true,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 35,
-            "number": "S. 17",
-            "bill_title": "Families, Seniors & Growth Relief Act",
-            "provision": "Social Security (Monthly Benefit): $2,250",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Energy Reorganization: Energy Research & Development Administration",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 36,
-            "number": "S. 18",
-            "bill_title": "So many green effects!",
-            "provision": "Interstate Highways: National Infrastructure Program",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 38,
-            "number": "S. 19",
-            "bill_title": "9/11 Security & Service Act",
-            "provision": "Special Prosecutor: Independent Office",
-            "category": "social",
-            "direction": 1,
-            "vote": "aye",
-            "aligned": true,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 38,
-            "number": "S. 19",
-            "bill_title": "9/11 Security & Service Act",
-            "provision": "Intelligence Community Budget Authority: Full Program Authority",
-            "category": "foreign",
-            "direction": 1,
-            "vote": "aye",
-            "aligned": true,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 38,
-            "number": "S. 19",
-            "bill_title": "9/11 Security & Service Act",
-            "provision": "GI Bill: Full Tuition & Housing",
-            "category": "economic",
-            "direction": 1,
-            "vote": "aye",
-            "aligned": true,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 49,
-            "number": "S. 25",
-            "bill_title": "Federal Support Expansion Act",
-            "provision": "Interstate Highways: National Infrastructure Program",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 49,
-            "number": "S. 25",
-            "bill_title": "Federal Support Expansion Act",
-            "provision": "Small Business Support: Expanded SBA & Tax Relief",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          },
-          {
-            "resolution_id": 49,
-            "number": "S. 25",
-            "bill_title": "Federal Support Expansion Act",
-            "provision": "Minimum Wage: $12",
-            "category": "economic",
-            "direction": -1,
-            "vote": "aye",
-            "aligned": false,
-            "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
-            "chamber": "Senate"
-          }
-        ],
-        "eligible_for_grade": true,
-        "offices_held": 1,
-        "office_count": 1,
-        "has_office": true
-      },
-      "discord": "americanboydoll",
-      "discord_current": true,
-      "discord_aliases": [
-        "kewtslimnury",
-        "americanboydoll"
-      ],
-      "discord_ids": [
-        "1460058777125654644"
-      ],
-      "name": "KATIE HOBBS",
-      "profile_ids": [
-        "1004",
-        "1013",
-        "1245"
-      ],
-      "profiles": [
-        {
-          "profile_id": "1004",
-          "name": "KATIE HOBBS",
-          "party": "grn",
-          "state": "Pennsylvania",
-          "is_main": true,
-          "on_site": true
-        },
-        {
-          "profile_id": "1013",
-          "name": "MARY PELTOLA",
-          "party": "grn",
-          "state": "Virginia",
-          "is_main": false,
-          "on_site": true
-        },
-        {
-          "profile_id": "1245",
-          "name": "ALEXANDRIA OCASIO-CORTEZ",
-          "party": "grn",
-          "state": "Oregon",
-          "is_main": false,
-          "on_site": true
-        }
-      ],
-      "counts": {
-        "bills": 30,
-        "sponsored": 0,
-        "cosponsored": 2,
-        "senate": {
-          "aye": 25,
-          "nay": 4,
-          "present": 0
-        },
-        "house": {
-          "aye": 1,
-          "nay": 0,
-          "present": 0
-        }
-      },
-      "bill_votes": [
-        {
-          "resolution_id": 3,
-          "number": "S. 3",
-          "title": "Abortion Act",
-          "status": "Enacted without Signature",
-          "finalized": true,
-          "introduced": "Week 1, 2001",
-          "passed": "Week 26, 2002",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 15,
-          "number": "S. 11",
-          "title": "The Big Freedom Win Act",
-          "status": "Died Awaiting Majority Leader's Call",
-          "finalized": true,
-          "introduced": "Week 8, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": true,
-          "senate_vote": "nay",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 17,
-          "number": "S. 13",
-          "title": "Voting Accessibility Act",
-          "status": "Signed into Law",
-          "finalized": true,
-          "introduced": "Week 15, 2001",
-          "passed": "Week 4, 2003",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 18,
-          "number": "H.R. 7",
-          "title": "Marijuana Legalization Act",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 15, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 20,
-          "number": "H.R. 9",
-          "title": "Taxation With Representation Act",
-          "status": "Enacted without Signature",
-          "finalized": true,
-          "introduced": "Week 17, 2001",
-          "passed": "Week 48, 2002",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 21,
-          "number": "S. 14",
-          "title": "Youth Voices and Student Subsidisations Act",
-          "status": "Signed into Law",
-          "finalized": true,
-          "introduced": "Week 20, 2001",
-          "passed": "Week 4, 2003",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": true,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 22,
-          "number": "H.R. 10",
-          "title": "VOTING RIGHTS ACT OF 2001",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 20, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 24,
-          "number": "H.R. 12",
-          "title": "Veteran Protection Act",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 20, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 25,
-          "number": "S. 15",
-          "title": "UNIONS OF AMERICA UNITE ACT",
-          "status": "Signed into Law",
-          "finalized": true,
-          "introduced": "Week 21, 2001",
-          "passed": "Week 4, 2003",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 26,
-          "number": "S. 16",
-          "title": "The Federal Cannabis Reform & Small Business Act",
-          "status": "Enacted without Signature",
-          "finalized": true,
-          "introduced": "Week 22, 2001",
-          "passed": "Week 47, 2002",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 28,
-          "number": "H.R. 14",
-          "title": "Farm Protection and Revitalization Act",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 23, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 29,
-          "number": "H.R. 15",
-          "title": "Drug Abusw",
-          "status": "Sent to President",
-          "finalized": false,
-          "introduced": "Week 23, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 31,
-          "number": "H.R. 17",
-          "title": "MORE WELFARE FOR EVERYONE",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 27, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 33,
-          "number": "H.R. 19",
-          "title": "Modernize Education Act",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 32, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 35,
-          "number": "S. 17",
-          "title": "Families, Seniors & Growth Relief Act",
-          "status": "Enacted without Signature",
-          "finalized": true,
-          "introduced": "Week 35, 2001",
-          "passed": "Week 48, 2002",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 36,
-          "number": "S. 18",
-          "title": "So many green effects!",
-          "status": "Enacted without Signature",
-          "finalized": true,
-          "introduced": "Week 40, 2001",
-          "passed": "Week 1, 2003",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 38,
-          "number": "S. 19",
-          "title": "9/11 Security & Service Act",
-          "status": "Signed into Law",
-          "finalized": true,
-          "introduced": "Week 42, 2001",
-          "passed": "Week 4, 2003",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 40,
-          "number": "S. 20",
-          "title": "Family Reunification Visa Expansion",
-          "status": "Sent to President",
-          "finalized": false,
-          "introduced": "Week 44, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 43,
-          "number": "S. 21",
-          "title": "The Protection from Evangelicism Act",
-          "status": "Defeated in Senate",
-          "finalized": true,
-          "introduced": "Week 47, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "nay",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 45,
-          "number": "S. 22",
-          "title": "Background Check Reform",
-          "status": "Sent to President",
-          "finalized": false,
-          "introduced": "Week 47, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 46,
-          "number": "S. 23",
-          "title": "Authorization for Use of Military Force: Afghanistan & al-Qa",
-          "status": "Enacted without Signature",
-          "finalized": true,
-          "introduced": "Week 47, 2001",
-          "passed": "Week 4, 2002",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 47,
-          "number": "S. 24",
-          "title": "Expand Education Funding Act",
-          "status": "Sent to President",
-          "finalized": false,
-          "introduced": "Week 48, 2001",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 49,
-          "number": "S. 25",
-          "title": "Federal Support Expansion Act",
-          "status": "Defeated in House",
-          "finalized": true,
-          "introduced": "Week 1, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 51,
-          "number": "S. 27",
-          "title": "Tax Cuts Act",
-          "status": "Sent to President",
-          "finalized": false,
-          "introduced": "Week 7, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "nay",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 52,
-          "number": "S. 28",
-          "title": "Working Class Tax Relief & Equity Act",
-          "status": "House Floor",
-          "finalized": false,
-          "introduced": "Week 10, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 53,
-          "number": "S. 29",
-          "title": "Equal Rights & Justice Reform Act",
-          "status": "House Floor",
-          "finalized": false,
-          "introduced": "Week 10, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 54,
-          "number": "H.R. 27",
-          "title": "Economy Boost",
-          "status": "Sent to President",
-          "finalized": false,
-          "introduced": "Week 16, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 76,
-          "number": "S. 2",
-          "title": "Immigration Reform Act of 2002",
-          "status": "Awaiting Majority Leader's Call",
-          "finalized": false,
-          "introduced": "Week 27, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "nay",
-          "house_vote": null,
-          "house_seats": null
-        },
-        {
-          "resolution_id": 80,
-          "number": "S. 4",
-          "title": "Omnibus Act of 2002",
-          "status": "Senate Floor",
-          "finalized": false,
-          "introduced": "Week 38, 2002",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": null,
-          "house_vote": "aye",
-          "house_seats": null
-        },
-        {
-          "resolution_id": 100,
-          "number": "S. 15",
-          "title": "Lindsey O. Graham Act",
-          "status": "Awaiting Majority Leader's Call",
-          "finalized": false,
-          "introduced": "Week 4, 2003",
-          "passed": "",
-          "profile_id": "1004",
-          "sponsored": false,
-          "cosponsored": false,
-          "senate_vote": "aye",
-          "house_vote": null,
-          "house_seats": null
-        }
-      ]
-    },
-    {
       "player_id": "p1364",
       "conservative_scorecard": {
         "user_id": "p1364",
@@ -16601,7 +15765,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1396051400756297789/b18a59d9c3b60cfbed8cf5ce0eea5846.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1396051400756297789/ddbeec20271a47fb510ae2e3a30f2745.webp",
         "profiles": [
           {
             "profile_id": "1388",
@@ -16609,7 +15773,7 @@
             "party": "dem",
             "state": "California",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1396051400756297789/b18a59d9c3b60cfbed8cf5ce0eea5846.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1396051400756297789/ddbeec20271a47fb510ae2e3a30f2745.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -17907,7 +17071,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/40417bcd9fccb5f83e9db8e8f12d69f9.webp",
         "profiles": [
           {
             "profile_id": "1011",
@@ -17915,7 +17079,7 @@
             "party": "grn",
             "state": "Maryland",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/40417bcd9fccb5f83e9db8e8f12d69f9.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -17928,7 +17092,7 @@
             "party": "grn",
             "state": "Colorado",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/40417bcd9fccb5f83e9db8e8f12d69f9.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -17941,7 +17105,7 @@
             "party": "grn",
             "state": "Wisconsin",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/60562fd1e5082f35f0aeedc58415531e.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/829048047770009611/40417bcd9fccb5f83e9db8e8f12d69f9.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -55104,7 +54268,7 @@
             "profile_id": "1173",
             "name": "Bob Mendez",
             "party": "dem",
-            "state": "Michigan",
+            "state": "Iowa",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/557957081685164042/a880b4a4da6fe871f3c654d649fdb91c.webp",
             "is_main": false,
@@ -55470,7 +54634,7 @@
           "profile_id": "1173",
           "name": "Bob Mendez",
           "party": "dem",
-          "state": "Michigan",
+          "state": "Iowa",
           "is_main": false,
           "on_site": true
         },
@@ -58948,7 +58112,7 @@
           "Other",
           "Senate"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1260620648179302400/6062db575534ce9b240891d90fc81256.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1260620648179302400/5f5230c849e139546c7f8aaae3c825c9.webp",
         "profiles": [
           {
             "profile_id": "1012",
@@ -58956,7 +58120,7 @@
             "party": "grn",
             "state": "Massachusetts",
             "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/1260620648179302400/6062db575534ce9b240891d90fc81256.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1260620648179302400/5f5230c849e139546c7f8aaae3c825c9.webp",
             "is_main": true,
             "on_site": true,
             "offices": [
@@ -58971,7 +58135,7 @@
             "party": "grn",
             "state": "Connecticut",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1260620648179302400/6062db575534ce9b240891d90fc81256.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1260620648179302400/5f5230c849e139546c7f8aaae3c825c9.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -58984,7 +58148,7 @@
             "party": "grn",
             "state": "Ohio",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1260620648179302400/6062db575534ce9b240891d90fc81256.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1260620648179302400/5f5230c849e139546c7f8aaae3c825c9.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -60206,6 +59370,851 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1004",
+      "conservative_scorecard": {
+        "user_id": "p1004",
+        "player_id": "p1004",
+        "name": "KATIE HOBBS",
+        "discord": "kewtnury",
+        "discord_ids": [
+          "1460058777125654644"
+        ],
+        "party": "grn",
+        "state": "Pennsylvania",
+        "chambers": [
+          "Other",
+          "Senate"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/fee45739df6e7481e888280053c32a1f.webp",
+        "profiles": [
+          {
+            "profile_id": "1004",
+            "name": "KATIE HOBBS",
+            "party": "grn",
+            "state": "Pennsylvania",
+            "chamber": "Senate",
+            "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/fee45739df6e7481e888280053c32a1f.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [
+              "Senate"
+            ],
+            "office": "Senate",
+            "office_count": 1
+          },
+          {
+            "profile_id": "1013",
+            "name": "MARY PELTOLA",
+            "party": "grn",
+            "state": "Virginia",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/fee45739df6e7481e888280053c32a1f.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1245",
+            "name": "ALEXANDRIA OCASIO-CORTEZ",
+            "party": "grn",
+            "state": "Oregon",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1460058777125654644/fee45739df6e7481e888280053c32a1f.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": 16.67,
+          "economic": 16.67,
+          "foreign": 100.0,
+          "overall": 21.05,
+          "tier": "F"
+        },
+        "sample_size": {
+          "social": 6,
+          "economic": 12,
+          "foreign": 1,
+          "overall": 19
+        },
+        "aligned_votes": {
+          "social": 1,
+          "economic": 2,
+          "foreign": 1
+        },
+        "provisions_scored": 19,
+        "aligned_provisions": 4,
+        "finalized_bills_voted": 11,
+        "bill_details": [
+          {
+            "resolution_id": 3,
+            "number": "S. 3",
+            "bill_title": "Abortion Act",
+            "provision": "Abortion: Allowed",
+            "category": "social",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 15,
+            "number": "S. 11",
+            "bill_title": "The Big Freedom Win Act",
+            "provision": "Communist Party Ban: Outlawed",
+            "category": "social",
+            "direction": 1,
+            "vote": "nay",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 17,
+            "number": "S. 13",
+            "bill_title": "Voting Accessibility Act",
+            "provision": "Holidays (Election Day): Recognized Federally",
+            "category": "social",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 20,
+            "number": "H.R. 9",
+            "bill_title": "Taxation With Representation Act",
+            "provision": "District of Columbia: Statehood",
+            "category": "social",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 21,
+            "number": "S. 14",
+            "bill_title": "Youth Voices and Student Subsidisations Act",
+            "provision": "Voting Age (26th Amendment): 16",
+            "category": "social",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 21,
+            "number": "S. 14",
+            "bill_title": "Youth Voices and Student Subsidisations Act",
+            "provision": "Student Loans: Free Public University",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 21,
+            "number": "S. 14",
+            "bill_title": "Youth Voices and Student Subsidisations Act",
+            "provision": "School Lunch: Universal Free Meals",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 25,
+            "number": "S. 15",
+            "bill_title": "UNIONS OF AMERICA UNITE ACT",
+            "provision": "Union Dues Regulation: No Cap, Tax-Deductible",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 26,
+            "number": "S. 16",
+            "bill_title": "The Federal Cannabis Reform & Small Business Act",
+            "provision": "Marijuana Sales Tax: 50%",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 35,
+            "number": "S. 17",
+            "bill_title": "Families, Seniors & Growth Relief Act",
+            "provision": "Healthcare & Education Tax Credit: 25% Credit",
+            "category": "economic",
+            "direction": 1,
+            "vote": "aye",
+            "aligned": true,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 35,
+            "number": "S. 17",
+            "bill_title": "Families, Seniors & Growth Relief Act",
+            "provision": "Social Security (Monthly Benefit): $2,250",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 36,
+            "number": "S. 18",
+            "bill_title": "So many green effects!",
+            "provision": "Energy Reorganization: Energy Research & Development Administration",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 36,
+            "number": "S. 18",
+            "bill_title": "So many green effects!",
+            "provision": "Interstate Highways: National Infrastructure Program",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 38,
+            "number": "S. 19",
+            "bill_title": "9/11 Security & Service Act",
+            "provision": "Special Prosecutor: Independent Office",
+            "category": "social",
+            "direction": 1,
+            "vote": "aye",
+            "aligned": true,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 38,
+            "number": "S. 19",
+            "bill_title": "9/11 Security & Service Act",
+            "provision": "Intelligence Community Budget Authority: Full Program Authority",
+            "category": "foreign",
+            "direction": 1,
+            "vote": "aye",
+            "aligned": true,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 38,
+            "number": "S. 19",
+            "bill_title": "9/11 Security & Service Act",
+            "provision": "GI Bill: Full Tuition & Housing",
+            "category": "economic",
+            "direction": 1,
+            "vote": "aye",
+            "aligned": true,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 49,
+            "number": "S. 25",
+            "bill_title": "Federal Support Expansion Act",
+            "provision": "Interstate Highways: National Infrastructure Program",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 49,
+            "number": "S. 25",
+            "bill_title": "Federal Support Expansion Act",
+            "provision": "Small Business Support: Expanded SBA & Tax Relief",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          },
+          {
+            "resolution_id": 49,
+            "number": "S. 25",
+            "bill_title": "Federal Support Expansion Act",
+            "provision": "Minimum Wage: $12",
+            "category": "economic",
+            "direction": -1,
+            "vote": "aye",
+            "aligned": false,
+            "profile_id": "1004",
+            "profile_name": "KATIE HOBBS",
+            "chamber": "Senate"
+          }
+        ],
+        "eligible_for_grade": true,
+        "offices_held": 1,
+        "office_count": 1,
+        "has_office": true
+      },
+      "discord": "kewtnury",
+      "discord_current": true,
+      "discord_aliases": [
+        "kewtslimnury",
+        "americanboydoll",
+        "kewtnury"
+      ],
+      "discord_ids": [
+        "1460058777125654644"
+      ],
+      "name": "KATIE HOBBS",
+      "profile_ids": [
+        "1004",
+        "1013",
+        "1245"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1004",
+          "name": "KATIE HOBBS",
+          "party": "grn",
+          "state": "Pennsylvania",
+          "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1013",
+          "name": "MARY PELTOLA",
+          "party": "grn",
+          "state": "Virginia",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1245",
+          "name": "ALEXANDRIA OCASIO-CORTEZ",
+          "party": "grn",
+          "state": "Oregon",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 30,
+        "sponsored": 0,
+        "cosponsored": 2,
+        "senate": {
+          "aye": 25,
+          "nay": 4,
+          "present": 0
+        },
+        "house": {
+          "aye": 1,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": [
+        {
+          "resolution_id": 3,
+          "number": "S. 3",
+          "title": "Abortion Act",
+          "status": "Enacted without Signature",
+          "finalized": true,
+          "introduced": "Week 1, 2001",
+          "passed": "Week 26, 2002",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 15,
+          "number": "S. 11",
+          "title": "The Big Freedom Win Act",
+          "status": "Died Awaiting Majority Leader's Call",
+          "finalized": true,
+          "introduced": "Week 8, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": true,
+          "senate_vote": "nay",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 17,
+          "number": "S. 13",
+          "title": "Voting Accessibility Act",
+          "status": "Signed into Law",
+          "finalized": true,
+          "introduced": "Week 15, 2001",
+          "passed": "Week 4, 2003",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 18,
+          "number": "H.R. 7",
+          "title": "Marijuana Legalization Act",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 15, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 20,
+          "number": "H.R. 9",
+          "title": "Taxation With Representation Act",
+          "status": "Enacted without Signature",
+          "finalized": true,
+          "introduced": "Week 17, 2001",
+          "passed": "Week 48, 2002",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 21,
+          "number": "S. 14",
+          "title": "Youth Voices and Student Subsidisations Act",
+          "status": "Signed into Law",
+          "finalized": true,
+          "introduced": "Week 20, 2001",
+          "passed": "Week 4, 2003",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": true,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 22,
+          "number": "H.R. 10",
+          "title": "VOTING RIGHTS ACT OF 2001",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 20, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 24,
+          "number": "H.R. 12",
+          "title": "Veteran Protection Act",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 20, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 25,
+          "number": "S. 15",
+          "title": "UNIONS OF AMERICA UNITE ACT",
+          "status": "Signed into Law",
+          "finalized": true,
+          "introduced": "Week 21, 2001",
+          "passed": "Week 4, 2003",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 26,
+          "number": "S. 16",
+          "title": "The Federal Cannabis Reform & Small Business Act",
+          "status": "Enacted without Signature",
+          "finalized": true,
+          "introduced": "Week 22, 2001",
+          "passed": "Week 47, 2002",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 28,
+          "number": "H.R. 14",
+          "title": "Farm Protection and Revitalization Act",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 23, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 29,
+          "number": "H.R. 15",
+          "title": "Drug Abusw",
+          "status": "Sent to President",
+          "finalized": false,
+          "introduced": "Week 23, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 31,
+          "number": "H.R. 17",
+          "title": "MORE WELFARE FOR EVERYONE",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 27, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 33,
+          "number": "H.R. 19",
+          "title": "Modernize Education Act",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 32, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 35,
+          "number": "S. 17",
+          "title": "Families, Seniors & Growth Relief Act",
+          "status": "Enacted without Signature",
+          "finalized": true,
+          "introduced": "Week 35, 2001",
+          "passed": "Week 48, 2002",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 36,
+          "number": "S. 18",
+          "title": "So many green effects!",
+          "status": "Enacted without Signature",
+          "finalized": true,
+          "introduced": "Week 40, 2001",
+          "passed": "Week 1, 2003",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 38,
+          "number": "S. 19",
+          "title": "9/11 Security & Service Act",
+          "status": "Signed into Law",
+          "finalized": true,
+          "introduced": "Week 42, 2001",
+          "passed": "Week 4, 2003",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 40,
+          "number": "S. 20",
+          "title": "Family Reunification Visa Expansion",
+          "status": "Sent to President",
+          "finalized": false,
+          "introduced": "Week 44, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 43,
+          "number": "S. 21",
+          "title": "The Protection from Evangelicism Act",
+          "status": "Defeated in Senate",
+          "finalized": true,
+          "introduced": "Week 47, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "nay",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 45,
+          "number": "S. 22",
+          "title": "Background Check Reform",
+          "status": "Sent to President",
+          "finalized": false,
+          "introduced": "Week 47, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 46,
+          "number": "S. 23",
+          "title": "Authorization for Use of Military Force: Afghanistan & al-Qa",
+          "status": "Enacted without Signature",
+          "finalized": true,
+          "introduced": "Week 47, 2001",
+          "passed": "Week 4, 2002",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 47,
+          "number": "S. 24",
+          "title": "Expand Education Funding Act",
+          "status": "Sent to President",
+          "finalized": false,
+          "introduced": "Week 48, 2001",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 49,
+          "number": "S. 25",
+          "title": "Federal Support Expansion Act",
+          "status": "Defeated in House",
+          "finalized": true,
+          "introduced": "Week 1, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 51,
+          "number": "S. 27",
+          "title": "Tax Cuts Act",
+          "status": "Sent to President",
+          "finalized": false,
+          "introduced": "Week 7, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "nay",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 52,
+          "number": "S. 28",
+          "title": "Working Class Tax Relief & Equity Act",
+          "status": "House Floor",
+          "finalized": false,
+          "introduced": "Week 10, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 53,
+          "number": "S. 29",
+          "title": "Equal Rights & Justice Reform Act",
+          "status": "House Floor",
+          "finalized": false,
+          "introduced": "Week 10, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 54,
+          "number": "H.R. 27",
+          "title": "Economy Boost",
+          "status": "Sent to President",
+          "finalized": false,
+          "introduced": "Week 16, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 76,
+          "number": "S. 2",
+          "title": "Immigration Reform Act of 2002",
+          "status": "Awaiting Majority Leader's Call",
+          "finalized": false,
+          "introduced": "Week 27, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "nay",
+          "house_vote": null,
+          "house_seats": null
+        },
+        {
+          "resolution_id": 80,
+          "number": "S. 4",
+          "title": "Omnibus Act of 2002",
+          "status": "Senate Floor",
+          "finalized": false,
+          "introduced": "Week 38, 2002",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": null,
+          "house_vote": "aye",
+          "house_seats": null
+        },
+        {
+          "resolution_id": 100,
+          "number": "S. 15",
+          "title": "Lindsey O. Graham Act",
+          "status": "Awaiting Majority Leader's Call",
+          "finalized": false,
+          "introduced": "Week 4, 2003",
+          "passed": "",
+          "profile_id": "1004",
+          "sponsored": false,
+          "cosponsored": false,
+          "senate_vote": "aye",
+          "house_vote": null,
+          "house_seats": null
+        }
+      ]
+    },
+    {
       "player_id": "p1088",
       "conservative_scorecard": {
         "user_id": "p1088",
@@ -61255,7 +61264,7 @@
             "profile_id": "1338",
             "name": "Lionel Mussolini",
             "party": "dem",
-            "state": "Nevada",
+            "state": "Puerto Rico",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1559920088130261075/ec6f5f619c9dd10830fcc4e75b2547de.webp",
             "is_main": false,
@@ -61327,7 +61336,7 @@
           "profile_id": "1338",
           "name": "Lionel Mussolini",
           "party": "dem",
-          "state": "Nevada",
+          "state": "Puerto Rico",
           "is_main": false,
           "on_site": true
         }
@@ -76785,7 +76794,7 @@
           "House",
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/48d50ccb70965e03c5cd3de2e90a4158.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/c6a1a78bee217620d667ff5460f85e30.webp",
         "profiles": [
           {
             "profile_id": "1184",
@@ -76793,7 +76802,7 @@
             "party": "dem",
             "state": "New Jersey",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/48d50ccb70965e03c5cd3de2e90a4158.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/c6a1a78bee217620d667ff5460f85e30.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -76806,7 +76815,7 @@
             "party": "dem",
             "state": "New Jersey",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/48d50ccb70965e03c5cd3de2e90a4158.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/c6a1a78bee217620d667ff5460f85e30.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -76821,7 +76830,7 @@
             "party": "dem",
             "state": "New Jersey",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/48d50ccb70965e03c5cd3de2e90a4158.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1193946507825647646/c6a1a78bee217620d667ff5460f85e30.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -80959,7 +80968,7 @@
             "party": "gop",
             "state": "Virginia",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -80971,6 +80980,19 @@
             "name": "Jimmy Carter",
             "party": "gop",
             "state": "New Jersey",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1417",
+            "name": "Anna Kelly",
+            "party": "gop",
+            "state": "Virginia",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
             "is_main": false,
@@ -81360,7 +81382,8 @@
         "1033",
         "1209",
         "1401",
-        "1402"
+        "1402",
+        "1417"
       ],
       "profiles": [
         {
@@ -81400,6 +81423,14 @@
           "name": "Jimmy Carter",
           "party": "gop",
           "state": "New Jersey",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1417",
+          "name": "Anna Kelly",
+          "party": "gop",
+          "state": "Virginia",
           "is_main": false,
           "on_site": true
         }
@@ -95165,7 +95196,7 @@
       "profile_id": "1004",
       "player_id": "p1004",
       "name": "KATIE HOBBS",
-      "discord": "americanboydoll",
+      "discord": "kewtnury",
       "discord_id": "1460058777125654644",
       "discord_history": [
         {
@@ -95192,6 +95223,11 @@
           "discord": "americanboydoll",
           "discord_id": "1460058777125654644",
           "first_seen": "2026-10-27"
+        },
+        {
+          "discord": "kewtnury",
+          "discord_id": "1460058777125654644",
+          "first_seen": "2026-11-03"
         }
       ],
       "party": "grn",
@@ -97289,7 +97325,7 @@
       "profile_id": "1013",
       "player_id": "p1004",
       "name": "MARY PELTOLA",
-      "discord": "americanboydoll",
+      "discord": "kewtnury",
       "discord_id": "1460058777125654644",
       "discord_history": [
         {
@@ -97316,6 +97352,11 @@
           "discord": "americanboydoll",
           "discord_id": "1460058777125654644",
           "first_seen": "2026-10-27"
+        },
+        {
+          "discord": "kewtnury",
+          "discord_id": "1460058777125654644",
+          "first_seen": "2026-11-03"
         }
       ],
       "party": "grn",
@@ -136829,7 +136870,7 @@
         }
       ],
       "party": "dem",
-      "state": "Michigan",
+      "state": "Iowa",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -144654,7 +144695,7 @@
       "profile_id": "1245",
       "player_id": "p1004",
       "name": "ALEXANDRIA OCASIO-CORTEZ",
-      "discord": "americanboydoll",
+      "discord": "kewtnury",
       "discord_id": "1460058777125654644",
       "discord_history": [
         {
@@ -144681,6 +144722,11 @@
           "discord": "americanboydoll",
           "discord_id": "1460058777125654644",
           "first_seen": "2026-10-27"
+        },
+        {
+          "discord": "kewtnury",
+          "discord_id": "1460058777125654644",
+          "first_seen": "2026-11-03"
         }
       ],
       "party": "grn",
@@ -154459,7 +154505,7 @@
         }
       ],
       "party": "dem",
-      "state": "Nevada",
+      "state": "Puerto Rico",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -156930,13 +156976,18 @@
       "profile_id": "1401",
       "player_id": "p1025",
       "name": "Donald Trump",
-      "discord": "trumpquest",
-      "discord_id": "961355935496953956",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "trumpquest",
           "discord_id": "961355935496953956",
           "first_seen": "2026-10-31"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-11-03"
         }
       ],
       "party": "gop",
@@ -156964,13 +157015,18 @@
       "profile_id": "1402",
       "player_id": "p1025",
       "name": "Jimmy Carter",
-      "discord": "trumpquest",
-      "discord_id": "961355935496953956",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "trumpquest",
           "discord_id": "961355935496953956",
           "first_seen": "2026-10-31"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-11-03"
         }
       ],
       "party": "gop",
@@ -157440,6 +157496,40 @@
       "party": "afp",
       "state": "South Carolina",
       "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1417",
+      "player_id": "p1025",
+      "name": "Anna Kelly",
+      "discord": "trumpquest",
+      "discord_id": "961355935496953956",
+      "discord_history": [
+        {
+          "discord": "trumpquest",
+          "discord_id": "961355935496953956",
+          "first_seen": "2026-11-03"
+        }
+      ],
+      "party": "gop",
+      "state": "Virginia",
+      "is_main": false,
       "on_site": true,
       "counts": {
         "bills": 0,
