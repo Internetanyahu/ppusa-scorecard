@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T04:55:44+00:00",
+  "generated_at": "2026-11-04T13:49:37+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -60037,7 +60037,7 @@
       "chambers": [
         "Other"
       ],
-      "avatar": "https://cdn.discordapp.com/avatars/1373437758961356912/a0df72f1fcba08b9f22db61f645da519.webp",
+      "avatar": "https://cdn.discordapp.com/avatars/1373437758961356912/a40bd1cf20bba0afac04ecf6f49897db.webp",
       "profiles": [
         {
           "profile_id": "1368",
@@ -60045,7 +60045,7 @@
           "party": "gop",
           "state": "Florida",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1373437758961356912/a0df72f1fcba08b9f22db61f645da519.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1373437758961356912/a40bd1cf20bba0afac04ecf6f49897db.webp",
           "is_main": true,
           "on_site": true,
           "offices": [],
@@ -60058,7 +60058,7 @@
           "party": "gop",
           "state": "Florida",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1373437758961356912/a0df72f1fcba08b9f22db61f645da519.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1373437758961356912/a40bd1cf20bba0afac04ecf6f49897db.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -60071,7 +60071,7 @@
           "party": "gop",
           "state": "Florida",
           "chamber": "Other",
-          "avatar": "https://cdn.discordapp.com/avatars/1373437758961356912/a0df72f1fcba08b9f22db61f645da519.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1373437758961356912/a40bd1cf20bba0afac04ecf6f49897db.webp",
           "is_main": false,
           "on_site": true,
           "offices": [],
@@ -61514,6 +61514,19 @@
           "name": "Corvus Smith",
           "party": "dem",
           "state": "Massachusetts",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/385804381649371138/cfccba224a009409ef658b9bfdc03857.webp",
+          "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1424",
+          "name": "Acar Wilbeach",
+          "party": "dem",
+          "state": "West Virginia",
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/385804381649371138/cfccba224a009409ef658b9bfdc03857.webp",
           "is_main": false,
@@ -66947,6 +66960,60 @@
       "has_office": false
     },
     {
+      "user_id": "p1425",
+      "player_id": "p1425",
+      "name": "Trumper",
+      "discord": "",
+      "discord_ids": [],
+      "party": "dsa",
+      "state": "Idaho",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "profiles": [
+        {
+          "profile_id": "1425",
+          "name": "Trumper",
+          "party": "dsa",
+          "state": "Idaho",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
       "user_id": "p1079",
       "player_id": "p1079",
       "name": "Uncle America",
@@ -67077,6 +67144,75 @@
           "chamber": "Other",
           "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
+      "user_id": "p1426",
+      "player_id": "p1426",
+      "name": "Vivek Ramaswamy",
+      "discord": "bloxguy5433",
+      "discord_ids": [
+        "899216850762743848"
+      ],
+      "party": "gop",
+      "state": "Ohio",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/899216850762743848/a_7355ec75f9d02b3b39bcff1557b62a20.gif",
+      "profiles": [
+        {
+          "profile_id": "1426",
+          "name": "Vivek Ramaswamy",
+          "party": "gop",
+          "state": "Ohio",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/899216850762743848/a_7355ec75f9d02b3b39bcff1557b62a20.gif",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        },
+        {
+          "profile_id": "1427",
+          "name": "Justin Bibb",
+          "party": "gop",
+          "state": "Ohio",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/899216850762743848/a_7355ec75f9d02b3b39bcff1557b62a20.gif",
+          "is_main": false,
           "on_site": true,
           "offices": [],
           "office": "",
@@ -67366,7 +67502,7 @@
   "office_metadata": {
     "definition": "Count of normalized offices attached to each Power Play profile; POTUS, Vice President, Governor, legislative and other offices are all counted when supplied by the source.",
     "no_office_label": "No office",
-    "updated_profiles": 428,
-    "updated_players": 187
+    "updated_profiles": 432,
+    "updated_players": 189
   }
 }

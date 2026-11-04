@@ -23502,11 +23502,12 @@
   },
   {
     "player_id": "p1078",
-    "name": "Corvus Smith",
+    "name": "Acar Wilbeach",
     "discord": "falcon5518",
     "profiles": [
       "1078",
-      "1083"
+      "1083",
+      "1424"
     ],
     "bills": [],
     "bill_count": 0
@@ -45959,6 +45960,27 @@
     "discord": ".gamingpigeon",
     "profiles": [
       "1423"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1425",
+    "name": "Trumper",
+    "discord": "",
+    "profiles": [
+      "1425"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1426",
+    "name": "Justin Bibb",
+    "discord": "bloxguy5433",
+    "profiles": [
+      "1426",
+      "1427"
     ],
     "bills": [],
     "bill_count": 0

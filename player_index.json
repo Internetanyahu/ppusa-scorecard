@@ -12911,5 +12911,75 @@
     "state": "New York",
     "last_seen": "2026-11-04",
     "on_site": true
+  },
+  "1424": {
+    "profile_id": "1424",
+    "player_id": "p1078",
+    "first_seen": "2026-11-04",
+    "discord_history": [
+      {
+        "discord": "falcon5518",
+        "discord_id": "385804381649371138",
+        "first_seen": "2026-11-04"
+      }
+    ],
+    "name": "Acar Wilbeach",
+    "discord": "falcon5518",
+    "discord_id": "385804381649371138",
+    "party": "dem",
+    "state": "West Virginia",
+    "last_seen": "2026-11-04",
+    "on_site": true
+  },
+  "1425": {
+    "profile_id": "1425",
+    "player_id": "p1425",
+    "first_seen": "2026-11-04",
+    "discord_history": [],
+    "name": "Trumper",
+    "discord": "",
+    "discord_id": "",
+    "party": "dsa",
+    "state": "Idaho",
+    "last_seen": "2026-11-04",
+    "on_site": true
+  },
+  "1426": {
+    "profile_id": "1426",
+    "player_id": "p1426",
+    "first_seen": "2026-11-04",
+    "discord_history": [
+      {
+        "discord": "bloxguy5433",
+        "discord_id": "899216850762743848",
+        "first_seen": "2026-11-04"
+      }
+    ],
+    "name": "Vivek Ramaswamy",
+    "discord": "bloxguy5433",
+    "discord_id": "899216850762743848",
+    "party": "gop",
+    "state": "Ohio",
+    "last_seen": "2026-11-04",
+    "on_site": true
+  },
+  "1427": {
+    "profile_id": "1427",
+    "player_id": "p1426",
+    "first_seen": "2026-11-04",
+    "discord_history": [
+      {
+        "discord": "bloxguy5433",
+        "discord_id": "899216850762743848",
+        "first_seen": "2026-11-04"
+      }
+    ],
+    "name": "Justin Bibb",
+    "discord": "bloxguy5433",
+    "discord_id": "899216850762743848",
+    "party": "gop",
+    "state": "Ohio",
+    "last_seen": "2026-11-04",
+    "on_site": true
   }
 }
