@@ -6931,7 +6931,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1209",
     "player_id": "p1025",
-    "name": "Andrew Tate",
+    "name": "Anna Kelly",
     "discord": "trumpquest",
     "party": "gop",
     "state": "Alaska",
@@ -11677,7 +11677,7 @@
     "discord": "kmfan91_35425",
     "discord_id": "1412134134158987527",
     "party": "dem",
-    "state": "South Carolina",
+    "state": "West Virginia",
     "last_seen": "2026-11-04",
     "on_site": true
   },
@@ -12796,7 +12796,7 @@
         "first_seen": "2026-11-03"
       }
     ],
-    "name": "Anna Kelly",
+    "name": "Andrew Tate",
     "discord": "trumpquest",
     "discord_id": "961355935496953956",
     "party": "gop",
@@ -12815,7 +12815,7 @@
         "first_seen": "2026-11-03"
       }
     ],
-    "name": "Tim Ryan",
+    "name": "Donald J. Trump",
     "discord": "trumpquest",
     "discord_id": "961355935496953956",
     "party": "gop",
@@ -12935,9 +12935,15 @@
     "profile_id": "1425",
     "player_id": "p1425",
     "first_seen": "2026-11-04",
-    "discord_history": [],
-    "name": "Trumper",
-    "discord": "",
+    "discord_history": [
+      {
+        "discord": "trumpsuck0",
+        "discord_id": "",
+        "first_seen": "2026-11-04"
+      }
+    ],
+    "name": "Zack Polanski",
+    "discord": "trumpsuck0",
     "discord_id": "",
     "party": "dsa",
     "state": "Idaho",
@@ -12979,6 +12985,44 @@
     "discord_id": "899216850762743848",
     "party": "gop",
     "state": "Ohio",
+    "last_seen": "2026-11-04",
+    "on_site": true
+  },
+  "1428": {
+    "profile_id": "1428",
+    "player_id": "p1425",
+    "first_seen": "2026-11-04",
+    "discord_history": [
+      {
+        "discord": "trumpsuck0",
+        "discord_id": "",
+        "first_seen": "2026-11-04"
+      }
+    ],
+    "name": "Count Binface",
+    "discord": "trumpsuck0",
+    "discord_id": "",
+    "party": "dsa",
+    "state": "Alabama",
+    "last_seen": "2026-11-04",
+    "on_site": true
+  },
+  "1429": {
+    "profile_id": "1429",
+    "player_id": "p1425",
+    "first_seen": "2026-11-04",
+    "discord_history": [
+      {
+        "discord": "trumpsuck0",
+        "discord_id": "",
+        "first_seen": "2026-11-04"
+      }
+    ],
+    "name": "Otto Wolly",
+    "discord": "trumpsuck0",
+    "discord_id": "",
+    "party": "dsa",
+    "state": "Arkansas",
     "last_seen": "2026-11-04",
     "on_site": true
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T13:49:38+00:00",
+  "generated_at": "2026-11-04T23:14:53+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -1990,17 +1990,8 @@
     },
     {
       "type": "player",
-      "id": "p1425",
-      "label": "Trumper",
-      "aliases": [],
-      "profile_ids": [
-        "1425"
-      ]
-    },
-    {
-      "type": "player",
       "id": "p1025",
-      "label": "trumpquest (Andrew Tate)",
+      "label": "trumpquest (Anna Kelly)",
       "aliases": [
         "trumpquest"
       ],
@@ -2012,6 +2003,19 @@
         "1402",
         "1417",
         "1418"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1425",
+      "label": "trumpsuck0 (Zack Polanski)",
+      "aliases": [
+        "trumpsuck0"
+      ],
+      "profile_ids": [
+        "1425",
+        "1428",
+        "1429"
       ]
     },
     {
@@ -2399,8 +2403,8 @@
     },
     {
       "type": "profile",
-      "id": "1209",
-      "label": "Andrew Tate (1209)",
+      "id": "1417",
+      "label": "Andrew Tate (1417)",
       "player_id": "p1025"
     },
     {
@@ -2417,8 +2421,8 @@
     },
     {
       "type": "profile",
-      "id": "1417",
-      "label": "Anna Kelly (1417)",
+      "id": "1209",
+      "label": "Anna Kelly (1209)",
       "player_id": "p1025"
     },
     {
@@ -2813,6 +2817,12 @@
     },
     {
       "type": "profile",
+      "id": "1428",
+      "label": "Count Binface (1428)",
+      "player_id": "p1425"
+    },
+    {
+      "type": "profile",
       "id": "1347",
       "label": "Crashnation Fan Cody (1347)",
       "player_id": "p1347"
@@ -2936,6 +2946,12 @@
       "id": "1092",
       "label": "Don Blankenship (1092)",
       "player_id": "p1089"
+    },
+    {
+      "type": "profile",
+      "id": "1418",
+      "label": "Donald J. Trump (1418)",
+      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -4199,6 +4215,12 @@
     },
     {
       "type": "profile",
+      "id": "1429",
+      "label": "Otto Wolly (1429)",
+      "player_id": "p1425"
+    },
+    {
+      "type": "profile",
       "id": "1002",
       "label": "Parker Cohen (1002)",
       "player_id": "p1002"
@@ -4601,12 +4623,6 @@
     },
     {
       "type": "profile",
-      "id": "1418",
-      "label": "Tim Ryan (1418)",
-      "player_id": "p1025"
-    },
-    {
-      "type": "profile",
       "id": "1229",
       "label": "Tina Turner (1229)",
       "player_id": "p1136"
@@ -4652,12 +4668,6 @@
       "id": "1052",
       "label": "Tommy Tuberville (1052)",
       "player_id": "p1050"
-    },
-    {
-      "type": "profile",
-      "id": "1425",
-      "label": "Trumper (1425)",
-      "player_id": "p1425"
     },
     {
       "type": "profile",
@@ -4814,6 +4824,12 @@
       "id": "1225",
       "label": "Zach Lahn (1225)",
       "player_id": "p1068"
+    },
+    {
+      "type": "profile",
+      "id": "1425",
+      "label": "Zack Polanski (1425)",
+      "player_id": "p1425"
     },
     {
       "type": "profile",
@@ -60826,7 +60842,7 @@
             "profile_id": "1358",
             "name": "Dannii Minogue",
             "party": "dem",
-            "state": "South Carolina",
+            "state": "West Virginia",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1412134134158987527/f75940f823105fcc0c92c56c72d080f9.webp",
             "is_main": false,
@@ -61120,7 +61136,7 @@
           "profile_id": "1358",
           "name": "Dannii Minogue",
           "party": "dem",
-          "state": "South Carolina",
+          "state": "West Virginia",
           "is_main": false,
           "on_site": true
         }
@@ -64902,7 +64918,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/7c2239890d0577f762c3ee9c8a0d1e6c.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/28ef69b0a535451f4274d663f95f2618.webp",
         "profiles": [
           {
             "profile_id": "1026",
@@ -64910,7 +64926,7 @@
             "party": "grn",
             "state": "California",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/7c2239890d0577f762c3ee9c8a0d1e6c.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/28ef69b0a535451f4274d663f95f2618.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -64923,7 +64939,7 @@
             "party": "grn",
             "state": "Oregon",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/7c2239890d0577f762c3ee9c8a0d1e6c.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/28ef69b0a535451f4274d663f95f2618.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -64936,7 +64952,7 @@
             "party": "grn",
             "state": "Ohio",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/7c2239890d0577f762c3ee9c8a0d1e6c.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/28ef69b0a535451f4274d663f95f2618.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -81655,102 +81671,11 @@
       "bill_votes": []
     },
     {
-      "player_id": "p1425",
-      "conservative_scorecard": {
-        "user_id": "p1425",
-        "player_id": "p1425",
-        "name": "Trumper",
-        "discord": "",
-        "discord_ids": [],
-        "party": "dsa",
-        "state": "Idaho",
-        "chambers": [
-          "Other"
-        ],
-        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-        "profiles": [
-          {
-            "profile_id": "1425",
-            "name": "Trumper",
-            "party": "dsa",
-            "state": "Idaho",
-            "chamber": "Other",
-            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-            "is_main": true,
-            "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
-          }
-        ],
-        "scores": {
-          "social": null,
-          "economic": null,
-          "foreign": null,
-          "overall": null,
-          "tier": "N/A"
-        },
-        "sample_size": {
-          "social": 0,
-          "economic": 0,
-          "foreign": 0,
-          "overall": 0
-        },
-        "aligned_votes": {
-          "social": 0,
-          "economic": 0,
-          "foreign": 0
-        },
-        "provisions_scored": 0,
-        "aligned_provisions": 0,
-        "finalized_bills_voted": 0,
-        "bill_details": [],
-        "eligible_for_grade": false,
-        "offices_held": 0,
-        "office_count": 0,
-        "has_office": false
-      },
-      "discord": "",
-      "discord_current": false,
-      "discord_aliases": [],
-      "discord_ids": [],
-      "name": "Trumper",
-      "profile_ids": [
-        "1425"
-      ],
-      "profiles": [
-        {
-          "profile_id": "1425",
-          "name": "Trumper",
-          "party": "dsa",
-          "state": "Idaho",
-          "is_main": true,
-          "on_site": true
-        }
-      ],
-      "counts": {
-        "bills": 0,
-        "sponsored": 0,
-        "cosponsored": 0,
-        "senate": {
-          "aye": 0,
-          "nay": 0,
-          "present": 0
-        },
-        "house": {
-          "aye": 0,
-          "nay": 0,
-          "present": 0
-        }
-      },
-      "bill_votes": []
-    },
-    {
       "player_id": "p1025",
       "conservative_scorecard": {
         "user_id": "p1025",
         "player_id": "p1025",
-        "name": "Andrew Tate",
+        "name": "Anna Kelly",
         "discord": "trumpquest",
         "discord_ids": [
           "961355935496953956"
@@ -81766,7 +81691,7 @@
         "profiles": [
           {
             "profile_id": "1209",
-            "name": "Andrew Tate",
+            "name": "Anna Kelly",
             "party": "gop",
             "state": "Alaska",
             "chamber": "Senate",
@@ -81837,7 +81762,7 @@
           },
           {
             "profile_id": "1417",
-            "name": "Anna Kelly",
+            "name": "Andrew Tate",
             "party": "gop",
             "state": "Virginia",
             "chamber": "Other",
@@ -81850,7 +81775,7 @@
           },
           {
             "profile_id": "1418",
-            "name": "Tim Ryan",
+            "name": "Donald J. Trump",
             "party": "gop",
             "state": "Virginia",
             "chamber": "Other",
@@ -82236,7 +82161,7 @@
       "discord_ids": [
         "961355935496953956"
       ],
-      "name": "Andrew Tate",
+      "name": "Anna Kelly",
       "profile_ids": [
         "1025",
         "1033",
@@ -82265,7 +82190,7 @@
         },
         {
           "profile_id": "1209",
-          "name": "Andrew Tate",
+          "name": "Anna Kelly",
           "party": "gop",
           "state": "Alaska",
           "is_main": true,
@@ -82289,7 +82214,7 @@
         },
         {
           "profile_id": "1417",
-          "name": "Anna Kelly",
+          "name": "Andrew Tate",
           "party": "gop",
           "state": "Virginia",
           "is_main": false,
@@ -82297,7 +82222,7 @@
         },
         {
           "profile_id": "1418",
-          "name": "Tim Ryan",
+          "name": "Donald J. Trump",
           "party": "gop",
           "state": "Virginia",
           "is_main": false,
@@ -83701,6 +83626,143 @@
           "house_seats": null
         }
       ]
+    },
+    {
+      "player_id": "p1425",
+      "conservative_scorecard": {
+        "user_id": "p1425",
+        "player_id": "p1425",
+        "name": "Zack Polanski",
+        "discord": "trumpsuck0",
+        "discord_ids": [],
+        "party": "dsa",
+        "state": "Idaho",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1425",
+            "name": "Zack Polanski",
+            "party": "dsa",
+            "state": "Idaho",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1428",
+            "name": "Count Binface",
+            "party": "dsa",
+            "state": "Alabama",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1429",
+            "name": "Otto Wolly",
+            "party": "dsa",
+            "state": "Arkansas",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "trumpsuck0",
+      "discord_current": true,
+      "discord_aliases": [
+        "trumpsuck0"
+      ],
+      "discord_ids": [],
+      "name": "Zack Polanski",
+      "profile_ids": [
+        "1425",
+        "1428",
+        "1429"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1425",
+          "name": "Zack Polanski",
+          "party": "dsa",
+          "state": "Idaho",
+          "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1428",
+          "name": "Count Binface",
+          "party": "dsa",
+          "state": "Alabama",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1429",
+          "name": "Otto Wolly",
+          "party": "dsa",
+          "state": "Arkansas",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
     },
     {
       "player_id": "p1105",
@@ -142380,7 +142442,7 @@
     {
       "profile_id": "1209",
       "player_id": "p1025",
-      "name": "Andrew Tate",
+      "name": "Anna Kelly",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -156404,7 +156466,7 @@
         }
       ],
       "party": "dem",
-      "state": "South Carolina",
+      "state": "West Virginia",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -158386,7 +158448,7 @@
     {
       "profile_id": "1417",
       "player_id": "p1025",
-      "name": "Anna Kelly",
+      "name": "Andrew Tate",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -158420,7 +158482,7 @@
     {
       "profile_id": "1418",
       "player_id": "p1025",
-      "name": "Tim Ryan",
+      "name": "Donald J. Trump",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -158652,10 +158714,16 @@
     {
       "profile_id": "1425",
       "player_id": "p1425",
-      "name": "Trumper",
-      "discord": "",
+      "name": "Zack Polanski",
+      "discord": "trumpsuck0",
       "discord_id": "",
-      "discord_history": [],
+      "discord_history": [
+        {
+          "discord": "trumpsuck0",
+          "discord_id": "",
+          "first_seen": "2026-11-04"
+        }
+      ],
       "party": "dsa",
       "state": "Idaho",
       "is_main": true,
@@ -158726,6 +158794,74 @@
       ],
       "party": "gop",
       "state": "Ohio",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1428",
+      "player_id": "p1425",
+      "name": "Count Binface",
+      "discord": "trumpsuck0",
+      "discord_id": "",
+      "discord_history": [
+        {
+          "discord": "trumpsuck0",
+          "discord_id": "",
+          "first_seen": "2026-11-04"
+        }
+      ],
+      "party": "dsa",
+      "state": "Alabama",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1429",
+      "player_id": "p1425",
+      "name": "Otto Wolly",
+      "discord": "trumpsuck0",
+      "discord_id": "",
+      "discord_history": [
+        {
+          "discord": "trumpsuck0",
+          "discord_id": "",
+          "first_seen": "2026-11-04"
+        }
+      ],
+      "party": "dsa",
+      "state": "Arkansas",
       "is_main": false,
       "on_site": true,
       "counts": {
