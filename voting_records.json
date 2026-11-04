@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T22:56:06+00:00",
+  "generated_at": "2026-11-04T04:55:45+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -15,6 +15,17 @@
     },
     {
       "type": "player",
+      "id": "p1421",
+      "label": ".dawyatt (Kornacki)",
+      "aliases": [
+        ".dawyatt"
+      ],
+      "profile_ids": [
+        "1421"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1146",
       "label": ".dr.doge (Mon Mothma)",
       "aliases": [
@@ -24,6 +35,17 @@
         "1146",
         "1148",
         "1239"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1423",
+      "label": ".gamingpigeon (a)",
+      "aliases": [
+        ".gamingpigeon"
+      ],
+      "profile_ids": [
+        "1423"
       ]
     },
     {
@@ -192,6 +214,15 @@
       "profile_ids": [
         "1174",
         "1175"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1422",
+      "label": "Arthur Eduardo",
+      "aliases": [],
+      "profile_ids": [
+        "1422"
       ]
     },
     {
@@ -1219,7 +1250,7 @@
     {
       "type": "player",
       "id": "p1004",
-      "label": "kewtnury (KATIE HOBBS)",
+      "label": "kewtnury (GINA HINOJOSA)",
       "aliases": [
         "kewtslimnury",
         "americanboydoll",
@@ -1630,6 +1661,17 @@
         "1063",
         "1145",
         "1263"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1420",
+      "label": "plassy06 (Bucky Beasley)",
+      "aliases": [
+        "plassy06"
+      ],
+      "profile_ids": [
+        "1420"
       ]
     },
     {
@@ -2173,6 +2215,12 @@
     },
     {
       "type": "profile",
+      "id": "1423",
+      "label": "a (1423)",
+      "player_id": "p1423"
+    },
+    {
+      "type": "profile",
       "id": "1161",
       "label": "A.C. Tunt (1161)",
       "player_id": "p1161"
@@ -2362,6 +2410,12 @@
       "id": "1040",
       "label": "Arsene Kaviori (1040)",
       "player_id": "p1040"
+    },
+    {
+      "type": "profile",
+      "id": "1422",
+      "label": "Arthur Eduardo (1422)",
+      "player_id": "p1422"
     },
     {
       "type": "profile",
@@ -2572,6 +2626,12 @@
       "id": "1282",
       "label": "brycen naquin (1282)",
       "player_id": "p1282"
+    },
+    {
+      "type": "profile",
+      "id": "1420",
+      "label": "Bucky Beasley (1420)",
+      "player_id": "p1420"
     },
     {
       "type": "profile",
@@ -3127,6 +3187,12 @@
     },
     {
       "type": "profile",
+      "id": "1004",
+      "label": "GINA HINOJOSA (1004)",
+      "player_id": "p1004"
+    },
+    {
+      "type": "profile",
       "id": "1126",
       "label": "Gion G. Glaceon (1126)",
       "player_id": "p1126"
@@ -3637,12 +3703,6 @@
     },
     {
       "type": "profile",
-      "id": "1004",
-      "label": "KATIE HOBBS (1004)",
-      "player_id": "p1004"
-    },
-    {
-      "type": "profile",
       "id": "1302",
       "label": "Kelly Loeffler (1302)",
       "player_id": "p1122"
@@ -3700,6 +3760,12 @@
       "id": "1100",
       "label": "Kirk Cousins (1100)",
       "player_id": "p1100"
+    },
+    {
+      "type": "profile",
+      "id": "1421",
+      "label": "Kornacki (1421)",
+      "player_id": "p1421"
     },
     {
       "type": "profile",
@@ -8711,6 +8777,103 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1421",
+      "conservative_scorecard": {
+        "user_id": "p1421",
+        "player_id": "p1421",
+        "name": "Kornacki",
+        "discord": ".dawyatt",
+        "discord_ids": [
+          "917436700651823134"
+        ],
+        "party": "gop",
+        "state": "Louisiana",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/917436700651823134/39a99a21c5e0d83141060b05297b8e4e.webp",
+        "profiles": [
+          {
+            "profile_id": "1421",
+            "name": "Kornacki",
+            "party": "gop",
+            "state": "Louisiana",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/917436700651823134/39a99a21c5e0d83141060b05297b8e4e.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": ".dawyatt",
+      "discord_current": true,
+      "discord_aliases": [
+        ".dawyatt"
+      ],
+      "discord_ids": [
+        "917436700651823134"
+      ],
+      "name": "Kornacki",
+      "profile_ids": [
+        "1421"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1421",
+          "name": "Kornacki",
+          "party": "gop",
+          "state": "Louisiana",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1146",
       "conservative_scorecard": {
         "user_id": "p1146",
@@ -8831,6 +8994,103 @@
           "party": "grn",
           "state": "Wyoming",
           "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p1423",
+      "conservative_scorecard": {
+        "user_id": "p1423",
+        "player_id": "p1423",
+        "name": "a",
+        "discord": ".gamingpigeon",
+        "discord_ids": [
+          "597162804864221206"
+        ],
+        "party": "dem",
+        "state": "New York",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/597162804864221206/ae5709c295ea0aa0e8493f15b876f26a.webp",
+        "profiles": [
+          {
+            "profile_id": "1423",
+            "name": "a",
+            "party": "dem",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/597162804864221206/ae5709c295ea0aa0e8493f15b876f26a.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": ".gamingpigeon",
+      "discord_current": true,
+      "discord_aliases": [
+        ".gamingpigeon"
+      ],
+      "discord_ids": [
+        "597162804864221206"
+      ],
+      "name": "a",
+      "profile_ids": [
+        "1423"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1423",
+          "name": "a",
+          "party": "dem",
+          "state": "New York",
+          "is_main": true,
           "on_site": true
         }
       ],
@@ -16113,6 +16373,97 @@
           "house_seats": null
         }
       ]
+    },
+    {
+      "player_id": "p1422",
+      "conservative_scorecard": {
+        "user_id": "p1422",
+        "player_id": "p1422",
+        "name": "Arthur Eduardo",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "California",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1422",
+            "name": "Arthur Eduardo",
+            "party": "dem",
+            "state": "California",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Arthur Eduardo",
+      "profile_ids": [
+        "1422"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1422",
+          "name": "Arthur Eduardo",
+          "party": "dem",
+          "state": "California",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
     },
     {
       "player_id": "p1412",
@@ -59398,7 +59749,7 @@
       "conservative_scorecard": {
         "user_id": "p1004",
         "player_id": "p1004",
-        "name": "KATIE HOBBS",
+        "name": "GINA HINOJOSA",
         "discord": "kewtnury",
         "discord_ids": [
           "1460058777125654644"
@@ -59413,7 +59764,7 @@
         "profiles": [
           {
             "profile_id": "1004",
-            "name": "KATIE HOBBS",
+            "name": "GINA HINOJOSA",
             "party": "grn",
             "state": "Pennsylvania",
             "chamber": "Senate",
@@ -59485,7 +59836,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59498,7 +59849,7 @@
             "vote": "nay",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59511,7 +59862,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59524,7 +59875,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59537,7 +59888,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59550,7 +59901,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59563,7 +59914,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59576,7 +59927,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59589,7 +59940,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59602,7 +59953,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59615,7 +59966,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59628,7 +59979,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59641,7 +59992,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59654,7 +60005,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59667,7 +60018,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59680,7 +60031,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59693,7 +60044,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59706,7 +60057,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           },
           {
@@ -59719,7 +60070,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1004",
-            "profile_name": "KATIE HOBBS",
+            "profile_name": "GINA HINOJOSA",
             "chamber": "Senate"
           }
         ],
@@ -59738,7 +60089,7 @@
       "discord_ids": [
         "1460058777125654644"
       ],
-      "name": "KATIE HOBBS",
+      "name": "GINA HINOJOSA",
       "profile_ids": [
         "1004",
         "1013",
@@ -59747,7 +60098,7 @@
       "profiles": [
         {
           "profile_id": "1004",
-          "name": "KATIE HOBBS",
+          "name": "GINA HINOJOSA",
           "party": "grn",
           "state": "Pennsylvania",
           "is_main": true,
@@ -73896,6 +74247,103 @@
           "house_seats": 9
         }
       ]
+    },
+    {
+      "player_id": "p1420",
+      "conservative_scorecard": {
+        "user_id": "p1420",
+        "player_id": "p1420",
+        "name": "Bucky Beasley",
+        "discord": "plassy06",
+        "discord_ids": [
+          "1225650923821600898"
+        ],
+        "party": "independent",
+        "state": "New York",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/1225650923821600898/1e5b1a9f5821c41a30153aa3b3d46655.webp",
+        "profiles": [
+          {
+            "profile_id": "1420",
+            "name": "Bucky Beasley",
+            "party": "independent",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1225650923821600898/1e5b1a9f5821c41a30153aa3b3d46655.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "plassy06",
+      "discord_current": true,
+      "discord_aliases": [
+        "plassy06"
+      ],
+      "discord_ids": [
+        "1225650923821600898"
+      ],
+      "name": "Bucky Beasley",
+      "profile_ids": [
+        "1420"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1420",
+          "name": "Bucky Beasley",
+          "party": "Independent",
+          "state": "New York",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
     },
     {
       "player_id": "p1389",
@@ -95338,7 +95786,7 @@
     {
       "profile_id": "1004",
       "player_id": "p1004",
-      "name": "KATIE HOBBS",
+      "name": "GINA HINOJOSA",
       "discord": "kewtnury",
       "discord_id": "1460058777125654644",
       "discord_history": [
@@ -157739,6 +158187,136 @@
         }
       ],
       "party": "Independent",
+      "state": "New York",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1420",
+      "player_id": "p1420",
+      "name": "Bucky Beasley",
+      "discord": "plassy06",
+      "discord_id": "1225650923821600898",
+      "discord_history": [
+        {
+          "discord": "plassy06",
+          "discord_id": "1225650923821600898",
+          "first_seen": "2026-11-04"
+        }
+      ],
+      "party": "Independent",
+      "state": "New York",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1421",
+      "player_id": "p1421",
+      "name": "Kornacki",
+      "discord": ".dawyatt",
+      "discord_id": "917436700651823134",
+      "discord_history": [
+        {
+          "discord": ".dawyatt",
+          "discord_id": "917436700651823134",
+          "first_seen": "2026-11-04"
+        }
+      ],
+      "party": "gop",
+      "state": "Louisiana",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1422",
+      "player_id": "p1422",
+      "name": "Arthur Eduardo",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "California",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1423",
+      "player_id": "p1423",
+      "name": "a",
+      "discord": ".gamingpigeon",
+      "discord_id": "597162804864221206",
+      "discord_history": [
+        {
+          "discord": ".gamingpigeon",
+          "discord_id": "597162804864221206",
+          "first_seen": "2026-11-04"
+        }
+      ],
+      "party": "dem",
       "state": "New York",
       "is_main": true,
       "on_site": true,
