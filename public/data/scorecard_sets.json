@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T05:13:41+00:00",
+  "generated_at": "2026-11-05T14:01:04+00:00",
   "default_set": "conservative",
   "sets": [
     {
@@ -39303,6 +39303,19 @@
               "offices": [],
               "office": "",
               "office_count": 0
+            },
+            {
+              "profile_id": "1437",
+              "name": "Iran cat",
+              "party": "grn",
+              "state": "New Hampshire",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/1390846237288169652/54ae99a07c17e29b7dab470c621c785a.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
             }
           ],
           "scores": {
@@ -60981,7 +60994,7 @@
           "chambers": [
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/1659cbc09914a1fb27d8e77dc00d28fa.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/22b9133564039609d41da6b73d52c3f3.webp",
           "profiles": [
             {
               "profile_id": "1298",
@@ -60989,7 +61002,7 @@
               "party": "cst",
               "state": "Georgia",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/1659cbc09914a1fb27d8e77dc00d28fa.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/22b9133564039609d41da6b73d52c3f3.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -61002,7 +61015,7 @@
               "party": "cst",
               "state": "Alabama",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/1659cbc09914a1fb27d8e77dc00d28fa.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/22b9133564039609d41da6b73d52c3f3.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -61015,7 +61028,7 @@
               "party": "cst",
               "state": "Georgia",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/1659cbc09914a1fb27d8e77dc00d28fa.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/22b9133564039609d41da6b73d52c3f3.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -62138,7 +62151,7 @@
           "chambers": [
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/6c00d23410d7b5f554d47447ad60d2ca.webp",
           "profiles": [
             {
               "profile_id": "1188",
@@ -62146,7 +62159,7 @@
               "party": "dem",
               "state": "Puerto Rico",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/6c00d23410d7b5f554d47447ad60d2ca.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -62159,7 +62172,7 @@
               "party": "dem",
               "state": "Washington",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/6c00d23410d7b5f554d47447ad60d2ca.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -62172,7 +62185,7 @@
               "party": "dem",
               "state": "South Carolina",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/6c00d23410d7b5f554d47447ad60d2ca.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -62600,7 +62613,7 @@
           "chambers": [
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/c1c958e3efdfb3dc8f25708320e6ee5d.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/61ac9f8e3bf4b343b0d8a17d60474c30.webp",
           "profiles": [
             {
               "profile_id": "1186",
@@ -62608,7 +62621,7 @@
               "party": "gop",
               "state": "New Mexico",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/c1c958e3efdfb3dc8f25708320e6ee5d.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/61ac9f8e3bf4b343b0d8a17d60474c30.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -62621,7 +62634,7 @@
               "party": "gop",
               "state": "Virginia",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/c1c958e3efdfb3dc8f25708320e6ee5d.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/61ac9f8e3bf4b343b0d8a17d60474c30.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -62634,7 +62647,7 @@
               "party": "gop",
               "state": "Kentucky",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/c1c958e3efdfb3dc8f25708320e6ee5d.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/61ac9f8e3bf4b343b0d8a17d60474c30.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -62866,7 +62879,7 @@
             "Other",
             "Senate"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a4707adc99dc25c8d1b6d3e5f6c38465.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a_ca7022cab0f0555e39556a355ad8d61e.gif",
           "profiles": [
             {
               "profile_id": "1333",
@@ -62874,7 +62887,7 @@
               "party": "gop",
               "state": "Georgia",
               "chamber": "House",
-              "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a4707adc99dc25c8d1b6d3e5f6c38465.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a_ca7022cab0f0555e39556a355ad8d61e.gif",
               "is_main": true,
               "on_site": true,
               "offices": [
@@ -62889,7 +62902,7 @@
               "party": "gop",
               "state": "Ohio",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a4707adc99dc25c8d1b6d3e5f6c38465.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a_ca7022cab0f0555e39556a355ad8d61e.gif",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -62902,7 +62915,7 @@
               "party": "gop",
               "state": "West Virginia",
               "chamber": "Senate",
-              "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a4707adc99dc25c8d1b6d3e5f6c38465.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a_ca7022cab0f0555e39556a355ad8d61e.gif",
               "is_main": false,
               "on_site": true,
               "offices": [
@@ -66624,6 +66637,88 @@
           "has_office": false
         },
         {
+          "user_id": "p1431",
+          "player_id": "p1431",
+          "name": "Mike Rogers",
+          "discord": ".albert_wesker",
+          "discord_ids": [
+            "475886580746158091"
+          ],
+          "party": "gop",
+          "state": "North Carolina",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/475886580746158091/bfbe3b8068f0a665fc1f05123c99a521.webp",
+          "profiles": [
+            {
+              "profile_id": "1431",
+              "name": "Mike Rogers",
+              "party": "gop",
+              "state": "North Carolina",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/475886580746158091/bfbe3b8068f0a665fc1f05123c99a521.webp",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1435",
+              "name": "Eric Hovde",
+              "party": "gop",
+              "state": "Nevada",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/475886580746158091/bfbe3b8068f0a665fc1f05123c99a521.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1436",
+              "name": "Brandon Herrera",
+              "party": "gop",
+              "state": "Georgia",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/475886580746158091/bfbe3b8068f0a665fc1f05123c99a521.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
           "user_id": "p1385",
           "player_id": "p1385",
           "name": "Mohamed Adam",
@@ -67546,6 +67641,88 @@
               "chamber": "Other",
               "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
               "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p1432",
+          "player_id": "p1432",
+          "name": "Raymond Reddington",
+          "discord": "benhphillips",
+          "discord_ids": [
+            "516835675405025331"
+          ],
+          "party": "gop",
+          "state": "Oklahoma",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/516835675405025331/a_4fba85231d96f0ebf2457c08f842cd1e.gif",
+          "profiles": [
+            {
+              "profile_id": "1432",
+              "name": "Raymond Reddington",
+              "party": "gop",
+              "state": "Oklahoma",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/516835675405025331/a_4fba85231d96f0ebf2457c08f842cd1e.gif",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1433",
+              "name": "Ada Wong",
+              "party": "gop",
+              "state": "Oklahoma",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/516835675405025331/a_4fba85231d96f0ebf2457c08f842cd1e.gif",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1434",
+              "name": "Albert Wesker",
+              "party": "gop",
+              "state": "Tennessee",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/516835675405025331/a_4fba85231d96f0ebf2457c08f842cd1e.gif",
+              "is_main": false,
               "on_site": true,
               "offices": [],
               "office": "",
@@ -105520,6 +105697,19 @@
               "offices": [],
               "office": "",
               "office_count": 0
+            },
+            {
+              "profile_id": "1437",
+              "name": "Iran cat",
+              "party": "grn",
+              "state": "New Hampshire",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/1390846237288169652/54ae99a07c17e29b7dab470c621c785a.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
             }
           ],
           "scores": {
@@ -113571,7 +113761,7 @@
           "chambers": [
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/1659cbc09914a1fb27d8e77dc00d28fa.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/22b9133564039609d41da6b73d52c3f3.webp",
           "profiles": [
             {
               "profile_id": "1298",
@@ -113579,7 +113769,7 @@
               "party": "cst",
               "state": "Georgia",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/1659cbc09914a1fb27d8e77dc00d28fa.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/22b9133564039609d41da6b73d52c3f3.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -113592,7 +113782,7 @@
               "party": "cst",
               "state": "Alabama",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/1659cbc09914a1fb27d8e77dc00d28fa.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/22b9133564039609d41da6b73d52c3f3.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -113605,7 +113795,7 @@
               "party": "cst",
               "state": "Georgia",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/1659cbc09914a1fb27d8e77dc00d28fa.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/219696413292888064/22b9133564039609d41da6b73d52c3f3.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -114728,7 +114918,7 @@
           "chambers": [
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/6c00d23410d7b5f554d47447ad60d2ca.webp",
           "profiles": [
             {
               "profile_id": "1188",
@@ -114736,7 +114926,7 @@
               "party": "dem",
               "state": "Puerto Rico",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/6c00d23410d7b5f554d47447ad60d2ca.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -114749,7 +114939,7 @@
               "party": "dem",
               "state": "Washington",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/6c00d23410d7b5f554d47447ad60d2ca.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -114762,7 +114952,7 @@
               "party": "dem",
               "state": "South Carolina",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/f6c50783b99497ca07736dc5c3568c30.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/6c00d23410d7b5f554d47447ad60d2ca.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -115190,7 +115380,7 @@
           "chambers": [
             "Other"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/c1c958e3efdfb3dc8f25708320e6ee5d.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/61ac9f8e3bf4b343b0d8a17d60474c30.webp",
           "profiles": [
             {
               "profile_id": "1186",
@@ -115198,7 +115388,7 @@
               "party": "gop",
               "state": "New Mexico",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/c1c958e3efdfb3dc8f25708320e6ee5d.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/61ac9f8e3bf4b343b0d8a17d60474c30.webp",
               "is_main": true,
               "on_site": true,
               "offices": [],
@@ -115211,7 +115401,7 @@
               "party": "gop",
               "state": "Virginia",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/c1c958e3efdfb3dc8f25708320e6ee5d.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/61ac9f8e3bf4b343b0d8a17d60474c30.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -115224,7 +115414,7 @@
               "party": "gop",
               "state": "Kentucky",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/c1c958e3efdfb3dc8f25708320e6ee5d.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/774441702147883059/61ac9f8e3bf4b343b0d8a17d60474c30.webp",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -115442,7 +115632,7 @@
             "Other",
             "Senate"
           ],
-          "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a4707adc99dc25c8d1b6d3e5f6c38465.webp",
+          "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a_ca7022cab0f0555e39556a355ad8d61e.gif",
           "profiles": [
             {
               "profile_id": "1333",
@@ -115450,7 +115640,7 @@
               "party": "gop",
               "state": "Georgia",
               "chamber": "House",
-              "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a4707adc99dc25c8d1b6d3e5f6c38465.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a_ca7022cab0f0555e39556a355ad8d61e.gif",
               "is_main": true,
               "on_site": true,
               "offices": [
@@ -115465,7 +115655,7 @@
               "party": "gop",
               "state": "Ohio",
               "chamber": "Other",
-              "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a4707adc99dc25c8d1b6d3e5f6c38465.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a_ca7022cab0f0555e39556a355ad8d61e.gif",
               "is_main": false,
               "on_site": true,
               "offices": [],
@@ -115478,7 +115668,7 @@
               "party": "gop",
               "state": "West Virginia",
               "chamber": "Senate",
-              "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a4707adc99dc25c8d1b6d3e5f6c38465.webp",
+              "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a_ca7022cab0f0555e39556a355ad8d61e.gif",
               "is_main": false,
               "on_site": true,
               "offices": [
@@ -119172,6 +119362,88 @@
           "has_office": false
         },
         {
+          "user_id": "p1431",
+          "player_id": "p1431",
+          "name": "Mike Rogers",
+          "discord": ".albert_wesker",
+          "discord_ids": [
+            "475886580746158091"
+          ],
+          "party": "gop",
+          "state": "North Carolina",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/475886580746158091/bfbe3b8068f0a665fc1f05123c99a521.webp",
+          "profiles": [
+            {
+              "profile_id": "1431",
+              "name": "Mike Rogers",
+              "party": "gop",
+              "state": "North Carolina",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/475886580746158091/bfbe3b8068f0a665fc1f05123c99a521.webp",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1435",
+              "name": "Eric Hovde",
+              "party": "gop",
+              "state": "Nevada",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/475886580746158091/bfbe3b8068f0a665fc1f05123c99a521.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1436",
+              "name": "Brandon Herrera",
+              "party": "gop",
+              "state": "Georgia",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/475886580746158091/bfbe3b8068f0a665fc1f05123c99a521.webp",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
           "user_id": "p1385",
           "player_id": "p1385",
           "name": "Mohamed Adam",
@@ -120094,6 +120366,88 @@
               "chamber": "Other",
               "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
               "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            }
+          ],
+          "scores": {
+            "social": null,
+            "economic": null,
+            "foreign": null,
+            "overall": null,
+            "tier": "N/A"
+          },
+          "sample_size": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0,
+            "overall": 0
+          },
+          "aligned_votes": {
+            "social": 0,
+            "economic": 0,
+            "foreign": 0
+          },
+          "provisions_scored": 0,
+          "aligned_provisions": 0,
+          "finalized_bills_voted": 0,
+          "bill_details": [],
+          "eligible_for_grade": false,
+          "offices_held": 0,
+          "office_count": 0,
+          "has_office": false
+        },
+        {
+          "user_id": "p1432",
+          "player_id": "p1432",
+          "name": "Raymond Reddington",
+          "discord": "benhphillips",
+          "discord_ids": [
+            "516835675405025331"
+          ],
+          "party": "gop",
+          "state": "Oklahoma",
+          "chambers": [
+            "Other"
+          ],
+          "avatar": "https://cdn.discordapp.com/avatars/516835675405025331/a_4fba85231d96f0ebf2457c08f842cd1e.gif",
+          "profiles": [
+            {
+              "profile_id": "1432",
+              "name": "Raymond Reddington",
+              "party": "gop",
+              "state": "Oklahoma",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/516835675405025331/a_4fba85231d96f0ebf2457c08f842cd1e.gif",
+              "is_main": true,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1433",
+              "name": "Ada Wong",
+              "party": "gop",
+              "state": "Oklahoma",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/516835675405025331/a_4fba85231d96f0ebf2457c08f842cd1e.gif",
+              "is_main": false,
+              "on_site": true,
+              "offices": [],
+              "office": "",
+              "office_count": 0
+            },
+            {
+              "profile_id": "1434",
+              "name": "Albert Wesker",
+              "party": "gop",
+              "state": "Tennessee",
+              "chamber": "Other",
+              "avatar": "https://cdn.discordapp.com/avatars/516835675405025331/a_4fba85231d96f0ebf2457c08f842cd1e.gif",
+              "is_main": false,
               "on_site": true,
               "offices": [],
               "office": "",

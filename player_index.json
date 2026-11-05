@@ -13049,5 +13049,138 @@
     "state": "Ohio",
     "last_seen": "2026-11-05",
     "on_site": true
+  },
+  "1431": {
+    "profile_id": "1431",
+    "player_id": "p1431",
+    "first_seen": "2026-11-05",
+    "discord_history": [
+      {
+        "discord": ".albert_wesker",
+        "discord_id": "475886580746158091",
+        "first_seen": "2026-11-05"
+      }
+    ],
+    "name": "Mike Rogers",
+    "discord": ".albert_wesker",
+    "discord_id": "475886580746158091",
+    "party": "gop",
+    "state": "North Carolina",
+    "last_seen": "2026-11-05",
+    "on_site": true
+  },
+  "1432": {
+    "profile_id": "1432",
+    "player_id": "p1432",
+    "first_seen": "2026-11-05",
+    "discord_history": [
+      {
+        "discord": "benhphillips",
+        "discord_id": "516835675405025331",
+        "first_seen": "2026-11-05"
+      }
+    ],
+    "name": "Raymond Reddington",
+    "discord": "benhphillips",
+    "discord_id": "516835675405025331",
+    "party": "gop",
+    "state": "Oklahoma",
+    "last_seen": "2026-11-05",
+    "on_site": true
+  },
+  "1433": {
+    "profile_id": "1433",
+    "player_id": "p1432",
+    "first_seen": "2026-11-05",
+    "discord_history": [
+      {
+        "discord": "benhphillips",
+        "discord_id": "516835675405025331",
+        "first_seen": "2026-11-05"
+      }
+    ],
+    "name": "Ada Wong",
+    "discord": "benhphillips",
+    "discord_id": "516835675405025331",
+    "party": "gop",
+    "state": "Oklahoma",
+    "last_seen": "2026-11-05",
+    "on_site": true
+  },
+  "1434": {
+    "profile_id": "1434",
+    "player_id": "p1432",
+    "first_seen": "2026-11-05",
+    "discord_history": [
+      {
+        "discord": "benhphillips",
+        "discord_id": "516835675405025331",
+        "first_seen": "2026-11-05"
+      }
+    ],
+    "name": "Albert Wesker",
+    "discord": "benhphillips",
+    "discord_id": "516835675405025331",
+    "party": "gop",
+    "state": "Tennessee",
+    "last_seen": "2026-11-05",
+    "on_site": true
+  },
+  "1435": {
+    "profile_id": "1435",
+    "player_id": "p1431",
+    "first_seen": "2026-11-05",
+    "discord_history": [
+      {
+        "discord": ".albert_wesker",
+        "discord_id": "475886580746158091",
+        "first_seen": "2026-11-05"
+      }
+    ],
+    "name": "Eric Hovde",
+    "discord": ".albert_wesker",
+    "discord_id": "475886580746158091",
+    "party": "gop",
+    "state": "Nevada",
+    "last_seen": "2026-11-05",
+    "on_site": true
+  },
+  "1436": {
+    "profile_id": "1436",
+    "player_id": "p1431",
+    "first_seen": "2026-11-05",
+    "discord_history": [
+      {
+        "discord": ".albert_wesker",
+        "discord_id": "475886580746158091",
+        "first_seen": "2026-11-05"
+      }
+    ],
+    "name": "Brandon Herrera",
+    "discord": ".albert_wesker",
+    "discord_id": "475886580746158091",
+    "party": "gop",
+    "state": "Georgia",
+    "last_seen": "2026-11-05",
+    "on_site": true
+  },
+  "1437": {
+    "profile_id": "1437",
+    "player_id": "p1018",
+    "first_seen": "2026-11-05",
+    "discord_history": [
+      {
+        "discord": "roginality",
+        "discord_id": "1390846237288169652",
+        "first_seen": "2026-11-05"
+      }
+    ],
+    "name": "Iran cat",
+    "discord": "roginality",
+    "discord_id": "1390846237288169652",
+    "party": "grn",
+    "state": "New Hampshire",
+    "last_seen": "2026-11-05",
+    "on_site": true
   }
 }

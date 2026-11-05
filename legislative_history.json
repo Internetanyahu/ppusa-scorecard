@@ -5381,13 +5381,14 @@
   },
   {
     "player_id": "p1018",
-    "name": "Cleveland Green Jr.",
+    "name": "Iran cat",
     "discord": "roginality",
     "profiles": [
       "1070",
       "1018",
       "1267",
-      "1351"
+      "1351",
+      "1437"
     ],
     "bills": [
       {
@@ -45984,6 +45985,30 @@
       "1426",
       "1427",
       "1430"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1431",
+    "name": "Brandon Herrera",
+    "discord": ".albert_wesker",
+    "profiles": [
+      "1431",
+      "1435",
+      "1436"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1432",
+    "name": "Albert Wesker",
+    "discord": "benhphillips",
+    "profiles": [
+      "1432",
+      "1433",
+      "1434"
     ],
     "bills": [],
     "bill_count": 0
