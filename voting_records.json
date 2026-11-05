@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:14:53+00:00",
+  "generated_at": "2026-11-05T05:13:41+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -339,7 +339,8 @@
       ],
       "profile_ids": [
         "1426",
-        "1427"
+        "1427",
+        "1430"
       ]
     },
     {
@@ -1474,7 +1475,7 @@
     {
       "type": "player",
       "id": "p1044",
-      "label": "mcal4876 (Dan A. Sullivan)",
+      "label": "mcal4876 (Brian Miller)",
       "aliases": [
         "mcal4876"
       ],
@@ -1769,7 +1770,7 @@
     {
       "type": "player",
       "id": "p1018",
-      "label": "roginality (Dolpho LaGreen)",
+      "label": "roginality (David Allan Coe)",
       "aliases": [
         "roginality"
       ],
@@ -2637,6 +2638,12 @@
     },
     {
       "type": "profile",
+      "id": "1044",
+      "label": "Brian Miller (1044)",
+      "player_id": "p1044"
+    },
+    {
+      "type": "profile",
       "id": "1399",
       "label": "Brian Smith (1399)",
       "player_id": "p1399"
@@ -2835,27 +2842,9 @@
     },
     {
       "type": "profile",
-      "id": "1044",
-      "label": "Dan A. Sullivan (1044)",
-      "player_id": "p1044"
-    },
-    {
-      "type": "profile",
-      "id": "1061",
-      "label": "Dan J. Sullivan (1061)",
-      "player_id": "p1044"
-    },
-    {
-      "type": "profile",
       "id": "1373",
       "label": "Dan Quayle (1373)",
       "player_id": "p1373"
-    },
-    {
-      "type": "profile",
-      "id": "1198",
-      "label": "Dan S. Sullivan (1198)",
-      "player_id": "p1044"
     },
     {
       "type": "profile",
@@ -2946,12 +2935,6 @@
       "id": "1092",
       "label": "Don Blankenship (1092)",
       "player_id": "p1089"
-    },
-    {
-      "type": "profile",
-      "id": "1418",
-      "label": "Donald J. Trump (1418)",
-      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -3423,6 +3406,12 @@
     },
     {
       "type": "profile",
+      "id": "1198",
+      "label": "James Russell (1198)",
+      "player_id": "p1044"
+    },
+    {
+      "type": "profile",
       "id": "1064",
       "label": "James Talarico (1064)",
       "player_id": "p1064"
@@ -3642,6 +3631,12 @@
       "id": "1376",
       "label": "John Stone (1376)",
       "player_id": "p1376"
+    },
+    {
+      "type": "profile",
+      "id": "1430",
+      "label": "Jon Husted (1430)",
+      "player_id": "p1426"
     },
     {
       "type": "profile",
@@ -4134,6 +4129,12 @@
       "id": "1247",
       "label": "Nelson Sorel (1247)",
       "player_id": "p1005"
+    },
+    {
+      "type": "profile",
+      "id": "1418",
+      "label": "Nicholas J. Fuentes (1418)",
+      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -4668,6 +4669,12 @@
       "id": "1052",
       "label": "Tommy Tuberville (1052)",
       "player_id": "p1050"
+    },
+    {
+      "type": "profile",
+      "id": "1061",
+      "label": "Trygve Hammer (1061)",
+      "player_id": "p1044"
     },
     {
       "type": "profile",
@@ -16537,7 +16544,7 @@
         "discord_ids": [
           "385619017215508481"
         ],
-        "party": "independent",
+        "party": "dsa",
         "state": "Indiana",
         "chambers": [
           "Other"
@@ -16547,7 +16554,7 @@
           {
             "profile_id": "1412",
             "name": "Vertin",
-            "party": "independent",
+            "party": "dsa",
             "state": "Indiana",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/385619017215508481/cf5e956b8a3c11b81db16245c9565a05.webp",
@@ -16601,7 +16608,7 @@
         {
           "profile_id": "1412",
           "name": "Vertin",
-          "party": "Independent",
+          "party": "dsa",
           "state": "Indiana",
           "is_main": true,
           "on_site": true
@@ -19581,6 +19588,19 @@
             "offices": [],
             "office": "",
             "office_count": 0
+          },
+          {
+            "profile_id": "1430",
+            "name": "Jon Husted",
+            "party": "gop",
+            "state": "Ohio",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/899216850762743848/a_7355ec75f9d02b3b39bcff1557b62a20.gif",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
           }
         ],
         "scores": {
@@ -19621,7 +19641,8 @@
       "name": "Vivek Ramaswamy",
       "profile_ids": [
         "1426",
-        "1427"
+        "1427",
+        "1430"
       ],
       "profiles": [
         {
@@ -19635,6 +19656,14 @@
         {
           "profile_id": "1427",
           "name": "Justin Bibb",
+          "party": "gop",
+          "state": "Ohio",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1430",
+          "name": "Jon Husted",
           "party": "gop",
           "state": "Ohio",
           "is_main": false,
@@ -21211,7 +21240,7 @@
           "1456055534909259928"
         ],
         "party": "dem",
-        "state": "Pennsylvania",
+        "state": "Michigan",
         "chambers": [
           "House",
           "Senate"
@@ -21222,7 +21251,7 @@
             "profile_id": "1043",
             "name": "Robert Kennedy Jr.",
             "party": "dem",
-            "state": "Pennsylvania",
+            "state": "Michigan",
             "chamber": "House",
             "avatar": "https://cdn.discordapp.com/avatars/1456055534909259928/aca87a298e1b0eeb72d64c88a8615dc0.webp",
             "is_main": true,
@@ -21831,7 +21860,7 @@
           "profile_id": "1043",
           "name": "Robert Kennedy Jr.",
           "party": "dem",
-          "state": "Pennsylvania",
+          "state": "Michigan",
           "is_main": true,
           "on_site": true
         },
@@ -53211,7 +53240,7 @@
             "profile_id": "1197",
             "name": "Loretta Lynn",
             "party": "independent",
-            "state": "Tennessee",
+            "state": "Virginia",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1550268928704385105/0df653636d93d7592c184d1af22a36fd.webp",
             "is_main": false,
@@ -53726,7 +53755,7 @@
           "profile_id": "1197",
           "name": "Loretta Lynn",
           "party": "Independent",
-          "state": "Tennessee",
+          "state": "Virginia",
           "is_main": false,
           "on_site": true
         }
@@ -60842,7 +60871,7 @@
             "profile_id": "1358",
             "name": "Dannii Minogue",
             "party": "dem",
-            "state": "West Virginia",
+            "state": "Connecticut",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1412134134158987527/f75940f823105fcc0c92c56c72d080f9.webp",
             "is_main": false,
@@ -61136,7 +61165,7 @@
           "profile_id": "1358",
           "name": "Dannii Minogue",
           "party": "dem",
-          "state": "West Virginia",
+          "state": "Connecticut",
           "is_main": false,
           "on_site": true
         }
@@ -65283,7 +65312,7 @@
       "conservative_scorecard": {
         "user_id": "p1044",
         "player_id": "p1044",
-        "name": "Dan A. Sullivan",
+        "name": "Brian Miller",
         "discord": "mcal4876",
         "discord_ids": [
           "1470138832044167178"
@@ -65298,7 +65327,7 @@
         "profiles": [
           {
             "profile_id": "1044",
-            "name": "Dan A. Sullivan",
+            "name": "Brian Miller",
             "party": "dem",
             "state": "Montana",
             "chamber": "Senate",
@@ -65313,7 +65342,7 @@
           },
           {
             "profile_id": "1061",
-            "name": "Dan J. Sullivan",
+            "name": "Trygve Hammer",
             "party": "dem",
             "state": "North Dakota",
             "chamber": "House",
@@ -65328,7 +65357,7 @@
           },
           {
             "profile_id": "1198",
-            "name": "Dan S. Sullivan",
+            "name": "James Russell",
             "party": "dem",
             "state": "Arkansas",
             "chamber": "Senate",
@@ -65374,7 +65403,7 @@
             "vote": "nay",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65387,7 +65416,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65400,7 +65429,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65413,7 +65442,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65426,7 +65455,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65439,7 +65468,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65452,7 +65481,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65465,7 +65494,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65478,7 +65507,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65491,7 +65520,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65504,7 +65533,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65517,7 +65546,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65530,7 +65559,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65543,7 +65572,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65556,7 +65585,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65569,7 +65598,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65582,7 +65611,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65595,7 +65624,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65608,7 +65637,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65621,7 +65650,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65634,7 +65663,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65647,7 +65676,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65660,7 +65689,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65673,7 +65702,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65686,7 +65715,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "Senate"
           },
           {
@@ -65699,7 +65728,7 @@
             "vote": "nay",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65712,7 +65741,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65725,7 +65754,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65738,7 +65767,7 @@
             "vote": "aye",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65751,7 +65780,7 @@
             "vote": "aye",
             "aligned": true,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "Senate"
           },
           {
@@ -65764,7 +65793,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65777,7 +65806,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65790,7 +65819,7 @@
             "vote": "nay",
             "aligned": true,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "House"
           },
           {
@@ -65803,7 +65832,7 @@
             "vote": "nay",
             "aligned": false,
             "profile_id": "1061",
-            "profile_name": "Dan J. Sullivan",
+            "profile_name": "Trygve Hammer",
             "chamber": "Senate"
           }
         ],
@@ -65820,7 +65849,7 @@
       "discord_ids": [
         "1470138832044167178"
       ],
-      "name": "Dan A. Sullivan",
+      "name": "Brian Miller",
       "profile_ids": [
         "1044",
         "1061",
@@ -65829,7 +65858,7 @@
       "profiles": [
         {
           "profile_id": "1044",
-          "name": "Dan A. Sullivan",
+          "name": "Brian Miller",
           "party": "dem",
           "state": "Montana",
           "is_main": true,
@@ -65837,7 +65866,7 @@
         },
         {
           "profile_id": "1061",
-          "name": "Dan J. Sullivan",
+          "name": "Trygve Hammer",
           "party": "dem",
           "state": "North Dakota",
           "is_main": false,
@@ -65845,7 +65874,7 @@
         },
         {
           "profile_id": "1198",
-          "name": "Dan S. Sullivan",
+          "name": "James Russell",
           "party": "dem",
           "state": "Arkansas",
           "is_main": false,
@@ -67527,7 +67556,7 @@
             "profile_id": "1154",
             "name": "Elon Musk",
             "party": "dem",
-            "state": "Arizona",
+            "state": "Georgia",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1385738660846112798/566cf24ede266e119abb471ce7632358.webp",
             "is_main": false,
@@ -67604,7 +67633,7 @@
           "profile_id": "1154",
           "name": "Elon Musk",
           "party": "dem",
-          "state": "Arizona",
+          "state": "Georgia",
           "is_main": false,
           "on_site": true
         },
@@ -75404,13 +75433,13 @@
       "conservative_scorecard": {
         "user_id": "p1018",
         "player_id": "p1018",
-        "name": "Dolpho LaGreen",
+        "name": "David Allan Coe",
         "discord": "roginality",
         "discord_ids": [
           "1390846237288169652"
         ],
         "party": "grn",
-        "state": "New Hampshire",
+        "state": "Connecticut",
         "chambers": [
           "Other",
           "Senate"
@@ -75418,13 +75447,26 @@
         "avatar": "https://cdn.discordapp.com/avatars/1390846237288169652/54ae99a07c17e29b7dab470c621c785a.webp",
         "profiles": [
           {
+            "profile_id": "1267",
+            "name": "David Allan Coe",
+            "party": "grn",
+            "state": "Connecticut",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1390846237288169652/54ae99a07c17e29b7dab470c621c785a.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
             "profile_id": "1018",
             "name": "Dolpho LaGreen",
             "party": "grn",
             "state": "New Hampshire",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1390846237288169652/54ae99a07c17e29b7dab470c621c785a.webp",
-            "is_main": true,
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
             "on_site": true,
             "offices": [],
             "office": "",
@@ -75444,19 +75486,6 @@
             ],
             "office": "House",
             "office_count": 1
-          },
-          {
-            "profile_id": "1267",
-            "name": "David Allan Coe",
-            "party": "grn",
-            "state": "Connecticut",
-            "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1390846237288169652/54ae99a07c17e29b7dab470c621c785a.webp",
-            "is_main": false,
-            "on_site": true,
-            "offices": [],
-            "office": "",
-            "office_count": 0
           },
           {
             "profile_id": "1351",
@@ -75846,7 +75875,7 @@
       "discord_ids": [
         "1390846237288169652"
       ],
-      "name": "Dolpho LaGreen",
+      "name": "David Allan Coe",
       "profile_ids": [
         "1018",
         "1070",
@@ -75859,7 +75888,7 @@
           "name": "Dolpho LaGreen",
           "party": "grn",
           "state": "New Hampshire",
-          "is_main": true,
+          "is_main": false,
           "on_site": true
         },
         {
@@ -75875,7 +75904,7 @@
           "name": "David Allan Coe",
           "party": "grn",
           "state": "Connecticut",
-          "is_main": false,
+          "is_main": true,
           "on_site": true
         },
         {
@@ -78968,7 +78997,7 @@
           "Other",
           "Senate"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/89ee8dc6172e125cba72869dd907da1f.webp",
         "profiles": [
           {
             "profile_id": "1049",
@@ -78976,7 +79005,7 @@
             "party": "cst",
             "state": "Alabama",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/89ee8dc6172e125cba72869dd907da1f.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -78989,7 +79018,7 @@
             "party": "cst",
             "state": "Hawaii",
             "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/89ee8dc6172e125cba72869dd907da1f.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -79004,7 +79033,7 @@
             "party": "cst",
             "state": "Louisiana",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/8ed4518175ee43f843ad2e3ee942c0a7.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1287952630173138974/89ee8dc6172e125cba72869dd907da1f.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -81775,7 +81804,7 @@
           },
           {
             "profile_id": "1418",
-            "name": "Donald J. Trump",
+            "name": "Nicholas J. Fuentes",
             "party": "gop",
             "state": "Virginia",
             "chamber": "Other",
@@ -82222,7 +82251,7 @@
         },
         {
           "profile_id": "1418",
-          "name": "Donald J. Trump",
+          "name": "Nicholas J. Fuentes",
           "party": "gop",
           "state": "Virginia",
           "is_main": false,
@@ -99032,8 +99061,8 @@
       "profile_id": "1018",
       "player_id": "p1018",
       "name": "Dolpho LaGreen",
-      "discord": "roginality",
-      "discord_id": "1390846237288169652",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "roginality",
@@ -99054,11 +99083,16 @@
           "discord": "roginality",
           "discord_id": "1390846237288169652",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-11-05"
         }
       ],
       "party": "grn",
       "state": "New Hampshire",
-      "is_main": true,
+      "is_main": false,
       "on_site": true,
       "counts": {
         "bills": 0,
@@ -108813,7 +108847,7 @@
         }
       ],
       "party": "dem",
-      "state": "Pennsylvania",
+      "state": "Michigan",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -109227,7 +109261,7 @@
     {
       "profile_id": "1044",
       "player_id": "p1044",
-      "name": "Dan A. Sullivan",
+      "name": "Brian Miller",
       "discord": "mcal4876",
       "discord_id": "1470138832044167178",
       "discord_history": [
@@ -112491,7 +112525,7 @@
     {
       "profile_id": "1061",
       "player_id": "p1044",
-      "name": "Dan J. Sullivan",
+      "name": "Trygve Hammer",
       "discord": "mcal4876",
       "discord_id": "1470138832044167178",
       "discord_history": [
@@ -133426,7 +133460,7 @@
         }
       ],
       "party": "dem",
-      "state": "Arizona",
+      "state": "Georgia",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -140501,7 +140535,7 @@
         }
       ],
       "party": "Independent",
-      "state": "Tennessee",
+      "state": "Virginia",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -140524,7 +140558,7 @@
     {
       "profile_id": "1198",
       "player_id": "p1044",
-      "name": "Dan S. Sullivan",
+      "name": "James Russell",
       "discord": "mcal4876",
       "discord_id": "1470138832044167178",
       "discord_history": [
@@ -148139,7 +148173,7 @@
       ],
       "party": "grn",
       "state": "Connecticut",
-      "is_main": false,
+      "is_main": true,
       "on_site": true,
       "counts": {
         "bills": 0,
@@ -156466,7 +156500,7 @@
         }
       ],
       "party": "dem",
-      "state": "West Virginia",
+      "state": "Connecticut",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -158300,7 +158334,7 @@
           "first_seen": "2026-11-02"
         }
       ],
-      "party": "Independent",
+      "party": "dsa",
       "state": "Indiana",
       "is_main": true,
       "on_site": true,
@@ -158482,7 +158516,7 @@
     {
       "profile_id": "1418",
       "player_id": "p1025",
-      "name": "Donald J. Trump",
+      "name": "Nicholas J. Fuentes",
       "discord": "trumpquest",
       "discord_id": "961355935496953956",
       "discord_history": [
@@ -158862,6 +158896,40 @@
       ],
       "party": "dsa",
       "state": "Arkansas",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1430",
+      "player_id": "p1426",
+      "name": "Jon Husted",
+      "discord": "bloxguy5433",
+      "discord_id": "899216850762743848",
+      "discord_history": [
+        {
+          "discord": "bloxguy5433",
+          "discord_id": "899216850762743848",
+          "first_seen": "2026-11-05"
+        }
+      ],
+      "party": "gop",
+      "state": "Ohio",
       "is_main": false,
       "on_site": true,
       "counts": {
