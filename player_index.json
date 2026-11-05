@@ -431,7 +431,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1011",
     "player_id": "p1011",
-    "name": "George Simion",
+    "name": "Armando Walle",
     "discord": "berlinsucks",
     "party": "grn",
     "state": "Maryland",
@@ -499,7 +499,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1013",
     "player_id": "p1004",
-    "name": "MARY PELTOLA",
+    "name": "ANNIE ANDREWS",
     "discord": "kewtnury",
     "party": "grn",
     "state": "Virginia",
@@ -833,7 +833,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1023",
     "player_id": "p1011",
-    "name": "Joe Holberg",
+    "name": "Heath Allbright",
     "discord": "berlinsucks",
     "party": "grn",
     "state": "Colorado",
@@ -2658,7 +2658,7 @@
     "name": "Falcon Faeborn",
     "discord": "falcon5518",
     "party": "dem",
-    "state": "New York",
+    "state": "Puerto Rico",
     "last_seen": "2026-11-05",
     "on_site": true,
     "discord_id": "385804381649371138",
@@ -6515,7 +6515,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1196",
     "player_id": "p1059",
-    "name": "Abdul El-Sayed",
+    "name": "James dell Talarico",
     "discord": "founderofurp2.0",
     "party": "dem",
     "state": "Texas",
@@ -6937,12 +6937,12 @@
     "profile_id": "1209",
     "player_id": "p1025",
     "name": "Anna Kelly",
-    "discord": "trumpquest",
+    "discord": "",
     "party": "gop",
     "state": "Alaska",
     "last_seen": "2026-11-05",
     "on_site": true,
-    "discord_id": "961355935496953956",
+    "discord_id": "",
     "discord_history": [
       {
         "discord": "trumpquest",
@@ -6963,6 +6963,11 @@
         "discord": "trumpquest",
         "discord_id": "961355935496953956",
         "first_seen": "2026-10-21"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-11-05"
       }
     ]
   },
@@ -7038,7 +7043,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1212",
     "player_id": "p1009",
-    "name": "Eden Cohen",
+    "name": "Alexandria Ocasio-Cortez",
     "discord": "venus.444",
     "party": "grn",
     "state": "Hawaii",
@@ -8144,7 +8149,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1245",
     "player_id": "p1004",
-    "name": "ALEXANDRIA OCASIO-CORTEZ",
+    "name": "AMY ACTON",
     "discord": "kewtnury",
     "party": "grn",
     "state": "Oregon",
@@ -8458,7 +8463,7 @@
     "name": "Peter Russo",
     "discord": "pzdz20",
     "party": "dem",
-    "state": "Washington",
+    "state": "District of Columbia",
     "last_seen": "2026-11-05",
     "on_site": true,
     "discord_id": "1303893674417193052",
@@ -12678,11 +12683,16 @@
         "discord": "1milliondollarman",
         "discord_id": "1494517988433334433",
         "first_seen": "2026-11-01"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-11-05"
       }
     ],
     "name": "Abby Lee Miller Jr",
-    "discord": "1milliondollarman",
-    "discord_id": "1494517988433334433",
+    "discord": "",
+    "discord_id": "",
     "party": "dem",
     "state": "Pennsylvania",
     "last_seen": "2026-11-05",
@@ -12799,11 +12809,16 @@
         "discord": "trumpquest",
         "discord_id": "961355935496953956",
         "first_seen": "2026-11-03"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-11-05"
       }
     ],
     "name": "Andrew Tate",
-    "discord": "trumpquest",
-    "discord_id": "961355935496953956",
+    "discord": "",
+    "discord_id": "",
     "party": "gop",
     "state": "Virginia",
     "last_seen": "2026-11-05",
@@ -12818,11 +12833,16 @@
         "discord": "trumpquest",
         "discord_id": "961355935496953956",
         "first_seen": "2026-11-03"
+      },
+      {
+        "discord": "",
+        "discord_id": "",
+        "first_seen": "2026-11-05"
       }
     ],
     "name": "Nicholas J. Fuentes",
-    "discord": "trumpquest",
-    "discord_id": "961355935496953956",
+    "discord": "",
+    "discord_id": "",
     "party": "gop",
     "state": "Virginia",
     "last_seen": "2026-11-05",

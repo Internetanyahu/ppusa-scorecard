@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:01:04+00:00",
+  "generated_at": "2026-11-05T23:17:42+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -307,7 +307,7 @@
     {
       "type": "player",
       "id": "p1011",
-      "label": "berlinsucks (George Simion)",
+      "label": "berlinsucks (Armando Walle)",
       "aliases": [
         "berlinsucks"
       ],
@@ -2299,12 +2299,6 @@
     },
     {
       "type": "profile",
-      "id": "1196",
-      "label": "Abdul El-Sayed (1196)",
-      "player_id": "p1059"
-    },
-    {
-      "type": "profile",
       "id": "1022",
       "label": "Abigail Spanberger (1022)",
       "player_id": "p1007"
@@ -2371,9 +2365,9 @@
     },
     {
       "type": "profile",
-      "id": "1245",
-      "label": "ALEXANDRIA OCASIO-CORTEZ (1245)",
-      "player_id": "p1004"
+      "id": "1212",
+      "label": "Alexandria Ocasio-Cortez (1212)",
+      "player_id": "p1009"
     },
     {
       "type": "profile",
@@ -2425,6 +2419,12 @@
     },
     {
       "type": "profile",
+      "id": "1245",
+      "label": "AMY ACTON (1245)",
+      "player_id": "p1004"
+    },
+    {
+      "type": "profile",
       "id": "1059",
       "label": "Amy Klobuchar (1059)",
       "player_id": "p1059"
@@ -2473,9 +2473,21 @@
     },
     {
       "type": "profile",
+      "id": "1013",
+      "label": "ANNIE ANDREWS (1013)",
+      "player_id": "p1004"
+    },
+    {
+      "type": "profile",
       "id": "1098",
       "label": "Antonio Russo (1098)",
       "player_id": "p1043"
+    },
+    {
+      "type": "profile",
+      "id": "1011",
+      "label": "Armando Walle (1011)",
+      "player_id": "p1011"
     },
     {
       "type": "profile",
@@ -3043,12 +3055,6 @@
     },
     {
       "type": "profile",
-      "id": "1212",
-      "label": "Eden Cohen (1212)",
-      "player_id": "p1009"
-    },
-    {
-      "type": "profile",
       "id": "1016",
       "label": "Elias Sorel (1016)",
       "player_id": "p1005"
@@ -3253,12 +3259,6 @@
     },
     {
       "type": "profile",
-      "id": "1011",
-      "label": "George Simion (1011)",
-      "player_id": "p1011"
-    },
-    {
-      "type": "profile",
       "id": "4",
       "label": "George W. Bush (4)",
       "player_id": "p4"
@@ -3340,6 +3340,12 @@
       "id": "1258",
       "label": "Hakeem Jeffries (1258)",
       "player_id": "p1019"
+    },
+    {
+      "type": "profile",
+      "id": "1023",
+      "label": "Heath Allbright (1023)",
+      "player_id": "p1011"
     },
     {
       "type": "profile",
@@ -3460,6 +3466,12 @@
       "id": "1360",
       "label": "Jakub Kostiuczuk (1360)",
       "player_id": "p1359"
+    },
+    {
+      "type": "profile",
+      "id": "1196",
+      "label": "James dell Talarico (1196)",
+      "player_id": "p1059"
     },
     {
       "type": "profile",
@@ -3604,12 +3616,6 @@
       "id": "1306",
       "label": "Joe Folddon (1306)",
       "player_id": "p1306"
-    },
-    {
-      "type": "profile",
-      "id": "1023",
-      "label": "Joe Holberg (1023)",
-      "player_id": "p1011"
     },
     {
       "type": "profile",
@@ -4066,12 +4072,6 @@
       "id": "1266",
       "label": "Mary Landrieu (1266)",
       "player_id": "p1012"
-    },
-    {
-      "type": "profile",
-      "id": "1013",
-      "label": "MARY PELTOLA (1013)",
-      "player_id": "p1004"
     },
     {
       "type": "profile",
@@ -10335,7 +10335,7 @@
         "user_id": "p1124",
         "player_id": "p1124",
         "name": "Bree Van de Kamp",
-        "discord": "1milliondollarman",
+        "discord": "",
         "discord_ids": [
           "1494517988433334433"
         ],
@@ -10394,7 +10394,7 @@
             "party": "dem",
             "state": "Pennsylvania",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1494517988433334433/5e17d5657b7e9971a330a0efda3f13cb.webp",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -17856,7 +17856,7 @@
       "conservative_scorecard": {
         "user_id": "p1011",
         "player_id": "p1011",
-        "name": "George Simion",
+        "name": "Armando Walle",
         "discord": "berlinsucks",
         "discord_ids": [
           "829048047770009611"
@@ -17870,7 +17870,7 @@
         "profiles": [
           {
             "profile_id": "1011",
-            "name": "George Simion",
+            "name": "Armando Walle",
             "party": "grn",
             "state": "Maryland",
             "chamber": "Other",
@@ -17883,7 +17883,7 @@
           },
           {
             "profile_id": "1023",
-            "name": "Joe Holberg",
+            "name": "Heath Allbright",
             "party": "grn",
             "state": "Colorado",
             "chamber": "Other",
@@ -17943,7 +17943,7 @@
       "discord_ids": [
         "829048047770009611"
       ],
-      "name": "George Simion",
+      "name": "Armando Walle",
       "profile_ids": [
         "1011",
         "1023",
@@ -17952,7 +17952,7 @@
       "profiles": [
         {
           "profile_id": "1011",
-          "name": "George Simion",
+          "name": "Armando Walle",
           "party": "grn",
           "state": "Maryland",
           "is_main": true,
@@ -17960,7 +17960,7 @@
         },
         {
           "profile_id": "1023",
-          "name": "Joe Holberg",
+          "name": "Heath Allbright",
           "party": "grn",
           "state": "Colorado",
           "is_main": false,
@@ -34728,7 +34728,7 @@
           "385804381649371138"
         ],
         "party": "dem",
-        "state": "New York",
+        "state": "Puerto Rico",
         "chambers": [
           "Other"
         ],
@@ -34738,7 +34738,7 @@
             "profile_id": "1078",
             "name": "Falcon Faeborn",
             "party": "dem",
-            "state": "New York",
+            "state": "Puerto Rico",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/385804381649371138/cfccba224a009409ef658b9bfdc03857.webp",
             "is_main": true,
@@ -34820,7 +34820,7 @@
           "profile_id": "1078",
           "name": "Falcon Faeborn",
           "party": "dem",
-          "state": "New York",
+          "state": "Puerto Rico",
           "is_main": true,
           "on_site": true
         },
@@ -35050,7 +35050,7 @@
           },
           {
             "profile_id": "1196",
-            "name": "Abdul El-Sayed",
+            "name": "James dell Talarico",
             "party": "dem",
             "state": "Texas",
             "chamber": "Other",
@@ -35851,7 +35851,7 @@
         },
         {
           "profile_id": "1196",
-          "name": "Abdul El-Sayed",
+          "name": "James dell Talarico",
           "party": "dem",
           "state": "Texas",
           "is_main": false,
@@ -57479,7 +57479,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/479291214496006145/a_ab27e86e72a596f2fcc5d326b338ea79.gif",
+        "avatar": "https://cdn.discordapp.com/avatars/479291214496006145/ab27e86e72a596f2fcc5d326b338ea79.webp",
         "profiles": [
           {
             "profile_id": "1057",
@@ -57487,7 +57487,7 @@
             "party": "dem",
             "state": "Minnesota",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/479291214496006145/a_ab27e86e72a596f2fcc5d326b338ea79.gif",
+            "avatar": "https://cdn.discordapp.com/avatars/479291214496006145/ab27e86e72a596f2fcc5d326b338ea79.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -57500,7 +57500,7 @@
             "party": "dem",
             "state": "Oregon",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/479291214496006145/a_ab27e86e72a596f2fcc5d326b338ea79.gif",
+            "avatar": "https://cdn.discordapp.com/avatars/479291214496006145/ab27e86e72a596f2fcc5d326b338ea79.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -57513,7 +57513,7 @@
             "party": "dem",
             "state": "Texas",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/479291214496006145/a_ab27e86e72a596f2fcc5d326b338ea79.gif",
+            "avatar": "https://cdn.discordapp.com/avatars/479291214496006145/ab27e86e72a596f2fcc5d326b338ea79.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -60362,7 +60362,7 @@
           },
           {
             "profile_id": "1013",
-            "name": "MARY PELTOLA",
+            "name": "ANNIE ANDREWS",
             "party": "grn",
             "state": "Virginia",
             "chamber": "Other",
@@ -60375,7 +60375,7 @@
           },
           {
             "profile_id": "1245",
-            "name": "ALEXANDRIA OCASIO-CORTEZ",
+            "name": "AMY ACTON",
             "party": "grn",
             "state": "Oregon",
             "chamber": "Other",
@@ -60689,7 +60689,7 @@
         },
         {
           "profile_id": "1013",
-          "name": "MARY PELTOLA",
+          "name": "ANNIE ANDREWS",
           "party": "grn",
           "state": "Virginia",
           "is_main": false,
@@ -60697,7 +60697,7 @@
         },
         {
           "profile_id": "1245",
-          "name": "ALEXANDRIA OCASIO-CORTEZ",
+          "name": "AMY ACTON",
           "party": "grn",
           "state": "Oregon",
           "is_main": false,
@@ -75200,7 +75200,7 @@
             "profile_id": "1254",
             "name": "Peter Russo",
             "party": "dem",
-            "state": "Washington",
+            "state": "District of Columbia",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/6c00d23410d7b5f554d47447ad60d2ca.webp",
             "is_main": false,
@@ -75277,7 +75277,7 @@
           "profile_id": "1254",
           "name": "Peter Russo",
           "party": "dem",
-          "state": "Washington",
+          "state": "District of Columbia",
           "is_main": false,
           "on_site": true
         },
@@ -82078,10 +82078,8 @@
         "user_id": "p1025",
         "player_id": "p1025",
         "name": "Anna Kelly",
-        "discord": "trumpquest",
-        "discord_ids": [
-          "961355935496953956"
-        ],
+        "discord": "",
+        "discord_ids": [],
         "party": "gop",
         "state": "Alaska",
         "chambers": [
@@ -82089,7 +82087,7 @@
           "Other",
           "Senate"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
         "profiles": [
           {
             "profile_id": "1209",
@@ -82097,7 +82095,7 @@
             "party": "gop",
             "state": "Alaska",
             "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": true,
             "on_site": true,
             "offices": [
@@ -82168,7 +82166,7 @@
             "party": "gop",
             "state": "Virginia",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -82181,7 +82179,7 @@
             "party": "gop",
             "state": "Virginia",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/961355935496953956/bf91f66e253ec262fe960ec03ad0d64e.webp",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -82556,7 +82554,7 @@
         "has_office": true
       },
       "discord": "trumpquest",
-      "discord_current": true,
+      "discord_current": false,
       "discord_aliases": [
         "trumpquest"
       ],
@@ -88382,7 +88380,7 @@
           },
           {
             "profile_id": "1212",
-            "name": "Eden Cohen",
+            "name": "Alexandria Ocasio-Cortez",
             "party": "grn",
             "state": "Hawaii",
             "chamber": "Other",
@@ -88454,7 +88452,7 @@
         },
         {
           "profile_id": "1212",
-          "name": "Eden Cohen",
+          "name": "Alexandria Ocasio-Cortez",
           "party": "grn",
           "state": "Hawaii",
           "is_main": false,
@@ -97988,7 +97986,7 @@
     {
       "profile_id": "1011",
       "player_id": "p1011",
-      "name": "George Simion",
+      "name": "Armando Walle",
       "discord": "berlinsucks",
       "discord_id": "829048047770009611",
       "discord_history": [
@@ -98657,7 +98655,7 @@
     {
       "profile_id": "1013",
       "player_id": "p1004",
-      "name": "MARY PELTOLA",
+      "name": "ANNIE ANDREWS",
       "discord": "kewtnury",
       "discord_id": "1460058777125654644",
       "discord_history": [
@@ -101291,7 +101289,7 @@
     {
       "profile_id": "1023",
       "player_id": "p1011",
-      "name": "Joe Holberg",
+      "name": "Heath Allbright",
       "discord": "berlinsucks",
       "discord_id": "829048047770009611",
       "discord_history": [
@@ -117732,7 +117730,7 @@
         }
       ],
       "party": "dem",
-      "state": "New York",
+      "state": "Puerto Rico",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -140833,7 +140831,7 @@
     {
       "profile_id": "1196",
       "player_id": "p1059",
-      "name": "Abdul El-Sayed",
+      "name": "James dell Talarico",
       "discord": "founderofurp2.0",
       "discord_id": "1253581430366277667",
       "discord_history": [
@@ -142850,8 +142848,8 @@
       "profile_id": "1209",
       "player_id": "p1025",
       "name": "Anna Kelly",
-      "discord": "trumpquest",
-      "discord_id": "961355935496953956",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "trumpquest",
@@ -142872,6 +142870,11 @@
           "discord": "trumpquest",
           "discord_id": "961355935496953956",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-11-05"
         }
       ],
       "party": "gop",
@@ -143193,7 +143196,7 @@
     {
       "profile_id": "1212",
       "player_id": "p1009",
-      "name": "Eden Cohen",
+      "name": "Alexandria Ocasio-Cortez",
       "discord": "venus.444",
       "discord_id": "1431041441739833437",
       "discord_history": [
@@ -146032,7 +146035,7 @@
     {
       "profile_id": "1245",
       "player_id": "p1004",
-      "name": "ALEXANDRIA OCASIO-CORTEZ",
+      "name": "AMY ACTON",
       "discord": "kewtnury",
       "discord_id": "1460058777125654644",
       "discord_history": [
@@ -147407,7 +147410,7 @@
         }
       ],
       "party": "dem",
-      "state": "Washington",
+      "state": "District of Columbia",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -158630,13 +158633,18 @@
       "profile_id": "1410",
       "player_id": "p1124",
       "name": "Abby Lee Miller Jr",
-      "discord": "1milliondollarman",
-      "discord_id": "1494517988433334433",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "1milliondollarman",
           "discord_id": "1494517988433334433",
           "first_seen": "2026-11-01"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-11-05"
         }
       ],
       "party": "dem",
@@ -158856,13 +158864,18 @@
       "profile_id": "1417",
       "player_id": "p1025",
       "name": "Andrew Tate",
-      "discord": "trumpquest",
-      "discord_id": "961355935496953956",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "trumpquest",
           "discord_id": "961355935496953956",
           "first_seen": "2026-11-03"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-11-05"
         }
       ],
       "party": "gop",
@@ -158890,13 +158903,18 @@
       "profile_id": "1418",
       "player_id": "p1025",
       "name": "Nicholas J. Fuentes",
-      "discord": "trumpquest",
-      "discord_id": "961355935496953956",
+      "discord": "",
+      "discord_id": "",
       "discord_history": [
         {
           "discord": "trumpquest",
           "discord_id": "961355935496953956",
           "first_seen": "2026-11-03"
+        },
+        {
+          "discord": "",
+          "discord_id": "",
+          "first_seen": "2026-11-05"
         }
       ],
       "party": "gop",
