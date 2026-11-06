@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T05:32:01+00:00",
+  "generated_at": "2026-11-06T13:46:40+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -228,6 +228,15 @@
       "profile_ids": [
         "1174",
         "1175"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1443",
+      "label": "Aries Wong-Garcia",
+      "aliases": [],
+      "profile_ids": [
+        "1443"
       ]
     },
     {
@@ -904,6 +913,15 @@
         "1406",
         "1407",
         "1408"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1446",
+      "label": "Harvey Bay",
+      "aliases": [],
+      "profile_ids": [
+        "1446"
       ]
     },
     {
@@ -1646,6 +1664,15 @@
     },
     {
       "type": "player",
+      "id": "p1445",
+      "label": "Nicholas Fuewentes",
+      "aliases": [],
+      "profile_ids": [
+        "1445"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1325",
       "label": "noble_pony_17489 (George Papadopoulos)",
       "aliases": [
@@ -1725,6 +1752,15 @@
         "1007",
         "1022",
         "1205"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1444",
+      "label": "Peter Apson",
+      "aliases": [],
+      "profile_ids": [
+        "1444"
       ]
     },
     {
@@ -2187,6 +2223,15 @@
     },
     {
       "type": "player",
+      "id": "p1442",
+      "label": "Wei Xihuan",
+      "aliases": [],
+      "profile_ids": [
+        "1442"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p7",
       "label": "William Rehnquist",
       "aliases": [],
@@ -2507,6 +2552,12 @@
       "id": "1098",
       "label": "Antonio Russo (1098)",
       "player_id": "p1043"
+    },
+    {
+      "type": "profile",
+      "id": "1443",
+      "label": "Aries Wong-Garcia (1443)",
+      "player_id": "p1443"
     },
     {
       "type": "profile",
@@ -3392,6 +3443,12 @@
     },
     {
       "type": "profile",
+      "id": "1446",
+      "label": "Harvey Bay (1446)",
+      "player_id": "p1446"
+    },
+    {
+      "type": "profile",
       "id": "1023",
       "label": "Heath Allbright (1023)",
       "player_id": "p1011"
@@ -4250,6 +4307,12 @@
     },
     {
       "type": "profile",
+      "id": "1445",
+      "label": "Nicholas Fuewentes (1445)",
+      "player_id": "p1445"
+    },
+    {
+      "type": "profile",
       "id": "1295",
       "label": "Nicholas Joseph Fury (1295)",
       "player_id": "p1295"
@@ -4391,6 +4454,12 @@
       "id": "1065",
       "label": "Pete Buttigieg (1065)",
       "player_id": "p1059"
+    },
+    {
+      "type": "profile",
+      "id": "1444",
+      "label": "Peter Apson (1444)",
+      "player_id": "p1444"
     },
     {
       "type": "profile",
@@ -4895,6 +4964,12 @@
       "id": "1051",
       "label": "WEAREWOW.GRAPE (1051)",
       "player_id": "p1046"
+    },
+    {
+      "type": "profile",
+      "id": "1442",
+      "label": "Wei Xihuan (1442)",
+      "player_id": "p1442"
     },
     {
       "type": "profile",
@@ -16714,6 +16789,97 @@
           "house_seats": null
         }
       ]
+    },
+    {
+      "player_id": "p1443",
+      "conservative_scorecard": {
+        "user_id": "p1443",
+        "player_id": "p1443",
+        "name": "Aries Wong-Garcia",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "Hawaii",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1443",
+            "name": "Aries Wong-Garcia",
+            "party": "dem",
+            "state": "Hawaii",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Aries Wong-Garcia",
+      "profile_ids": [
+        "1443"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1443",
+          "name": "Aries Wong-Garcia",
+          "party": "dem",
+          "state": "Hawaii",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
     },
     {
       "player_id": "p1422",
@@ -45866,6 +46032,97 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1446",
+      "conservative_scorecard": {
+        "user_id": "p1446",
+        "player_id": "p1446",
+        "name": "Harvey Bay",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "California",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1446",
+            "name": "Harvey Bay",
+            "party": "dem",
+            "state": "California",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Harvey Bay",
+      "profile_ids": [
+        "1446"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1446",
+          "name": "Harvey Bay",
+          "party": "dem",
+          "state": "California",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1021",
       "conservative_scorecard": {
         "user_id": "p1021",
@@ -65724,7 +65981,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/28ef69b0a535451f4274d663f95f2618.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/66dd013f8254c76c32ac125f075df816.webp",
         "profiles": [
           {
             "profile_id": "1026",
@@ -65732,7 +65989,7 @@
             "party": "grn",
             "state": "California",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/28ef69b0a535451f4274d663f95f2618.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/66dd013f8254c76c32ac125f075df816.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -65745,7 +66002,7 @@
             "party": "grn",
             "state": "Oregon",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/28ef69b0a535451f4274d663f95f2618.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/66dd013f8254c76c32ac125f075df816.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -65758,7 +66015,7 @@
             "party": "grn",
             "state": "Ohio",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/28ef69b0a535451f4274d663f95f2618.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1406312807691063419/66dd013f8254c76c32ac125f075df816.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -69819,6 +70076,97 @@
           "house_seats": null
         }
       ]
+    },
+    {
+      "player_id": "p1445",
+      "conservative_scorecard": {
+        "user_id": "p1445",
+        "player_id": "p1445",
+        "name": "Nicholas Fuewentes",
+        "discord": "",
+        "discord_ids": [],
+        "party": "afp",
+        "state": "Florida",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1445",
+            "name": "Nicholas Fuewentes",
+            "party": "afp",
+            "state": "Florida",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Nicholas Fuewentes",
+      "profile_ids": [
+        "1445"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1445",
+          "name": "Nicholas Fuewentes",
+          "party": "afp",
+          "state": "Florida",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
     },
     {
       "player_id": "p1325",
@@ -74698,6 +75046,97 @@
       ]
     },
     {
+      "player_id": "p1444",
+      "conservative_scorecard": {
+        "user_id": "p1444",
+        "player_id": "p1444",
+        "name": "Peter Apson",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "Pennsylvania",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1444",
+            "name": "Peter Apson",
+            "party": "dem",
+            "state": "Pennsylvania",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Peter Apson",
+      "profile_ids": [
+        "1444"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1444",
+          "name": "Peter Apson",
+          "party": "dem",
+          "state": "Pennsylvania",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1063",
       "conservative_scorecard": {
         "user_id": "p1063",
@@ -76123,7 +76562,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1450009803236708474/3004610f1029747b9193bb8b6731819c.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1450009803236708474/439b54462c3ddb13ad1156cab40e0ba7.webp",
         "profiles": [
           {
             "profile_id": "1419",
@@ -76131,7 +76570,7 @@
             "party": "independent",
             "state": "New York",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1450009803236708474/3004610f1029747b9193bb8b6731819c.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1450009803236708474/439b54462c3ddb13ad1156cab40e0ba7.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -92489,7 +92928,7 @@
             "state": "Vermont",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
-            "is_main": true,
+            "is_main": false,
             "on_site": true,
             "offices": [],
             "office": "",
@@ -92537,7 +92976,98 @@
           "name": "WalterWhiteNotSellingCrac",
           "party": "dem",
           "state": "Vermont",
-          "is_main": true,
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p1442",
+      "conservative_scorecard": {
+        "user_id": "p1442",
+        "player_id": "p1442",
+        "name": "Wei Xihuan",
+        "discord": "",
+        "discord_ids": [],
+        "party": "afp",
+        "state": "Florida",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1442",
+            "name": "Wei Xihuan",
+            "party": "afp",
+            "state": "Florida",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Wei Xihuan",
+      "profile_ids": [
+        "1442"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1442",
+          "name": "Wei Xihuan",
+          "party": "afp",
+          "state": "Florida",
+          "is_main": false,
           "on_site": true
         }
       ],
@@ -94958,7 +95488,7 @@
             "profile_id": "1361",
             "name": "Doroteusz Sawicki",
             "party": "dem",
-            "state": "Indiana",
+            "state": "Nevada",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1562800467011051601/34d724a31150a2656646b80e14a46188.webp",
             "is_main": false,
@@ -95030,7 +95560,7 @@
           "profile_id": "1361",
           "name": "Doroteusz Sawicki",
           "party": "dem",
-          "state": "Indiana",
+          "state": "Nevada",
           "is_main": false,
           "on_site": true
         }
@@ -157153,7 +157683,7 @@
       "discord_history": [],
       "party": "dem",
       "state": "Vermont",
-      "is_main": true,
+      "is_main": false,
       "on_site": true,
       "counts": {
         "bills": 0,
@@ -157434,7 +157964,7 @@
         }
       ],
       "party": "dem",
-      "state": "Indiana",
+      "state": "Nevada",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -160107,6 +160637,146 @@
       "profile_id": "1441",
       "player_id": "p1441",
       "name": "Beth Harmon",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "California",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1442",
+      "player_id": "p1442",
+      "name": "Wei Xihuan",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "afp",
+      "state": "Florida",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1443",
+      "player_id": "p1443",
+      "name": "Aries Wong-Garcia",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "Hawaii",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1444",
+      "player_id": "p1444",
+      "name": "Peter Apson",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "Pennsylvania",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1445",
+      "player_id": "p1445",
+      "name": "Nicholas Fuewentes",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "afp",
+      "state": "Florida",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1446",
+      "player_id": "p1446",
+      "name": "Harvey Bay",
       "discord": "",
       "discord_id": "",
       "discord_history": [],
