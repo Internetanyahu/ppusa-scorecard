@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T23:17:42+00:00",
+  "generated_at": "2026-11-06T05:32:01+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -196,9 +196,10 @@
     {
       "type": "player",
       "id": "p1333",
-      "label": "americantraditionalist (Elisworth Ashford)",
+      "label": "americansfirst (Elisworth Ashford)",
       "aliases": [
-        "americantraditionalist"
+        "americantraditionalist",
+        "americansfirst"
       ],
       "profile_ids": [
         "1333",
@@ -284,6 +285,15 @@
     },
     {
       "type": "player",
+      "id": "p1438",
+      "label": "Balto Kalluk",
+      "aliases": [],
+      "profile_ids": [
+        "1438"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1318",
       "label": "barry mickockiner",
       "aliases": [],
@@ -302,6 +312,15 @@
         "1432",
         "1433",
         "1434"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1440",
+      "label": "Benjamin Daniels",
+      "aliases": [],
+      "profile_ids": [
+        "1440"
       ]
     },
     {
@@ -328,6 +347,15 @@
         "1134",
         "1135",
         "1296"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1441",
+      "label": "Beth Harmon",
+      "aliases": [],
+      "profile_ids": [
+        "1441"
       ]
     },
     {
@@ -1426,6 +1454,15 @@
     },
     {
       "type": "player",
+      "id": "p1439",
+      "label": "Lincoln Underwood",
+      "aliases": [],
+      "profile_ids": [
+        "1439"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1369",
       "label": "littledipperbigdipper (jewdith)",
       "aliases": [
@@ -2019,7 +2056,7 @@
     {
       "type": "player",
       "id": "p1025",
-      "label": "trumpquest (Anna Kelly)",
+      "label": "trumpquest (Tim Ryan)",
       "aliases": [
         "trumpquest"
       ],
@@ -2443,12 +2480,6 @@
     },
     {
       "type": "profile",
-      "id": "1417",
-      "label": "Andrew Tate (1417)",
-      "player_id": "p1025"
-    },
-    {
-      "type": "profile",
       "id": "1236",
       "label": "Andrew Vanwyngarden (1236)",
       "player_id": "p1026"
@@ -2458,12 +2489,6 @@
       "id": "1184",
       "label": "Andrew Welsington (1184)",
       "player_id": "p1184"
-    },
-    {
-      "type": "profile",
-      "id": "1209",
-      "label": "Anna Kelly (1209)",
-      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -2524,6 +2549,12 @@
       "id": "1053",
       "label": "Austin Vicknair (1053)",
       "player_id": "p1053"
+    },
+    {
+      "type": "profile",
+      "id": "1438",
+      "label": "Balto Kalluk (1438)",
+      "player_id": "p1438"
     },
     {
       "type": "profile",
@@ -2605,6 +2636,12 @@
     },
     {
       "type": "profile",
+      "id": "1440",
+      "label": "Benjamin Daniels (1440)",
+      "player_id": "p1440"
+    },
+    {
+      "type": "profile",
       "id": "1056",
       "label": "Benjamin Netanyahu (1056)",
       "player_id": "p1049"
@@ -2620,6 +2657,12 @@
       "id": "1163",
       "label": "Bernie Sanders (1163)",
       "player_id": "p1163"
+    },
+    {
+      "type": "profile",
+      "id": "1441",
+      "label": "Beth Harmon (1441)",
+      "player_id": "p1441"
     },
     {
       "type": "profile",
@@ -3127,6 +3170,12 @@
     },
     {
       "type": "profile",
+      "id": "1200",
+      "label": "Erik Bottcher (1200)",
+      "player_id": "p1011"
+    },
+    {
+      "type": "profile",
       "id": "1337",
       "label": "Erling Himmler (1337)",
       "player_id": "p1336"
@@ -3361,6 +3410,12 @@
     },
     {
       "type": "profile",
+      "id": "1418",
+      "label": "Hillary Clinton (1418)",
+      "player_id": "p1025"
+    },
+    {
+      "type": "profile",
       "id": "1390",
       "label": "Holden Boone Ferguson (1390)",
       "player_id": "p1390"
@@ -3538,12 +3593,6 @@
       "id": "1228",
       "label": "Jeff Buckley (1228)",
       "player_id": "p1107"
-    },
-    {
-      "type": "profile",
-      "id": "1200",
-      "label": "Jeff Weninger (1200)",
-      "player_id": "p1011"
     },
     {
       "type": "profile",
@@ -3955,6 +4004,12 @@
     },
     {
       "type": "profile",
+      "id": "1439",
+      "label": "Lincoln Underwood (1439)",
+      "player_id": "p1439"
+    },
+    {
+      "type": "profile",
       "id": "1338",
       "label": "Lionel Mussolini (1338)",
       "player_id": "p1336"
@@ -4192,12 +4247,6 @@
       "id": "1247",
       "label": "Nelson Sorel (1247)",
       "player_id": "p1005"
-    },
-    {
-      "type": "profile",
-      "id": "1418",
-      "label": "Nicholas J. Fuentes (1418)",
-      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -4693,6 +4742,12 @@
     },
     {
       "type": "profile",
+      "id": "1209",
+      "label": "Tim Ryan (1209)",
+      "player_id": "p1025"
+    },
+    {
+      "type": "profile",
       "id": "1229",
       "label": "Tina Turner (1229)",
       "player_id": "p1136"
@@ -4744,6 +4799,12 @@
       "id": "1061",
       "label": "Trygve Hammer (1061)",
       "player_id": "p1044"
+    },
+    {
+      "type": "profile",
+      "id": "1417",
+      "label": "Tulsi Gabbard (1417)",
+      "player_id": "p1025"
     },
     {
       "type": "profile",
@@ -16051,7 +16112,7 @@
         "user_id": "p1333",
         "player_id": "p1333",
         "name": "Elisworth Ashford",
-        "discord": "americantraditionalist",
+        "discord": "americansfirst",
         "discord_ids": [
           "1144342925304660028"
         ],
@@ -16062,7 +16123,7 @@
           "Other",
           "Senate"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a_ca7022cab0f0555e39556a355ad8d61e.gif",
+        "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/3e86252f63a39b90aabb1b8058652fef.webp",
         "profiles": [
           {
             "profile_id": "1333",
@@ -16070,7 +16131,7 @@
             "party": "gop",
             "state": "Georgia",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a_ca7022cab0f0555e39556a355ad8d61e.gif",
+            "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/3e86252f63a39b90aabb1b8058652fef.webp",
             "is_main": true,
             "on_site": true,
             "offices": [
@@ -16085,7 +16146,7 @@
             "party": "gop",
             "state": "Ohio",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a_ca7022cab0f0555e39556a355ad8d61e.gif",
+            "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/3e86252f63a39b90aabb1b8058652fef.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -16098,7 +16159,7 @@
             "party": "gop",
             "state": "West Virginia",
             "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/a_ca7022cab0f0555e39556a355ad8d61e.gif",
+            "avatar": "https://cdn.discordapp.com/avatars/1144342925304660028/3e86252f63a39b90aabb1b8058652fef.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -16135,10 +16196,11 @@
         "office_count": 2,
         "has_office": true
       },
-      "discord": "americantraditionalist",
+      "discord": "americansfirst",
       "discord_current": true,
       "discord_aliases": [
-        "americantraditionalist"
+        "americantraditionalist",
+        "americansfirst"
       ],
       "discord_ids": [
         "1144342925304660028"
@@ -17620,6 +17682,97 @@
       ]
     },
     {
+      "player_id": "p1438",
+      "conservative_scorecard": {
+        "user_id": "p1438",
+        "player_id": "p1438",
+        "name": "Balto Kalluk",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "Alaska",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1438",
+            "name": "Balto Kalluk",
+            "party": "dem",
+            "state": "Alaska",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Balto Kalluk",
+      "profile_ids": [
+        "1438"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1438",
+          "name": "Balto Kalluk",
+          "party": "dem",
+          "state": "Alaska",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1318",
       "conservative_scorecard": {
         "user_id": "p1318",
@@ -17852,6 +18005,97 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1440",
+      "conservative_scorecard": {
+        "user_id": "p1440",
+        "player_id": "p1440",
+        "name": "Benjamin Daniels",
+        "discord": "",
+        "discord_ids": [],
+        "party": "afp",
+        "state": "Florida",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1440",
+            "name": "Benjamin Daniels",
+            "party": "afp",
+            "state": "Florida",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Benjamin Daniels",
+      "profile_ids": [
+        "1440"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1440",
+          "name": "Benjamin Daniels",
+          "party": "afp",
+          "state": "Florida",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1011",
       "conservative_scorecard": {
         "user_id": "p1011",
@@ -17896,7 +18140,7 @@
           },
           {
             "profile_id": "1200",
-            "name": "Jeff Weninger",
+            "name": "Erik Bottcher",
             "party": "grn",
             "state": "Wisconsin",
             "chamber": "Other",
@@ -17968,7 +18212,7 @@
         },
         {
           "profile_id": "1200",
-          "name": "Jeff Weninger",
+          "name": "Erik Bottcher",
           "party": "grn",
           "state": "Wisconsin",
           "is_main": false,
@@ -18286,6 +18530,97 @@
           "house_seats": null
         }
       ]
+    },
+    {
+      "player_id": "p1441",
+      "conservative_scorecard": {
+        "user_id": "p1441",
+        "player_id": "p1441",
+        "name": "Beth Harmon",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "California",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1441",
+            "name": "Beth Harmon",
+            "party": "dem",
+            "state": "California",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Beth Harmon",
+      "profile_ids": [
+        "1441"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1441",
+          "name": "Beth Harmon",
+          "party": "dem",
+          "state": "California",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
     },
     {
       "player_id": "p1020",
@@ -43019,7 +43354,7 @@
           "Other",
           "Senate"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1561582020251885571/2c90385e4dd9571c550bdfe8ad174463.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1561582020251885571/2ebfb3a17ed1cb6ff17e57b9e1cdba15.webp",
         "profiles": [
           {
             "profile_id": "1041",
@@ -43027,7 +43362,7 @@
             "party": "dem",
             "state": "New Mexico",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/1561582020251885571/2c90385e4dd9571c550bdfe8ad174463.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1561582020251885571/2ebfb3a17ed1cb6ff17e57b9e1cdba15.webp",
             "is_main": true,
             "on_site": true,
             "offices": [
@@ -43042,7 +43377,7 @@
             "party": "dem",
             "state": "New Mexico",
             "chamber": "Senate",
-            "avatar": "https://cdn.discordapp.com/avatars/1561582020251885571/2c90385e4dd9571c550bdfe8ad174463.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1561582020251885571/2ebfb3a17ed1cb6ff17e57b9e1cdba15.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -43057,7 +43392,7 @@
             "party": "dem",
             "state": "New Mexico",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1561582020251885571/2c90385e4dd9571c550bdfe8ad174463.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1561582020251885571/2ebfb3a17ed1cb6ff17e57b9e1cdba15.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -51482,7 +51817,7 @@
           "966709449081360494"
         ],
         "party": "dem",
-        "state": "North Carolina",
+        "state": "District of Columbia",
         "chambers": [
           "Other",
           "Senate"
@@ -51493,7 +51828,7 @@
             "profile_id": "1304",
             "name": "Rabbi Yosef Mizrachi",
             "party": "dem",
-            "state": "North Carolina",
+            "state": "District of Columbia",
             "chamber": "Senate",
             "avatar": "https://cdn.discordapp.com/avatars/966709449081360494/3e540b48f6b8a361628a1525f4523b45.webp",
             "is_main": true,
@@ -51799,7 +52134,7 @@
           "profile_id": "1304",
           "name": "Rabbi Yosef Mizrachi",
           "party": "dem",
-          "state": "North Carolina",
+          "state": "District of Columbia",
           "is_main": true,
           "on_site": true
         },
@@ -61183,7 +61518,7 @@
           "1412134134158987527"
         ],
         "party": "dem",
-        "state": "Illinois",
+        "state": "West Virginia",
         "chambers": [
           "Other",
           "Senate"
@@ -61194,7 +61529,7 @@
             "profile_id": "1088",
             "name": "Kylie Minogue",
             "party": "dem",
-            "state": "Illinois",
+            "state": "West Virginia",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1412134134158987527/f75940f823105fcc0c92c56c72d080f9.webp",
             "is_main": true,
@@ -61500,7 +61835,7 @@
           "profile_id": "1088",
           "name": "Kylie Minogue",
           "party": "dem",
-          "state": "Illinois",
+          "state": "West Virginia",
           "is_main": true,
           "on_site": true
         },
@@ -62222,7 +62557,7 @@
             "profile_id": "1338",
             "name": "Lionel Mussolini",
             "party": "dem",
-            "state": "Puerto Rico",
+            "state": "District of Columbia",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1559920088130261075/ec6f5f619c9dd10830fcc4e75b2547de.webp",
             "is_main": false,
@@ -62294,7 +62629,7 @@
           "profile_id": "1338",
           "name": "Lionel Mussolini",
           "party": "dem",
-          "state": "Puerto Rico",
+          "state": "District of Columbia",
           "is_main": false,
           "on_site": true
         }
@@ -64905,6 +65240,97 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1439",
+      "conservative_scorecard": {
+        "user_id": "p1439",
+        "player_id": "p1439",
+        "name": "Lincoln Underwood",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dsa",
+        "state": "Illinois",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1439",
+            "name": "Lincoln Underwood",
+            "party": "dsa",
+            "state": "Illinois",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Lincoln Underwood",
+      "profile_ids": [
+        "1439"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1439",
+          "name": "Lincoln Underwood",
+          "party": "dsa",
+          "state": "Illinois",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1369",
       "conservative_scorecard": {
         "user_id": "p1369",
@@ -65016,7 +65442,7 @@
         "chambers": [
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/3c94c155c935931dcbf4ffa6301833ca.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/66ccab76719e9e5466d477831ed04fd6.webp",
         "profiles": [
           {
             "profile_id": "1002",
@@ -65024,7 +65450,7 @@
             "party": "gop",
             "state": "California",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/3c94c155c935931dcbf4ffa6301833ca.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/66ccab76719e9e5466d477831ed04fd6.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -65037,7 +65463,7 @@
             "party": "gop",
             "state": "Ohio",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/3c94c155c935931dcbf4ffa6301833ca.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/66ccab76719e9e5466d477831ed04fd6.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -65050,7 +65476,7 @@
             "party": "gop",
             "state": "South Carolina",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/3c94c155c935931dcbf4ffa6301833ca.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1381337055765991435/66ccab76719e9e5466d477831ed04fd6.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -75200,7 +75626,7 @@
             "profile_id": "1254",
             "name": "Peter Russo",
             "party": "dem",
-            "state": "District of Columbia",
+            "state": "Pennsylvania",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/1303893674417193052/6c00d23410d7b5f554d47447ad60d2ca.webp",
             "is_main": false,
@@ -75277,7 +75703,7 @@
           "profile_id": "1254",
           "name": "Peter Russo",
           "party": "dem",
-          "state": "District of Columbia",
+          "state": "Pennsylvania",
           "is_main": false,
           "on_site": true
         },
@@ -82077,10 +82503,10 @@
       "conservative_scorecard": {
         "user_id": "p1025",
         "player_id": "p1025",
-        "name": "Anna Kelly",
+        "name": "Tim Ryan",
         "discord": "",
         "discord_ids": [],
-        "party": "gop",
+        "party": "dem",
         "state": "Alaska",
         "chambers": [
           "House",
@@ -82091,8 +82517,8 @@
         "profiles": [
           {
             "profile_id": "1209",
-            "name": "Anna Kelly",
-            "party": "gop",
+            "name": "Tim Ryan",
+            "party": "dem",
             "state": "Alaska",
             "chamber": "Senate",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -82162,8 +82588,8 @@
           },
           {
             "profile_id": "1417",
-            "name": "Andrew Tate",
-            "party": "gop",
+            "name": "Tulsi Gabbard",
+            "party": "dem",
             "state": "Virginia",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -82175,8 +82601,8 @@
           },
           {
             "profile_id": "1418",
-            "name": "Nicholas J. Fuentes",
-            "party": "gop",
+            "name": "Hillary Clinton",
+            "party": "dem",
             "state": "Virginia",
             "chamber": "Other",
             "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
@@ -82561,7 +82987,7 @@
       "discord_ids": [
         "961355935496953956"
       ],
-      "name": "Anna Kelly",
+      "name": "Tim Ryan",
       "profile_ids": [
         "1025",
         "1033",
@@ -82590,8 +83016,8 @@
         },
         {
           "profile_id": "1209",
-          "name": "Anna Kelly",
-          "party": "gop",
+          "name": "Tim Ryan",
+          "party": "dem",
           "state": "Alaska",
           "is_main": true,
           "on_site": true
@@ -82614,16 +83040,16 @@
         },
         {
           "profile_id": "1417",
-          "name": "Andrew Tate",
-          "party": "gop",
+          "name": "Tulsi Gabbard",
+          "party": "dem",
           "state": "Virginia",
           "is_main": false,
           "on_site": true
         },
         {
           "profile_id": "1418",
-          "name": "Nicholas J. Fuentes",
-          "party": "gop",
+          "name": "Hillary Clinton",
+          "party": "dem",
           "state": "Virginia",
           "is_main": false,
           "on_site": true
@@ -119671,7 +120097,7 @@
         }
       ],
       "party": "dem",
-      "state": "Illinois",
+      "state": "West Virginia",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -141148,7 +141574,7 @@
     {
       "profile_id": "1200",
       "player_id": "p1011",
-      "name": "Jeff Weninger",
+      "name": "Erik Bottcher",
       "discord": "berlinsucks",
       "discord_id": "829048047770009611",
       "discord_history": [
@@ -142847,7 +143273,7 @@
     {
       "profile_id": "1209",
       "player_id": "p1025",
-      "name": "Anna Kelly",
+      "name": "Tim Ryan",
       "discord": "",
       "discord_id": "",
       "discord_history": [
@@ -142877,7 +143303,7 @@
           "first_seen": "2026-11-05"
         }
       ],
-      "party": "gop",
+      "party": "dem",
       "state": "Alaska",
       "is_main": true,
       "on_site": true,
@@ -147410,7 +147836,7 @@
         }
       ],
       "party": "dem",
-      "state": "District of Columbia",
+      "state": "Pennsylvania",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -152622,7 +153048,7 @@
         }
       ],
       "party": "dem",
-      "state": "North Carolina",
+      "state": "District of Columbia",
       "is_main": true,
       "on_site": true,
       "counts": {
@@ -155454,7 +155880,7 @@
       "profile_id": "1333",
       "player_id": "p1333",
       "name": "Elisworth Ashford",
-      "discord": "americantraditionalist",
+      "discord": "americansfirst",
       "discord_id": "1144342925304660028",
       "discord_history": [
         {
@@ -155476,6 +155902,11 @@
           "discord": "americantraditionalist",
           "discord_id": "1144342925304660028",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "americansfirst",
+          "discord_id": "1144342925304660028",
+          "first_seen": "2026-11-06"
         }
       ],
       "party": "gop",
@@ -155609,7 +156040,7 @@
       "profile_id": "1334",
       "player_id": "p1333",
       "name": "Rodney Ellery",
-      "discord": "americantraditionalist",
+      "discord": "americansfirst",
       "discord_id": "1144342925304660028",
       "discord_history": [
         {
@@ -155631,6 +156062,11 @@
           "discord": "americantraditionalist",
           "discord_id": "1144342925304660028",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "americansfirst",
+          "discord_id": "1144342925304660028",
+          "first_seen": "2026-11-06"
         }
       ],
       "party": "gop",
@@ -155658,7 +156094,7 @@
       "profile_id": "1335",
       "player_id": "p1333",
       "name": "Laurant Wythe",
-      "discord": "americantraditionalist",
+      "discord": "americansfirst",
       "discord_id": "1144342925304660028",
       "discord_history": [
         {
@@ -155680,6 +156116,11 @@
           "discord": "americantraditionalist",
           "discord_id": "1144342925304660028",
           "first_seen": "2026-10-21"
+        },
+        {
+          "discord": "americansfirst",
+          "discord_id": "1144342925304660028",
+          "first_seen": "2026-11-06"
         }
       ],
       "party": "gop",
@@ -155846,7 +156287,7 @@
         }
       ],
       "party": "dem",
-      "state": "Puerto Rico",
+      "state": "District of Columbia",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -158863,7 +159304,7 @@
     {
       "profile_id": "1417",
       "player_id": "p1025",
-      "name": "Andrew Tate",
+      "name": "Tulsi Gabbard",
       "discord": "",
       "discord_id": "",
       "discord_history": [
@@ -158878,7 +159319,7 @@
           "first_seen": "2026-11-05"
         }
       ],
-      "party": "gop",
+      "party": "dem",
       "state": "Virginia",
       "is_main": false,
       "on_site": true,
@@ -158902,7 +159343,7 @@
     {
       "profile_id": "1418",
       "player_id": "p1025",
-      "name": "Nicholas J. Fuentes",
+      "name": "Hillary Clinton",
       "discord": "",
       "discord_id": "",
       "discord_history": [
@@ -158917,7 +159358,7 @@
           "first_seen": "2026-11-05"
         }
       ],
-      "party": "gop",
+      "party": "dem",
       "state": "Virginia",
       "is_main": false,
       "on_site": true,
@@ -159560,6 +160001,118 @@
       "party": "grn",
       "state": "New Hampshire",
       "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1438",
+      "player_id": "p1438",
+      "name": "Balto Kalluk",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "Alaska",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1439",
+      "player_id": "p1439",
+      "name": "Lincoln Underwood",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dsa",
+      "state": "Illinois",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1440",
+      "player_id": "p1440",
+      "name": "Benjamin Daniels",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "afp",
+      "state": "Florida",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1441",
+      "player_id": "p1441",
+      "name": "Beth Harmon",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "California",
+      "is_main": true,
       "on_site": true,
       "counts": {
         "bills": 0,

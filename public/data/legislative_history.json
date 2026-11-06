@@ -4718,7 +4718,7 @@
   },
   {
     "player_id": "p1011",
-    "name": "Jeff Weninger",
+    "name": "Erik Bottcher",
     "discord": "berlinsucks",
     "profiles": [
       "1011",
@@ -8928,7 +8928,7 @@
   },
   {
     "player_id": "p1025",
-    "name": "Nicholas J. Fuentes",
+    "name": "Hillary Clinton",
     "discord": "",
     "profiles": [
       "1025",
@@ -45351,7 +45351,7 @@
   {
     "player_id": "p1333",
     "name": "Laurant Wythe",
-    "discord": "americantraditionalist",
+    "discord": "americansfirst",
     "profiles": [
       "1333",
       "1335",
@@ -46009,6 +46009,46 @@
       "1432",
       "1433",
       "1434"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1438",
+    "name": "Balto Kalluk",
+    "discord": "",
+    "profiles": [
+      "1438"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1439",
+    "name": "Lincoln Underwood",
+    "discord": "",
+    "profiles": [
+      "1439"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1440",
+    "name": "Benjamin Daniels",
+    "discord": "",
+    "profiles": [
+      "1440"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1441",
+    "name": "Beth Harmon",
+    "discord": "",
+    "profiles": [
+      "1441"
     ],
     "bills": [],
     "bill_count": 0
