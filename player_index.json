@@ -387,7 +387,7 @@
     "name": "Anna Paulina Luna",
     "discord": "venus.444",
     "party": "grn",
-    "state": "Oregon",
+    "state": "Hawaii",
     "last_seen": "2026-11-06",
     "on_site": true,
     "discord_id": "1431041441739833437",
@@ -1489,7 +1489,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1042",
     "player_id": "p1012",
-    "name": "Condoleezza Rice",
+    "name": "Vikki Goodwin",
     "discord": "kden_24",
     "party": "grn",
     "state": "Connecticut",
@@ -4156,7 +4156,7 @@
     "first_seen": "2026-10-20",
     "profile_id": "1124",
     "player_id": "p1124",
-    "name": "Bree Van de Kamp",
+    "name": "Ned Lamont",
     "discord": "1milliondollarman",
     "party": "dem",
     "state": "Pennsylvania",
@@ -9630,7 +9630,7 @@
     "name": "Allen Degurechaff",
     "discord": "_deviloftherhine",
     "party": "dem",
-    "state": "New York",
+    "state": "Florida",
     "last_seen": "2026-11-06",
     "on_site": true,
     "discord_id": "321306009807093760",
@@ -13043,7 +13043,7 @@
     "discord": "trumpsuck0",
     "discord_id": "",
     "party": "dsa",
-    "state": "Alabama",
+    "state": "New York",
     "last_seen": "2026-11-06",
     "on_site": true
   },
@@ -13062,7 +13062,7 @@
     "discord": "trumpsuck0",
     "discord_id": "",
     "party": "dsa",
-    "state": "Arkansas",
+    "state": "Delaware",
     "last_seen": "2026-11-06",
     "on_site": true
   },
@@ -13332,6 +13332,51 @@
     "discord_id": "",
     "party": "dem",
     "state": "California",
+    "last_seen": "2026-11-06",
+    "on_site": true
+  },
+  "1447": {
+    "profile_id": "1447",
+    "player_id": "p1124",
+    "first_seen": "2026-11-06",
+    "discord_history": [
+      {
+        "discord": "1milliondollarman",
+        "discord_id": "1494517988433334433",
+        "first_seen": "2026-11-06"
+      }
+    ],
+    "name": "Kayden Jane",
+    "discord": "1milliondollarman",
+    "discord_id": "1494517988433334433",
+    "party": "dem",
+    "state": "Pennsylvania",
+    "last_seen": "2026-11-06",
+    "on_site": true
+  },
+  "1448": {
+    "profile_id": "1448",
+    "player_id": "p1448",
+    "first_seen": "2026-11-06",
+    "discord_history": [],
+    "name": "Lienald Corros",
+    "discord": "",
+    "discord_id": "",
+    "party": "dem",
+    "state": "Minnesota",
+    "last_seen": "2026-11-06",
+    "on_site": true
+  },
+  "1449": {
+    "profile_id": "1449",
+    "player_id": "p1449",
+    "first_seen": "2026-11-06",
+    "discord_history": [],
+    "name": "Mark Sean Sumague",
+    "discord": "",
+    "discord_id": "",
+    "party": "dem",
+    "state": "New York",
     "last_seen": "2026-11-06",
     "on_site": true
   }
