@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T22:45:39+00:00",
+  "generated_at": "2026-11-07T04:45:17+00:00",
   "method": {
     "identity_key": "player_id/user_id, not Discord username",
     "finalized_bills_only": true,
@@ -55855,7 +55855,7 @@
         },
         {
           "profile_id": "1245",
-          "name": "AMY ACTON",
+          "name": "ANGIE NIXON",
           "party": "grn",
           "state": "Oregon",
           "chamber": "Other",
@@ -58412,6 +58412,116 @@
       "has_office": false
     },
     {
+      "user_id": "p1451",
+      "player_id": "p1451",
+      "name": "Abdul El-Sayed",
+      "discord": "insane_gamer",
+      "discord_ids": [
+        "856600473979846696"
+      ],
+      "party": "dsa",
+      "state": "Michigan",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/856600473979846696/0df65ca238b25228e5148d92bebeb2d0.webp",
+      "profiles": [
+        {
+          "profile_id": "1451",
+          "name": "Abdul El-Sayed",
+          "party": "dsa",
+          "state": "Michigan",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/856600473979846696/0df65ca238b25228e5148d92bebeb2d0.webp",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
+      "user_id": "p1453",
+      "player_id": "p1453",
+      "name": "Albert Gump",
+      "discord": "",
+      "discord_ids": [],
+      "party": "dem",
+      "state": "Kentucky",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "profiles": [
+        {
+          "profile_id": "1453",
+          "name": "Albert Gump",
+          "party": "dem",
+          "state": "Kentucky",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
       "user_id": "p1118",
       "player_id": "p1118",
       "name": "Alexander Morales",
@@ -58847,6 +58957,62 @@
           "chamber": "Other",
           "avatar": "https://cdn.discordapp.com/avatars/1534257079764652185/8f1d586bee2bf18f07387e697d8d8337.webp",
           "is_main": false,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
+      "user_id": "p1452",
+      "player_id": "p1452",
+      "name": "Andy Burnahm",
+      "discord": ".oliverdie",
+      "discord_ids": [
+        "864655859350896650"
+      ],
+      "party": "dem",
+      "state": "Florida",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/864655859350896650/9a9e76cead30067ccce38c036ec2199f.webp",
+      "profiles": [
+        {
+          "profile_id": "1452",
+          "name": "Andy Burnahm",
+          "party": "dem",
+          "state": "Florida",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/864655859350896650/9a9e76cead30067ccce38c036ec2199f.webp",
+          "is_main": true,
           "on_site": true,
           "offices": [],
           "office": "",
@@ -63649,6 +63815,62 @@
       "has_office": false
     },
     {
+      "user_id": "p1450",
+      "player_id": "p1450",
+      "name": "Josh Hawley",
+      "discord": "traviswilliams0145_19846",
+      "discord_ids": [
+        "1366435029059637383"
+      ],
+      "party": "gop",
+      "state": "Texas",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "https://cdn.discordapp.com/avatars/1366435029059637383/c4791588df50b0fefc18ca7cf0d904df.webp",
+      "profiles": [
+        {
+          "profile_id": "1450",
+          "name": "Josh Hawley",
+          "party": "gop",
+          "state": "Texas",
+          "chamber": "Other",
+          "avatar": "https://cdn.discordapp.com/avatars/1366435029059637383/c4791588df50b0fefc18ca7cf0d904df.webp",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
       "user_id": "p1057",
       "player_id": "p1057",
       "name": "Kaden Lux",
@@ -64619,6 +64841,60 @@
           "name": "Lienald Corros",
           "party": "dem",
           "state": "Minnesota",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
+      "user_id": "p1455",
+      "player_id": "p1455",
+      "name": "Lincoln Roosevelt",
+      "discord": "",
+      "discord_ids": [],
+      "party": "dem",
+      "state": "New York",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "profiles": [
+        {
+          "profile_id": "1455",
+          "name": "Lincoln Roosevelt",
+          "party": "dem",
+          "state": "New York",
           "chamber": "Other",
           "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
           "is_main": true,
@@ -66724,7 +67000,7 @@
         },
         {
           "profile_id": "1434",
-          "name": "Albert Wesker",
+          "name": "Chip Roy",
           "party": "gop",
           "state": "Tennessee",
           "chamber": "Other",
@@ -68235,6 +68511,60 @@
       "has_office": false
     },
     {
+      "user_id": "p1454",
+      "player_id": "p1454",
+      "name": "Xian Dela Paz",
+      "discord": "",
+      "discord_ids": [],
+      "party": "dem",
+      "state": "Texas",
+      "chambers": [
+        "Other"
+      ],
+      "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+      "profiles": [
+        {
+          "profile_id": "1454",
+          "name": "Xian Dela Paz",
+          "party": "dem",
+          "state": "Texas",
+          "chamber": "Other",
+          "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+          "is_main": true,
+          "on_site": true,
+          "offices": [],
+          "office": "",
+          "office_count": 0
+        }
+      ],
+      "scores": {
+        "social": null,
+        "economic": null,
+        "foreign": null,
+        "overall": null,
+        "tier": "N/A"
+      },
+      "sample_size": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0,
+        "overall": 0
+      },
+      "aligned_votes": {
+        "social": 0,
+        "economic": 0,
+        "foreign": 0
+      },
+      "provisions_scored": 0,
+      "aligned_provisions": 0,
+      "finalized_bills_voted": 0,
+      "bill_details": [],
+      "eligible_for_grade": false,
+      "offices_held": 0,
+      "office_count": 0,
+      "has_office": false
+    },
+    {
       "user_id": "p1425",
       "player_id": "p1425",
       "name": "Zack Polanski",
@@ -68323,7 +68653,7 @@
   "office_metadata": {
     "definition": "Count of normalized offices attached to each Power Play profile; POTUS, Vice President, Governor, legislative and other offices are all counted when supplied by the source.",
     "no_office_label": "No office",
-    "updated_profiles": 454,
-    "updated_players": 202
+    "updated_profiles": 460,
+    "updated_players": 208
   }
 }

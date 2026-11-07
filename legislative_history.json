@@ -1359,7 +1359,7 @@
   },
   {
     "player_id": "p1004",
-    "name": "AMY ACTON",
+    "name": "ANGIE NIXON",
     "discord": "kewtnury",
     "profiles": [
       "1004",
@@ -46004,7 +46004,7 @@
   },
   {
     "player_id": "p1432",
-    "name": "Albert Wesker",
+    "name": "Chip Roy",
     "discord": "benhphillips",
     "profiles": [
       "1432",
@@ -46120,6 +46120,66 @@
     "discord": "",
     "profiles": [
       "1449"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1450",
+    "name": "Josh Hawley",
+    "discord": "traviswilliams0145_19846",
+    "profiles": [
+      "1450"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1451",
+    "name": "Abdul El-Sayed",
+    "discord": "insane_gamer",
+    "profiles": [
+      "1451"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1452",
+    "name": "Andy Burnahm",
+    "discord": ".oliverdie",
+    "profiles": [
+      "1452"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1453",
+    "name": "Albert Gump",
+    "discord": "",
+    "profiles": [
+      "1453"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1454",
+    "name": "Xian Dela Paz",
+    "discord": "",
+    "profiles": [
+      "1454"
+    ],
+    "bills": [],
+    "bill_count": 0
+  },
+  {
+    "player_id": "p1455",
+    "name": "Lincoln Roosevelt",
+    "discord": "",
+    "profiles": [
+      "1455"
     ],
     "bills": [],
     "bill_count": 0

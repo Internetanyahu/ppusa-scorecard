@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T22:45:40+00:00",
+  "generated_at": "2026-11-07T04:45:17+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -59,6 +59,17 @@
       ],
       "profile_ids": [
         "1423"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1452",
+      "label": ".oliverdie (Andy Burnahm)",
+      "aliases": [
+        ".oliverdie"
+      ],
+      "profile_ids": [
+        "1452"
       ]
     },
     {
@@ -150,6 +161,15 @@
         "1113",
         "1116",
         "1285"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1453",
+      "label": "Albert Gump",
+      "aliases": [],
+      "profile_ids": [
+        "1453"
       ]
     },
     {
@@ -1026,6 +1046,17 @@
     },
     {
       "type": "player",
+      "id": "p1451",
+      "label": "insane_gamer (Abdul El-Sayed)",
+      "aliases": [
+        "insane_gamer"
+      ],
+      "profile_ids": [
+        "1451"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1304",
       "label": "internetanyahu (Rabbi Yosef Mizrachi)",
       "aliases": [
@@ -1478,6 +1509,15 @@
         "1147",
         "1149",
         "1238"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1455",
+      "label": "Lincoln Roosevelt",
+      "aliases": [],
+      "profile_ids": [
+        "1455"
       ]
     },
     {
@@ -2110,6 +2150,17 @@
     },
     {
       "type": "player",
+      "id": "p1450",
+      "label": "traviswilliams0145_19846 (Josh Hawley)",
+      "aliases": [
+        "traviswilliams0145_19846"
+      ],
+      "profile_ids": [
+        "1450"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1025",
       "label": "trumpquest (Tim Ryan)",
       "aliases": [
@@ -2308,6 +2359,15 @@
     },
     {
       "type": "player",
+      "id": "p1454",
+      "label": "Xian Dela Paz",
+      "aliases": [],
+      "profile_ids": [
+        "1454"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1359",
       "label": "yakub67420 (Chuck Bartowski)",
       "aliases": [
@@ -2400,6 +2460,12 @@
     },
     {
       "type": "profile",
+      "id": "1451",
+      "label": "Abdul El-Sayed (1451)",
+      "player_id": "p1451"
+    },
+    {
+      "type": "profile",
       "id": "1022",
       "label": "Abigail Spanberger (1022)",
       "player_id": "p1007"
@@ -2448,9 +2514,9 @@
     },
     {
       "type": "profile",
-      "id": "1434",
-      "label": "Albert Wesker (1434)",
-      "player_id": "p1432"
+      "id": "1453",
+      "label": "Albert Gump (1453)",
+      "player_id": "p1453"
     },
     {
       "type": "profile",
@@ -2520,12 +2586,6 @@
     },
     {
       "type": "profile",
-      "id": "1245",
-      "label": "AMY ACTON (1245)",
-      "player_id": "p1004"
-    },
-    {
-      "type": "profile",
       "id": "1059",
       "label": "Amy Klobuchar (1059)",
       "player_id": "p1059"
@@ -2553,6 +2613,18 @@
       "id": "1184",
       "label": "Andrew Welsington (1184)",
       "player_id": "p1184"
+    },
+    {
+      "type": "profile",
+      "id": "1452",
+      "label": "Andy Burnahm (1452)",
+      "player_id": "p1452"
+    },
+    {
+      "type": "profile",
+      "id": "1245",
+      "label": "ANGIE NIXON (1245)",
+      "player_id": "p1004"
     },
     {
       "type": "profile",
@@ -2919,6 +2991,12 @@
       "id": "1032",
       "label": "Chelsey Ammari (1032)",
       "player_id": "p1032"
+    },
+    {
+      "type": "profile",
+      "id": "1434",
+      "label": "Chip Roy (1434)",
+      "player_id": "p1432"
     },
     {
       "type": "profile",
@@ -3858,6 +3936,12 @@
     },
     {
       "type": "profile",
+      "id": "1450",
+      "label": "Josh Hawley (1450)",
+      "player_id": "p1450"
+    },
+    {
+      "type": "profile",
       "id": "1205",
       "label": "Joshua McKoon (1205)",
       "player_id": "p1007"
@@ -4077,6 +4161,12 @@
       "id": "1448",
       "label": "Lienald Corros (1448)",
       "player_id": "p1448"
+    },
+    {
+      "type": "profile",
+      "id": "1455",
+      "label": "Lincoln Roosevelt (1455)",
+      "player_id": "p1455"
     },
     {
       "type": "profile",
@@ -5055,6 +5145,12 @@
       "id": "1371",
       "label": "Xandru (1371)",
       "player_id": "p1371"
+    },
+    {
+      "type": "profile",
+      "id": "1454",
+      "label": "Xian Dela Paz (1454)",
+      "player_id": "p1454"
     },
     {
       "type": "profile",
@@ -9542,6 +9638,103 @@
           "name": "a",
           "party": "dem",
           "state": "New York",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p1452",
+      "conservative_scorecard": {
+        "user_id": "p1452",
+        "player_id": "p1452",
+        "name": "Andy Burnahm",
+        "discord": ".oliverdie",
+        "discord_ids": [
+          "864655859350896650"
+        ],
+        "party": "dem",
+        "state": "Florida",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/864655859350896650/9a9e76cead30067ccce38c036ec2199f.webp",
+        "profiles": [
+          {
+            "profile_id": "1452",
+            "name": "Andy Burnahm",
+            "party": "dem",
+            "state": "Florida",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/864655859350896650/9a9e76cead30067ccce38c036ec2199f.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": ".oliverdie",
+      "discord_current": true,
+      "discord_aliases": [
+        ".oliverdie"
+      ],
+      "discord_ids": [
+        "864655859350896650"
+      ],
+      "name": "Andy Burnahm",
+      "profile_ids": [
+        "1452"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1452",
+          "name": "Andy Burnahm",
+          "party": "dem",
+          "state": "Florida",
           "is_main": true,
           "on_site": true
         }
@@ -15802,6 +15995,97 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1453",
+      "conservative_scorecard": {
+        "user_id": "p1453",
+        "player_id": "p1453",
+        "name": "Albert Gump",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "Kentucky",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1453",
+            "name": "Albert Gump",
+            "party": "dem",
+            "state": "Kentucky",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Albert Gump",
+      "profile_ids": [
+        "1453"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1453",
+          "name": "Albert Gump",
+          "party": "dem",
+          "state": "Kentucky",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1265",
       "conservative_scorecard": {
         "user_id": "p1265",
@@ -18133,7 +18417,7 @@
           },
           {
             "profile_id": "1434",
-            "name": "Albert Wesker",
+            "name": "Chip Roy",
             "party": "gop",
             "state": "Tennessee",
             "chamber": "Other",
@@ -18205,7 +18489,7 @@
         },
         {
           "profile_id": "1434",
-          "name": "Albert Wesker",
+          "name": "Chip Roy",
           "party": "gop",
           "state": "Tennessee",
           "is_main": false,
@@ -52123,6 +52407,103 @@
       ]
     },
     {
+      "player_id": "p1451",
+      "conservative_scorecard": {
+        "user_id": "p1451",
+        "player_id": "p1451",
+        "name": "Abdul El-Sayed",
+        "discord": "insane_gamer",
+        "discord_ids": [
+          "856600473979846696"
+        ],
+        "party": "dsa",
+        "state": "Michigan",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/856600473979846696/0df65ca238b25228e5148d92bebeb2d0.webp",
+        "profiles": [
+          {
+            "profile_id": "1451",
+            "name": "Abdul El-Sayed",
+            "party": "dsa",
+            "state": "Michigan",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/856600473979846696/0df65ca238b25228e5148d92bebeb2d0.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "insane_gamer",
+      "discord_current": true,
+      "discord_aliases": [
+        "insane_gamer"
+      ],
+      "discord_ids": [
+        "856600473979846696"
+      ],
+      "name": "Abdul El-Sayed",
+      "profile_ids": [
+        "1451"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1451",
+          "name": "Abdul El-Sayed",
+          "party": "dsa",
+          "state": "Michigan",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1304",
       "conservative_scorecard": {
         "user_id": "p1304",
@@ -61026,7 +61407,7 @@
           },
           {
             "profile_id": "1245",
-            "name": "AMY ACTON",
+            "name": "ANGIE NIXON",
             "party": "grn",
             "state": "Oregon",
             "chamber": "Other",
@@ -61348,7 +61729,7 @@
         },
         {
           "profile_id": "1245",
-          "name": "AMY ACTON",
+          "name": "ANGIE NIXON",
           "party": "grn",
           "state": "Oregon",
           "is_main": false,
@@ -65626,6 +66007,97 @@
           "party": "dem",
           "state": "Florida",
           "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p1455",
+      "conservative_scorecard": {
+        "user_id": "p1455",
+        "player_id": "p1455",
+        "name": "Lincoln Roosevelt",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "New York",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1455",
+            "name": "Lincoln Roosevelt",
+            "party": "dem",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Lincoln Roosevelt",
+      "profile_ids": [
+        "1455"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1455",
+          "name": "Lincoln Roosevelt",
+          "party": "dem",
+          "state": "New York",
+          "is_main": true,
           "on_site": true
         }
       ],
@@ -83179,6 +83651,103 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1450",
+      "conservative_scorecard": {
+        "user_id": "p1450",
+        "player_id": "p1450",
+        "name": "Josh Hawley",
+        "discord": "traviswilliams0145_19846",
+        "discord_ids": [
+          "1366435029059637383"
+        ],
+        "party": "gop",
+        "state": "Texas",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/1366435029059637383/c4791588df50b0fefc18ca7cf0d904df.webp",
+        "profiles": [
+          {
+            "profile_id": "1450",
+            "name": "Josh Hawley",
+            "party": "gop",
+            "state": "Texas",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1366435029059637383/c4791588df50b0fefc18ca7cf0d904df.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "traviswilliams0145_19846",
+      "discord_current": true,
+      "discord_aliases": [
+        "traviswilliams0145_19846"
+      ],
+      "discord_ids": [
+        "1366435029059637383"
+      ],
+      "name": "Josh Hawley",
+      "profile_ids": [
+        "1450"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1450",
+          "name": "Josh Hawley",
+          "party": "gop",
+          "state": "Texas",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1025",
       "conservative_scorecard": {
         "user_id": "p1025",
@@ -95659,6 +96228,97 @@
         {
           "profile_id": "1371",
           "name": "Xandru",
+          "party": "dem",
+          "state": "Texas",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p1454",
+      "conservative_scorecard": {
+        "user_id": "p1454",
+        "player_id": "p1454",
+        "name": "Xian Dela Paz",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "Texas",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1454",
+            "name": "Xian Dela Paz",
+            "party": "dem",
+            "state": "Texas",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Xian Dela Paz",
+      "profile_ids": [
+        "1454"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1454",
+          "name": "Xian Dela Paz",
           "party": "dem",
           "state": "Texas",
           "is_main": true,
@@ -147232,7 +147892,7 @@
     {
       "profile_id": "1245",
       "player_id": "p1004",
-      "name": "AMY ACTON",
+      "name": "ANGIE NIXON",
       "discord": "kewtnury",
       "discord_id": "1460058777125654644",
       "discord_history": [
@@ -160657,7 +161317,7 @@
     {
       "profile_id": "1434",
       "player_id": "p1432",
-      "name": "Albert Wesker",
+      "name": "Chip Roy",
       "discord": "benhphillips",
       "discord_id": "516835675405025331",
       "discord_history": [
@@ -161108,6 +161768,192 @@
       "profile_id": "1449",
       "player_id": "p1449",
       "name": "Mark Sean Sumague",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "New York",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1450",
+      "player_id": "p1450",
+      "name": "Josh Hawley",
+      "discord": "traviswilliams0145_19846",
+      "discord_id": "1366435029059637383",
+      "discord_history": [
+        {
+          "discord": "traviswilliams0145_19846",
+          "discord_id": "1366435029059637383",
+          "first_seen": "2026-11-07"
+        }
+      ],
+      "party": "gop",
+      "state": "Texas",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1451",
+      "player_id": "p1451",
+      "name": "Abdul El-Sayed",
+      "discord": "insane_gamer",
+      "discord_id": "856600473979846696",
+      "discord_history": [
+        {
+          "discord": "insane_gamer",
+          "discord_id": "856600473979846696",
+          "first_seen": "2026-11-07"
+        }
+      ],
+      "party": "dsa",
+      "state": "Michigan",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1452",
+      "player_id": "p1452",
+      "name": "Andy Burnahm",
+      "discord": ".oliverdie",
+      "discord_id": "864655859350896650",
+      "discord_history": [
+        {
+          "discord": ".oliverdie",
+          "discord_id": "864655859350896650",
+          "first_seen": "2026-11-07"
+        }
+      ],
+      "party": "dem",
+      "state": "Florida",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1453",
+      "player_id": "p1453",
+      "name": "Albert Gump",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "Kentucky",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1454",
+      "player_id": "p1454",
+      "name": "Xian Dela Paz",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "Texas",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1455",
+      "player_id": "p1455",
+      "name": "Lincoln Roosevelt",
       "discord": "",
       "discord_id": "",
       "discord_history": [],
