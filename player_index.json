@@ -12980,11 +12980,16 @@
         "discord": "trumpsuck0",
         "discord_id": "",
         "first_seen": "2026-11-04"
+      },
+      {
+        "discord": "trumpsuck0",
+        "discord_id": "1567613916001861764",
+        "first_seen": "2026-11-07"
       }
     ],
     "name": "Zack Polanski",
     "discord": "trumpsuck0",
-    "discord_id": "",
+    "discord_id": "1567613916001861764",
     "party": "dsa",
     "state": "Idaho",
     "last_seen": "2026-11-07",
@@ -13037,11 +13042,16 @@
         "discord": "trumpsuck0",
         "discord_id": "",
         "first_seen": "2026-11-04"
+      },
+      {
+        "discord": "trumpsuck0",
+        "discord_id": "1567613916001861764",
+        "first_seen": "2026-11-07"
       }
     ],
     "name": "Count Binface",
     "discord": "trumpsuck0",
-    "discord_id": "",
+    "discord_id": "1567613916001861764",
     "party": "dsa",
     "state": "New York",
     "last_seen": "2026-11-07",
@@ -13056,11 +13066,16 @@
         "discord": "trumpsuck0",
         "discord_id": "",
         "first_seen": "2026-11-04"
+      },
+      {
+        "discord": "trumpsuck0",
+        "discord_id": "1567613916001861764",
+        "first_seen": "2026-11-07"
       }
     ],
-    "name": "Otto Wolly",
+    "name": "Keir Mather",
     "discord": "trumpsuck0",
-    "discord_id": "",
+    "discord_id": "1567613916001861764",
     "party": "dsa",
     "state": "Delaware",
     "last_seen": "2026-11-07",
@@ -13081,7 +13096,7 @@
     "discord": "bloxguy5433",
     "discord_id": "899216850762743848",
     "party": "gop",
-    "state": "Ohio",
+    "state": "Nebraska",
     "last_seen": "2026-11-07",
     "on_site": true
   },
@@ -13115,7 +13130,7 @@
         "first_seen": "2026-11-05"
       }
     ],
-    "name": "Raymond Reddington",
+    "name": "Charlie Kirk",
     "discord": "benhphillips",
     "discord_id": "516835675405025331",
     "party": "gop",
@@ -13134,7 +13149,7 @@
         "first_seen": "2026-11-05"
       }
     ],
-    "name": "Ada Wong",
+    "name": "Catalina Lauf",
     "discord": "benhphillips",
     "discord_id": "516835675405025331",
     "party": "gop",
@@ -13469,6 +13484,192 @@
     "first_seen": "2026-11-07",
     "discord_history": [],
     "name": "Lincoln Roosevelt",
+    "discord": "",
+    "discord_id": "",
+    "party": "dem",
+    "state": "New York",
+    "last_seen": "2026-11-07",
+    "on_site": true
+  },
+  "1456": {
+    "profile_id": "1456",
+    "player_id": "p1456",
+    "first_seen": "2026-11-07",
+    "discord_history": [],
+    "name": "KEVIN JANG",
+    "discord": "",
+    "discord_id": "",
+    "party": "dem",
+    "state": "California",
+    "last_seen": "2026-11-07",
+    "on_site": true
+  },
+  "1457": {
+    "profile_id": "1457",
+    "player_id": "p1457",
+    "first_seen": "2026-11-07",
+    "discord_history": [],
+    "name": "William Yang",
+    "discord": "",
+    "discord_id": "",
+    "party": "dsa",
+    "state": "New York",
+    "last_seen": "2026-11-07",
+    "on_site": true
+  },
+  "1458": {
+    "profile_id": "1458",
+    "player_id": "p1458",
+    "first_seen": "2026-11-07",
+    "discord_history": [],
+    "name": "Zohran Kwame Mamdani",
+    "discord": "",
+    "discord_id": "",
+    "party": "dem",
+    "state": "New York",
+    "last_seen": "2026-11-07",
+    "on_site": true
+  },
+  "1459": {
+    "profile_id": "1459",
+    "player_id": "p1459",
+    "first_seen": "2026-11-07",
+    "discord_history": [
+      {
+        "discord": "atlaskiss",
+        "discord_id": "694078664790245387",
+        "first_seen": "2026-11-07"
+      }
+    ],
+    "name": "Claire Underwood",
+    "discord": "atlaskiss",
+    "discord_id": "694078664790245387",
+    "party": "dem",
+    "state": "Texas",
+    "last_seen": "2026-11-07",
+    "on_site": true
+  },
+  "1460": {
+    "profile_id": "1460",
+    "player_id": "p1460",
+    "first_seen": "2026-11-07",
+    "discord_history": [
+      {
+        "discord": "bertrandgamer",
+        "discord_id": "1568541981292896303",
+        "first_seen": "2026-11-07"
+      }
+    ],
+    "name": "Bertrand",
+    "discord": "bertrandgamer",
+    "discord_id": "1568541981292896303",
+    "party": "dsa",
+    "state": "Vermont",
+    "last_seen": "2026-11-07",
+    "on_site": true
+  },
+  "1461": {
+    "profile_id": "1461",
+    "player_id": "p1460",
+    "first_seen": "2026-11-07",
+    "discord_history": [
+      {
+        "discord": "bertrandgamer",
+        "discord_id": "1568541981292896303",
+        "first_seen": "2026-11-07"
+      }
+    ],
+    "name": "Phillips Royal",
+    "discord": "bertrandgamer",
+    "discord_id": "1568541981292896303",
+    "party": "dsa",
+    "state": "California",
+    "last_seen": "2026-11-07",
+    "on_site": true
+  },
+  "1462": {
+    "profile_id": "1462",
+    "player_id": "p1460",
+    "first_seen": "2026-11-07",
+    "discord_history": [
+      {
+        "discord": "bertrandgamer",
+        "discord_id": "1568541981292896303",
+        "first_seen": "2026-11-07"
+      }
+    ],
+    "name": "Ashley Quinn",
+    "discord": "bertrandgamer",
+    "discord_id": "1568541981292896303",
+    "party": "dsa",
+    "state": "Rhode Island",
+    "last_seen": "2026-11-07",
+    "on_site": true
+  },
+  "1463": {
+    "profile_id": "1463",
+    "player_id": "p1463",
+    "first_seen": "2026-11-07",
+    "discord_history": [],
+    "name": "Kazher Rejorehnov",
+    "discord": "",
+    "discord_id": "",
+    "party": "dem",
+    "state": "New York",
+    "last_seen": "2026-11-07",
+    "on_site": true
+  },
+  "1464": {
+    "profile_id": "1464",
+    "player_id": "p1464",
+    "first_seen": "2026-11-07",
+    "discord_history": [],
+    "name": "Kailey O'garma",
+    "discord": "",
+    "discord_id": "",
+    "party": "dem",
+    "state": "California",
+    "last_seen": "2026-11-07",
+    "on_site": true
+  },
+  "1465": {
+    "profile_id": "1465",
+    "player_id": "p1465",
+    "first_seen": "2026-11-07",
+    "discord_history": [
+      {
+        "discord": "mellow2xx",
+        "discord_id": "747266222483308604",
+        "first_seen": "2026-11-07"
+      }
+    ],
+    "name": "Thomas Massie",
+    "discord": "mellow2xx",
+    "discord_id": "747266222483308604",
+    "party": "gop",
+    "state": "Georgia",
+    "last_seen": "2026-11-07",
+    "on_site": true
+  },
+  "1466": {
+    "profile_id": "1466",
+    "player_id": "p1466",
+    "first_seen": "2026-11-07",
+    "discord_history": [],
+    "name": "Risa Parks",
+    "discord": "",
+    "discord_id": "",
+    "party": "dem",
+    "state": "California",
+    "last_seen": "2026-11-07",
+    "on_site": true
+  },
+  "1467": {
+    "profile_id": "1467",
+    "player_id": "p1467",
+    "first_seen": "2026-11-07",
+    "discord_history": [],
+    "name": "Alexander Hamilton",
     "discord": "",
     "discord_id": "",
     "party": "dem",

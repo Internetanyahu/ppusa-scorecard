@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T04:45:17+00:00",
+  "generated_at": "2026-11-07T12:31:13+00:00",
   "filter_options": [
     {
       "type": "player",
@@ -174,6 +174,15 @@
     },
     {
       "type": "player",
+      "id": "p1467",
+      "label": "Alexander Hamilton",
+      "aliases": [],
+      "profile_ids": [
+        "1467"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1265",
       "label": "Alexi Giannoulias",
       "aliases": [],
@@ -302,6 +311,17 @@
     },
     {
       "type": "player",
+      "id": "p1459",
+      "label": "atlaskiss (Claire Underwood)",
+      "aliases": [
+        "atlaskiss"
+      ],
+      "profile_ids": [
+        "1459"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1053",
       "label": "austin.vicknair (Austin Vicknair)",
       "aliases": [
@@ -334,7 +354,7 @@
     {
       "type": "player",
       "id": "p1432",
-      "label": "benhphillips (Raymond Reddington)",
+      "label": "benhphillips (Charlie Kirk)",
       "aliases": [
         "benhphillips"
       ],
@@ -377,6 +397,19 @@
         "1134",
         "1135",
         "1296"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1460",
+      "label": "bertrandgamer (Bertrand)",
+      "aliases": [
+        "bertrandgamer"
+      ],
+      "profile_ids": [
+        "1460",
+        "1461",
+        "1462"
       ]
     },
     {
@@ -1298,6 +1331,15 @@
     },
     {
       "type": "player",
+      "id": "p1464",
+      "label": "Kailey O'garma",
+      "aliases": [],
+      "profile_ids": [
+        "1464"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1167",
       "label": "Kamala D. Harris",
       "aliases": [],
@@ -1332,6 +1374,15 @@
     },
     {
       "type": "player",
+      "id": "p1463",
+      "label": "Kazher Rejorehnov",
+      "aliases": [],
+      "profile_ids": [
+        "1463"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1012",
       "label": "kden_24 (Blanche Lincoln)",
       "aliases": [
@@ -1341,6 +1392,15 @@
         "1012",
         "1042",
         "1266"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1456",
+      "label": "KEVIN JANG",
+      "aliases": [],
+      "profile_ids": [
+        "1456"
       ]
     },
     {
@@ -1640,6 +1700,17 @@
     },
     {
       "type": "player",
+      "id": "p1465",
+      "label": "mellow2xx (Thomas Massie)",
+      "aliases": [
+        "mellow2xx"
+      ],
+      "profile_ids": [
+        "1465"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1320",
       "label": "mike hunt",
       "aliases": [],
@@ -1923,6 +1994,15 @@
       ],
       "profile_ids": [
         "1419"
+      ]
+    },
+    {
+      "type": "player",
+      "id": "p1466",
+      "label": "Risa Parks",
+      "aliases": [],
+      "profile_ids": [
+        "1466"
       ]
     },
     {
@@ -2311,6 +2391,15 @@
     },
     {
       "type": "player",
+      "id": "p1457",
+      "label": "William Yang",
+      "aliases": [],
+      "profile_ids": [
+        "1457"
+      ]
+    },
+    {
+      "type": "player",
       "id": "p1068",
       "label": "worst_nightmare_of_j.d._scholten (Willy Wonka)",
       "aliases": [
@@ -2429,6 +2518,15 @@
       ]
     },
     {
+      "type": "player",
+      "id": "p1458",
+      "label": "Zohran Kwame Mamdani",
+      "aliases": [],
+      "profile_ids": [
+        "1458"
+      ]
+    },
+    {
       "type": "profile",
       "id": "1423",
       "label": "a (1423)",
@@ -2478,12 +2576,6 @@
     },
     {
       "type": "profile",
-      "id": "1433",
-      "label": "Ada Wong (1433)",
-      "player_id": "p1432"
-    },
-    {
-      "type": "profile",
       "id": "1116",
       "label": "Aditya Gupta (1116)",
       "player_id": "p1113"
@@ -2523,6 +2615,12 @@
       "id": "1310",
       "label": "Alex Lux (1310)",
       "player_id": "p1057"
+    },
+    {
+      "type": "profile",
+      "id": "1467",
+      "label": "Alexander Hamilton (1467)",
+      "player_id": "p1467"
     },
     {
       "type": "profile",
@@ -2676,6 +2774,12 @@
     },
     {
       "type": "profile",
+      "id": "1462",
+      "label": "Ashley Quinn (1462)",
+      "player_id": "p1460"
+    },
+    {
+      "type": "profile",
       "id": "1217",
       "label": "Ashley Sharpton (1217)",
       "player_id": "p1110"
@@ -2799,6 +2903,12 @@
       "id": "1163",
       "label": "Bernie Sanders (1163)",
       "player_id": "p1163"
+    },
+    {
+      "type": "profile",
+      "id": "1460",
+      "label": "Bertrand (1460)",
+      "player_id": "p1460"
     },
     {
       "type": "profile",
@@ -2952,6 +3062,12 @@
     },
     {
       "type": "profile",
+      "id": "1433",
+      "label": "Catalina Lauf (1433)",
+      "player_id": "p1432"
+    },
+    {
+      "type": "profile",
       "id": "1416",
       "label": "Celeste Hawthorne (1416)",
       "player_id": "p1416"
@@ -2985,6 +3101,12 @@
       "id": "1284",
       "label": "charlie charlie kirki (1284)",
       "player_id": "p1282"
+    },
+    {
+      "type": "profile",
+      "id": "1432",
+      "label": "Charlie Kirk (1432)",
+      "player_id": "p1432"
     },
     {
       "type": "profile",
@@ -3033,6 +3155,12 @@
       "id": "1188",
       "label": "Claire H Underwood (1188)",
       "player_id": "p1188"
+    },
+    {
+      "type": "profile",
+      "id": "1459",
+      "label": "Claire Underwood (1459)",
+      "player_id": "p1459"
     },
     {
       "type": "profile",
@@ -3966,6 +4094,12 @@
     },
     {
       "type": "profile",
+      "id": "1464",
+      "label": "Kailey O'garma (1464)",
+      "player_id": "p1464"
+    },
+    {
+      "type": "profile",
       "id": "1167",
       "label": "Kamala D. Harris (1167)",
       "player_id": "p1167"
@@ -4014,6 +4148,18 @@
     },
     {
       "type": "profile",
+      "id": "1463",
+      "label": "Kazher Rejorehnov (1463)",
+      "player_id": "p1463"
+    },
+    {
+      "type": "profile",
+      "id": "1429",
+      "label": "Keir Mather (1429)",
+      "player_id": "p1425"
+    },
+    {
+      "type": "profile",
       "id": "1302",
       "label": "Kelly Loeffler (1302)",
       "player_id": "p1122"
@@ -4023,6 +4169,12 @@
       "id": "1404",
       "label": "Kendra Wilson (1404)",
       "player_id": "p1403"
+    },
+    {
+      "type": "profile",
+      "id": "1456",
+      "label": "KEVIN JANG (1456)",
+      "player_id": "p1456"
     },
     {
       "type": "profile",
@@ -4512,12 +4664,6 @@
     },
     {
       "type": "profile",
-      "id": "1429",
-      "label": "Otto Wolly (1429)",
-      "player_id": "p1425"
-    },
-    {
-      "type": "profile",
       "id": "1002",
       "label": "Parker Cohen (1002)",
       "player_id": "p1002"
@@ -4602,6 +4748,12 @@
     },
     {
       "type": "profile",
+      "id": "1461",
+      "label": "Phillips Royal (1461)",
+      "player_id": "p1460"
+    },
+    {
+      "type": "profile",
       "id": "1063",
       "label": "Phoenix Flamesong (1063)",
       "player_id": "p1063"
@@ -4650,15 +4802,15 @@
     },
     {
       "type": "profile",
-      "id": "1432",
-      "label": "Raymond Reddington (1432)",
-      "player_id": "p1432"
-    },
-    {
-      "type": "profile",
       "id": "1047",
       "label": "Rick Santorum (1047)",
       "player_id": "p1036"
+    },
+    {
+      "type": "profile",
+      "id": "1466",
+      "label": "Risa Parks (1466)",
+      "player_id": "p1466"
     },
     {
       "type": "profile",
@@ -4914,6 +5066,12 @@
     },
     {
       "type": "profile",
+      "id": "1465",
+      "label": "Thomas Massie (1465)",
+      "player_id": "p1465"
+    },
+    {
+      "type": "profile",
       "id": "1264",
       "label": "Thomas Meer (1264)",
       "player_id": "p1161"
@@ -5118,6 +5276,12 @@
     },
     {
       "type": "profile",
+      "id": "1457",
+      "label": "William Yang (1457)",
+      "player_id": "p1457"
+    },
+    {
+      "type": "profile",
       "id": "1312",
       "label": "Willie Nelson (1312)",
       "player_id": "p1156"
@@ -5181,6 +5345,12 @@
       "id": "1271",
       "label": "Zoey (1271)",
       "player_id": "p1270"
+    },
+    {
+      "type": "profile",
+      "id": "1458",
+      "label": "Zohran Kwame Mamdani (1458)",
+      "player_id": "p1458"
     },
     {
       "type": "profile",
@@ -16086,6 +16256,97 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1467",
+      "conservative_scorecard": {
+        "user_id": "p1467",
+        "player_id": "p1467",
+        "name": "Alexander Hamilton",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "New York",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1467",
+            "name": "Alexander Hamilton",
+            "party": "dem",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Alexander Hamilton",
+      "profile_ids": [
+        "1467"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1467",
+          "name": "Alexander Hamilton",
+          "party": "dem",
+          "state": "New York",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1265",
       "conservative_scorecard": {
         "user_id": "p1265",
@@ -17601,6 +17862,103 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1459",
+      "conservative_scorecard": {
+        "user_id": "p1459",
+        "player_id": "p1459",
+        "name": "Claire Underwood",
+        "discord": "atlaskiss",
+        "discord_ids": [
+          "694078664790245387"
+        ],
+        "party": "dem",
+        "state": "Texas",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/694078664790245387/a_c53cf5947e0151ab449f0c2b98816082.gif",
+        "profiles": [
+          {
+            "profile_id": "1459",
+            "name": "Claire Underwood",
+            "party": "dem",
+            "state": "Texas",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/694078664790245387/a_c53cf5947e0151ab449f0c2b98816082.gif",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "atlaskiss",
+      "discord_current": true,
+      "discord_aliases": [
+        "atlaskiss"
+      ],
+      "discord_ids": [
+        "694078664790245387"
+      ],
+      "name": "Claire Underwood",
+      "profile_ids": [
+        "1459"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1459",
+          "name": "Claire Underwood",
+          "party": "dem",
+          "state": "Texas",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1053",
       "conservative_scorecard": {
         "user_id": "p1053",
@@ -18377,7 +18735,7 @@
       "conservative_scorecard": {
         "user_id": "p1432",
         "player_id": "p1432",
-        "name": "Raymond Reddington",
+        "name": "Charlie Kirk",
         "discord": "benhphillips",
         "discord_ids": [
           "516835675405025331"
@@ -18391,7 +18749,7 @@
         "profiles": [
           {
             "profile_id": "1432",
-            "name": "Raymond Reddington",
+            "name": "Charlie Kirk",
             "party": "gop",
             "state": "Oklahoma",
             "chamber": "Other",
@@ -18404,7 +18762,7 @@
           },
           {
             "profile_id": "1433",
-            "name": "Ada Wong",
+            "name": "Catalina Lauf",
             "party": "gop",
             "state": "Oklahoma",
             "chamber": "Other",
@@ -18464,7 +18822,7 @@
       "discord_ids": [
         "516835675405025331"
       ],
-      "name": "Raymond Reddington",
+      "name": "Charlie Kirk",
       "profile_ids": [
         "1432",
         "1433",
@@ -18473,7 +18831,7 @@
       "profiles": [
         {
           "profile_id": "1432",
-          "name": "Raymond Reddington",
+          "name": "Charlie Kirk",
           "party": "gop",
           "state": "Oklahoma",
           "is_main": true,
@@ -18481,7 +18839,7 @@
         },
         {
           "profile_id": "1433",
-          "name": "Ada Wong",
+          "name": "Catalina Lauf",
           "party": "gop",
           "state": "Oklahoma",
           "is_main": false,
@@ -19039,6 +19397,147 @@
           "house_seats": null
         }
       ]
+    },
+    {
+      "player_id": "p1460",
+      "conservative_scorecard": {
+        "user_id": "p1460",
+        "player_id": "p1460",
+        "name": "Bertrand",
+        "discord": "bertrandgamer",
+        "discord_ids": [
+          "1568541981292896303"
+        ],
+        "party": "dsa",
+        "state": "Vermont",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/1568541981292896303/c8f5ae247806dcdec09809bd8e065722.webp",
+        "profiles": [
+          {
+            "profile_id": "1460",
+            "name": "Bertrand",
+            "party": "dsa",
+            "state": "Vermont",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1568541981292896303/c8f5ae247806dcdec09809bd8e065722.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1461",
+            "name": "Phillips Royal",
+            "party": "dsa",
+            "state": "California",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1568541981292896303/c8f5ae247806dcdec09809bd8e065722.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          },
+          {
+            "profile_id": "1462",
+            "name": "Ashley Quinn",
+            "party": "dsa",
+            "state": "Rhode Island",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/1568541981292896303/c8f5ae247806dcdec09809bd8e065722.webp",
+            "is_main": false,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "bertrandgamer",
+      "discord_current": true,
+      "discord_aliases": [
+        "bertrandgamer"
+      ],
+      "discord_ids": [
+        "1568541981292896303"
+      ],
+      "name": "Bertrand",
+      "profile_ids": [
+        "1460",
+        "1461",
+        "1462"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1460",
+          "name": "Bertrand",
+          "party": "dsa",
+          "state": "Vermont",
+          "is_main": true,
+          "on_site": true
+        },
+        {
+          "profile_id": "1461",
+          "name": "Phillips Royal",
+          "party": "dsa",
+          "state": "California",
+          "is_main": false,
+          "on_site": true
+        },
+        {
+          "profile_id": "1462",
+          "name": "Ashley Quinn",
+          "party": "dsa",
+          "state": "Rhode Island",
+          "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
     },
     {
       "player_id": "p1441",
@@ -20788,7 +21287,7 @@
             "profile_id": "1430",
             "name": "Jon Husted",
             "party": "gop",
-            "state": "Ohio",
+            "state": "Nebraska",
             "chamber": "Other",
             "avatar": "https://cdn.discordapp.com/avatars/899216850762743848/7355ec75f9d02b3b39bcff1557b62a20.webp",
             "is_main": false,
@@ -20860,7 +21359,7 @@
           "profile_id": "1430",
           "name": "Jon Husted",
           "party": "gop",
-          "state": "Ohio",
+          "state": "Nebraska",
           "is_main": false,
           "on_site": true
         }
@@ -38146,7 +38645,7 @@
           "House",
           "Other"
         ],
-        "avatar": "https://cdn.discordapp.com/avatars/1068285752112336896/2fc6402c02ab075f1a4e75493aa1a61c.webp",
+        "avatar": "https://cdn.discordapp.com/avatars/1068285752112336896/a00b53a21ec080dfc4bb48b5175825ca.webp",
         "profiles": [
           {
             "profile_id": "1112",
@@ -38154,7 +38653,7 @@
             "party": "grn",
             "state": "South Carolina",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1068285752112336896/2fc6402c02ab075f1a4e75493aa1a61c.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1068285752112336896/a00b53a21ec080dfc4bb48b5175825ca.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -38167,7 +38666,7 @@
             "party": "grn",
             "state": "South Dakota",
             "chamber": "Other",
-            "avatar": "https://cdn.discordapp.com/avatars/1068285752112336896/2fc6402c02ab075f1a4e75493aa1a61c.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1068285752112336896/a00b53a21ec080dfc4bb48b5175825ca.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -38180,7 +38679,7 @@
             "party": "grn",
             "state": "Wisconsin",
             "chamber": "House",
-            "avatar": "https://cdn.discordapp.com/avatars/1068285752112336896/2fc6402c02ab075f1a4e75493aa1a61c.webp",
+            "avatar": "https://cdn.discordapp.com/avatars/1068285752112336896/a00b53a21ec080dfc4bb48b5175825ca.webp",
             "is_main": false,
             "on_site": true,
             "offices": [
@@ -58735,6 +59234,97 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1464",
+      "conservative_scorecard": {
+        "user_id": "p1464",
+        "player_id": "p1464",
+        "name": "Kailey O'garma",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "California",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1464",
+            "name": "Kailey O'garma",
+            "party": "dem",
+            "state": "California",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Kailey O'garma",
+      "profile_ids": [
+        "1464"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1464",
+          "name": "Kailey O'garma",
+          "party": "dem",
+          "state": "California",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1167",
       "conservative_scorecard": {
         "user_id": "p1167",
@@ -60087,6 +60677,97 @@
       ]
     },
     {
+      "player_id": "p1463",
+      "conservative_scorecard": {
+        "user_id": "p1463",
+        "player_id": "p1463",
+        "name": "Kazher Rejorehnov",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "New York",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1463",
+            "name": "Kazher Rejorehnov",
+            "party": "dem",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Kazher Rejorehnov",
+      "profile_ids": [
+        "1463"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1463",
+          "name": "Kazher Rejorehnov",
+          "party": "dem",
+          "state": "New York",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1012",
       "conservative_scorecard": {
         "user_id": "p1012",
@@ -61126,6 +61807,97 @@
           "house_seats": null
         }
       ]
+    },
+    {
+      "player_id": "p1456",
+      "conservative_scorecard": {
+        "user_id": "p1456",
+        "player_id": "p1456",
+        "name": "KEVIN JANG",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "California",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1456",
+            "name": "KEVIN JANG",
+            "party": "dem",
+            "state": "California",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "KEVIN JANG",
+      "profile_ids": [
+        "1456"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1456",
+          "name": "KEVIN JANG",
+          "party": "dem",
+          "state": "California",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
     },
     {
       "player_id": "p1066",
@@ -68877,6 +69649,103 @@
           "party": "dsa",
           "state": "North Dakota",
           "is_main": false,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p1465",
+      "conservative_scorecard": {
+        "user_id": "p1465",
+        "player_id": "p1465",
+        "name": "Thomas Massie",
+        "discord": "mellow2xx",
+        "discord_ids": [
+          "747266222483308604"
+        ],
+        "party": "gop",
+        "state": "Georgia",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "https://cdn.discordapp.com/avatars/747266222483308604/a5da34ef325a8b347899f2d06bca9583.webp",
+        "profiles": [
+          {
+            "profile_id": "1465",
+            "name": "Thomas Massie",
+            "party": "gop",
+            "state": "Georgia",
+            "chamber": "Other",
+            "avatar": "https://cdn.discordapp.com/avatars/747266222483308604/a5da34ef325a8b347899f2d06bca9583.webp",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "mellow2xx",
+      "discord_current": true,
+      "discord_aliases": [
+        "mellow2xx"
+      ],
+      "discord_ids": [
+        "747266222483308604"
+      ],
+      "name": "Thomas Massie",
+      "profile_ids": [
+        "1465"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1465",
+          "name": "Thomas Massie",
+          "party": "gop",
+          "state": "Georgia",
+          "is_main": true,
           "on_site": true
         }
       ],
@@ -77358,6 +78227,97 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1466",
+      "conservative_scorecard": {
+        "user_id": "p1466",
+        "player_id": "p1466",
+        "name": "Risa Parks",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "California",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1466",
+            "name": "Risa Parks",
+            "party": "dem",
+            "state": "California",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Risa Parks",
+      "profile_ids": [
+        "1466"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1466",
+          "name": "Risa Parks",
+          "party": "dem",
+          "state": "California",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1018",
       "conservative_scorecard": {
         "user_id": "p1018",
@@ -85709,13 +86669,15 @@
         "player_id": "p1425",
         "name": "Zack Polanski",
         "discord": "trumpsuck0",
-        "discord_ids": [],
+        "discord_ids": [
+          "1567613916001861764"
+        ],
         "party": "dsa",
         "state": "Idaho",
         "chambers": [
           "Other"
         ],
-        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "avatar": "https://cdn.discordapp.com/avatars/1567613916001861764/b9139b07ecb86c7cfc895dc8c048c103.webp",
         "profiles": [
           {
             "profile_id": "1425",
@@ -85723,7 +86685,7 @@
             "party": "dsa",
             "state": "Idaho",
             "chamber": "Other",
-            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "avatar": "https://cdn.discordapp.com/avatars/1567613916001861764/b9139b07ecb86c7cfc895dc8c048c103.webp",
             "is_main": true,
             "on_site": true,
             "offices": [],
@@ -85736,7 +86698,7 @@
             "party": "dsa",
             "state": "New York",
             "chamber": "Other",
-            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "avatar": "https://cdn.discordapp.com/avatars/1567613916001861764/b9139b07ecb86c7cfc895dc8c048c103.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -85745,11 +86707,11 @@
           },
           {
             "profile_id": "1429",
-            "name": "Otto Wolly",
+            "name": "Keir Mather",
             "party": "dsa",
             "state": "Delaware",
             "chamber": "Other",
-            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "avatar": "https://cdn.discordapp.com/avatars/1567613916001861764/b9139b07ecb86c7cfc895dc8c048c103.webp",
             "is_main": false,
             "on_site": true,
             "offices": [],
@@ -85789,7 +86751,9 @@
       "discord_aliases": [
         "trumpsuck0"
       ],
-      "discord_ids": [],
+      "discord_ids": [
+        "1567613916001861764"
+      ],
       "name": "Zack Polanski",
       "profile_ids": [
         "1425",
@@ -85815,7 +86779,7 @@
         },
         {
           "profile_id": "1429",
-          "name": "Otto Wolly",
+          "name": "Keir Mather",
           "party": "dsa",
           "state": "Delaware",
           "is_main": false,
@@ -93990,6 +94954,97 @@
       "bill_votes": []
     },
     {
+      "player_id": "p1457",
+      "conservative_scorecard": {
+        "user_id": "p1457",
+        "player_id": "p1457",
+        "name": "William Yang",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dsa",
+        "state": "New York",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1457",
+            "name": "William Yang",
+            "party": "dsa",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "William Yang",
+      "profile_ids": [
+        "1457"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1457",
+          "name": "William Yang",
+          "party": "dsa",
+          "state": "New York",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
       "player_id": "p1068",
       "conservative_scorecard": {
         "user_id": "p1068",
@@ -97614,6 +98669,97 @@
           "name": "Brian Smith",
           "party": "gop",
           "state": "Washington",
+          "is_main": true,
+          "on_site": true
+        }
+      ],
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "player_id": "p1458",
+      "conservative_scorecard": {
+        "user_id": "p1458",
+        "player_id": "p1458",
+        "name": "Zohran Kwame Mamdani",
+        "discord": "",
+        "discord_ids": [],
+        "party": "dem",
+        "state": "New York",
+        "chambers": [
+          "Other"
+        ],
+        "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+        "profiles": [
+          {
+            "profile_id": "1458",
+            "name": "Zohran Kwame Mamdani",
+            "party": "dem",
+            "state": "New York",
+            "chamber": "Other",
+            "avatar": "/assets/img/portraits/defaultpfp.webp?v=1791803109",
+            "is_main": true,
+            "on_site": true,
+            "offices": [],
+            "office": "",
+            "office_count": 0
+          }
+        ],
+        "scores": {
+          "social": null,
+          "economic": null,
+          "foreign": null,
+          "overall": null,
+          "tier": "N/A"
+        },
+        "sample_size": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0,
+          "overall": 0
+        },
+        "aligned_votes": {
+          "social": 0,
+          "economic": 0,
+          "foreign": 0
+        },
+        "provisions_scored": 0,
+        "aligned_provisions": 0,
+        "finalized_bills_voted": 0,
+        "bill_details": [],
+        "eligible_for_grade": false,
+        "offices_held": 0,
+        "office_count": 0,
+        "has_office": false
+      },
+      "discord": "",
+      "discord_current": false,
+      "discord_aliases": [],
+      "discord_ids": [],
+      "name": "Zohran Kwame Mamdani",
+      "profile_ids": [
+        "1458"
+      ],
+      "profiles": [
+        {
+          "profile_id": "1458",
+          "name": "Zohran Kwame Mamdani",
+          "party": "dem",
+          "state": "New York",
           "is_main": true,
           "on_site": true
         }
@@ -161013,12 +162159,17 @@
       "player_id": "p1425",
       "name": "Zack Polanski",
       "discord": "trumpsuck0",
-      "discord_id": "",
+      "discord_id": "1567613916001861764",
       "discord_history": [
         {
           "discord": "trumpsuck0",
           "discord_id": "",
           "first_seen": "2026-11-04"
+        },
+        {
+          "discord": "trumpsuck0",
+          "discord_id": "1567613916001861764",
+          "first_seen": "2026-11-07"
         }
       ],
       "party": "dsa",
@@ -161115,12 +162266,17 @@
       "player_id": "p1425",
       "name": "Count Binface",
       "discord": "trumpsuck0",
-      "discord_id": "",
+      "discord_id": "1567613916001861764",
       "discord_history": [
         {
           "discord": "trumpsuck0",
           "discord_id": "",
           "first_seen": "2026-11-04"
+        },
+        {
+          "discord": "trumpsuck0",
+          "discord_id": "1567613916001861764",
+          "first_seen": "2026-11-07"
         }
       ],
       "party": "dsa",
@@ -161147,14 +162303,19 @@
     {
       "profile_id": "1429",
       "player_id": "p1425",
-      "name": "Otto Wolly",
+      "name": "Keir Mather",
       "discord": "trumpsuck0",
-      "discord_id": "",
+      "discord_id": "1567613916001861764",
       "discord_history": [
         {
           "discord": "trumpsuck0",
           "discord_id": "",
           "first_seen": "2026-11-04"
+        },
+        {
+          "discord": "trumpsuck0",
+          "discord_id": "1567613916001861764",
+          "first_seen": "2026-11-07"
         }
       ],
       "party": "dsa",
@@ -161192,7 +162353,7 @@
         }
       ],
       "party": "gop",
-      "state": "Ohio",
+      "state": "Nebraska",
       "is_main": false,
       "on_site": true,
       "counts": {
@@ -161249,7 +162410,7 @@
     {
       "profile_id": "1432",
       "player_id": "p1432",
-      "name": "Raymond Reddington",
+      "name": "Charlie Kirk",
       "discord": "benhphillips",
       "discord_id": "516835675405025331",
       "discord_history": [
@@ -161283,7 +162444,7 @@
     {
       "profile_id": "1433",
       "player_id": "p1432",
-      "name": "Ada Wong",
+      "name": "Catalina Lauf",
       "discord": "benhphillips",
       "discord_id": "516835675405025331",
       "discord_history": [
@@ -161954,6 +163115,372 @@
       "profile_id": "1455",
       "player_id": "p1455",
       "name": "Lincoln Roosevelt",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "New York",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1456",
+      "player_id": "p1456",
+      "name": "KEVIN JANG",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "California",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1457",
+      "player_id": "p1457",
+      "name": "William Yang",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dsa",
+      "state": "New York",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1458",
+      "player_id": "p1458",
+      "name": "Zohran Kwame Mamdani",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "New York",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1459",
+      "player_id": "p1459",
+      "name": "Claire Underwood",
+      "discord": "atlaskiss",
+      "discord_id": "694078664790245387",
+      "discord_history": [
+        {
+          "discord": "atlaskiss",
+          "discord_id": "694078664790245387",
+          "first_seen": "2026-11-07"
+        }
+      ],
+      "party": "dem",
+      "state": "Texas",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1460",
+      "player_id": "p1460",
+      "name": "Bertrand",
+      "discord": "bertrandgamer",
+      "discord_id": "1568541981292896303",
+      "discord_history": [
+        {
+          "discord": "bertrandgamer",
+          "discord_id": "1568541981292896303",
+          "first_seen": "2026-11-07"
+        }
+      ],
+      "party": "dsa",
+      "state": "Vermont",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1461",
+      "player_id": "p1460",
+      "name": "Phillips Royal",
+      "discord": "bertrandgamer",
+      "discord_id": "1568541981292896303",
+      "discord_history": [
+        {
+          "discord": "bertrandgamer",
+          "discord_id": "1568541981292896303",
+          "first_seen": "2026-11-07"
+        }
+      ],
+      "party": "dsa",
+      "state": "California",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1462",
+      "player_id": "p1460",
+      "name": "Ashley Quinn",
+      "discord": "bertrandgamer",
+      "discord_id": "1568541981292896303",
+      "discord_history": [
+        {
+          "discord": "bertrandgamer",
+          "discord_id": "1568541981292896303",
+          "first_seen": "2026-11-07"
+        }
+      ],
+      "party": "dsa",
+      "state": "Rhode Island",
+      "is_main": false,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1463",
+      "player_id": "p1463",
+      "name": "Kazher Rejorehnov",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "New York",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1464",
+      "player_id": "p1464",
+      "name": "Kailey O'garma",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "California",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1465",
+      "player_id": "p1465",
+      "name": "Thomas Massie",
+      "discord": "mellow2xx",
+      "discord_id": "747266222483308604",
+      "discord_history": [
+        {
+          "discord": "mellow2xx",
+          "discord_id": "747266222483308604",
+          "first_seen": "2026-11-07"
+        }
+      ],
+      "party": "gop",
+      "state": "Georgia",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1466",
+      "player_id": "p1466",
+      "name": "Risa Parks",
+      "discord": "",
+      "discord_id": "",
+      "discord_history": [],
+      "party": "dem",
+      "state": "California",
+      "is_main": true,
+      "on_site": true,
+      "counts": {
+        "bills": 0,
+        "sponsored": 0,
+        "cosponsored": 0,
+        "senate": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        },
+        "house": {
+          "aye": 0,
+          "nay": 0,
+          "present": 0
+        }
+      },
+      "bill_votes": []
+    },
+    {
+      "profile_id": "1467",
+      "player_id": "p1467",
+      "name": "Alexander Hamilton",
       "discord": "",
       "discord_id": "",
       "discord_history": [],
